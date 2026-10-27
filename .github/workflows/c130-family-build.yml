@@ -6,6 +6,7 @@ on:
     paths:
       - 'tools/build_c130_family.py'
       - 'tools/validate_c130_family.py'
+      - 'tools/render_c130_family.py'
       - '.github/workflows/c130-family-build.yml'
   workflow_dispatch:
 
@@ -22,6 +23,10 @@ jobs:
         run: python3 tools/build_c130_family.py
       - name: Validate shared airframe and variant kits
         run: python3 tools/validate_c130_family.py
+      - name: Install software preview renderer
+        run: python3 -m pip install --disable-pip-version-check pillow
+      - name: Render side front top and hero review previews
+        run: python3 tools/render_c130_family.py
       - name: Commit immutable candidate files to this review branch
         run: |
           git config user.name "cg11 C130 Builder"
