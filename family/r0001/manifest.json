@@ -1,0 +1,61 @@
+{
+  "revision": "r0001",
+  "owner_lane": "cg11",
+  "source": "c130-hercules.glb",
+  "source_sha256": "99a0dd53fa5e2359a191ac4a01699c189899a4777818c0a74a41c5272a410f2e",
+  "shared_airframe_id": "C130_COMMON_r0001",
+  "source_node_count": 24,
+  "source_mesh_count": 24,
+  "scale": [
+    0.01081990660393709,
+    0.010583468501409283,
+    0.01097780638023802
+  ],
+  "shift": [
+    0.0,
+    -0.2769714873755812,
+    0.0
+  ],
+  "original_files_untouched": true,
+  "status": "DRAFT_NOT_PHOTO_ACCEPTED",
+  "receiver_delivery_separation": "SOCKETS_ONLY_NO_UNVERIFIED_RECEIVER",
+  "variant_files": {
+    "c130-hercules-unified-r0001.glb": {
+      "bytes": 9823080,
+      "sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+      "source_sha256": "99a0dd53fa5e2359a191ac4a01699c189899a4777818c0a74a41c5272a410f2e",
+      "shared_airframe_id": "C130_COMMON_r0001",
+      "original_mesh_count": 24,
+      "new_mesh_count": 0,
+      "variant": "C-130 legacy Hercules",
+      "status": "DRAFT_UNVALIDATED"
+    },
+    "ac130-hercules-unified-r0001.glb": {
+      "bytes": 9826580,
+      "sha256": "101c7032fa67481bcefe4e32423f11fb2bb676eb0605fbf529df9694ebee7723",
+      "source_sha256": "99a0dd53fa5e2359a191ac4a01699c189899a4777818c0a74a41c5272a410f2e",
+      "shared_airframe_id": "C130_COMMON_r0001",
+      "original_mesh_count": 24,
+      "new_mesh_count": 2,
+      "variant": "AC-130 legacy gunship",
+      "status": "DRAFT_UNVALIDATED"
+    },
+    "ac130j-ghostrider-unified-r0001.glb": {
+      "bytes": 9862284,
+      "sha256": "38f596b9f6ffcfa7d77bf77da97bc3c17c321664e62b27875861c2cecb33af6b",
+      "source_sha256": "99a0dd53fa5e2359a191ac4a01699c189899a4777818c0a74a41c5272a410f2e",
+      "shared_airframe_id": "C130_COMMON_r0001",
+      "original_mesh_count": 24,
+      "new_mesh_count": 11,
+      "variant": "AC-130J Ghostrider candidate",
+      "status": "DRAFT_UNVALIDATED"
+    }
+  },
+  "not_run": [
+    "Blender",
+    "Unreal",
+    "native rig sweep",
+    "photographic overlay"
+  ],
+  "provenance_warning": "Original Sketchfab-downloader licensing must be checked."
+}
