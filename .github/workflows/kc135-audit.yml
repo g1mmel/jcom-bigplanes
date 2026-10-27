@@ -1,0 +1,16 @@
+name: Audit KC135 original
+on:
+  push:
+    branches: [cg11/combat-talon-kc135-r0002]
+    paths: ['tools/audit_kc135.py', '.github/workflows/kc135-audit.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect independent KC135 GLB
+        run: python3 tools/audit_kc135.py
