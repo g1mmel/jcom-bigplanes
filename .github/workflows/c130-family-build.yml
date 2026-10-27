@@ -1,0 +1,30 @@
+name: Build unified C130 family candidates
+on:
+  push:
+    branches:
+      - cg11/c130-shared-airframe-20261027
+    paths:
+      - 'tools/build_c130_family.py'
+      - 'tools/validate_c130_family.py'
+      - '.github/workflows/c130-family-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate candidate GLBs from preserved original
+        run: python3 tools/build_c130_family.py
+      - name: Validate shared airframe and variant kits
+        run: python3 tools/validate_c130_family.py
+      - name: Retain candidate files and manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: c130-shared-airframe-r0001-DRAFT
+          path: family/r0001/
+          if-no-files-found: error
