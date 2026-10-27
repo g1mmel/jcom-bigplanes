@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Read-only GLB structural and shape audit
         run: python3 tools/audit_c130_glb.py
+      - name: Spatial and material inventory
+        run: python3 tools/inventory_c130_nodes.py
       - name: Retain inspectable audit evidence
         if: always()
         uses: actions/upload-artifact@v4
