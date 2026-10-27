@@ -1,0 +1,62 @@
+name: cg24 E3 KC135 mesh production
+on:
+  push:
+    branches: [claude-design/cg24-e3-kc135-articulation-r0001]
+    paths:
+      - .github/workflows/cg24-bigplanes.yml
+      - tools/cg24/**
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Stage exact source bytes and editable geometry inventory
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib, json, struct, hashlib, shutil, os
+          out=pathlib.Path('cg24-output'); out.mkdir(exist_ok=True)
+          inventory={}
+          names=['e3-sentry-awacs.glb','kc135-stratotanker.glb']
+          for name in names:
+              p=pathlib.Path(name); data=p.read_bytes()
+              if data[:4]!=b'glTF': raise RuntimeError('Input is not a GLB: '+name)
+              jl,jt=struct.unpack_from('<II',data,12)
+              doc=json.loads(data[20:20+jl])
+              tri=0
+              for m in doc.get('meshes',[]):
+                  for prim in m['primitives']:
+                      if prim.get('mode',4)==4:
+                          ai=prim.get('indices',prim['attributes']['POSITION'])
+                          tri+=doc['accessors'][ai]['count']//3
+              record={'filename':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),
+                      'git_blob_sha1':hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest(),
+                      'source_repository':'g1mmel/jcom-bigplanes','source_commit':os.getenv('GITHUB_SHA'),
+                      'triangles_uninstanced':tri,'meshes':len(doc.get('meshes',[])),
+                      'nodes':len(doc.get('nodes',[])),'animations':len(doc.get('animations',[])),
+                      'status':'UNCHANGED_SOURCE_NOT_A_REVISED_MODEL'}
+              inventory[name]=record
+              shutil.copy2(p,out/name)
+              (out/(p.stem+'.source.gltf.json')).write_text(json.dumps(doc,indent=2))
+              print(json.dumps(record))
+              print('NODES',json.dumps([{'i':i,'name':n.get('name'),'mesh':n.get('mesh'),'children':n.get('children'),'translation':n.get('translation'),'rotation':n.get('rotation'),'scale':n.get('scale')} for i,n in enumerate(doc.get('nodes',[]))]))
+          (out/'SOURCE_INVENTORY.json').write_text(json.dumps(inventory,indent=2))
+          PY
+      - name: Run authored mesh processor when present
+        shell: bash
+        run: |
+          if [ -f tools/cg24/process.py ]; then
+            python3 tools/cg24/process.py --input . --output cg24-output/revision
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cg24-bigplanes-${{ github.run_number }}
+          path: cg24-output/
+          if-no-files-found: error
+          retention-days: 14
