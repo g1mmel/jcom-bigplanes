@@ -34,6 +34,8 @@ jobs:
           git add family/r0001/
           if ! git diff --cached --quiet; then
             git commit -m "cg11: generated common C130 r0001 review GLBs"
+            git fetch origin cg11/c130-shared-airframe-20261027
+            git rebase origin/cg11/c130-shared-airframe-20261027
             git push origin HEAD:cg11/c130-shared-airframe-20261027
           fi
       - name: Retain candidate files and manifest
