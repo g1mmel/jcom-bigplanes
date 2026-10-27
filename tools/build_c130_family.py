@@ -152,3 +152,140 @@ def add_six_blade(doc,buf,prop_id,center,matid):
             p=start+j*2
             faces.extend(((p,p+1,p+3),(p,p+3,p+2)))
     return mesh(doc,buf,"PROP6_BLADES_"+str(prop_id),verts,faces,matid,"six_blade_propeller")
+
+
+def make_variant(doc0,basebin,name,settings):
+    doc=copy.deepcopy(doc0)
+    buf=bytearray(basebin)
+    original_count=len(doc["nodes"])
+    original_mesh_count=len(doc["meshes"])
+    doc["asset"]["generator"]="JCNC cg11 unified-C130-family-r0001"
+    doc["asset"]["copyright"]="Original model attribution/license requires independent review"
+    doc["extensionsUsed"]=doc.get("extensionsUsed",[])
+    legacy=[i for i in LEGACY_PROPS if i<original_count]
+    common=[i for i in range(original_count) if i not in legacy]
+    common_root=node(doc,"AIRFRAME_COMMON_SOURCE",children=common,
+        scale=SCALE,translation=SHIFT,
+        extras={"shared_airframe_id":"C130_COMMON_r0001",
+                "source_file":BASE.name,
+                "source_sha256":EXPECTED,
+                "geometry_rule":"identical original C130 mesh accessors across variants",
+                "photographic_acceptance":"NOT_RUN",
+                "normalization":"ANISOTROPIC_APPROXIMATE_ENVELOPE"})
+    legacy_root=node(doc,"PROP_LEGACY_4BLADE",children=legacy,
+        scale=SCALE,translation=SHIFT,
+        extras={"visible_in_variant":settings["prop"]=="legacy"})
+    mission=[]
+    sockets=[]
+    for socket,pos in SOCKETS.items():
+        sockets.append(node(doc,socket,translation=pos,
+            extras={"kind":"GAME_ALIGNMENT_ONLY","validated":False,
+                    "receiver_delivery_distinction":"SOCKET_ONLY_NOT_FITTED"}))
+    socket_root=node(doc,"SOCKETS_GAME_ONLY",children=sockets)
+    gray=mat(doc,"KIT_GUNMETAL_APPROX",(.22,.25,.27,1.))
+    black=mat(doc,"KIT_PROP_BLACK_APPROX",(.055,.065,.07,1.))
+    optics=mat(doc,"KIT_SENSOR_DARK_APPROX",(.06,.12,.17,1.))
+    if settings["prop"]=="j":
+        for i,(x,y,z) in enumerate(PROPS):
+            center=(x*SCALE[0]+SHIFT[0],
+                    y*SCALE[1]+SHIFT[1],
+                    z*SCALE[2]+SHIFT[2])
+            pivot=node(doc,f"PROP_{i+1}_SPIN_PIVOT",
+                translation=center,
+                extras={"channel":"rot","axis":[0,1,0],
+                        "units":"degrees","level":1,
+                        "status":"GAME_ONLY_APPROX_NOT_NATIVE_VALIDATED"})
+            # Blade vertices authored around local pivot.
+            blades=add_six_blade(doc,buf,i+1,(0.,0.,0.),black)
+            hub_v,hub_f=sphere((0.,0.,0.),.23)
+            hub=mesh(doc,buf,f"PROP_{i+1}_HUB",hub_v,hub_f,gray,"spinner_hub")
+            doc["nodes"][pivot]["children"]=[blades,hub]
+            mission.append(pivot)
+    if settings["kit"]=="legacy":
+        # Generic representation of a historical AC-130 port-side gun system.
+        # NOT claimed to match any specific AC-130H/U/J station.
+        mission.append(add_barrel(doc,buf,"AC_LEGACY_PORT_GUN_PROXY",
+                                  (2.05,2.2,2.75),1.55,.12,gray))
+        mission.append(add_barrel(doc,buf,"AC_LEGACY_PORT_LARGE_GUN_PROXY",
+                                  (2.05,4.6,2.55),1.0,.20,gray))
+    if settings["kit"]=="ghostrider":
+        mission.append(add_barrel(doc,buf,"AC130J_PORT_30MM_PROXY",
+                                  (2.05,-1.8,2.85),1.3,.075,gray))
+        mission.append(add_barrel(doc,buf,"AC130J_PORT_105MM_PROXY",
+                                  (2.05,3.1,2.62),1.3,.18,gray))
+        v,f=sphere((.55,-12.1,3.05),.34)
+        mission.append(mesh(doc,buf,"AC130J_EOIR_TURRET_PROXY",
+                            v,f,optics,"sensor_turret"))
+        # UARRSI socket is provided; no unverified physical receptacle,
+        # cavity, cover, hinge or retractable probe is invented.
+    mission_root=node(doc,"MISSION_KIT_"+settings["kit"].upper(),
+        children=mission,extras={"kit":settings["kit"],
+        "status":"ARTIST_APPROXIMATION","photographic_acceptance":"NOT_RUN"})
+    children=[common_root,mission_root,socket_root]
+    if settings["prop"]=="legacy":
+        children.insert(1,legacy_root)
+    root=node(doc,"C130_FAMILY_ROOT",children=children,
+        extras={"revision":"r0001","agent":"cg11","designation":settings["designation"],
+                "source_sha256":EXPECTED,"shared_airframe_id":"C130_COMMON_r0001",
+                "variant":name,"photo_acceptance":"NOT_RUN",
+                "blender_acceptance":"NOT_RUN","unreal_acceptance":"NOT_RUN",
+                "mission_kit_status":"DRAFT_UNVERIFIED",
+                "original_nodes":original_count,"original_meshes":original_mesh_count})
+    doc["scenes"]=[{"name":settings["designation"],"nodes":[root]}]
+    doc["scene"]=0
+    doc["buffers"][0]["byteLength"]=len(buf)
+    return doc,buf
+
+def encode_glb(doc,binbuf):
+    js=json.dumps(doc,ensure_ascii=False,separators=(",",":")).encode("utf-8")
+    js+=b" "*((-len(js))%4)
+    binary=bytes(binbuf)
+    binary+=b"\0"*((-len(binary))%4)
+    total=12+8+len(js)+8+len(binary)
+    return (struct.pack("<4sII",b"glTF",2,total)+
+            struct.pack("<II",len(js),0x4e4f534a)+js+
+            struct.pack("<II",len(binary),0x004e4942)+binary)
+
+def main():
+    raw,doc,binary=load_glb(BASE)
+    digest=hashlib.sha256(raw).hexdigest()
+    if digest!=EXPECTED:raise ValueError("Original source SHA256 mismatch: "+digest)
+    if len(doc.get("nodes",[]))!=24:raise ValueError("Unexpected source node count")
+    if len(doc.get("buffers",[]))!=1:raise ValueError("Expected one source buffer")
+    OUT.mkdir(parents=True,exist_ok=True)
+    outputs={}
+    for name,settings in VARIANTS.items():
+        outdoc,outbin=make_variant(doc,binary,name,settings)
+        output=OUT/(name+"-unified-r0001.glb")
+        data=encode_glb(outdoc,outbin)
+        output.write_bytes(data)
+        # Read back and verify file structure and source-lineage.
+        read,check,_=load_glb(output)
+        if len(read)!=len(data) or check["nodes"][-1]["extras"]["source_sha256"]!=EXPECTED:
+            raise AssertionError("GLB read-back or source lineage failed")
+        outputs[output.name]={"bytes":len(data),
+            "sha256":hashlib.sha256(data).hexdigest(),
+            "source_sha256":EXPECTED,
+            "shared_airframe_id":"C130_COMMON_r0001",
+            "original_mesh_count":len(doc["meshes"]),
+            "new_mesh_count":len(outdoc["meshes"])-len(doc["meshes"]),
+            "variant":settings["designation"],
+            "status":"DRAFT_UNVALIDATED"}
+        print("CREATED",output.name,outputs[output.name])
+    manifest={"revision":"r0001","owner_lane":"cg11",
+        "source":BASE.name,"source_sha256":EXPECTED,
+        "shared_airframe_id":"C130_COMMON_r0001",
+        "source_node_count":len(doc["nodes"]),
+        "source_mesh_count":len(doc["meshes"]),
+        "scale":SCALE,"shift":SHIFT,
+        "original_files_untouched":True,
+        "status":"DRAFT_NOT_PHOTO_ACCEPTED",
+        "receiver_delivery_separation":"SOCKETS_ONLY_NO_UNVERIFIED_RECEIVER",
+        "variant_files":outputs,
+        "not_run":["Blender","Unreal","native rig sweep","photographic overlay"],
+        "provenance_warning":"Original Sketchfab-downloader licensing must be checked."}
+    (OUT/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
+    print("Shared C130 airframe built from one source. Not visually accepted.")
+
+if __name__=="__main__":
+    main()
