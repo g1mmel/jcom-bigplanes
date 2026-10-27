@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -22,6 +22,15 @@ jobs:
         run: python3 tools/build_c130_family.py
       - name: Validate shared airframe and variant kits
         run: python3 tools/validate_c130_family.py
+      - name: Commit immutable candidate files to this review branch
+        run: |
+          git config user.name "cg11 C130 Builder"
+          git config user.email "cg11@users.noreply.github.com"
+          git add family/r0001/
+          if ! git diff --cached --quiet; then
+            git commit -m "cg11: generated common C130 r0001 review GLBs"
+            git push origin HEAD:cg11/c130-shared-airframe-20261027
+          fi
       - name: Retain candidate files and manifest
         uses: actions/upload-artifact@v4
         with:
