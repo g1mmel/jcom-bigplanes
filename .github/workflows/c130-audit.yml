@@ -1,0 +1,26 @@
+name: C130 original airframe audit
+on:
+  push:
+    branches:
+      - cg11/c130-shared-airframe-20261027
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out exact source and original GLBs
+        uses: actions/checkout@v4
+      - name: Read-only GLB structural and shape audit
+        run: python3 tools/audit_c130_glb.py
+      - name: Retain inspectable audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: c130-originals-audit
+          path: audit/c130-originals.json
+          if-no-files-found: warn
