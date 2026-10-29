@@ -11,9 +11,10 @@ const canvas=$('#scene'), panel=$('#canvas-panel');
 const bundleElement=$('#embedded-assets');
 const bundle=bundleElement?JSON.parse(bundleElement.textContent):null;
 if(bundle?.notes){$('#notes-link').addEventListener('click',e=>{e.preventDefault();const target=$('#notes-text');target.replaceChildren();for(const part of bundle.notes.split(/(https?:\/\/[^\s)\]>]+)/g)){if(/^https?:\/\//.test(part)){const a=document.createElement('a');a.href=part;a.textContent=part;a.target='_blank';a.rel='noopener';target.append(a);}else target.append(document.createTextNode(part));}$('#notes-dialog').showModal();});}
+if(bundle){const link=$('.validation a');link.textContent='Embedded model inventory ↗';link.addEventListener('click',e=>{e.preventDefault();$('#notes-text').textContent=JSON.stringify({revision:bundle.revision,models:Object.fromEntries(Object.entries(bundle.models).map(([id,item])=>[id,{sha256:item.sha256,controls:item.articulation.controls.length,acceptance:item.articulation.acceptance}]))},null,2);$('#notes-dialog').showModal();});}
 const catalog={
-  c130:{name:'C-130 HERCULES',label:'C-130 · Legacy transport'},
-  ac130:{name:'AC-130 HERCULES',label:'AC-130 · Legacy gunship'},
+  c130:{name:'C-130H HERCULES',label:'C-130H · Hercules'},
+  ac130:{name:'AC-130W STINGER II',label:'AC-130W · Stinger II (circa 2021)'},
   ac130j:{name:'AC-130J GHOSTRIDER',label:'AC-130J · Ghostrider candidate'}
 };
 let renderer;
@@ -42,7 +43,7 @@ new ResizeObserver(resize).observe(panel);resize();
 function showError(message){$('#load-detail').textContent=message;$('#error-message').textContent=message;$('#error-dialog').showModal();}
 function decode64(s){const b=atob(s),a=new Uint8Array(b.length);for(let i=0;i<b.length;i++)a[i]=b.charCodeAt(i);return a.buffer;}
 async function getInput(id){
-  if(bundle){const item=bundle.models[id];if(!item)throw new Error('Portable model missing: '+id);return {buffer:decode64(item.glb),art:item.articulation};}
+  if(bundle){const item=bundle.models[id];if(!item)throw new Error('Portable model missing: '+id);let buffer=decode64(item.glb);if(item.encoding==='gzip+base64'){if(!globalThis.DecompressionStream)throw new Error('Use a current browser with gzip DecompressionStream, or open the folder viewer through its local server.');buffer=await new Response(new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();}return {buffer,art:item.articulation};}
   const [m,a]=await Promise.all([fetch('../models/'+id+'.glb'),fetch('../articulation/'+id+'.json')]);
   if(!m.ok)throw new Error('GLB request failed: '+m.status);if(!a.ok)throw new Error('Articulation request failed: '+a.status);
   return {buffer:await m.arrayBuffer(),art:await a.json()};
@@ -57,6 +58,7 @@ async function loadAsset(id){
   for(const b of $$('.transport button'))b.disabled=true;
   try{
     const input=await getInput(id);const loader=new GLTFLoader();
+    if(input.art.sha256&&globalThis.crypto?.subtle){$('#load-detail').textContent='Verifying model checksum';const digest=await crypto.subtle.digest('SHA-256',input.buffer);const actual=Array.from(new Uint8Array(digest),x=>x.toString(16).padStart(2,'0')).join('');if(actual!==input.art.sha256)throw new Error('Model checksum does not match its articulation revision.');}
     const gltf=await new Promise((resolve,reject)=>loader.parse(input.buffer,'',resolve,reject));
     if(token!==loadToken)return;
     disposeModel(); loaded=gltf;articulation=input.art;activeId=id;
@@ -74,7 +76,8 @@ async function loadAsset(id){
       topology.name='QA_TOPOLOGY_'+n.name;topology.visible=false;topology.renderOrder=1;n.add(topology);n.userData.qaTopology=topology;
     }
     modelBounds=new THREE.Box3().setFromObject(gltf.scene);ground.position.y=modelBounds.min.y-.035;grid.position.y=modelBounds.min.y-.04;
-    $('#model-designation').textContent=articulation.designation||catalog[id].name;
+    $('#model-designation').textContent=articulation.designation||(articulation.label?articulation.label.split(' — ')[0].replace(/ candidate$/,''):catalog[id].name);
+    const option=$('#asset').querySelector('option[value="'+id+'"]');if(option&&articulation.label)option.textContent=articulation.label;
     $('#mesh-count').textContent=meshCount+' MESH PARTS / ARTICULATED';
     $('#triangle-count').textContent=Math.round(triangles).toLocaleString()+' TRIANGLES';
     $('#control-count').textContent=articulation.controls.length;

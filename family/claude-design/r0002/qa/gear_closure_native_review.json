@@ -1,0 +1,123 @@
+{
+  "generated_utc": "2026-10-29T03:26:19.211894+00:00",
+  "status": "PASS_SCOPED",
+  "scope": "Exact-byte native draft gear-closure review in explicitly listed flying-belly and service-cargo images; no production, watertight, photographic or full continuous-clearance claim.",
+  "all_native_preview_integrity": {
+    "files": 39,
+    "status": "PASS_SHA256_MATCHES_NATIVE_REPORTS",
+    "repaired_preview_provenance": "qa/preview-repair-receipt.json"
+  },
+  "models": [
+    {
+      "id": "c130",
+      "model_sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+      "status": "PASS_SCOPED",
+      "native_report": "qa/c130-blender.json",
+      "native_report_sha256": "316977390185088ece860881efb787852b7cee516454414811d3f11397ec8330",
+      "images": [
+        {
+          "path": "previews/c130-service-cargo.png",
+          "sha256": "61371aa0c237f27b59900d002338cbe97f7b54029a9233c4b0d052e273ee7d47",
+          "pose": "SERVICE",
+          "camera": "cargo"
+        },
+        {
+          "path": "previews/c130-flying-belly.png",
+          "sha256": "503c5f03720518b8eb5068c58656e93bd370c97c90f5b9d7593a8193ff84e253",
+          "pose": "FLYING",
+          "camera": "belly"
+        }
+      ],
+      "reviewed_by": [
+        "Root integration agent: explicit final-hash native visual review",
+        "Independent reference/QA agent: actual flying-belly and service-cargo images inspected"
+      ],
+      "observations": [
+        "Retracted wheels and covered nose opening read closed in the inspected flying-belly view.",
+        "Original main-sponson outer skin and closure panels are continuous in the inspected view; the earlier large dark outboard well rectangles are absent.",
+        "Service-cargo view shows the bounded preserved cabin and lowered ramp; attachment/perimeter seams remain visible.",
+        "Small inner/perimeter seams are accepted for this draft presentation only."
+      ],
+      "remaining_limitations": [
+        "Not a watertight or photographic acceptance.",
+        "No full swept-volume or continuous collision-clearance certification.",
+        "Declared cargo hinge contacts and one numerical nose seam remain recorded.",
+        "Native Unreal testing has not run."
+      ]
+    },
+    {
+      "id": "ac130",
+      "model_sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+      "status": "PASS_SCOPED",
+      "native_report": "qa/ac130-blender.json",
+      "native_report_sha256": "cb081ad3beba6855507fff1aafe52f3e3a0dcfa0a272d8869a07294c4f5c6e59",
+      "images": [
+        {
+          "path": "previews/ac130-service-cargo.png",
+          "sha256": "b4e7c1d788ca99cb9e8aec63924bee9c95b50383baa14989b5e316d64e0b412b",
+          "pose": "SERVICE",
+          "camera": "cargo"
+        },
+        {
+          "path": "previews/ac130-flying-belly.png",
+          "sha256": "2d4c3e13cc6f7f5e096e77ea7e95bc9c0572134e4b8c8e7dae9bc0383b8904da",
+          "pose": "FLYING",
+          "camera": "belly"
+        }
+      ],
+      "reviewed_by": [
+        "Root integration agent: explicit final-hash native visual review",
+        "Independent reference/QA agent: actual flying-belly and service-cargo images inspected"
+      ],
+      "observations": [
+        "Retracted wheels and covered nose opening read closed in the inspected flying-belly view.",
+        "Original main-sponson outer skin and closure panels are continuous in the inspected view; the earlier large dark outboard well rectangles are absent.",
+        "Service-cargo view shows the bounded preserved cabin and lowered ramp; attachment/perimeter seams remain visible.",
+        "Small inner/perimeter seams are accepted for this draft presentation only."
+      ],
+      "remaining_limitations": [
+        "Not a watertight or photographic acceptance.",
+        "No full swept-volume or continuous collision-clearance certification.",
+        "Declared cargo hinge contacts and one numerical nose seam remain recorded.",
+        "Native Unreal testing has not run."
+      ]
+    },
+    {
+      "id": "ac130j",
+      "model_sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62",
+      "status": "PASS_SCOPED",
+      "native_report": "qa/ac130j-blender.json",
+      "native_report_sha256": "95b03ec870d9277a5ec31a0bbb2e78270457add0845e33823ecfbc1c85c8e9dd",
+      "images": [
+        {
+          "path": "previews/ac130j-service-cargo.png",
+          "sha256": "7344887e03f2e653609a21bcf5e6f4f3dd031453d08e5e9bd0b3c3d0e97c99c2",
+          "pose": "SERVICE",
+          "camera": "cargo"
+        },
+        {
+          "path": "previews/ac130j-flying-belly.png",
+          "sha256": "8b00bf6ad9893eb21151c034d7541bf69dc56bf0b443eb021d3f52dca631fa79",
+          "pose": "FLYING",
+          "camera": "belly"
+        }
+      ],
+      "reviewed_by": [
+        "Root integration agent: explicit final-hash native visual review",
+        "Independent reference/QA agent: actual flying-belly and service-cargo images inspected"
+      ],
+      "observations": [
+        "Retracted wheels and covered nose opening read closed in the inspected flying-belly view.",
+        "Original main-sponson outer skin and closure panels are continuous in the inspected view; the earlier large dark outboard well rectangles are absent.",
+        "Service-cargo view shows the bounded preserved cabin and lowered ramp; attachment/perimeter seams remain visible.",
+        "Small inner/perimeter seams are accepted for this draft presentation only."
+      ],
+      "remaining_limitations": [
+        "Not a watertight or photographic acceptance.",
+        "No full swept-volume or continuous collision-clearance certification.",
+        "Declared cargo hinge contacts and one numerical nose seam remain recorded.",
+        "Native Unreal testing has not run."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1982 @@
+{
+  "input": {
+    "file": "models/c130.glb",
+    "bytes": 17239512,
+    "sha256": "50050a58fa97c60fb3ca95808ccc580106dbdc703357b5b7b9113a8a73deb0b5"
+  },
+  "validator_report": {
+    "uri": "models/c130.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-10-29T02:25:11.192Z",
+    "issues": {
+      "numErrors": 314,
+      "numWarnings": 0,
+      "numInfos": 5,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/3/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/4/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/5/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/6/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/7/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/8/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/9/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/10/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/11/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/12/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/13/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/14/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/15/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/16/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/18/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/19/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/20/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/22/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/23/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/24/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/26/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/27/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/29/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/30/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/31/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/33/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/34/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/35/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/37/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/38/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/40/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/41/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/43/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/45/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/47/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/49/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/52/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/53/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/54/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/56/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/57/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/58/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/59/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/60/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/62/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/63/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/65/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/66/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/69/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/70/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/72/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/73/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/75/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/78/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/79/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/81/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/82/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/84/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/86/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/88/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/90/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/91/children"
+        },
+        {
+          "code": "EMPTY_ENTITY",
+          "message": "Entity cannot be empty.",
+          "severity": 0,
+          "pointer": "/nodes/92/children"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/7/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/materials/5"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/materials/7"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/materials/8"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 5944..5947 has invalid w component: 0.3013559579849243. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 5960..5963 has invalid w component: 0.3013559579849243. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 31504..31507 has invalid w component: -0.08914365619421005. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 31508..31511 has invalid w component: 0.21623796224594116. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 31516..31519 has invalid w component: 0.21623796224594116. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 31544..31547 has invalid w component: -0.08914365619421005. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 41888..41891 has invalid w component: -0.08914365619421005. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 41892..41895 has invalid w component: 0.07499877363443375. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 41896..41899 has invalid w component: 0.21623796224594116. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 41900..41903 has invalid w component: 0.21623796224594116. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 41904..41907 has invalid w component: 0.07499877363443375. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 41940..41943 has invalid w component: 0.07499877363443375. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 41944..41947 has invalid w component: -0.08914365619421005. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53196..53199 has invalid w component: 0.07499877363443375. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53200..53203 has invalid w component: 0.23914121091365814. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53204..53207 has invalid w component: 0.4954538643360138. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53208..53211 has invalid w component: 0.07499877363443375. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53212..53215 has invalid w component: 0.4954538643360138. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53272..53275 has invalid w component: -0.6450979113578796. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53280..53283 has invalid w component: -0.6450979113578796. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53284..53287 has invalid w component: -0.3472217619419098. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53292..53295 has invalid w component: -0.3472217619419098. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53296..53299 has invalid w component: 0.23914121091365814. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 53300..53303 has invalid w component: 0.07499877363443375. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 65360..65363 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 65368..65371 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 65372..65375 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 65384..65387 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 65388..65391 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 65944..65947 has invalid w component: 0.9765778183937073. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 65952..65955 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68876..68879 has invalid w component: 0.4361121356487274. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68880..68883 has invalid w component: 0.830053985118866. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68944..68947 has invalid w component: 0.397234708070755. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68952..68955 has invalid w component: 0.397234708070755. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68956..68959 has invalid w component: 0.6325496435165405. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68960..68963 has invalid w component: -0.21921539306640625. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68964..68967 has invalid w component: -0.21921539306640625. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68968..68971 has invalid w component: 0.6325496435165405. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68972..68975 has invalid w component: 0.830053985118866. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 68976..68979 has invalid w component: 0.4361121356487274. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 78884..78887 has invalid w component: -0.4126341938972473. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 78900..78903 has invalid w component: -0.4126341938972473. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 82056..82059 has invalid w component: -0.4126341938972473. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 82060..82063 has invalid w component: -0.27457165718078613. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 82080..82083 has invalid w component: -0.8045318126678467. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 82088..82091 has invalid w component: -0.8045318126678467. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 82092..82095 has invalid w component: -0.27457165718078613. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 82096..82099 has invalid w component: -0.4126341938972473. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 86952..86955 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 86956..86959 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 86964..86967 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 86968..86971 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 86976..86979 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 87532..87535 has invalid w component: 0.9765778183937073. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 87536..87539 has invalid w component: 0.9843851923942566. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 90176..90179 has invalid w component: 0.830053985118866. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 90240..90243 has invalid w component: 0.397234708070755. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 90244..90247 has invalid w component: 0.397234708070755. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 90252..90255 has invalid w component: 0.6325496435165405. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 90256..90259 has invalid w component: 0.6325496435165405. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 90264..90267 has invalid w component: 0.830053985118866. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94392..94395 has invalid w component: -0.27457165718078613. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94396..94399 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94400..94403 has invalid w component: 0.020755916833877563. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94404..94407 has invalid w component: -0.27457165718078613. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94408..94411 has invalid w component: 0.020755916833877563. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94428..94431 has invalid w component: -0.5883811712265015. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94436..94439 has invalid w component: -0.5883811712265015. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94440..94443 has invalid w component: -0.5833190083503723. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94448..94451 has invalid w component: -0.5833190083503723. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94452..94455 has invalid w component: -0.43314218521118164. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94456..94459 has invalid w component: -0.8045318126678467. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94460..94463 has invalid w component: -0.8045318126678467. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94464..94467 has invalid w component: -0.43314218521118164. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94468..94471 has invalid w component: -0.4194173216819763. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94472..94475 has invalid w component: -0.8045318126678467. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94476..94479 has invalid w component: -0.4194173216819763. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94480..94483 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 94484..94487 has invalid w component: -0.27457165718078613. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99520..99523 has invalid w component: 0.23914121091365814. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99524..99527 has invalid w component: 0.4361121356487274. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99532..99535 has invalid w component: 0.4954538643360138. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99536..99539 has invalid w component: 0.4954538643360138. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99600..99603 has invalid w component: -0.21921539306640625. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99604..99607 has invalid w component: -0.6450979113578796. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99608..99611 has invalid w component: -0.6450979113578796. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99612..99615 has invalid w component: -0.21921539306640625. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99616..99619 has invalid w component: 0.4361121356487274. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99620..99623 has invalid w component: -0.3472217619419098. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99624..99627 has invalid w component: -0.3472217619419098. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99628..99631 has invalid w component: 0.4361121356487274. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 99632..99635 has invalid w component: 0.23914121091365814. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105800..105803 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105804..105807 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105808..105811 has invalid w component: 0.08415219932794571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105812..105815 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105816..105819 has invalid w component: 0.08415219932794571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105820..105823 has invalid w component: 0.11401725560426712. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105824..105827 has invalid w component: 0.020755916833877563. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105828..105831 has invalid w component: 0.020755916833877563. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105832..105835 has invalid w component: 0.11401725560426712. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105852..105855 has invalid w component: -0.8308133482933044. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105860..105863 has invalid w component: -0.8308133482933044. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105864..105867 has invalid w component: -0.458396315574646. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105868..105871 has invalid w component: -0.5883811712265015. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105872..105875 has invalid w component: -0.5883811712265015. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105876..105879 has invalid w component: -0.458396315574646. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105880..105883 has invalid w component: -0.4563156068325043. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105884..105887 has invalid w component: -0.5883811712265015. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105888..105891 has invalid w component: -0.4563156068325043. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105892..105895 has invalid w component: -0.4517354965209961. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105896..105899 has invalid w component: -0.5833190083503723. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105900..105903 has invalid w component: -0.5833190083503723. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105904..105907 has invalid w component: -0.4517354965209961. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105908..105911 has invalid w component: -0.3158612549304962. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105912..105915 has invalid w component: -0.43314218521118164. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105916..105919 has invalid w component: -0.43314218521118164. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105920..105923 has invalid w component: -0.3158612549304962. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105924..105927 has invalid w component: -0.310219943523407. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105928..105931 has invalid w component: -0.43314218521118164. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105932..105935 has invalid w component: -0.310219943523407. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105936..105939 has invalid w component: -0.297802209854126. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105940..105943 has invalid w component: -0.4194173216819763. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105944..105947 has invalid w component: -0.4194173216819763. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105948..105951 has invalid w component: -0.297802209854126. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105952..105955 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 105956..105959 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134096..134099 has invalid w component: 0.8293094635009766. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134120..134123 has invalid w component: 0.8293094635009766. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134220..134223 has invalid w component: -0.18666709959506989. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134228..134231 has invalid w component: -0.18666709959506989. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134364..134367 has invalid w component: -0.18666709959506989. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134368..134371 has invalid w component: -0.18666709959506989. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134420..134423 has invalid w component: 0.8293094635009766. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 134436..134439 has invalid w component: 0.8293094635009766. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 135144..135147 has invalid w component: 0.8575412034988403. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 135168..135171 has invalid w component: 0.7764601111412048. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 135172..135175 has invalid w component: 0.7764601111412048. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 135180..135183 has invalid w component: 0.7983075380325317. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 135184..135187 has invalid w component: 0.7983075380325317. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 135192..135195 has invalid w component: 0.8575412034988403. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137184..137187 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137188..137191 has invalid w component: 0.8575412034988403. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137196..137199 has invalid w component: 0.08415219932794571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137200..137203 has invalid w component: 0.08415219932794571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137208..137211 has invalid w component: 0.11401725560426712. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137212..137215 has invalid w component: 0.11401725560426712. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137232..137235 has invalid w component: 0.7764601111412048. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137236..137239 has invalid w component: -0.8308133482933044. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137240..137243 has invalid w component: -0.8308133482933044. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137244..137247 has invalid w component: 0.7764601111412048. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137248..137251 has invalid w component: -0.458396315574646. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137252..137255 has invalid w component: -0.458396315574646. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137256..137259 has invalid w component: 0.7764601111412048. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137260..137263 has invalid w component: 0.7983075380325317. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137264..137267 has invalid w component: -0.4563156068325043. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137268..137271 has invalid w component: -0.4563156068325043. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137272..137275 has invalid w component: 0.7983075380325317. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137276..137279 has invalid w component: -0.4517354965209961. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137280..137283 has invalid w component: -0.4517354965209961. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137284..137287 has invalid w component: 0.7983075380325317. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137288..137291 has invalid w component: -0.3158612549304962. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137292..137295 has invalid w component: -0.3158612549304962. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137296..137299 has invalid w component: 0.7983075380325317. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137300..137303 has invalid w component: 0.8575412034988403. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137304..137307 has invalid w component: -0.310219943523407. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137308..137311 has invalid w component: -0.310219943523407. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137312..137315 has invalid w component: 0.8575412034988403. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137316..137319 has invalid w component: -0.297802209854126. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137320..137323 has invalid w component: -0.297802209854126. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137324..137327 has invalid w component: 0.8575412034988403. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 137328..137331 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 143640..143643 has invalid w component: 0.5620856881141663. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 143664..143667 has invalid w component: -0.13152705132961273. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 143668..143671 has invalid w component: -0.13152705132961273. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 143676..143679 has invalid w component: 0.5620856881141663. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 151688..151691 has invalid w component: -0.22552216053009033. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 151740..151743 has invalid w component: -0.3484809994697571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 151744..151747 has invalid w component: -0.3484809994697571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 151752..151755 has invalid w component: -0.22552216053009033. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 159480..159483 has invalid w component: 0.30143293738365173. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 159488..159491 has invalid w component: 0.30143293738365173. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 175720..175723 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 175724..175727 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 175728..175731 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 175736..175739 has invalid w component: -0.9532846212387085. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 176048..176051 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 176052..176055 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 176064..176067 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 184412..184415 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 184420..184423 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 184428..184431 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 184432..184435 has invalid w component: -0.9532846212387085. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 184816..184819 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 184824..184827 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 184828..184831 has invalid w component: -0.9688563942909241. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 185864..185867 has invalid w component: -0.8176335692405701. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 185892..185895 has invalid w component: -0.8176335692405701. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 189312..189315 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 189316..189319 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 193976..193979 has invalid w component: -0.8176335692405701. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 193980..193983 has invalid w component: -0.22552216053009033. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 194028..194031 has invalid w component: -0.3484809994697571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 194036..194039 has invalid w component: -0.3484809994697571. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 194040..194043 has invalid w component: -0.22552216053009033. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 194044..194047 has invalid w component: -0.8176335692405701. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 199332..199335 has invalid w component: -0.8363303542137146. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 199336..199339 has invalid w component: -0.8363303542137146. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 199344..199347 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 199348..199351 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 199352..199355 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 199356..199359 has invalid w component: -0.01225283369421959. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 212268..212271 has invalid w component: 0.6645705699920654. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 212352..212355 has invalid w component: 0.6645705699920654. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 212548..212551 has invalid w component: -0.15804541110992432. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 212564..212567 has invalid w component: -0.15804541110992432. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 213052..213055 has invalid w component: -0.15804541110992432. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 213060..213063 has invalid w component: -0.15804541110992432. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 213360..213363 has invalid w component: 0.8721151351928711. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 213364..213367 has invalid w component: 0.8721151351928711. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 214952..214955 has invalid w component: -0.8363303542137146. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 214960..214963 has invalid w component: -0.8363303542137146. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 214964..214967 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 214972..214975 has invalid w component: 0.07058469206094742. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 221180..221183 has invalid w component: -0.15039610862731934. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 221188..221191 has invalid w component: -0.15039610862731934. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 221192..221195 has invalid w component: 0.5448951721191406. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 221200..221203 has invalid w component: 0.5448951721191406. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 228568..228571 has invalid w component: 0.2259763777256012. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 228584..228587 has invalid w component: 0.2259763777256012. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 231616..231619 has invalid w component: 0.20878587663173676. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 231620..231623 has invalid w component: 0.20878587663173676. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 238956..238959 has invalid w component: 0.2259763777256012. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 238960..238963 has invalid w component: 0.5620856881141663. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 238980..238983 has invalid w component: -0.13152705132961273. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 238988..238991 has invalid w component: -0.13152705132961273. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 238992..238995 has invalid w component: 0.5620856881141663. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 238996..238999 has invalid w component: 0.2259763777256012. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 243116..243119 has invalid w component: -0.15039610862731934. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 243120..243123 has invalid w component: -0.15039610862731934. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 243128..243131 has invalid w component: 0.20878587663173676. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 243132..243135 has invalid w component: 0.5448951721191406. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 243136..243139 has invalid w component: 0.5448951721191406. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 243140..243143 has invalid w component: 0.20878587663173676. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 287412..287415 has invalid w component: -0.43090948462486267. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/6/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 329208..329211 has invalid w component: -0.43090948462486267. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/6/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 360..363 has invalid w component: 0.30143293738365173. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/17/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 364..367 has invalid w component: 0.30143293738365173. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/17/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 360..363 has invalid w component: 0.3013559579849243. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/25/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_INVALID_SIGN",
+          "message": "Vector3 with sign at accessor indices 368..371 has invalid w component: 0.3013559579849243. Must be 1.0 or -1.0.",
+          "severity": 0,
+          "pointer": "/meshes/25/primitives/0/attributes/TANGENT"
+        }
+      ],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "claude-design JCNC C130 modular r0002",
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 17121064
+        },
+        {
+          "pointer": "/images/0",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 4096,
+            "height": 4096,
+            "format": "rgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/1",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 4096,
+            "height": 4096,
+            "format": "rgb",
+            "bits": 8
+          }
+        }
+      ],
+      "animationCount": 27,
+      "materialCount": 10,
+      "hasMorphTargets": false,
+      "hasSkins": false,
+      "hasTextures": true,
+      "hasDefaultScene": true,
+      "drawCallCount": 62,
+      "totalVertexCount": 176994,
+      "totalTriangleCount": 126696,
+      "maxUVs": 1,
+      "maxInfluences": 0,
+      "maxAttributes": 5
+    }
+  }
+}

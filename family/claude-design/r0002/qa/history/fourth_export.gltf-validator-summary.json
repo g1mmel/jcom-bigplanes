@@ -1,0 +1,65 @@
+{
+  "generated_utc": "2026-10-29T02:44:18.053Z",
+  "tool": "KhronosGroup/glTF-Validator",
+  "upstream": "https://github.com/KhronosGroup/glTF-Validator",
+  "npm_package": "gltf-validator",
+  "pinned_version": "2.0.0-dev.3.10",
+  "actual_version": "2.0.0-dev.3.10",
+  "npm_integrity": "sha512-odJ4k0tRkGXiDGn78yDBg+fBbAIvBnXxh3RwAta0emSxGtyagFE8B4xELB1oYe3S5RD8Ci3uZAsZaascH2LAEQ==",
+  "node_version": "v24.22.1",
+  "scope": "glTF2.0/GLB format, schema, references, binary/accessor/animation data and embedded resources. Does not establish visual accuracy, collision clearance, license or native engine acceptance.",
+  "models": [
+    {
+      "id": "c130",
+      "file": "models/c130.glb",
+      "bytes": 20762448,
+      "sha256": "3c3b4125378eac7496bf7f7aa0f554687d7db731aaa63069fdca7ba4f2c42069",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 50,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_MESH_TANGENT": 24,
+        "UNUSED_OBJECT": 26
+      },
+      "report": "qa/c130.gltf-validator.json"
+    },
+    {
+      "id": "ac130",
+      "file": "models/ac130.glb",
+      "bytes": 21963752,
+      "sha256": "5e461e3a3d9f4f4dfdb59adfa499e14b1244b2c3651da8e51a8fc1a9072f27f0",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 49,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_MESH_TANGENT": 24,
+        "UNUSED_OBJECT": 25
+      },
+      "report": "qa/ac130.gltf-validator.json"
+    },
+    {
+      "id": "ac130j",
+      "file": "models/ac130j.glb",
+      "bytes": 21760532,
+      "sha256": "945fb86b08dcc99d8f63ebc6080118ca68c116e7749ff589f4d9a99516b65d45",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 24,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_MESH_TANGENT": 12,
+        "UNUSED_OBJECT": 12
+      },
+      "report": "qa/ac130j.gltf-validator.json"
+    }
+  ],
+  "status": "PASS"
+}

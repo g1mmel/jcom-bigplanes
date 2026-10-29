@@ -1,0 +1,3 @@
+# Exact authoring environment used for r0002; Python 3.12.
+numpy==2.3.5
+scipy==1.17.0

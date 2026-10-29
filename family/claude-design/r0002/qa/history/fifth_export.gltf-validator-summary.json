@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-10-29T02:54:11.515Z",
+  "tool": "KhronosGroup/glTF-Validator",
+  "upstream": "https://github.com/KhronosGroup/glTF-Validator",
+  "npm_package": "gltf-validator",
+  "pinned_version": "2.0.0-dev.3.10",
+  "actual_version": "2.0.0-dev.3.10",
+  "npm_integrity": "sha512-odJ4k0tRkGXiDGn78yDBg+fBbAIvBnXxh3RwAta0emSxGtyagFE8B4xELB1oYe3S5RD8Ci3uZAsZaascH2LAEQ==",
+  "node_version": "v24.22.1",
+  "scope": "glTF2.0/GLB format, schema, references, binary/accessor/animation data and embedded resources. Does not establish visual accuracy, collision clearance, license or native engine acceptance.",
+  "models": [
+    {
+      "id": "c130",
+      "file": "models/c130.glb",
+      "bytes": 20564368,
+      "sha256": "5243faf18eecc6cbc5ad409f24ef2bc80e16be13bbd74ce2d4b6578e845d9a41",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 50,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_MESH_TANGENT": 24,
+        "UNUSED_OBJECT": 26
+      },
+      "report": "qa/c130.gltf-validator.json"
+    }
+  ],
+  "status": "PASS"
+}

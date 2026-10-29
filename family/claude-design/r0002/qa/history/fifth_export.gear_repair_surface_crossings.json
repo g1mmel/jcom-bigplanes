@@ -1,0 +1,3599 @@
+{
+  "generated_utc": "2026-10-29T02:54:11.576096+00:00",
+  "method": "BVH broadphase and strict non-coplanar edge/triangle intersections on actual transformed exported triangles",
+  "sample_times": [
+    0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1
+  ],
+  "intentional_contact_policy": "All crossings retained. A50mm radius around each relevant declared hinge axis is separately counted as an authored possible-contact region, not automatically proven intentional. Translation gear has no excluded hinge region.",
+  "numeric_contact_policy": "A20micrometre minimum triangle-plane straddle tolerance identifies contacts below candidate export precision. Raw crossings and examples remain recorded; this is not solid-volume penetration depth or general clearance.",
+  "limitations": [
+    "Not a continuous swept-volume or penetration-depth solver.",
+    "Coplanar overlap, vertex/edge-only contact and complete containment are not detected.",
+    "No-hit samples do not certify clearance between samples.",
+    "Preserved internal surfaces may overlap intentionally; any crossing requires native visual/geometry review.",
+    "Only named cargo/gear pairs tested; kit and all other surface pairs excluded."
+  ],
+  "control_filter": [
+    "gear_nose",
+    "gear_left",
+    "gear_right"
+  ],
+  "production_clearance": "NOT_ACCEPTED",
+  "models": [
+    {
+      "id": "c130",
+      "file": "models/c130.glb",
+      "sha256": "5243faf18eecc6cbc5ad409f24ef2bc80e16be13bbd74ce2d4b6578e845d9a41",
+      "pairs": [
+        {
+          "pair": "nose_wheels_vs_well",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "GEAR_WELL_NOSE"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_cover",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_cover_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_forward_hatches",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_forward_hatches_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "CROSSINGS_REQUIRE_REVIEW",
+          "sampled_outside_hinge_crossings": 28,
+          "sampled_above_20um_outside_hinge_crossings": 16,
+          "sampled_within_20um_plane_tolerance": 12,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 9,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 9,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 9,
+              "examples": [
+                {
+                  "triangle_a": 85,
+                  "triangle_b": 7434,
+                  "point_m": [
+                    -0.43691359211123915,
+                    1.257596481875394,
+                    -13.695749920490908
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0026016987366870906,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 124,
+                  "triangle_b": 7434,
+                  "point_m": [
+                    -0.4369135921112392,
+                    1.257596481875394,
+                    -13.695749920490908
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0010562649120511485,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 125,
+                  "triangle_b": 7434,
+                  "point_m": [
+                    -0.43689710476247423,
+                    1.257612145073873,
+                    -13.695798611778885
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0010562649120511485,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 227,
+                  "triangle_b": 7436,
+                  "point_m": [
+                    0.4440561014902764,
+                    1.252613751502427,
+                    -13.67940893584533
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.002131010083982347,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 228,
+                  "triangle_b": 7436,
+                  "point_m": [
+                    0.4440561014902764,
+                    1.252613751502427,
+                    -13.67940893584533
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.00334715129010912,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 228,
+                  "triangle_b": 7439,
+                  "point_m": [
+                    0.4447795693152121,
+                    1.2520366032331234,
+                    -13.677435979261286
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0033471865789446004,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 228,
+                  "triangle_b": 7438,
+                  "point_m": [
+                    0.4442652830683058,
+                    1.2524468788778884,
+                    -13.678838465194685
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0033476600387027833,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 269,
+                  "triangle_b": 7436,
+                  "point_m": [
+                    0.43627378548182033,
+                    1.2581701523912998,
+                    -13.699241026362131
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0014863044371073823,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 270,
+                  "triangle_b": 7436,
+                  "point_m": [
+                    0.43629552978977315,
+                    1.2581489757576276,
+                    -13.699173549965204
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.001718068531747752,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 7,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 7,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 7,
+              "examples": [
+                {
+                  "triangle_a": 69,
+                  "triangle_b": 5966,
+                  "point_m": [
+                    -0.44379769725791607,
+                    1.2395026971059457,
+                    -13.651555426962279
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.00149104531122343,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 71,
+                  "triangle_b": 5966,
+                  "point_m": [
+                    -0.44379769725791607,
+                    1.2395026971059457,
+                    -13.651555426962279
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0014099417074170107,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 123,
+                  "triangle_b": 7434,
+                  "point_m": [
+                    -0.44068120676556793,
+                    1.2500837536754152,
+                    -13.676498987909813
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.012164739119232522,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 199,
+                  "triangle_b": 5970,
+                  "point_m": [
+                    0.44493222652903935,
+                    1.2400000095367432,
+                    -13.651585409690716
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0008167029937579098,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 266,
+                  "triangle_b": 7438,
+                  "point_m": [
+                    0.44041401090253607,
+                    1.24953511701374,
+                    -13.676567742662629
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.00294058706108891,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 267,
+                  "triangle_b": 7439,
+                  "point_m": [
+                    0.4405575501339288,
+                    1.2490499003408737,
+                    -13.675385017026306
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0005189153746431565,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 267,
+                  "triangle_b": 7438,
+                  "point_m": [
+                    0.4405270348616091,
+                    1.24915305575913,
+                    -13.675636459785741
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.002940586746327557,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 12,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 12,
+              "within_20um_plane_straddle_tolerance": 12,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 75,
+                  "triangle_b": 5859,
+                  "point_m": [
+                    -0.6200000047683716,
+                    0.9180163001481542,
+                    -12.63012914942132
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 8.148051594378693e-09,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 76,
+                  "triangle_b": 5861,
+                  "point_m": [
+                    -0.6200000047683716,
+                    0.9105252913133342,
+                    -12.60694340842487
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 7.017024785549209e-09,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 78,
+                  "triangle_b": 5868,
+                  "point_m": [
+                    -0.6200000104053054,
+                    1.0287060415463207,
+                    -12.95412306631697
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 2.347062819175991e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 80,
+                  "triangle_b": 5871,
+                  "point_m": [
+                    -0.6200000087494761,
+                    1.0198062365248104,
+                    -12.92906116081202
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 2.3478390546987886e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 82,
+                  "triangle_b": 5873,
+                  "point_m": [
+                    -0.6200000084238082,
+                    0.9646002569094034,
+                    -12.771000291396895
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 4.781765977784893e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 83,
+                  "triangle_b": 7470,
+                  "point_m": [
+                    -0.6200000281852472,
+                    1.2892201937413625,
+                    -13.565903365701827
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 1.2376178472487907e-07,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 85,
+                  "triangle_b": 7490,
+                  "point_m": [
+                    -0.6200000365705997,
+                    1.3317496413982164,
+                    -13.63041033380072
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 1.779935250332729e-07,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 98,
+                  "triangle_b": 5885,
+                  "point_m": [
+                    -0.6200000230088711,
+                    1.1529069625153303,
+                    -13.287120746038402
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 4.0866409582776745e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 106,
+                  "triangle_b": 7480,
+                  "point_m": [
+                    -0.6200000353450352,
+                    1.2401853828151181,
+                    -13.48935520155033
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 6.00014904542958e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 106,
+                  "triangle_b": 5936,
+                  "point_m": [
+                    -0.6200000298510803,
+                    1.2340077457279353,
+                    -13.47683341598771
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 6.00014904542958e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 108,
+                  "triangle_b": 5829,
+                  "point_m": [
+                    -0.6200000182607376,
+                    1.2093369141720085,
+                    -13.426826754581374
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 2.4601815088736632e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 110,
+                  "triangle_b": 5830,
+                  "point_m": [
+                    -0.6200000199447303,
+                    1.203484792427203,
+                    -13.412312242882972
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 3.1717715701455835e-08,
+                  "straddle_within_20um_export_tolerance": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "nose_forward_hatches_vs_aft_cover",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "parts_b": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_well",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "WHEEL_LEFT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "GEAR_WELL_LEFT"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_cover",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "WHEEL_LEFT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_skin",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "WHEEL_LEFT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "CROSSINGS_REQUIRE_REVIEW",
+          "sampled_outside_hinge_crossings": 2472,
+          "sampled_above_20um_outside_hinge_crossings": 2472,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 39,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 39,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 39,
+              "examples": [
+                {
+                  "triangle_a": 783,
+                  "triangle_b": 25495,
+                  "point_m": [
+                    -1.9062426105983834,
+                    1.4844078541195334,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.03638368684686244,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 784,
+                  "triangle_b": 25495,
+                  "point_m": [
+                    -1.9062426105983834,
+                    1.4844078541195334,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.03638368684686244,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1353,
+                  "triangle_b": 25495,
+                  "point_m": [
+                    -1.9240047882145666,
+                    1.542645528034661,
+                    -2.960063534778603
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.053599652789760324,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1387,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.9764895017347777,
+                    1.6784402469306081,
+                    -2.754353548405251
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10657968579146672,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1388,
+                  "triangle_b": 25493,
+                  "point_m": [
+                    -1.9430358726117551,
+                    1.5822595454561528,
+                    -2.899660798374918
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.11487981021008749,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1388,
+                  "triangle_b": 25495,
+                  "point_m": [
+                    -1.9240047882145666,
+                    1.542645528034661,
+                    -2.960063534778603
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.11487978574991345,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1388,
+                  "triangle_b": 25494,
+                  "point_m": [
+                    -1.9310201529762814,
+                    1.5572482770902365,
+                    -2.937797525501424
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.11488101682393455,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1388,
+                  "triangle_b": 25491,
+                  "point_m": [
+                    -1.9430358726117551,
+                    1.5822595454561525,
+                    -2.899660798374918
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10658017645386537,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1388,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.9548750250515963,
+                    1.6162988994891183,
+                    -2.8483111329058297
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10657968579146672,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1394,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.9947939530050813,
+                    1.7282351624135666,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07804082408873593,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1395,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.983656353572401,
+                    1.6979411265877742,
+                    -2.661411037824742
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07804082408873593,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1398,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.9852433452764016,
+                    1.6974024615437002,
+                    -2.3689370597406967
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07533365869515919,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 262,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 262,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 262,
+              "examples": [
+                {
+                  "triangle_a": 606,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.9400800759852905,
+                    1.5619196555779875,
+                    -2.249582298121127
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006668486180565861,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 607,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.94224151191477,
+                    1.5683538766314031,
+                    -2.252509239758446
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.041679324123896695,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 612,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.0287233823798934,
+                    1.8254093450398972,
+                    -2.348020094043067
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.06984939423148481,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 612,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.0408879630783376,
+                    1.8622816899473849,
+                    -2.3989739879234184
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07345474757047123,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 612,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.0408611480165573,
+                    1.8621546424214015,
+                    -2.398793952626628
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.06984941933475036,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 613,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.0408879630783376,
+                    1.8622816899473849,
+                    -2.3989739879234184
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07345474757047123,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 614,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.043072553094679,
+                    1.873683496089144,
+                    -2.4496147947489355
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07345474757047123,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 615,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.045986951146145,
+                    1.8888702101989443,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07498784892160304,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 623,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.0275894518296345,
+                    1.8279831910280961,
+                    -2.6795391849042027
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0783595066584822,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 623,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.039327797844394,
+                    1.8620360100576074,
+                    -2.6330072730657776
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.08231416431935168,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 623,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.039179724681643,
+                    1.8613899515981431,
+                    -2.6339120356314596
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07835951028301648,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 624,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.039327797844394,
+                    1.8620360100576074,
+                    -2.6330072730657776
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07498784892160304,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 470,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 470,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 470,
+              "examples": [
+                {
+                  "triangle_a": 551,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.9822189487410231,
+                    1.6862107097424568,
+                    -2.242317847636667
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10939063202692006,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.0043125886542144,
+                    1.750718128878994,
+                    -2.2016142732108896
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.14604579395618683,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25492,
+                  "point_m": [
+                    -1.9822189487410231,
+                    1.6862107097424568,
+                    -2.242317847636667
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.14604577593564005,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.0043125886542144,
+                    1.750718128878994,
+                    -2.2016142732108896
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.14604579395618683,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 554,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.027045408971005,
+                    1.8170894957729633,
+                    -2.159618225330778
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10385764431113505,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 554,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.0484251398796958,
+                    1.88909728143905,
+                    -2.145239575309289
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10181233720944403,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 554,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.054317704721524,
+                    1.9231072524305763,
+                    -2.138407953434595
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.09931041137256627,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 554,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.042636960110734,
+                    1.8629622601010487,
+                    -2.1504772279269004
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10385764311615246,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 559,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.108974252540586,
+                    2.239152547272499,
+                    -2.256680424281987
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006062446976418554,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.108974252540586,
+                    2.239152547272499,
+                    -2.256680424281987
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006062446976418554,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 25144,
+                  "point_m": [
+                    -2.114323054715224,
+                    2.271756109071401,
+                    -2.3025155909613466
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.011060545424057254,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 561,
+                  "triangle_b": 25144,
+                  "point_m": [
+                    -2.114323054715224,
+                    2.271756109071401,
+                    -2.3025155909613466
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01251499002392153,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 567,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 567,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 567,
+              "examples": [
+                {
+                  "triangle_a": 551,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.022007419904093,
+                    1.8036963258644787,
+                    -2.242590546055412
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844975387547429,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.022007419904093,
+                    1.8036963258644787,
+                    -2.242590546055412
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844975387547429,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.038413630755949,
+                    1.851597834163453,
+                    -2.212365145739778
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844974927182009,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.049272071523733,
+                    1.894118171519053,
+                    -2.1854212346009363
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10509279589718692,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.056254362033718,
+                    1.9343614703115495,
+                    -2.1598851414830817
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10154607643749736,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.038413630755949,
+                    1.851597834163453,
+                    -2.212365145739778
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844974927182009,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 554,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.056254362033718,
+                    1.9343614703115495,
+                    -2.1598851414830817
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07931453880800085,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 559,
+                  "triangle_b": 25142,
+                  "point_m": [
+                    -2.115639513667377,
+                    2.3573417471248,
+                    -2.255729432184453
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01295538376595071,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.116123705959947,
+                    2.394136479319381,
+                    -2.3094525119586726
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.012955378308474316,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 25142,
+                  "point_m": [
+                    -2.115639513667377,
+                    2.3573417471248,
+                    -2.255729432184453
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01295538376595071,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 561,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.116123705959947,
+                    2.394136479319381,
+                    -2.3094525119586726
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014026006904764254,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 562,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.1167200275103673,
+                    2.4394513593211515,
+                    -2.375628558550338
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014444159069303516,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 567,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 567,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 567,
+              "examples": [
+                {
+                  "triangle_a": 551,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.022007419904093,
+                    1.8036963258644787,
+                    -2.242590546055412
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844975387547429,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.022007419904093,
+                    1.8036963258644787,
+                    -2.242590546055412
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844975387547429,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.038413630755949,
+                    1.851597834163453,
+                    -2.212365145739778
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844974927182009,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.049272071523733,
+                    1.894118171519053,
+                    -2.1854212346009363
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10509279589718692,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.056254362033718,
+                    1.9343614703115495,
+                    -2.1598851414830817
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10154607643749736,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.038413630755949,
+                    1.851597834163453,
+                    -2.212365145739778
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844974927182009,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 554,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.056254362033718,
+                    1.9343614703115495,
+                    -2.1598851414830817
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07931453880800085,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 559,
+                  "triangle_b": 25142,
+                  "point_m": [
+                    -2.115639513667377,
+                    2.3573417471248,
+                    -2.255729432184453
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01295538376595071,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.116123705959947,
+                    2.394136479319381,
+                    -2.3094525119586726
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.012955378308474316,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 25142,
+                  "point_m": [
+                    -2.115639513667377,
+                    2.3573417471248,
+                    -2.255729432184453
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01295538376595071,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 561,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.116123705959947,
+                    2.394136479319381,
+                    -2.3094525119586726
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014026006904764254,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 562,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.1167200275103673,
+                    2.4394513593211515,
+                    -2.375628558550338
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014444159069303516,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 567,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 567,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 567,
+              "examples": [
+                {
+                  "triangle_a": 551,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.022007419904093,
+                    1.8036963258644787,
+                    -2.242590546055412
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844975387547429,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25099,
+                  "point_m": [
+                    -2.022007419904093,
+                    1.8036963258644787,
+                    -2.242590546055412
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844975387547429,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 552,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.038413630755949,
+                    1.851597834163453,
+                    -2.212365145739778
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844974927182009,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25085,
+                  "point_m": [
+                    -2.049272071523733,
+                    1.894118171519053,
+                    -2.1854212346009363
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10509279589718692,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.056254362033718,
+                    1.9343614703115495,
+                    -2.1598851414830817
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10154607643749736,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 553,
+                  "triangle_b": 25098,
+                  "point_m": [
+                    -2.038413630755949,
+                    1.851597834163453,
+                    -2.212365145739778
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10844974927182009,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 554,
+                  "triangle_b": 25084,
+                  "point_m": [
+                    -2.056254362033718,
+                    1.9343614703115495,
+                    -2.1598851414830817
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07931453880800085,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 559,
+                  "triangle_b": 25142,
+                  "point_m": [
+                    -2.115639513667377,
+                    2.3573417471248,
+                    -2.255729432184453
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01295538376595071,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.116123705959947,
+                    2.394136479319381,
+                    -2.3094525119586726
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.012955378308474316,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 560,
+                  "triangle_b": 25142,
+                  "point_m": [
+                    -2.115639513667377,
+                    2.3573417471248,
+                    -2.255729432184453
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01295538376595071,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 561,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.116123705959947,
+                    2.394136479319381,
+                    -2.3094525119586726
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014026006904764254,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 562,
+                  "triangle_b": 27305,
+                  "point_m": [
+                    -2.1167200275103673,
+                    2.4394513593211515,
+                    -2.375628558550338
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014444159069303516,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "left_cover_vs_skin",
+          "control": "gear_left",
+          "parts_a": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_well",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "GEAR_WELL_RIGHT"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_cover",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_skin",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "CROSSINGS_REQUIRE_REVIEW",
+          "sampled_outside_hinge_crossings": 2008,
+          "sampled_above_20um_outside_hinge_crossings": 2008,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 31,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 31,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 31,
+              "examples": [
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9069936148341773,
+                    1.4844019233593893,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.03857277030304288,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 5,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9069936148341773,
+                    1.4844019233593893,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.03857277030304288,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1243,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.904002060415846,
+                    1.5024322922703943,
+                    -2.987117719263346
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0500381330647978,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1244,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9040020604158459,
+                    1.5024322922703943,
+                    -2.987117719263346
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0500381330647978,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1245,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.918364789084315,
+                    1.5429274582593329,
+                    -2.960335337543418
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0500381330647978,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1252,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9688629002092592,
+                    1.6789549082629225,
+                    -2.754552017825624
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.08547988286259335,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1253,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9688629002092592,
+                    1.6789549082629225,
+                    -2.754552017825624
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.08547988286259335,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1260,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9904511996072702,
+                    1.7285609610007573,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.06477394993801833,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1261,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9904511996072702,
+                    1.7285609610007573,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.06477394993801833,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1262,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9856843616119544,
+                    1.709466937020604,
+                    -2.4258515431070937
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07678786746097006,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1263,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9779266944268779,
+                    1.6783466422650266,
+                    -2.27776217770922
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10806350360549503,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1268,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9353364311887624,
+                    1.5420732364566476,
+                    -2.07256777439276
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.10806350360549503,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 206,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 206,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 206,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 16294,
+                  "point_m": [
+                    2.037293948134367,
+                    1.852202860891091,
+                    -2.789384648339545
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.09124035908429312,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.0450196697565994,
+                    1.8815241590508507,
+                    -2.746325758222039
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.09600673064676417,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 16294,
+                  "point_m": [
+                    2.037293948134367,
+                    1.852202860891091,
+                    -2.789384648339545
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.09124035908429312,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.0450196697565994,
+                    1.8815241590508507,
+                    -2.746325758222039
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.09600673064676417,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 3,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.0554216244453896,
+                    1.9381063347404601,
+                    -2.663519206799522
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.08045980949339523,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.057334570662614,
+                    1.9473223356372218,
+                    -2.6200927658084563
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.08045980949339523,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 5,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.062001001260069,
+                    1.9698961870879887,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07833955369740728,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 33,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9665857991748372,
+                    1.6743115411142402,
+                    -2.7900306530127876
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01690653919914179,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 34,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.952216245571235,
+                    1.6326166416515604,
+                    -2.7960755368276526
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01690653919914179,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 35,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.939194424952565,
+                    1.5942530011697087,
+                    -2.791370008515837
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.004862574912111142,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 36,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9354491535221132,
+                    1.58321857288598,
+                    -2.7900083949189987
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.02923216632771258,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 37,
+                  "triangle_b": 16296,
+                  "point_m": [
+                    1.9622340514184402,
+                    1.6577927123436116,
+                    -2.723453840620023
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.02923216632771258,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 388,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 388,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 388,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 15342,
+                  "point_m": [
+                    2.113785537502717,
+                    2.253116018867815,
+                    -2.7888610180672218
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.02263414173704241,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 15342,
+                  "point_m": [
+                    2.113785537502717,
+                    2.253116018867815,
+                    -2.7888610180672218
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.02263414173704241,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118436662977684,
+                    2.338966046220256,
+                    -2.6633754150351394
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01969652699828239,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 15342,
+                  "point_m": [
+                    2.1153433058194597,
+                    2.2600089541370347,
+                    -2.7787430656813235
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.02263414173704241,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 3,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118436662977684,
+                    2.338966046220256,
+                    -2.6633754150351394
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018512477564707943,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1184714337056545,
+                    2.341108795838486,
+                    -2.6532978188048224
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018512477564707943,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 5,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118953099172,
+                    2.370948102987929,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018291529360560957,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 30,
+                  "triangle_b": 16294,
+                  "point_m": [
+                    2.035823556859171,
+                    1.8490448651090168,
+                    -2.7983072495563612
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07861283991770476,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 31,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.051744550589197,
+                    1.9233110477053557,
+                    -2.8162026764115833
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07983115559184387,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 31,
+                  "triangle_b": 16294,
+                  "point_m": [
+                    2.035823556859171,
+                    1.8490448651090168,
+                    -2.7983072495563612
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07821213401918804,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 32,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.051744550589197,
+                    1.9233110477053557,
+                    -2.8162026764115833
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.05848811304769663,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 33,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.059716948615975,
+                    1.9698102326799871,
+                    -2.8269950042763794
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.05848811304769663,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 461,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 461,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 461,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118740277356441,
+                    2.370283592021995,
+                    -2.788827099935826
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118740277356441,
+                    2.370283592021995,
+                    -2.788827099935826
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1188201987977666,
+                    2.376075968765492,
+                    -2.780345819961265
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 3,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1199248918160567,
+                    2.4561547140292257,
+                    -2.6633720190989396
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01702419275180958,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1199568671998494,
+                    2.4581252002805716,
+                    -2.654104597161484
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01702419275180958,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 5,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.120441370192439,
+                    2.4881402929555643,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.016803244547662594,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1182381128315857,
+                    2.296957295335939,
+                    -2.2168465054156403
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014611556628993673,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.109923331301462,
+                    2.2323868484523355,
+                    -2.177846532264258
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15342,
+                  "point_m": [
+                    2.1179033133974228,
+                    2.2695722498676094,
+                    -2.199549422037521
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006430746285465213,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 11,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.109923331301462,
+                    2.2323868484523355,
+                    -2.177846532264258
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.1066657235487942,
+                    2.2134395446796864,
+                    -2.1746873816793815
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 30,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.0590216581899137,
+                    1.9647329564945,
+                    -2.8018290633700214
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07781206602765872,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 461,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 461,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 461,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118740277356441,
+                    2.370283592021995,
+                    -2.788827099935826
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118740277356441,
+                    2.370283592021995,
+                    -2.788827099935826
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1188201987977666,
+                    2.376075968765492,
+                    -2.780345819961265
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 3,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1199248918160567,
+                    2.4561547140292257,
+                    -2.6633720190989396
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01702419275180958,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1199568671998494,
+                    2.4581252002805716,
+                    -2.654104597161484
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01702419275180958,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 5,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.120441370192439,
+                    2.4881402929555643,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.016803244547662594,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1182381128315857,
+                    2.296957295335939,
+                    -2.2168465054156403
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014611556628993673,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.109923331301462,
+                    2.2323868484523355,
+                    -2.177846532264258
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15342,
+                  "point_m": [
+                    2.1179033133974228,
+                    2.2695722498676094,
+                    -2.199549422037521
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006430746285465213,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 11,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.109923331301462,
+                    2.2323868484523355,
+                    -2.177846532264258
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.1066657235487942,
+                    2.2134395446796864,
+                    -2.1746873816793815
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 30,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.0590216581899137,
+                    1.9647329564945,
+                    -2.8018290633700214
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07781206602765872,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 461,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 461,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 461,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118740277356441,
+                    2.370283592021995,
+                    -2.788827099935826
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.118740277356441,
+                    2.370283592021995,
+                    -2.788827099935826
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1188201987977666,
+                    2.376075968765492,
+                    -2.780345819961265
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.018208242185384027,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 3,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1199248918160567,
+                    2.4561547140292257,
+                    -2.6633720190989396
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01702419275180958,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1199568671998494,
+                    2.4581252002805716,
+                    -2.654104597161484
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.01702419275180958,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 5,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.120441370192439,
+                    2.4881402929555643,
+                    -2.5163485045158893
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.016803244547662594,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15341,
+                  "point_m": [
+                    2.1182381128315857,
+                    2.296957295335939,
+                    -2.2168465054156403
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.014611556628993673,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.109923331301462,
+                    2.2323868484523355,
+                    -2.177846532264258
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 15342,
+                  "point_m": [
+                    2.1179033133974228,
+                    2.2695722498676094,
+                    -2.199549422037521
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006430746285465213,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 11,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.109923331301462,
+                    2.2323868484523355,
+                    -2.177846532264258
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.1066657235487942,
+                    2.2134395446796864,
+                    -2.1746873816793815
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.006881300199453285,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 30,
+                  "triangle_b": 15343,
+                  "point_m": [
+                    2.0590216581899137,
+                    1.9647329564945,
+                    -2.8018290633700214
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.07781206602765872,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "right_cover_vs_skin",
+          "control": "gear_right",
+          "parts_a": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        }
+      ],
+      "status": "REVIEW_REQUIRED"
+    }
+  ]
+}

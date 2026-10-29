@@ -1,0 +1,1831 @@
+{
+  "generated_utc": "2026-10-29T03:11:03.472190+00:00",
+  "method": "BVH broadphase and strict non-coplanar edge/triangle intersections on actual transformed exported triangles",
+  "sample_times": [
+    0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1
+  ],
+  "extra_sample_times_by_control": {
+    "gear_nose": [
+      0.95
+    ]
+  },
+  "intentional_contact_policy": "All crossings retained. A 50 mm radius around each relevant declared hinge axis is separately counted as an authored possible-contact region, not automatically proven intentional. Translation gear has no excluded hinge region.",
+  "numeric_contact_policy": "A 20 micrometre minimum triangle-plane straddle tolerance identifies contacts below candidate export precision. Raw crossings and examples remain recorded; this is not solid-volume penetration depth or general clearance.",
+  "limitations": [
+    "Not a continuous swept-volume or penetration-depth solver.",
+    "Coplanar overlap, vertex/edge-only contact and complete containment are not detected.",
+    "No-hit samples do not certify clearance between samples.",
+    "Preserved internal surfaces may overlap intentionally; any crossing requires native visual/geometry review.",
+    "Only named cargo/gear pairs tested; kit and all other surface pairs excluded."
+  ],
+  "control_filter": [
+    "gear_nose",
+    "gear_left",
+    "gear_right"
+  ],
+  "production_clearance": "NOT_ACCEPTED",
+  "models": [
+    {
+      "id": "c130",
+      "file": "models/c130.glb",
+      "sha256": "8ef714948bcfa0812faba24174603da0fe48fd01a9c5d26551cdffdfd1d8b298",
+      "pairs": [
+        {
+          "pair": "nose_wheels_vs_well",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "GEAR_WELL_NOSE"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.95,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_cover",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.95,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.95,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_cover_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "CROSSINGS_REQUIRE_REVIEW",
+          "sampled_outside_hinge_crossings": 56,
+          "sampled_above_20um_outside_hinge_crossings": 54,
+          "sampled_within_20um_plane_tolerance": 2,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.95,
+              "strict_crossing_triangle_pairs": 56,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 56,
+              "within_20um_plane_straddle_tolerance": 2,
+              "above_20um_outside_hinge_zone": 54,
+              "examples": [
+                {
+                  "triangle_a": 8,
+                  "triangle_b": 3850,
+                  "point_m": [
+                    -0.7851910705776628,
+                    0.643709874761121,
+                    -10.999491524178199
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.004185206190585511,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 9,
+                  "triangle_b": 3850,
+                  "point_m": [
+                    -0.7851910705776631,
+                    0.6437098747611211,
+                    -10.999491524178195
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 1.127549572870252e-06,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 3850,
+                  "point_m": [
+                    -0.7851977944374084,
+                    0.643711944811242,
+                    -10.999400666477635
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 1.127549572870252e-06,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 3853,
+                  "point_m": [
+                    -0.7892227169717356,
+                    0.6440308743111195,
+                    -10.926695997682678
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0034709741016316926,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 3854,
+                  "point_m": [
+                    -0.7960607373341196,
+                    0.6418855815938659,
+                    -10.803121293443882
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0033201176589835136,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 11,
+                  "triangle_b": 3854,
+                  "point_m": [
+                    -0.7960607373341196,
+                    0.6418855815938659,
+                    -10.803121293443882
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0033201176589835136,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 125327,
+                  "point_m": [
+                    -0.6489001761228512,
+                    0.6211055357853029,
+                    -10.848767549016497
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0005896674277347118,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 23632,
+                  "point_m": [
+                    -0.7331094157035515,
+                    0.6258982410249384,
+                    -10.945880092593892
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 9.677413614079153e-05,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 23631,
+                  "point_m": [
+                    -0.7331094157035513,
+                    0.6258982410249384,
+                    -10.945880092593892
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0005896674277347118,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 48,
+                  "triangle_b": 125328,
+                  "point_m": [
+                    -0.6289185106688857,
+                    0.6208908741993378,
+                    -10.758868091608015
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0032681752605042834,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 48,
+                  "triangle_b": 125327,
+                  "point_m": [
+                    -0.6493035808256516,
+                    0.6223735542002058,
+                    -10.75900708310001
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.003268187298222988,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 48,
+                  "triangle_b": 124520,
+                  "point_m": [
+                    -0.5559280187209703,
+                    0.6155820033598683,
+                    -10.758370421296497
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.003268211700175261,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_forward_hatches",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_WHEELS_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.95,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_forward_hatches_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "CROSSINGS_REQUIRE_REVIEW",
+          "sampled_outside_hinge_crossings": 8,
+          "sampled_above_20um_outside_hinge_crossings": 4,
+          "sampled_within_20um_plane_tolerance": 4,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 4,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 4,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 4,
+              "examples": [
+                {
+                  "triangle_a": 128,
+                  "triangle_b": 125121,
+                  "point_m": [
+                    -0.571103940440201,
+                    0.8055838452761914,
+                    -12.270000457763672
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.0021092381225870514,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 128,
+                  "triangle_b": 125122,
+                  "point_m": [
+                    -0.5711017219613611,
+                    0.8055494441322202,
+                    -12.269894933486578
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.004215827274594573,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 128,
+                  "triangle_b": 125123,
+                  "point_m": [
+                    -0.5710878080629885,
+                    0.8053332607819266,
+                    -12.26923171766485
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.004199960150125863,
+                  "straddle_within_20um_export_tolerance": false
+                },
+                {
+                  "triangle_a": 282,
+                  "triangle_b": 125126,
+                  "point_m": [
+                    0.5716297356923199,
+                    0.8039816628865101,
+                    -12.264842694850959
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 0.010092739272096675,
+                  "straddle_within_20um_export_tolerance": false
+                }
+              ]
+            },
+            {
+              "time": 0.95,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 4,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 4,
+              "within_20um_plane_straddle_tolerance": 4,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 83,
+                  "triangle_b": 133298,
+                  "point_m": [
+                    -0.6200000081720801,
+                    1.295688793650869,
+                    -13.575960520463667
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 9.304170541282686e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 106,
+                  "triangle_b": 126205,
+                  "point_m": [
+                    -0.6200000093504093,
+                    1.2363143440817286,
+                    -13.481508748184558
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 3.7942024878266385e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 106,
+                  "triangle_b": 133309,
+                  "point_m": [
+                    -0.6200000085718456,
+                    1.2401173390317268,
+                    -13.489217249823897
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 3.7942024878266385e-08,
+                  "straddle_within_20um_export_tolerance": true
+                },
+                {
+                  "triangle_a": 337,
+                  "triangle_b": 125127,
+                  "point_m": [
+                    0.6127459478722157,
+                    0.810040738600168,
+                    -12.270000441364058
+                  ],
+                  "within_declared_50mm_hinge_zone": false,
+                  "min_triangle_plane_straddle_m": 1.561823970244829e-08,
+                  "straddle_within_20um_export_tolerance": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "nose_forward_hatches_vs_aft_cover",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "parts_b": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.95,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_well",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "WHEEL_LEFT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "GEAR_WELL_LEFT"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_cover",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "WHEEL_LEFT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_skin",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "WHEEL_LEFT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_cover_vs_skin",
+          "control": "gear_left",
+          "parts_a": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_well",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "GEAR_WELL_RIGHT"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_cover",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_skin",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_cover_vs_skin",
+          "control": "gear_right",
+          "parts_a": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "sampled_above_20um_outside_hinge_crossings": 0,
+          "sampled_within_20um_plane_tolerance": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "within_20um_plane_straddle_tolerance": 0,
+              "above_20um_outside_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        }
+      ],
+      "status": "REVIEW_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,3522 @@
+{
+  "generated_utc": "2026-10-29T03:26:19.476951+00:00",
+  "method": "Actual exported FLYING triangles, projected barycentric ray intersections; covers, fixed fuselage and dark well surfaces recorded separately.",
+  "region_basis": "Surveyed candidate 3c3b4125 aperture and well rectangles in model metres. These are regression regions, not real-aircraft measurements.",
+  "limits": [
+    "A filled projection alone does not establish a flush or watertight closure.",
+    "First-hit classification includes named fuselage, closure and well meshes only; full-scene photographic visibility is not asserted.",
+    "Ray intersections treat triangles as two-sided geometry; renderer-specific back-face culling is not simulated.",
+    "Fractions describe specified finite grids, not exact continuous areas. The cell-centre comparison reduces sensitivity to exact symmetry seams.",
+    "Side rectangles can include space beyond original curved skin; visible well surfaces there can indicate a protruding well box rather than only a hole.",
+    "An aperture redesigned to be smaller may be covered by retained fixed skin; this is recorded separately from moving closure coverage.",
+    "Native oblique belly and side views remain required."
+  ],
+  "models": [
+    {
+      "id": "c130",
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+      "bytes": 13876572,
+      "pose": "FLYING",
+      "regions": [
+        {
+          "region": "main_left_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -2.4,
+            -1.25,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.8097538532321141,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              -1.4609999999999999,
+              -3.225
+            ],
+            [
+              -1.307,
+              -2.989375
+            ],
+            [
+              -1.363,
+              -2.735625
+            ],
+            [
+              -1.419,
+              -2.481875
+            ],
+            [
+              -1.265,
+              -2.2462500000000003
+            ],
+            [
+              -1.321,
+              -1.9925000000000002
+            ],
+            [
+              -1.3769999999999998,
+              -1.7387500000000002
+            ],
+            [
+              -1.4329999999999998,
+              -1.4850000000000003
+            ],
+            [
+              -1.279,
+              -1.2493750000000001
+            ],
+            [
+              -1.335,
+              -0.9956250000000004
+            ],
+            [
+              -1.391,
+              -0.7418750000000003
+            ],
+            [
+              -1.4469999999999998,
+              -0.48812500000000014
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.187956942487915
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188204699903922
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188452449495369
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188700199086815
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188942112805508
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189165013735619
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189434505813892
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189719719097087
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190004917319992
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190290115542897
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190575313765802
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190860516269634
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.8125,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_right_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            1.25,
+            2.4,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.8097538532321141,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              1.265,
+              -3.225
+            ],
+            [
+              1.4189999999999998,
+              -2.989375
+            ],
+            [
+              1.363,
+              -2.735625
+            ],
+            [
+              1.307,
+              -2.481875
+            ],
+            [
+              1.4609999999999999,
+              -2.2462500000000003
+            ],
+            [
+              1.4049999999999998,
+              -1.9925000000000002
+            ],
+            [
+              1.349,
+              -1.7387500000000002
+            ],
+            [
+              1.293,
+              -1.4850000000000003
+            ],
+            [
+              1.4469999999999998,
+              -1.2493750000000001
+            ],
+            [
+              1.391,
+              -0.9956250000000004
+            ],
+            [
+              1.335,
+              -0.7418750000000003
+            ],
+            [
+              1.279,
+              -0.48812500000000014
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.18963348050737
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189953617733301
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190273755872296
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.19059392488198
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1909140938916645
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.191234262901349
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.191506784047565
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1918036884400625
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.192171832646757
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1925399768534515
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.192908121060145
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.193276265266839
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.8125,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "nose_forward_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -0.62,
+            0.62,
+            -13.65,
+            -10.95
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "closure_only_coverage": 0.9921785139176443,
+          "closure_plus_fixed_fuselage_coverage": 0.9999233187638985,
+          "well_surface_first_fraction": 0.007821486082355647,
+          "missing_exterior_fraction": 7.668123610152595e-05,
+          "closure_uncovered_examples_m": [
+            [
+              0.0,
+              -13.5515625
+            ],
+            [
+              0.0,
+              -13.2845625
+            ],
+            [
+              0.0,
+              -12.533625
+            ],
+            [
+              -0.378125,
+              -12.2833125
+            ],
+            [
+              -0.257125,
+              -12.2833125
+            ],
+            [
+              -0.136125,
+              -12.2833125
+            ],
+            [
+              -0.015125000000000055,
+              -12.2833125
+            ],
+            [
+              0.10587499999999994,
+              -12.2833125
+            ],
+            [
+              0.22687499999999994,
+              -12.2833125
+            ],
+            [
+              0.34787499999999993,
+              -12.2833125
+            ],
+            [
+              -0.121,
+              -12.266625
+            ],
+            [
+              0.0,
+              -12.266625
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                0.0,
+                -13.5515625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 3.2198943550313426
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -13.2845625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 3.565711567775627
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -12.533625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.241223779110023
+            },
+            {
+              "plane_point_m": [
+                -0.378125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.331675088201145
+            },
+            {
+              "plane_point_m": [
+                -0.257125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.352835722848337
+            },
+            {
+              "plane_point_m": [
+                -0.136125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.366153231702205
+            },
+            {
+              "plane_point_m": [
+                -0.015125000000000055,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.378950822040618
+            },
+            {
+              "plane_point_m": [
+                0.10587499999999994,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.368798856249881
+            },
+            {
+              "plane_point_m": [
+                0.22687499999999994,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.355619466855658
+            },
+            {
+              "plane_point_m": [
+                0.34787499999999993,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.3410961156135635
+            },
+            {
+              "plane_point_m": [
+                -0.121,
+                -12.266625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.37539753881044
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -12.266625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.388059159747437
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.99515625,
+            "well_surface_first_fraction": 0.00484375,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "nose_aft_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -0.81,
+            0.81,
+            -11.92,
+            -9.88
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "closure_only_coverage": 0.4876159803696036,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.001840349666436623,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              -0.795,
+              -11.905
+            ],
+            [
+              -0.19874999999999998,
+              -10.8371875
+            ],
+            [
+              -0.41737500000000005,
+              -10.74925
+            ],
+            [
+              -0.636,
+              -10.661312500000001
+            ],
+            [
+              0.7552500000000001,
+              -10.5859375
+            ],
+            [
+              0.536625,
+              -10.498000000000001
+            ],
+            [
+              0.31799999999999995,
+              -10.4100625
+            ],
+            [
+              0.09937499999999999,
+              -10.322125000000002
+            ],
+            [
+              -0.11925000000000008,
+              -10.2341875
+            ],
+            [
+              -0.33787500000000004,
+              -10.146250000000002
+            ],
+            [
+              -0.5565,
+              -10.058312500000001
+            ],
+            [
+              -0.7751250000000001,
+              -9.970375
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                -0.7155,
+                -11.905
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.386324932843744
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.7416875
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.435846229127572
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.729125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.439367567315007
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.7165625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.442888905502442
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.703999999999999
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.446410243689877
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.528125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.481631103853838
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.5155625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.484841760110872
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.503
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.488052416367906
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.2894375
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.529032799591724
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.276875
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.531536388451149
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.2643125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.534039977310573
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.25175
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.536543566169999
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.49515625,
+            "well_surface_first_fraction": 0.00203125,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_left_side",
+          "plane_axes": [
+            "Y",
+            "Z"
+          ],
+          "depth_axis": "X",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            0.91,
+            2.96,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.2576489533011272,
+          "closure_plus_fixed_fuselage_coverage": 0.9860440150295223,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.013955984970477724,
+          "closure_uncovered_examples_m": [
+            [
+              1.45525,
+              -3.225
+            ],
+            [
+              2.11175,
+              -2.989375
+            ],
+            [
+              2.7682499999999997,
+              -2.75375
+            ],
+            [
+              1.9097499999999998,
+              -2.5
+            ],
+            [
+              2.5662499999999997,
+              -2.2643750000000002
+            ],
+            [
+              1.7077499999999999,
+              -2.010625
+            ],
+            [
+              2.3642499999999997,
+              -1.7750000000000001
+            ],
+            [
+              1.50575,
+              -1.5212500000000002
+            ],
+            [
+              2.16225,
+              -1.2856250000000002
+            ],
+            [
+              2.8187499999999996,
+              -1.0500000000000003
+            ],
+            [
+              1.9602499999999998,
+              -0.7962500000000001
+            ],
+            [
+              2.6167499999999997,
+              -0.5606250000000004
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.45525,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.25,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_right_side",
+          "plane_axes": [
+            "Y",
+            "Z"
+          ],
+          "depth_axis": "X",
+          "view_from_sign": 1,
+          "surveyed_rectangle_m": [
+            0.91,
+            2.96,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.2576489533011272,
+          "closure_plus_fixed_fuselage_coverage": 0.9860440150295223,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.013955984970477724,
+          "closure_uncovered_examples_m": [
+            [
+              1.45525,
+              -3.225
+            ],
+            [
+              2.11175,
+              -2.989375
+            ],
+            [
+              2.7682499999999997,
+              -2.75375
+            ],
+            [
+              1.9097499999999998,
+              -2.5
+            ],
+            [
+              2.5662499999999997,
+              -2.2643750000000002
+            ],
+            [
+              1.7077499999999999,
+              -2.010625
+            ],
+            [
+              2.3642499999999997,
+              -1.7750000000000001
+            ],
+            [
+              1.50575,
+              -1.5212500000000002
+            ],
+            [
+              2.16225,
+              -1.2856250000000002
+            ],
+            [
+              2.8187499999999996,
+              -1.0500000000000003
+            ],
+            [
+              1.9602499999999998,
+              -0.7962500000000001
+            ],
+            [
+              2.6167499999999997,
+              -0.5606250000000004
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.45525,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.25,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        }
+      ],
+      "status": "PASS_SCOPED",
+      "native_review": {
+        "id": "c130",
+        "model_sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+        "status": "PASS_SCOPED",
+        "native_report": "qa/c130-blender.json",
+        "native_report_sha256": "316977390185088ece860881efb787852b7cee516454414811d3f11397ec8330",
+        "images": [
+          {
+            "path": "previews/c130-service-cargo.png",
+            "sha256": "61371aa0c237f27b59900d002338cbe97f7b54029a9233c4b0d052e273ee7d47",
+            "pose": "SERVICE",
+            "camera": "cargo"
+          },
+          {
+            "path": "previews/c130-flying-belly.png",
+            "sha256": "503c5f03720518b8eb5068c58656e93bd370c97c90f5b9d7593a8193ff84e253",
+            "pose": "FLYING",
+            "camera": "belly"
+          }
+        ],
+        "reviewed_by": [
+          "Root integration agent: explicit final-hash native visual review",
+          "Independent reference/QA agent: actual flying-belly and service-cargo images inspected"
+        ],
+        "observations": [
+          "Retracted wheels and covered nose opening read closed in the inspected flying-belly view.",
+          "Original main-sponson outer skin and closure panels are continuous in the inspected view; the earlier large dark outboard well rectangles are absent.",
+          "Service-cargo view shows the bounded preserved cabin and lowered ramp; attachment/perimeter seams remain visible.",
+          "Small inner/perimeter seams are accepted for this draft presentation only."
+        ],
+        "remaining_limitations": [
+          "Not a watertight or photographic acceptance.",
+          "No full swept-volume or continuous collision-clearance certification.",
+          "Declared cargo hinge contacts and one numerical nose seam remain recorded.",
+          "Native Unreal testing has not run."
+        ]
+      },
+      "native_review_binding_issues": []
+    },
+    {
+      "id": "ac130",
+      "sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+      "bytes": 14240532,
+      "pose": "FLYING",
+      "regions": [
+        {
+          "region": "main_left_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -2.4,
+            -1.25,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.8097538532321141,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              -1.4609999999999999,
+              -3.225
+            ],
+            [
+              -1.307,
+              -2.989375
+            ],
+            [
+              -1.363,
+              -2.735625
+            ],
+            [
+              -1.419,
+              -2.481875
+            ],
+            [
+              -1.265,
+              -2.2462500000000003
+            ],
+            [
+              -1.321,
+              -1.9925000000000002
+            ],
+            [
+              -1.3769999999999998,
+              -1.7387500000000002
+            ],
+            [
+              -1.4329999999999998,
+              -1.4850000000000003
+            ],
+            [
+              -1.279,
+              -1.2493750000000001
+            ],
+            [
+              -1.335,
+              -0.9956250000000004
+            ],
+            [
+              -1.391,
+              -0.7418750000000003
+            ],
+            [
+              -1.4469999999999998,
+              -0.48812500000000014
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.187956943731332
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188204699903922
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188452449495369
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188700199086815
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188942112805508
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189165013735619
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189434505813892
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189719721081332
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190004921763505
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190290122445678
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.19057532312785
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190860523810023
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.8125,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_right_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            1.25,
+            2.4,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.8097538532321141,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              1.265,
+              -3.225
+            ],
+            [
+              1.4189999999999998,
+              -2.989375
+            ],
+            [
+              1.363,
+              -2.735625
+            ],
+            [
+              1.307,
+              -2.481875
+            ],
+            [
+              1.4609999999999999,
+              -2.2462500000000003
+            ],
+            [
+              1.4049999999999998,
+              -1.9925000000000002
+            ],
+            [
+              1.349,
+              -1.7387500000000002
+            ],
+            [
+              1.293,
+              -1.4850000000000003
+            ],
+            [
+              1.4469999999999998,
+              -1.2493750000000001
+            ],
+            [
+              1.391,
+              -0.9956250000000004
+            ],
+            [
+              1.335,
+              -0.7418750000000003
+            ],
+            [
+              1.279,
+              -0.48812500000000014
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.18963348050737
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189953617733301
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190273755872296
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.19059392488198
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1909140938916645
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.191234262901349
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.191506784047565
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1918036884400625
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.192171832646757
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1925399768534515
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.192908121060145
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.193276265266839
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.8125,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "nose_forward_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -0.62,
+            0.62,
+            -13.65,
+            -10.95
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "closure_only_coverage": 0.9921785139176443,
+          "closure_plus_fixed_fuselage_coverage": 0.9999233187638985,
+          "well_surface_first_fraction": 0.007821486082355647,
+          "missing_exterior_fraction": 7.668123610152595e-05,
+          "closure_uncovered_examples_m": [
+            [
+              0.0,
+              -13.5515625
+            ],
+            [
+              0.0,
+              -13.2845625
+            ],
+            [
+              0.0,
+              -12.533625
+            ],
+            [
+              -0.378125,
+              -12.2833125
+            ],
+            [
+              -0.257125,
+              -12.2833125
+            ],
+            [
+              -0.136125,
+              -12.2833125
+            ],
+            [
+              -0.015125000000000055,
+              -12.2833125
+            ],
+            [
+              0.10587499999999994,
+              -12.2833125
+            ],
+            [
+              0.22687499999999994,
+              -12.2833125
+            ],
+            [
+              0.34787499999999993,
+              -12.2833125
+            ],
+            [
+              -0.121,
+              -12.266625
+            ],
+            [
+              0.0,
+              -12.266625
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                0.0,
+                -13.5515625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 3.2198943550313426
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -13.2845625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 3.565711567775627
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -12.533625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.241223779110023
+            },
+            {
+              "plane_point_m": [
+                -0.378125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.331675088201145
+            },
+            {
+              "plane_point_m": [
+                -0.257125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.352835722848337
+            },
+            {
+              "plane_point_m": [
+                -0.136125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.366153231702205
+            },
+            {
+              "plane_point_m": [
+                -0.015125000000000055,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.378950822040618
+            },
+            {
+              "plane_point_m": [
+                0.10587499999999994,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.368798856249881
+            },
+            {
+              "plane_point_m": [
+                0.22687499999999994,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.355619466855658
+            },
+            {
+              "plane_point_m": [
+                0.34787499999999993,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.3410961156135635
+            },
+            {
+              "plane_point_m": [
+                -0.121,
+                -12.266625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.37539753881044
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -12.266625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.388059159747437
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.99515625,
+            "well_surface_first_fraction": 0.00484375,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "nose_aft_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -0.81,
+            0.81,
+            -11.92,
+            -9.88
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "closure_only_coverage": 0.4876159803696036,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.001840349666436623,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              -0.795,
+              -11.905
+            ],
+            [
+              -0.19874999999999998,
+              -10.8371875
+            ],
+            [
+              -0.41737500000000005,
+              -10.74925
+            ],
+            [
+              -0.636,
+              -10.661312500000001
+            ],
+            [
+              0.7552500000000001,
+              -10.5859375
+            ],
+            [
+              0.536625,
+              -10.498000000000001
+            ],
+            [
+              0.31799999999999995,
+              -10.4100625
+            ],
+            [
+              0.09937499999999999,
+              -10.322125000000002
+            ],
+            [
+              -0.11925000000000008,
+              -10.2341875
+            ],
+            [
+              -0.33787500000000004,
+              -10.146250000000002
+            ],
+            [
+              -0.5565,
+              -10.058312500000001
+            ],
+            [
+              -0.7751250000000001,
+              -9.970375
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                -0.7155,
+                -11.905
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.386324932843744
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.7416875
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.435846229127572
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.729125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.439367567315007
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.7165625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.442888905502442
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.703999999999999
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.446410243689877
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.528125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.481631103853838
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.5155625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.484841760110872
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.503
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.488052416367906
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.2894375
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.529032799591724
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.276875
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.531536388451149
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.2643125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.534039977310573
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.25175
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.536543566169999
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.49515625,
+            "well_surface_first_fraction": 0.00203125,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_left_side",
+          "plane_axes": [
+            "Y",
+            "Z"
+          ],
+          "depth_axis": "X",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            0.91,
+            2.96,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.2576489533011272,
+          "closure_plus_fixed_fuselage_coverage": 0.9860440150295223,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.013955984970477724,
+          "closure_uncovered_examples_m": [
+            [
+              1.45525,
+              -3.225
+            ],
+            [
+              2.11175,
+              -2.989375
+            ],
+            [
+              2.7682499999999997,
+              -2.75375
+            ],
+            [
+              1.9097499999999998,
+              -2.5
+            ],
+            [
+              2.5662499999999997,
+              -2.2643750000000002
+            ],
+            [
+              1.7077499999999999,
+              -2.010625
+            ],
+            [
+              2.3642499999999997,
+              -1.7750000000000001
+            ],
+            [
+              1.50575,
+              -1.5212500000000002
+            ],
+            [
+              2.16225,
+              -1.2856250000000002
+            ],
+            [
+              2.8187499999999996,
+              -1.0500000000000003
+            ],
+            [
+              1.9602499999999998,
+              -0.7962500000000001
+            ],
+            [
+              2.6167499999999997,
+              -0.5606250000000004
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.45525,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.25,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_right_side",
+          "plane_axes": [
+            "Y",
+            "Z"
+          ],
+          "depth_axis": "X",
+          "view_from_sign": 1,
+          "surveyed_rectangle_m": [
+            0.91,
+            2.96,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.2576489533011272,
+          "closure_plus_fixed_fuselage_coverage": 0.9860440150295223,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.013955984970477724,
+          "closure_uncovered_examples_m": [
+            [
+              1.45525,
+              -3.225
+            ],
+            [
+              2.11175,
+              -2.989375
+            ],
+            [
+              2.7682499999999997,
+              -2.75375
+            ],
+            [
+              1.9097499999999998,
+              -2.5
+            ],
+            [
+              2.5662499999999997,
+              -2.2643750000000002
+            ],
+            [
+              1.7077499999999999,
+              -2.010625
+            ],
+            [
+              2.3642499999999997,
+              -1.7750000000000001
+            ],
+            [
+              1.50575,
+              -1.5212500000000002
+            ],
+            [
+              2.16225,
+              -1.2856250000000002
+            ],
+            [
+              2.8187499999999996,
+              -1.0500000000000003
+            ],
+            [
+              1.9602499999999998,
+              -0.7962500000000001
+            ],
+            [
+              2.6167499999999997,
+              -0.5606250000000004
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.45525,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.25,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        }
+      ],
+      "status": "PASS_SCOPED",
+      "native_review": {
+        "id": "ac130",
+        "model_sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+        "status": "PASS_SCOPED",
+        "native_report": "qa/ac130-blender.json",
+        "native_report_sha256": "cb081ad3beba6855507fff1aafe52f3e3a0dcfa0a272d8869a07294c4f5c6e59",
+        "images": [
+          {
+            "path": "previews/ac130-service-cargo.png",
+            "sha256": "b4e7c1d788ca99cb9e8aec63924bee9c95b50383baa14989b5e316d64e0b412b",
+            "pose": "SERVICE",
+            "camera": "cargo"
+          },
+          {
+            "path": "previews/ac130-flying-belly.png",
+            "sha256": "2d4c3e13cc6f7f5e096e77ea7e95bc9c0572134e4b8c8e7dae9bc0383b8904da",
+            "pose": "FLYING",
+            "camera": "belly"
+          }
+        ],
+        "reviewed_by": [
+          "Root integration agent: explicit final-hash native visual review",
+          "Independent reference/QA agent: actual flying-belly and service-cargo images inspected"
+        ],
+        "observations": [
+          "Retracted wheels and covered nose opening read closed in the inspected flying-belly view.",
+          "Original main-sponson outer skin and closure panels are continuous in the inspected view; the earlier large dark outboard well rectangles are absent.",
+          "Service-cargo view shows the bounded preserved cabin and lowered ramp; attachment/perimeter seams remain visible.",
+          "Small inner/perimeter seams are accepted for this draft presentation only."
+        ],
+        "remaining_limitations": [
+          "Not a watertight or photographic acceptance.",
+          "No full swept-volume or continuous collision-clearance certification.",
+          "Declared cargo hinge contacts and one numerical nose seam remain recorded.",
+          "Native Unreal testing has not run."
+        ]
+      },
+      "native_review_binding_issues": []
+    },
+    {
+      "id": "ac130j",
+      "sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62",
+      "bytes": 14006440,
+      "pose": "FLYING",
+      "regions": [
+        {
+          "region": "main_left_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -2.4,
+            -1.25,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.8097538532321141,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              -1.4609999999999999,
+              -3.225
+            ],
+            [
+              -1.307,
+              -2.989375
+            ],
+            [
+              -1.363,
+              -2.735625
+            ],
+            [
+              -1.419,
+              -2.481875
+            ],
+            [
+              -1.265,
+              -2.2462500000000003
+            ],
+            [
+              -1.321,
+              -1.9925000000000002
+            ],
+            [
+              -1.3769999999999998,
+              -1.7387500000000002
+            ],
+            [
+              -1.4329999999999998,
+              -1.4850000000000003
+            ],
+            [
+              -1.279,
+              -1.2493750000000001
+            ],
+            [
+              -1.335,
+              -0.9956250000000004
+            ],
+            [
+              -1.391,
+              -0.7418750000000003
+            ],
+            [
+              -1.4469999999999998,
+              -0.48812500000000014
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.187956943731332
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188204699903922
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188452449495369
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188700199086815
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.188942112805508
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189165013735619
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189434505813892
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189719721081332
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190004921763505
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190290122445678
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.19057532312785
+            },
+            {
+              "plane_point_m": [
+                -1.4609999999999999,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190860523810023
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.8125,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_right_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            1.25,
+            2.4,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.8097538532321141,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              1.265,
+              -3.225
+            ],
+            [
+              1.4189999999999998,
+              -2.989375
+            ],
+            [
+              1.363,
+              -2.735625
+            ],
+            [
+              1.307,
+              -2.481875
+            ],
+            [
+              1.4609999999999999,
+              -2.2462500000000003
+            ],
+            [
+              1.4049999999999998,
+              -1.9925000000000002
+            ],
+            [
+              1.349,
+              -1.7387500000000002
+            ],
+            [
+              1.293,
+              -1.4850000000000003
+            ],
+            [
+              1.4469999999999998,
+              -1.2493750000000001
+            ],
+            [
+              1.391,
+              -0.9956250000000004
+            ],
+            [
+              1.335,
+              -0.7418750000000003
+            ],
+            [
+              1.279,
+              -0.48812500000000014
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.18963348050737
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.189953617733301
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.190273755872296
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.19059392488198
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1909140938916645
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.191234262901349
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.191506784047565
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1918036884400625
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.192171832646757
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.1925399768534515
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.192908121060145
+            },
+            {
+              "plane_point_m": [
+                1.4609999999999999,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 2.619999885559082,
+              "nearest_exterior_depth_coordinate_m": 4.193276265266839
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.8125,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "nose_forward_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -0.62,
+            0.62,
+            -13.65,
+            -10.95
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "closure_only_coverage": 0.9921785139176443,
+          "closure_plus_fixed_fuselage_coverage": 0.9999233187638985,
+          "well_surface_first_fraction": 0.007821486082355647,
+          "missing_exterior_fraction": 7.668123610152595e-05,
+          "closure_uncovered_examples_m": [
+            [
+              0.0,
+              -13.5515625
+            ],
+            [
+              0.0,
+              -13.2845625
+            ],
+            [
+              0.0,
+              -12.533625
+            ],
+            [
+              -0.378125,
+              -12.2833125
+            ],
+            [
+              -0.257125,
+              -12.2833125
+            ],
+            [
+              -0.136125,
+              -12.2833125
+            ],
+            [
+              -0.015125000000000055,
+              -12.2833125
+            ],
+            [
+              0.10587499999999994,
+              -12.2833125
+            ],
+            [
+              0.22687499999999994,
+              -12.2833125
+            ],
+            [
+              0.34787499999999993,
+              -12.2833125
+            ],
+            [
+              -0.121,
+              -12.266625
+            ],
+            [
+              0.0,
+              -12.266625
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                0.0,
+                -13.5515625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 3.2198943550313426
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -13.2845625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 3.565711567775627
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -12.533625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.241223779110023
+            },
+            {
+              "plane_point_m": [
+                -0.378125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.331675088201145
+            },
+            {
+              "plane_point_m": [
+                -0.257125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.352835722848337
+            },
+            {
+              "plane_point_m": [
+                -0.136125,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.366153231702205
+            },
+            {
+              "plane_point_m": [
+                -0.015125000000000055,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.378950822040618
+            },
+            {
+              "plane_point_m": [
+                0.10587499999999994,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.368798856249881
+            },
+            {
+              "plane_point_m": [
+                0.22687499999999994,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.355619466855658
+            },
+            {
+              "plane_point_m": [
+                0.34787499999999993,
+                -12.2833125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.3410961156135635
+            },
+            {
+              "plane_point_m": [
+                -0.121,
+                -12.266625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.37539753881044
+            },
+            {
+              "plane_point_m": [
+                0.0,
+                -12.266625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.388059159747437
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.99515625,
+            "well_surface_first_fraction": 0.00484375,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "nose_aft_bottom",
+          "plane_axes": [
+            "X",
+            "Z"
+          ],
+          "depth_axis": "Y",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            -0.81,
+            0.81,
+            -11.92,
+            -9.88
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "closure_only_coverage": 0.4876159803696036,
+          "closure_plus_fixed_fuselage_coverage": 1.0,
+          "well_surface_first_fraction": 0.001840349666436623,
+          "missing_exterior_fraction": 0.0,
+          "closure_uncovered_examples_m": [
+            [
+              -0.795,
+              -11.905
+            ],
+            [
+              -0.19874999999999998,
+              -10.8371875
+            ],
+            [
+              -0.41737500000000005,
+              -10.74925
+            ],
+            [
+              -0.636,
+              -10.661312500000001
+            ],
+            [
+              0.7552500000000001,
+              -10.5859375
+            ],
+            [
+              0.536625,
+              -10.498000000000001
+            ],
+            [
+              0.31799999999999995,
+              -10.4100625
+            ],
+            [
+              0.09937499999999999,
+              -10.322125000000002
+            ],
+            [
+              -0.11925000000000008,
+              -10.2341875
+            ],
+            [
+              -0.33787500000000004,
+              -10.146250000000002
+            ],
+            [
+              -0.5565,
+              -10.058312500000001
+            ],
+            [
+              -0.7751250000000001,
+              -9.970375
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                -0.7155,
+                -11.905
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.386324932843744
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.7416875
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.435846229127572
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.729125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.439367567315007
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.7165625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.442888905502442
+            },
+            {
+              "plane_point_m": [
+                -0.735375,
+                -11.703999999999999
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.446410243689877
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.528125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.481631103853838
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.5155625
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.484841760110872
+            },
+            {
+              "plane_point_m": [
+                -0.7552500000000001,
+                -11.503
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.488052416367906
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.2894375
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.529032799591724
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.276875
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.531536388451149
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.2643125
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.534039977310573
+            },
+            {
+              "plane_point_m": [
+                -0.7751250000000001,
+                -11.25175
+              ],
+              "well_depth_coordinate_m": 2.440000057220459,
+              "nearest_exterior_depth_coordinate_m": 4.536543566169999
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.49515625,
+            "well_surface_first_fraction": 0.00203125,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_left_side",
+          "plane_axes": [
+            "Y",
+            "Z"
+          ],
+          "depth_axis": "X",
+          "view_from_sign": -1,
+          "surveyed_rectangle_m": [
+            0.91,
+            2.96,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.2576489533011272,
+          "closure_plus_fixed_fuselage_coverage": 0.9860440150295223,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.013955984970477724,
+          "closure_uncovered_examples_m": [
+            [
+              1.45525,
+              -3.225
+            ],
+            [
+              2.11175,
+              -2.989375
+            ],
+            [
+              2.7682499999999997,
+              -2.75375
+            ],
+            [
+              1.9097499999999998,
+              -2.5
+            ],
+            [
+              2.5662499999999997,
+              -2.2643750000000002
+            ],
+            [
+              1.7077499999999999,
+              -2.010625
+            ],
+            [
+              2.3642499999999997,
+              -1.7750000000000001
+            ],
+            [
+              1.50575,
+              -1.5212500000000002
+            ],
+            [
+              2.16225,
+              -1.2856250000000002
+            ],
+            [
+              2.8187499999999996,
+              -1.0500000000000003
+            ],
+            [
+              1.9602499999999998,
+              -0.7962500000000001
+            ],
+            [
+              2.6167499999999997,
+              -0.5606250000000004
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.45525,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": -1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.25,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        },
+        {
+          "region": "main_right_side",
+          "plane_axes": [
+            "Y",
+            "Z"
+          ],
+          "depth_axis": "X",
+          "view_from_sign": 1,
+          "surveyed_rectangle_m": [
+            0.91,
+            2.96,
+            -3.24,
+            -0.31
+          ],
+          "border_exclusion_m": 0.015,
+          "grid": [
+            81,
+            161
+          ],
+          "samples": 13041,
+          "closure_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "closure_only_coverage": 0.2576489533011272,
+          "closure_plus_fixed_fuselage_coverage": 0.9860440150295223,
+          "well_surface_first_fraction": 0.012038954067939575,
+          "missing_exterior_fraction": 0.013955984970477724,
+          "closure_uncovered_examples_m": [
+            [
+              1.45525,
+              -3.225
+            ],
+            [
+              2.11175,
+              -2.989375
+            ],
+            [
+              2.7682499999999997,
+              -2.75375
+            ],
+            [
+              1.9097499999999998,
+              -2.5
+            ],
+            [
+              2.5662499999999997,
+              -2.2643750000000002
+            ],
+            [
+              1.7077499999999999,
+              -2.010625
+            ],
+            [
+              2.3642499999999997,
+              -1.7750000000000001
+            ],
+            [
+              1.50575,
+              -1.5212500000000002
+            ],
+            [
+              2.16225,
+              -1.2856250000000002
+            ],
+            [
+              2.8187499999999996,
+              -1.0500000000000003
+            ],
+            [
+              1.9602499999999998,
+              -0.7962500000000001
+            ],
+            [
+              2.6167499999999997,
+              -0.5606250000000004
+            ]
+          ],
+          "well_exposed_examples": [
+            {
+              "plane_point_m": [
+                1.45525,
+                -3.18875
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.953125
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.7175000000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.481875
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.2462500000000003
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -2.010625
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.7750000000000001
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.5393750000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.3037500000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -1.0681250000000002
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.8325000000000005
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            },
+            {
+              "plane_point_m": [
+                1.45525,
+                -0.5968750000000003
+              ],
+              "well_depth_coordinate_m": 1.4500000476837158,
+              "nearest_exterior_depth_coordinate_m": null
+            }
+          ],
+          "cell_centre_grid": {
+            "grid": [
+              80,
+              160
+            ],
+            "samples": 12800,
+            "closure_only_coverage": 0.25,
+            "well_surface_first_fraction": 0.0246875,
+            "purpose": "Avoid giving a zero-area symmetry seam the weight of one complete sample column."
+          }
+        }
+      ],
+      "status": "PASS_SCOPED",
+      "native_review": {
+        "id": "ac130j",
+        "model_sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62",
+        "status": "PASS_SCOPED",
+        "native_report": "qa/ac130j-blender.json",
+        "native_report_sha256": "95b03ec870d9277a5ec31a0bbb2e78270457add0845e33823ecfbc1c85c8e9dd",
+        "images": [
+          {
+            "path": "previews/ac130j-service-cargo.png",
+            "sha256": "7344887e03f2e653609a21bcf5e6f4f3dd031453d08e5e9bd0b3c3d0e97c99c2",
+            "pose": "SERVICE",
+            "camera": "cargo"
+          },
+          {
+            "path": "previews/ac130j-flying-belly.png",
+            "sha256": "8b00bf6ad9893eb21151c034d7541bf69dc56bf0b443eb021d3f52dca631fa79",
+            "pose": "FLYING",
+            "camera": "belly"
+          }
+        ],
+        "reviewed_by": [
+          "Root integration agent: explicit final-hash native visual review",
+          "Independent reference/QA agent: actual flying-belly and service-cargo images inspected"
+        ],
+        "observations": [
+          "Retracted wheels and covered nose opening read closed in the inspected flying-belly view.",
+          "Original main-sponson outer skin and closure panels are continuous in the inspected view; the earlier large dark outboard well rectangles are absent.",
+          "Service-cargo view shows the bounded preserved cabin and lowered ramp; attachment/perimeter seams remain visible.",
+          "Small inner/perimeter seams are accepted for this draft presentation only."
+        ],
+        "remaining_limitations": [
+          "Not a watertight or photographic acceptance.",
+          "No full swept-volume or continuous collision-clearance certification.",
+          "Declared cargo hinge contacts and one numerical nose seam remain recorded.",
+          "Native Unreal testing has not run."
+        ]
+      },
+      "native_review_binding_issues": []
+    }
+  ],
+  "acceptance_scope": "Draft closed-gear endpoint in the specified native views, supported by projection diagnostics; not production acceptance.",
+  "full_swept_clearance": "NOT_PROVEN",
+  "photographic_acceptance": "NOT_ACCEPTED",
+  "native_unreal": "NOT_RUN",
+  "status": "PASS_SCOPED"
+}

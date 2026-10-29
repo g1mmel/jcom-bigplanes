@@ -17,6 +17,7 @@ for(const id of ids){
  const source=fs.readFileSync(path.join(root,'models',id+'.glb'));
  const artBytes=fs.readFileSync(path.join(root,'articulation',id+'.json'));
  const art=JSON.parse(artBytes),array=source.buffer.slice(source.byteOffset,source.byteOffset+source.byteLength);
+ if(hash(source)!==art.sha256)throw new Error('GLB/sidecar revision mismatch '+id);
  const gltf=await new Promise((ok,bad)=>new GLTFLoader().parse(array,'',ok,bad));
  const controller=new PresentationController(art),driver=new PoseDriver(gltf.scene,gltf.animations,art);
  if(driver.missing.length)throw new Error(JSON.stringify(driver.missing));

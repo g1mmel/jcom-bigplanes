@@ -1,0 +1,3089 @@
+{
+  "generated_utc": "2026-10-29T02:28:45.178538+00:00",
+  "method": "BVH broadphase and strict non-coplanar edge/triangle intersections on actual transformed exported triangles",
+  "sample_times": [
+    0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1
+  ],
+  "intentional_contact_policy": "All crossings retained. A50mm radius around each relevant declared hinge axis is separately counted as an authored possible-contact region, not automatically proven intentional. Translation gear has no excluded hinge region.",
+  "limitations": [
+    "Not a continuous swept-volume or penetration-depth solver.",
+    "Coplanar overlap, vertex/edge-only contact and complete containment are not detected.",
+    "No-hit samples do not certify clearance between samples.",
+    "Preserved internal surfaces may overlap intentionally; any crossing requires native visual/geometry review.",
+    "Only named cargo/gear pairs tested; kit and all other surface pairs excluded."
+  ],
+  "production_clearance": "NOT_ACCEPTED",
+  "models": [
+    {
+      "id": "c130",
+      "file": "models/c130.glb",
+      "sha256": "50050a58fa97c60fb3ca95808ccc580106dbdc703357b5b7b9113a8a73deb0b5",
+      "pairs": [
+        {
+          "pair": "lower_ramp_vs_upper_door",
+          "control": "cargo_ramp",
+          "parts_a": [
+            "CARGO_LOWER_RAMP_PRESERVED",
+            "CARGO_RAMP_INTERIOR_PRESERVED"
+          ],
+          "parts_b": [
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "lower_ramp_vs_cabin",
+          "control": "cargo_ramp",
+          "parts_a": [
+            "CARGO_LOWER_RAMP_PRESERVED",
+            "CARGO_RAMP_INTERIOR_PRESERVED"
+          ],
+          "parts_b": [
+            "CARGO_CABIN_PRESERVED"
+          ],
+          "status": "CROSSINGS_REQUIRE_REVIEW",
+          "sampled_outside_hinge_crossings": 174,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 54,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 54,
+              "examples": [
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0936807930299413,
+                    5.567775728221991
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.093627837057718,
+                    5.568054286409794
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0747900147540066,
+                    5.6671447085611755
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.112518670190381,
+                    5.468685017514094
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0405499939097727,
+                    5.431111599144548
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0403644891538364,
+                    5.4310491985571705
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    1.9743733503301901,
+                    5.408850922273147
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.1065413132797612,
+                    5.453309936161235
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.5492604802143606,
+                    2.0405499939097727,
+                    5.431111599144548
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.5492587617775442,
+                    2.0403644891538364,
+                    5.4310491985571705
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.548647448057129,
+                    1.9743733503301901,
+                    5.408850922273147
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.5498717956072798,
+                    2.1065413132797612,
+                    5.453309936161235
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                }
+              ]
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 54,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 54,
+              "examples": [
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0936807930299413,
+                    5.567775728221991
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.093627837057718,
+                    5.568054286409794
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0747900147540066,
+                    5.6671447085611755
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.112518670190381,
+                    5.468685017514094
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0405499939097727,
+                    5.431111599144548
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0403644891538364,
+                    5.4310491985571705
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    1.9743733503301901,
+                    5.408850922273147
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.1065413132797612,
+                    5.453309936161235
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.5492604802143606,
+                    2.0405499939097727,
+                    5.431111599144548
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.5492587617775442,
+                    2.0403644891538364,
+                    5.4310491985571705
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.548647448057129,
+                    1.9743733503301901,
+                    5.408850922273147
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.5498717956072798,
+                    2.1065413132797612,
+                    5.453309936161235
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                }
+              ]
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 54,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 54,
+              "examples": [
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0936807930299413,
+                    5.567775728221991
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.093627837057718,
+                    5.568054286409794
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0747900147540066,
+                    5.6671447085611755
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.112518670190381,
+                    5.468685017514094
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0405499939097727,
+                    5.431111599144548
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0403644891538364,
+                    5.4310491985571705
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    1.9743733503301901,
+                    5.408850922273147
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.1065413132797612,
+                    5.453309936161235
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 68970,
+                  "point_m": [
+                    -1.5492604802143606,
+                    2.0405499939097727,
+                    5.431111599144548
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 69005,
+                  "point_m": [
+                    -1.5492587617775442,
+                    2.0403644891538364,
+                    5.4310491985571705
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.548647448057129,
+                    1.9743733503301901,
+                    5.408850922273147
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 69036,
+                  "point_m": [
+                    -1.5498717956072798,
+                    2.1065413132797612,
+                    5.453309936161235
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                }
+              ]
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 12,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 12,
+              "examples": [
+                {
+                  "triangle_a": 734,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.014080474302503,
+                    5.510986394032397
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 735,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.006122612106339,
+                    5.490517019061622
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 736,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.5498403179737656,
+                    2.006122612106339,
+                    5.490517019061622
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 737,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.059449311158626,
+                    5.627685038807064
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 738,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.549949288368225,
+                    2.0594493111586263,
+                    5.627685038807065
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 893,
+                  "triangle_b": 58055,
+                  "point_m": [
+                    1.5494766250845498,
+                    2.059450146981346,
+                    5.627687699788283
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 894,
+                  "triangle_b": 58055,
+                  "point_m": [
+                    1.5494766250845498,
+                    2.0594501469813458,
+                    5.627687699788281
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 895,
+                  "triangle_b": 58055,
+                  "point_m": [
+                    1.5498338912759102,
+                    2.0061223948708715,
+                    5.490516937282298
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 896,
+                  "triangle_b": 58055,
+                  "point_m": [
+                    1.5498338912759102,
+                    2.006122394870871,
+                    5.490516937282298
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 899,
+                  "triangle_b": 58055,
+                  "point_m": [
+                    1.5499428510665894,
+                    2.0140804051710597,
+                    5.5109866982924
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 900,
+                  "triangle_b": 58055,
+                  "point_m": [
+                    1.5499428510665894,
+                    2.0140804051710597,
+                    5.5109866982924
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 1452,
+                  "triangle_b": 68974,
+                  "point_m": [
+                    -1.5478941202163696,
+                    2.0594493111586263,
+                    5.627685038807065
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                }
+              ]
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "upper_door_vs_cabin",
+          "control": "cargo_ramp",
+          "parts_a": [
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "parts_b": [
+            "CARGO_CABIN_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "upper_door_vs_skin",
+          "control": "cargo_ramp",
+          "parts_a": [
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 78,
+              "within_declared_hinge_contact_zone": 78,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7349248736244993,
+                    10.08529243210827
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4795830282759561,
+                    3.738530305483248,
+                    10.08838122638274
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.4546220052837902,
+                    3.736007469595228,
+                    10.07618399812495
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.4546220052837902,
+                    3.736007469595228,
+                    10.07618399812495
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.450630028843794,
+                    3.735655743543891,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23886,
+                  "point_m": [
+                    1.25,
+                    3.7377281488708585,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23888,
+                  "point_m": [
+                    1.37680872227716,
+                    3.7364182797896066,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23887,
+                  "point_m": [
+                    1.3068271973088363,
+                    3.7371411530602203,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.7357444514049205,
+                    10.074888250595045
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18033,
+                  "point_m": [
+                    1.1939189062529851,
+                    3.7383074378142593,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 3,
+                  "triangle_b": 18033,
+                  "point_m": [
+                    1.1939189062529851,
+                    3.7383074378142593,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 18033,
+                  "point_m": [
+                    1.1754387617111206,
+                    3.738498328014005,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 79,
+              "within_declared_hinge_contact_zone": 79,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.4547054811457774,
+                    3.737388199927781,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.734890418576592,
+                    10.082771351636474
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.479467896542287,
+                    3.7384267619553855,
+                    10.087448219765273
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.4636773683183464,
+                    3.7363344055126677,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.4547054811457774,
+                    3.737388199927781,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.737714203801239,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23888,
+                  "point_m": [
+                    1.2944231816588392,
+                    3.7392613862458774,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23887,
+                  "point_m": [
+                    1.25,
+                    3.739697753378627,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18034,
+                  "point_m": [
+                    1.1927479190377674,
+                    3.7402601382749934,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 3,
+                  "triangle_b": 18034,
+                  "point_m": [
+                    1.1927479190377674,
+                    3.7402601382749934,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 18034,
+                  "point_m": [
+                    1.1754387617111206,
+                    3.7404301652391605,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 4,
+                  "triangle_b": 18033,
+                  "point_m": [
+                    1.1233346098614625,
+                    3.7404301652391605,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 88,
+              "within_declared_hinge_contact_zone": 88,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.4800093921537751,
+                    3.7371839214980436,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4838257151042797,
+                    3.737988655099919,
+                    10.086104449669255
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 22064,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7352343881691996,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4544130314175407,
+                    3.7400732187806933,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4805786388637732,
+                    3.738353455174864,
+                    10.086088457717405
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.4800093921537751,
+                    3.7371839214980436,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4544130314175407,
+                    3.7400732187806933,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23881,
+                  "point_m": [
+                    1.25,
+                    3.7422597828018724,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23008,
+                  "point_m": [
+                    1.4331781273840676,
+                    3.740530532304529,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.740353510303845,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18028,
+                  "point_m": [
+                    1.1917057066623504,
+                    3.7428100965166484,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23882,
+                  "point_m": [
+                    1.413818120410871,
+                    3.740713295946483,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 87,
+              "within_declared_hinge_contact_zone": 87,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4835705272585367,
+                    3.73804388124458,
+                    10.085908890826069
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 22064,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7355790687998573,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4808442082664917,
+                    3.7383504204375133,
+                    10.085903386999062
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23881,
+                  "point_m": [
+                    1.25,
+                    3.7425872350635965,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23008,
+                  "point_m": [
+                    1.4336343944405427,
+                    3.740857928481927,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.740685637312042,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18028,
+                  "point_m": [
+                    1.1916171111386435,
+                    3.743137033560073,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23882,
+                  "point_m": [
+                    1.4114986077949734,
+                    3.7410663837751374,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 87,
+              "within_declared_hinge_contact_zone": 87,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4835705272585367,
+                    3.73804388124458,
+                    10.085908890826069
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 22064,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7355790687998573,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4808442082664917,
+                    3.7383504204375133,
+                    10.085903386999062
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23881,
+                  "point_m": [
+                    1.25,
+                    3.7425872350635965,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23008,
+                  "point_m": [
+                    1.4336343944405427,
+                    3.740857928481927,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.740685637312042,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18028,
+                  "point_m": [
+                    1.1916171111386435,
+                    3.743137033560073,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23882,
+                  "point_m": [
+                    1.4114986077949734,
+                    3.7410663837751374,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 87,
+              "within_declared_hinge_contact_zone": 87,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4835705272585367,
+                    3.73804388124458,
+                    10.085908890826069
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 22064,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7355790687998573,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4808442082664917,
+                    3.7383504204375133,
+                    10.085903386999062
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23881,
+                  "point_m": [
+                    1.25,
+                    3.7425872350635965,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23008,
+                  "point_m": [
+                    1.4336343944405427,
+                    3.740857928481927,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.740685637312042,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18028,
+                  "point_m": [
+                    1.1916171111386435,
+                    3.743137033560073,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23882,
+                  "point_m": [
+                    1.4114986077949734,
+                    3.7410663837751374,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 87,
+              "within_declared_hinge_contact_zone": 87,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4835705272585367,
+                    3.73804388124458,
+                    10.085908890826069
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 22064,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7355790687998573,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4808442082664917,
+                    3.7383504204375133,
+                    10.085903386999062
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23881,
+                  "point_m": [
+                    1.25,
+                    3.7425872350635965,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23008,
+                  "point_m": [
+                    1.4336343944405427,
+                    3.740857928481927,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.740685637312042,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18028,
+                  "point_m": [
+                    1.1916171111386435,
+                    3.743137033560073,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23882,
+                  "point_m": [
+                    1.4114986077949734,
+                    3.7410663837751374,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 87,
+              "within_declared_hinge_contact_zone": 87,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4835705272585367,
+                    3.73804388124458,
+                    10.085908890826069
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 22064,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7355790687998573,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4808442082664917,
+                    3.7383504204375133,
+                    10.085903386999062
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23881,
+                  "point_m": [
+                    1.25,
+                    3.7425872350635965,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23008,
+                  "point_m": [
+                    1.4336343944405427,
+                    3.740857928481927,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.740685637312042,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18028,
+                  "point_m": [
+                    1.1916171111386435,
+                    3.743137033560073,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23882,
+                  "point_m": [
+                    1.4114986077949734,
+                    3.7410663837751374,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 87,
+              "within_declared_hinge_contact_zone": 87,
+              "outside_declared_hinge_zone": 0,
+              "examples": [
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23010,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23043,
+                  "point_m": [
+                    1.4835705272585367,
+                    3.73804388124458,
+                    10.085908890826069
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 22064,
+                  "point_m": [
+                    1.4972803592681885,
+                    3.7355790687998573,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23042,
+                  "point_m": [
+                    1.4808442082664917,
+                    3.7383504204375133,
+                    10.085903386999062
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 0,
+                  "triangle_b": 23045,
+                  "point_m": [
+                    1.482074174169135,
+                    3.737291321863488,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 1,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4543828983589495,
+                    3.7404094262093808,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23881,
+                  "point_m": [
+                    1.25,
+                    3.7425872350635965,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23008,
+                  "point_m": [
+                    1.4336343944405427,
+                    3.740857928481927,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23007,
+                  "point_m": [
+                    1.4519299268722534,
+                    3.740685637312042,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 18028,
+                  "point_m": [
+                    1.1916171111386435,
+                    3.743137033560073,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                },
+                {
+                  "triangle_a": 2,
+                  "triangle_b": 23882,
+                  "point_m": [
+                    1.4114986077949734,
+                    3.7410663837751374,
+                    10.074666023254395
+                  ],
+                  "within_declared_50mm_hinge_zone": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_well",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED"
+          ],
+          "parts_b": [
+            "GEAR_WELL_NOSE"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_cover",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED"
+          ],
+          "parts_b": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_wheels_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_WHEELS_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "nose_cover_vs_skin",
+          "control": "gear_nose",
+          "parts_a": [
+            "NOSE_GEAR_COVER_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "CROSSINGS_REQUIRE_REVIEW",
+          "sampled_outside_hinge_crossings": 101,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 32,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 32,
+              "examples": [
+                {
+                  "triangle_a": 168,
+                  "triangle_b": 30891,
+                  "point_m": [
+                    -0.5891684240143945,
+                    0.6105683270593584,
+                    -10.626783950233254
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 168,
+                  "triangle_b": 30892,
+                  "point_m": [
+                    -0.5892797055289908,
+                    0.6111465735705678,
+                    -10.655906222700326
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 168,
+                  "triangle_b": 30893,
+                  "point_m": [
+                    -0.5896683079016113,
+                    0.6121554328800748,
+                    -10.75909426768593
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 169,
+                  "triangle_b": 30894,
+                  "point_m": [
+                    -0.5901357503767188,
+                    0.6107706967104849,
+                    -10.86190900770543
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 169,
+                  "triangle_b": 30893,
+                  "point_m": [
+                    -0.5896683079016113,
+                    0.6121554328800748,
+                    -10.75909426768593
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 169,
+                  "triangle_b": 30895,
+                  "point_m": [
+                    -0.5903159312307175,
+                    0.6102369458571243,
+                    -10.901540079689394
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 170,
+                  "triangle_b": 30891,
+                  "point_m": [
+                    -0.5635922679662074,
+                    0.6077000400160861,
+                    -10.614660389799798
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 171,
+                  "triangle_b": 30891,
+                  "point_m": [
+                    -0.5825169094241691,
+                    0.6098231978356697,
+                    -10.623673022468196
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 178,
+                  "triangle_b": 30892,
+                  "point_m": [
+                    -0.5378968119621277,
+                    0.6049144479231297,
+                    -10.60741676899554
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 178,
+                  "triangle_b": 30893,
+                  "point_m": [
+                    -0.5378968119621277,
+                    0.6075828638508936,
+                    -10.81722275594935
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 179,
+                  "triangle_b": 30894,
+                  "point_m": [
+                    -0.5378968119621277,
+                    0.6073895999706345,
+                    -10.831228018493155
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 179,
+                  "triangle_b": 30893,
+                  "point_m": [
+                    -0.5378968119621277,
+                    0.6075828638508936,
+                    -10.81722275594935
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                }
+              ]
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 69,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 69,
+              "examples": [
+                {
+                  "triangle_a": 10,
+                  "triangle_b": 4720,
+                  "point_m": [
+                    -0.796831225582186,
+                    0.6305888514830464,
+                    -10.66331164034773
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 11,
+                  "triangle_b": 4720,
+                  "point_m": [
+                    -0.796831225582186,
+                    0.6305888514830466,
+                    -10.66331164034773
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 16892,
+                  "point_m": [
+                    -0.7317895680716329,
+                    0.6235717845461417,
+                    -10.68185021994147
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 12,
+                  "triangle_b": 4720,
+                  "point_m": [
+                    -0.7958528076644417,
+                    0.6310822898725474,
+                    -10.685568147327752
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 45,
+                  "triangle_b": 30537,
+                  "point_m": [
+                    -0.02706865049288911,
+                    0.5786750583894904,
+                    -10.680773772938524
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 45,
+                  "triangle_b": 30551,
+                  "point_m": [
+                    -0.00038769026286900043,
+                    0.5777630681768025,
+                    -10.68151135385936
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 46,
+                  "triangle_b": 30538,
+                  "point_m": [
+                    -0.40397280957664256,
+                    0.592734923578667,
+                    -10.67433049913515
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 46,
+                  "triangle_b": 30537,
+                  "point_m": [
+                    -0.0270686504928892,
+                    0.5786750583894904,
+                    -10.680773772938524
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 47,
+                  "triangle_b": 30538,
+                  "point_m": [
+                    -0.37314811477100057,
+                    0.5910586204734773,
+                    -10.651591073057201
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 48,
+                  "triangle_b": 30669,
+                  "point_m": [
+                    -0.4167821034480557,
+                    0.5932805779518063,
+                    -10.650134287379547
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 48,
+                  "triangle_b": 30538,
+                  "point_m": [
+                    -0.40376120613035205,
+                    0.5922927879188743,
+                    -10.650798424056722
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                },
+                {
+                  "triangle_a": 49,
+                  "triangle_b": 30669,
+                  "point_m": [
+                    -0.4167821034480557,
+                    0.5932805779518063,
+                    -10.650134287379547
+                  ],
+                  "within_declared_50mm_hinge_zone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_well",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED",
+            "WHEEL_LEFT_2_PRESERVED"
+          ],
+          "parts_b": [
+            "GEAR_WELL_LEFT"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_cover",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED",
+            "WHEEL_LEFT_2_PRESERVED"
+          ],
+          "parts_b": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_wheels_vs_skin",
+          "control": "gear_left",
+          "parts_a": [
+            "WHEEL_LEFT_1_PRESERVED",
+            "WHEEL_LEFT_2_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "left_cover_vs_skin",
+          "control": "gear_left",
+          "parts_a": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_well",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED",
+            "WHEEL_RIGHT_2_PRESERVED"
+          ],
+          "parts_b": [
+            "GEAR_WELL_RIGHT"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_cover",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED",
+            "WHEEL_RIGHT_2_PRESERVED"
+          ],
+          "parts_b": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_wheels_vs_skin",
+          "control": "gear_right",
+          "parts_a": [
+            "WHEEL_RIGHT_1_PRESERVED",
+            "WHEEL_RIGHT_2_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        },
+        {
+          "pair": "right_cover_vs_skin",
+          "control": "gear_right",
+          "parts_a": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "parts_b": [
+            "fuselage"
+          ],
+          "status": "NO_STRICT_CROSSINGS_OUTSIDE_HINGE_ZONE_AT_SAMPLES",
+          "sampled_outside_hinge_crossings": 0,
+          "samples": [
+            {
+              "time": 0,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.125,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.25,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.375,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.5,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.625,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.75,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 0.875,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            },
+            {
+              "time": 1,
+              "strict_crossing_triangle_pairs": 0,
+              "within_declared_hinge_contact_zone": 0,
+              "outside_declared_hinge_zone": 0,
+              "examples": []
+            }
+          ]
+        }
+      ],
+      "status": "REVIEW_REQUIRED"
+    }
+  ]
+}

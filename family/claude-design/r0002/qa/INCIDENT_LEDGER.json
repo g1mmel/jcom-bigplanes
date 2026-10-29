@@ -1,0 +1,260 @@
+{
+  "revision": "r0002",
+  "scope": "Development findings; verified_fix requires current exported-byte evidence.",
+  "incidents": [
+    {
+      "id": "C130-QA-001",
+      "observed_problem": "Official validator rejects empty children arrays on leaf nodes.",
+      "artifact_sha256": "50050a58fa97c60fb3ca95808ccc580106dbdc703357b5b7b9113a8a73deb0b5",
+      "evidence": "history/c130.first_export.gltf-validator.json",
+      "diagnosed_cause": "Exporter emitted children:[] on leaf nodes.",
+      "candidate_fix": "Builder reports omitting children when empty.",
+      "verified_fix": {
+        "status": "PASS_FORMAT_CURRENT_BYTES",
+        "report": "gltf-validator-summary.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "errors": 0,
+        "warnings": 0
+      },
+      "unresolved": "Production and photographic acceptance remain separate."
+    },
+    {
+      "id": "C130-QA-002",
+      "observed_problem": "251 fractional TANGENT.w handedness values rejected by official validator.",
+      "artifact_sha256": "50050a58fa97c60fb3ca95808ccc580106dbdc703357b5b7b9113a8a73deb0b5",
+      "evidence": "history/c130.first_export.gltf-validator.json",
+      "diagnosed_cause": "Triangle clipping interpolated all tangent components, including the categorical handedness sign.",
+      "candidate_fix": "Builder reports restoring tangent.w to exact+1/-1 and normalizing XYZ.",
+      "verified_fix": {
+        "status": "PASS_FORMAT_CURRENT_BYTES",
+        "report": "gltf-validator-summary.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "errors": 0,
+        "warnings": 0
+      },
+      "unresolved": "Production and photographic acceptance remain separate."
+    },
+    {
+      "id": "C130-QA-003",
+      "observed_problem": "Outer cargo ramp crosses preserved cabin side surfaces in closed/early-opening samples.",
+      "artifact_sha256": "50050a58fa97c60fb3ca95808ccc580106dbdc703357b5b7b9113a8a73deb0b5",
+      "evidence": "history/first_export_ramp_crossing_breakdown.json",
+      "diagnosed_cause": "Crossings lie at x\u2248\u00b11.55..1.574,y\u22481.974..2.174,z\u22485.409..5.920 on original outer ramp node11 against cabin sides; original interior ramp node22 has zero detected crossings.",
+      "candidate_fix": "Builder applied local cabin-rib relief and narrowly bounded outer ramp-flange trimming/caps; final sampled triangles no longer show the diagnosed crossings.",
+      "verified_fix": {
+        "status": "NO_SUBSTANTIVE_CROSSINGS_IN_SCOPED_CURRENT_GEOMETRY",
+        "report": "sampled_surface_crossings.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "execution_provenance": "Original actual triangle test retained; current indexing explicitly proved exactly equivalent in exact_indexing_equivalence.json."
+      },
+      "unresolved": "Full continuous clearance, containment, coplanar overlap and unenumerated pairs remain unproved; perimeter seams and declared attachment interfaces are retained."
+    },
+    {
+      "id": "C130-QA-004",
+      "observed_problem": "Nose gear cover crosses fuselage skin during final gear closure samples.",
+      "artifact_sha256": "50050a58fa97c60fb3ca95808ccc580106dbdc703357b5b7b9113a8a73deb0b5",
+      "evidence": "history/c130.first_export.surface_crossings.json",
+      "diagnosed_cause": "Crossings at t.875 and1 near x\u2212.59..\u2212.80,y.61..63,z\u221210.63..\u221210.66; original cover/aperture footprint mismatch suspected by builder.",
+      "candidate_fix": "Builder reviewing bounded aperture footprint and conforming nose hatches.",
+      "verified_fix": {
+        "status": "NO_SUBSTANTIVE_CROSSINGS_IN_SCOPED_CURRENT_GEOMETRY",
+        "report": "sampled_surface_crossings.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "execution_provenance": "Original actual triangle test retained; current indexing explicitly proved exactly equivalent in exact_indexing_equivalence.json."
+      },
+      "unresolved": "Full continuous clearance, containment, coplanar overlap and unenumerated pairs remain unproved; perimeter seams and declared attachment interfaces are retained."
+    },
+    {
+      "id": "C130-QA-005",
+      "observed_problem": "New forward nose hatches cross side fuselage in open/parked states.",
+      "artifact_sha256": "fdb8e542c44f354e61f7b33ab9bb4662f1330c62f640fb64b68b2ddfa19ed566",
+      "evidence": "history/second_export.sampled_surface_crossings.json",
+      "diagnosed_cause": "Authored hinge axis appears offset above curved extracted skin edge; observed open-leaf crossings at x\u2248\u00b11.05..1.35,y1.23..1.41,z\u221213.17..\u221212.29.",
+      "candidate_fix": "Builder fitted forward nose hatch hinges to actual source edges, with local sweep-lip relief.",
+      "verified_fix": {
+        "status": "NO_SUBSTANTIVE_CROSSINGS_IN_SCOPED_CURRENT_GEOMETRY",
+        "report": "sampled_surface_crossings.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "execution_provenance": "Original actual triangle test retained; current indexing explicitly proved exactly equivalent in exact_indexing_equivalence.json."
+      },
+      "unresolved": "Full continuous clearance, containment, coplanar overlap and unenumerated pairs remain unproved; perimeter seams and declared attachment interfaces are retained."
+    },
+    {
+      "id": "C130-QA-006",
+      "observed_problem": "Closed endpoint contacts between outer cargo ramp/skin and main gear covers/skin.",
+      "artifact_sha256": "fdb8e542c44f354e61f7b33ab9bb4662f1330c62f640fb64b68b2ddfa19ed566",
+      "evidence": "history/second_export.sampled_surface_crossings.json",
+      "diagnosed_cause": "Only closed endpoints show these strict crossing pairs near closure perimeter: cargo x\u00b11.93,y2.17..2.20,z5.67..5.72; main-cover end edges z\u22123.226/\u2212.326.",
+      "candidate_fix": "Builder adjusted local ramp flange relief and main aperture end bounds to remove measured perimeter interference.",
+      "verified_fix": {
+        "status": "NO_SUBSTANTIVE_CROSSINGS_IN_SCOPED_CURRENT_GEOMETRY",
+        "report": "sampled_surface_crossings.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "execution_provenance": "Original actual triangle test retained; current indexing explicitly proved exactly equivalent in exact_indexing_equivalence.json."
+      },
+      "unresolved": "Full continuous clearance, containment, coplanar overlap and unenumerated pairs remain unproved; perimeter seams and declared attachment interfaces are retained."
+    },
+    {
+      "id": "C130-QA-007",
+      "observed_problem": "Generated sensor sphere poles contained 192 zero-area faces in each gunship variant.",
+      "artifact_sha256": "84cf3ca4de703220cf27e7d70e7d3c237dc3013a75d9e29bc9a32a1870f09ae3",
+      "evidence": "history/second_export.independent_articulation_report.json",
+      "diagnosed_cause": "Generated latitude-longitude sphere retained collapsed pole triangles.",
+      "candidate_fix": "Builder removed generated sphere pole degenerates.",
+      "verified_fix": {
+        "status": "ZERO_DEGENERATE_TRIANGLES_CURRENT_DECODED_BYTES",
+        "report": "independent_articulation_report.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ]
+      },
+      "unresolved": "Photographic surface quality is not established by absence of degenerate faces."
+    },
+    {
+      "id": "C130-QA-008",
+      "observed_problem": "A clipped fuselage sliver collapsed after float32 export quantization.",
+      "artifact_sha256": "2208d13d613fa0c4e960bbe45db0d84dfeede30c642501ab52a531049fdfcd3f",
+      "evidence": "history/third_export.independent_articulation_report.json",
+      "diagnosed_cause": "Source precision face area was nonzero but stored float32 coordinates made the triangle degenerate.",
+      "candidate_fix": "Builder filters triangle area using actual float32 export positions.",
+      "verified_fix": {
+        "status": "ZERO_DEGENERATE_TRIANGLES_CURRENT_DECODED_BYTES",
+        "report": "independent_articulation_report.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ]
+      },
+      "unresolved": "Photographic surface quality is not established by absence of degenerate faces."
+    },
+    {
+      "id": "C130-QA-009",
+      "observed_problem": "FLYING gear covers clear sampled surfaces but do not fully close their wells: substantial nose gaps and visible main well side walls.",
+      "artifact_sha256": "3c3b4125378eac7496bf7f7aa0f554687d7db731aaa63069fdca7ba4f2c42069",
+      "evidence": [
+        "history/fourth_export.gear_closure_projected_coverage.json",
+        "gear_closure_projected_coverage.json",
+        "../previews/c130-flying-belly.png"
+      ],
+      "diagnosed_cause": "Nose aft cover has insufficient longitudinal footprint in its authored closed pose; extracted forward hatches leave a gap. Main bottom closure covers 99.4% of surveyed mouth but the broad well cut/box exposes side walls.",
+      "quantified_observation": {
+        "nose_forward_well_first_fraction": 0.20634920634920634,
+        "nose_aft_well_first_fraction": 0.4991181657848325,
+        "main_left_side_well_first_fraction": 0.2952227597576873,
+        "main_right_side_well_first_fraction": 0.2954528026991795
+      },
+      "candidate_fix": "Retain original outer main fairing, fit wheel receiving corridor and eliminate outboard well wall; fit preserved original aft nose panel to original hole with staged forward slide and lift. Remove the added bridge.",
+      "verified_fix": {
+        "status": "PASS_SCOPED_NATIVE_DRAFT_CLOSURE",
+        "report": "gear_closure_projected_coverage.json",
+        "native_review": "gear_closure_native_review.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "retained_seams": "Small inner/perimeter seams remain visible and are accepted for draft presentation only."
+      },
+      "unresolved": "No watertight, photographic or full continuous-clearance acceptance is claimed."
+    },
+    {
+      "id": "C130-QA-010",
+      "observed_problem": "Upper cargo door shares triangle crossings with fuselage within a declared 50 mm hinge-axis attachment region.",
+      "artifact_sha256": "3c3b4125378eac7496bf7f7aa0f554687d7db731aaa63069fdca7ba4f2c42069",
+      "evidence": "sampled_surface_crossings.json",
+      "diagnosed_cause": "Builder declares a preserved leaf attachment interface, with contact retained rather than hidden by a blanket tolerance.",
+      "candidate_fix": "No automatic deletion of attachment geometry; require explicit native inspection and scoped acceptance of the interface.",
+      "verified_fix": {
+        "status": "DECLARED_ATTACHMENT_INTERFACE_RETAINED",
+        "report": "sampled_surface_crossings.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "retained_hinge_zone_triangle_pair_counts": [
+          818,
+          782,
+          782
+        ]
+      },
+      "unresolved": "A declared 50 mm hinge region is not independently certified continuous clearance. Native viewing and explicit draft scope remain required.",
+      "native_review_note": "Final exact-hash service-cargo views inspected; the declared attachment interface remains scoped and is not a full clearance certificate."
+    },
+    {
+      "id": "C130-QA-011",
+      "observed_problem": "First gear-closure repair restored inner fuselage surfaces into the main-wheel travel corridor and left new nose hatch tip contacts; well walls also protruded outside restored side skin.",
+      "artifact_sha256": "5243faf18eecc6cbc5ad409f24ef2bc80e16be13bbd74ce2d4b6578e845d9a41",
+      "evidence": [
+        "history/fifth_export.gear_repair_surface_crossings.json",
+        "history/fifth_export.gear_closure_projected_coverage.json",
+        "history/fifth_export.nose_repair_surface_crossings.json"
+      ],
+      "diagnosed_cause": "Keeping all original skin above the wheel-opening sill also kept inner shell surfaces crossed by vertically translating wheels. Rectangular well wall extended 15\u201335 mm outboard of the source skin at representative X-depth rays.",
+      "candidate_fix": "Builder separating outer sponson skin from the inner wheel corridor and refitting the bounded well geometry; forward hatch lip sweep also requires localized review.",
+      "verified_fix": {
+        "status": "NO_SUBSTANTIVE_CROSSINGS_IN_SCOPED_CURRENT_GEOMETRY",
+        "report": "sampled_surface_crossings.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ],
+        "execution_provenance": "Original actual triangle test retained; current indexing explicitly proved exactly equivalent in exact_indexing_equivalence.json."
+      },
+      "unresolved": "Full continuous clearance, containment, coplanar overlap and unenumerated pairs remain unproved; perimeter seams and declared attachment interfaces are retained."
+    },
+    {
+      "id": "C130-QA-012",
+      "observed_problem": "The corrected original nose panel still crossed restored skin at the .95 closing stage; the forward hatch clipped its arbitrary aft extraction lip at .875.",
+      "artifact_sha256": "8ef714948bcfa0812faba24174603da0fe48fd01a9c5d26551cdffdfd1d8b298",
+      "evidence": "history/sixth_export.gear_repair_surface_crossings.json",
+      "diagnosed_cause": "Aft panel forward/up movement occurred together before reaching the original opening; a forward leaf had an artificial clipping edge and clearing translation.",
+      "candidate_fix": "Finish forward slide/tilt before final lift; use the natural original forward leaf edge and fitted source-only hinge.",
+      "verified_fix": {
+        "status": "NO_SUBSTANTIVE_CROSSINGS_AT_ORDINARY_AND_095_NOSE_SAMPLES",
+        "report": "sampled_surface_crossings.json",
+        "hashes": [
+          "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+          "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+          "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+        ]
+      },
+      "unresolved": "Only declared sampled poses are proved; full continuous clearance is not certified."
+    }
+  ],
+  "updated_utc": "2026-10-29T03:26:19.212473+00:00",
+  "current_artifact_hashes": {
+    "c130": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+    "ac130": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+    "ac130j": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+  },
+  "current_status": "SCOPED_DRAFT_GATES_PASSED_PRODUCTION_NOT_ACCEPTED"
+}

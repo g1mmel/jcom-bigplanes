@@ -1,0 +1,1870 @@
+{
+  "author": "claude-design",
+  "input": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/c130.glb",
+  "input_sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "native_units": "metres; +Z up; nose +Y; scene unit scale 1",
+  "objects": 144,
+  "meshes": 111,
+  "actions": 27,
+  "triangles": 159558,
+  "blender_bounds_min": [
+    -20.205015182495117,
+    -14.894960403442383,
+    5.662441253662109e-07
+  ],
+  "blender_bounds_max": [
+    20.204984664916992,
+    14.895039558410645,
+    11.84000015258789
+  ],
+  "materials": [
+    "ACTUATOR_METAL",
+    "ACTUATOR_METAL.001",
+    "BAY_INTERIOR_DARK",
+    "COCKPIT_GLASS",
+    "houseTint",
+    "PRESERVED_INTERIOR_NORMAL_MASTER",
+    "PRESERVED_SKIN_NORMAL_MASTER",
+    "REPLACEABLE_NEUTRAL_AIRFRAME",
+    "REPLACEABLE_NEUTRAL_AIRFRAME.001",
+    "RUBBER_AND_PROPELLER"
+  ],
+  "images": [
+    {
+      "name": "Image_0",
+      "width": 4096,
+      "height": 4096,
+      "packed": true
+    },
+    {
+      "name": "Image_1",
+      "width": 4096,
+      "height": 4096,
+      "packed": true
+    }
+  ],
+  "animation_inventory": [
+    {
+      "node": "PIVOT_flap_right",
+      "tracks": [
+        {
+          "track": "flap_right",
+          "mute": true,
+          "strips": [
+            {
+              "name": "flap_right",
+              "action": "flap_right",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_aileron_right",
+      "tracks": [
+        {
+          "track": "aileron_right",
+          "mute": true,
+          "strips": [
+            {
+              "name": "aileron_right",
+              "action": "aileron_right",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_elevator_right",
+      "tracks": [
+        {
+          "track": "elevator_right",
+          "mute": true,
+          "strips": [
+            {
+              "name": "elevator_right",
+              "action": "elevator_right",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_flap_left",
+      "tracks": [
+        {
+          "track": "flap_left",
+          "mute": true,
+          "strips": [
+            {
+              "name": "flap_left",
+              "action": "flap_left",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_aileron_left",
+      "tracks": [
+        {
+          "track": "aileron_left",
+          "mute": true,
+          "strips": [
+            {
+              "name": "aileron_left",
+              "action": "aileron_left",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_elevator_left",
+      "tracks": [
+        {
+          "track": "elevator_left",
+          "mute": true,
+          "strips": [
+            {
+              "name": "elevator_left",
+              "action": "elevator_left",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_rudder",
+      "tracks": [
+        {
+          "track": "rudder",
+          "mute": true,
+          "strips": [
+            {
+              "name": "rudder",
+              "action": "rudder",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_1",
+      "tracks": [
+        {
+          "track": "prop_1",
+          "mute": true,
+          "strips": [
+            {
+              "name": "prop_1",
+              "action": "prop_1",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_2",
+      "tracks": [
+        {
+          "track": "prop_2",
+          "mute": true,
+          "strips": [
+            {
+              "name": "prop_2",
+              "action": "prop_2",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_3",
+      "tracks": [
+        {
+          "track": "prop_3",
+          "mute": true,
+          "strips": [
+            {
+              "name": "prop_3",
+              "action": "prop_3",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_4",
+      "tracks": [
+        {
+          "track": "prop_4",
+          "mute": true,
+          "strips": [
+            {
+              "name": "prop_4",
+              "action": "prop_4",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_cargo_ramp",
+      "tracks": [
+        {
+          "track": "cargo_ramp",
+          "mute": true,
+          "strips": [
+            {
+              "name": "cargo_ramp",
+              "action": "cargo_ramp",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_cargo_upper_door",
+      "tracks": [
+        {
+          "track": "cargo_upper_door",
+          "mute": true,
+          "strips": [
+            {
+              "name": "cargo_upper_door",
+              "action": "cargo_upper_door",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        },
+        {
+          "track": "cargo_ramp",
+          "mute": true,
+          "strips": [
+            {
+              "name": "cargo_ramp",
+              "action": "cargo_ramp",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_crew_door",
+      "tracks": [
+        {
+          "track": "crew_door",
+          "mute": true,
+          "strips": [
+            {
+              "name": "crew_door",
+              "action": "crew_door",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_paratroop_right",
+      "tracks": [
+        {
+          "track": "paratroop_right",
+          "mute": true,
+          "strips": [
+            {
+              "name": "paratroop_right",
+              "action": "paratroop_right",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_paratroop_left",
+      "tracks": [
+        {
+          "track": "paratroop_left",
+          "mute": true,
+          "strips": [
+            {
+              "name": "paratroop_left",
+              "action": "paratroop_left",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_left",
+      "tracks": [
+        {
+          "track": "gear_left",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_left",
+              "action": "gear_left",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_left_1",
+      "tracks": [
+        {
+          "track": "wheel_left_1",
+          "mute": true,
+          "strips": [
+            {
+              "name": "wheel_left_1",
+              "action": "wheel_left_1",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_left_2",
+      "tracks": [
+        {
+          "track": "wheel_left_2",
+          "mute": true,
+          "strips": [
+            {
+              "name": "wheel_left_2",
+              "action": "wheel_left_2",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_left",
+      "tracks": [
+        {
+          "track": "gear_door_left",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_door_left",
+              "action": "gear_door_left",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        },
+        {
+          "track": "gear_left",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_left",
+              "action": "gear_left",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_right",
+      "tracks": [
+        {
+          "track": "gear_right",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_right",
+              "action": "gear_right",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_right_1",
+      "tracks": [
+        {
+          "track": "wheel_right_1",
+          "mute": true,
+          "strips": [
+            {
+              "name": "wheel_right_1",
+              "action": "wheel_right_1",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_right_2",
+      "tracks": [
+        {
+          "track": "wheel_right_2",
+          "mute": true,
+          "strips": [
+            {
+              "name": "wheel_right_2",
+              "action": "wheel_right_2",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_right",
+      "tracks": [
+        {
+          "track": "gear_door_right",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_door_right",
+              "action": "gear_door_right",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        },
+        {
+          "track": "gear_right",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_right",
+              "action": "gear_right",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_nose",
+      "tracks": [
+        {
+          "track": "gear_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_nose",
+              "action": "gear_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_nose",
+      "tracks": [
+        {
+          "track": "wheel_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "wheel_nose",
+              "action": "wheel_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_nose",
+      "tracks": [
+        {
+          "track": "gear_door_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_door_nose",
+              "action": "gear_door_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        },
+        {
+          "track": "gear_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_nose",
+              "action": "gear_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_nose_forward_hatch_left",
+      "tracks": [
+        {
+          "track": "gear_door_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_door_nose",
+              "action": "gear_door_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        },
+        {
+          "track": "gear_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_nose",
+              "action": "gear_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_nose_forward_hatch_right",
+      "tracks": [
+        {
+          "track": "gear_door_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_door_nose",
+              "action": "gear_door_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        },
+        {
+          "track": "gear_nose",
+          "mute": true,
+          "strips": [
+            {
+              "name": "gear_nose",
+              "action": "gear_nose",
+              "start": 1.0,
+              "end": 25.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "native_unreal": "NOT_RUN",
+  "photographic_acceptance": "NOT_RUN",
+  "native_animation_evaluation": {
+    "method": "Actual imported Blender NLA tracks, seven samples per clip; finite target matrices and actual change required. This is not collision or photographic certification.",
+    "clips": [
+      {
+        "clip": "flap_right",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.003146142465993762,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.020753241376951337,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.08365875412710011,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.27138167549856007,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.4490168981719762,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.5042200975585729,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.5246398739982396,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "aileron_right",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.012697421945631504,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.046157144010066986,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.1472143977880478,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.24674157798290253,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.2790284752845764,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.29119476675987244,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "elevator_right",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.01604251191020012,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.058304060250520706,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.18554024398326874,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.3095487356185913,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.3493388295173645,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.36426275968551636,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "flap_left",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.0238993838429451,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.08680489659309387,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.27452781796455383,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.45216304063796997,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.5073662400245667,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.5277860164642334,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "aileron_left",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.012697421945631504,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.046157144010066986,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.1472143977880478,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.24674157798290253,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.2790284752845764,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.29119476675987244,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "elevator_left",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.01604251191020012,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.058304060250520706,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.18554024398326874,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.3095487356185913,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.3493388295173645,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.36426275968551636,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "rudder",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.018451031297445297,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.067046619951725,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.21301625669002533,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.3542026877403259,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.39913854002952576,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.41593384742736816,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "prop_1",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "prop_2",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "prop_3",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "prop_4",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "cargo_ramp",
+        "native_tracks": 2,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.13092674314975739,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.3176112174987793,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.3420202136039734,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.34808728098869324,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.4299275577068329,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.4617486000061035,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "cargo_upper_door",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.01499836053699255,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.05451450124382973,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.1736481785774231,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.290284663438797,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.32788780331611633,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.3420202136039734,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "crew_door",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.09509923309087753,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.33945631980895996,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.8949344158172607,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.294978529214859,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 1.5231378674507141,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 1.6018149852752686,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "paratroop_right",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.21472012996673584,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.3799999952316284,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.7380419969558716,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.5827395915985107,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 1.8829636573791504,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "paratroop_left",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.21472012996673584,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.3799999952316284,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.7380419969558716,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.5827395915985107,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 1.8829636573791504,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "wheel_left_1",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "wheel_left_2",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "gear_left",
+        "native_tracks": 2,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.24167361855506897,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.30901700258255005,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.7966265082359314,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.2499999403953552,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 1.2499999403953552,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 1.2499999403953552,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "gear_door_left",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.013498621061444283,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.049067676067352295,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.15643450617790222,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.2619786858558655,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.29615095257759094,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.30901700258255005,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "wheel_right_1",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "wheel_right_2",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "gear_right",
+        "native_tracks": 2,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.24167361855506897,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.30901700258255005,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.7966265082359314,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.2499999403953552,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 1.2499999403953552,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 1.2499999403953552,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "gear_door_right",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.013498621061444283,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.049067676067352295,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.15643450617790222,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.2619786858558655,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.29615095257759094,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.30901700258255005,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "wheel_nose",
+        "native_tracks": 1,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 2.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 2.4492937051703357e-16,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "gear_nose",
+        "native_tracks": 4,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.10827188193798065,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.13917310535907745,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.8540151715278625,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 1.1391731649637222,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 1.1391731649637222,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 1.1391731649637222,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      },
+      {
+        "clip": "gear_door_nose",
+        "native_tracks": 3,
+        "sampled_times": [
+          {
+            "normalized_time": 0,
+            "max_target_matrix_delta": 0.0,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.125,
+            "max_target_matrix_delta": 0.005999533459544182,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.25,
+            "max_target_matrix_delta": 0.02181488461792469,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.5,
+            "max_target_matrix_delta": 0.06975647062063217,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.75,
+            "max_target_matrix_delta": 0.11753740161657333,
+            "finite": true
+          },
+          {
+            "normalized_time": 0.875,
+            "max_target_matrix_delta": 0.13322944939136505,
+            "finite": true
+          },
+          {
+            "normalized_time": 1,
+            "max_target_matrix_delta": 0.13917310535907745,
+            "finite": true
+          }
+        ],
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "blend_path": "editable/c130-r0002.blend",
+  "blend_sha256": "69b09536ecc6b47dc8269c942b839f2e017198e385e51824690acef63e73b42b",
+  "blend_reopen": {
+    "result": "PASS",
+    "objects": 144,
+    "actions": 27,
+    "packed_images": true
+  },
+  "renders": [
+    {
+      "path": "previews/c130-parked-hero.png",
+      "sha256": "cdc0cb871c3c11748b083a65bc9e35fffb376837fe07935d8e04cbef89e293b8",
+      "pose": "parked",
+      "camera": "hero"
+    },
+    {
+      "path": "previews/c130-parked-rear.png",
+      "sha256": "a8b37b307297e21467c21ea17ce3f9289eab21fa43ed999c366f0289c8d3e080",
+      "pose": "parked",
+      "camera": "rear"
+    },
+    {
+      "path": "previews/c130-parked-side.png",
+      "sha256": "d868524d0154656c0015f4190388c5d32dcd49b455a410a63588de9a38df175e",
+      "pose": "parked",
+      "camera": "side"
+    },
+    {
+      "path": "previews/c130-parked-front.png",
+      "sha256": "90de319a2e674f301e6a825c7a9a02a296a676a181ef4b7a0fceb42ef228921c",
+      "pose": "parked",
+      "camera": "front"
+    },
+    {
+      "path": "previews/c130-parked-top.png",
+      "sha256": "1694998f0588ab8b05ddad1c9c96f965b69e1861e442d2ead69315666da4c310",
+      "pose": "parked",
+      "camera": "top"
+    },
+    {
+      "path": "previews/c130-service-hero.png",
+      "sha256": "a5659ef78e307a5e8029c490451f827ea272b1cab7de7307bf86ba0b359fba84",
+      "pose": "SERVICE",
+      "camera": "hero"
+    },
+    {
+      "path": "previews/c130-service-cargo.png",
+      "sha256": "61371aa0c237f27b59900d002338cbe97f7b54029a9233c4b0d052e273ee7d47",
+      "pose": "SERVICE",
+      "camera": "cargo"
+    },
+    {
+      "path": "previews/c130-service-entry.png",
+      "sha256": "93196ba0d869217c5f556ed6157cb130ca421509e4c694d1ffbfa1d8c3e817b4",
+      "pose": "SERVICE",
+      "camera": "entry"
+    },
+    {
+      "path": "previews/c130-flying-hero.png",
+      "sha256": "db7d8130adaac59a014f6298e55de3072617d8522789da26057f7ebd35b22536",
+      "pose": "FLYING",
+      "camera": "hero"
+    },
+    {
+      "path": "previews/c130-flying-rear.png",
+      "sha256": "513ddc3837559e8ac94638a4e1484a2b4ac7aa6ced8135c7d71bde41518b35ae",
+      "pose": "FLYING",
+      "camera": "rear"
+    },
+    {
+      "path": "previews/c130-flying-belly.png",
+      "sha256": "503c5f03720518b8eb5068c58656e93bd370c97c90f5b9d7593a8193ff84e253",
+      "pose": "FLYING",
+      "camera": "belly"
+    },
+    {
+      "path": "previews/c130-global_50-hero.png",
+      "sha256": "43010d49026d834d77a5dc64313843fc77e19d616630fa134eb5363e6e7b6b72",
+      "pose": "GLOBAL_50",
+      "camera": "hero"
+    },
+    {
+      "path": "previews/c130-global_50-rear.png",
+      "sha256": "b073c68ec88f3aedd23e346d599a1242628b52295649ddeace0d1f9cf5bc124b",
+      "pose": "GLOBAL_50",
+      "camera": "rear"
+    }
+  ],
+  "controller_pose_source": {
+    "model_sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+    "articulation_sha256": "54f0ca69a323055853137af5825c05cc5c909cc87b6550de650c4a18852ab4b0",
+    "controller_sha256": "803ecd5fce313cc9b768f9792d7156c7ab1f9c9558161fb4b83ca7ecb72e6407",
+    "pose_driver_sha256": "aac824cf19c3ff1a99a2cc162cb15c9ee01231e3f8c2f77c500c4c66831e7530",
+    "runtime": "Three.js 0.170.0; actual GLB scene and animation tracks"
+  },
+  "pose_conversions": [
+    {
+      "pose": "SERVICE",
+      "max_matrix_error": 2.384185791015625e-07,
+      "result": "PASS"
+    },
+    {
+      "pose": "FLYING",
+      "max_matrix_error": 9.5367431640625e-07,
+      "result": "PASS"
+    },
+    {
+      "pose": "GLOBAL_50",
+      "max_matrix_error": 9.5367431640625e-07,
+      "result": "PASS"
+    }
+  ],
+  "render_runtime": "Blender Cycles CPU"
+}

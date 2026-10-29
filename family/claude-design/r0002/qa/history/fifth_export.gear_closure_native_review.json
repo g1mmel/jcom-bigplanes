@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-10-29T03:01:14.992264+00:00",
+  "reviewer": "Independent model QA agent; actual native preview inspected",
+  "scope": "Draft gear closure at FLYING endpoint, not photographic or operational acceptance",
+  "models": [
+    {
+      "id": "c130",
+      "model_sha256": "5243faf18eecc6cbc5ad409f24ef2bc80e16be13bbd74ce2d4b6578e845d9a41",
+      "status": "FAIL",
+      "native_report": "qa/c130-blender.json",
+      "native_report_sha256": "1a743779b813bbd691db3acd4bcacce4acabf308e8ba55d98af70a2253a3b68f",
+      "images": [
+        {
+          "path": "previews/c130-flying-belly.png",
+          "sha256": "658cd9967cbcca97d379b12f64fd2b31bd61d3968357d613c5ecd3cb9974a505",
+          "pose": "FLYING",
+          "camera": "belly"
+        }
+      ],
+      "observations": [
+        "Large dark main-well rectangle remains visible outside the closed aircraft side in the actual native belly preview.",
+        "Projection diagnostics identify outboard dark well faces and residual nose edge exposure."
+      ],
+      "remaining_limitations": [
+        "Closed endpoint alone cannot establish continuous motion clearance."
+      ]
+    }
+  ]
+}

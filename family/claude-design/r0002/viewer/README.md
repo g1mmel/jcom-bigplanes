@@ -6,7 +6,7 @@ The viewer loads the **actual current GLBs** from `../models/` and drives their 
 
 ## Open
 
-The generated `C130-family-portable.html` embeds all three models, their mechanism data, and the pinned Three.js runtime. Open that file directly. No network connection or local server is required.
+The generated `C130-family-portable.html` embeds all three models, their mechanism data, and the pinned Three.js runtime. Open that file directly in a current browser with WebGL2 and gzip `DecompressionStream` support. No network connection or local server is required. Models are losslessly compressed inside the HTML and their exact GLB hashes are checked when loaded.
 
 For the normal folder version, run this command **from the revision directory**:
 
@@ -18,7 +18,7 @@ Then open `http://localhost:8000/viewer/`. Opening `index.html` through `file://
 
 ## Controls
 
-- **ASSET** selects the current C-130, legacy AC-130, or AC-130J candidate export.
+- **ASSET** selects the current C-130H, circa-2021 AC-130W Stinger II, or AC-130J candidate export.
 - **PARKED / SERVICE / FLYING** select authored presentation presets. FLYING is a mechanism configuration, not a flight-dynamics simulation.
 - **WIREFRAME / X-RAY / SURFACE** inspect mesh topology, internal geometry, and preserved materials. Triangle counts are computed from the loaded meshes.
 - **Actuate everything** covers every exported control. Compatible mechanisms run concurrently; cargo/personnel access and standalone gear doors close before propulsion and gear retraction.

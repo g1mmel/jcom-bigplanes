@@ -1,0 +1,1584 @@
+{
+  "schema": "jcnc.reference-ledger/1",
+  "revision": "claude-design/r0002",
+  "research_date": "2026-10-29",
+  "scope": "Visual game geometry and authored articulation. No operational weapon engineering.",
+  "asset_acceptance": "DRAFT_REFERENCE_GAPS_REMAIN",
+  "source_licensing": "UNRESOLVED_ORIGINAL_MODEL_PROVENANCE",
+  "reference_image_distribution": "NOT_BUNDLED",
+  "sources": [
+    {
+      "id": "USAF_W_2021",
+      "url": "https://www.hurlburt.af.mil/About-Us/Fact-Sheets/Fact-Sheets/Article/2559094/ac-130w-stinger-ii/",
+      "publisher": "USAF / Hurlburt Field",
+      "title": "AC-130W Stinger II",
+      "date": "2021-03",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "factsheet",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "Modified C-130H; T56-A15; two EO/IR sensors;30 mm and105 mm installations."
+      ],
+      "limits": [
+        "Does not certify source mesh dimensions, motion limits, collision clearance, or implementation correctness."
+      ],
+      "rights": "External source retains applicable rights. No document redistributed."
+    },
+    {
+      "id": "USAF_H_J",
+      "url": "https://www.amc.af.mil/About-Us/Fact-Sheets/Display/Article/2848932/c-130-hercules/",
+      "publisher": "USAF / Air Mobility Command",
+      "title": "C-130 Hercules",
+      "date": null,
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "factsheet",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "H and J propulsion/crew distinction; J six-blade composite propellers and digital flight deck."
+      ],
+      "limits": [
+        "Does not certify source mesh dimensions, motion limits, collision clearance, or implementation correctness."
+      ],
+      "rights": "External source retains applicable rights. No document redistributed."
+    },
+    {
+      "id": "USAF_J",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/",
+      "publisher": "USAF",
+      "title": "AC-130J Ghostrider",
+      "date": null,
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "factsheet",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "Modified C-130J; two EO/IR sensors and30 mm/105 mm installations."
+      ],
+      "limits": [
+        "Does not certify source mesh dimensions, motion limits, collision clearance, or implementation correctness."
+      ],
+      "rights": "External source retains applicable rights. No document redistributed."
+    },
+    {
+      "id": "COLLINS_NP2000",
+      "url": "https://www.rtx.com/collinsaerospace/what-we-do/industries/military-and-defense/exteriors/np2000-propeller-system",
+      "publisher": "Collins Aerospace",
+      "title": "NP2000 propeller system",
+      "date": null,
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "manufacturer",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "Eight-blade legacy upgrade exists; four blades are an explicit historical configuration, not every H."
+      ],
+      "limits": [
+        "Does not certify source mesh dimensions, motion limits, collision clearance, or implementation correctness."
+      ],
+      "rights": "External source retains applicable rights. No document redistributed."
+    },
+    {
+      "id": "USN_GEAR_MIRROR",
+      "url": "https://info.publicintelligence.net/USNavy-C130T.pdf",
+      "publisher": "USN original document; unofficial hosting mirror",
+      "title": "C-130T manual",
+      "date": null,
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "manual_mirror",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "Text corroborates nose gear forward retraction and vertical main-gear retraction; no motion frame inspected."
+      ],
+      "limits": [
+        "Does not certify source mesh dimensions, motion limits, collision clearance, or implementation correctness."
+      ],
+      "rights": "External source retains applicable rights. No document redistributed."
+    },
+    {
+      "id": "USCG_GEAR_MIRROR",
+      "url": "https://uniforce-sog.org/wp-content/uploads/2024/07/USCG-Lockheed-C-130-Flight-Manual.pdf",
+      "publisher": "USCG original document; unofficial hosting mirror",
+      "title": "CGTO1C-130-1",
+      "date": null,
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "manual_mirror",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "Nose gear swinging down/aft for extension; main gear raised/lowered vertically. Corroboration only."
+      ],
+      "limits": [
+        "Does not certify source mesh dimensions, motion limits, collision clearance, or implementation correctness."
+      ],
+      "rights": "External source retains applicable rights. No document redistributed."
+    },
+    {
+      "id": "USAF_DOOR_MIRROR",
+      "url": "https://www.0x4d.net/files/AF1/R11%20Segment%207.pdf",
+      "publisher": "USAF original document; unofficial hosting mirror",
+      "title": "TO00-105E-9 C-130 segment",
+      "date": null,
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "manual_mirror",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "Crew entry outward/down and troop entry inward/up descriptions; not a complete motion sequence."
+      ],
+      "limits": [
+        "Does not certify source mesh dimensions, motion limits, collision clearance, or implementation correctness."
+      ],
+      "rights": "External source retains applicable rights. No document redistributed."
+    },
+    {
+      "id": "DVIDS_8302222",
+      "url": "https://www.dvidshub.net/image/8302222/ac-130w-static-display-unveiled",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2403/8302222/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "ac 130w static display unveiled",
+      "variant": "AC-130W museum/static",
+      "date_taken": "2024-03-21",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_display.jpg",
+      "local_research_sha256": "6da8597794687e531acd812cdeeae03687455ef1f20f14bac3676db7c53e8787",
+      "image_bytes": 259184,
+      "geometry_useful": true,
+      "observations": [
+        "Front view of static-display aircraft88-1308, chin sensor and four-blade props. Museum fit differs from operational evidence."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7135325",
+      "url": "https://www.dvidshub.net/image/7135325/balikatan-22-ac-130j-ghostrider-static-display",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2204/7135325/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "balikatan 22 ac 130j ghostrider static display",
+      "variant": "AC-130J",
+      "date_taken": "2022-03-29",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_display.jpg",
+      "local_research_sha256": "e70a4da389e5c89f5fc38351dcdda31d6a4435090b1533e2e87046ab26a260c3",
+      "image_bytes": 315863,
+      "geometry_useful": true,
+      "observations": [
+        "Interior aft-side opening with door raised overhead and upward-lift label; bounded cabin."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7368321",
+      "url": "https://www.dvidshub.net/image/7368321/c-130j-transition-track-guardsmen-prepare-change",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2208/7368321/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "c 130j transition track guardsmen prepare change",
+      "variant": "C-130J family comparison",
+      "date_taken": "2022-08-11",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_ramp_inspection.jpg",
+      "local_research_sha256": "f2ec6997fc7d5881026e4f4436b67f0d2131856567e32092e283368467a5dc35",
+      "image_bytes": 254682,
+      "geometry_useful": true,
+      "observations": [
+        "Interior looking aft, ramp ground-open and upper cargo door raised inward beneath roof."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7536231",
+      "url": "https://www.dvidshub.net/image/7536231/dyess-c-130j-flight",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2212/7536231/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "dyess c 130j flight",
+      "variant": "C-130J family comparison",
+      "date_taken": "2022-11-30",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_ramp_lower.jpg",
+      "local_research_sha256": "1d2f0754079b5267c4e0aeb391069f361c8ccbf17a323aecaf08bd053774696e",
+      "image_bytes": 268462,
+      "geometry_useful": true,
+      "observations": [
+        "In-flight open cargo bay; lower ramp horizontal platform, upper door under roof."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_9092109",
+      "url": "https://www.dvidshub.net/image/9092109/d-day-c-130-media-flight",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2506/9092109/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "d day c 130 media flight",
+      "variant": "C-130J family comparison",
+      "date_taken": "2025-06-05",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_ramp_open.jpg",
+      "local_research_sha256": "3ac0323517c93aa2af5518f645b56e86f0494a07dce7691e58cdfa3dfbedada7",
+      "image_bytes": 251689,
+      "geometry_useful": true,
+      "observations": [
+        "Another open in-flight aft view; cargo sides, floor and roof frame visible."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_8336056",
+      "url": "https://www.dvidshub.net/image/8336056/cargo-loading",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2404/8336056/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "cargo loading",
+      "variant": "C-130J family comparison",
+      "date_taken": "2024-04-11",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_cargo_load.jpg",
+      "local_research_sha256": "70a53d122137fd82e611acd7f258bce76bb50e952bb5015a300c5f79bde7602b",
+      "image_bytes": 147419,
+      "geometry_useful": false,
+      "observations": [
+        "Pallet/floor-rail close-up; not overall ramp shape authority."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7918483",
+      "url": "https://www.dvidshub.net/image/7918483/centcom-ghostriders",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2307/7918483/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Leon Redfern",
+      "title": "centcom ghostriders",
+      "variant": "AC-130J",
+      "date_taken": "2023-06-28",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_30mm.jpg",
+      "local_research_sha256": "e0fc5e32356cc5c99f4d862302eed8e3d458d9cda93adab0dd3fc277457c0840",
+      "image_bytes": 268806,
+      "geometry_useful": true,
+      "observations": [
+        "Interior visual arrangement at forward installation. No operating mechanism inference."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4218306",
+      "url": "https://www.dvidshub.net/image/4218306/airmen-perform-engine-swap-c-130j",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1803/4218306/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "airmen perform engine swap c 130j",
+      "variant": "C-130J family comparison",
+      "date_taken": "2018-03-14",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_engine.jpg",
+      "local_research_sha256": "d3cfa2061a27651caa6f20920046039924681a22354390359ea7b3757e0a55ee",
+      "image_bytes": 486332,
+      "geometry_useful": false,
+      "observations": [
+        "Removed/open engine from rear during maintenance. Unsuitable closed nacelle/intake reference."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610490",
+      "url": "https://www.dvidshub.net/image/4610490/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610490/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07-23",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_sortie.jpg",
+      "local_research_sha256": "211d287f6ffd787d22cbfc7174596cd02bf52befca2650ca9ed78acbaedc930d",
+      "image_bytes": 121894,
+      "geometry_useful": true,
+      "observations": [
+        "Port forward nose, chin sensor, crew entry lowered outward/down. Stair bottom partly cropped."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610577",
+      "url": "https://www.dvidshub.net/image/4610577/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610577/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_takeoff.jpg",
+      "local_research_sha256": "f7ba8d77413aafbc0d006c44f408b7743e01adcfc35f5c631bb81c8e6fab6a67",
+      "image_bytes": 160835,
+      "geometry_useful": true,
+      "observations": [
+        "Analogue flight-engineer instrument panel; filename is a search label, not observed exterior takeoff."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610502",
+      "url": "https://www.dvidshub.net/image/4610502/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610502/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610502.jpg",
+      "local_research_sha256": "385b15832badac100fbf23ae8ba49b371e19fa2c5bb8afc7baf86d598bdcd920",
+      "image_bytes": 102830,
+      "geometry_useful": true,
+      "observations": [
+        "Front cockpit glazing and roof-mounted small sensor features; lower nose cropped."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610505",
+      "url": "https://www.dvidshub.net/image/4610505/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610505/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610505.jpg",
+      "local_research_sha256": "20fe3cd0a34df1cd0cd31063d6b86f2c4033bed9d2e6c77c8306bc852e897c36",
+      "image_bytes": 95524,
+      "geometry_useful": true,
+      "observations": [
+        "Side cockpit glazing and radome profile; lower surfaces dark/cropped."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610518",
+      "url": "https://www.dvidshub.net/image/4610518/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610518/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610518.jpg",
+      "local_research_sha256": "3616bf6a7b626ef81db4b191a88a598b4f8362a3c1fe916ed70a09988765283c",
+      "image_bytes": 123498,
+      "geometry_useful": true,
+      "observations": [
+        "Front low angle chin EO/IR optical windows, gear-down stance, four-blade props."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610527",
+      "url": "https://www.dvidshub.net/image/4610527/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610527/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610527.jpg",
+      "local_research_sha256": "48f7a800a735294d7bb315d72fe1ca5b257170dd254821e4cd054f7a76b2914e",
+      "image_bytes": 115490,
+      "geometry_useful": true,
+      "observations": [
+        "Front broad aircraft with people foreground; legacy blade count and nacelle stance."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610532",
+      "url": "https://www.dvidshub.net/image/4610532/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610532/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610532.jpg",
+      "local_research_sha256": "23b6fb697b5a1b949b4c30b9126df0238cceaac291d861f62dbd56b8cc751b06",
+      "image_bytes": 106340,
+      "geometry_useful": true,
+      "observations": [
+        "Port broad side: forward/aft circular gun-station region, open crew stairs, lowered flaps, second low port sensor."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610556",
+      "url": "https://www.dvidshub.net/image/4610556/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610556/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610556.jpg",
+      "local_research_sha256": "5498c4f209c6530cc792b32380505cd80c77eae6efd9c888be300829edf53dab",
+      "image_bytes": 99036,
+      "geometry_useful": false,
+      "observations": [
+        "Starboard nose/chin sensor blurred behind foreground person; not a measurement reference."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610557",
+      "url": "https://www.dvidshub.net/image/4610557/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610557/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610557.jpg",
+      "local_research_sha256": "cad81d90fcd4300f996bdbd08bd502843e27a490863a2daceb494dfbd7587319",
+      "image_bytes": 149002,
+      "geometry_useful": true,
+      "observations": [
+        "Close chin EO/IR housing under forward radome; housing contour and window locations visible."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610565",
+      "url": "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610565/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610565.jpg",
+      "local_research_sha256": "3290d122061be70a2469ede52c701940b1aaa4492240866a0263785c31679777",
+      "image_bytes": 141586,
+      "geometry_useful": true,
+      "observations": [
+        "Strong port-front wide: chin and second lower-port sensor, entry stairs, port forward gun station, main sponson, four blades."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_4610626",
+      "url": "https://www.dvidshub.net/image/4610626/16th-expeditionary-special-operations-squadron-provides-air-support",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1808/4610626/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Keith James",
+      "title": "16th expeditionary special operations squadron provides air support",
+      "variant": "AC-130W",
+      "date_taken": "2018-07",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "w_4610626.jpg",
+      "local_research_sha256": "7efb4ff8f0043b3899b9311b4adf8266a082b4e36fc2e109e2e7a6fd874499f0",
+      "image_bytes": 177635,
+      "geometry_useful": false,
+      "observations": [
+        "Crew observation window toward wing/tank; not main geometry authority."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7918477",
+      "url": "https://www.dvidshub.net/image/7918477/centcom-ghostriders",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2307/7918477/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Leon Redfern",
+      "title": "centcom ghostriders",
+      "variant": "AC-130J",
+      "date_taken": "2023-06-28",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_7918477.jpg",
+      "local_research_sha256": "9bde67879f291c04834107cff0eee0434c573bcbe40b7fb06b8c8bbe52ea1340",
+      "image_bytes": 244853,
+      "geometry_useful": true,
+      "observations": [
+        "Rear open ramp, upper door raised inward under roof, bounded cargo interior and side frame."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7918478",
+      "url": "https://www.dvidshub.net/image/7918478/centcom-ghostriders",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2307/7918478/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Leon Redfern",
+      "title": "centcom ghostriders",
+      "variant": "AC-130J",
+      "date_taken": "2023-06-28",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_7918478.jpg",
+      "local_research_sha256": "bf7645ef17a4b2f19f811b2142eb4aa8d2a3071e46b7045c5c5f3b815b50898e",
+      "image_bytes": 101263,
+      "geometry_useful": true,
+      "observations": [
+        "Silhouette of swept six-blade propeller and nacelle underside. Limited detail."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7918479",
+      "url": "https://www.dvidshub.net/image/7918479/centcom-ghostriders",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2307/7918479/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Leon Redfern",
+      "title": "centcom ghostriders",
+      "variant": "AC-130J",
+      "date_taken": "2023-06-28",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_7918479.jpg",
+      "local_research_sha256": "790dd814a5e798021c35dee938dc0673f002c45a357ac81c4ad3ade047f4defd",
+      "image_bytes": 134350,
+      "geometry_useful": true,
+      "observations": [
+        "HUD and digital cockpit displays under low light."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7918482",
+      "url": "https://www.dvidshub.net/image/7918482/centcom-ghostriders",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2307/7918482/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Leon Redfern",
+      "title": "centcom ghostriders",
+      "variant": "AC-130J",
+      "date_taken": "2023-06-28",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_7918482.jpg",
+      "local_research_sha256": "1c5b0b17a9b470a09bbc25abf904141747efdf9c809c4577bf49458976f7c331",
+      "image_bytes": 189044,
+      "geometry_useful": true,
+      "observations": [
+        "Rear port105 mm installation exterior and flexible-looking dark surround, neighboring cargo ramp."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7918484",
+      "url": "https://www.dvidshub.net/image/7918484/centcom-ghostriders",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2307/7918484/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Leon Redfern",
+      "title": "centcom ghostriders",
+      "variant": "AC-130J",
+      "date_taken": "2023-06-28",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_7918484.jpg",
+      "local_research_sha256": "56ab36aa17d2f2e16ad4f2f47c58d3d5bf6f93de006b417261d008fd803cfe4b",
+      "image_bytes": 207784,
+      "geometry_useful": true,
+      "observations": [
+        "Digital display cockpit and overhead panels; instrument functionality not evaluated."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_229267",
+      "url": "https://www.dvidshub.net/image/229267/c-130-landing-gear-inspection",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/0912/229267/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Felicia Juenke",
+      "title": "c 130 landing gear inspection",
+      "variant": "C-130 legacy family comparison",
+      "date_taken": "2009-12-07",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "gear_229267.jpg",
+      "local_research_sha256": "f8ea1e8a26ee9fa787e9732009cf757a56031969e27f900eb82927e0eb8cd143",
+      "image_bytes": 191779,
+      "geometry_useful": true,
+      "observations": [
+        "Landing-gear maintenance on jacks: upright main wheels/struts and side-well cover; closeups support arrangement, not complete travel sequence."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_229268",
+      "url": "https://www.dvidshub.net/image/229268/c-130-landing-gear-inspection",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/0912/229268/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Felicia Juenke",
+      "title": "c 130 landing gear inspection",
+      "variant": "C-130 legacy family comparison",
+      "date_taken": "2009-12-07",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "gear_229268.jpg",
+      "local_research_sha256": "e369362eb2ec96ade56e0dee157974303a0c655f140d6fcd6d23f4eec6a429a8",
+      "image_bytes": 245358,
+      "geometry_useful": true,
+      "observations": [
+        "Landing-gear maintenance on jacks: upright main wheels/struts and side-well cover; closeups support arrangement, not complete travel sequence."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_229269",
+      "url": "https://www.dvidshub.net/image/229269/c-130-landing-gear-inspection",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/0912/229269/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Felicia Juenke",
+      "title": "c 130 landing gear inspection",
+      "variant": "C-130 legacy family comparison",
+      "date_taken": "2009-12-07",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "gear_229269.jpg",
+      "local_research_sha256": "529af3937812a958d589356534f8f030521f58a9c64f461162000a185d19f87c",
+      "image_bytes": 225812,
+      "geometry_useful": true,
+      "observations": [
+        "Landing-gear maintenance on jacks: upright main wheels/struts and side-well cover; closeups support arrangement, not complete travel sequence."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_229271",
+      "url": "https://www.dvidshub.net/image/229271/c-130-landing-gear-inspection",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/0912/229271/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Felicia Juenke",
+      "title": "c 130 landing gear inspection",
+      "variant": "C-130 legacy family comparison",
+      "date_taken": "2009-12-07",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "gear_229271.jpg",
+      "local_research_sha256": "f092d120e70e9c1f56cc43ac800723ae233332202a91d1843a72127ad8e39d1f",
+      "image_bytes": 250135,
+      "geometry_useful": true,
+      "observations": [
+        "Landing-gear maintenance on jacks: upright main wheels/struts and side-well cover; closeups support arrangement, not complete travel sequence."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_229272",
+      "url": "https://www.dvidshub.net/image/229272/c-130-landing-gear-inspection",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/0912/229272/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Felicia Juenke",
+      "title": "c 130 landing gear inspection",
+      "variant": "C-130 legacy family comparison",
+      "date_taken": "2009-12-07",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "gear_229272.jpg",
+      "local_research_sha256": "9f725206643d7c92e9214c6e73d056cda016d691b98157e55fe5d84123fe1a31",
+      "image_bytes": 193533,
+      "geometry_useful": true,
+      "observations": [
+        "Landing-gear maintenance on jacks: upright main wheels/struts and side-well cover; closeups support arrangement, not complete travel sequence."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_5161221",
+      "url": "https://www.dvidshub.net/image/5161221/first-block-30-ac-130j-delivered-hurlburt-field",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1903/5161221/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "first block 30 ac 130j delivered hurlburt field",
+      "variant": "AC-130J Block30",
+      "date_taken": "2019-03-08",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_block30.jpg",
+      "local_research_sha256": "3e4443472c8bc022e002b6241393122c4536229a82774179ff277f128e11cfc6",
+      "image_bytes": 166295,
+      "geometry_useful": false,
+      "observations": [
+        "Foreground shoulder patch with blurred aircraft background; rejected for geometry."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_9074136",
+      "url": "https://www.dvidshub.net/image/9074136/91st-ars-refuels-1st-sow-ac-130js",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2505/9074136/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "91st ars refuels 1st sow ac 130js",
+      "variant": "AC-130J",
+      "date_taken": "2025-05-21",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_9074136.jpg",
+      "local_research_sha256": "a3e7bf8550cb27c8690686291aa0e6ee78e601a7ea064ce0d588b40998a6c7ad",
+      "image_bytes": 103923,
+      "geometry_useful": false,
+      "observations": [
+        "Distant front refuelling aircraft partly obscured by tanker; broad no-gear flight state only."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6616472",
+      "url": "https://www.dvidshub.net/image/6616472/ac-130j-ghostrider-hurlburt-field-supports-joint-mission-fairchild-afb",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2104/6616472/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Kiaundra Miller",
+      "title": "ac 130j ghostrider hurlburt field supports joint mission fairchild afb",
+      "variant": "AC-130J",
+      "date_taken": "2021-03-23",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6616472.jpg",
+      "local_research_sha256": "84714d2ad6907f649b993167bc8c5ad51c5fb0e606e257913dd2cfbcc3f38c2e",
+      "image_bytes": 188837,
+      "geometry_useful": true,
+      "observations": [
+        "Front parked stance, six-blade propellers and external tank locations; nose obscured by equipment."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_7556670",
+      "url": "https://www.dvidshub.net/image/7556670/hurlburt-field-aircraft",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2212/7556670/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "hurlburt field aircraft",
+      "variant": "AC-130J",
+      "date_taken": "2022-11-15",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_7556670.jpg",
+      "local_research_sha256": "3ca6a96e31d59b3010da9ff8bb41f390295f02fa00f5cf85982e7c9d144c1e28",
+      "image_bytes": 138556,
+      "geometry_useful": true,
+      "observations": [
+        "Port-aft broad view, cargo ramp closed, flaps lowered, aft port gun station; distant/foreshortened."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6616470",
+      "url": "https://www.dvidshub.net/image/6616470/ac-130j-ghostrider-hurlburt-field-supports-joint-mission-fairchild-afb",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2104/6616470/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Kiaundra Miller",
+      "title": "ac 130j ghostrider hurlburt field supports joint mission fairchild afb",
+      "variant": "AC-130J",
+      "date_taken": "2021-03-23",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6616470.jpg",
+      "local_research_sha256": "6c8cc2235d9f5ad0534f17a2e14f6d7cc3fdcb073a765cfecbea3403d431917c",
+      "image_bytes": 220667,
+      "geometry_useful": false,
+      "observations": [
+        "Front parked aircraft background out of focus; no exact geometry support."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6616471",
+      "url": "https://www.dvidshub.net/image/6616471/ac-130j-ghostrider-hurlburt-field-supports-joint-mission-fairchild-afb",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2104/6616471/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Kiaundra Miller",
+      "title": "ac 130j ghostrider hurlburt field supports joint mission fairchild afb",
+      "variant": "AC-130J",
+      "date_taken": "2021-03-23",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6616471.jpg",
+      "local_research_sha256": "37bab2a13e8be0aad4714066ce29cd0ee2d2490f46d6a92916cfab216dd4ad81",
+      "image_bytes": 169308,
+      "geometry_useful": true,
+      "observations": [
+        "Direct rear view, closed cargo door/ramp; lowered main wing flaps, outer aileron region distinct."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6616473",
+      "url": "https://www.dvidshub.net/image/6616473/ac-130j-ghostrider-hurlburt-field-supports-joint-mission-fairchild-afb",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2104/6616473/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Kiaundra Miller",
+      "title": "ac 130j ghostrider hurlburt field supports joint mission fairchild afb",
+      "variant": "AC-130J",
+      "date_taken": "2021-03-23",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6616473.jpg",
+      "local_research_sha256": "0100c31d3aadd1f5b0f5df044dd4227ba74dcc84c156263abc271999bb2d33b5",
+      "image_bytes": 105778,
+      "geometry_useful": true,
+      "observations": [
+        "Close forward radome/cockpit with foreground ring; useful broad contour only."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6616476",
+      "url": "https://www.dvidshub.net/image/6616476/ac-130j-ghostrider-hurlburt-field-supports-joint-mission-fairchild-afb",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2104/6616476/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Kiaundra Miller",
+      "title": "ac 130j ghostrider hurlburt field supports joint mission fairchild afb",
+      "variant": "AC-130J",
+      "date_taken": "2021-03-23",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6616476.jpg",
+      "local_research_sha256": "96860ff283d99eb517f0e25c78f6b07c406875c3c4a37d1a1f842437ca2fab21",
+      "image_bytes": 160822,
+      "geometry_useful": true,
+      "observations": [
+        "Port-front near view: six swept blades, nacelle intake beneath spinner, forward port installation protrusion."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6616477",
+      "url": "https://www.dvidshub.net/image/6616477/ac-130j-ghostrider-hurlburt-field-supports-joint-mission-fairchild-afb",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2104/6616477/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Kiaundra Miller",
+      "title": "ac 130j ghostrider hurlburt field supports joint mission fairchild afb",
+      "variant": "AC-130J",
+      "date_taken": "2021-03-23",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6616477.jpg",
+      "local_research_sha256": "fd067f3074baabc23ce9117d21384deb6c36dd8263517d9de43015740dfa1882",
+      "image_bytes": 147468,
+      "geometry_useful": false,
+      "observations": [
+        "Foreground safety streamer, blurred propeller; rejected for precise geometry."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_3077520",
+      "url": "https://www.dvidshub.net/image/3077520/ac-130w-stinger-ii",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1612/3077520/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "ac 130w stinger ii",
+      "variant": "AC-130W",
+      "date_taken": "2016-12-14",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photo_composite",
+      "image_actually_inspected": true,
+      "local_research_label": "ac130w_2016.jpg",
+      "local_research_sha256": "11b1495c0e126553dc94efbd848215ab33f0728bf2b4ed430c8718f5f0a6dc62",
+      "image_bytes": 362781,
+      "geometry_useful": false,
+      "observations": [
+        "Official infographic/photo composite, not calibrated raw photo."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_2392818",
+      "url": "https://www.dvidshub.net/image/2392818/ac-130w-stinger-ii-live-fire-melrose-air-force-range",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1602/2392818/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "ac 130w stinger ii live fire melrose air force range",
+      "variant": "AC-130W",
+      "date_taken": "2016-02-03",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "ac130w_port_2016.jpg",
+      "local_research_sha256": "ba25d2304a96907a748c5142c75a29f1615ebaf6c8c6f76e02557346c53c5832",
+      "image_bytes": 78972,
+      "geometry_useful": false,
+      "observations": [
+        "Distant port flying quarter; four legacy propeller blades, broad external arrangement."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_9086165",
+      "url": "https://www.dvidshub.net/image/9086165/ghostly-rider",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2506/9086165/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "ghostly rider",
+      "variant": "AC-130J",
+      "date_taken": "2025-06-03",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "ac130j_top_front_2025.jpg",
+      "local_research_sha256": "d864782624060096fb6310a8269ac03efc738135b3a152f42ea911d968ed685c",
+      "image_bytes": 82267,
+      "geometry_useful": false,
+      "observations": [
+        "Dark night-vision photograph. Unsuitable for exact shape or color."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_8417162",
+      "url": "https://www.dvidshub.net/image/8417162/c-130j-super-hercules-transports-supplies-uscentcom-area-responsibility",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2405/8417162/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "See official source page credit",
+      "title": "c 130j super hercules transports supplies uscentcom area responsibility",
+      "variant": "C-130J",
+      "date_taken": "2024-05",
+      "date_precision": "month",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "c130j_ramp_2024.jpg",
+      "local_research_sha256": "845b2c07ec2dd50f055e71a95239e81bf76586fd0acee18456b5e60bdc01f244",
+      "image_bytes": 123572,
+      "geometry_useful": false,
+      "observations": [
+        "Operator/cab close-up; caption lead did not provide useful ramp geometry."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_229270",
+      "url": "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/0912/229270/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. military",
+      "creator": "U.S. Air Force / Felicia Juenke",
+      "title": "c 130 landing gear inspection",
+      "variant": "C-130 legacy family comparison",
+      "date_taken": "2009-12-07",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "gear_229270.jpg",
+      "local_research_sha256": "571d1e82bb5f736a3f3411570c5a602bc009dc3a188d3a76eda300f1271a0dee",
+      "image_bytes": 208050,
+      "geometry_useful": true,
+      "observations": [
+        "Landing-gear maintenance on jacks: upright main wheels/struts and side-well cover; closeups support arrangement, not complete travel sequence."
+      ],
+      "limits": [
+        "Uncalibrated photograph; no exact dimensions or motion timing established.",
+        "Not distributed with asset; source page rights and credit govern reuse."
+      ],
+      "rights": "Official public source page. Photo is retained in research scratch only and not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6427960",
+      "url": "https://www.dvidshub.net/image/6427960/ac-130j-crew-maintain-proficiency-combat-readiness",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2011/6427960/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. Air Force",
+      "creator": "Staff Sgt. Rachel Williams",
+      "title": "AC-130J crew maintain proficiency, combat readiness",
+      "variant": "AC-130J",
+      "date_taken": "2020-11-09",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6427960.jpg",
+      "local_research_sha256": "f88c4fd24156417848d28df44e49872e6ad6e3140060fe459527a7519e3a22f6",
+      "image_bytes": 126135,
+      "geometry_useful": false,
+      "observations": [
+        "Side cockpit/window close-up with seated pilot; not sensor placement evidence."
+      ],
+      "limits": [
+        "No calibrated dimensions or motion sequence.",
+        "Retrieved to resolve external second-sensor position; these views did not resolve it."
+      ],
+      "rights": "Official public source page declares public domain, subject to DVIDS restrictions. Image not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6427952",
+      "url": "https://www.dvidshub.net/image/6427952/ac-130j-crew-maintain-proficiency-combat-readiness",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2011/6427952/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. Air Force",
+      "creator": "Staff Sgt. Rachel Williams",
+      "title": "AC-130J crew maintain proficiency, combat readiness",
+      "variant": "AC-130J",
+      "date_taken": "2020-11-09",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6427952.jpg",
+      "local_research_sha256": "4bad101113a4a5b0860db0d66ca00bf36f8f4c734094f6409854e28b2dfe4b86",
+      "image_bytes": 140739,
+      "geometry_useful": false,
+      "observations": [
+        "Interior crew/equipment view; no usable exterior sensor-location evidence."
+      ],
+      "limits": [
+        "No calibrated dimensions or motion sequence.",
+        "Retrieved to resolve external second-sensor position; these views did not resolve it."
+      ],
+      "rights": "Official public source page declares public domain, subject to DVIDS restrictions. Image not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6427948",
+      "url": "https://www.dvidshub.net/image/6427948/ac-130j-crew-maintain-proficiency-combat-readiness",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2011/6427948/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. Air Force",
+      "creator": "Staff Sgt. Rachel Williams",
+      "title": "AC-130J crew maintain proficiency, combat readiness",
+      "variant": "AC-130J",
+      "date_taken": "2020-11-09",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6427948.jpg",
+      "local_research_sha256": "cd5576a4dfd79dc36a44f46eebd57467025a4f4a50dec9e0c05d63654bb1e3d1",
+      "image_bytes": 155413,
+      "geometry_useful": true,
+      "observations": [
+        "J cockpit from rear, digital main instrument panel, overhead structure and central console visible."
+      ],
+      "limits": [
+        "No calibrated dimensions or motion sequence.",
+        "Retrieved to resolve external second-sensor position; these views did not resolve it."
+      ],
+      "rights": "Official public source page declares public domain, subject to DVIDS restrictions. Image not bundled for redistribution."
+    },
+    {
+      "id": "DVIDS_6427963",
+      "url": "https://www.dvidshub.net/image/6427963/ac-130j-crew-maintain-proficiency-combat-readiness",
+      "public_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2011/6427963/1000w_q95.jpg",
+      "publisher": "DVIDS / U.S. Air Force",
+      "creator": "Staff Sgt. Rachel Williams",
+      "title": "AC-130J crew maintain proficiency, combat readiness",
+      "variant": "AC-130J",
+      "date_taken": "2020-11-09",
+      "date_precision": "day",
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "photograph",
+      "image_actually_inspected": true,
+      "local_research_label": "j_6427963.jpg",
+      "local_research_sha256": "54a67bab50befda27a3158780c5dbf4611e959391540071aafc493d43b558d82",
+      "image_bytes": 197565,
+      "geometry_useful": false,
+      "observations": [
+        "Interior crew and overhead paratroop door view; not sensor placement evidence."
+      ],
+      "limits": [
+        "No calibrated dimensions or motion sequence.",
+        "Retrieved to resolve external second-sensor position; these views did not resolve it."
+      ],
+      "rights": "Official public source page declares public domain, subject to DVIDS restrictions. Image not bundled for redistribution."
+    },
+    {
+      "id": "USCG_GEAR_CLOSED_TEXT_MIRROR",
+      "url": "https://pdfcoffee.com/uscg-lockheed-c-130-flight-manual-2-pdf-free.html",
+      "publisher": "USCG original document text; unofficial hosting mirror",
+      "title": "CGTO 1C-130-1 landing gear system excerpt",
+      "date": null,
+      "retrieved_utc_date": "2026-10-29",
+      "media_type": "manual_text_mirror",
+      "document_text_consulted": true,
+      "image_actually_inspected": false,
+      "observations": [
+        "Retrieved text states that all retracted landing gear is enclosed by mechanically operated flush doors."
+      ],
+      "limits": [
+        "Corroborating primary-document text hosted by a third party; no stowed-gear photograph or continuous movement sequence inspected.",
+        "Does not certify draft model aperture dimensions, linkage or animation travel."
+      ],
+      "rights": "No document or image redistributed."
+    }
+  ],
+  "claims": [
+    {
+      "id": "family_architecture",
+      "component": "family_master",
+      "state": "configuration",
+      "status": "inferred",
+      "source_ids": [
+        "USAF_W_2021",
+        "USAF_H_J",
+        "USAF_J"
+      ],
+      "statement": "Shared source geometry with explicit H/W/J propulsion, cockpit and mission modules is appropriate; variant resemblance still needs separate acceptance."
+    },
+    {
+      "id": "w_identity",
+      "component": "ac130",
+      "state": "variant",
+      "status": "observed",
+      "source_ids": [
+        "USAF_W_2021"
+      ],
+      "statement": "AC-130W is the selected specific H-derived gunship reference with two EO/IR sensors and30 mm/105 mm visual installations."
+    },
+    {
+      "id": "w_sensors",
+      "component": "ac130",
+      "state": "installed",
+      "status": "observed",
+      "source_ids": [
+        "DVIDS_4610557",
+        "DVIDS_4610565"
+      ],
+      "statement": "Chin sensor and lower port-belly sensor ahead of main sponson; relative location only."
+    },
+    {
+      "id": "w_gunstations",
+      "component": "ac130",
+      "state": "installed",
+      "status": "observed",
+      "source_ids": [
+        "DVIDS_4610532",
+        "DVIDS_4610565"
+      ],
+      "statement": "Forward port installation aft of entry; aft station behind main sponson."
+    },
+    {
+      "id": "j_sensor_position",
+      "component": "ac130j",
+      "state": "installed",
+      "status": "inferred",
+      "source_ids": [
+        "USAF_J",
+        "DVIDS_4610565"
+      ],
+      "statement": "Two sensors established by factsheet; second-sensor exact placement in J model is provisional family transfer, not independently calibrated."
+    },
+    {
+      "id": "gunship_portdoor",
+      "component": "ac130/ac130j",
+      "state": "configuration",
+      "status": "inferred",
+      "source_ids": [
+        "DVIDS_4610532",
+        "DVIDS_7918482"
+      ],
+      "statement": "Disable/replace port aft-door module where gun station occupies same modeled area; retain starboard door. Exact real conversion details unresolved."
+    },
+    {
+      "id": "cargo_ramp",
+      "component": "family",
+      "state": "closed/open",
+      "status": "observed",
+      "source_ids": [
+        "DVIDS_6616471",
+        "DVIDS_7368321",
+        "DVIDS_7536231",
+        "DVIDS_7918477"
+      ],
+      "statement": "Lower ramp hinged at cargo-floor aft threshold; upper door raised inward beneath roof. Closed/open and alternate angles inspected."
+    },
+    {
+      "id": "ramp_path",
+      "component": "family",
+      "state": "motion",
+      "status": "assumed",
+      "source_ids": [
+        "DVIDS_7368321",
+        "DVIDS_7536231"
+      ],
+      "statement": "Angles, translations and timing are authored; still images do not validate swept path."
+    },
+    {
+      "id": "crew_door",
+      "component": "family",
+      "state": "open",
+      "status": "observed",
+      "source_ids": [
+        "DVIDS_4610490",
+        "DVIDS_4610565"
+      ],
+      "statement": "Forward port crew door lowers outward/down into stairs; closed/source fit and hinges need model validation."
+    },
+    {
+      "id": "paratroop_door",
+      "component": "family",
+      "state": "open",
+      "status": "observed",
+      "source_ids": [
+        "DVIDS_7135325"
+      ],
+      "statement": "Aft side door is raised inside overhead in photographed J. Full track path and endpoints incomplete."
+    },
+    {
+      "id": "main_gear",
+      "component": "family",
+      "state": "motion",
+      "status": "inferred",
+      "source_ids": [
+        "USN_GEAR_MIRROR",
+        "USCG_GEAR_MIRROR",
+        "DVIDS_229270",
+        "DVIDS_229267"
+      ],
+      "statement": "Principal main-gear motion vertical into side wells. Photos confirm architecture, original manual text corroborates; travel and linkage remain authored."
+    },
+    {
+      "id": "nose_gear",
+      "component": "family",
+      "state": "motion",
+      "status": "inferred",
+      "source_ids": [
+        "USN_GEAR_MIRROR",
+        "USCG_GEAR_MIRROR",
+        "DVIDS_4610565"
+      ],
+      "statement": "Nose gear folds forward; down endpoint photographed. No motion sequence inspected."
+    },
+    {
+      "id": "flaps",
+      "component": "family",
+      "state": "deployed",
+      "status": "observed",
+      "source_ids": [
+        "DVIDS_6616471",
+        "DVIDS_7556670",
+        "DVIDS_4610532"
+      ],
+      "statement": "Separate inboard/intermediate flap region and outboard aileron. Actual Fowler track/angles not calibrated."
+    },
+    {
+      "id": "j_propulsion",
+      "component": "ac130j",
+      "state": "installed",
+      "status": "observed",
+      "source_ids": [
+        "USAF_H_J",
+        "DVIDS_6616476"
+      ],
+      "statement": "Different J propulsion and six swept blades; nacelle/intake is separate module. Exact shell resemblance still provisional."
+    },
+    {
+      "id": "cockpit_variants",
+      "component": "ac130/ac130j",
+      "state": "installed",
+      "status": "observed",
+      "source_ids": [
+        "DVIDS_4610577",
+        "DVIDS_7918484",
+        "DVIDS_7918479",
+        "DVIDS_6427948"
+      ],
+      "statement": "W analogue flight-engineer panel versus J digital cockpit/HUD references. Functional avionics not in scope."
+    },
+    {
+      "id": "motion_rates",
+      "component": "family",
+      "state": "animation",
+      "status": "assumed",
+      "source_ids": [],
+      "statement": "All control ranges, durations and presentation timing are authored game values; not operational data."
+    },
+    {
+      "id": "gear_closed_endpoint",
+      "component": "landing_gear",
+      "state": "retracted/FLYING",
+      "status": "document_supported_principle",
+      "source_ids": [
+        "USCG_GEAR_CLOSED_TEXT_MIRROR"
+      ],
+      "statement": "Retracted gear should be enclosed by closed covers. A visibly uncovered well is a model defect. Exact visual fit and authored linkage remain separate validation requirements."
+    }
+  ],
+  "gaps": [
+    "Exact original source identity/license remains unresolved.",
+    "No calibrated station drawings or skin sections in inspected references.",
+    "No full motion video of ramp, gear, flap or personnel-door path inspected.",
+    "J second EO/IR station and nacelle/intake dimensions not independently calibrated.",
+    "Aileron/rudder/elevator control limits and all animation timing are authored.",
+    "Static photo comparisons do not establish collision clearance or native engine execution."
+  ],
+  "excluded_claims": [
+    "Photographic acceptance",
+    "Engineering-certified conversions",
+    "Native Unreal acceptance",
+    "Operational animation validation"
+  ]
+}

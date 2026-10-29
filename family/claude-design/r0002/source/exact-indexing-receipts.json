@@ -1,0 +1,5920 @@
+{
+  "operation": "exact_complete_float32_attribute_records",
+  "enabled": true,
+  "triangle_removal": "none in indexing step; preexisting float32-sliver filter unchanged",
+  "models": {
+    "c130": [
+      {
+        "mesh": "PANEL_GUN30_SOURCE_SKIN",
+        "vertices_before": 73,
+        "vertices_after": 29,
+        "triangles": 31,
+        "logical_bytes_before": 5044,
+        "logical_bytes_after": 2042,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PANEL_GUN105_SOURCE_SKIN",
+        "vertices_before": 1029,
+        "vertices_after": 473,
+        "triangles": 591,
+        "logical_bytes_before": 72948,
+        "logical_bytes_after": 33818,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_LEFT",
+        "vertices_before": 16,
+        "vertices_after": 16,
+        "triangles": 26,
+        "logical_bytes_before": 696,
+        "logical_bytes_after": 540,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_RIGHT",
+        "vertices_before": 16,
+        "vertices_after": 16,
+        "triangles": 26,
+        "logical_bytes_before": 696,
+        "logical_bytes_after": 540,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_NOSE",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PATCH_houseTint_PORT",
+        "vertices_before": 50,
+        "vertices_after": 23,
+        "triangles": 22,
+        "logical_bytes_before": 3464,
+        "logical_bytes_after": 1604,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "fuselage",
+        "vertices_before": 123591,
+        "vertices_after": 30984,
+        "triangles": 49013,
+        "logical_bytes_before": 8497980,
+        "logical_bytes_after": 2277054,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_CABIN_PRESERVED",
+        "vertices_before": 126911,
+        "vertices_after": 70733,
+        "triangles": 83469,
+        "logical_bytes_before": 9123932,
+        "logical_bytes_after": 5528540,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "COCKPIT_WINDOWS",
+        "vertices_before": 732,
+        "vertices_after": 731,
+        "triangles": 476,
+        "logical_bytes_before": 52560,
+        "logical_bytes_after": 49640,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_COCKPIT_PANEL",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_1",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_2",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_3",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_4",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_5",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SKIN",
+        "vertices_before": 148,
+        "vertices_after": 62,
+        "triangles": 70,
+        "logical_bytes_before": 10312,
+        "logical_bytes_after": 4388,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_0",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_1",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SKIN",
+        "vertices_before": 163,
+        "vertices_after": 69,
+        "triangles": 77,
+        "logical_bytes_before": 11356,
+        "logical_bytes_after": 4878,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_0",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_1",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_4",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SKIN",
+        "vertices_before": 151,
+        "vertices_after": 63,
+        "triangles": 72,
+        "logical_bytes_before": 10528,
+        "logical_bytes_after": 4464,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_4",
+        "vertices_before": 22,
+        "vertices_after": 22,
+        "triangles": 21,
+        "logical_bytes_before": 780,
+        "logical_bytes_after": 654,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 22,
+        "vertices_after": 22,
+        "triangles": 21,
+        "logical_bytes_before": 780,
+        "logical_bytes_after": 654,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SKIN",
+        "vertices_before": 145,
+        "vertices_after": 61,
+        "triangles": 69,
+        "logical_bytes_before": 10108,
+        "logical_bytes_after": 4318,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_0",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_1",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_4",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SKIN",
+        "vertices_before": 162,
+        "vertices_after": 68,
+        "triangles": 76,
+        "logical_bytes_before": 11280,
+        "logical_bytes_after": 4808,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_0",
+        "vertices_before": 14,
+        "vertices_after": 14,
+        "triangles": 13,
+        "logical_bytes_before": 492,
+        "logical_bytes_after": 414,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 14,
+        "vertices_after": 14,
+        "triangles": 13,
+        "logical_bytes_before": 492,
+        "logical_bytes_after": 414,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_1",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_4",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SKIN",
+        "vertices_before": 299,
+        "vertices_after": 135,
+        "triangles": 183,
+        "logical_bytes_before": 21332,
+        "logical_bytes_after": 9738,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_1",
+        "vertices_before": 17,
+        "vertices_after": 17,
+        "triangles": 16,
+        "logical_bytes_before": 600,
+        "logical_bytes_after": 504,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 17,
+        "vertices_after": 17,
+        "triangles": 16,
+        "logical_bytes_before": 600,
+        "logical_bytes_after": 504,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_4",
+        "vertices_before": 35,
+        "vertices_after": 35,
+        "triangles": 34,
+        "logical_bytes_before": 1248,
+        "logical_bytes_after": 1044,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 35,
+        "vertices_after": 35,
+        "triangles": 34,
+        "logical_bytes_before": 1248,
+        "logical_bytes_after": 1044,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SKIN",
+        "vertices_before": 229,
+        "vertices_after": 117,
+        "triangles": 156,
+        "logical_bytes_before": 16528,
+        "logical_bytes_after": 8424,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_2",
+        "vertices_before": 7,
+        "vertices_after": 7,
+        "triangles": 6,
+        "logical_bytes_before": 240,
+        "logical_bytes_after": 204,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_2_FIXED_WING",
+        "vertices_before": 7,
+        "vertices_after": 7,
+        "triangles": 6,
+        "logical_bytes_before": 240,
+        "logical_bytes_after": 204,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_3",
+        "vertices_before": 4,
+        "vertices_after": 4,
+        "triangles": 3,
+        "logical_bytes_before": 132,
+        "logical_bytes_after": 114,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_3_FIXED_WING",
+        "vertices_before": 4,
+        "vertices_after": 4,
+        "triangles": 3,
+        "logical_bytes_before": 132,
+        "logical_bytes_after": 114,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_4",
+        "vertices_before": 20,
+        "vertices_after": 20,
+        "triangles": 19,
+        "logical_bytes_before": 708,
+        "logical_bytes_after": 594,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 20,
+        "vertices_after": 20,
+        "triangles": 19,
+        "logical_bytes_before": 708,
+        "logical_bytes_after": 594,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_PRESERVED",
+        "vertices_before": 1340,
+        "vertices_after": 1184,
+        "triangles": 1506,
+        "logical_bytes_before": 103832,
+        "logical_bytes_after": 84812,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_RAMP_INTERIOR_PRESERVED",
+        "vertices_before": 8774,
+        "vertices_after": 8157,
+        "triangles": 5282,
+        "logical_bytes_before": 624920,
+        "logical_bytes_after": 553740,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_UPPER_DOOR_PRESERVED",
+        "vertices_before": 490,
+        "vertices_after": 490,
+        "triangles": 864,
+        "logical_bytes_before": 41728,
+        "logical_bytes_after": 36544,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_AIRSTAIR_DOOR_PRESERVED",
+        "vertices_before": 405,
+        "vertices_after": 405,
+        "triangles": 600,
+        "logical_bytes_before": 33120,
+        "logical_bytes_after": 29520,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_2",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_3",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_RIGHT_SOURCE_18",
+        "vertices_before": 389,
+        "vertices_after": 389,
+        "triangles": 656,
+        "logical_bytes_before": 32768,
+        "logical_bytes_after": 28832,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_RIGHT_SOURCE_19",
+        "vertices_before": 42,
+        "vertices_after": 42,
+        "triangles": 64,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 3072,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_LEFT_SOURCE_20",
+        "vertices_before": 389,
+        "vertices_after": 389,
+        "triangles": 656,
+        "logical_bytes_before": 32768,
+        "logical_bytes_after": 28832,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_LEFT_SOURCE_21",
+        "vertices_before": 42,
+        "vertices_after": 42,
+        "triangles": 64,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 3072,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_1_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_1_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_left_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_left_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_2_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_2_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_left_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_left_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_GEAR_COVER_LEFT_PRESERVED",
+        "vertices_before": 38,
+        "vertices_after": 38,
+        "triangles": 36,
+        "logical_bytes_before": 2864,
+        "logical_bytes_after": 2648,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_1_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_1_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_right_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_right_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_2_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_2_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_right_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_right_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_GEAR_COVER_RIGHT_PRESERVED",
+        "vertices_before": 38,
+        "vertices_after": 38,
+        "triangles": 36,
+        "logical_bytes_before": 2864,
+        "logical_bytes_after": 2648,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_GEAR_STRUT_PRESERVED",
+        "vertices_before": 90,
+        "vertices_after": 90,
+        "triangles": 80,
+        "logical_bytes_before": 6720,
+        "logical_bytes_after": 6240,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WHEELS_PRESERVED_TIRE",
+        "vertices_before": 334,
+        "vertices_after": 334,
+        "triangles": 536,
+        "logical_bytes_before": 27808,
+        "logical_bytes_after": 24592,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WHEELS_PRESERVED_RIM",
+        "vertices_before": 1386,
+        "vertices_after": 1386,
+        "triangles": 2568,
+        "logical_bytes_before": 119520,
+        "logical_bytes_after": 104112,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED",
+        "vertices_before": 100,
+        "vertices_after": 76,
+        "triangles": 44,
+        "logical_bytes_before": 6928,
+        "logical_bytes_after": 5128,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_GEAR_COVER_PRESERVED",
+        "vertices_before": 264,
+        "vertices_after": 240,
+        "triangles": 244,
+        "logical_bytes_before": 19824,
+        "logical_bytes_after": 16824,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WELL_LEFT_SOURCE_HATCH",
+        "vertices_before": 345,
+        "vertices_after": 136,
+        "triangles": 164,
+        "logical_bytes_before": 24048,
+        "logical_bytes_after": 9688,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WELL_RIGHT_SOURCE_HATCH",
+        "vertices_before": 324,
+        "vertices_after": 110,
+        "triangles": 142,
+        "logical_bytes_before": 22440,
+        "logical_bytes_after": 7892,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      }
+    ],
+    "ac130": [
+      {
+        "mesh": "PANEL_GUN30_SOURCE_SKIN",
+        "vertices_before": 137,
+        "vertices_after": 57,
+        "triangles": 59,
+        "logical_bytes_before": 9476,
+        "logical_bytes_after": 4002,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "BAY_gun30_RECEIVING_VOLUME",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_VISUAL_CRADLE",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_TRUNNION",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_0",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_1",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_2",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_3",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_4",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_5",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_BARREL_SHELL",
+        "vertices_before": 96,
+        "vertices_after": 96,
+        "triangles": 96,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 2880,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_DARK_MUZZLE_DEPTH",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_SLEEVE",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PANEL_GUN105_SOURCE_SKIN",
+        "vertices_before": 1436,
+        "vertices_after": 569,
+        "triangles": 724,
+        "logical_bytes_before": 100592,
+        "logical_bytes_after": 40760,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PANEL_AFT_PORT_GUN_STATION_INFILL",
+        "vertices_before": 863,
+        "vertices_after": 454,
+        "triangles": 644,
+        "logical_bytes_before": 62960,
+        "logical_bytes_after": 32920,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "BAY_gun105_RECEIVING_VOLUME",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_VISUAL_CRADLE",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_TRUNNION",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_0",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_1",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_2",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_3",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_4",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_5",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_BARREL_SHELL",
+        "vertices_before": 96,
+        "vertices_after": 96,
+        "triangles": 96,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 2880,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_DARK_MUZZLE_DEPTH",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_SLEEVE",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_VISUAL_RECUPERATOR",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_LEFT",
+        "vertices_before": 16,
+        "vertices_after": 16,
+        "triangles": 26,
+        "logical_bytes_before": 696,
+        "logical_bytes_after": 540,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_RIGHT",
+        "vertices_before": 16,
+        "vertices_after": 16,
+        "triangles": 26,
+        "logical_bytes_before": 696,
+        "logical_bytes_after": 540,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_NOSE",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PATCH_houseTint_PORT",
+        "vertices_before": 33,
+        "vertices_after": 17,
+        "triangles": 15,
+        "logical_bytes_before": 2292,
+        "logical_bytes_after": 1178,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "fuselage",
+        "vertices_before": 116009,
+        "vertices_after": 29262,
+        "triangles": 45728,
+        "logical_bytes_before": 7973312,
+        "logical_bytes_after": 2147136,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_CABIN_PRESERVED",
+        "vertices_before": 147488,
+        "vertices_after": 74940,
+        "triangles": 90541,
+        "logical_bytes_before": 10525724,
+        "logical_bytes_after": 5882652,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "COCKPIT_WINDOWS",
+        "vertices_before": 732,
+        "vertices_after": 731,
+        "triangles": 476,
+        "logical_bytes_before": 52560,
+        "logical_bytes_after": 49640,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_COCKPIT_PANEL",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_1",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_2",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_3",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_4",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "LEGACY_ANALOG_DIAL_5",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SKIN",
+        "vertices_before": 148,
+        "vertices_after": 62,
+        "triangles": 70,
+        "logical_bytes_before": 10312,
+        "logical_bytes_after": 4388,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_0",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_1",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SKIN",
+        "vertices_before": 163,
+        "vertices_after": 69,
+        "triangles": 77,
+        "logical_bytes_before": 11356,
+        "logical_bytes_after": 4878,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_0",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_1",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_4",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SKIN",
+        "vertices_before": 151,
+        "vertices_after": 63,
+        "triangles": 72,
+        "logical_bytes_before": 10528,
+        "logical_bytes_after": 4464,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_4",
+        "vertices_before": 22,
+        "vertices_after": 22,
+        "triangles": 21,
+        "logical_bytes_before": 780,
+        "logical_bytes_after": 654,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 22,
+        "vertices_after": 22,
+        "triangles": 21,
+        "logical_bytes_before": 780,
+        "logical_bytes_after": 654,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SKIN",
+        "vertices_before": 145,
+        "vertices_after": 61,
+        "triangles": 69,
+        "logical_bytes_before": 10108,
+        "logical_bytes_after": 4318,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_0",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_1",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_4",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SKIN",
+        "vertices_before": 162,
+        "vertices_after": 68,
+        "triangles": 76,
+        "logical_bytes_before": 11280,
+        "logical_bytes_after": 4808,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_0",
+        "vertices_before": 14,
+        "vertices_after": 14,
+        "triangles": 13,
+        "logical_bytes_before": 492,
+        "logical_bytes_after": 414,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 14,
+        "vertices_after": 14,
+        "triangles": 13,
+        "logical_bytes_before": 492,
+        "logical_bytes_after": 414,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_1",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_4",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SKIN",
+        "vertices_before": 299,
+        "vertices_after": 135,
+        "triangles": 183,
+        "logical_bytes_before": 21332,
+        "logical_bytes_after": 9738,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_1",
+        "vertices_before": 17,
+        "vertices_after": 17,
+        "triangles": 16,
+        "logical_bytes_before": 600,
+        "logical_bytes_after": 504,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 17,
+        "vertices_after": 17,
+        "triangles": 16,
+        "logical_bytes_before": 600,
+        "logical_bytes_after": 504,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_4",
+        "vertices_before": 35,
+        "vertices_after": 35,
+        "triangles": 34,
+        "logical_bytes_before": 1248,
+        "logical_bytes_after": 1044,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 35,
+        "vertices_after": 35,
+        "triangles": 34,
+        "logical_bytes_before": 1248,
+        "logical_bytes_after": 1044,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SKIN",
+        "vertices_before": 229,
+        "vertices_after": 117,
+        "triangles": 156,
+        "logical_bytes_before": 16528,
+        "logical_bytes_after": 8424,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_2",
+        "vertices_before": 7,
+        "vertices_after": 7,
+        "triangles": 6,
+        "logical_bytes_before": 240,
+        "logical_bytes_after": 204,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_2_FIXED_WING",
+        "vertices_before": 7,
+        "vertices_after": 7,
+        "triangles": 6,
+        "logical_bytes_before": 240,
+        "logical_bytes_after": 204,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_3",
+        "vertices_before": 4,
+        "vertices_after": 4,
+        "triangles": 3,
+        "logical_bytes_before": 132,
+        "logical_bytes_after": 114,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_3_FIXED_WING",
+        "vertices_before": 4,
+        "vertices_after": 4,
+        "triangles": 3,
+        "logical_bytes_before": 132,
+        "logical_bytes_after": 114,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_4",
+        "vertices_before": 20,
+        "vertices_after": 20,
+        "triangles": 19,
+        "logical_bytes_before": 708,
+        "logical_bytes_after": 594,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 20,
+        "vertices_after": 20,
+        "triangles": 19,
+        "logical_bytes_before": 708,
+        "logical_bytes_after": 594,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_HUB_SOURCE",
+        "vertices_before": 92,
+        "vertices_after": 92,
+        "triangles": 104,
+        "logical_bytes_before": 7136,
+        "logical_bytes_after": 6512,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_BLADES_SOURCE",
+        "vertices_before": 426,
+        "vertices_after": 426,
+        "triangles": 580,
+        "logical_bytes_before": 34224,
+        "logical_bytes_after": 30744,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_TIP_PATCHES",
+        "vertices_before": 290,
+        "vertices_after": 290,
+        "triangles": 412,
+        "logical_bytes_before": 23504,
+        "logical_bytes_after": 21032,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_PRESERVED",
+        "vertices_before": 1340,
+        "vertices_after": 1184,
+        "triangles": 1506,
+        "logical_bytes_before": 103832,
+        "logical_bytes_after": 84812,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_RAMP_INTERIOR_PRESERVED",
+        "vertices_before": 8774,
+        "vertices_after": 8157,
+        "triangles": 5282,
+        "logical_bytes_before": 624920,
+        "logical_bytes_after": 553740,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_UPPER_DOOR_PRESERVED",
+        "vertices_before": 490,
+        "vertices_after": 490,
+        "triangles": 864,
+        "logical_bytes_before": 41728,
+        "logical_bytes_after": 36544,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_AIRSTAIR_DOOR_PRESERVED",
+        "vertices_before": 405,
+        "vertices_after": 405,
+        "triangles": 600,
+        "logical_bytes_before": 33120,
+        "logical_bytes_after": 29520,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_2",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_3",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_RIGHT_SOURCE_18",
+        "vertices_before": 389,
+        "vertices_after": 389,
+        "triangles": 656,
+        "logical_bytes_before": 32768,
+        "logical_bytes_after": 28832,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_RIGHT_SOURCE_19",
+        "vertices_before": 42,
+        "vertices_after": 42,
+        "triangles": 64,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 3072,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_1_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_1_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_left_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_left_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_2_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_2_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_left_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_left_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_GEAR_COVER_LEFT_PRESERVED",
+        "vertices_before": 38,
+        "vertices_after": 38,
+        "triangles": 36,
+        "logical_bytes_before": 2864,
+        "logical_bytes_after": 2648,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_1_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_1_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_right_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_right_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_2_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_2_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_right_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_right_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_GEAR_COVER_RIGHT_PRESERVED",
+        "vertices_before": 38,
+        "vertices_after": 38,
+        "triangles": 36,
+        "logical_bytes_before": 2864,
+        "logical_bytes_after": 2648,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_GEAR_STRUT_PRESERVED",
+        "vertices_before": 90,
+        "vertices_after": 90,
+        "triangles": 80,
+        "logical_bytes_before": 6720,
+        "logical_bytes_after": 6240,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WHEELS_PRESERVED_TIRE",
+        "vertices_before": 334,
+        "vertices_after": 334,
+        "triangles": 536,
+        "logical_bytes_before": 27808,
+        "logical_bytes_after": 24592,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WHEELS_PRESERVED_RIM",
+        "vertices_before": 1386,
+        "vertices_after": 1386,
+        "triangles": 2568,
+        "logical_bytes_before": 119520,
+        "logical_bytes_after": 104112,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED",
+        "vertices_before": 100,
+        "vertices_after": 76,
+        "triangles": 44,
+        "logical_bytes_before": 6928,
+        "logical_bytes_after": 5128,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_GEAR_COVER_PRESERVED",
+        "vertices_before": 264,
+        "vertices_after": 240,
+        "triangles": 244,
+        "logical_bytes_before": 19824,
+        "logical_bytes_after": 16824,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WELL_LEFT_SOURCE_HATCH",
+        "vertices_before": 345,
+        "vertices_after": 136,
+        "triangles": 164,
+        "logical_bytes_before": 24048,
+        "logical_bytes_after": 9688,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WELL_RIGHT_SOURCE_HATCH",
+        "vertices_before": 324,
+        "vertices_after": 110,
+        "triangles": 142,
+        "logical_bytes_before": 22440,
+        "logical_bytes_after": 7892,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_AZIMUTH_SHELL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_OPTICAL_GIMBAL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_LENS_1",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_LENS_2",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_AZIMUTH_SHELL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_OPTICAL_GIMBAL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_LENS_1",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_LENS_2",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      }
+    ],
+    "ac130j": [
+      {
+        "mesh": "J_AE2100_STYLE_NACELLE_1",
+        "vertices_before": 168,
+        "vertices_after": 168,
+        "triangles": 280,
+        "logical_bytes_before": 7392,
+        "logical_bytes_after": 5712,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_LOWER_INTAKE_DUCT_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_1_BOTTOM",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_1_TOP",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_1_LEFT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_1_RIGHT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_EXHAUST_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 48,
+        "logical_bytes_before": 1728,
+        "logical_bytes_after": 1440,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_AE2100_STYLE_NACELLE_2",
+        "vertices_before": 168,
+        "vertices_after": 168,
+        "triangles": 280,
+        "logical_bytes_before": 7392,
+        "logical_bytes_after": 5712,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_LOWER_INTAKE_DUCT_2",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_2_BOTTOM",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_2_TOP",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_2_LEFT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_2_RIGHT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_EXHAUST_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 48,
+        "logical_bytes_before": 1728,
+        "logical_bytes_after": 1440,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_AE2100_STYLE_NACELLE_3",
+        "vertices_before": 168,
+        "vertices_after": 168,
+        "triangles": 280,
+        "logical_bytes_before": 7392,
+        "logical_bytes_after": 5712,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_LOWER_INTAKE_DUCT_3",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_3_BOTTOM",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_3_TOP",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_3_LEFT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_3_RIGHT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_EXHAUST_3",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 48,
+        "logical_bytes_before": 1728,
+        "logical_bytes_after": 1440,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_AE2100_STYLE_NACELLE_4",
+        "vertices_before": 168,
+        "vertices_after": 168,
+        "triangles": 280,
+        "logical_bytes_before": 7392,
+        "logical_bytes_after": 5712,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_LOWER_INTAKE_DUCT_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_4_BOTTOM",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_4_TOP",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_4_LEFT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_INTAKE_LIP_4_RIGHT",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_EXHAUST_4",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 48,
+        "logical_bytes_before": 1728,
+        "logical_bytes_after": 1440,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PANEL_GUN30_SOURCE_SKIN",
+        "vertices_before": 137,
+        "vertices_after": 57,
+        "triangles": 59,
+        "logical_bytes_before": 9476,
+        "logical_bytes_after": 4002,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "BAY_gun30_RECEIVING_VOLUME",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_VISUAL_CRADLE",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_TRUNNION",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_0",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_1",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_2",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_3",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_4",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_FLEX_BOOT_FOLD_5",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_BARREL_SHELL",
+        "vertices_before": 96,
+        "vertices_after": 96,
+        "triangles": 96,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 2880,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_DARK_MUZZLE_DEPTH",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun30_SLEEVE",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PANEL_GUN105_SOURCE_SKIN",
+        "vertices_before": 1436,
+        "vertices_after": 569,
+        "triangles": 724,
+        "logical_bytes_before": 100592,
+        "logical_bytes_after": 40760,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PANEL_AFT_PORT_GUN_STATION_INFILL",
+        "vertices_before": 863,
+        "vertices_after": 454,
+        "triangles": 644,
+        "logical_bytes_before": 62960,
+        "logical_bytes_after": 32920,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "BAY_gun105_RECEIVING_VOLUME",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_VISUAL_CRADLE",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_TRUNNION",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_0",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_1",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_2",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_3",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_4",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_FLEX_BOOT_FOLD_5",
+        "vertices_before": 64,
+        "vertices_after": 64,
+        "triangles": 64,
+        "logical_bytes_before": 2304,
+        "logical_bytes_after": 1920,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_BARREL_SHELL",
+        "vertices_before": 96,
+        "vertices_after": 96,
+        "triangles": 96,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 2880,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_DARK_MUZZLE_DEPTH",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_SLEEVE",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "gun105_VISUAL_RECUPERATOR",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_LEFT",
+        "vertices_before": 16,
+        "vertices_after": 16,
+        "triangles": 26,
+        "logical_bytes_before": 696,
+        "logical_bytes_after": 540,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_RIGHT",
+        "vertices_before": 16,
+        "vertices_after": 16,
+        "triangles": 26,
+        "logical_bytes_before": 696,
+        "logical_bytes_after": 540,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "GEAR_WELL_NOSE",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 10,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 252,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PATCH_houseTint_PORT",
+        "vertices_before": 33,
+        "vertices_after": 17,
+        "triangles": 15,
+        "logical_bytes_before": 2292,
+        "logical_bytes_after": 1178,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "fuselage",
+        "vertices_before": 116127,
+        "vertices_after": 28526,
+        "triangles": 44336,
+        "logical_bytes_before": 7964160,
+        "logical_bytes_after": 2091680,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_CABIN_PRESERVED",
+        "vertices_before": 147488,
+        "vertices_after": 74940,
+        "triangles": 90541,
+        "logical_bytes_before": 10525724,
+        "logical_bytes_after": 5882652,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "COCKPIT_WINDOWS",
+        "vertices_before": 732,
+        "vertices_after": 731,
+        "triangles": 476,
+        "logical_bytes_before": 52560,
+        "logical_bytes_after": 49640,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_COCKPIT_PANEL",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_MULTIFUNCTION_DISPLAY_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_MULTIFUNCTION_DISPLAY_2",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_MULTIFUNCTION_DISPLAY_3",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_MULTIFUNCTION_DISPLAY_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_MULTIFUNCTION_DISPLAY_5",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_HUD_GLASS_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "J_HUD_GLASS_2",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SKIN",
+        "vertices_before": 148,
+        "vertices_after": 62,
+        "triangles": 70,
+        "logical_bytes_before": 10312,
+        "logical_bytes_after": 4388,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_0",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_1",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SKIN",
+        "vertices_before": 163,
+        "vertices_after": 69,
+        "triangles": 77,
+        "logical_bytes_before": 11356,
+        "logical_bytes_after": 4878,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_0",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_1",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_4",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SKIN",
+        "vertices_before": 151,
+        "vertices_after": 63,
+        "triangles": 72,
+        "logical_bytes_before": 10528,
+        "logical_bytes_after": 4464,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 7,
+        "logical_bytes_before": 276,
+        "logical_bytes_after": 234,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_4",
+        "vertices_before": 22,
+        "vertices_after": 22,
+        "triangles": 21,
+        "logical_bytes_before": 780,
+        "logical_bytes_after": 654,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_right_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 22,
+        "vertices_after": 22,
+        "triangles": 21,
+        "logical_bytes_before": 780,
+        "logical_bytes_after": 654,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SKIN",
+        "vertices_before": 145,
+        "vertices_after": 61,
+        "triangles": 69,
+        "logical_bytes_before": 10108,
+        "logical_bytes_after": 4318,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_0",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_1",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 11,
+        "vertices_after": 11,
+        "triangles": 10,
+        "logical_bytes_before": 384,
+        "logical_bytes_after": 324,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_4",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "flap_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SKIN",
+        "vertices_before": 162,
+        "vertices_after": 68,
+        "triangles": 76,
+        "logical_bytes_before": 11280,
+        "logical_bytes_after": 4808,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_0",
+        "vertices_before": 14,
+        "vertices_after": 14,
+        "triangles": 13,
+        "logical_bytes_before": 492,
+        "logical_bytes_after": 414,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_0_FIXED_WING",
+        "vertices_before": 14,
+        "vertices_after": 14,
+        "triangles": 13,
+        "logical_bytes_before": 492,
+        "logical_bytes_after": 414,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_1",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_4",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "aileron_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 12,
+        "vertices_after": 12,
+        "triangles": 11,
+        "logical_bytes_before": 420,
+        "logical_bytes_after": 354,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SKIN",
+        "vertices_before": 299,
+        "vertices_after": 135,
+        "triangles": 183,
+        "logical_bytes_before": 21332,
+        "logical_bytes_after": 9738,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_1",
+        "vertices_before": 17,
+        "vertices_after": 17,
+        "triangles": 16,
+        "logical_bytes_before": 600,
+        "logical_bytes_after": 504,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_1_FIXED_WING",
+        "vertices_before": 17,
+        "vertices_after": 17,
+        "triangles": 16,
+        "logical_bytes_before": 600,
+        "logical_bytes_after": 504,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_4",
+        "vertices_before": 35,
+        "vertices_after": 35,
+        "triangles": 34,
+        "logical_bytes_before": 1248,
+        "logical_bytes_after": 1044,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "elevator_left_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 35,
+        "vertices_after": 35,
+        "triangles": 34,
+        "logical_bytes_before": 1248,
+        "logical_bytes_after": 1044,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SKIN",
+        "vertices_before": 229,
+        "vertices_after": 117,
+        "triangles": 156,
+        "logical_bytes_before": 16528,
+        "logical_bytes_after": 8424,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_2",
+        "vertices_before": 7,
+        "vertices_after": 7,
+        "triangles": 6,
+        "logical_bytes_before": 240,
+        "logical_bytes_after": 204,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_2_FIXED_WING",
+        "vertices_before": 7,
+        "vertices_after": 7,
+        "triangles": 6,
+        "logical_bytes_before": 240,
+        "logical_bytes_after": 204,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_3",
+        "vertices_before": 4,
+        "vertices_after": 4,
+        "triangles": 3,
+        "logical_bytes_before": 132,
+        "logical_bytes_after": 114,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_3_FIXED_WING",
+        "vertices_before": 4,
+        "vertices_after": 4,
+        "triangles": 3,
+        "logical_bytes_before": 132,
+        "logical_bytes_after": 114,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_4",
+        "vertices_before": 20,
+        "vertices_after": 20,
+        "triangles": 19,
+        "logical_bytes_before": 708,
+        "logical_bytes_after": 594,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "rudder_SEAM_CAP_4_FIXED_WING",
+        "vertices_before": 20,
+        "vertices_after": 20,
+        "triangles": 19,
+        "logical_bytes_before": 708,
+        "logical_bytes_after": 594,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_SIX_SWEPT_BLADES",
+        "vertices_before": 60,
+        "vertices_after": 60,
+        "triangles": 48,
+        "logical_bytes_before": 2016,
+        "logical_bytes_after": 1728,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_1_J_SPINNER",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_SIX_SWEPT_BLADES",
+        "vertices_before": 60,
+        "vertices_after": 60,
+        "triangles": 48,
+        "logical_bytes_before": 2016,
+        "logical_bytes_after": 1728,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_2_J_SPINNER",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_SIX_SWEPT_BLADES",
+        "vertices_before": 60,
+        "vertices_after": 60,
+        "triangles": 48,
+        "logical_bytes_before": 2016,
+        "logical_bytes_after": 1728,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_3_J_SPINNER",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_SIX_SWEPT_BLADES",
+        "vertices_before": 60,
+        "vertices_after": 60,
+        "triangles": 48,
+        "logical_bytes_before": 2016,
+        "logical_bytes_after": 1728,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PROP_4_J_SPINNER",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+        "vertices_before": 9,
+        "vertices_after": 9,
+        "triangles": 8,
+        "logical_bytes_before": 312,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+        "vertices_before": 10,
+        "vertices_after": 10,
+        "triangles": 9,
+        "logical_bytes_before": 348,
+        "logical_bytes_after": 294,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_LOWER_RAMP_PRESERVED",
+        "vertices_before": 1340,
+        "vertices_after": 1184,
+        "triangles": 1506,
+        "logical_bytes_before": 103832,
+        "logical_bytes_after": 84812,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_RAMP_INTERIOR_PRESERVED",
+        "vertices_before": 8774,
+        "vertices_after": 8157,
+        "triangles": 5282,
+        "logical_bytes_before": 624920,
+        "logical_bytes_after": 553740,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CARGO_UPPER_DOOR_PRESERVED",
+        "vertices_before": 490,
+        "vertices_after": 490,
+        "triangles": 864,
+        "logical_bytes_before": 41728,
+        "logical_bytes_after": 36544,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_AIRSTAIR_DOOR_PRESERVED",
+        "vertices_before": 405,
+        "vertices_after": 405,
+        "triangles": 600,
+        "logical_bytes_before": 33120,
+        "logical_bytes_after": 29520,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_1",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_2",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_3",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "CREW_STAIR_TREAD_4",
+        "vertices_before": 8,
+        "vertices_after": 8,
+        "triangles": 12,
+        "logical_bytes_before": 336,
+        "logical_bytes_after": 264,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_RIGHT_SOURCE_18",
+        "vertices_before": 389,
+        "vertices_after": 389,
+        "triangles": 656,
+        "logical_bytes_before": 32768,
+        "logical_bytes_after": 28832,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "PARATROOP_RIGHT_SOURCE_19",
+        "vertices_before": 42,
+        "vertices_after": 42,
+        "triangles": 64,
+        "logical_bytes_before": 3456,
+        "logical_bytes_after": 3072,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_1_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_1_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_left_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_left_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_2_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_LEFT_2_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_left_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_left_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_GEAR_COVER_LEFT_PRESERVED",
+        "vertices_before": 38,
+        "vertices_after": 38,
+        "triangles": 36,
+        "logical_bytes_before": 2864,
+        "logical_bytes_after": 2648,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_1_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_1_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_right_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_right_1",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_2_PRESERVED_TIRE",
+        "vertices_before": 160,
+        "vertices_after": 160,
+        "triangles": 256,
+        "logical_bytes_before": 13312,
+        "logical_bytes_after": 11776,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "WHEEL_RIGHT_2_PRESERVED_RIM",
+        "vertices_before": 626,
+        "vertices_after": 626,
+        "triangles": 1152,
+        "logical_bytes_before": 53888,
+        "logical_bytes_after": 46976,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_STRUT_right_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_FIXED_TELESCOPIC_STRUT_right_2",
+        "vertices_before": 48,
+        "vertices_after": 48,
+        "triangles": 92,
+        "logical_bytes_before": 2256,
+        "logical_bytes_after": 1704,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "MAIN_GEAR_COVER_RIGHT_PRESERVED",
+        "vertices_before": 38,
+        "vertices_after": 38,
+        "triangles": 36,
+        "logical_bytes_before": 2864,
+        "logical_bytes_after": 2648,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_GEAR_STRUT_PRESERVED",
+        "vertices_before": 90,
+        "vertices_after": 90,
+        "triangles": 80,
+        "logical_bytes_before": 6720,
+        "logical_bytes_after": 6240,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WHEELS_PRESERVED_TIRE",
+        "vertices_before": 334,
+        "vertices_after": 334,
+        "triangles": 536,
+        "logical_bytes_before": 27808,
+        "logical_bytes_after": 24592,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WHEELS_PRESERVED_RIM",
+        "vertices_before": 1386,
+        "vertices_after": 1386,
+        "triangles": 2568,
+        "logical_bytes_before": 119520,
+        "logical_bytes_after": 104112,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED",
+        "vertices_before": 100,
+        "vertices_after": 76,
+        "triangles": 44,
+        "logical_bytes_before": 6928,
+        "logical_bytes_after": 5128,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_GEAR_COVER_PRESERVED",
+        "vertices_before": 264,
+        "vertices_after": 240,
+        "triangles": 244,
+        "logical_bytes_before": 19824,
+        "logical_bytes_after": 16824,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WELL_LEFT_SOURCE_HATCH",
+        "vertices_before": 345,
+        "vertices_after": 136,
+        "triangles": 164,
+        "logical_bytes_before": 24048,
+        "logical_bytes_after": 9688,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "NOSE_WELL_RIGHT_SOURCE_HATCH",
+        "vertices_before": 324,
+        "vertices_after": 110,
+        "triangles": 142,
+        "logical_bytes_before": 22440,
+        "logical_bytes_after": 7892,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_AZIMUTH_SHELL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_OPTICAL_GIMBAL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_LENS_1",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_chin_LENS_2",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_AZIMUTH_SHELL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_OPTICAL_GIMBAL",
+        "vertices_before": 312,
+        "vertices_after": 312,
+        "triangles": 528,
+        "logical_bytes_before": 13824,
+        "logical_bytes_after": 10656,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_LENS_1",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      },
+      {
+        "mesh": "eoir_port_LENS_2",
+        "vertices_before": 40,
+        "vertices_after": 40,
+        "triangles": 76,
+        "logical_bytes_before": 1872,
+        "logical_bytes_after": 1416,
+        "attributes": [
+          "NORMAL",
+          "POSITION"
+        ],
+        "operation": "exact_complete_float32_attribute_records"
+      }
+    ]
+  }
+}

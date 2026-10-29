@@ -1,0 +1,170 @@
+{
+  "model": "5243faf18eecc6cbc5ad409f24ef2bc80e16be13bbd74ce2d4b6578e845d9a41",
+  "scope": "Read-only virtual pose offsets on actual exported geometry, not authored or accepted mechanism. Same hatch-vs-body/wheel pairs only.",
+  "results": [
+    {
+      "open_outboard_offset_m": 0.12,
+      "open_Y_offset_m": -0.06,
+      "return_policy": "outboard return t.76 to .95, lift lowering t.90 to .95",
+      "samples": [
+        {
+          "t": 0,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.125,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.25,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.375,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.5,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.625,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.75,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.8,
+          "skin": 8,
+          "wheels": 0
+        },
+        {
+          "t": 0.85,
+          "skin": 121,
+          "wheels": 0
+        },
+        {
+          "t": 0.875,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.9,
+          "skin": 11,
+          "wheels": 0
+        },
+        {
+          "t": 0.925,
+          "skin": 8,
+          "wheels": 0
+        },
+        {
+          "t": 0.95,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.975,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 1,
+          "skin": 0,
+          "wheels": 0
+        }
+      ]
+    },
+    {
+      "open_outboard_offset_m": 0.18,
+      "open_Y_offset_m": -0.06,
+      "return_policy": "outboard return t.76 to .95, lift lowering t.90 to .95",
+      "samples": [
+        {
+          "t": 0,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.125,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.25,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.375,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.5,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.625,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.75,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.8,
+          "skin": 6,
+          "wheels": 0
+        },
+        {
+          "t": 0.85,
+          "skin": 158,
+          "wheels": 0
+        },
+        {
+          "t": 0.875,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.9,
+          "skin": 13,
+          "wheels": 0
+        },
+        {
+          "t": 0.925,
+          "skin": 8,
+          "wheels": 0
+        },
+        {
+          "t": 0.95,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 0.975,
+          "skin": 0,
+          "wheels": 0
+        },
+        {
+          "t": 1,
+          "skin": 0,
+          "wheels": 0
+        }
+      ]
+    }
+  ]
+}

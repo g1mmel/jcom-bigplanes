@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Replacement of one truncated preview; model, native .blend and all other renders unchanged",
+  "created_utc": "2026-10-29T03:25:18.770417+00:00",
+  "model_sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62",
+  "controller_pose_source": {
+    "model_sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62",
+    "articulation_sha256": "24c3e7a25950ad0c0bd06e595004754ab6980b7a3358c75580cd06162b3153a7",
+    "controller_sha256": "803ecd5fce313cc9b768f9792d7156c7ab1f9c9558161fb4b83ca7ecb72e6407",
+    "pose_driver_sha256": "aac824cf19c3ff1a99a2cc162cb15c9ee01231e3f8c2f77c500c4c66831e7530",
+    "runtime": "Three.js 0.170.0; actual GLB scene and animation tracks"
+  },
+  "method": "Isolated rerender using unchanged source/blender_review.py, exact final model and exact controller snapshots; visually inspected",
+  "source_script_sha256": "321d87ccf510ebacb49a45d44a0db6037379da5416bdbfda884ebb7653fb3c13",
+  "blender_version": "4.5.15 LTS",
+  "render_runtime": "Blender Cycles CPU",
+  "pose_conversion": {
+    "pose": "SERVICE",
+    "max_matrix_error": 2.384185791015625e-07,
+    "result": "PASS"
+  },
+  "original_native_report_sha256": "888e1635cff45d806b48725ab0707253558b9b7983fdcd551631349935e7b611",
+  "original_expected_png_sha256": "b6176c66c40213cd904ef13560e14bef0983574d34654d07f26beed323be494d",
+  "observed_truncated_png_sha256": "c47c531251934771c5cbe69e67d88be6d598b05642c73478cfcb60df1ebc2b8c",
+  "observed_truncated_png_bytes": 221184,
+  "replacement": {
+    "path": "previews/ac130j-service-hero.png",
+    "sha256": "da2490f5654006850d7e46a539455f9be1d27c13557d2dc5c0dc975e1b3136c6",
+    "pose": "SERVICE",
+    "camera": "hero"
+  }
+}

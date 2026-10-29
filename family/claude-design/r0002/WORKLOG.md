@@ -34,3 +34,21 @@ Correct the shared geometry basis and pivots; implement actual controls and clip
 - Authored a local-vendor Three.js viewer, deterministic mechanism controller and native Blender review script. Viewer model-specific checks await the new exports; browser/WebGL rendering is not claimed.
 - Selected AC-130W Stinger II circa2021 for the generic legacy-gunship slot. This is a new explicit review configuration, not a change to any AC-130U roster binding.
 
+
+## claude-design milestone: exact-byte delivery route
+- The GitHub connector rejected a complete model-sized blob request at the transport layer. No asset was replaced by that attempt.
+- Added a branch-scoped preservation workflow and hash-checking restore script. This is the one infrastructure addition outside r0002; it exists only to transfer and preserve the already-generated files. It does not execute the model builder or renderer.
+- The restore process checks every transport chunk, the complete archive and the delivered file manifest, preserves a workflow artifact before the final push, and fetches/rebases before a non-forced push.
+- Independent review caught and repaired invalid empty node children, tangent handedness, local ramp/cabin pockets, and a nose-hatch hinge fitted to the curved source edge. Current reports and final hashes supersede historical intermediate failures.
+
+
+## claude-design milestone: final articulated review package
+- Frozen final assembled candidates: C-130H legacy transport, AC-130W Stinger II circa 2021, and AC-130J Ghostrider. The original r0001 and original source files remain unchanged.
+- Final GLB SHA-256 values: c130 `7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146`; ac130 `7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046`; ac130j `b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62`.
+- Exact full-record indexing reduced the articulated exports by 42–44%. Independent comparison confirmed all expanded triangle attributes/order, hierarchy, animation values, embedded maps and materials were preserved. Prior representations are retained separately for audit, excluded from the delivery revision.
+- Final Khronos validation reports zero errors and warnings for all three. Actual Three.js loader/controller tests exercise 27/36/36 controls, pause, interrupted reverse and exact reset.
+- Blender 4.5.15 LTS imported every final GLB, evaluated every actual imported clip at seven samples, saved packed editable files and reopened them successfully. Thirty-nine final native renders show parked, service, flying and mid-demonstration states.
+- Root and independent QA inspected final flying undersides and cargo views. Large exposed main-well rectangles are gone; nose/main closures and retained cabin/ramp pass scoped draft review. Perimeter seams, declared hinge-interface contacts and unmeasured travel remain limitations.
+- A final image-integrity pass caught one truncated J service-hero PNG after its original render. That single image was regenerated in an isolated revision from unchanged model/controller inputs, visually inspected and recorded in qa/preview-repair-receipt.json. Every delivered preview decodes and matches its native report hash.
+- Acceptance stays DRAFT_ARTICULATED_REVIEW. Browser/WebGL, native Unreal import/cook/runtime, exact photographic fit, full continuous clearance, source licensing and gameplay/LOD/performance acceptance remain open.
+- The exact-byte transport archive contains the frozen reviewed outputs and evidence. Its restoration process verifies every chunk, the archive, manifest and individual file checksums; it never regenerates aircraft geometry or renders.

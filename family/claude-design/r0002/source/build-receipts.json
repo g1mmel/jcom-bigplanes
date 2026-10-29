@@ -6,11 +6,27 @@
   "outputs": [
     {
       "path": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/c130.glb",
-      "bytes": 17239512,
-      "sha256": "4ba8d0f24f39b3e917e6df566977a25f49c9c7107ae4e68287917a59bf4e02f5",
-      "nodes": 93,
-      "meshes": 62,
+      "bytes": 13876572,
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+      "nodes": 144,
+      "meshes": 111,
       "clips": 27
+    },
+    {
+      "path": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/ac130.glb",
+      "bytes": 14240532,
+      "sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+      "nodes": 187,
+      "meshes": 143,
+      "clips": 36
+    },
+    {
+      "path": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/ac130j.glb",
+      "bytes": 14006440,
+      "sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62",
+      "nodes": 213,
+      "meshes": 169,
+      "clips": 36
     }
   ]
 }

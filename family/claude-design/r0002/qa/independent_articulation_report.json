@@ -1,0 +1,5159 @@
+{
+  "generated_utc": "2026-10-29T03:19:24.176166+00:00",
+  "auditor": "independent Python/NumPy decoder; no builder/viewer imports",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "sample_times": [
+    0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1
+  ],
+  "tolerance_m": 2e-05,
+  "scope": "GLB/data integrity, actual sampled vertex transforms, clip/control binding, rest/reverse/reset in independent sampler. Does not certify swept collision, visual quality or engine execution.",
+  "status": "PASS_SCOPED",
+  "models": [
+    {
+      "file": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/c130.glb",
+      "bytes": 13876572,
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+      "errors": [],
+      "warnings": [
+        "Multiple clips target same node/property; combined controller must arbitrate: PIVOT_cargo_upper_door.rotation, PIVOT_gear_door_left.rotation, PIVOT_gear_door_right.rotation, PIVOT_gear_door_nose.rotation, PIVOT_nose_forward_hatch_left.rotation, PIVOT_nose_forward_hatch_right.rotation"
+      ],
+      "clips": [
+        {
+          "name": "flap_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_flap_right",
+              "property": "rotation",
+              "origin_world_m": [
+                7.300000000000001,
+                4.56,
+                -0.007000000000000006
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.026558710697427275,
+            "0.25": 0.0965488015709905,
+            "0.375": 0.19531899769928174,
+            "0.5": 0.30805101319905953,
+            "0.625": 0.4199734612070668,
+            "0.75": 0.5167168150879224,
+            "0.875": 0.5845323628647571,
+            "1": 0.6101061494736562
+          },
+          "max_displacement_m": 0.6101061494736562,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "flap_right_SKIN",
+            "flap_right_SEAM_CAP_0",
+            "flap_right_SEAM_CAP_1",
+            "flap_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 91
+        },
+        {
+          "name": "aileron_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_aileron_right",
+              "property": "rotation",
+              "origin_world_m": [
+                15.575,
+                4.56,
+                -0.7517499999999998
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.011642497497914494,
+            "0.25": 0.04233284936195065,
+            "0.375": 0.08570022659910512,
+            "0.5": 0.13535304954632751,
+            "0.625": 0.18490549435339024,
+            "0.75": 0.228021332801399,
+            "0.875": 0.25844163001416515,
+            "1": 0.2699617181640843
+          },
+          "max_displacement_m": 0.2699617181640843,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "aileron_right_SKIN",
+            "aileron_right_SEAM_CAP_0",
+            "aileron_right_SEAM_CAP_1",
+            "aileron_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 102
+        },
+        {
+          "name": "elevator_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_elevator_right",
+              "property": "rotation",
+              "origin_world_m": [
+                4.6,
+                4.48,
+                12.646
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.017028696019422036,
+            "0.25": 0.061913944773416635,
+            "0.375": 0.12531744121756605,
+            "0.5": 0.19785016743382453,
+            "0.625": 0.2701371016543284,
+            "0.75": 0.3329249643292839,
+            "0.875": 0.37714935783608006,
+            "1": 0.3938785980700057
+          },
+          "max_displacement_m": 0.3938785980700057,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "elevator_right_SKIN",
+            "elevator_right_SEAM_CAP_1",
+            "elevator_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 93
+        },
+        {
+          "name": "flap_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_flap_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -7.300000000000001,
+                4.56,
+                -0.007000000000000006
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.026558769198932082,
+            "0.25": 0.09654901424134563,
+            "0.375": 0.19531942793306925,
+            "0.5": 0.30805169175033836,
+            "0.625": 0.41997438629261014,
+            "0.75": 0.5167179532723167,
+            "0.875": 0.5845336504281121,
+            "1": 0.6101074933689868
+          },
+          "max_displacement_m": 0.6101074933689868,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "flap_left_SKIN",
+            "flap_left_SEAM_CAP_0",
+            "flap_left_SEAM_CAP_1",
+            "flap_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 90
+        },
+        {
+          "name": "aileron_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_aileron_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -15.575,
+                4.56,
+                -0.7517499999999998
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.01164254757141965,
+            "0.25": 0.04233303143234781,
+            "0.375": 0.08570059518932792,
+            "0.5": 0.1353536316895985,
+            "0.625": 0.18490628961798172,
+            "0.75": 0.22802231350397553,
+            "0.875": 0.2584427415521499,
+            "1": 0.2699628792491028
+          },
+          "max_displacement_m": 0.2699628792491028,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "aileron_left_SKIN",
+            "aileron_left_SEAM_CAP_0",
+            "aileron_left_SEAM_CAP_1",
+            "aileron_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 103
+        },
+        {
+          "name": "elevator_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_elevator_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -4.6,
+                4.48,
+                12.646
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016018294660888492,
+            "0.25": 0.058240267631493446,
+            "0.375": 0.1178817041038963,
+            "0.5": 0.1861106859141665,
+            "0.625": 0.2541084588782728,
+            "0.75": 0.3131707897670378,
+            "0.875": 0.3547711200369431,
+            "1": 0.3705077271649503
+          },
+          "max_displacement_m": 0.3705077271649503,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "elevator_left_SKIN",
+            "elevator_left_SEAM_CAP_1",
+            "elevator_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 187
+        },
+        {
+          "name": "rudder",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_rudder",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                5.4,
+                11.402
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.046138478099016784,
+            "0.25": 0.1677462525524154,
+            "0.375": 0.33948219737464413,
+            "0.5": 0.5358278594524342,
+            "0.625": 0.7313140652130657,
+            "0.75": 0.9008973019445699,
+            "0.875": 1.0201945969120758,
+            "1": 1.0652861901560948
+          },
+          "max_displacement_m": 1.0652861901560948,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "rudder_SKIN",
+            "rudder_SEAM_CAP_2",
+            "rudder_SEAM_CAP_3",
+            "rudder_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 148
+        },
+        {
+          "name": "prop_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_1",
+              "property": "rotation",
+              "origin_world_m": [
+                5.349704503791233,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.6846379362546144,
+            "0.25": 3.112804979795399,
+            "0.375": 4.067075694920108,
+            "0.5": 4.402171019449162,
+            "0.625": 4.067075694920106,
+            "0.75": 3.1128049797953996,
+            "0.875": 1.6846379362546153,
+            "1": 1.2560739669470201e-15
+          },
+          "max_displacement_m": 4.402171019449162,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_1_HUB_SOURCE",
+            "PROP_1_BLADES_SOURCE",
+            "PROP_1_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "prop_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_2",
+              "property": "rotation",
+              "origin_world_m": [
+                10.560874381252251,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.6846379362546144,
+            "0.25": 3.1128049797953996,
+            "0.375": 4.067075694920108,
+            "0.5": 4.402171019449162,
+            "0.625": 4.067075694920107,
+            "0.75": 3.1128049797953996,
+            "0.875": 1.6846379362546153,
+            "1": 8.881784197001252e-16
+          },
+          "max_displacement_m": 4.402171019449162,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_2_HUB_SOURCE",
+            "PROP_2_BLADES_SOURCE",
+            "PROP_2_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "prop_3",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_3",
+              "property": "rotation",
+              "origin_world_m": [
+                -5.3497223344478675,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.6846379362546144,
+            "0.25": 3.1128049797953996,
+            "0.375": 4.067075694920108,
+            "0.5": 4.402171019449162,
+            "0.625": 4.067075694920106,
+            "0.75": 3.112804979795399,
+            "0.875": 1.684637936254615,
+            "1": 9.930136612989092e-16
+          },
+          "max_displacement_m": 4.402171019449162,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_3_HUB_SOURCE",
+            "PROP_3_BLADES_SOURCE",
+            "PROP_3_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "prop_4",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_4",
+              "property": "rotation",
+              "origin_world_m": [
+                -10.560892542106233,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.684638008363907,
+            "0.25": 3.1128051130359986,
+            "0.375": 4.067075869007339,
+            "0.5": 4.4021712078798245,
+            "0.625": 4.067075869007338,
+            "0.75": 3.112805113035998,
+            "0.875": 1.6846380083639083,
+            "1": 8.881784197001252e-16
+          },
+          "max_displacement_m": 4.4021712078798245,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_4_HUB_SOURCE",
+            "PROP_4_BLADES_SOURCE",
+            "PROP_4_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "cargo_ramp",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_cargo_upper_door",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                3.7514185504360054,
+                10.087033047587216
+              ]
+            },
+            {
+              "node": "PIVOT_cargo_ramp",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.9819460807253687,
+                2.7427263824014805
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5443584379565165,
+            "0.25": 1.3350933520027206,
+            "0.375": 1.440854889390478,
+            "0.5": 1.440854889390478,
+            "0.625": 1.440854889390478,
+            "0.75": 1.440854889390478,
+            "0.875": 1.654732348236531,
+            "1": 1.7846566531679662
+          },
+          "max_displacement_m": 1.7846566531679662,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+            "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+            "CARGO_LOWER_RAMP_PRESERVED",
+            "CARGO_RAMP_INTERIOR_PRESERVED",
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "affected_vertex_count": 9850
+        },
+        {
+          "name": "cargo_upper_door",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_cargo_upper_door",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                3.7514185504360054,
+                10.087033047587216
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.062226592152661145,
+            "0.25": 0.2262525859541599,
+            "0.375": 0.4579854568458667,
+            "0.5": 0.7231793381351885,
+            "0.625": 0.9876307308220892,
+            "0.75": 1.2175037396020734,
+            "0.875": 1.3795330406463477,
+            "1": 1.440854889390478
+          },
+          "max_displacement_m": 1.440854889390478,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "affected_vertex_count": 490
+        },
+        {
+          "name": "crew_door",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_crew_door",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.69,
+                0.93,
+                -9.84
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.14444676884254185,
+            "0.25": 0.5228373027140475,
+            "0.375": 1.042381824271251,
+            "0.5": 1.5967264691941898,
+            "0.625": 2.0851916392528227,
+            "0.75": 2.441655908085632,
+            "0.875": 2.648029316663385,
+            "1": 2.715559745210213
+          },
+          "max_displacement_m": 2.715559745210213,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CREW_AIRSTAIR_DOOR_PRESERVED",
+            "CREW_STAIR_TREAD_1",
+            "CREW_STAIR_TREAD_2",
+            "CREW_STAIR_TREAD_3",
+            "CREW_STAIR_TREAD_4"
+          ],
+          "affected_vertex_count": 437
+        },
+        {
+          "name": "paratroop_right",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_paratroop_right",
+              "property": "translation",
+              "origin_world_m": [
+                1.98,
+                1.03,
+                2.24
+              ]
+            },
+            {
+              "node": "PIVOT_paratroop_right",
+              "property": "rotation",
+              "origin_world_m": [
+                1.98,
+                1.03,
+                2.24
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 3.5683225657500774e-08,
+            "0.125": 0.2147201108932516,
+            "0.25": 0.3876300694527409,
+            "0.375": 0.5140731791572,
+            "0.5": 0.8932309091240128,
+            "0.625": 1.4375464758185243,
+            "0.75": 1.9183808492783336,
+            "0.875": 2.2118228667857105,
+            "1": 2.305613039382339
+          },
+          "max_displacement_m": 2.305613039382339,
+          "time_zero_rest_error_m": 3.5683225657500774e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PARATROOP_RIGHT_SOURCE_18",
+            "PARATROOP_RIGHT_SOURCE_19"
+          ],
+          "affected_vertex_count": 431
+        },
+        {
+          "name": "paratroop_left",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_paratroop_left",
+              "property": "translation",
+              "origin_world_m": [
+                -1.98,
+                1.03,
+                2.24
+              ]
+            },
+            {
+              "node": "PIVOT_paratroop_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.98,
+                1.03,
+                2.24
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 3.5683225657500774e-08,
+            "0.125": 0.2147201108932516,
+            "0.25": 0.3876300694527409,
+            "0.375": 0.5140731791572,
+            "0.5": 0.893230738584439,
+            "0.625": 1.4375457412907906,
+            "0.75": 1.9183794083584524,
+            "0.875": 2.2118208263366212,
+            "1": 2.3056107476026115
+          },
+          "max_displacement_m": 2.3056107476026115,
+          "time_zero_rest_error_m": 3.5683225657500774e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PARATROOP_LEFT_SOURCE_20",
+            "PARATROOP_LEFT_SOURCE_21"
+          ],
+          "affected_vertex_count": 431
+        },
+        {
+          "name": "wheel_left_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_left_1",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.8663018102411117,
+                0.6573333745872825,
+                -2.5160398527687073
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091208802312,
+            "0.25": 0.9272223406386896,
+            "0.375": 1.2114743679337132,
+            "0.5": 1.3112904094665607,
+            "0.625": 1.211474367933713,
+            "0.75": 0.9272223406386896,
+            "0.875": 0.5018091208802313,
+            "1": 2.220446049250313e-16
+          },
+          "max_displacement_m": 1.3112904094665607,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_1_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "wheel_left_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_left_2",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.8663018102411117,
+                0.6573333745872825,
+                -1.0623061847887563
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091209293342,
+            "0.25": 0.9272223407294201,
+            "0.375": 1.2114743680522586,
+            "0.5": 1.311290409594873,
+            "0.625": 1.2114743680522582,
+            "0.75": 0.9272223407294201,
+            "0.875": 0.5018091209293343,
+            "1": 2.482534153247273e-16
+          },
+          "max_displacement_m": 1.311290409594873,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_2_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "gear_left",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_gear_left",
+              "property": "translation",
+              "origin_world_m": [
+                -1.866,
+                0.66,
+                -1.79
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 7.286252800572286e-08,
+            "0.125": 0.299179020106715,
+            "0.25": 0.38443405270643866,
+            "0.375": 0.38443405270643866,
+            "0.5": 0.7966265344619781,
+            "0.625": 1.1475499534606952,
+            "0.75": 1.2499999666214006,
+            "0.875": 1.2499999666214006,
+            "1": 1.737698514647365
+          },
+          "max_displacement_m": 1.737698514647365,
+          "time_zero_rest_error_m": 7.286252800572286e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "MAIN_STRUT_left_1",
+            "WHEEL_LEFT_2_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "MAIN_STRUT_left_2",
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "affected_vertex_count": 1706
+        },
+        {
+          "name": "gear_door_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016586651578839564,
+            "0.25": 0.060309501157344625,
+            "0.375": 0.12208872405418779,
+            "0.5": 0.1928114209276052,
+            "0.625": 0.2633737382495419,
+            "0.75": 0.32475130148504233,
+            "0.875": 0.36804288642597527,
+            "1": 0.38443405270643866
+          },
+          "max_displacement_m": 0.38443405270643866,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "affected_vertex_count": 38
+        },
+        {
+          "name": "wheel_right_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_right_1",
+              "property": "rotation",
+              "origin_world_m": [
+                1.8664685599003825,
+                0.6573333745872825,
+                -2.5160398527687073
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091208802312,
+            "0.25": 0.9272223406386896,
+            "0.375": 1.2114743679337132,
+            "0.5": 1.3112904094665607,
+            "0.625": 1.211474367933713,
+            "0.75": 0.9272223406386896,
+            "0.875": 0.5018091208802313,
+            "1": 2.220446049250313e-16
+          },
+          "max_displacement_m": 1.3112904094665607,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_1_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "wheel_right_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_right_2",
+              "property": "rotation",
+              "origin_world_m": [
+                1.8664685599003825,
+                0.6573333745872825,
+                -1.0623061847887563
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091209293342,
+            "0.25": 0.9272223407294201,
+            "0.375": 1.2114743680522586,
+            "0.5": 1.311290409594873,
+            "0.625": 1.2114743680522582,
+            "0.75": 0.9272223407294201,
+            "0.875": 0.5018091209293343,
+            "1": 2.482534153247273e-16
+          },
+          "max_displacement_m": 1.311290409594873,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_2_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "gear_right",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_gear_right",
+              "property": "translation",
+              "origin_world_m": [
+                1.866,
+                0.66,
+                -1.79
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_right",
+              "property": "rotation",
+              "origin_world_m": [
+                2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 7.286252800572286e-08,
+            "0.125": 0.29917887763448653,
+            "0.25": 0.3844338696348576,
+            "0.375": 0.3844338696348576,
+            "0.5": 0.7966265344619781,
+            "0.625": 1.1475499534606952,
+            "0.75": 1.2499999666214006,
+            "0.875": 1.2499999666214006,
+            "1": 1.7376976871368677
+          },
+          "max_displacement_m": 1.7376976871368677,
+          "time_zero_rest_error_m": 7.286252800572286e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "MAIN_STRUT_right_1",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "MAIN_STRUT_right_2",
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "affected_vertex_count": 1706
+        },
+        {
+          "name": "gear_door_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_right",
+              "property": "rotation",
+              "origin_world_m": [
+                2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016586643680099687,
+            "0.25": 0.060309472437319246,
+            "0.375": 0.1220886659142402,
+            "0.5": 0.19281132910875784,
+            "0.625": 0.2633736128281691,
+            "0.75": 0.3247511468350216,
+            "0.875": 0.368042711160042,
+            "1": 0.3844338696348576
+          },
+          "max_displacement_m": 0.3844338696348576,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "affected_vertex_count": 38
+        },
+        {
+          "name": "wheel_nose",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                -3.095600110691876e-07,
+                0.48978301547644665,
+                -11.86688430531863
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.3748633290952534,
+            "0.25": 0.692657105980086,
+            "0.375": 0.9050001201265339,
+            "0.5": 0.979565073351136,
+            "0.625": 0.9050001201265336,
+            "0.75": 0.692657105980086,
+            "0.875": 0.37486332909525344,
+            "1": 1.1102230246251565e-16
+          },
+          "max_displacement_m": 0.979565073351136,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_WHEELS_PRESERVED_TIRE",
+            "NOSE_WHEELS_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 1720
+        },
+        {
+          "name": "gear_nose",
+          "channels": 7,
+          "targets": [
+            {
+              "node": "PIVOT_gear_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                1.6,
+                -12.02
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "translation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "translation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "rotation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "translation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 4.5680351169841137e-07,
+            "0.125": 0.15669773671154338,
+            "0.25": 0.20161475985618604,
+            "0.375": 0.6956922285311115,
+            "0.5": 1.5744062707461992,
+            "0.625": 2.2327258701156087,
+            "0.75": 2.426070129054297,
+            "0.875": 2.426070129054297,
+            "1": 2.426070129054297
+          },
+          "max_displacement_m": 2.426070129054297,
+          "time_zero_rest_error_m": 4.5680351169841137e-07,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_GEAR_STRUT_PRESERVED",
+            "NOSE_WHEELS_PRESERVED_TIRE",
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "affected_vertex_count": 2296
+        },
+        {
+          "name": "gear_door_nose",
+          "channels": 3,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "rotation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.008670162974136683,
+            "0.25": 0.03152728699809889,
+            "0.375": 0.06383883275179603,
+            "0.5": 0.10086882877031293,
+            "0.625": 0.13788226269925663,
+            "0.75": 0.17015228758810558,
+            "0.875": 0.19296481480988695,
+            "1": 0.2016147593908483
+          },
+          "max_displacement_m": 0.2016147593908483,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "affected_vertex_count": 486
+        }
+      ],
+      "checks": {
+        "glb_and_accessor_bounds": "PASS",
+        "finite_export_data": "PASS",
+        "actual_decoded_vertex_motion": "PASS",
+        "independent_sampler_reverse_interruption_reset": "PASS",
+        "collision_clearance": "NOT_RUN",
+        "photographic_acceptance": "NOT_RUN",
+        "viewer_runtime_control_sequence": "SEPARATE_REPORT",
+        "native_blender": "SEPARATE_REPORT_OR_NOT_RUN",
+        "native_unreal": "NOT_RUN",
+        "full_khronos_gltf_conformance": "SEPARATE_REPORT_OR_NOT_RUN"
+      },
+      "inventory": {
+        "nodes": 144,
+        "meshes": 111,
+        "vertices": 124631,
+        "triangles": 159558,
+        "clips": 27,
+        "skins": 0,
+        "zero_normals": 0,
+        "degenerate_triangles": 0,
+        "invalid_tangent_signs": 0
+      },
+      "canonical_bounds_m": {
+        "min": [
+          -20.205015182495117,
+          5.330908112721744e-07,
+          -14.895039558410645
+        ],
+        "max": [
+          20.204984664916992,
+          11.84000015258789,
+          14.894960403442383
+        ],
+        "size": [
+          40.40999984741211,
+          11.83999961949708,
+          29.789999961853027
+        ]
+      },
+      "shared_channel_targets": {
+        "PIVOT_cargo_upper_door.rotation": [
+          "cargo_ramp",
+          "cargo_upper_door"
+        ],
+        "PIVOT_gear_door_left.rotation": [
+          "gear_left",
+          "gear_door_left"
+        ],
+        "PIVOT_gear_door_right.rotation": [
+          "gear_right",
+          "gear_door_right"
+        ],
+        "PIVOT_gear_door_nose.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ],
+        "PIVOT_nose_forward_hatch_left.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ],
+        "PIVOT_nose_forward_hatch_right.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ]
+      },
+      "articulation": {
+        "file": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/articulation/c130.json",
+        "sha256": "54f0ca69a323055853137af5825c05cc5c909cc87b6550de650c4a18852ab4b0",
+        "controls": 27
+      },
+      "declared_clip_ownership": {
+        "cargo_upper_door": "cargo_ramp",
+        "gear_door_left": "gear_left",
+        "gear_door_right": "gear_right",
+        "gear_door_nose": "gear_nose"
+      },
+      "combined_direct_primary_clip_samples": [
+        {
+          "time": 0,
+          "min": [
+            -20.205015182495117,
+            5.330908112721744e-07,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.125,
+          "min": [
+            -20.205015182495117,
+            0.008945468120094446,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.25,
+          "min": [
+            -20.205015182495117,
+            0.012500353380000107,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.375,
+          "min": [
+            -20.205015182495117,
+            0.04363852451747141,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.5,
+          "min": [
+            -20.205015182495117,
+            0.144018164469403,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.625,
+          "min": [
+            -20.205015182495117,
+            0.144018164469403,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.75,
+          "min": [
+            -20.205015182495117,
+            0.08161424208287116,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.875,
+          "min": [
+            -20.205015182495117,
+            -0.20373082106013196,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 1,
+          "min": [
+            -20.205015182495117,
+            -0.29419953805835697,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        }
+      ],
+      "status": "PASS_SCOPED",
+      "mesh_signatures": {
+        "PANEL_GUN30_SOURCE_SKIN": "1b13e5211c05c423075dcdd849c906eba2aa4ec96cea6a3cdf0fb4c9b6dcf6f5",
+        "PANEL_GUN105_SOURCE_SKIN": "491c106923c760c427bd874d9885275302e3d79cde84a38d4db438cb12179c86",
+        "GEAR_WELL_LEFT": "7cda6b3174406db90c0f85483f968c6f885cffb990556d57caddeda74f50b126",
+        "GEAR_WELL_RIGHT": "8ef3f9b2dbd6d3c36073189bb12d9ed13e4d2663421fe03c940f1940f29be40e",
+        "GEAR_WELL_NOSE": "35c12ab1d760e7278aed80dff9921ad14dc3dc8a0d566b9c2aa313e25232758c",
+        "PATCH_houseTint_PORT": "43b7479c4dae7aee427f3c7f23bfae178e3f7d8d0ae7eec782ca754640931517",
+        "fuselage": "6492784731fec8cfa3433667ee1afab0454e573ddcf84095e348a51d29eab87d",
+        "CARGO_CABIN_PRESERVED": "ef9703b49044df377e792a07b09ec2f506a4855c927359bc883e294a288179b5",
+        "COCKPIT_WINDOWS": "5f6980d251df241918a57b6e7b31f1ea893c7f8587098cc63f9da5cee71094ce",
+        "LEGACY_COCKPIT_PANEL": "b610ba6df1adde9347b6c854e239ade1e9af92af9a9ffb9751b2d78e6d7f15ef",
+        "LEGACY_ANALOG_DIAL_1": "23e8a01216fa6ba3b23b923caf3340f5f263cc6c71f89885140ebed0db16a81a",
+        "LEGACY_ANALOG_DIAL_2": "e8740509858f65eb6f2a1988ee1b5834c67c05e4a2cdcff7de7fa00aeddb4c12",
+        "LEGACY_ANALOG_DIAL_3": "9c86f830f0a72af2a1147c954d85aa62a240b3648eab8be7c9f7174dc2810f04",
+        "LEGACY_ANALOG_DIAL_4": "1e43cdc2a492c29484d353c6208b79e4d6e886ca21206ddb17eeafe493689870",
+        "LEGACY_ANALOG_DIAL_5": "7172eabcd2fbef0e97694d7d5027e22ba923536818d9941c6ef4c5594c823b52",
+        "flap_right_SKIN": "797d98de4987a2586c0d6bc759ec313c2321fb3acb355b7f2737e0d1179cf1e4",
+        "flap_right_SEAM_CAP_0": "1e3a8f92effcc2f2696355e6553644585433eb069a47154a578ab2ad8a31534b",
+        "flap_right_SEAM_CAP_0_FIXED_WING": "49a119589ff8382ba5b5ae973e5c95f4e46f0192637f8bea945a91f47785d0a2",
+        "flap_right_SEAM_CAP_1": "a1918e8a812ba617d4e1f9ee39436c75d564baacfa454849aa01c4512f947d97",
+        "flap_right_SEAM_CAP_1_FIXED_WING": "8b2b65b4f0dd555c784dcc72981d145a1d4dfee325ff45023abaf8e0612c0942",
+        "flap_right_SEAM_CAP_4": "1b1bf960536825794ee44dc287e4710f4eb06c794e2afb902562ef08059c11f6",
+        "flap_right_SEAM_CAP_4_FIXED_WING": "a9a234b98869bb5021591fcaca805f15718d6fb14703c2b294809c82ef1989fa",
+        "aileron_right_SKIN": "8057e90b36d830cc702049c0aa67f9e6e0774de7a977e8195b2d8aeee1069d9b",
+        "aileron_right_SEAM_CAP_0": "142857bb91429959b079baf612f936289ea29aa3f0fd59e74fdb04e5506c79e0",
+        "aileron_right_SEAM_CAP_0_FIXED_WING": "654f740ca57a9a7f534afdb88953f238997799a129ecbae35b735da06ddc7ccd",
+        "aileron_right_SEAM_CAP_1": "d0f57148e8e61cad2380df5063fbabc15b612b362c182cddfa53dda7763dd11d",
+        "aileron_right_SEAM_CAP_1_FIXED_WING": "c90801741c14debabc4bd687287ed1a7af94a207ec935178a2a3d76cec06f8f0",
+        "aileron_right_SEAM_CAP_4": "faad73794811647d57f85a38db5f3f3bbd03c11bb41b25ad81b54af92a69ae6d",
+        "aileron_right_SEAM_CAP_4_FIXED_WING": "c758ce74c50fbee736af5f74d76d362f1c5cfa23cf9fd7208d7e325e4065e873",
+        "elevator_right_SKIN": "933c9a5d50a09edbeb4fb0f9da53244bff1c51c535178210fe62d39cae1e9716",
+        "elevator_right_SEAM_CAP_1": "677613dd6af41804678b80f15b141ab85876f8705e0c12017fb092abc8c28096",
+        "elevator_right_SEAM_CAP_1_FIXED_WING": "b655c87335e4d56470fa3a3968644cfeae367412479b5da50561c85b7512d58a",
+        "elevator_right_SEAM_CAP_4": "32917c751f678dd230637e6251af0534f105b87ac4f0f2f71844bcd9c467a1fd",
+        "elevator_right_SEAM_CAP_4_FIXED_WING": "a2aebf8eaa44b8b9d27626c2cc31868e4f8ccf8558497d3b2d4f2b4e93f08179",
+        "flap_left_SKIN": "bac36d2f15db54770975435dcf710af13f0b650c7546d20b3a588f21a2291399",
+        "flap_left_SEAM_CAP_0": "30d36dc761025f4c4e7ccead6bd4865f2b7826556029909841e59614566c8eb2",
+        "flap_left_SEAM_CAP_0_FIXED_WING": "23818cd4c8416b97aa0f5ae09f7e4face6aefd3f732b4c14971c6d34d75e0e15",
+        "flap_left_SEAM_CAP_1": "339ccf5c359c8ffa91d159092b6c69988a868ab22799794eee01ff337da23c82",
+        "flap_left_SEAM_CAP_1_FIXED_WING": "2a20cec4e3f0cecfb9a7f71cdc7521e6fb1c433cb3590db849157b4ae6276724",
+        "flap_left_SEAM_CAP_4": "9486576f451cc544c3b5c384ef86259029684e48978e3293e68e19fa70b90a0b",
+        "flap_left_SEAM_CAP_4_FIXED_WING": "abd8bf6e4412292610ba651e963e32d4cd4e7133978950734d8d6a28e49f4473",
+        "aileron_left_SKIN": "bd7657d0e4dc4c3775e4d53ed2517924d0f9f2070ea7256bf59a0c2a7fdaa9ef",
+        "aileron_left_SEAM_CAP_0": "37d5b54defef7580e91d8f383d93063d06f0a9f081117a0f1086c660b6b7e486",
+        "aileron_left_SEAM_CAP_0_FIXED_WING": "91ffb2357d10aa46dd65195e5a0a888d282e369565d7e55b198a624b6b2e7106",
+        "aileron_left_SEAM_CAP_1": "777d103005f4fd3c5e0a82daf305fd1db81e91c44d6a8a72021b33f9d03cb5b2",
+        "aileron_left_SEAM_CAP_1_FIXED_WING": "3214c297126ef809f4ede2c3148c2b9ab23abdd20780fff5da4336f62b706908",
+        "aileron_left_SEAM_CAP_4": "7730e70c05dbe23f42f5da31c114ed843564cbd0ec9b5e664c13a2338255f244",
+        "aileron_left_SEAM_CAP_4_FIXED_WING": "5b314516966d5079f6bda464b2661e65683b910529000e0d3de059b778bcdc72",
+        "elevator_left_SKIN": "123c17e8d4473c8c6f4f0d9c9d204b5a6a2a6cece3496ce3a92cbde63a56bb8e",
+        "elevator_left_SEAM_CAP_1": "48f729c8f90457798b8eef2a55a12b06d802fc41979a36fcaa7b64c549aeda56",
+        "elevator_left_SEAM_CAP_1_FIXED_WING": "9dd80df1983326b12338206230fd681371b77a15d26cda48d8b5c5cb72e8753a",
+        "elevator_left_SEAM_CAP_4": "ad590aa88b469a94888ae7c2bf3249626c99dfa08130e17ac12d10809832ba0b",
+        "elevator_left_SEAM_CAP_4_FIXED_WING": "9d53c3d959d23c802d31e8b03e56873b58b7e8bcec7a6e08d54974a841678bb4",
+        "rudder_SKIN": "8334ff4f31098d7b235cf84f62e2dab52a1c4e61f12e3c36f9c85c990c09c245",
+        "rudder_SEAM_CAP_2": "9bdb9a0b6eaf9660eb07daab4390ad898f9c4fb272cca47ddb857d94d1e6e11a",
+        "rudder_SEAM_CAP_2_FIXED_WING": "41aa81dae90d0cb7aecf376fd1482b139e80d4c7ef44dc4cf012ff820079c20f",
+        "rudder_SEAM_CAP_3": "91f38ea2a27b1309465628827276b2cd64d0f03ceceb43f6a7dac1779d7e5cbb",
+        "rudder_SEAM_CAP_3_FIXED_WING": "ab571c3103d419b99b43faac0e5cf437a2f24a7452b84399e727bd9792882c70",
+        "rudder_SEAM_CAP_4": "c210a65a8f7e8b50469e77aedc3aa5f4c049d992df75b798ba41a65cc919d346",
+        "rudder_SEAM_CAP_4_FIXED_WING": "2511a0f8f7505a695657227ff5fe3e3c86673d7d8d62b98b2ca9a1cf7f7bcb24",
+        "PROP_1_HUB_SOURCE": "05cdb14abc8b6d1553dcfb2a358b8aba63990fe79f088f50926bfe4cc8c646cf",
+        "PROP_1_BLADES_SOURCE": "176b0923cd6c2771e0670c366104f674600a26a2002ab45d10c87a9a819bca37",
+        "PROP_1_TIP_PATCHES": "af3583c0f696a696c33e1d284f40347113e8f41f96b082d80a4aadd87845a797",
+        "PROP_2_HUB_SOURCE": "00df3ae2413e7ff332d15ce4486d4839a20bd376a133b16a4d1c1829a78954b6",
+        "PROP_2_BLADES_SOURCE": "2603c571e21d9cef3a493d1ff8dd3b3c65d301858adcb47096686794bf79c97a",
+        "PROP_2_TIP_PATCHES": "59c35541457b980e68900bd26895de4f5b7b90aa465728b04c8906e94a12c062",
+        "PROP_3_HUB_SOURCE": "71ec4324b8bf02e240736e2468cca2c2324311f17e912e05dc7af5f3bc863030",
+        "PROP_3_BLADES_SOURCE": "13eb55e3dad6d3a47317ef78f955df13dbf2dc6d92bb296a2b97155a9aa4f296",
+        "PROP_3_TIP_PATCHES": "528096a994c2cbfe9a206f46d14ca6e1b2007d3c92e862fd7879654ab826bee0",
+        "PROP_4_HUB_SOURCE": "13eb2b99e4ba7416d79df393f4bdd978948ebe07c7e813c81549279d48e88346",
+        "PROP_4_BLADES_SOURCE": "988c07f162268f5cfa548ca022083037095868d07c619838386d348202a15527",
+        "PROP_4_TIP_PATCHES": "4c41c6f0ae232caf0b028d6356346aa0e6ee59258f0f8a2c58781dacc4b3fe58",
+        "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0": "c08e27ff23b5910135d07d2f242590b5b426e9b514d76367fedf14a49340731f",
+        "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0": "5e612a86519b842cc51c7b32f6a558759819bf72b4158579c84773467041351b",
+        "CARGO_LOWER_RAMP_PRESERVED": "3190be6f7b9a5a875152268086e454cbd2796c3c4156e718261b1204023203c8",
+        "CARGO_RAMP_INTERIOR_PRESERVED": "57778e6d3bf8b1df9a690b542efdce96e9cd4fcb9ec76432833fd8a0bf1c4c59",
+        "CARGO_UPPER_DOOR_PRESERVED": "bf8c03dd1c1832f24e06d7019ca59d4b54d0b8179180830f21f0cfb11777f1dd",
+        "CREW_AIRSTAIR_DOOR_PRESERVED": "5f867aed10f4dccafb90b019e1c3fa68fd061a838f331e7d8e569f88ed0ff49c",
+        "CREW_STAIR_TREAD_1": "b32be06765df578f9e48b068760635d2fbf94ad161b04d1602e1c24a19206f15",
+        "CREW_STAIR_TREAD_2": "52f3ae62d613136dfd0879600a4ddea5f94b71eacb735ee2935992a0a9b653c2",
+        "CREW_STAIR_TREAD_3": "e2ee127c06077155bf3e6730635d2fe9d6c565e6666eed9957f3bbbd03cb3e3e",
+        "CREW_STAIR_TREAD_4": "2b930f7053e7c777ce973a5a79a083a9d6468147ae15802cc4e3621f3ddfa2f1",
+        "PARATROOP_RIGHT_SOURCE_18": "ca005069c7d4a86c0faa367ae1ad1bd4f8c600e1799d83a54168fcf1ab28a9b8",
+        "PARATROOP_RIGHT_SOURCE_19": "095db19ba1ea206999b64debb97f77525e02aa24d5cb086cf2b0de3fc1384973",
+        "PARATROOP_LEFT_SOURCE_20": "5ceaf3e4445730b2e367e06686989c12385ee4ade3e7c1c7cae8226508c8c76c",
+        "PARATROOP_LEFT_SOURCE_21": "220ab7a7860d87a7b0d145ce8ababa8a421dfb36c9af4f77ad38269bf7e683b9",
+        "WHEEL_LEFT_1_PRESERVED_TIRE": "e5e2c3f5713eaedb265f3b32e1d858b30d11e4984751cbd71f2e1e1e1b10e781",
+        "WHEEL_LEFT_1_PRESERVED_RIM": "9764619351e03ef7690a813cfc98687c658af919c218e818a783c0a0fdb8e93f",
+        "MAIN_STRUT_left_1": "e56224d3f7e88980c6a9ba624b97fa0e4cf6fd09dc52680b3df61a7a08a172e0",
+        "MAIN_FIXED_TELESCOPIC_STRUT_left_1": "c1d29c81815b29ac12d8120e14cffcbf9d16fa5a4ea372aa579ef230bbd33bf2",
+        "WHEEL_LEFT_2_PRESERVED_TIRE": "718048ad35e5e54b27383a3ed490f4cd789aea8c8968f21d8ab2df997bfbaa49",
+        "WHEEL_LEFT_2_PRESERVED_RIM": "ea3ee8a2c85c28c3dee31f23fd1a38647fbd801aa03514a012cb833946cefd07",
+        "MAIN_STRUT_left_2": "1f1c7ebf22f887d71c3e743a6d9a174b166446c8f62989b040c46d8e9a9c6879",
+        "MAIN_FIXED_TELESCOPIC_STRUT_left_2": "32b83bc3968a96bed40eb87449afa69b5f1809a567846772fca2738d4336f192",
+        "MAIN_GEAR_COVER_LEFT_PRESERVED": "0b4e27b529cdbc1822055dc308c0e736992bcb38c4ce1bb2de386cadaba56102",
+        "WHEEL_RIGHT_1_PRESERVED_TIRE": "05a65bedd68c6b3f7ff884fa8bee6de5c7a8f633f4fad9734f07f2841410770c",
+        "WHEEL_RIGHT_1_PRESERVED_RIM": "82eff4fd5de8e21035850fbc539d6e55582964f1c85930937aa88b9006855c1e",
+        "MAIN_STRUT_right_1": "4241fa277fc49ee69e36ae1ec8f54e209ae11d5f692e09e48c20f79d97412c0f",
+        "MAIN_FIXED_TELESCOPIC_STRUT_right_1": "1856174e6ba2cab7574c3d2fc6c0b4a035546b4eb62efe32a9cfb8a178561ca4",
+        "WHEEL_RIGHT_2_PRESERVED_TIRE": "73f1dd8f36addeb681898b638f85f95981c4bd0da686502f90be0f04dfb3df42",
+        "WHEEL_RIGHT_2_PRESERVED_RIM": "e41e0277b4f482894ab7376f0b4492a7af57538a4ce7e96eed6cc89ef37d40a6",
+        "MAIN_STRUT_right_2": "cac5eade8dcfd9d4b65dd83f495082f33d8aad1d4a2a0bcaf703776e0b36e3af",
+        "MAIN_FIXED_TELESCOPIC_STRUT_right_2": "5c12a7beca7179587cba273ed844f8b6cffb914d600b2a3b3bc4bde338b2ed5c",
+        "MAIN_GEAR_COVER_RIGHT_PRESERVED": "c996b80b33ce8e7f2e7ffb0cbbc35ac8353acabffaca46b0b3abaf9aa3b69da2",
+        "NOSE_GEAR_STRUT_PRESERVED": "3f1d7e0894347a5e2d3ec550b7c878c1f996cae3e803e206b36256cac3ec4c24",
+        "NOSE_WHEELS_PRESERVED_TIRE": "6166b839758d2ec9ca2f9c25743b3da838967b72d01b23ab20ab44eb2745150c",
+        "NOSE_WHEELS_PRESERVED_RIM": "a08b6dff2b8c1b471e35af70551ed54ab07d64a416e95b689c572c3adecf4a5a",
+        "NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED": "8c7e03b5085c151561a1ebbad75ab98d09fde9b50eb4ac5fbc680c53a0713cb9",
+        "NOSE_GEAR_COVER_PRESERVED": "2650a7de1c359b5bc19f24dcdd79a96d20d05037a8dbd86976ae2950f0dd8e27",
+        "NOSE_WELL_LEFT_SOURCE_HATCH": "6c6ffec625340650e07b11321fc5569c53e2d72be31d0cab87c8ce8b33a29338",
+        "NOSE_WELL_RIGHT_SOURCE_HATCH": "a4728eb386995a8d80a093943692d9e3ba6c4023577ff78b005cb39dd5789b5e"
+      }
+    },
+    {
+      "file": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/ac130.glb",
+      "bytes": 14240532,
+      "sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+      "errors": [],
+      "warnings": [
+        "Multiple clips target same node/property; combined controller must arbitrate: PIVOT_cargo_upper_door.rotation, PIVOT_gear_door_left.rotation, PIVOT_gear_door_right.rotation, PIVOT_gear_door_nose.rotation, PIVOT_nose_forward_hatch_left.rotation, PIVOT_nose_forward_hatch_right.rotation"
+      ],
+      "clips": [
+        {
+          "name": "gun30_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun30_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.0,
+                2.55,
+                -7.72
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.005676154761584471,
+            "0.25": 0.020640271501385452,
+            "0.375": 0.04179458633757453,
+            "0.5": 0.06603960433257015,
+            "0.625": 0.09027632794494025,
+            "0.75": 0.11140982007647066,
+            "0.875": 0.12635158903544794,
+            "1": 0.13201761410017993
+          },
+          "max_displacement_m": 0.13201761410017993,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun30_VISUAL_CRADLE",
+            "gun30_TRUNNION",
+            "gun30_FLEX_BOOT_FOLD_0",
+            "gun30_FLEX_BOOT_FOLD_1",
+            "gun30_FLEX_BOOT_FOLD_2",
+            "gun30_FLEX_BOOT_FOLD_3",
+            "gun30_FLEX_BOOT_FOLD_4",
+            "gun30_FLEX_BOOT_FOLD_5",
+            "gun30_BARREL_SHELL",
+            "gun30_DARK_MUZZLE_DEPTH",
+            "gun30_SLEEVE"
+          ],
+          "affected_vertex_count": 632
+        },
+        {
+          "name": "gun30_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun30_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.0,
+                2.55,
+                -7.72
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.009730529124587503,
+            "0.25": 0.03538228416826959,
+            "0.375": 0.07163921142530125,
+            "0.5": 0.1131766283589905,
+            "0.625": 0.15467220426606926,
+            "0.75": 0.19082432090720342,
+            "0.875": 0.21636353329454788,
+            "1": 0.22604304418466067
+          },
+          "max_displacement_m": 0.22604304418466067,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun30_TRUNNION",
+            "gun30_FLEX_BOOT_FOLD_0",
+            "gun30_FLEX_BOOT_FOLD_1",
+            "gun30_FLEX_BOOT_FOLD_2",
+            "gun30_FLEX_BOOT_FOLD_3",
+            "gun30_FLEX_BOOT_FOLD_4",
+            "gun30_FLEX_BOOT_FOLD_5",
+            "gun30_BARREL_SHELL",
+            "gun30_DARK_MUZZLE_DEPTH",
+            "gun30_SLEEVE"
+          ],
+          "affected_vertex_count": 624
+        },
+        {
+          "name": "gun30_recoil",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun30_recoil",
+              "property": "translation",
+              "origin_world_m": [
+                -2.0,
+                2.55,
+                -7.72
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.003007812425494194,
+            "0.25": 0.010937499813735485,
+            "0.375": 0.022148437798023224,
+            "0.5": 0.03500000014901161,
+            "0.625": 0.0478515625,
+            "0.75": 0.059062499552965164,
+            "0.875": 0.06699218600988388,
+            "1": 0.07000000029802322
+          },
+          "max_displacement_m": 0.07000000029802322,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun30_BARREL_SHELL",
+            "gun30_DARK_MUZZLE_DEPTH",
+            "gun30_SLEEVE"
+          ],
+          "affected_vertex_count": 192
+        },
+        {
+          "name": "gun105_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun105_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.93,
+                2.2,
+                2.35
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.0061144519030010384,
+            "0.25": 0.022234056797436966,
+            "0.375": 0.04502184994963184,
+            "0.5": 0.07113900190276498,
+            "0.625": 0.09724721900373934,
+            "0.75": 0.12001258157899024,
+            "0.875": 0.13610811305810747,
+            "1": 0.14221165307677924
+          },
+          "max_displacement_m": 0.14221165307677924,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun105_VISUAL_CRADLE",
+            "gun105_TRUNNION",
+            "gun105_FLEX_BOOT_FOLD_0",
+            "gun105_FLEX_BOOT_FOLD_1",
+            "gun105_FLEX_BOOT_FOLD_2",
+            "gun105_FLEX_BOOT_FOLD_3",
+            "gun105_FLEX_BOOT_FOLD_4",
+            "gun105_FLEX_BOOT_FOLD_5",
+            "gun105_BARREL_SHELL",
+            "gun105_DARK_MUZZLE_DEPTH",
+            "gun105_SLEEVE",
+            "gun105_VISUAL_RECUPERATOR"
+          ],
+          "affected_vertex_count": 680
+        },
+        {
+          "name": "gun105_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun105_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.93,
+                2.2,
+                2.35
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.010481893962038037,
+            "0.25": 0.038114407350095816,
+            "0.375": 0.07717099533534946,
+            "0.5": 0.12191581796331216,
+            "0.625": 0.166615568715061,
+            "0.75": 0.20555925289540705,
+            "0.875": 0.23307053339110778,
+            "1": 0.2434974696301849
+          },
+          "max_displacement_m": 0.2434974696301849,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun105_TRUNNION",
+            "gun105_FLEX_BOOT_FOLD_0",
+            "gun105_FLEX_BOOT_FOLD_1",
+            "gun105_FLEX_BOOT_FOLD_2",
+            "gun105_FLEX_BOOT_FOLD_3",
+            "gun105_FLEX_BOOT_FOLD_4",
+            "gun105_FLEX_BOOT_FOLD_5",
+            "gun105_BARREL_SHELL",
+            "gun105_DARK_MUZZLE_DEPTH",
+            "gun105_SLEEVE",
+            "gun105_VISUAL_RECUPERATOR"
+          ],
+          "affected_vertex_count": 672
+        },
+        {
+          "name": "gun105_recoil",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun105_recoil",
+              "property": "translation",
+              "origin_world_m": [
+                -1.93,
+                2.2,
+                2.35
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.005156250204890966,
+            "0.25": 0.01875000074505806,
+            "0.375": 0.037968751043081284,
+            "0.5": 0.05999999865889549,
+            "0.625": 0.08203125,
+            "0.75": 0.10125000029802322,
+            "0.875": 0.11484374850988388,
+            "1": 0.11999999731779099
+          },
+          "max_displacement_m": 0.11999999731779099,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun105_BARREL_SHELL",
+            "gun105_DARK_MUZZLE_DEPTH",
+            "gun105_SLEEVE"
+          ],
+          "affected_vertex_count": 192
+        },
+        {
+          "name": "flap_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_flap_right",
+              "property": "rotation",
+              "origin_world_m": [
+                7.300000000000001,
+                4.56,
+                -0.007000000000000006
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.026558710697427275,
+            "0.25": 0.0965488015709905,
+            "0.375": 0.19531899769928174,
+            "0.5": 0.30805101319905953,
+            "0.625": 0.4199734612070668,
+            "0.75": 0.5167168150879224,
+            "0.875": 0.5845323628647571,
+            "1": 0.6101061494736562
+          },
+          "max_displacement_m": 0.6101061494736562,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "flap_right_SKIN",
+            "flap_right_SEAM_CAP_0",
+            "flap_right_SEAM_CAP_1",
+            "flap_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 91
+        },
+        {
+          "name": "aileron_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_aileron_right",
+              "property": "rotation",
+              "origin_world_m": [
+                15.575,
+                4.56,
+                -0.7517499999999998
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.011642497497914494,
+            "0.25": 0.04233284936195065,
+            "0.375": 0.08570022659910512,
+            "0.5": 0.13535304954632751,
+            "0.625": 0.18490549435339024,
+            "0.75": 0.228021332801399,
+            "0.875": 0.25844163001416515,
+            "1": 0.2699617181640843
+          },
+          "max_displacement_m": 0.2699617181640843,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "aileron_right_SKIN",
+            "aileron_right_SEAM_CAP_0",
+            "aileron_right_SEAM_CAP_1",
+            "aileron_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 102
+        },
+        {
+          "name": "elevator_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_elevator_right",
+              "property": "rotation",
+              "origin_world_m": [
+                4.6,
+                4.48,
+                12.646
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.017028696019422036,
+            "0.25": 0.061913944773416635,
+            "0.375": 0.12531744121756605,
+            "0.5": 0.19785016743382453,
+            "0.625": 0.2701371016543284,
+            "0.75": 0.3329249643292839,
+            "0.875": 0.37714935783608006,
+            "1": 0.3938785980700057
+          },
+          "max_displacement_m": 0.3938785980700057,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "elevator_right_SKIN",
+            "elevator_right_SEAM_CAP_1",
+            "elevator_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 93
+        },
+        {
+          "name": "flap_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_flap_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -7.300000000000001,
+                4.56,
+                -0.007000000000000006
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.026558769198932082,
+            "0.25": 0.09654901424134563,
+            "0.375": 0.19531942793306925,
+            "0.5": 0.30805169175033836,
+            "0.625": 0.41997438629261014,
+            "0.75": 0.5167179532723167,
+            "0.875": 0.5845336504281121,
+            "1": 0.6101074933689868
+          },
+          "max_displacement_m": 0.6101074933689868,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "flap_left_SKIN",
+            "flap_left_SEAM_CAP_0",
+            "flap_left_SEAM_CAP_1",
+            "flap_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 90
+        },
+        {
+          "name": "aileron_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_aileron_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -15.575,
+                4.56,
+                -0.7517499999999998
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.01164254757141965,
+            "0.25": 0.04233303143234781,
+            "0.375": 0.08570059518932792,
+            "0.5": 0.1353536316895985,
+            "0.625": 0.18490628961798172,
+            "0.75": 0.22802231350397553,
+            "0.875": 0.2584427415521499,
+            "1": 0.2699628792491028
+          },
+          "max_displacement_m": 0.2699628792491028,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "aileron_left_SKIN",
+            "aileron_left_SEAM_CAP_0",
+            "aileron_left_SEAM_CAP_1",
+            "aileron_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 103
+        },
+        {
+          "name": "elevator_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_elevator_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -4.6,
+                4.48,
+                12.646
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016018294660888492,
+            "0.25": 0.058240267631493446,
+            "0.375": 0.1178817041038963,
+            "0.5": 0.1861106859141665,
+            "0.625": 0.2541084588782728,
+            "0.75": 0.3131707897670378,
+            "0.875": 0.3547711200369431,
+            "1": 0.3705077271649503
+          },
+          "max_displacement_m": 0.3705077271649503,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "elevator_left_SKIN",
+            "elevator_left_SEAM_CAP_1",
+            "elevator_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 187
+        },
+        {
+          "name": "rudder",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_rudder",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                5.4,
+                11.402
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.046138478099016784,
+            "0.25": 0.1677462525524154,
+            "0.375": 0.33948219737464413,
+            "0.5": 0.5358278594524342,
+            "0.625": 0.7313140652130657,
+            "0.75": 0.9008973019445699,
+            "0.875": 1.0201945969120758,
+            "1": 1.0652861901560948
+          },
+          "max_displacement_m": 1.0652861901560948,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "rudder_SKIN",
+            "rudder_SEAM_CAP_2",
+            "rudder_SEAM_CAP_3",
+            "rudder_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 148
+        },
+        {
+          "name": "prop_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_1",
+              "property": "rotation",
+              "origin_world_m": [
+                5.349704503791233,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.6846379362546144,
+            "0.25": 3.112804979795399,
+            "0.375": 4.067075694920108,
+            "0.5": 4.402171019449162,
+            "0.625": 4.067075694920106,
+            "0.75": 3.1128049797953996,
+            "0.875": 1.6846379362546153,
+            "1": 1.2560739669470201e-15
+          },
+          "max_displacement_m": 4.402171019449162,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_1_HUB_SOURCE",
+            "PROP_1_BLADES_SOURCE",
+            "PROP_1_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "prop_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_2",
+              "property": "rotation",
+              "origin_world_m": [
+                10.560874381252251,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.6846379362546144,
+            "0.25": 3.1128049797953996,
+            "0.375": 4.067075694920108,
+            "0.5": 4.402171019449162,
+            "0.625": 4.067075694920107,
+            "0.75": 3.1128049797953996,
+            "0.875": 1.6846379362546153,
+            "1": 8.881784197001252e-16
+          },
+          "max_displacement_m": 4.402171019449162,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_2_HUB_SOURCE",
+            "PROP_2_BLADES_SOURCE",
+            "PROP_2_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "prop_3",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_3",
+              "property": "rotation",
+              "origin_world_m": [
+                -5.3497223344478675,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.6846379362546144,
+            "0.25": 3.1128049797953996,
+            "0.375": 4.067075694920108,
+            "0.5": 4.402171019449162,
+            "0.625": 4.067075694920106,
+            "0.75": 3.112804979795399,
+            "0.875": 1.684637936254615,
+            "1": 9.930136612989092e-16
+          },
+          "max_displacement_m": 4.402171019449162,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_3_HUB_SOURCE",
+            "PROP_3_BLADES_SOURCE",
+            "PROP_3_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "prop_4",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_4",
+              "property": "rotation",
+              "origin_world_m": [
+                -10.560892542106233,
+                3.949654347161117,
+                -6.2303320724407545
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.684638008363907,
+            "0.25": 3.1128051130359986,
+            "0.375": 4.067075869007339,
+            "0.5": 4.4021712078798245,
+            "0.625": 4.067075869007338,
+            "0.75": 3.112805113035998,
+            "0.875": 1.6846380083639083,
+            "1": 8.881784197001252e-16
+          },
+          "max_displacement_m": 4.4021712078798245,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_4_HUB_SOURCE",
+            "PROP_4_BLADES_SOURCE",
+            "PROP_4_TIP_PATCHES"
+          ],
+          "affected_vertex_count": 808
+        },
+        {
+          "name": "cargo_ramp",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_cargo_upper_door",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                3.7514185504360054,
+                10.087033047587216
+              ]
+            },
+            {
+              "node": "PIVOT_cargo_ramp",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.9819460807253687,
+                2.7427263824014805
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5443584379565165,
+            "0.25": 1.3350933520027206,
+            "0.375": 1.440854889390478,
+            "0.5": 1.440854889390478,
+            "0.625": 1.440854889390478,
+            "0.75": 1.440854889390478,
+            "0.875": 1.654732348236531,
+            "1": 1.7846566531679662
+          },
+          "max_displacement_m": 1.7846566531679662,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+            "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+            "CARGO_LOWER_RAMP_PRESERVED",
+            "CARGO_RAMP_INTERIOR_PRESERVED",
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "affected_vertex_count": 9850
+        },
+        {
+          "name": "cargo_upper_door",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_cargo_upper_door",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                3.7514185504360054,
+                10.087033047587216
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.062226592152661145,
+            "0.25": 0.2262525859541599,
+            "0.375": 0.4579854568458667,
+            "0.5": 0.7231793381351885,
+            "0.625": 0.9876307308220892,
+            "0.75": 1.2175037396020734,
+            "0.875": 1.3795330406463477,
+            "1": 1.440854889390478
+          },
+          "max_displacement_m": 1.440854889390478,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "affected_vertex_count": 490
+        },
+        {
+          "name": "crew_door",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_crew_door",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.69,
+                0.93,
+                -9.84
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.14444676884254185,
+            "0.25": 0.5228373027140475,
+            "0.375": 1.042381824271251,
+            "0.5": 1.5967264691941898,
+            "0.625": 2.0851916392528227,
+            "0.75": 2.441655908085632,
+            "0.875": 2.648029316663385,
+            "1": 2.715559745210213
+          },
+          "max_displacement_m": 2.715559745210213,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CREW_AIRSTAIR_DOOR_PRESERVED",
+            "CREW_STAIR_TREAD_1",
+            "CREW_STAIR_TREAD_2",
+            "CREW_STAIR_TREAD_3",
+            "CREW_STAIR_TREAD_4"
+          ],
+          "affected_vertex_count": 437
+        },
+        {
+          "name": "paratroop_right",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_paratroop_right",
+              "property": "translation",
+              "origin_world_m": [
+                1.98,
+                1.03,
+                2.24
+              ]
+            },
+            {
+              "node": "PIVOT_paratroop_right",
+              "property": "rotation",
+              "origin_world_m": [
+                1.98,
+                1.03,
+                2.24
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 3.5683225657500774e-08,
+            "0.125": 0.2147201108932516,
+            "0.25": 0.3876300694527409,
+            "0.375": 0.5140731791572,
+            "0.5": 0.8932309091240128,
+            "0.625": 1.4375464758185243,
+            "0.75": 1.9183808492783336,
+            "0.875": 2.2118228667857105,
+            "1": 2.305613039382339
+          },
+          "max_displacement_m": 2.305613039382339,
+          "time_zero_rest_error_m": 3.5683225657500774e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PARATROOP_RIGHT_SOURCE_18",
+            "PARATROOP_RIGHT_SOURCE_19"
+          ],
+          "affected_vertex_count": 431
+        },
+        {
+          "name": "wheel_left_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_left_1",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.8663018102411117,
+                0.6573333745872825,
+                -2.5160398527687073
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091208802312,
+            "0.25": 0.9272223406386896,
+            "0.375": 1.2114743679337132,
+            "0.5": 1.3112904094665607,
+            "0.625": 1.211474367933713,
+            "0.75": 0.9272223406386896,
+            "0.875": 0.5018091208802313,
+            "1": 2.220446049250313e-16
+          },
+          "max_displacement_m": 1.3112904094665607,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_1_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "wheel_left_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_left_2",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.8663018102411117,
+                0.6573333745872825,
+                -1.0623061847887563
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091209293342,
+            "0.25": 0.9272223407294201,
+            "0.375": 1.2114743680522586,
+            "0.5": 1.311290409594873,
+            "0.625": 1.2114743680522582,
+            "0.75": 0.9272223407294201,
+            "0.875": 0.5018091209293343,
+            "1": 2.482534153247273e-16
+          },
+          "max_displacement_m": 1.311290409594873,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_2_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "gear_left",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_gear_left",
+              "property": "translation",
+              "origin_world_m": [
+                -1.866,
+                0.66,
+                -1.79
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 7.286252800572286e-08,
+            "0.125": 0.299179020106715,
+            "0.25": 0.38443405270643866,
+            "0.375": 0.38443405270643866,
+            "0.5": 0.7966265344619781,
+            "0.625": 1.1475499534606952,
+            "0.75": 1.2499999666214006,
+            "0.875": 1.2499999666214006,
+            "1": 1.737698514647365
+          },
+          "max_displacement_m": 1.737698514647365,
+          "time_zero_rest_error_m": 7.286252800572286e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "MAIN_STRUT_left_1",
+            "WHEEL_LEFT_2_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "MAIN_STRUT_left_2",
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "affected_vertex_count": 1706
+        },
+        {
+          "name": "gear_door_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016586651578839564,
+            "0.25": 0.060309501157344625,
+            "0.375": 0.12208872405418779,
+            "0.5": 0.1928114209276052,
+            "0.625": 0.2633737382495419,
+            "0.75": 0.32475130148504233,
+            "0.875": 0.36804288642597527,
+            "1": 0.38443405270643866
+          },
+          "max_displacement_m": 0.38443405270643866,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "affected_vertex_count": 38
+        },
+        {
+          "name": "wheel_right_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_right_1",
+              "property": "rotation",
+              "origin_world_m": [
+                1.8664685599003825,
+                0.6573333745872825,
+                -2.5160398527687073
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091208802312,
+            "0.25": 0.9272223406386896,
+            "0.375": 1.2114743679337132,
+            "0.5": 1.3112904094665607,
+            "0.625": 1.211474367933713,
+            "0.75": 0.9272223406386896,
+            "0.875": 0.5018091208802313,
+            "1": 2.220446049250313e-16
+          },
+          "max_displacement_m": 1.3112904094665607,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_1_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "wheel_right_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_right_2",
+              "property": "rotation",
+              "origin_world_m": [
+                1.8664685599003825,
+                0.6573333745872825,
+                -1.0623061847887563
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091209293342,
+            "0.25": 0.9272223407294201,
+            "0.375": 1.2114743680522586,
+            "0.5": 1.311290409594873,
+            "0.625": 1.2114743680522582,
+            "0.75": 0.9272223407294201,
+            "0.875": 0.5018091209293343,
+            "1": 2.482534153247273e-16
+          },
+          "max_displacement_m": 1.311290409594873,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_2_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "gear_right",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_gear_right",
+              "property": "translation",
+              "origin_world_m": [
+                1.866,
+                0.66,
+                -1.79
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_right",
+              "property": "rotation",
+              "origin_world_m": [
+                2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 7.286252800572286e-08,
+            "0.125": 0.29917887763448653,
+            "0.25": 0.3844338696348576,
+            "0.375": 0.3844338696348576,
+            "0.5": 0.7966265344619781,
+            "0.625": 1.1475499534606952,
+            "0.75": 1.2499999666214006,
+            "0.875": 1.2499999666214006,
+            "1": 1.7376976871368677
+          },
+          "max_displacement_m": 1.7376976871368677,
+          "time_zero_rest_error_m": 7.286252800572286e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "MAIN_STRUT_right_1",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "MAIN_STRUT_right_2",
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "affected_vertex_count": 1706
+        },
+        {
+          "name": "gear_door_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_right",
+              "property": "rotation",
+              "origin_world_m": [
+                2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016586643680099687,
+            "0.25": 0.060309472437319246,
+            "0.375": 0.1220886659142402,
+            "0.5": 0.19281132910875784,
+            "0.625": 0.2633736128281691,
+            "0.75": 0.3247511468350216,
+            "0.875": 0.368042711160042,
+            "1": 0.3844338696348576
+          },
+          "max_displacement_m": 0.3844338696348576,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "affected_vertex_count": 38
+        },
+        {
+          "name": "wheel_nose",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                -3.095600110691876e-07,
+                0.48978301547644665,
+                -11.86688430531863
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.3748633290952534,
+            "0.25": 0.692657105980086,
+            "0.375": 0.9050001201265339,
+            "0.5": 0.979565073351136,
+            "0.625": 0.9050001201265336,
+            "0.75": 0.692657105980086,
+            "0.875": 0.37486332909525344,
+            "1": 1.1102230246251565e-16
+          },
+          "max_displacement_m": 0.979565073351136,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_WHEELS_PRESERVED_TIRE",
+            "NOSE_WHEELS_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 1720
+        },
+        {
+          "name": "gear_nose",
+          "channels": 7,
+          "targets": [
+            {
+              "node": "PIVOT_gear_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                1.6,
+                -12.02
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "translation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "translation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "rotation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "translation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 4.5680351169841137e-07,
+            "0.125": 0.15669773671154338,
+            "0.25": 0.20161475985618604,
+            "0.375": 0.6956922285311115,
+            "0.5": 1.5744062707461992,
+            "0.625": 2.2327258701156087,
+            "0.75": 2.426070129054297,
+            "0.875": 2.426070129054297,
+            "1": 2.426070129054297
+          },
+          "max_displacement_m": 2.426070129054297,
+          "time_zero_rest_error_m": 4.5680351169841137e-07,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_GEAR_STRUT_PRESERVED",
+            "NOSE_WHEELS_PRESERVED_TIRE",
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "affected_vertex_count": 2296
+        },
+        {
+          "name": "gear_door_nose",
+          "channels": 3,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "rotation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.008670162974136683,
+            "0.25": 0.03152728699809889,
+            "0.375": 0.06383883275179603,
+            "0.5": 0.10086882877031293,
+            "0.625": 0.13788226269925663,
+            "0.75": 0.17015228758810558,
+            "0.875": 0.19296481480988695,
+            "1": 0.2016147593908483
+          },
+          "max_displacement_m": 0.2016147593908483,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "affected_vertex_count": 486
+        },
+        {
+          "name": "eoir_chin_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_chin_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                1.15,
+                -13.92
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.020244704402275472,
+            "0.25": 0.07344640727024934,
+            "0.375": 0.14757303289020066,
+            "0.5": 0.22961007136068676,
+            "0.625": 0.30688131578559785,
+            "0.75": 0.36913896786622846,
+            "0.875": 0.40970734658655045,
+            "1": 0.42426408557066786
+          },
+          "max_displacement_m": 0.42426408557066786,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_chin_AZIMUTH_SHELL",
+            "eoir_chin_OPTICAL_GIMBAL",
+            "eoir_chin_LENS_1",
+            "eoir_chin_LENS_2"
+          ],
+          "affected_vertex_count": 704
+        },
+        {
+          "name": "eoir_chin_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_chin_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                1.0899999999999999,
+                -13.92
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.009306182428335325,
+            "0.25": 0.03382104064529356,
+            "0.375": 0.0683543962813392,
+            "0.5": 0.10760075973771224,
+            "0.625": 0.14628804550006286,
+            "0.75": 0.17942270730452656,
+            "0.875": 0.2024386263005044,
+            "1": 0.21106647731721082
+          },
+          "max_displacement_m": 0.21106647731721082,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_chin_OPTICAL_GIMBAL",
+            "eoir_chin_LENS_1",
+            "eoir_chin_LENS_2"
+          ],
+          "affected_vertex_count": 392
+        },
+        {
+          "name": "eoir_port_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_port_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.42,
+                1.18,
+                -5.65
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.020244704402275517,
+            "0.25": 0.07344640727024943,
+            "0.375": 0.14757303289020007,
+            "0.5": 0.2296100713606862,
+            "0.625": 0.3068813157855978,
+            "0.75": 0.3691389678662277,
+            "0.875": 0.4097073465865506,
+            "1": 0.4242640855706679
+          },
+          "max_displacement_m": 0.4242640855706679,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_port_AZIMUTH_SHELL",
+            "eoir_port_OPTICAL_GIMBAL",
+            "eoir_port_LENS_1",
+            "eoir_port_LENS_2"
+          ],
+          "affected_vertex_count": 704
+        },
+        {
+          "name": "eoir_port_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_port_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.42,
+                1.1199999999999999,
+                -5.65
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.00930618242833543,
+            "0.25": 0.03382104064529356,
+            "0.375": 0.0683543962813392,
+            "0.5": 0.10760075973771241,
+            "0.625": 0.14628804550006286,
+            "0.75": 0.17942270730452656,
+            "0.875": 0.20243862630050444,
+            "1": 0.21106647731721082
+          },
+          "max_displacement_m": 0.21106647731721082,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_port_OPTICAL_GIMBAL",
+            "eoir_port_LENS_1",
+            "eoir_port_LENS_2"
+          ],
+          "affected_vertex_count": 392
+        }
+      ],
+      "checks": {
+        "glb_and_accessor_bounds": "PASS",
+        "finite_export_data": "PASS",
+        "actual_decoded_vertex_motion": "PASS",
+        "independent_sampler_reverse_interruption_reset": "PASS",
+        "collision_clearance": "NOT_RUN",
+        "photographic_acceptance": "NOT_RUN",
+        "viewer_runtime_control_sequence": "SEPARATE_REPORT",
+        "native_blender": "SEPARATE_REPORT_OR_NOT_RUN",
+        "native_unreal": "NOT_RUN",
+        "full_khronos_gltf_conformance": "SEPARATE_REPORT_OR_NOT_RUN"
+      },
+      "inventory": {
+        "nodes": 187,
+        "meshes": 143,
+        "vertices": 129993,
+        "triangles": 167487,
+        "clips": 36,
+        "skins": 0,
+        "zero_normals": 0,
+        "degenerate_triangles": 0,
+        "invalid_tangent_signs": 0
+      },
+      "canonical_bounds_m": {
+        "min": [
+          -20.205015182495117,
+          5.330908112721744e-07,
+          -14.895039558410645
+        ],
+        "max": [
+          20.204984664916992,
+          11.84000015258789,
+          14.894960403442383
+        ],
+        "size": [
+          40.40999984741211,
+          11.83999961949708,
+          29.789999961853027
+        ]
+      },
+      "shared_channel_targets": {
+        "PIVOT_cargo_upper_door.rotation": [
+          "cargo_ramp",
+          "cargo_upper_door"
+        ],
+        "PIVOT_gear_door_left.rotation": [
+          "gear_left",
+          "gear_door_left"
+        ],
+        "PIVOT_gear_door_right.rotation": [
+          "gear_right",
+          "gear_door_right"
+        ],
+        "PIVOT_gear_door_nose.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ],
+        "PIVOT_nose_forward_hatch_left.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ],
+        "PIVOT_nose_forward_hatch_right.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ]
+      },
+      "articulation": {
+        "file": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/articulation/ac130.json",
+        "sha256": "4f0ec61a1116d4bf73e721c0853cd754025f295167f2ceb0461ef2ef6625de80",
+        "controls": 36
+      },
+      "declared_clip_ownership": {
+        "cargo_upper_door": "cargo_ramp",
+        "gear_door_left": "gear_left",
+        "gear_door_right": "gear_right",
+        "gear_door_nose": "gear_nose"
+      },
+      "combined_direct_primary_clip_samples": [
+        {
+          "time": 0,
+          "min": [
+            -20.205015182495117,
+            5.330908112721744e-07,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.125,
+          "min": [
+            -20.205015182495117,
+            0.008945468120094446,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.25,
+          "min": [
+            -20.205015182495117,
+            0.012500353380000107,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.375,
+          "min": [
+            -20.205015182495117,
+            0.04363852451747141,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.5,
+          "min": [
+            -20.205015182495117,
+            0.144018164469403,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.625,
+          "min": [
+            -20.205015182495117,
+            0.144018164469403,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.75,
+          "min": [
+            -20.205015182495117,
+            0.08161424208287116,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.875,
+          "min": [
+            -20.205015182495117,
+            -0.20373082106013196,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 1,
+          "min": [
+            -20.205015182495117,
+            -0.29419953805835697,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        }
+      ],
+      "status": "PASS_SCOPED",
+      "mesh_signatures": {
+        "PANEL_GUN30_SOURCE_SKIN": "fb691d251daf48823fe03a2437c9dab265531807e9092349c79c051024b32bfa",
+        "BAY_gun30_RECEIVING_VOLUME": "f7502718a35cf2724146f75ee632f7bd0031952d58dd9adf719d4fb0cf8b1322",
+        "gun30_VISUAL_CRADLE": "49891e4c585ee63bce3a2e8255dddfedf005c8275a7382c4bbfc5f39f20654bd",
+        "gun30_TRUNNION": "d641c04b7c24f021567c9411c7166293845a37b50bfdff7151c7d0ba8effa71f",
+        "gun30_FLEX_BOOT_FOLD_0": "828e0082e548c3e4c131a0688c9a6d11cd50051922eb85164ebce42748d82cd6",
+        "gun30_FLEX_BOOT_FOLD_1": "d62ae27352a946edb7bff6e16f3f5f89f196bf87613555fc7aeccba1977455e0",
+        "gun30_FLEX_BOOT_FOLD_2": "58b11c26fa32b3637f261eb5e20fb571ffaf93dd041cc059f1b3c9686dd3d97e",
+        "gun30_FLEX_BOOT_FOLD_3": "53b1d6d0a780b3224f5e4d6791166b07ff773793b58f4f9606af486717c5692d",
+        "gun30_FLEX_BOOT_FOLD_4": "ab363ded0d1f55b84c9994627e63a3de8c91e4d9178d4051e9ce95c0ebd6da86",
+        "gun30_FLEX_BOOT_FOLD_5": "48ccd2080723f8607ae24457fe6133d7943984fcf311c6354737fb46f5052534",
+        "gun30_BARREL_SHELL": "31bab77e4f50a8723712a8a0ebb6423401178cbb16b3d0004b1e0a98e7ccefe5",
+        "gun30_DARK_MUZZLE_DEPTH": "ab2348d261f2434c2af844c01458edb69694db6763c5ffbf8dbcfd0dddbde562",
+        "gun30_SLEEVE": "e958c00fdbe333e342eb97fb54d6d5023c94cc40efbc9d6da2cd1a7b22f4f6e5",
+        "PANEL_GUN105_SOURCE_SKIN": "a8933295795ef64a88b707514060fe6edcc1120bd4dc474616409176649a7860",
+        "PANEL_AFT_PORT_GUN_STATION_INFILL": "d3cb2314a347cf403ba67c0d7550a9798c3ca03e24bbbf5a7682a0b78343a57f",
+        "BAY_gun105_RECEIVING_VOLUME": "6b0d38016fd4e83fc944f9e63192553f3b9c253977238b8429dd482cfe809ca6",
+        "gun105_VISUAL_CRADLE": "49891e4c585ee63bce3a2e8255dddfedf005c8275a7382c4bbfc5f39f20654bd",
+        "gun105_TRUNNION": "69dc1ae1ad1d8e2971234fbd1015d3b4840f2ca2f86bfe544e6f6742e635fc7f",
+        "gun105_FLEX_BOOT_FOLD_0": "1f1be355c24e638be1a9d476cf1760f926a41f1d6fe2a6c5c329fd10a07ba603",
+        "gun105_FLEX_BOOT_FOLD_1": "23bb8e75eb57a0dba1030be4e077369222fa3b485ffb0ad66308469ae78066f3",
+        "gun105_FLEX_BOOT_FOLD_2": "c8ad0327b732b634a7f7e0008c6ccdaaac21563a4129d03e292ab9e48a52ae76",
+        "gun105_FLEX_BOOT_FOLD_3": "77f0d65b3a0a6a823af424ee075b121442cf7a64fd2c3e6013e3caddc75e4bc7",
+        "gun105_FLEX_BOOT_FOLD_4": "72ff44bc11bc98c9a8e41a03150a376afc56e19b55e3187d21b53ec02be9b296",
+        "gun105_FLEX_BOOT_FOLD_5": "010f3ec259b348b66439b11fd3e466092c131d5cf87f1725a98eb6d1b4f5c499",
+        "gun105_BARREL_SHELL": "297739bbfd4405290e56ca4a502b8de844df8b90526303ea75e0472e4eb60480",
+        "gun105_DARK_MUZZLE_DEPTH": "91f37bb470d65abe64059f3c19e29ee00d8c924ec0e0f7a54a3cc7a1e839ea19",
+        "gun105_SLEEVE": "d43e946686a39ac3994cabbcc0d37ccd8f2707734d3773fec6892e7e20eeb51a",
+        "gun105_VISUAL_RECUPERATOR": "989328da9d92f64dba4be4ce35c0a98905035996a9095b83b386bf23d212c899",
+        "GEAR_WELL_LEFT": "7cda6b3174406db90c0f85483f968c6f885cffb990556d57caddeda74f50b126",
+        "GEAR_WELL_RIGHT": "8ef3f9b2dbd6d3c36073189bb12d9ed13e4d2663421fe03c940f1940f29be40e",
+        "GEAR_WELL_NOSE": "35c12ab1d760e7278aed80dff9921ad14dc3dc8a0d566b9c2aa313e25232758c",
+        "PATCH_houseTint_PORT": "d02b9b53f82c71a59707a743c8ee8614ddba56aecf78db0610cc8c375e7d3713",
+        "fuselage": "0da3e85431767f5f8584c49c0deca98c116c4dae67a8ae8e1fcd20f9ece57e29",
+        "CARGO_CABIN_PRESERVED": "7e051a726c0ec7be84f166af52ce270f5170c28d43c7213d4ccdbc5721c384dd",
+        "COCKPIT_WINDOWS": "5f6980d251df241918a57b6e7b31f1ea893c7f8587098cc63f9da5cee71094ce",
+        "LEGACY_COCKPIT_PANEL": "b610ba6df1adde9347b6c854e239ade1e9af92af9a9ffb9751b2d78e6d7f15ef",
+        "LEGACY_ANALOG_DIAL_1": "23e8a01216fa6ba3b23b923caf3340f5f263cc6c71f89885140ebed0db16a81a",
+        "LEGACY_ANALOG_DIAL_2": "e8740509858f65eb6f2a1988ee1b5834c67c05e4a2cdcff7de7fa00aeddb4c12",
+        "LEGACY_ANALOG_DIAL_3": "9c86f830f0a72af2a1147c954d85aa62a240b3648eab8be7c9f7174dc2810f04",
+        "LEGACY_ANALOG_DIAL_4": "1e43cdc2a492c29484d353c6208b79e4d6e886ca21206ddb17eeafe493689870",
+        "LEGACY_ANALOG_DIAL_5": "7172eabcd2fbef0e97694d7d5027e22ba923536818d9941c6ef4c5594c823b52",
+        "flap_right_SKIN": "797d98de4987a2586c0d6bc759ec313c2321fb3acb355b7f2737e0d1179cf1e4",
+        "flap_right_SEAM_CAP_0": "1e3a8f92effcc2f2696355e6553644585433eb069a47154a578ab2ad8a31534b",
+        "flap_right_SEAM_CAP_0_FIXED_WING": "49a119589ff8382ba5b5ae973e5c95f4e46f0192637f8bea945a91f47785d0a2",
+        "flap_right_SEAM_CAP_1": "a1918e8a812ba617d4e1f9ee39436c75d564baacfa454849aa01c4512f947d97",
+        "flap_right_SEAM_CAP_1_FIXED_WING": "8b2b65b4f0dd555c784dcc72981d145a1d4dfee325ff45023abaf8e0612c0942",
+        "flap_right_SEAM_CAP_4": "1b1bf960536825794ee44dc287e4710f4eb06c794e2afb902562ef08059c11f6",
+        "flap_right_SEAM_CAP_4_FIXED_WING": "a9a234b98869bb5021591fcaca805f15718d6fb14703c2b294809c82ef1989fa",
+        "aileron_right_SKIN": "8057e90b36d830cc702049c0aa67f9e6e0774de7a977e8195b2d8aeee1069d9b",
+        "aileron_right_SEAM_CAP_0": "142857bb91429959b079baf612f936289ea29aa3f0fd59e74fdb04e5506c79e0",
+        "aileron_right_SEAM_CAP_0_FIXED_WING": "654f740ca57a9a7f534afdb88953f238997799a129ecbae35b735da06ddc7ccd",
+        "aileron_right_SEAM_CAP_1": "d0f57148e8e61cad2380df5063fbabc15b612b362c182cddfa53dda7763dd11d",
+        "aileron_right_SEAM_CAP_1_FIXED_WING": "c90801741c14debabc4bd687287ed1a7af94a207ec935178a2a3d76cec06f8f0",
+        "aileron_right_SEAM_CAP_4": "faad73794811647d57f85a38db5f3f3bbd03c11bb41b25ad81b54af92a69ae6d",
+        "aileron_right_SEAM_CAP_4_FIXED_WING": "c758ce74c50fbee736af5f74d76d362f1c5cfa23cf9fd7208d7e325e4065e873",
+        "elevator_right_SKIN": "933c9a5d50a09edbeb4fb0f9da53244bff1c51c535178210fe62d39cae1e9716",
+        "elevator_right_SEAM_CAP_1": "677613dd6af41804678b80f15b141ab85876f8705e0c12017fb092abc8c28096",
+        "elevator_right_SEAM_CAP_1_FIXED_WING": "b655c87335e4d56470fa3a3968644cfeae367412479b5da50561c85b7512d58a",
+        "elevator_right_SEAM_CAP_4": "32917c751f678dd230637e6251af0534f105b87ac4f0f2f71844bcd9c467a1fd",
+        "elevator_right_SEAM_CAP_4_FIXED_WING": "a2aebf8eaa44b8b9d27626c2cc31868e4f8ccf8558497d3b2d4f2b4e93f08179",
+        "flap_left_SKIN": "bac36d2f15db54770975435dcf710af13f0b650c7546d20b3a588f21a2291399",
+        "flap_left_SEAM_CAP_0": "30d36dc761025f4c4e7ccead6bd4865f2b7826556029909841e59614566c8eb2",
+        "flap_left_SEAM_CAP_0_FIXED_WING": "23818cd4c8416b97aa0f5ae09f7e4face6aefd3f732b4c14971c6d34d75e0e15",
+        "flap_left_SEAM_CAP_1": "339ccf5c359c8ffa91d159092b6c69988a868ab22799794eee01ff337da23c82",
+        "flap_left_SEAM_CAP_1_FIXED_WING": "2a20cec4e3f0cecfb9a7f71cdc7521e6fb1c433cb3590db849157b4ae6276724",
+        "flap_left_SEAM_CAP_4": "9486576f451cc544c3b5c384ef86259029684e48978e3293e68e19fa70b90a0b",
+        "flap_left_SEAM_CAP_4_FIXED_WING": "abd8bf6e4412292610ba651e963e32d4cd4e7133978950734d8d6a28e49f4473",
+        "aileron_left_SKIN": "bd7657d0e4dc4c3775e4d53ed2517924d0f9f2070ea7256bf59a0c2a7fdaa9ef",
+        "aileron_left_SEAM_CAP_0": "37d5b54defef7580e91d8f383d93063d06f0a9f081117a0f1086c660b6b7e486",
+        "aileron_left_SEAM_CAP_0_FIXED_WING": "91ffb2357d10aa46dd65195e5a0a888d282e369565d7e55b198a624b6b2e7106",
+        "aileron_left_SEAM_CAP_1": "777d103005f4fd3c5e0a82daf305fd1db81e91c44d6a8a72021b33f9d03cb5b2",
+        "aileron_left_SEAM_CAP_1_FIXED_WING": "3214c297126ef809f4ede2c3148c2b9ab23abdd20780fff5da4336f62b706908",
+        "aileron_left_SEAM_CAP_4": "7730e70c05dbe23f42f5da31c114ed843564cbd0ec9b5e664c13a2338255f244",
+        "aileron_left_SEAM_CAP_4_FIXED_WING": "5b314516966d5079f6bda464b2661e65683b910529000e0d3de059b778bcdc72",
+        "elevator_left_SKIN": "123c17e8d4473c8c6f4f0d9c9d204b5a6a2a6cece3496ce3a92cbde63a56bb8e",
+        "elevator_left_SEAM_CAP_1": "48f729c8f90457798b8eef2a55a12b06d802fc41979a36fcaa7b64c549aeda56",
+        "elevator_left_SEAM_CAP_1_FIXED_WING": "9dd80df1983326b12338206230fd681371b77a15d26cda48d8b5c5cb72e8753a",
+        "elevator_left_SEAM_CAP_4": "ad590aa88b469a94888ae7c2bf3249626c99dfa08130e17ac12d10809832ba0b",
+        "elevator_left_SEAM_CAP_4_FIXED_WING": "9d53c3d959d23c802d31e8b03e56873b58b7e8bcec7a6e08d54974a841678bb4",
+        "rudder_SKIN": "8334ff4f31098d7b235cf84f62e2dab52a1c4e61f12e3c36f9c85c990c09c245",
+        "rudder_SEAM_CAP_2": "9bdb9a0b6eaf9660eb07daab4390ad898f9c4fb272cca47ddb857d94d1e6e11a",
+        "rudder_SEAM_CAP_2_FIXED_WING": "41aa81dae90d0cb7aecf376fd1482b139e80d4c7ef44dc4cf012ff820079c20f",
+        "rudder_SEAM_CAP_3": "91f38ea2a27b1309465628827276b2cd64d0f03ceceb43f6a7dac1779d7e5cbb",
+        "rudder_SEAM_CAP_3_FIXED_WING": "ab571c3103d419b99b43faac0e5cf437a2f24a7452b84399e727bd9792882c70",
+        "rudder_SEAM_CAP_4": "c210a65a8f7e8b50469e77aedc3aa5f4c049d992df75b798ba41a65cc919d346",
+        "rudder_SEAM_CAP_4_FIXED_WING": "2511a0f8f7505a695657227ff5fe3e3c86673d7d8d62b98b2ca9a1cf7f7bcb24",
+        "PROP_1_HUB_SOURCE": "05cdb14abc8b6d1553dcfb2a358b8aba63990fe79f088f50926bfe4cc8c646cf",
+        "PROP_1_BLADES_SOURCE": "176b0923cd6c2771e0670c366104f674600a26a2002ab45d10c87a9a819bca37",
+        "PROP_1_TIP_PATCHES": "af3583c0f696a696c33e1d284f40347113e8f41f96b082d80a4aadd87845a797",
+        "PROP_2_HUB_SOURCE": "00df3ae2413e7ff332d15ce4486d4839a20bd376a133b16a4d1c1829a78954b6",
+        "PROP_2_BLADES_SOURCE": "2603c571e21d9cef3a493d1ff8dd3b3c65d301858adcb47096686794bf79c97a",
+        "PROP_2_TIP_PATCHES": "59c35541457b980e68900bd26895de4f5b7b90aa465728b04c8906e94a12c062",
+        "PROP_3_HUB_SOURCE": "71ec4324b8bf02e240736e2468cca2c2324311f17e912e05dc7af5f3bc863030",
+        "PROP_3_BLADES_SOURCE": "13eb55e3dad6d3a47317ef78f955df13dbf2dc6d92bb296a2b97155a9aa4f296",
+        "PROP_3_TIP_PATCHES": "528096a994c2cbfe9a206f46d14ca6e1b2007d3c92e862fd7879654ab826bee0",
+        "PROP_4_HUB_SOURCE": "13eb2b99e4ba7416d79df393f4bdd978948ebe07c7e813c81549279d48e88346",
+        "PROP_4_BLADES_SOURCE": "988c07f162268f5cfa548ca022083037095868d07c619838386d348202a15527",
+        "PROP_4_TIP_PATCHES": "4c41c6f0ae232caf0b028d6356346aa0e6ee59258f0f8a2c58781dacc4b3fe58",
+        "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0": "c08e27ff23b5910135d07d2f242590b5b426e9b514d76367fedf14a49340731f",
+        "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0": "5e612a86519b842cc51c7b32f6a558759819bf72b4158579c84773467041351b",
+        "CARGO_LOWER_RAMP_PRESERVED": "3190be6f7b9a5a875152268086e454cbd2796c3c4156e718261b1204023203c8",
+        "CARGO_RAMP_INTERIOR_PRESERVED": "57778e6d3bf8b1df9a690b542efdce96e9cd4fcb9ec76432833fd8a0bf1c4c59",
+        "CARGO_UPPER_DOOR_PRESERVED": "bf8c03dd1c1832f24e06d7019ca59d4b54d0b8179180830f21f0cfb11777f1dd",
+        "CREW_AIRSTAIR_DOOR_PRESERVED": "5f867aed10f4dccafb90b019e1c3fa68fd061a838f331e7d8e569f88ed0ff49c",
+        "CREW_STAIR_TREAD_1": "b32be06765df578f9e48b068760635d2fbf94ad161b04d1602e1c24a19206f15",
+        "CREW_STAIR_TREAD_2": "52f3ae62d613136dfd0879600a4ddea5f94b71eacb735ee2935992a0a9b653c2",
+        "CREW_STAIR_TREAD_3": "e2ee127c06077155bf3e6730635d2fe9d6c565e6666eed9957f3bbbd03cb3e3e",
+        "CREW_STAIR_TREAD_4": "2b930f7053e7c777ce973a5a79a083a9d6468147ae15802cc4e3621f3ddfa2f1",
+        "PARATROOP_RIGHT_SOURCE_18": "ca005069c7d4a86c0faa367ae1ad1bd4f8c600e1799d83a54168fcf1ab28a9b8",
+        "PARATROOP_RIGHT_SOURCE_19": "095db19ba1ea206999b64debb97f77525e02aa24d5cb086cf2b0de3fc1384973",
+        "WHEEL_LEFT_1_PRESERVED_TIRE": "e5e2c3f5713eaedb265f3b32e1d858b30d11e4984751cbd71f2e1e1e1b10e781",
+        "WHEEL_LEFT_1_PRESERVED_RIM": "9764619351e03ef7690a813cfc98687c658af919c218e818a783c0a0fdb8e93f",
+        "MAIN_STRUT_left_1": "e56224d3f7e88980c6a9ba624b97fa0e4cf6fd09dc52680b3df61a7a08a172e0",
+        "MAIN_FIXED_TELESCOPIC_STRUT_left_1": "c1d29c81815b29ac12d8120e14cffcbf9d16fa5a4ea372aa579ef230bbd33bf2",
+        "WHEEL_LEFT_2_PRESERVED_TIRE": "718048ad35e5e54b27383a3ed490f4cd789aea8c8968f21d8ab2df997bfbaa49",
+        "WHEEL_LEFT_2_PRESERVED_RIM": "ea3ee8a2c85c28c3dee31f23fd1a38647fbd801aa03514a012cb833946cefd07",
+        "MAIN_STRUT_left_2": "1f1c7ebf22f887d71c3e743a6d9a174b166446c8f62989b040c46d8e9a9c6879",
+        "MAIN_FIXED_TELESCOPIC_STRUT_left_2": "32b83bc3968a96bed40eb87449afa69b5f1809a567846772fca2738d4336f192",
+        "MAIN_GEAR_COVER_LEFT_PRESERVED": "0b4e27b529cdbc1822055dc308c0e736992bcb38c4ce1bb2de386cadaba56102",
+        "WHEEL_RIGHT_1_PRESERVED_TIRE": "05a65bedd68c6b3f7ff884fa8bee6de5c7a8f633f4fad9734f07f2841410770c",
+        "WHEEL_RIGHT_1_PRESERVED_RIM": "82eff4fd5de8e21035850fbc539d6e55582964f1c85930937aa88b9006855c1e",
+        "MAIN_STRUT_right_1": "4241fa277fc49ee69e36ae1ec8f54e209ae11d5f692e09e48c20f79d97412c0f",
+        "MAIN_FIXED_TELESCOPIC_STRUT_right_1": "1856174e6ba2cab7574c3d2fc6c0b4a035546b4eb62efe32a9cfb8a178561ca4",
+        "WHEEL_RIGHT_2_PRESERVED_TIRE": "73f1dd8f36addeb681898b638f85f95981c4bd0da686502f90be0f04dfb3df42",
+        "WHEEL_RIGHT_2_PRESERVED_RIM": "e41e0277b4f482894ab7376f0b4492a7af57538a4ce7e96eed6cc89ef37d40a6",
+        "MAIN_STRUT_right_2": "cac5eade8dcfd9d4b65dd83f495082f33d8aad1d4a2a0bcaf703776e0b36e3af",
+        "MAIN_FIXED_TELESCOPIC_STRUT_right_2": "5c12a7beca7179587cba273ed844f8b6cffb914d600b2a3b3bc4bde338b2ed5c",
+        "MAIN_GEAR_COVER_RIGHT_PRESERVED": "c996b80b33ce8e7f2e7ffb0cbbc35ac8353acabffaca46b0b3abaf9aa3b69da2",
+        "NOSE_GEAR_STRUT_PRESERVED": "3f1d7e0894347a5e2d3ec550b7c878c1f996cae3e803e206b36256cac3ec4c24",
+        "NOSE_WHEELS_PRESERVED_TIRE": "6166b839758d2ec9ca2f9c25743b3da838967b72d01b23ab20ab44eb2745150c",
+        "NOSE_WHEELS_PRESERVED_RIM": "a08b6dff2b8c1b471e35af70551ed54ab07d64a416e95b689c572c3adecf4a5a",
+        "NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED": "8c7e03b5085c151561a1ebbad75ab98d09fde9b50eb4ac5fbc680c53a0713cb9",
+        "NOSE_GEAR_COVER_PRESERVED": "2650a7de1c359b5bc19f24dcdd79a96d20d05037a8dbd86976ae2950f0dd8e27",
+        "NOSE_WELL_LEFT_SOURCE_HATCH": "6c6ffec625340650e07b11321fc5569c53e2d72be31d0cab87c8ce8b33a29338",
+        "NOSE_WELL_RIGHT_SOURCE_HATCH": "a4728eb386995a8d80a093943692d9e3ba6c4023577ff78b005cb39dd5789b5e",
+        "eoir_chin_AZIMUTH_SHELL": "da931fce79be05f0fd188f59576d2ef6aac243e744050b744768f16af9e9c998",
+        "eoir_chin_OPTICAL_GIMBAL": "e282907c400ae1530ec0178ef434b51863c4b3e15ae36c7ff7abeda02cfc1022",
+        "eoir_chin_LENS_1": "d53c341496772c97131c6d0189d8a0f7ea68d762e9f5095a36a1a0043bb7cda5",
+        "eoir_chin_LENS_2": "316f4584eca4a524cbe386ebe757c7733cfdddf7f6fd53be04b047d2dc8b005b",
+        "eoir_port_AZIMUTH_SHELL": "942677dce28c5a7938f9762353ea5a87c32963f16abd83d540a6db2d405759ee",
+        "eoir_port_OPTICAL_GIMBAL": "a4f4e49599a0863f5c716d442406f3ea077055a0e1f4c42cb8d9ca01de9081df",
+        "eoir_port_LENS_1": "d53c341496772c97131c6d0189d8a0f7ea68d762e9f5095a36a1a0043bb7cda5",
+        "eoir_port_LENS_2": "316f4584eca4a524cbe386ebe757c7733cfdddf7f6fd53be04b047d2dc8b005b"
+      }
+    },
+    {
+      "file": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/ac130j.glb",
+      "bytes": 14006440,
+      "sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62",
+      "errors": [],
+      "warnings": [
+        "Multiple clips target same node/property; combined controller must arbitrate: PIVOT_cargo_upper_door.rotation, PIVOT_gear_door_left.rotation, PIVOT_gear_door_right.rotation, PIVOT_gear_door_nose.rotation, PIVOT_nose_forward_hatch_left.rotation, PIVOT_nose_forward_hatch_right.rotation"
+      ],
+      "clips": [
+        {
+          "name": "gun30_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun30_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.0,
+                2.55,
+                -7.72
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.005676154761584471,
+            "0.25": 0.020640271501385452,
+            "0.375": 0.04179458633757453,
+            "0.5": 0.06603960433257015,
+            "0.625": 0.09027632794494025,
+            "0.75": 0.11140982007647066,
+            "0.875": 0.12635158903544794,
+            "1": 0.13201761410017993
+          },
+          "max_displacement_m": 0.13201761410017993,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun30_VISUAL_CRADLE",
+            "gun30_TRUNNION",
+            "gun30_FLEX_BOOT_FOLD_0",
+            "gun30_FLEX_BOOT_FOLD_1",
+            "gun30_FLEX_BOOT_FOLD_2",
+            "gun30_FLEX_BOOT_FOLD_3",
+            "gun30_FLEX_BOOT_FOLD_4",
+            "gun30_FLEX_BOOT_FOLD_5",
+            "gun30_BARREL_SHELL",
+            "gun30_DARK_MUZZLE_DEPTH",
+            "gun30_SLEEVE"
+          ],
+          "affected_vertex_count": 632
+        },
+        {
+          "name": "gun30_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun30_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.0,
+                2.55,
+                -7.72
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.009730529124587503,
+            "0.25": 0.03538228416826959,
+            "0.375": 0.07163921142530125,
+            "0.5": 0.1131766283589905,
+            "0.625": 0.15467220426606926,
+            "0.75": 0.19082432090720342,
+            "0.875": 0.21636353329454788,
+            "1": 0.22604304418466067
+          },
+          "max_displacement_m": 0.22604304418466067,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun30_TRUNNION",
+            "gun30_FLEX_BOOT_FOLD_0",
+            "gun30_FLEX_BOOT_FOLD_1",
+            "gun30_FLEX_BOOT_FOLD_2",
+            "gun30_FLEX_BOOT_FOLD_3",
+            "gun30_FLEX_BOOT_FOLD_4",
+            "gun30_FLEX_BOOT_FOLD_5",
+            "gun30_BARREL_SHELL",
+            "gun30_DARK_MUZZLE_DEPTH",
+            "gun30_SLEEVE"
+          ],
+          "affected_vertex_count": 624
+        },
+        {
+          "name": "gun30_recoil",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun30_recoil",
+              "property": "translation",
+              "origin_world_m": [
+                -2.0,
+                2.55,
+                -7.72
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.003007812425494194,
+            "0.25": 0.010937499813735485,
+            "0.375": 0.022148437798023224,
+            "0.5": 0.03500000014901161,
+            "0.625": 0.0478515625,
+            "0.75": 0.059062499552965164,
+            "0.875": 0.06699218600988388,
+            "1": 0.07000000029802322
+          },
+          "max_displacement_m": 0.07000000029802322,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun30_BARREL_SHELL",
+            "gun30_DARK_MUZZLE_DEPTH",
+            "gun30_SLEEVE"
+          ],
+          "affected_vertex_count": 192
+        },
+        {
+          "name": "gun105_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun105_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.93,
+                2.2,
+                2.35
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.0061144519030010384,
+            "0.25": 0.022234056797436966,
+            "0.375": 0.04502184994963184,
+            "0.5": 0.07113900190276498,
+            "0.625": 0.09724721900373934,
+            "0.75": 0.12001258157899024,
+            "0.875": 0.13610811305810747,
+            "1": 0.14221165307677924
+          },
+          "max_displacement_m": 0.14221165307677924,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun105_VISUAL_CRADLE",
+            "gun105_TRUNNION",
+            "gun105_FLEX_BOOT_FOLD_0",
+            "gun105_FLEX_BOOT_FOLD_1",
+            "gun105_FLEX_BOOT_FOLD_2",
+            "gun105_FLEX_BOOT_FOLD_3",
+            "gun105_FLEX_BOOT_FOLD_4",
+            "gun105_FLEX_BOOT_FOLD_5",
+            "gun105_BARREL_SHELL",
+            "gun105_DARK_MUZZLE_DEPTH",
+            "gun105_SLEEVE",
+            "gun105_VISUAL_RECUPERATOR"
+          ],
+          "affected_vertex_count": 680
+        },
+        {
+          "name": "gun105_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun105_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.93,
+                2.2,
+                2.35
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.010481893962038037,
+            "0.25": 0.038114407350095816,
+            "0.375": 0.07717099533534946,
+            "0.5": 0.12191581796331216,
+            "0.625": 0.166615568715061,
+            "0.75": 0.20555925289540705,
+            "0.875": 0.23307053339110778,
+            "1": 0.2434974696301849
+          },
+          "max_displacement_m": 0.2434974696301849,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun105_TRUNNION",
+            "gun105_FLEX_BOOT_FOLD_0",
+            "gun105_FLEX_BOOT_FOLD_1",
+            "gun105_FLEX_BOOT_FOLD_2",
+            "gun105_FLEX_BOOT_FOLD_3",
+            "gun105_FLEX_BOOT_FOLD_4",
+            "gun105_FLEX_BOOT_FOLD_5",
+            "gun105_BARREL_SHELL",
+            "gun105_DARK_MUZZLE_DEPTH",
+            "gun105_SLEEVE",
+            "gun105_VISUAL_RECUPERATOR"
+          ],
+          "affected_vertex_count": 672
+        },
+        {
+          "name": "gun105_recoil",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gun105_recoil",
+              "property": "translation",
+              "origin_world_m": [
+                -1.93,
+                2.2,
+                2.35
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.005156250204890966,
+            "0.25": 0.01875000074505806,
+            "0.375": 0.037968751043081284,
+            "0.5": 0.05999999865889549,
+            "0.625": 0.08203125,
+            "0.75": 0.10125000029802322,
+            "0.875": 0.11484374850988388,
+            "1": 0.11999999731779099
+          },
+          "max_displacement_m": 0.11999999731779099,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "gun105_BARREL_SHELL",
+            "gun105_DARK_MUZZLE_DEPTH",
+            "gun105_SLEEVE"
+          ],
+          "affected_vertex_count": 192
+        },
+        {
+          "name": "flap_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_flap_right",
+              "property": "rotation",
+              "origin_world_m": [
+                7.300000000000001,
+                4.56,
+                -0.007000000000000006
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.026558710697427275,
+            "0.25": 0.0965488015709905,
+            "0.375": 0.19531899769928174,
+            "0.5": 0.30805101319905953,
+            "0.625": 0.4199734612070668,
+            "0.75": 0.5167168150879224,
+            "0.875": 0.5845323628647571,
+            "1": 0.6101061494736562
+          },
+          "max_displacement_m": 0.6101061494736562,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "flap_right_SKIN",
+            "flap_right_SEAM_CAP_0",
+            "flap_right_SEAM_CAP_1",
+            "flap_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 91
+        },
+        {
+          "name": "aileron_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_aileron_right",
+              "property": "rotation",
+              "origin_world_m": [
+                15.575,
+                4.56,
+                -0.7517499999999998
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.011642497497914494,
+            "0.25": 0.04233284936195065,
+            "0.375": 0.08570022659910512,
+            "0.5": 0.13535304954632751,
+            "0.625": 0.18490549435339024,
+            "0.75": 0.228021332801399,
+            "0.875": 0.25844163001416515,
+            "1": 0.2699617181640843
+          },
+          "max_displacement_m": 0.2699617181640843,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "aileron_right_SKIN",
+            "aileron_right_SEAM_CAP_0",
+            "aileron_right_SEAM_CAP_1",
+            "aileron_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 102
+        },
+        {
+          "name": "elevator_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_elevator_right",
+              "property": "rotation",
+              "origin_world_m": [
+                4.6,
+                4.48,
+                12.646
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.017028696019422036,
+            "0.25": 0.061913944773416635,
+            "0.375": 0.12531744121756605,
+            "0.5": 0.19785016743382453,
+            "0.625": 0.2701371016543284,
+            "0.75": 0.3329249643292839,
+            "0.875": 0.37714935783608006,
+            "1": 0.3938785980700057
+          },
+          "max_displacement_m": 0.3938785980700057,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "elevator_right_SKIN",
+            "elevator_right_SEAM_CAP_1",
+            "elevator_right_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 93
+        },
+        {
+          "name": "flap_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_flap_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -7.300000000000001,
+                4.56,
+                -0.007000000000000006
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.026558769198932082,
+            "0.25": 0.09654901424134563,
+            "0.375": 0.19531942793306925,
+            "0.5": 0.30805169175033836,
+            "0.625": 0.41997438629261014,
+            "0.75": 0.5167179532723167,
+            "0.875": 0.5845336504281121,
+            "1": 0.6101074933689868
+          },
+          "max_displacement_m": 0.6101074933689868,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "flap_left_SKIN",
+            "flap_left_SEAM_CAP_0",
+            "flap_left_SEAM_CAP_1",
+            "flap_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 90
+        },
+        {
+          "name": "aileron_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_aileron_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -15.575,
+                4.56,
+                -0.7517499999999998
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.01164254757141965,
+            "0.25": 0.04233303143234781,
+            "0.375": 0.08570059518932792,
+            "0.5": 0.1353536316895985,
+            "0.625": 0.18490628961798172,
+            "0.75": 0.22802231350397553,
+            "0.875": 0.2584427415521499,
+            "1": 0.2699628792491028
+          },
+          "max_displacement_m": 0.2699628792491028,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "aileron_left_SKIN",
+            "aileron_left_SEAM_CAP_0",
+            "aileron_left_SEAM_CAP_1",
+            "aileron_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 103
+        },
+        {
+          "name": "elevator_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_elevator_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -4.6,
+                4.48,
+                12.646
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016018294660888492,
+            "0.25": 0.058240267631493446,
+            "0.375": 0.1178817041038963,
+            "0.5": 0.1861106859141665,
+            "0.625": 0.2541084588782728,
+            "0.75": 0.3131707897670378,
+            "0.875": 0.3547711200369431,
+            "1": 0.3705077271649503
+          },
+          "max_displacement_m": 0.3705077271649503,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "elevator_left_SKIN",
+            "elevator_left_SEAM_CAP_1",
+            "elevator_left_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 187
+        },
+        {
+          "name": "rudder",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_rudder",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                5.4,
+                11.402
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.046138478099016784,
+            "0.25": 0.1677462525524154,
+            "0.375": 0.33948219737464413,
+            "0.5": 0.5358278594524342,
+            "0.625": 0.7313140652130657,
+            "0.75": 0.9008973019445699,
+            "0.875": 1.0201945969120758,
+            "1": 1.0652861901560948
+          },
+          "max_displacement_m": 1.0652861901560948,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "rudder_SKIN",
+            "rudder_SEAM_CAP_2",
+            "rudder_SEAM_CAP_3",
+            "rudder_SEAM_CAP_4"
+          ],
+          "affected_vertex_count": 148
+        },
+        {
+          "name": "prop_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_1",
+              "property": "rotation",
+              "origin_world_m": [
+                5.349704503791233,
+                3.949654347161117,
+                -6.26
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.5714188477544035,
+            "0.25": 2.90360338525284,
+            "0.375": 3.793740639873229,
+            "0.5": 4.106315287176998,
+            "0.625": 3.793740639873228,
+            "0.75": 2.9036033852528402,
+            "0.875": 1.5714188477544044,
+            "1": 1.2560739669470201e-15
+          },
+          "max_displacement_m": 4.106315287176998,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_1_SIX_SWEPT_BLADES",
+            "PROP_1_J_SPINNER"
+          ],
+          "affected_vertex_count": 108
+        },
+        {
+          "name": "prop_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_2",
+              "property": "rotation",
+              "origin_world_m": [
+                10.560874381252251,
+                3.949654347161117,
+                -6.26
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.5714188477544035,
+            "0.25": 2.9036033852528402,
+            "0.375": 3.793740639873229,
+            "0.5": 4.106315287176998,
+            "0.625": 3.793740639873228,
+            "0.75": 2.9036033852528402,
+            "0.875": 1.5714188477544047,
+            "1": 8.881784197001252e-16
+          },
+          "max_displacement_m": 4.106315287176998,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_2_SIX_SWEPT_BLADES",
+            "PROP_2_J_SPINNER"
+          ],
+          "affected_vertex_count": 108
+        },
+        {
+          "name": "prop_3",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_3",
+              "property": "rotation",
+              "origin_world_m": [
+                -5.3497223344478675,
+                3.949654347161117,
+                -6.26
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.5714188477544035,
+            "0.25": 2.90360338525284,
+            "0.375": 3.793740639873229,
+            "0.5": 4.106315287176998,
+            "0.625": 3.793740639873228,
+            "0.75": 2.9036033852528402,
+            "0.875": 1.5714188477544044,
+            "1": 1.2560739669470201e-15
+          },
+          "max_displacement_m": 4.106315287176998,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_3_SIX_SWEPT_BLADES",
+            "PROP_3_J_SPINNER"
+          ],
+          "affected_vertex_count": 108
+        },
+        {
+          "name": "prop_4",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_prop_4",
+              "property": "rotation",
+              "origin_world_m": [
+                -10.560892542106233,
+                3.949654347161117,
+                -6.26
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 1.5714188477544035,
+            "0.25": 2.9036033852528402,
+            "0.375": 3.793740639873229,
+            "0.5": 4.106315287176998,
+            "0.625": 3.793740639873228,
+            "0.75": 2.9036033852528402,
+            "0.875": 1.5714188477544047,
+            "1": 8.881784197001252e-16
+          },
+          "max_displacement_m": 4.106315287176998,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PROP_4_SIX_SWEPT_BLADES",
+            "PROP_4_J_SPINNER"
+          ],
+          "affected_vertex_count": 108
+        },
+        {
+          "name": "cargo_ramp",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_cargo_upper_door",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                3.7514185504360054,
+                10.087033047587216
+              ]
+            },
+            {
+              "node": "PIVOT_cargo_ramp",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.9819460807253687,
+                2.7427263824014805
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5443584379565165,
+            "0.25": 1.3350933520027206,
+            "0.375": 1.440854889390478,
+            "0.5": 1.440854889390478,
+            "0.625": 1.440854889390478,
+            "0.75": 1.440854889390478,
+            "0.875": 1.654732348236531,
+            "1": 1.7846566531679662
+          },
+          "max_displacement_m": 1.7846566531679662,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+            "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+            "CARGO_LOWER_RAMP_PRESERVED",
+            "CARGO_RAMP_INTERIOR_PRESERVED",
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "affected_vertex_count": 9850
+        },
+        {
+          "name": "cargo_upper_door",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_cargo_upper_door",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                3.7514185504360054,
+                10.087033047587216
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.062226592152661145,
+            "0.25": 0.2262525859541599,
+            "0.375": 0.4579854568458667,
+            "0.5": 0.7231793381351885,
+            "0.625": 0.9876307308220892,
+            "0.75": 1.2175037396020734,
+            "0.875": 1.3795330406463477,
+            "1": 1.440854889390478
+          },
+          "max_displacement_m": 1.440854889390478,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CARGO_UPPER_DOOR_PRESERVED"
+          ],
+          "affected_vertex_count": 490
+        },
+        {
+          "name": "crew_door",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_crew_door",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.69,
+                0.93,
+                -9.84
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.14444676884254185,
+            "0.25": 0.5228373027140475,
+            "0.375": 1.042381824271251,
+            "0.5": 1.5967264691941898,
+            "0.625": 2.0851916392528227,
+            "0.75": 2.441655908085632,
+            "0.875": 2.648029316663385,
+            "1": 2.715559745210213
+          },
+          "max_displacement_m": 2.715559745210213,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "CREW_AIRSTAIR_DOOR_PRESERVED",
+            "CREW_STAIR_TREAD_1",
+            "CREW_STAIR_TREAD_2",
+            "CREW_STAIR_TREAD_3",
+            "CREW_STAIR_TREAD_4"
+          ],
+          "affected_vertex_count": 437
+        },
+        {
+          "name": "paratroop_right",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_paratroop_right",
+              "property": "translation",
+              "origin_world_m": [
+                1.98,
+                1.03,
+                2.24
+              ]
+            },
+            {
+              "node": "PIVOT_paratroop_right",
+              "property": "rotation",
+              "origin_world_m": [
+                1.98,
+                1.03,
+                2.24
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 3.5683225657500774e-08,
+            "0.125": 0.2147201108932516,
+            "0.25": 0.3876300694527409,
+            "0.375": 0.5140731791572,
+            "0.5": 0.8932309091240128,
+            "0.625": 1.4375464758185243,
+            "0.75": 1.9183808492783336,
+            "0.875": 2.2118228667857105,
+            "1": 2.305613039382339
+          },
+          "max_displacement_m": 2.305613039382339,
+          "time_zero_rest_error_m": 3.5683225657500774e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "PARATROOP_RIGHT_SOURCE_18",
+            "PARATROOP_RIGHT_SOURCE_19"
+          ],
+          "affected_vertex_count": 431
+        },
+        {
+          "name": "wheel_left_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_left_1",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.8663018102411117,
+                0.6573333745872825,
+                -2.5160398527687073
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091208802312,
+            "0.25": 0.9272223406386896,
+            "0.375": 1.2114743679337132,
+            "0.5": 1.3112904094665607,
+            "0.625": 1.211474367933713,
+            "0.75": 0.9272223406386896,
+            "0.875": 0.5018091208802313,
+            "1": 2.220446049250313e-16
+          },
+          "max_displacement_m": 1.3112904094665607,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_1_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "wheel_left_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_left_2",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.8663018102411117,
+                0.6573333745872825,
+                -1.0623061847887563
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091209293342,
+            "0.25": 0.9272223407294201,
+            "0.375": 1.2114743680522586,
+            "0.5": 1.311290409594873,
+            "0.625": 1.2114743680522582,
+            "0.75": 0.9272223407294201,
+            "0.875": 0.5018091209293343,
+            "1": 2.482534153247273e-16
+          },
+          "max_displacement_m": 1.311290409594873,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_2_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "gear_left",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_gear_left",
+              "property": "translation",
+              "origin_world_m": [
+                -1.866,
+                0.66,
+                -1.79
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 7.286252800572286e-08,
+            "0.125": 0.299179020106715,
+            "0.25": 0.38443405270643866,
+            "0.375": 0.38443405270643866,
+            "0.5": 0.7966265344619781,
+            "0.625": 1.1475499534606952,
+            "0.75": 1.2499999666214006,
+            "0.875": 1.2499999666214006,
+            "1": 1.737698514647365
+          },
+          "max_displacement_m": 1.737698514647365,
+          "time_zero_rest_error_m": 7.286252800572286e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_LEFT_1_PRESERVED_TIRE",
+            "WHEEL_LEFT_1_PRESERVED_RIM",
+            "MAIN_STRUT_left_1",
+            "WHEEL_LEFT_2_PRESERVED_TIRE",
+            "WHEEL_LEFT_2_PRESERVED_RIM",
+            "MAIN_STRUT_left_2",
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "affected_vertex_count": 1706
+        },
+        {
+          "name": "gear_door_left",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016586651578839564,
+            "0.25": 0.060309501157344625,
+            "0.375": 0.12208872405418779,
+            "0.5": 0.1928114209276052,
+            "0.625": 0.2633737382495419,
+            "0.75": 0.32475130148504233,
+            "0.875": 0.36804288642597527,
+            "1": 0.38443405270643866
+          },
+          "max_displacement_m": 0.38443405270643866,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "MAIN_GEAR_COVER_LEFT_PRESERVED"
+          ],
+          "affected_vertex_count": 38
+        },
+        {
+          "name": "wheel_right_1",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_right_1",
+              "property": "rotation",
+              "origin_world_m": [
+                1.8664685599003825,
+                0.6573333745872825,
+                -2.5160398527687073
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091208802312,
+            "0.25": 0.9272223406386896,
+            "0.375": 1.2114743679337132,
+            "0.5": 1.3112904094665607,
+            "0.625": 1.211474367933713,
+            "0.75": 0.9272223406386896,
+            "0.875": 0.5018091208802313,
+            "1": 2.220446049250313e-16
+          },
+          "max_displacement_m": 1.3112904094665607,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_1_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "wheel_right_2",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_right_2",
+              "property": "rotation",
+              "origin_world_m": [
+                1.8664685599003825,
+                0.6573333745872825,
+                -1.0623061847887563
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.5018091209293342,
+            "0.25": 0.9272223407294201,
+            "0.375": 1.2114743680522586,
+            "0.5": 1.311290409594873,
+            "0.625": 1.2114743680522582,
+            "0.75": 0.9272223407294201,
+            "0.875": 0.5018091209293343,
+            "1": 2.482534153247273e-16
+          },
+          "max_displacement_m": 1.311290409594873,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_2_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 786
+        },
+        {
+          "name": "gear_right",
+          "channels": 2,
+          "targets": [
+            {
+              "node": "PIVOT_gear_right",
+              "property": "translation",
+              "origin_world_m": [
+                1.866,
+                0.66,
+                -1.79
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_right",
+              "property": "rotation",
+              "origin_world_m": [
+                2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 7.286252800572286e-08,
+            "0.125": 0.29917887763448653,
+            "0.25": 0.3844338696348576,
+            "0.375": 0.3844338696348576,
+            "0.5": 0.7966265344619781,
+            "0.625": 1.1475499534606952,
+            "0.75": 1.2499999666214006,
+            "0.875": 1.2499999666214006,
+            "1": 1.7376976871368677
+          },
+          "max_displacement_m": 1.7376976871368677,
+          "time_zero_rest_error_m": 7.286252800572286e-08,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "WHEEL_RIGHT_1_PRESERVED_TIRE",
+            "WHEEL_RIGHT_1_PRESERVED_RIM",
+            "MAIN_STRUT_right_1",
+            "WHEEL_RIGHT_2_PRESERVED_TIRE",
+            "WHEEL_RIGHT_2_PRESERVED_RIM",
+            "MAIN_STRUT_right_2",
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "affected_vertex_count": 1706
+        },
+        {
+          "name": "gear_door_right",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_right",
+              "property": "rotation",
+              "origin_world_m": [
+                2.44,
+                1.44,
+                -1.78
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.016586643680099687,
+            "0.25": 0.060309472437319246,
+            "0.375": 0.1220886659142402,
+            "0.5": 0.19281132910875784,
+            "0.625": 0.2633736128281691,
+            "0.75": 0.3247511468350216,
+            "0.875": 0.368042711160042,
+            "1": 0.3844338696348576
+          },
+          "max_displacement_m": 0.3844338696348576,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "MAIN_GEAR_COVER_RIGHT_PRESERVED"
+          ],
+          "affected_vertex_count": 38
+        },
+        {
+          "name": "wheel_nose",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_wheel_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                -3.095600110691876e-07,
+                0.48978301547644665,
+                -11.86688430531863
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.3748633290952534,
+            "0.25": 0.692657105980086,
+            "0.375": 0.9050001201265339,
+            "0.5": 0.979565073351136,
+            "0.625": 0.9050001201265336,
+            "0.75": 0.692657105980086,
+            "0.875": 0.37486332909525344,
+            "1": 1.1102230246251565e-16
+          },
+          "max_displacement_m": 0.979565073351136,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_WHEELS_PRESERVED_TIRE",
+            "NOSE_WHEELS_PRESERVED_RIM"
+          ],
+          "affected_vertex_count": 1720
+        },
+        {
+          "name": "gear_nose",
+          "channels": 7,
+          "targets": [
+            {
+              "node": "PIVOT_gear_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                1.6,
+                -12.02
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "translation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "translation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "rotation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "translation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 4.5680351169841137e-07,
+            "0.125": 0.15669773671154338,
+            "0.25": 0.20161475985618604,
+            "0.375": 0.6956922285311115,
+            "0.5": 1.5744062707461992,
+            "0.625": 2.2327258701156087,
+            "0.75": 2.426070129054297,
+            "0.875": 2.426070129054297,
+            "1": 2.426070129054297
+          },
+          "max_displacement_m": 2.426070129054297,
+          "time_zero_rest_error_m": 4.5680351169841137e-07,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_GEAR_STRUT_PRESERVED",
+            "NOSE_WHEELS_PRESERVED_TIRE",
+            "NOSE_WHEELS_PRESERVED_RIM",
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "affected_vertex_count": 2296
+        },
+        {
+          "name": "gear_door_nose",
+          "channels": 3,
+          "targets": [
+            {
+              "node": "PIVOT_gear_door_nose",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                0.33,
+                -9.88
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_left",
+              "property": "rotation",
+              "origin_world_m": [
+                -0.62,
+                0.9810474136423382,
+                -12.941331407142856
+              ]
+            },
+            {
+              "node": "PIVOT_nose_forward_hatch_right",
+              "property": "rotation",
+              "origin_world_m": [
+                0.62,
+                0.9644417915528465,
+                -12.897511448275864
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.008670162974136683,
+            "0.25": 0.03152728699809889,
+            "0.375": 0.06383883275179603,
+            "0.5": 0.10086882877031293,
+            "0.625": 0.13788226269925663,
+            "0.75": 0.17015228758810558,
+            "0.875": 0.19296481480988695,
+            "1": 0.2016147593908483
+          },
+          "max_displacement_m": 0.2016147593908483,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "NOSE_GEAR_COVER_PRESERVED",
+            "NOSE_WELL_LEFT_SOURCE_HATCH",
+            "NOSE_WELL_RIGHT_SOURCE_HATCH"
+          ],
+          "affected_vertex_count": 486
+        },
+        {
+          "name": "eoir_chin_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_chin_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                1.15,
+                -13.92
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.020244704402275472,
+            "0.25": 0.07344640727024934,
+            "0.375": 0.14757303289020066,
+            "0.5": 0.22961007136068676,
+            "0.625": 0.30688131578559785,
+            "0.75": 0.36913896786622846,
+            "0.875": 0.40970734658655045,
+            "1": 0.42426408557066786
+          },
+          "max_displacement_m": 0.42426408557066786,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_chin_AZIMUTH_SHELL",
+            "eoir_chin_OPTICAL_GIMBAL",
+            "eoir_chin_LENS_1",
+            "eoir_chin_LENS_2"
+          ],
+          "affected_vertex_count": 704
+        },
+        {
+          "name": "eoir_chin_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_chin_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                0.0,
+                1.0899999999999999,
+                -13.92
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.009306182428335325,
+            "0.25": 0.03382104064529356,
+            "0.375": 0.0683543962813392,
+            "0.5": 0.10760075973771224,
+            "0.625": 0.14628804550006286,
+            "0.75": 0.17942270730452656,
+            "0.875": 0.2024386263005044,
+            "1": 0.21106647731721082
+          },
+          "max_displacement_m": 0.21106647731721082,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_chin_OPTICAL_GIMBAL",
+            "eoir_chin_LENS_1",
+            "eoir_chin_LENS_2"
+          ],
+          "affected_vertex_count": 392
+        },
+        {
+          "name": "eoir_port_yaw",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_port_yaw",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.42,
+                1.18,
+                -5.65
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.020244704402275517,
+            "0.25": 0.07344640727024943,
+            "0.375": 0.14757303289020007,
+            "0.5": 0.2296100713606862,
+            "0.625": 0.3068813157855978,
+            "0.75": 0.3691389678662277,
+            "0.875": 0.4097073465865506,
+            "1": 0.4242640855706679
+          },
+          "max_displacement_m": 0.4242640855706679,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_port_AZIMUTH_SHELL",
+            "eoir_port_OPTICAL_GIMBAL",
+            "eoir_port_LENS_1",
+            "eoir_port_LENS_2"
+          ],
+          "affected_vertex_count": 704
+        },
+        {
+          "name": "eoir_port_pitch",
+          "channels": 1,
+          "targets": [
+            {
+              "node": "PIVOT_eoir_port_pitch",
+              "property": "rotation",
+              "origin_world_m": [
+                -1.42,
+                1.1199999999999999,
+                -5.65
+              ]
+            }
+          ],
+          "sample_displacement_m": {
+            "0": 0.0,
+            "0.125": 0.00930618242833543,
+            "0.25": 0.03382104064529356,
+            "0.375": 0.0683543962813392,
+            "0.5": 0.10760075973771241,
+            "0.625": 0.14628804550006286,
+            "0.75": 0.17942270730452656,
+            "0.875": 0.20243862630050444,
+            "1": 0.21106647731721082
+          },
+          "max_displacement_m": 0.21106647731721082,
+          "time_zero_rest_error_m": 0.0,
+          "reset_error_m": 0,
+          "reverse_pose_error_m": 0,
+          "affected_mesh_nodes": [
+            "eoir_port_OPTICAL_GIMBAL",
+            "eoir_port_LENS_1",
+            "eoir_port_LENS_2"
+          ],
+          "affected_vertex_count": 392
+        }
+      ],
+      "checks": {
+        "glb_and_accessor_bounds": "PASS",
+        "finite_export_data": "PASS",
+        "actual_decoded_vertex_motion": "PASS",
+        "independent_sampler_reverse_interruption_reset": "PASS",
+        "collision_clearance": "NOT_RUN",
+        "photographic_acceptance": "NOT_RUN",
+        "viewer_runtime_control_sequence": "SEPARATE_REPORT",
+        "native_blender": "SEPARATE_REPORT_OR_NOT_RUN",
+        "native_unreal": "NOT_RUN",
+        "full_khronos_gltf_conformance": "SEPARATE_REPORT_OR_NOT_RUN"
+      },
+      "inventory": {
+        "nodes": 213,
+        "meshes": 169,
+        "vertices": 127337,
+        "triangles": 163519,
+        "clips": 36,
+        "skins": 0,
+        "zero_normals": 0,
+        "degenerate_triangles": 0,
+        "invalid_tangent_signs": 0
+      },
+      "canonical_bounds_m": {
+        "min": [
+          -20.205015182495117,
+          5.330908112721744e-07,
+          -14.895039558410645
+        ],
+        "max": [
+          20.204984664916992,
+          11.84000015258789,
+          14.894960403442383
+        ],
+        "size": [
+          40.40999984741211,
+          11.83999961949708,
+          29.789999961853027
+        ]
+      },
+      "shared_channel_targets": {
+        "PIVOT_cargo_upper_door.rotation": [
+          "cargo_ramp",
+          "cargo_upper_door"
+        ],
+        "PIVOT_gear_door_left.rotation": [
+          "gear_left",
+          "gear_door_left"
+        ],
+        "PIVOT_gear_door_right.rotation": [
+          "gear_right",
+          "gear_door_right"
+        ],
+        "PIVOT_gear_door_nose.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ],
+        "PIVOT_nose_forward_hatch_left.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ],
+        "PIVOT_nose_forward_hatch_right.rotation": [
+          "gear_nose",
+          "gear_door_nose"
+        ]
+      },
+      "articulation": {
+        "file": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/articulation/ac130j.json",
+        "sha256": "24c3e7a25950ad0c0bd06e595004754ab6980b7a3358c75580cd06162b3153a7",
+        "controls": 36
+      },
+      "declared_clip_ownership": {
+        "cargo_upper_door": "cargo_ramp",
+        "gear_door_left": "gear_left",
+        "gear_door_right": "gear_right",
+        "gear_door_nose": "gear_nose"
+      },
+      "combined_direct_primary_clip_samples": [
+        {
+          "time": 0,
+          "min": [
+            -20.205015182495117,
+            5.330908112721744e-07,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.125,
+          "min": [
+            -20.205015182495117,
+            0.008945468120094446,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.25,
+          "min": [
+            -20.205015182495117,
+            0.012500353380000107,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.375,
+          "min": [
+            -20.205015182495117,
+            0.04363852451747141,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.5,
+          "min": [
+            -20.205015182495117,
+            0.144018164469403,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.625,
+          "min": [
+            -20.205015182495117,
+            0.144018164469403,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.75,
+          "min": [
+            -20.205015182495117,
+            0.08161424208287116,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 0.875,
+          "min": [
+            -20.205015182495117,
+            -0.20373082106013196,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        },
+        {
+          "time": 1,
+          "min": [
+            -20.205015182495117,
+            -0.29419953805835697,
+            -14.895039558410645
+          ],
+          "max": [
+            20.204984664916992,
+            11.84000015258789,
+            14.894960403442383
+          ]
+        }
+      ],
+      "status": "PASS_SCOPED",
+      "mesh_signatures": {
+        "J_AE2100_STYLE_NACELLE_1": "4e1cec3bd14933a48db7f4be76f370d5174f3e6a583326fcb4fd32c24a685c5a",
+        "J_LOWER_INTAKE_DUCT_1": "43c1646799890a0331e4693c7326d35e65c27df774960746541146ab6efc5fd5",
+        "J_INTAKE_LIP_1_BOTTOM": "a53989a3f4a7fd2e900af047c74324d2fcd1b180e3f5e37acb21bb65439433db",
+        "J_INTAKE_LIP_1_TOP": "28ff818da166947327e5203c69bf6e1f889fae9edaa0377a285c997bca97aebc",
+        "J_INTAKE_LIP_1_LEFT": "d6b781e802bd7aa025bdc5f3ce8c45b839720e860fe3ef7d86050b5be800fc96",
+        "J_INTAKE_LIP_1_RIGHT": "3f9c19260c828680f0ae543934ae0b07357a2af3516fd89b504c904343a2f3e6",
+        "J_EXHAUST_1": "adaa0c9a04b42e424fbe0196293cbcef5affdfd26cded0f232fc49a530099ee2",
+        "J_AE2100_STYLE_NACELLE_2": "86fb4be4a4a19d147631a11cce620a294e90f959ccae90ab7976511243d988a7",
+        "J_LOWER_INTAKE_DUCT_2": "4322f7bd9a76582af2ca452225937c2e5c9739c8525eedb85e94d753d8044e4e",
+        "J_INTAKE_LIP_2_BOTTOM": "b068416f1f37f4a132367b9c179fbda611e809138a437e47fc85007a9d9756eb",
+        "J_INTAKE_LIP_2_TOP": "21694c72326fe3a72fb29ff143983f912993aa7aa3035018adbf8b37c78ac888",
+        "J_INTAKE_LIP_2_LEFT": "97df48d073f08ea24e7477c0e5e38aa281a365e53cc1bb86e21fc9a76fdf5411",
+        "J_INTAKE_LIP_2_RIGHT": "66d28b9073e5366ec5f35e0987b61dc628e52cf135dde590c76e661c9a42d28f",
+        "J_EXHAUST_2": "f97f629b0aa87e85c13c0eb9165380dab8986d1ae4daaccf2c658d4bed532f40",
+        "J_AE2100_STYLE_NACELLE_3": "55bad1f3b187749335089b2c675f31553e721bbc630b67d72f25659058d0deb6",
+        "J_LOWER_INTAKE_DUCT_3": "4cb83e29d8a18eb028c7e453e508595da744018046b7cab8c3b8d6c225fd0c7e",
+        "J_INTAKE_LIP_3_BOTTOM": "7ab851912ac2495b31130a7af751bb6fa50c1efc26953a159290eefdb37cb4b7",
+        "J_INTAKE_LIP_3_TOP": "e41178d7fd82f066565e95a2f2550ca88e4262adcedb4e3123a0ef69ccbae2b6",
+        "J_INTAKE_LIP_3_LEFT": "4a8922e9cf8075075a7bd3f86ee8aef3740328bb9ea5272b20959e44aaad7a19",
+        "J_INTAKE_LIP_3_RIGHT": "fd805ad0101549d563a9ff17c8e3ba8dec6e98678492efadee318b0e3dd5352d",
+        "J_EXHAUST_3": "e822c15194c62ac0cd67222c5079d41f59d8ff576dd4f81f71c3e09ab5582a62",
+        "J_AE2100_STYLE_NACELLE_4": "de486489614ae05df4507e3509071ad2ed38d2b16ebbce8b261deb0d33b20fb9",
+        "J_LOWER_INTAKE_DUCT_4": "9677361d66e2a74ed50cff82bf8aab324ca85935bce52d3f516148cf30bf4d14",
+        "J_INTAKE_LIP_4_BOTTOM": "e17105696b9df9a56cda4c5c1696347b6ddda853b08cdb71eeaa924eab592cec",
+        "J_INTAKE_LIP_4_TOP": "360727bfbcd5034b6fd305b63cd806b492a33cc9221a0e51498d5c045fb153b8",
+        "J_INTAKE_LIP_4_LEFT": "98bffb4c4690c5a154450fc2376c359bcbf5b30f989b8c57b3f221fdd2d3a4d6",
+        "J_INTAKE_LIP_4_RIGHT": "7625b4c83192a4894ff475b408592f67975cbcd284ca45b300fba5633cca0af4",
+        "J_EXHAUST_4": "f07a9a277d1fe7e2cb13ab8dcbf3e3a6e87130037ba709e8dc4e27a3fa772ce1",
+        "PANEL_GUN30_SOURCE_SKIN": "fb691d251daf48823fe03a2437c9dab265531807e9092349c79c051024b32bfa",
+        "BAY_gun30_RECEIVING_VOLUME": "f7502718a35cf2724146f75ee632f7bd0031952d58dd9adf719d4fb0cf8b1322",
+        "gun30_VISUAL_CRADLE": "49891e4c585ee63bce3a2e8255dddfedf005c8275a7382c4bbfc5f39f20654bd",
+        "gun30_TRUNNION": "d641c04b7c24f021567c9411c7166293845a37b50bfdff7151c7d0ba8effa71f",
+        "gun30_FLEX_BOOT_FOLD_0": "828e0082e548c3e4c131a0688c9a6d11cd50051922eb85164ebce42748d82cd6",
+        "gun30_FLEX_BOOT_FOLD_1": "d62ae27352a946edb7bff6e16f3f5f89f196bf87613555fc7aeccba1977455e0",
+        "gun30_FLEX_BOOT_FOLD_2": "58b11c26fa32b3637f261eb5e20fb571ffaf93dd041cc059f1b3c9686dd3d97e",
+        "gun30_FLEX_BOOT_FOLD_3": "53b1d6d0a780b3224f5e4d6791166b07ff773793b58f4f9606af486717c5692d",
+        "gun30_FLEX_BOOT_FOLD_4": "ab363ded0d1f55b84c9994627e63a3de8c91e4d9178d4051e9ce95c0ebd6da86",
+        "gun30_FLEX_BOOT_FOLD_5": "48ccd2080723f8607ae24457fe6133d7943984fcf311c6354737fb46f5052534",
+        "gun30_BARREL_SHELL": "31bab77e4f50a8723712a8a0ebb6423401178cbb16b3d0004b1e0a98e7ccefe5",
+        "gun30_DARK_MUZZLE_DEPTH": "ab2348d261f2434c2af844c01458edb69694db6763c5ffbf8dbcfd0dddbde562",
+        "gun30_SLEEVE": "e958c00fdbe333e342eb97fb54d6d5023c94cc40efbc9d6da2cd1a7b22f4f6e5",
+        "PANEL_GUN105_SOURCE_SKIN": "a8933295795ef64a88b707514060fe6edcc1120bd4dc474616409176649a7860",
+        "PANEL_AFT_PORT_GUN_STATION_INFILL": "d3cb2314a347cf403ba67c0d7550a9798c3ca03e24bbbf5a7682a0b78343a57f",
+        "BAY_gun105_RECEIVING_VOLUME": "6b0d38016fd4e83fc944f9e63192553f3b9c253977238b8429dd482cfe809ca6",
+        "gun105_VISUAL_CRADLE": "49891e4c585ee63bce3a2e8255dddfedf005c8275a7382c4bbfc5f39f20654bd",
+        "gun105_TRUNNION": "69dc1ae1ad1d8e2971234fbd1015d3b4840f2ca2f86bfe544e6f6742e635fc7f",
+        "gun105_FLEX_BOOT_FOLD_0": "1f1be355c24e638be1a9d476cf1760f926a41f1d6fe2a6c5c329fd10a07ba603",
+        "gun105_FLEX_BOOT_FOLD_1": "23bb8e75eb57a0dba1030be4e077369222fa3b485ffb0ad66308469ae78066f3",
+        "gun105_FLEX_BOOT_FOLD_2": "c8ad0327b732b634a7f7e0008c6ccdaaac21563a4129d03e292ab9e48a52ae76",
+        "gun105_FLEX_BOOT_FOLD_3": "77f0d65b3a0a6a823af424ee075b121442cf7a64fd2c3e6013e3caddc75e4bc7",
+        "gun105_FLEX_BOOT_FOLD_4": "72ff44bc11bc98c9a8e41a03150a376afc56e19b55e3187d21b53ec02be9b296",
+        "gun105_FLEX_BOOT_FOLD_5": "010f3ec259b348b66439b11fd3e466092c131d5cf87f1725a98eb6d1b4f5c499",
+        "gun105_BARREL_SHELL": "297739bbfd4405290e56ca4a502b8de844df8b90526303ea75e0472e4eb60480",
+        "gun105_DARK_MUZZLE_DEPTH": "91f37bb470d65abe64059f3c19e29ee00d8c924ec0e0f7a54a3cc7a1e839ea19",
+        "gun105_SLEEVE": "d43e946686a39ac3994cabbcc0d37ccd8f2707734d3773fec6892e7e20eeb51a",
+        "gun105_VISUAL_RECUPERATOR": "989328da9d92f64dba4be4ce35c0a98905035996a9095b83b386bf23d212c899",
+        "GEAR_WELL_LEFT": "7cda6b3174406db90c0f85483f968c6f885cffb990556d57caddeda74f50b126",
+        "GEAR_WELL_RIGHT": "8ef3f9b2dbd6d3c36073189bb12d9ed13e4d2663421fe03c940f1940f29be40e",
+        "GEAR_WELL_NOSE": "35c12ab1d760e7278aed80dff9921ad14dc3dc8a0d566b9c2aa313e25232758c",
+        "PATCH_houseTint_PORT": "d02b9b53f82c71a59707a743c8ee8614ddba56aecf78db0610cc8c375e7d3713",
+        "fuselage": "2d0cd96ffed8386ab3f81d646607b53f82b299e81cbe946d8e67767f1343a392",
+        "CARGO_CABIN_PRESERVED": "7e051a726c0ec7be84f166af52ce270f5170c28d43c7213d4ccdbc5721c384dd",
+        "COCKPIT_WINDOWS": "5f6980d251df241918a57b6e7b31f1ea893c7f8587098cc63f9da5cee71094ce",
+        "J_COCKPIT_PANEL": "b610ba6df1adde9347b6c854e239ade1e9af92af9a9ffb9751b2d78e6d7f15ef",
+        "J_MULTIFUNCTION_DISPLAY_1": "85258a3e176820dc7e9602e5e737e4ee0cb5c46484e07b5ca23e96d2bf4b2ce7",
+        "J_MULTIFUNCTION_DISPLAY_2": "2d53d4fbc32a6cbe431d7e5c338d51be38d8cf5d8f01e62d7895f8b09b3510e2",
+        "J_MULTIFUNCTION_DISPLAY_3": "f09a2fe40a5566a0691c2b9d9b05b7fc60656cfe9aa4eecd04c08448e7e6767d",
+        "J_MULTIFUNCTION_DISPLAY_4": "9bbf3e05cf3ca05e01bf817075eae03867c745b2347e8dea06e677e2bfbc0f0a",
+        "J_MULTIFUNCTION_DISPLAY_5": "cc37403ac0304034d56b19ee71c7f8be8632bc41b7ae55ba247ae5dc75728b9f",
+        "J_HUD_GLASS_1": "d1404f8ead255e138bb5eb0b7d4ec375e67d04c8a2f0fece9b49bce1a1fda08e",
+        "J_HUD_GLASS_2": "f01b274a5d38e6565daec2ea7bf4a9cddf30293a5716f3bc084b18a60785021f",
+        "flap_right_SKIN": "797d98de4987a2586c0d6bc759ec313c2321fb3acb355b7f2737e0d1179cf1e4",
+        "flap_right_SEAM_CAP_0": "1e3a8f92effcc2f2696355e6553644585433eb069a47154a578ab2ad8a31534b",
+        "flap_right_SEAM_CAP_0_FIXED_WING": "49a119589ff8382ba5b5ae973e5c95f4e46f0192637f8bea945a91f47785d0a2",
+        "flap_right_SEAM_CAP_1": "a1918e8a812ba617d4e1f9ee39436c75d564baacfa454849aa01c4512f947d97",
+        "flap_right_SEAM_CAP_1_FIXED_WING": "8b2b65b4f0dd555c784dcc72981d145a1d4dfee325ff45023abaf8e0612c0942",
+        "flap_right_SEAM_CAP_4": "1b1bf960536825794ee44dc287e4710f4eb06c794e2afb902562ef08059c11f6",
+        "flap_right_SEAM_CAP_4_FIXED_WING": "a9a234b98869bb5021591fcaca805f15718d6fb14703c2b294809c82ef1989fa",
+        "aileron_right_SKIN": "8057e90b36d830cc702049c0aa67f9e6e0774de7a977e8195b2d8aeee1069d9b",
+        "aileron_right_SEAM_CAP_0": "142857bb91429959b079baf612f936289ea29aa3f0fd59e74fdb04e5506c79e0",
+        "aileron_right_SEAM_CAP_0_FIXED_WING": "654f740ca57a9a7f534afdb88953f238997799a129ecbae35b735da06ddc7ccd",
+        "aileron_right_SEAM_CAP_1": "d0f57148e8e61cad2380df5063fbabc15b612b362c182cddfa53dda7763dd11d",
+        "aileron_right_SEAM_CAP_1_FIXED_WING": "c90801741c14debabc4bd687287ed1a7af94a207ec935178a2a3d76cec06f8f0",
+        "aileron_right_SEAM_CAP_4": "faad73794811647d57f85a38db5f3f3bbd03c11bb41b25ad81b54af92a69ae6d",
+        "aileron_right_SEAM_CAP_4_FIXED_WING": "c758ce74c50fbee736af5f74d76d362f1c5cfa23cf9fd7208d7e325e4065e873",
+        "elevator_right_SKIN": "933c9a5d50a09edbeb4fb0f9da53244bff1c51c535178210fe62d39cae1e9716",
+        "elevator_right_SEAM_CAP_1": "677613dd6af41804678b80f15b141ab85876f8705e0c12017fb092abc8c28096",
+        "elevator_right_SEAM_CAP_1_FIXED_WING": "b655c87335e4d56470fa3a3968644cfeae367412479b5da50561c85b7512d58a",
+        "elevator_right_SEAM_CAP_4": "32917c751f678dd230637e6251af0534f105b87ac4f0f2f71844bcd9c467a1fd",
+        "elevator_right_SEAM_CAP_4_FIXED_WING": "a2aebf8eaa44b8b9d27626c2cc31868e4f8ccf8558497d3b2d4f2b4e93f08179",
+        "flap_left_SKIN": "bac36d2f15db54770975435dcf710af13f0b650c7546d20b3a588f21a2291399",
+        "flap_left_SEAM_CAP_0": "30d36dc761025f4c4e7ccead6bd4865f2b7826556029909841e59614566c8eb2",
+        "flap_left_SEAM_CAP_0_FIXED_WING": "23818cd4c8416b97aa0f5ae09f7e4face6aefd3f732b4c14971c6d34d75e0e15",
+        "flap_left_SEAM_CAP_1": "339ccf5c359c8ffa91d159092b6c69988a868ab22799794eee01ff337da23c82",
+        "flap_left_SEAM_CAP_1_FIXED_WING": "2a20cec4e3f0cecfb9a7f71cdc7521e6fb1c433cb3590db849157b4ae6276724",
+        "flap_left_SEAM_CAP_4": "9486576f451cc544c3b5c384ef86259029684e48978e3293e68e19fa70b90a0b",
+        "flap_left_SEAM_CAP_4_FIXED_WING": "abd8bf6e4412292610ba651e963e32d4cd4e7133978950734d8d6a28e49f4473",
+        "aileron_left_SKIN": "bd7657d0e4dc4c3775e4d53ed2517924d0f9f2070ea7256bf59a0c2a7fdaa9ef",
+        "aileron_left_SEAM_CAP_0": "37d5b54defef7580e91d8f383d93063d06f0a9f081117a0f1086c660b6b7e486",
+        "aileron_left_SEAM_CAP_0_FIXED_WING": "91ffb2357d10aa46dd65195e5a0a888d282e369565d7e55b198a624b6b2e7106",
+        "aileron_left_SEAM_CAP_1": "777d103005f4fd3c5e0a82daf305fd1db81e91c44d6a8a72021b33f9d03cb5b2",
+        "aileron_left_SEAM_CAP_1_FIXED_WING": "3214c297126ef809f4ede2c3148c2b9ab23abdd20780fff5da4336f62b706908",
+        "aileron_left_SEAM_CAP_4": "7730e70c05dbe23f42f5da31c114ed843564cbd0ec9b5e664c13a2338255f244",
+        "aileron_left_SEAM_CAP_4_FIXED_WING": "5b314516966d5079f6bda464b2661e65683b910529000e0d3de059b778bcdc72",
+        "elevator_left_SKIN": "123c17e8d4473c8c6f4f0d9c9d204b5a6a2a6cece3496ce3a92cbde63a56bb8e",
+        "elevator_left_SEAM_CAP_1": "48f729c8f90457798b8eef2a55a12b06d802fc41979a36fcaa7b64c549aeda56",
+        "elevator_left_SEAM_CAP_1_FIXED_WING": "9dd80df1983326b12338206230fd681371b77a15d26cda48d8b5c5cb72e8753a",
+        "elevator_left_SEAM_CAP_4": "ad590aa88b469a94888ae7c2bf3249626c99dfa08130e17ac12d10809832ba0b",
+        "elevator_left_SEAM_CAP_4_FIXED_WING": "9d53c3d959d23c802d31e8b03e56873b58b7e8bcec7a6e08d54974a841678bb4",
+        "rudder_SKIN": "8334ff4f31098d7b235cf84f62e2dab52a1c4e61f12e3c36f9c85c990c09c245",
+        "rudder_SEAM_CAP_2": "9bdb9a0b6eaf9660eb07daab4390ad898f9c4fb272cca47ddb857d94d1e6e11a",
+        "rudder_SEAM_CAP_2_FIXED_WING": "41aa81dae90d0cb7aecf376fd1482b139e80d4c7ef44dc4cf012ff820079c20f",
+        "rudder_SEAM_CAP_3": "91f38ea2a27b1309465628827276b2cd64d0f03ceceb43f6a7dac1779d7e5cbb",
+        "rudder_SEAM_CAP_3_FIXED_WING": "ab571c3103d419b99b43faac0e5cf437a2f24a7452b84399e727bd9792882c70",
+        "rudder_SEAM_CAP_4": "c210a65a8f7e8b50469e77aedc3aa5f4c049d992df75b798ba41a65cc919d346",
+        "rudder_SEAM_CAP_4_FIXED_WING": "2511a0f8f7505a695657227ff5fe3e3c86673d7d8d62b98b2ca9a1cf7f7bcb24",
+        "PROP_1_SIX_SWEPT_BLADES": "89bfd504472152eb827f40bc676134289e72900f0765bd3be1db8cb4d4104b35",
+        "PROP_1_J_SPINNER": "013abe64d3470c32eef8564936246a667b36cd590faf3844dc0b40f00487b5fa",
+        "PROP_2_SIX_SWEPT_BLADES": "89bfd504472152eb827f40bc676134289e72900f0765bd3be1db8cb4d4104b35",
+        "PROP_2_J_SPINNER": "013abe64d3470c32eef8564936246a667b36cd590faf3844dc0b40f00487b5fa",
+        "PROP_3_SIX_SWEPT_BLADES": "89bfd504472152eb827f40bc676134289e72900f0765bd3be1db8cb4d4104b35",
+        "PROP_3_J_SPINNER": "013abe64d3470c32eef8564936246a667b36cd590faf3844dc0b40f00487b5fa",
+        "PROP_4_SIX_SWEPT_BLADES": "89bfd504472152eb827f40bc676134289e72900f0765bd3be1db8cb4d4104b35",
+        "PROP_4_J_SPINNER": "013abe64d3470c32eef8564936246a667b36cd590faf3844dc0b40f00487b5fa",
+        "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0": "c08e27ff23b5910135d07d2f242590b5b426e9b514d76367fedf14a49340731f",
+        "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0": "5e612a86519b842cc51c7b32f6a558759819bf72b4158579c84773467041351b",
+        "CARGO_LOWER_RAMP_PRESERVED": "3190be6f7b9a5a875152268086e454cbd2796c3c4156e718261b1204023203c8",
+        "CARGO_RAMP_INTERIOR_PRESERVED": "57778e6d3bf8b1df9a690b542efdce96e9cd4fcb9ec76432833fd8a0bf1c4c59",
+        "CARGO_UPPER_DOOR_PRESERVED": "bf8c03dd1c1832f24e06d7019ca59d4b54d0b8179180830f21f0cfb11777f1dd",
+        "CREW_AIRSTAIR_DOOR_PRESERVED": "5f867aed10f4dccafb90b019e1c3fa68fd061a838f331e7d8e569f88ed0ff49c",
+        "CREW_STAIR_TREAD_1": "b32be06765df578f9e48b068760635d2fbf94ad161b04d1602e1c24a19206f15",
+        "CREW_STAIR_TREAD_2": "52f3ae62d613136dfd0879600a4ddea5f94b71eacb735ee2935992a0a9b653c2",
+        "CREW_STAIR_TREAD_3": "e2ee127c06077155bf3e6730635d2fe9d6c565e6666eed9957f3bbbd03cb3e3e",
+        "CREW_STAIR_TREAD_4": "2b930f7053e7c777ce973a5a79a083a9d6468147ae15802cc4e3621f3ddfa2f1",
+        "PARATROOP_RIGHT_SOURCE_18": "ca005069c7d4a86c0faa367ae1ad1bd4f8c600e1799d83a54168fcf1ab28a9b8",
+        "PARATROOP_RIGHT_SOURCE_19": "095db19ba1ea206999b64debb97f77525e02aa24d5cb086cf2b0de3fc1384973",
+        "WHEEL_LEFT_1_PRESERVED_TIRE": "e5e2c3f5713eaedb265f3b32e1d858b30d11e4984751cbd71f2e1e1e1b10e781",
+        "WHEEL_LEFT_1_PRESERVED_RIM": "9764619351e03ef7690a813cfc98687c658af919c218e818a783c0a0fdb8e93f",
+        "MAIN_STRUT_left_1": "e56224d3f7e88980c6a9ba624b97fa0e4cf6fd09dc52680b3df61a7a08a172e0",
+        "MAIN_FIXED_TELESCOPIC_STRUT_left_1": "c1d29c81815b29ac12d8120e14cffcbf9d16fa5a4ea372aa579ef230bbd33bf2",
+        "WHEEL_LEFT_2_PRESERVED_TIRE": "718048ad35e5e54b27383a3ed490f4cd789aea8c8968f21d8ab2df997bfbaa49",
+        "WHEEL_LEFT_2_PRESERVED_RIM": "ea3ee8a2c85c28c3dee31f23fd1a38647fbd801aa03514a012cb833946cefd07",
+        "MAIN_STRUT_left_2": "1f1c7ebf22f887d71c3e743a6d9a174b166446c8f62989b040c46d8e9a9c6879",
+        "MAIN_FIXED_TELESCOPIC_STRUT_left_2": "32b83bc3968a96bed40eb87449afa69b5f1809a567846772fca2738d4336f192",
+        "MAIN_GEAR_COVER_LEFT_PRESERVED": "0b4e27b529cdbc1822055dc308c0e736992bcb38c4ce1bb2de386cadaba56102",
+        "WHEEL_RIGHT_1_PRESERVED_TIRE": "05a65bedd68c6b3f7ff884fa8bee6de5c7a8f633f4fad9734f07f2841410770c",
+        "WHEEL_RIGHT_1_PRESERVED_RIM": "82eff4fd5de8e21035850fbc539d6e55582964f1c85930937aa88b9006855c1e",
+        "MAIN_STRUT_right_1": "4241fa277fc49ee69e36ae1ec8f54e209ae11d5f692e09e48c20f79d97412c0f",
+        "MAIN_FIXED_TELESCOPIC_STRUT_right_1": "1856174e6ba2cab7574c3d2fc6c0b4a035546b4eb62efe32a9cfb8a178561ca4",
+        "WHEEL_RIGHT_2_PRESERVED_TIRE": "73f1dd8f36addeb681898b638f85f95981c4bd0da686502f90be0f04dfb3df42",
+        "WHEEL_RIGHT_2_PRESERVED_RIM": "e41e0277b4f482894ab7376f0b4492a7af57538a4ce7e96eed6cc89ef37d40a6",
+        "MAIN_STRUT_right_2": "cac5eade8dcfd9d4b65dd83f495082f33d8aad1d4a2a0bcaf703776e0b36e3af",
+        "MAIN_FIXED_TELESCOPIC_STRUT_right_2": "5c12a7beca7179587cba273ed844f8b6cffb914d600b2a3b3bc4bde338b2ed5c",
+        "MAIN_GEAR_COVER_RIGHT_PRESERVED": "c996b80b33ce8e7f2e7ffb0cbbc35ac8353acabffaca46b0b3abaf9aa3b69da2",
+        "NOSE_GEAR_STRUT_PRESERVED": "3f1d7e0894347a5e2d3ec550b7c878c1f996cae3e803e206b36256cac3ec4c24",
+        "NOSE_WHEELS_PRESERVED_TIRE": "6166b839758d2ec9ca2f9c25743b3da838967b72d01b23ab20ab44eb2745150c",
+        "NOSE_WHEELS_PRESERVED_RIM": "a08b6dff2b8c1b471e35af70551ed54ab07d64a416e95b689c572c3adecf4a5a",
+        "NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED": "8c7e03b5085c151561a1ebbad75ab98d09fde9b50eb4ac5fbc680c53a0713cb9",
+        "NOSE_GEAR_COVER_PRESERVED": "2650a7de1c359b5bc19f24dcdd79a96d20d05037a8dbd86976ae2950f0dd8e27",
+        "NOSE_WELL_LEFT_SOURCE_HATCH": "6c6ffec625340650e07b11321fc5569c53e2d72be31d0cab87c8ce8b33a29338",
+        "NOSE_WELL_RIGHT_SOURCE_HATCH": "a4728eb386995a8d80a093943692d9e3ba6c4023577ff78b005cb39dd5789b5e",
+        "eoir_chin_AZIMUTH_SHELL": "da931fce79be05f0fd188f59576d2ef6aac243e744050b744768f16af9e9c998",
+        "eoir_chin_OPTICAL_GIMBAL": "e282907c400ae1530ec0178ef434b51863c4b3e15ae36c7ff7abeda02cfc1022",
+        "eoir_chin_LENS_1": "d53c341496772c97131c6d0189d8a0f7ea68d762e9f5095a36a1a0043bb7cda5",
+        "eoir_chin_LENS_2": "316f4584eca4a524cbe386ebe757c7733cfdddf7f6fd53be04b047d2dc8b005b",
+        "eoir_port_AZIMUTH_SHELL": "942677dce28c5a7938f9762353ea5a87c32963f16abd83d540a6db2d405759ee",
+        "eoir_port_OPTICAL_GIMBAL": "a4f4e49599a0863f5c716d442406f3ea077055a0e1f4c42cb8d9ca01de9081df",
+        "eoir_port_LENS_1": "d53c341496772c97131c6d0189d8a0f7ea68d762e9f5095a36a1a0043bb7cda5",
+        "eoir_port_LENS_2": "316f4584eca4a524cbe386ebe757c7733cfdddf7f6fd53be04b047d2dc8b005b"
+      }
+    }
+  ],
+  "shared_geometry": {
+    "same_named_meshes_all_variants": 91,
+    "byte_identical_decoded_meshes": [
+      "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+      "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+      "CARGO_LOWER_RAMP_PRESERVED",
+      "CARGO_RAMP_INTERIOR_PRESERVED",
+      "CARGO_UPPER_DOOR_PRESERVED",
+      "COCKPIT_WINDOWS",
+      "CREW_AIRSTAIR_DOOR_PRESERVED",
+      "CREW_STAIR_TREAD_1",
+      "CREW_STAIR_TREAD_2",
+      "CREW_STAIR_TREAD_3",
+      "CREW_STAIR_TREAD_4",
+      "GEAR_WELL_LEFT",
+      "GEAR_WELL_NOSE",
+      "GEAR_WELL_RIGHT",
+      "MAIN_FIXED_TELESCOPIC_STRUT_left_1",
+      "MAIN_FIXED_TELESCOPIC_STRUT_left_2",
+      "MAIN_FIXED_TELESCOPIC_STRUT_right_1",
+      "MAIN_FIXED_TELESCOPIC_STRUT_right_2",
+      "MAIN_GEAR_COVER_LEFT_PRESERVED",
+      "MAIN_GEAR_COVER_RIGHT_PRESERVED",
+      "MAIN_STRUT_left_1",
+      "MAIN_STRUT_left_2",
+      "MAIN_STRUT_right_1",
+      "MAIN_STRUT_right_2",
+      "NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED",
+      "NOSE_GEAR_COVER_PRESERVED",
+      "NOSE_GEAR_STRUT_PRESERVED",
+      "NOSE_WELL_LEFT_SOURCE_HATCH",
+      "NOSE_WELL_RIGHT_SOURCE_HATCH",
+      "NOSE_WHEELS_PRESERVED_RIM",
+      "NOSE_WHEELS_PRESERVED_TIRE",
+      "PARATROOP_RIGHT_SOURCE_18",
+      "PARATROOP_RIGHT_SOURCE_19",
+      "WHEEL_LEFT_1_PRESERVED_RIM",
+      "WHEEL_LEFT_1_PRESERVED_TIRE",
+      "WHEEL_LEFT_2_PRESERVED_RIM",
+      "WHEEL_LEFT_2_PRESERVED_TIRE",
+      "WHEEL_RIGHT_1_PRESERVED_RIM",
+      "WHEEL_RIGHT_1_PRESERVED_TIRE",
+      "WHEEL_RIGHT_2_PRESERVED_RIM",
+      "WHEEL_RIGHT_2_PRESERVED_TIRE",
+      "aileron_left_SEAM_CAP_0",
+      "aileron_left_SEAM_CAP_0_FIXED_WING",
+      "aileron_left_SEAM_CAP_1",
+      "aileron_left_SEAM_CAP_1_FIXED_WING",
+      "aileron_left_SEAM_CAP_4",
+      "aileron_left_SEAM_CAP_4_FIXED_WING",
+      "aileron_left_SKIN",
+      "aileron_right_SEAM_CAP_0",
+      "aileron_right_SEAM_CAP_0_FIXED_WING",
+      "aileron_right_SEAM_CAP_1",
+      "aileron_right_SEAM_CAP_1_FIXED_WING",
+      "aileron_right_SEAM_CAP_4",
+      "aileron_right_SEAM_CAP_4_FIXED_WING",
+      "aileron_right_SKIN",
+      "elevator_left_SEAM_CAP_1",
+      "elevator_left_SEAM_CAP_1_FIXED_WING",
+      "elevator_left_SEAM_CAP_4",
+      "elevator_left_SEAM_CAP_4_FIXED_WING",
+      "elevator_left_SKIN",
+      "elevator_right_SEAM_CAP_1",
+      "elevator_right_SEAM_CAP_1_FIXED_WING",
+      "elevator_right_SEAM_CAP_4",
+      "elevator_right_SEAM_CAP_4_FIXED_WING",
+      "elevator_right_SKIN",
+      "flap_left_SEAM_CAP_0",
+      "flap_left_SEAM_CAP_0_FIXED_WING",
+      "flap_left_SEAM_CAP_1",
+      "flap_left_SEAM_CAP_1_FIXED_WING",
+      "flap_left_SEAM_CAP_4",
+      "flap_left_SEAM_CAP_4_FIXED_WING",
+      "flap_left_SKIN",
+      "flap_right_SEAM_CAP_0",
+      "flap_right_SEAM_CAP_0_FIXED_WING",
+      "flap_right_SEAM_CAP_1",
+      "flap_right_SEAM_CAP_1_FIXED_WING",
+      "flap_right_SEAM_CAP_4",
+      "flap_right_SEAM_CAP_4_FIXED_WING",
+      "flap_right_SKIN",
+      "rudder_SEAM_CAP_2",
+      "rudder_SEAM_CAP_2_FIXED_WING",
+      "rudder_SEAM_CAP_3",
+      "rudder_SEAM_CAP_3_FIXED_WING",
+      "rudder_SEAM_CAP_4",
+      "rudder_SEAM_CAP_4_FIXED_WING",
+      "rudder_SKIN"
+    ],
+    "variant_different_same_name_meshes": [
+      "CARGO_CABIN_PRESERVED",
+      "PANEL_GUN105_SOURCE_SKIN",
+      "PANEL_GUN30_SOURCE_SKIN",
+      "PATCH_houseTint_PORT",
+      "fuselage"
+    ]
+  }
+}

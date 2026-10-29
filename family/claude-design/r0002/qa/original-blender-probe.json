@@ -1,0 +1,42 @@
+{
+  "author": "claude-design",
+  "input": "/workspace/scratch/ebccaf89de48/c130_audit/c130-hercules-unified-r0001.glb",
+  "input_sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "objects": 38,
+  "meshes": 24,
+  "actions": 0,
+  "triangles": 93623,
+  "blender_bounds_min": [
+    -20.204984664916992,
+    -11.834129333496094,
+    -14.895042419433594
+  ],
+  "blender_bounds_max": [
+    20.205013275146484,
+    1.0511137247085571,
+    14.8949613571167
+  ],
+  "materials": [
+    "C130ExteriorSub",
+    "C130InteriorSub"
+  ],
+  "images": [
+    {
+      "name": "Image_0",
+      "width": 4096,
+      "height": 4096,
+      "packed": true
+    },
+    {
+      "name": "Image_1",
+      "width": 4096,
+      "height": 4096,
+      "packed": true
+    }
+  ],
+  "animation_inventory": [],
+  "native_unreal": "NOT_RUN",
+  "photographic_acceptance": "NOT_RUN"
+}

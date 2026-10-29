@@ -39,7 +39,7 @@ def cap_for_planes(mesh,planes,name,material):
     from scipy.spatial import ConvexHull
     caps=[]
     for i,(n,d) in enumerate(planes):
-        n=normalize(np.asarray(n,float));p=mesh.p[np.abs(mesh.p@n-d)<1e-5]
+        norm=np.linalg.norm(n);n=np.asarray(n,float)/norm;d=d/norm;p=mesh.p[np.abs(mesh.p@n-d)<1e-5]
         p=np.unique(np.round(p,7),axis=0)
         if len(p)<3:continue
         u=normalize(np.cross(n,[0,1,0] if abs(n[1])<.8 else [1,0,0]));v=np.cross(n,u)
@@ -65,8 +65,8 @@ def prepare_common(src):
     return body,surfaces
 
 class Model:
-    def __init__(self,mid,label,images):
-        self.id=mid;self.label=label;self.glb=GLB(label);self.controls=[];self.openings=[];self.log=[];self.known_pivots={0:np.zeros(3)}
+    def __init__(self,mid,label,images,exact_index=True):
+        self.id=mid;self.label=label;self.glb=GLB(label,exact_index=exact_index);self.controls=[];self.openings=[];self.log=[];self.known_pivots={0:np.zeros(3)}
         for b,mime in images:self.glb.image(b,mime)
         g=self.glb
         self.mat={}
@@ -87,7 +87,9 @@ class Model:
         p=np.asarray(pos,float);base=self.known_pivots.get(parent,np.zeros(3));i=self.glb.node('PIVOT_'+cid,parent=parent,translation=p-base,extras={'part_id':cid,**(extras or {})});self.known_pivots[i]=p;return i
     def attach(self,mesh,pivot):return self.glb.mesh(mesh,parent=pivot,origin=self.known_pivots[pivot])
     def control(self,cid,label,pivot,axis,maximum,kind='rotation',duration=3,group='Mechanisms',role=None,ev=None,tracks=None,**kwargs):
-        axis=np.asarray(axis,float);times=np.linspace(0,1,33);rest=self.glb.doc['nodes'][pivot].get('translation',[0,0,0]);q=smooth(times)
+        axis=np.asarray(axis,float)
+        if maximum<0:axis=-axis;maximum=-maximum
+        times=np.linspace(0,1,33);rest=self.glb.doc['nodes'][pivot].get('translation',[0,0,0]);q=smooth(times)
         if tracks is None:
             if kind in ('rotation','continuous'):
                 q=times if kind=='continuous' else q;tracks=[(pivot,'rotation',times,[quat(axis,maximum*t) for t in q])]
@@ -134,6 +136,17 @@ def add_cockpit(model,j):
         for i,x in enumerate([-.65,.65]):model.static_mesh(box(f'J_HUD_GLASS_{i+1}',[x-.18,3.48,-12.55],[x+.18,3.72,-12.52],mat['glass']),p)
     model.log.append({'component':'cockpit','variant':'J digital displays/HUD' if j else 'legacy analogue dial insert','status':'PHOTO_GUIDED_ILLUSTRATIVE_LAYOUT','reference':REF['j_cockpit']})
 
+def attach_wheel(model,mesh,pivot,name,nose=False):
+    """Material partition retains every original triangle and all source UVs."""
+    center=mesh.center();centroids=mesh.p[mesh.faces].mean(1);radius=np.linalg.norm(centroids[:,1:3]-center[1:3],axis=1);tire=radius>(.30 if nose else .41)
+    for mask,suffix,material in [(tire,'TIRE',model.mat['black']),(~tire,'RIM',model.mat['metal'])]:
+        part=mesh.subset(mask,name+'_'+suffix);part.material=material;model.attach(part,pivot)
+
+def attach_legacy_prop(model,mesh,pivot,num):
+    c=mesh.center();centroids=mesh.p[mesh.faces].mean(1);r=np.linalg.norm(centroids[:,:2]-c[:2],axis=1);hub=r<.43;tip=r>1.87
+    for mask,suffix,material in [(hub,'HUB_SOURCE',model.mat['gray']),(~hub&~tip,'BLADES_SOURCE',model.mat['black']),(tip,'TIP_PATCHES',model.mat['gray'])]:
+        part=mesh.subset(mask,f'PROP_{num}_{suffix}');part.material=material;model.attach(part,pivot)
+
 def add_sensor(model,cid,center):
     mat=model.mat;c=np.asarray(center,float)
     p=model.pivot(cid+'_yaw',c,parent=model.kit,extras={'tags':['level 1'],'component_type':'visual_eoir','reference':REF['w_photo']})
@@ -151,6 +164,11 @@ def add_gun(model,cid,center,large=False):
     model.attach(box(cid+'_VISUAL_CRADLE',c+[-.14,-.22,-.24],c+[.5,.22,.24],mat['metal']),parent)
     pitch=model.pivot(cid+'_pitch',c,parent=parent,extras={'tags':['level 1']})
     model.attach(tube(cid+'_TRUNNION',c+[0,0,-.27],c+[0,0,.27],.17 if large else .12,mat['metal']),pitch)
+    # A layered flexible-looking visual boot hides the rectangular structural
+    # reveal while leaving a real, deep receiving aperture behind it.
+    for k in range(6):
+        x=c[0]-.05-k*.045;r=(.56 if large else .43)-k*.043
+        model.attach(tube(cid+f'_FLEX_BOOT_FOLD_{k}',[x,c[1],c[2]],[x-.055,c[1],c[2]],r,mat['black'],segments=32,cap=False,radius_end=r-.015),pitch)
     recoil=model.pivot(cid+'_recoil',c,parent=pitch,extras={'tags':['level 1']})
     model.attach(cylinder_shell(cid+'_BARREL_SHELL',c+[.24,0,0],c+[-length,0,0],radius,.018 if large else .012,mat['metal']),recoil)
     model.attach(tube(cid+'_DARK_MUZZLE_DEPTH',c+[-length+.18,0,0],c+[-length+.175,0,0],radius*.72,mat['dark']),recoil)
@@ -161,14 +179,20 @@ def add_gun(model,cid,center,large=False):
     model.control(cid+'_recoil',('105 mm' if large else '30 mm')+' visual recoil',recoil,[1,0,0],.12 if large else .07,kind='translation',duration=1.4,group='Mission equipment',ev=evidence(note='Authored reversible presentation stroke, not operational gun mechanics.'))
     model.glb.node(cid+'_MUZZLE_VISUAL_SOCKET',parent=recoil,translation=[-length,0,0],extras={'tags':['level 1'],'kind':'VISUAL_EFFECT_ALIGNMENT','operational_model':False})
 
-def build_one(mid,label,src,images,common,surfaces):
-    model=Model(mid,label,images);mat=model.mat;body=common.clone();interior=src[23].clone('CARGO_CABIN_PRESERVED');j=mid=='ac130j';gunship=mid!='c130'
+def build_one(mid,label,src,images,common,surfaces,exact_index=True):
+    model=Model(mid,label,images,exact_index=exact_index);mat=model.mat;body=common.clone();interior=src[23].clone('CARGO_CABIN_PRESERVED');j=mid=='ac130j';gunship=mid!='c130'
     # Separate legacy/J powerplant modules rather than swapping prop blades alone.
     if j:
         for num,si in enumerate([2,3,4,5],1):
             c=src[si].center();planes=boxplanes([c[0]-.78,3.0,-5.79],[c[0]+.78,4.53,-2.72]);removed,body=extract(body,planes,f'REMOVED_LEGACY_NACELLE_{num}')
             model.static_mesh(nacelle(f'J_AE2100_STYLE_NACELLE_{num}',c,mat['gray']),model.kit)
-            model.static_mesh(box(f'J_LOWER_INTAKE_DARK_{num}',[c[0]-.27,3.28,-6.07],[c[0]+.27,3.54,-5.95],mat['dark']),model.kit)
+            model.static_mesh(box(f'J_LOWER_INTAKE_DUCT_{num}',[c[0]-.27,3.28,-6.10],[c[0]+.27,3.60,-5.28],mat['dark'],omit=['front']),model.kit)
+            for k,lo,hi in [
+                ('BOTTOM',[c[0]-.32,3.23,-6.12],[c[0]+.32,3.29,-5.80]),
+                ('TOP',[c[0]-.32,3.60,-6.12],[c[0]+.32,3.66,-5.80]),
+                ('LEFT',[c[0]-.32,3.23,-6.12],[c[0]-.27,3.66,-5.80]),
+                ('RIGHT',[c[0]+.27,3.23,-6.12],[c[0]+.32,3.66,-5.80]),
+            ]:model.static_mesh(box(f'J_INTAKE_LIP_{num}_{k}',lo,hi,mat['gray']),model.kit)
             model.static_mesh(tube(f'J_EXHAUST_{num}',[c[0],3.85,-2.75],[c[0],3.9,-2.35],.21,mat['metal'],cap=False),model.kit)
             model.log.append({'component':f'J nacelle {num}','replaced_source_triangles':len(removed.faces),'status':'PHOTO_GUIDED_APPROXIMATION','reference':REF['j_nacelle']})
     # Port fuselage mission regions use the retained skin; apertures remove both
@@ -202,13 +226,47 @@ def build_one(mid,label,src,images,common,surfaces):
         if gunship and key=='para_left':continue
         _,body=extract(body,boxplanes(lo,hi),'REMOVED_'+key+'_EXTERIOR_BLOCKER')
         _,interior=extract(interior,boxplanes(lo,hi),'REMOVED_'+key+'_INTERIOR_BLOCKER')
-    # Main and nose wells are actual bounded volumes, not flat dark polygons.
-    for side,s in [('left',-1),('right',1)]:
-        lo=[min(s*1.25,s*2.4),.35,-3.40];hi=[max(s*1.25,s*2.4),2.95,-.18]
-        _,body=extract(body,boxplanes(lo,hi),'REMOVED_'+side+'_WELL_SKIN')
-        model.static_mesh(box('GEAR_WELL_'+side.upper(),[lo[0],.91,lo[2]],[hi[0],2.96,hi[2]],mat['dark'],omit=['bottom']))
-    _,body=extract(body,boxplanes([-.62,.1,-13.65],[.62,2.40,-10.95]),'REMOVED_NOSE_WELL_SKIN')
-    model.static_mesh(box('GEAR_WELL_NOSE',[-.64,1.48,-13.7],[.64,2.44,-10.9],mat['dark'],omit=['bottom']))
+    # Remove only the actual swept inner wheel corridor. The original outer
+    # sponson remains the exterior envelope; restoring the whole core skin would
+    # put an internal sheet through the retracted wheels.
+    for side,sgn,ids in [('left',-1,[7,8]),('right',1,[9,10])]:
+        lo=[min(sgn*1.45,sgn*2.455),.35,-3.24];hi=[max(sgn*1.45,sgn*2.455),1.48,-.31]
+        _,body=extract(body,boxplanes(lo,hi),'REMOVED_'+side+'_LOWER_WELL_MOUTH')
+        directions=[]
+        for aa,bb in [(0,1),(0,2),(1,2)]:
+            for angle in np.linspace(0,2*np.pi,24,endpoint=False):
+                n=np.zeros(3);n[aa]=np.cos(angle);n[bb]=np.sin(angle);directions.append(n)
+        directions=np.unique(np.round(directions,8),axis=0)
+        for wi in ids:
+            swept=np.concatenate([src[wi].p,src[wi].p+[0,1.25,0]])
+            planes=[(-n,-float(np.max(swept@n))-.018) for n in directions]
+            local,outer=extract(body,boxplanes(swept.min(0)-.025,swept.max(0)+.025),'LOCAL_'+side+'_WHEEL_CORRIDOR')
+            _,local=extract(local,planes,'REMOVED_'+side+'_INNER_WHEEL_SWEEP')
+            body=merge([outer,local],body.name)
+        # A fitted receiver follows the inner side of the original fairing.
+        # Its lower edge follows the closed cover, rather than leaving a box
+        # wall hanging below that cover or beyond the curved exterior.
+        profile=[(1.45,.78),(2.40,1.47),(2.41,1.80),(2.37,2.10),(2.29,2.40),(2.20,2.55),(2.09,2.62),(1.45,2.62)]
+        verts=[(sgn*x,y,z) for z in [-3.20,-.35] for x,y in profile];n=len(profile);faces=[]
+        for k in range(1,n):
+            kk=(k+1)%n;faces.extend([(k,kk,n+kk),(k,n+kk,n+k)])
+        for k in range(1,n-1):faces.extend([(0,k+1,k),(n,n+k,n+k+1)])
+        model.static_mesh(make_mesh('GEAR_WELL_'+side.upper(),verts,faces,mat['dark'],{'geometry_status':'FITTED_TO_SOURCE_SPONSON','source_outer_skin_preserved':True,'artist_authored_travel_m':1.25}))
+    model.log.append({'component':'main landing gear well fit','change':'retained original outer fairing, removed only swept inner wheel corridor; tapered receiver fitted inside original shell and above closed cover','travel_m':1.25,'status':'ARTIST_AUTHORED_GEOMETRY_PENDING_CURRENT_EXPORT_QA'})
+    nose_skin,body=extract(body,boxplanes([-.62,.1,-13.65],[.62,2.40,-12.24]),'NOSE_WELL_SOURCE_SKIN')
+    # The forward fold needs a short added well ahead of the source opening.
+    # The source's aft opening is retained; the original aft closure translates
+    # forward/up into it, so there is no replacement bridge across parked tyres.
+    _,body=extract(body,boxplanes([-.65,1.24,-13.675],[.65,1.38,-13.64]),'NOSE_FORWARD_LIP_CLEARANCE')
+    model.static_mesh(box('GEAR_WELL_NOSE',[-.83,1.48,-13.7],[.83,2.44,-10.85],mat['dark'],omit=['bottom']))
+    # Exact first-export triangle probes located source interior ribs crossing
+    # the closing ramp side rails. Relieve those small internal pockets only;
+    # retain the exterior shell and the rest of the bounded original cabin.
+    for s in [-1,1]:
+        lo=[min(s*1.47,s*1.66),1.85,5.20];hi=[max(s*1.47,s*1.66),2.37,6.32]
+        _,interior=extract(interior,boxplanes(lo,hi),'RELIEVED_CARGO_RAMP_SIDE_RIB')
+    model.log.append({'component':'cargo ramp internal side clearance','change':'paired local cabin-rib relief pockets only','bounds_abs_x':[1.47,1.66],'bounds_y':[1.85,2.37],'bounds_z':[5.20,6.32],'basis':'actual exported triangle crossing coordinates','acceptance':'REQUIRES_CURRENT_EXPORT_SWEEP'})
+    tint,body=extract(body,boxplanes([-2.8,2.65,-5.0],[-1.20,3.05,-4.4]),'PATCH_houseTint_PORT');tint.material=mat['houseTint'];model.static_mesh(tint)
     model.static_mesh(body);model.static_mesh(interior)
     # Glass is a separate replaceable material; preserved normal maps/UVs remain.
     windows=src[0].clone('COCKPIT_WINDOWS');windows.material=mat['glass'];model.static_mesh(windows)
@@ -217,20 +275,29 @@ def build_one(mid,label,src,images,common,surfaces):
     for s in surfaces:
         if not len(s['mesh'].faces):model.log.append({'component':s['id'],'status':'UNRECOVERED_EMPTY_PATCH'});continue
         p=model.pivot(s['id'],s['pivot']);model.attach(s['mesh'],p)
-        for cap in cap_for_planes(s['mesh'],s['planes'],s['id'],mat['gray']):model.attach(cap,p)
+        for cap in cap_for_planes(s['mesh'],s['planes'],s['id'],mat['gray']):
+            model.attach(cap,p)
+            # The fixed airfoil also has a real internal closing surface. A
+            # tiny offset avoids coincident caps at canonical hinge contact.
+            fixed=cap.clone(cap.name+'_FIXED_WING');fixed.move([0,-.002,0]);model.static_mesh(fixed)
         model.control(s['id'],s['label'],p,s['axis'],s['angle'],duration=3.2,group=s['group'],ev=evidence('j_flaps',note='Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed.'))
     # Propellers: correct hub-centered parent pivots; legacy meshes remain intact.
     for num,si in enumerate([2,3,4,5],1):
         c=src[si].center();c[2]=(-6.26 if j else c[2]);p=model.pivot(f'prop_{num}',c,extras={'tags':['level 1'],'component_type':'propeller','blade_count':6 if j else 4})
         if j:
             model.attach(six_blades(c,num,mat['black']),p);model.attach(tube(f'PROP_{num}_J_SPINNER',c+[0,0,-.45],c+[0,0,.05],.05,mat['gray'],radius_end=.29),p)
-        else:model.attach(src[si].clone(f'PROP_{num}_LEGACY_SOURCE'),p)
+        else:attach_legacy_prop(model,src[si],p,num)
         model.control(f'prop_{num}',f'Propeller {num}',p,[0,0,1],360,kind='continuous',duration=1.4,group='Propulsion',ev=evidence('j_nacelle' if j else 'w_photo'))
     # Cargo source-rest reconstruction uses the baked source matrices, not a
     # generic clamshell: upper leaf folds inward, lower ramp lowers separately.
     ramp_p=np.array(src[11].extras['reconstructed_source_pivot']);upper_p=np.array(src[15].extras['reconstructed_source_pivot'])
     ramp=model.pivot('cargo_ramp',ramp_p);upper=model.pivot('cargo_upper_door',upper_p)
-    model.attach(src[11].clone('CARGO_LOWER_RAMP_PRESERVED'),ramp);model.attach(src[22].clone('CARGO_RAMP_INTERIOR_PRESERVED'),ramp);model.attach(src[15].clone('CARGO_UPPER_DOOR_PRESERVED'),upper)
+    lower=src[11].clone('CARGO_LOWER_RAMP_PRESERVED')
+    for s in [-1,1]:
+        planes=boxplanes([min(s*1.89,s*2.10),1.90,5.15],[max(s*1.89,s*2.10),2.41,6.11]);trim,lower=extract(lower,planes,'RAMP_OUTER_FLANGE_FIT_RELIEF')
+        for cap in cap_for_planes(trim,[([-s,0,0],-1.89)],'CARGO_LOWER_RAMP_FLANGE_CAP_'+str(s),mat['gray']):model.attach(cap,ramp)
+    model.attach(lower,ramp);model.attach(src[22].clone('CARGO_RAMP_INTERIOR_PRESERVED'),ramp);model.attach(src[15].clone('CARGO_UPPER_DOOR_PRESERVED'),upper)
+    model.log.append({'component':'cargo ramp outer flange fit','change':'only measured outer closing-corner flange protrusions trimmed/capped at absolute X1.89m, Y1.90..2.41m, Z5.15..6.11m','basis':'actual closed-state source ramp/exterior intersections, including prior 4.3mm trim-end contact','not_changed':'overall airframe scale, central ramp floor and original cabin'})
     times=np.linspace(0,1,49);ra=27.5*staged(times,.25,1);ua=20*staged(times,0,.3)
     model.control('cargo_ramp','Cargo ramp and upper-door sequence',ramp,[1,0,0],27.5,duration=7,group='Cargo access',role='access',ev=evidence('ramp','j_ramp'),tracks=[(upper,'rotation',times,[quat([1,0,0],a) for a in ua]),(ramp,'rotation',times,[quat([1,0,0],a) for a in ra])],owns=['cargo_upper_door'],sequence={'open':'upper leaf clears, then ramp lowers','reverse':'ramp raises, then upper leaf closes'})
     model.control('cargo_upper_door','Upper cargo door inspection',upper,[1,0,0],20,duration=3,group='Cargo access',role='access',ev=evidence('j_ramp'),owned_by='cargo_ramp',enabled_if={'control':'cargo_ramp','equals':0})
@@ -253,25 +320,44 @@ def build_one(mid,label,src,images,common,surfaces):
     for side,sgn,wheels,cover in [('left',-1,[7,8],13),('right',1,[9,10],14)]:
         gp=np.array([sgn*1.866,.66,-1.79]);gear=model.pivot('gear_'+side,gp)
         for n,si in enumerate(wheels,1):
-            wc=src[si].center();wheel=model.pivot(f'wheel_{side}_{n}',wc,parent=gear);model.attach(src[si].clone(f'WHEEL_{side.upper()}_{n}_PRESERVED'),wheel)
+            wc=src[si].center();wheel=model.pivot(f'wheel_{side}_{n}',wc,parent=gear);attach_wheel(model,src[si],wheel,f'WHEEL_{side.upper()}_{n}_PRESERVED')
             model.control(f'wheel_{side}_{n}',f'{side.title()} wheel {n}',wheel,[1,0,0],360,kind='continuous',duration=2.4,group='Wheels',ev=evidence('gear'))
-            model.attach(tube(f'MAIN_STRUT_{side}_{n}',wc+[0,.32,0],wc+[0,1.28,0],.065,mat['metal']),gear)
+            model.attach(tube(f'MAIN_STRUT_{side}_{n}',wc+[0,.32,0],wc+[0,.88,0],.065,mat['metal']),gear)
+            model.static_mesh(tube(f'MAIN_FIXED_TELESCOPIC_STRUT_{side}_{n}',wc+[0,.9,0],wc+[0,2.28,0],.048,mat['metal']))
         dp=np.array([sgn*2.44,1.44,-1.78]);door=model.pivot('gear_door_'+side,dp);model.attach(src[cover].clone('MAIN_GEAR_COVER_'+side.upper()+'_PRESERVED'),door)
-        tt=np.linspace(0,1,65);lift=1.43*staged(tt,.18,.72);dangle=sgn*(18*staged(tt,0,.18)-145*staged(tt,.74,1))
-        model.control('gear_'+side,side.title()+' main gear sequence',gear,[0,1,0],1.43,kind='translation',duration=7,group='Landing gear',role='gear_sequence',ev=evidence('gear',note='Vertical main-gear principal motion supported; travel and cover linkage are authored pending clearance/photo validation.'),tracks=[(gear,'translation',tt,[gp+[0,h,0] for h in lift]),(door,'rotation',tt,[quat([0,0,1],a) for a in dangle])],owns=['gear_door_'+side],states={'rest':'DOWN: covers hanging open','deployed':'RETRACTED: wheels inside wells and covers shut'})
+        tt=np.linspace(0,1,65);lift=1.25*staged(tt,.18,.72);dangle=sgn*(18*staged(tt,0,.18)-108*staged(tt,.74,1))
+        model.control('gear_'+side,side.title()+' main gear sequence',gear,[0,1,0],1.25,kind='translation',duration=7,group='Landing gear',role='gear_sequence',ev=evidence('gear',note='Vertical main-gear principal motion supported; travel and cover linkage are authored pending clearance/photo validation.'),tracks=[(gear,'translation',tt,[gp+[0,h,0] for h in lift]),(door,'rotation',tt,[quat([0,0,1],a) for a in dangle])],owns=['gear_door_'+side],states={'rest':'DOWN: covers hanging open','deployed':'RETRACTED: wheels inside wells and covers shut'})
         model.control('gear_door_'+side,side.title()+' gear-cover inspection',door,[0,0,1],sgn*18,duration=2.2,group='Landing gear',role='gear_door',ev=evidence('gear'),owned_by='gear_'+side,enabled_if={'control':'gear_'+side,'equals':0})
-    ngp=np.array([0,1.60,-12.02]);nose=model.pivot('gear_nose',ngp);model.attach(src[16].clone('NOSE_GEAR_STRUT_PRESERVED'),nose);nw=src[17].center();wheel=model.pivot('wheel_nose',nw,parent=nose);model.attach(src[17].clone('NOSE_WHEELS_PRESERVED'),wheel)
+    ngp=np.array([0,1.60,-12.02]);nose=model.pivot('gear_nose',ngp);model.attach(src[16].clone('NOSE_GEAR_STRUT_PRESERVED'),nose);nw=src[17].center();wheel=model.pivot('wheel_nose',nw,parent=nose);attach_wheel(model,src[17],wheel,'NOSE_WHEELS_PRESERVED',nose=True)
     model.control('wheel_nose','Nose wheels',wheel,[1,0,0],360,kind='continuous',duration=2.4,group='Wheels',ev=evidence('gear'))
-    ndp=np.array([0,1.56,-9.92]);nd=model.pivot('gear_door_nose',ndp);model.attach(src[6].clone('NOSE_GEAR_COVER_PRESERVED'),nd)
-    tt=np.linspace(0,1,65);na=98*staged(tt,.2,.73);da=-8*staged(tt,0,.18)+47*staged(tt,.76,1)
-    model.control('gear_nose','Forward-folding nose gear sequence',nose,[1,0,0],98,duration=7,group='Landing gear',role='gear_sequence',ev=evidence('gear',note='Forward-fold principle supported by C130 manual; exact authored travel/linkage not operationally certified.'),tracks=[(nose,'rotation',tt,[quat([1,0,0],a) for a in na]),(nd,'rotation',tt,[quat([1,0,0],a) for a in da])],owns=['gear_door_nose'],states={'rest':'DOWN','deployed':'RETRACTED'})
-    model.control('gear_door_nose','Nose gear-cover inspection',nd,[1,0,0],-8,duration=2.2,group='Landing gear',role='gear_door',ev=evidence('gear'),owned_by='gear_nose',enabled_if={'control':'gear_nose','equals':0})
+    ndp=np.array([0,.33,-9.88]);nd=model.pivot('gear_door_nose',ndp)
+    aft_panel,aft_links=extract(src[6], [([0,-1,0],-.60)],'NOSE_GEAR_COVER_PRESERVED')
+    aft_links.name='NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED';model.static_mesh(aft_links);model.attach(aft_panel,nd)
+    # Source nose well forward skin supplies conforming closure leaves. The
+    # original aft panel closes the original source hole with an authored
+    # compound translation; no extra panel passes through the parked tyres.
+    nose_leaves=[]
+    for side,sgn in [('left',-1),('right',1)]:
+        leaf,_=extract(nose_skin,[([sgn,0,0],0)],'NOSE_WELL_'+side.upper()+'_SOURCE_HATCH')
+        edge=leaf.p[np.abs(leaf.p[:,0]-sgn*.62)<1e-5];edge=np.unique(np.round(edge,7),axis=0)
+        slope,intercept=np.polyfit(edge[:,2],edge[:,1],1);offset=float(np.min(edge[:,1]-(slope*edge[:,2]+intercept)))-.04
+        zmid=float(edge[:,2].mean());lp=np.array([sgn*.62,slope*zmid+intercept+offset,zmid]);axis=normalize(np.array([0,slope,1.]));clear_open=np.zeros(3)
+        leaf.rotate(lp,axis,sgn*92).move(clear_open)
+        ln=model.pivot('nose_forward_hatch_'+side,lp+clear_open,extras={'hinge_fit':'actual source edge, compound clearing linkage','edge_fit_slope':float(slope),'open_clearing_translation_m':clear_open.tolist()});model.attach(leaf,ln);nose_leaves.append((ln,sgn,axis,lp))
+    tt=np.linspace(0,1,65);na=98*staged(tt,.2,.73);da=-8*staged(tt,0,.18)+11*staged(tt,.76,.91)
+    nose_tracks=[(nose,'rotation',tt,[quat([1,0,0],a) for a in na]),(nd,'rotation',tt,[quat([1,0,0],a) for a in da]),(nd,'translation',tt,[ndp+[0,.30*up,-.99*fwd] for up,fwd in zip(staged(tt,.91,1),staged(tt,.76,.91))])]
+    inspect_tracks=[(nd,'rotation',tt,[quat([1,0,0],-8*smooth(t)) for t in tt])]
+    for ln,sgn,axis,lp in nose_leaves:
+        ha=sgn*(8*staged(tt,0,.18)-100*staged(tt,.76,.95))
+        nose_tracks.append((ln,'rotation',tt,[quat(axis,a) for a in ha]));nose_tracks.append((ln,'translation',tt,[lp.copy() for _ in tt]));inspect_tracks.append((ln,'rotation',tt,[quat(axis,sgn*8*smooth(t)) for t in tt]))
+    model.log.append({'component':'nose gear closure fit','change':'preserved original aft panel translates 0.99m forward and 0.30m upward with 3-degree final tilt into original nose opening; added forward well uses original curved skin leaves','no_added_bridge_across_source_wheel_hole':True,'status':'ARTIST_AUTHORED_LINKAGE_PENDING_CURRENT_EXPORT_QA'})
+    model.control('gear_nose','Forward-folding nose gear sequence',nose,[1,0,0],98,duration=7,group='Landing gear',role='gear_sequence',ev=evidence('gear',note='Forward-fold principle supported by C130 manual; exact authored travel/linkage not operationally certified.'),tracks=nose_tracks,owns=['gear_door_nose'],states={'rest':'DOWN','deployed':'RETRACTED'})
+    model.control('gear_door_nose','Nose gear-cover inspection',nd,[1,0,0],-8,duration=2.2,group='Landing gear',role='gear_door',ev=evidence('gear'),tracks=inspect_tracks,owned_by='gear_nose',enabled_if={'control':'gear_nose','equals':0})
     if gunship:
         add_sensor(model,'eoir_chin',[0,1.15,-13.92]);add_sensor(model,'eoir_port',[-1.42,1.18,-5.65])
-    # A neutral independent replaceable identity patch; no baked faction identity.
-    model.static_mesh(box('PATCH_houseTint_PORT',[-2.025,2.65,-5.0],[-2.015,3.05,-4.4],mat['houseTint']))
     model.glb.node('SOCKET_RECEIVER_INTERFACE_UNFITTED',translation=[0,4.55,-9.2],extras={'kind':'GAME_ALIGNMENT_ONLY','physical_receiver':'NOT_AUTHORED_NO_EVIDENCE','validated':False})
-    model.glb.doc['nodes'][0]['extras'].update({'model':mid,'configuration':label,'source_hash':INPUT_HASH,'licence':'SOURCE_PROVENANCE_REVIEW_REQUIRED','controls':len(model.controls),'uniform_scene_scale':True,'base_normalization':'r0001 inherited approximate envelope baked into vertices; not photo calibrated'})
+    model.glb.doc['nodes'][0]['extras'].update({'model':mid,'configuration':label,'source_hash':INPUT_HASH,'licence':'SOURCE_PROVENANCE_REVIEW_REQUIRED','controls':len(model.controls),'uniform_scene_scale':True,'base_normalization':'r0001 inherited approximate envelope baked into vertices; not photo calibrated','native_unreal':'NOT_RUN','acceptance_report':'../manifest.json'})
+    model.glb.doc['asset']['extras']={'unit_dimensions':{'length_m':29.79,'width_m':40.41,'height_m':11.84},'unit_dimensions_provenance':'Inherited approximate r0001 envelope; catalog target differs slightly; photographic acceptance pending'}
     return model
 
 def save_model(model):
@@ -281,19 +367,49 @@ def save_model(model):
     for c in model.controls:
         if c.get('role')=='access' and not c.get('owned_by'):service[c['id']]=1
         if c.get('role')=='gear_sequence':flying[c['id']]=1
+        if c.get('kind')=='continuous' and c.get('group')=='Propulsion':flying[c['id']]=1
     sidecar={'version':'jcnc.c130-articulation/2.0','revision':'r0002','author':'claude-design','model':model.id,'label':model.label,'file':f'../models/{model.id}.glb','sha256':result['sha256'],'units':'metres','basis':'+X right,+Y up,nose -Z','canonical_rest':'PARKED, gear down; access closed; source covers hanging open; propulsion stopped','controls':model.controls,'sequences':[{'id':'actuate_everything','source':'current control inventory','policy':'concurrent compatible mechanisms; owned_by masters arbitrate; pause/reverse/reset deterministic','cargo':'upper opens before ramp; ramp closes before upper','gear':'covers clear before retraction; covers close after wheels clear'}],'states':{'PARKED':parked,'SERVICE':service,'FLYING':flying},'presets':[{'id':'PARKED','label':'Parked','controls':parked},{'id':'SERVICE','label':'Service','controls':service},{'id':'FLYING','label':'Flying','controls':flying}],'effects':[],'cameras':[{'id':'hero','position':[-36,20,-35],'target':[0,3,0]},{'id':'port','position':[-38,6,0],'target':[0,3,0]},{'id':'cargo','position':[-8,6,16],'target':[0,2,3]}],'sim_inputs':[],'openings':model.openings,'acceptance':{'structural':'PENDING_CURRENT_EXPORT_QA','photographic':'NOT_ACCEPTED','native_blender':'PENDING','native_unreal':'NOT_RUN','continuous_clearance':'NOT_PROVEN','licensing':'REVIEW_REQUIRED'},'notes':model.log}
     (OUT/'articulation'/f'{model.id}.json').write_text(json.dumps(sidecar,indent=2)+'\n')
     return result
 
+def component_inventory(model):
+    """Evidence from actual exported vertex/index bytes and canonical transforms."""
+    doc=model.glb.doc;buf=model.glb.buf;world={0:np.zeros(3)};rows=[]
+    def walk(i,base):
+        n=doc['nodes'][i];pos=base+np.array(n.get('translation',[0,0,0]));world[i]=pos
+        for c in n.get('children',[]):walk(c,pos)
+    walk(0,np.zeros(3))
+    for i,n in enumerate(doc['nodes']):
+        if 'mesh' not in n:continue
+        h=hashlib.sha256();mesh=doc['meshes'][n['mesh']]
+        for pr in mesh['primitives']:
+            for key,aidx in sorted({**pr['attributes'],'INDICES':pr['indices']}.items()):
+                a=doc['accessors'][aidx];v=doc['bufferViews'][a['bufferView']];start=v.get('byteOffset',0)+a.get('byteOffset',0);length=a['count']*DIMS[a['type']]*DTYPE[a['componentType']].itemsize;h.update(key.encode());h.update(bytes(buf[start:start+length]))
+        transform={'translation':world[i].tolist(),'rotation':[0,0,0,1],'scale':[1,1,1]};th=hashlib.sha256(json.dumps(transform,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+        rows.append({'node':n['name'],'geometry_sha256':h.hexdigest(),'world_rest_transform_sha256':th,'world_rest_transform':transform,'source_node':n.get('extras',{}).get('source_node'),'tags':n.get('extras',{}).get('tags',[])})
+    return rows
+
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--input',type=Path,default=REPO/'family/r0001/c130-hercules-unified-r0001.glb');parser.add_argument('--only',choices=['c130','ac130','ac130j']);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--input',type=Path,default=REPO/'family/r0001/c130-hercules-unified-r0001.glb');parser.add_argument('--only',choices=['c130','ac130','ac130j']);parser.add_argument('--preserve-vertex-records',action='store_true',help='Reproduce the pre-indexed representation without changing authored geometry');args=parser.parse_args()
     data=args.input.read_bytes();digest=hashlib.sha256(data).hexdigest()
     if digest!=INPUT_HASH:raise ValueError('claude-design input SHA256 mismatch: '+digest)
     src,images,_=load_source(args.input,canonical=True);common,surfaces=prepare_common(src)
-    results=[]
-    for mid,label in [('c130','C-130H legacy Hercules candidate'),('ac130','AC-130W Stinger II — circa 2021 visual candidate'),('ac130j','AC-130J Ghostrider — J-family visual candidate')]:
+    results=[];inventories={};indexing={}
+    configs=json.loads((HERE/'variants.json').read_text())['variants']
+    for cfg in configs:
+        mid=cfg['id'];label=cfg['label']
         if args.only and mid!=args.only:continue
-        model=build_one(mid,label,src,images,common,surfaces);r=save_model(model);results.append(r);print('claude-design BUILT',json.dumps(r),flush=True)
+        model=build_one(mid,label,src,images,common,surfaces,exact_index=not args.preserve_vertex_records);r=save_model(model);results.append(r);inventories[mid]=component_inventory(model);indexing[mid]=model.glb.indexing;print('claude-design BUILT',json.dumps(r),flush=True)
+    (OUT/'source'/'exact-indexing-receipts.json').write_text(json.dumps({'operation':'exact_complete_float32_attribute_records','enabled':not args.preserve_vertex_records,'triangle_removal':'none in indexing step; preexisting float32-sliver filter unchanged','models':indexing},indent=2)+'\n')
     (OUT/'source'/'build-receipts.json').write_text(json.dumps({'source_sha256':digest,'source_file':'family/r0001/c130-hercules-unified-r0001.glb','shared_source_meshes':24,'variant_rule':'common master plus interchangeable structural/powerplant/cockpit/mission modules','outputs':results},indent=2)+'\n')
+    registry={'version':'jcnc.c130-module-registry/1','revision':'r0002','author':'claude-design','source_sha256':digest,'master':'C130_COMMON_claude-design_r0002','units':'metres','basis':'+X right,+Y up,nose -Z','source_original_meshes':24,'source_preserved_normal_maps':2,'source_ground_alignment_m':GROUND_SHIFT,'variants':configs,'common_parts':[{'id':'fuselage','geometry':'preserved source skin, variant-aware panel/aperture regions'},{'id':'cargo_cabin','geometry':'preserved original interior'},{'id':'landing_gear','mechanism':'vertical tandem main / forward-folding nose'},{'id':'access','mechanism':'staged upper cargo door + lower ramp; lower-sill crew stairs; overhead personnel doors'}]+[{'id':s['id'],'source_triangles':len(s['mesh'].faces),'status':'EXTRACTED_FROM_ORIGINAL_SKIN'} for s in surfaces],'delivery':'self-contained GLB instances generated from one logical source master; full exports duplicate common data for portable use','not_implemented':['native Unreal gameplay controller','photographically accepted exact station drawings','damage catalogue bindings','operational aircraft or weapon physics']}
+    (OUT/'articulation'/'component-registry.json').write_text(json.dumps(registry,indent=2)+'\n')
+    registry['exported_component_inventory']=inventories
+    index={}
+    for mid,rows in inventories.items():
+        for r in rows:index.setdefault((r['node'],r['geometry_sha256'],r['world_rest_transform_sha256']),[]).append(mid)
+    registry['verified_identical_geometry_and_rest']=[{'node':k[0],'geometry_sha256':k[1],'world_rest_transform_sha256':k[2],'variants':v} for k,v in index.items() if len(v)>1]
+    registry['incompatibilities']=[{'group':'powerplant','exclusive':['legacy four-blade/nacelle','J six-blade/nacelle']},{'group':'cockpit','exclusive':['legacy analogue insert','J digital displays/HUD']},{'group':'port_forward_panel','exclusive':['transport skin infill','30 mm aperture/mount']},{'group':'port_aft_panel','exclusive':['operating port personnel door','105 mm station']}]
+    (OUT/'articulation'/'component-registry.json').write_text(json.dumps(registry,indent=2)+'\n')
 
 if __name__=='__main__':main()

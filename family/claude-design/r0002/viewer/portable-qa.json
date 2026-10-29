@@ -1,0 +1,39 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "portable_sha256": "a4d16d968d51a77c51b982d418478a1703a9021a405612cef0e9d04c96a2003c",
+  "bytes": 30862066,
+  "embedded_modules": [
+    "three",
+    "c130-controller",
+    "c130-pose-driver",
+    "gltf-loader",
+    "orbit-controls",
+    "c130-buffer-utils"
+  ],
+  "models": [
+    {
+      "id": "c130",
+      "bytes": 13876572,
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146"
+    },
+    {
+      "id": "ac130",
+      "bytes": 14240532,
+      "sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046"
+    },
+    {
+      "id": "ac130j",
+      "bytes": 14006440,
+      "sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+    }
+  ],
+  "checks": [
+    "All modules parse",
+    "All module imports resolve within embedded importmap",
+    "Browser-standard gzip DecompressionStream restores exact model bytes",
+    "Embedded model hashes equal delivered GLBs and sidecars",
+    "Three aircraft and revision notes embedded"
+  ],
+  "scope": "Dependency/byte integrity; browser WebGL rendering NOT_RUN"
+}

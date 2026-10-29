@@ -12,6 +12,7 @@ import numpy as np
 DTYPE={5126:np.dtype('<f4'),5125:np.dtype('<u4'),5123:np.dtype('<u2'),5122:np.dtype('<i2'),5121:np.dtype('u1'),5120:np.dtype('i1')}
 DIMS={'SCALAR':1,'VEC2':2,'VEC3':3,'VEC4':4,'MAT4':16}
 BASIS=np.array([[-1.,0.,0.],[0.,0.,1.],[0.,1.,0.]])
+GROUND_SHIFT=0.005873803637921924
 
 def normalize(v):
     n=np.linalg.norm(v,axis=-1,keepdims=True)
@@ -59,7 +60,7 @@ def merge(meshes,name='merged'):
     if not meshes:return Mesh(name,{'POSITION':np.zeros((0,3)),'NORMAL':np.zeros((0,3))},np.zeros((0,3),dtype=int))
     keys=set.intersection(*(set(m.attrs) for m in meshes));offset=0;fs=[]
     for m in meshes:fs.append(m.faces+offset);offset+=len(m.p)
-    return Mesh(name,{k:np.concatenate([m.attrs[k] for m in meshes]) for k in keys},np.concatenate(fs),meshes[0].material,copy.deepcopy(meshes[0].extras or {}))
+    return Mesh(name,{k:np.concatenate([m.attrs[k] for m in meshes]) for k in sorted(keys)},np.concatenate(fs),meshes[0].material,copy.deepcopy(meshes[0].extras or {}))
 
 def plane_split(mesh,n,d):
     """Return positive and negative half-space triangle patches, preserving attrs."""
@@ -84,7 +85,8 @@ def plane_split(mesh,n,d):
         if faces:
             aa={k:np.asarray(v) for k,v in attrs.items()}
             if 'NORMAL' in aa:aa['NORMAL']=normalize(aa['NORMAL'])
-            if 'TANGENT' in aa:aa['TANGENT'][:,:3]=normalize(aa['TANGENT'][:,:3])
+            if 'TANGENT' in aa:
+                aa['TANGENT'][:,:3]=normalize(aa['TANGENT'][:,:3]);aa['TANGENT'][:,3]=np.where(aa['TANGENT'][:,3]<0,-1.,1.)
             chunks.append(Mesh(mesh.name,aa,np.asarray(faces),mesh.material,copy.deepcopy(mesh.extras or {})))
         outputs.append(merge(chunks,mesh.name))
     return outputs
@@ -135,7 +137,9 @@ def sphere(name,center,radii,material=0,stacks=12,sectors=24):
             b=2*math.pi*j/sectors;vs.append(center+radii*np.array([math.sin(a)*math.cos(b),math.cos(a),math.sin(a)*math.sin(b)]))
     for i in range(stacks):
         for j in range(sectors):
-            k=i*sectors+j;l=i*sectors+(j+1)%sectors;fs.extend([(k,k+sectors,l+sectors),(k,l+sectors,l)])
+            k=i*sectors+j;l=i*sectors+(j+1)%sectors
+            if i<stacks-1:fs.append((k,k+sectors,l+sectors))
+            if i>0:fs.append((k,l+sectors,l))
     return make_mesh(name,vs,fs,material)
 
 def load_source(path,canonical=False):
@@ -156,25 +160,29 @@ def load_source(path,canonical=False):
         if canonical and i in (6,11,15,22):
             base=np.eye(4);base[:3,:3]=rot([1,0,0],90)
             delta=local@np.linalg.inv(base);angle=math.degrees(math.atan2(delta[2,1],delta[1,1]));pivot=np.linalg.lstsq(np.eye(3)-delta[:3,:3],delta[:3,3],rcond=1e-6)[0]
-            m.extras.update({'reconstructed_source_open_angle':angle,'reconstructed_source_pivot':(bm@pm@np.r_[pivot,1.])[:3].tolist(),'reconstructed_source_axis':(BASIS@np.array([1.,0.,0.])).tolist(),'rest_reconstruction':'SOURCE_UNIFORM_ORIENTATION_MATRIX_INFERRED'})
+            pp=(bm@pm@np.r_[pivot,1.])[:3];pp[1]+=GROUND_SHIFT
+            m.extras.update({'reconstructed_source_open_angle':angle,'reconstructed_source_pivot':pp.tolist(),'reconstructed_source_axis':(BASIS@np.array([1.,0.,0.])).tolist(),'rest_reconstruction':'SOURCE_UNIFORM_ORIENTATION_MATRIX_INFERRED'})
             local=base
-        world=bm@pm@local;m.transform(world[:3,:3],world[:3,3]);meshes.append(m)
+        world=bm@pm@local;m.transform(world[:3,:3],world[:3,3]+[0,GROUND_SHIFT,0]);meshes.append(m)
     images=[]
     for im in doc.get('images',[]):
         v=doc['bufferViews'][im['bufferView']];o=v.get('byteOffset',0);images.append((buf[o:o+v['byteLength']],im['mimeType']))
     return meshes,images,hashlib.sha256(data).hexdigest()
 
 class GLB:
-    def __init__(self,name):
-        self.doc={'asset':{'version':'2.0','generator':'claude-design JCNC C130 modular r0002'},'scene':0,'scenes':[{'name':name,'nodes':[0]}],'nodes':[{'name':'C130_FAMILY_ROOT','children':[],'extras':{'units':'metres','basis':'+X right,+Y up,nose -Z','revision':'r0002','author':'claude-design','acceptance':'DRAFT_NATIVE_ENGINE_NOT_RUN'}}],'meshes':[],'materials':[],'buffers':[{'byteLength':0}],'bufferViews':[],'accessors':[],'animations':[]};self.buf=bytearray();self.names={'C130_FAMILY_ROOT':0}
+    def __init__(self,name,exact_index=True):
+        self.exact_index=exact_index;self.indexing=[]
+        self.doc={'asset':{'version':'2.0','generator':'claude-design JCNC C130 modular r0002'},'scene':0,'scenes':[{'name':name,'nodes':[0]}],'nodes':[{'name':'C130_FAMILY_ROOT','children':[],'extras':{'units':'metres','basis':'+X right,+Y up,nose -Z','revision':'r0002','author':'claude-design','acceptance':'DRAFT_ARTICULATED_REVIEW'}}],'meshes':[],'materials':[],'buffers':[{'byteLength':0}],'bufferViews':[],'accessors':[],'animations':[]};self.buf=bytearray();self.names={'C130_FAMILY_ROOT':0}
     def blob(self,data,target=None):
         while len(self.buf)%4:self.buf.append(0)
         o=len(self.buf);self.buf.extend(data);v={'buffer':0,'byteOffset':o,'byteLength':len(data)}
         if target:v['target']=target
         self.doc['bufferViews'].append(v);return len(self.doc['bufferViews'])-1
     def acc(self,a,atype=None,index=False,target=True):
-        a=np.asarray(a);a=a.astype('<u4' if index else '<f4');v=self.blob(a.tobytes(),(34963 if index else 34962) if target else None);n=1 if a.ndim==1 else a.shape[1];typ=atype or {1:'SCALAR',2:'VEC2',3:'VEC3',4:'VEC4'}[n]
-        rec={'bufferView':v,'componentType':5125 if index else 5126,'count':len(a),'type':typ};aa=a.reshape(len(a),n);rec.update(min=aa.min(0).tolist(),max=aa.max(0).tolist());self.doc['accessors'].append(rec);return len(self.doc['accessors'])-1
+        a=np.asarray(a);component=5126
+        if index:component=5123 if self.exact_index and int(a.max())<65535 else 5125
+        a=a.astype(DTYPE[component]);v=self.blob(a.tobytes(),(34963 if index else 34962) if target else None);n=1 if a.ndim==1 else a.shape[1];typ=atype or {1:'SCALAR',2:'VEC2',3:'VEC3',4:'VEC4'}[n]
+        rec={'bufferView':v,'componentType':component,'count':len(a),'type':typ};aa=a.reshape(len(a),n);rec.update(min=aa.min(0).tolist(),max=aa.max(0).tolist());self.doc['accessors'].append(rec);return len(self.doc['accessors'])-1
     def material(self,name,color,metal=0.,rough=.7,normal=None,double=True,emissive=None):
         m={'name':name,'pbrMetallicRoughness':{'baseColorFactor':list(color),'metallicFactor':metal,'roughnessFactor':rough},'doubleSided':double}
         if normal is not None:m['normalTexture']={'index':normal,'scale':.35}
@@ -194,8 +202,30 @@ class GLB:
     def mesh(self,m,parent=0,origin=(0,0,0),name=None,extras=None):
         if not len(m.faces):return None
         aa={k:v.copy() for k,v in m.attrs.items()};aa['POSITION']-=np.asarray(origin)
-        primitive={'attributes':{k:self.acc(v) for k,v in aa.items()},'indices':self.acc(m.faces.ravel(),index=True),'material':m.material,'mode':4}
-        mid=len(self.doc['meshes']);self.doc['meshes'].append({'name':name or m.name,'primitives':[primitive]});i=self.node(name or m.name,parent=parent,extras={**(m.extras or {}),**(extras or {})});self.doc['nodes'][i]['mesh']=mid;return i
+        # Evaluate the actual float32 export positions: exact clipping intersections
+        # can quantize two otherwise distinct vertices onto one point. Retain every
+        # nondegenerate original face; remove only collapsed/tiny export slivers.
+        pp=aa['POSITION'].astype('<f4').astype(float);ff=m.faces;area2=np.linalg.norm(np.cross(pp[ff[:,1]]-pp[ff[:,0]],pp[ff[:,2]]-pp[ff[:,0]]),axis=1);keep=area2>2e-12;dropped=int((~keep).sum());ff=ff[keep]
+        if not len(ff):return None
+        cleanup={'float32_export_degenerate_faces_removed':dropped} if dropped else {}
+        # Exact complete-record indexing. Compare raw float32 bytes, including
+        # signed zero, normals, tangents, UV seams and colours; never weld by
+        # position alone. Triangle order/winding and expanded attributes stay
+        # byte-identical. This is representation cleanup, not simplification.
+        before_vertices=len(aa['POSITION']);stride=sum(v.shape[1]*4 for v in aa.values());before_bytes=before_vertices*stride+ff.size*4
+        if self.exact_index:
+            used=np.unique(ff.ravel());arrays={k:np.ascontiguousarray(v,dtype='<f4') for k,v in aa.items()}
+            records=np.ascontiguousarray(np.concatenate([arrays[k][used].view(np.uint8).reshape(len(used),-1) for k in sorted(arrays)],axis=1))
+            rows=records.view(np.dtype((np.void,records.shape[1]))).ravel()
+            _,first,inv=np.unique(rows,return_index=True,return_inverse=True)
+            order=np.argsort(first);first=first[order];rank=np.empty(len(order),dtype=np.int64);rank[order]=np.arange(len(order));mapping=np.full(before_vertices,-1,dtype=np.int64);mapping[used]=rank[inv]
+            candidate_indices=mapping[ff];candidate={k:v[used[first]] for k,v in arrays.items()}
+            after_bytes=len(first)*stride+ff.size*(2 if len(first)<65536 else 4)
+            if after_bytes<=before_bytes:aa=candidate;ff=candidate_indices
+        after_vertices=len(aa['POSITION']);index_width=2 if self.exact_index and int(ff.max())<65535 else 4
+        self.indexing.append({'mesh':name or m.name,'vertices_before':before_vertices,'vertices_after':after_vertices,'triangles':len(ff),'logical_bytes_before':before_bytes,'logical_bytes_after':after_vertices*stride+ff.size*index_width,'attributes':sorted(aa),'operation':'exact_complete_float32_attribute_records' if self.exact_index else 'preserved_vertex_records'})
+        primitive={'attributes':{k:self.acc(v) for k,v in aa.items()},'indices':self.acc(ff.ravel(),index=True),'material':m.material,'mode':4}
+        mid=len(self.doc['meshes']);self.doc['meshes'].append({'name':name or m.name,'primitives':[primitive]});i=self.node(name or m.name,parent=parent,extras={**(m.extras or {}),**(extras or {}),**cleanup});self.doc['nodes'][i]['mesh']=mid;return i
     def animation(self,name,tracks):
         """tracks are (node index, path, times, values); all times normalized0..1."""
         samplers=[];channels=[]
@@ -203,6 +233,8 @@ class GLB:
             samplers.append({'input':self.acc(np.array(times),target=False),'output':self.acc(np.array(values),target=False),'interpolation':'LINEAR'});channels.append({'sampler':len(samplers)-1,'target':{'node':node,'path':path}})
         self.doc['animations'].append({'name':name,'samplers':samplers,'channels':channels,'extras':{'normalized_time':True,'rest':0,'deployed':1,'presentation_timing':'ARTIST_AUTHORED_NOT_OPERATIONAL'}})
     def write(self,path):
+        for n in self.doc['nodes']:
+            if n.get('children')==[]:n.pop('children')
         self.doc['buffers'][0]['byteLength']=len(self.buf)
         js=json.dumps(self.doc,separators=(',',':'),ensure_ascii=False).encode();js+=b' '*((-len(js))%4);binary=bytes(self.buf)+b'\0'*((-len(self.buf))%4)
         out=struct.pack('<4sII',b'glTF',2,28+len(js)+len(binary))+struct.pack('<II',len(js),0x4e4f534a)+js+struct.pack('<II',len(binary),0x004e4942)+binary

@@ -1,0 +1,1549 @@
+{
+  "version": "jcnc.c130-articulation/2.0",
+  "revision": "r0002",
+  "author": "claude-design",
+  "model": "ac130",
+  "label": "AC-130W Stinger II \u2014 circa 2021 visual candidate",
+  "file": "../models/ac130.glb",
+  "sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046",
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "canonical_rest": "PARKED, gear down; access closed; source covers hanging open; propulsion stopped",
+  "controls": [
+    {
+      "id": "gun30_yaw",
+      "label": "30 mm mount sweep",
+      "kind": "rotation",
+      "node": "PIVOT_gun30_yaw",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 7,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission equipment",
+      "clip": "gun30_yaw",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Visual-only authored mount travel; no operational traverse/elevation specifications."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gun30_pitch",
+      "label": "30 mm mount elevation",
+      "kind": "rotation",
+      "node": "PIVOT_gun30_pitch",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 12,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission equipment",
+      "clip": "gun30_pitch",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gun30_recoil",
+      "label": "30 mm visual recoil",
+      "kind": "translation",
+      "node": "PIVOT_gun30_recoil",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 0.07,
+      "rest": 0,
+      "duration": 1.4,
+      "group": "Mission equipment",
+      "clip": "gun30_recoil",
+      "units": "metres",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [],
+        "limitations": "Authored reversible presentation stroke, not operational gun mechanics."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gun105_yaw",
+      "label": "105 mm mount sweep",
+      "kind": "rotation",
+      "node": "PIVOT_gun105_yaw",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 7,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission equipment",
+      "clip": "gun105_yaw",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Visual-only authored mount travel; no operational traverse/elevation specifications."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gun105_pitch",
+      "label": "105 mm mount elevation",
+      "kind": "rotation",
+      "node": "PIVOT_gun105_pitch",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 12,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission equipment",
+      "clip": "gun105_pitch",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gun105_recoil",
+      "label": "105 mm visual recoil",
+      "kind": "translation",
+      "node": "PIVOT_gun105_recoil",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 0.12,
+      "rest": 0,
+      "duration": 1.4,
+      "group": "Mission equipment",
+      "clip": "gun105_recoil",
+      "units": "metres",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [],
+        "limitations": "Authored reversible presentation stroke, not operational gun mechanics."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "flap_right",
+      "label": "Right flap",
+      "kind": "rotation",
+      "node": "PIVOT_flap_right",
+      "axis": [
+        1.0,
+        0.0,
+        -0.09
+      ],
+      "min": 0,
+      "max": 32,
+      "rest": 0,
+      "duration": 3.2,
+      "group": "Flight controls",
+      "clip": "flap_right",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/6616471/"
+        ],
+        "limitations": "Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "aileron_right",
+      "label": "Right aileron",
+      "kind": "rotation",
+      "node": "PIVOT_aileron_right",
+      "axis": [
+        1.0,
+        0.0,
+        -0.09
+      ],
+      "min": 0,
+      "max": 17,
+      "rest": 0,
+      "duration": 3.2,
+      "group": "Flight controls",
+      "clip": "aileron_right",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/6616471/"
+        ],
+        "limitations": "Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "elevator_right",
+      "label": "Right elevator",
+      "kind": "rotation",
+      "node": "PIVOT_elevator_right",
+      "axis": [
+        1.0,
+        0.0,
+        -0.24
+      ],
+      "min": 0,
+      "max": 22,
+      "rest": 0,
+      "duration": 3.2,
+      "group": "Flight controls",
+      "clip": "elevator_right",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/6616471/"
+        ],
+        "limitations": "Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "flap_left",
+      "label": "Left flap",
+      "kind": "rotation",
+      "node": "PIVOT_flap_left",
+      "axis": [
+        1.0,
+        0.0,
+        0.09
+      ],
+      "min": 0,
+      "max": 32,
+      "rest": 0,
+      "duration": 3.2,
+      "group": "Flight controls",
+      "clip": "flap_left",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/6616471/"
+        ],
+        "limitations": "Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "aileron_left",
+      "label": "Left aileron",
+      "kind": "rotation",
+      "node": "PIVOT_aileron_left",
+      "axis": [
+        -1.0,
+        0.0,
+        -0.09
+      ],
+      "min": 0,
+      "max": 17,
+      "rest": 0,
+      "duration": 3.2,
+      "group": "Flight controls",
+      "clip": "aileron_left",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/6616471/"
+        ],
+        "limitations": "Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "elevator_left",
+      "label": "Left elevator",
+      "kind": "rotation",
+      "node": "PIVOT_elevator_left",
+      "axis": [
+        1.0,
+        0.0,
+        0.24
+      ],
+      "min": 0,
+      "max": 22,
+      "rest": 0,
+      "duration": 3.2,
+      "group": "Flight controls",
+      "clip": "elevator_left",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/6616471/"
+        ],
+        "limitations": "Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "rudder",
+      "label": "Rudder",
+      "kind": "rotation",
+      "node": "PIVOT_rudder",
+      "axis": [
+        0.0,
+        1.0,
+        0.18
+      ],
+      "min": 0,
+      "max": 25,
+      "rest": 0,
+      "duration": 3.2,
+      "group": "Flight controls",
+      "clip": "rudder",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/6616471/"
+        ],
+        "limitations": "Surface skin extracted from source; hinge locations inferred from source shape/photo. Full aerodynamic limits not claimed."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "prop_1",
+      "label": "Propeller 1",
+      "kind": "continuous",
+      "node": "PIVOT_prop_1",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 1.4,
+      "group": "Propulsion",
+      "clip": "prop_1",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "prop_2",
+      "label": "Propeller 2",
+      "kind": "continuous",
+      "node": "PIVOT_prop_2",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 1.4,
+      "group": "Propulsion",
+      "clip": "prop_2",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "prop_3",
+      "label": "Propeller 3",
+      "kind": "continuous",
+      "node": "PIVOT_prop_3",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 1.4,
+      "group": "Propulsion",
+      "clip": "prop_3",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "prop_4",
+      "label": "Propeller 4",
+      "kind": "continuous",
+      "node": "PIVOT_prop_4",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 1.4,
+      "group": "Propulsion",
+      "clip": "prop_4",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "cargo_ramp",
+      "label": "Cargo ramp and upper-door sequence",
+      "kind": "rotation",
+      "node": "PIVOT_cargo_ramp",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 27.5,
+      "rest": 0,
+      "duration": 7,
+      "group": "Cargo access",
+      "clip": "cargo_ramp",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/7368321/",
+          "https://www.dvidshub.net/image/7918477/"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "owns": [
+        "cargo_upper_door"
+      ],
+      "sequence": {
+        "open": "upper leaf clears, then ramp lowers",
+        "reverse": "ramp raises, then upper leaf closes"
+      },
+      "role": "access"
+    },
+    {
+      "id": "cargo_upper_door",
+      "label": "Upper cargo door inspection",
+      "kind": "rotation",
+      "node": "PIVOT_cargo_upper_door",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 20,
+      "rest": 0,
+      "duration": 3,
+      "group": "Cargo access",
+      "clip": "cargo_upper_door",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/7918477/"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "owned_by": "cargo_ramp",
+      "enabled_if": {
+        "control": "cargo_ramp",
+        "equals": 0
+      },
+      "role": "access"
+    },
+    {
+      "id": "crew_door",
+      "label": "Forward crew airstair door",
+      "kind": "rotation",
+      "node": "PIVOT_crew_door",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 127,
+      "rest": 0,
+      "duration": 4.5,
+      "group": "Personnel access",
+      "clip": "crew_door",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610490/16th-expeditionary-special-operations-squadron-provides-air-support",
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Downward opening and stairway photographically supported; tread shape/hinge travel are artist inferred."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "role": "access"
+    },
+    {
+      "id": "paratroop_right",
+      "label": "Right raised personnel door",
+      "kind": "translation",
+      "node": "PIVOT_paratroop_right",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 2.0,
+      "rest": 0,
+      "duration": 4.5,
+      "group": "Personnel access",
+      "clip": "paratroop_right",
+      "units": "metres",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/7135325/"
+        ],
+        "limitations": "Raised/inward principle supported; curved overhead recovery path artist inferred."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "role": "access"
+    },
+    {
+      "id": "wheel_left_1",
+      "label": "Left wheel 1",
+      "kind": "continuous",
+      "node": "PIVOT_wheel_left_1",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 2.4,
+      "group": "Wheels",
+      "clip": "wheel_left_1",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "wheel_left_2",
+      "label": "Left wheel 2",
+      "kind": "continuous",
+      "node": "PIVOT_wheel_left_2",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 2.4,
+      "group": "Wheels",
+      "clip": "wheel_left_2",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gear_left",
+      "label": "Left main gear sequence",
+      "kind": "translation",
+      "node": "PIVOT_gear_left",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 1.25,
+      "rest": 0,
+      "duration": 7,
+      "group": "Landing gear",
+      "clip": "gear_left",
+      "units": "metres",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Vertical main-gear principal motion supported; travel and cover linkage are authored pending clearance/photo validation."
+      },
+      "states": {
+        "rest": "DOWN: covers hanging open",
+        "deployed": "RETRACTED: wheels inside wells and covers shut"
+      },
+      "owns": [
+        "gear_door_left"
+      ],
+      "role": "gear_sequence"
+    },
+    {
+      "id": "gear_door_left",
+      "label": "Left gear-cover inspection",
+      "kind": "rotation",
+      "node": "PIVOT_gear_door_left",
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "min": 0,
+      "max": 18,
+      "rest": 0,
+      "duration": 2.2,
+      "group": "Landing gear",
+      "clip": "gear_door_left",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "owned_by": "gear_left",
+      "enabled_if": {
+        "control": "gear_left",
+        "equals": 0
+      },
+      "role": "gear_door"
+    },
+    {
+      "id": "wheel_right_1",
+      "label": "Right wheel 1",
+      "kind": "continuous",
+      "node": "PIVOT_wheel_right_1",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 2.4,
+      "group": "Wheels",
+      "clip": "wheel_right_1",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "wheel_right_2",
+      "label": "Right wheel 2",
+      "kind": "continuous",
+      "node": "PIVOT_wheel_right_2",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 2.4,
+      "group": "Wheels",
+      "clip": "wheel_right_2",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gear_right",
+      "label": "Right main gear sequence",
+      "kind": "translation",
+      "node": "PIVOT_gear_right",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 1.25,
+      "rest": 0,
+      "duration": 7,
+      "group": "Landing gear",
+      "clip": "gear_right",
+      "units": "metres",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Vertical main-gear principal motion supported; travel and cover linkage are authored pending clearance/photo validation."
+      },
+      "states": {
+        "rest": "DOWN: covers hanging open",
+        "deployed": "RETRACTED: wheels inside wells and covers shut"
+      },
+      "owns": [
+        "gear_door_right"
+      ],
+      "role": "gear_sequence"
+    },
+    {
+      "id": "gear_door_right",
+      "label": "Right gear-cover inspection",
+      "kind": "rotation",
+      "node": "PIVOT_gear_door_right",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 18,
+      "rest": 0,
+      "duration": 2.2,
+      "group": "Landing gear",
+      "clip": "gear_door_right",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "owned_by": "gear_right",
+      "enabled_if": {
+        "control": "gear_right",
+        "equals": 0
+      },
+      "role": "gear_door"
+    },
+    {
+      "id": "wheel_nose",
+      "label": "Nose wheels",
+      "kind": "continuous",
+      "node": "PIVOT_wheel_nose",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 360,
+      "rest": 0,
+      "duration": 2.4,
+      "group": "Wheels",
+      "clip": "wheel_nose",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gear_nose",
+      "label": "Forward-folding nose gear sequence",
+      "kind": "rotation",
+      "node": "PIVOT_gear_nose",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 98,
+      "rest": 0,
+      "duration": 7,
+      "group": "Landing gear",
+      "clip": "gear_nose",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Forward-fold principle supported by C130 manual; exact authored travel/linkage not operationally certified."
+      },
+      "states": {
+        "rest": "DOWN",
+        "deployed": "RETRACTED"
+      },
+      "owns": [
+        "gear_door_nose"
+      ],
+      "role": "gear_sequence"
+    },
+    {
+      "id": "gear_door_nose",
+      "label": "Nose gear-cover inspection",
+      "kind": "rotation",
+      "node": "PIVOT_gear_door_nose",
+      "axis": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "min": 0,
+      "max": 8,
+      "rest": 0,
+      "duration": 2.2,
+      "group": "Landing gear",
+      "clip": "gear_door_nose",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/229270/c-130-landing-gear-inspection"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "owned_by": "gear_nose",
+      "enabled_if": {
+        "control": "gear_nose",
+        "equals": 0
+      },
+      "role": "gear_door"
+    },
+    {
+      "id": "eoir_chin_yaw",
+      "label": "Eoir Chin azimuth",
+      "kind": "rotation",
+      "node": "PIVOT_eoir_chin_yaw",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 90,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission sensors",
+      "clip": "eoir_chin_yaw",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Two sensors supported; exact J second-sensor station and all gimbal limits are visual approximations."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "eoir_chin_pitch",
+      "label": "Eoir Chin elevation",
+      "kind": "rotation",
+      "node": "PIVOT_eoir_chin_pitch",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 45,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission sensors",
+      "clip": "eoir_chin_pitch",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "eoir_port_yaw",
+      "label": "Eoir Port azimuth",
+      "kind": "rotation",
+      "node": "PIVOT_eoir_port_yaw",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 90,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission sensors",
+      "clip": "eoir_port_yaw",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Two sensors supported; exact J second-sensor station and all gimbal limits are visual approximations."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "eoir_port_pitch",
+      "label": "Eoir Port elevation",
+      "kind": "rotation",
+      "node": "PIVOT_eoir_port_pitch",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 45,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission sensors",
+      "clip": "eoir_port_pitch",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "SOURCE_SUPPORTED_PRINCIPLE_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"
+        ],
+        "limitations": "Travel/geometry is an authored visual approximation; native clearance and photographic acceptance pending."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    }
+  ],
+  "sequences": [
+    {
+      "id": "actuate_everything",
+      "source": "current control inventory",
+      "policy": "concurrent compatible mechanisms; owned_by masters arbitrate; pause/reverse/reset deterministic",
+      "cargo": "upper opens before ramp; ramp closes before upper",
+      "gear": "covers clear before retraction; covers close after wheels clear"
+    }
+  ],
+  "states": {
+    "PARKED": {
+      "gun30_yaw": 0,
+      "gun30_pitch": 0,
+      "gun30_recoil": 0,
+      "gun105_yaw": 0,
+      "gun105_pitch": 0,
+      "gun105_recoil": 0,
+      "flap_right": 0,
+      "aileron_right": 0,
+      "elevator_right": 0,
+      "flap_left": 0,
+      "aileron_left": 0,
+      "elevator_left": 0,
+      "rudder": 0,
+      "prop_1": 0,
+      "prop_2": 0,
+      "prop_3": 0,
+      "prop_4": 0,
+      "cargo_ramp": 0,
+      "cargo_upper_door": 0,
+      "crew_door": 0,
+      "paratroop_right": 0,
+      "wheel_left_1": 0,
+      "wheel_left_2": 0,
+      "gear_left": 0,
+      "gear_door_left": 0,
+      "wheel_right_1": 0,
+      "wheel_right_2": 0,
+      "gear_right": 0,
+      "gear_door_right": 0,
+      "wheel_nose": 0,
+      "gear_nose": 0,
+      "gear_door_nose": 0,
+      "eoir_chin_yaw": 0,
+      "eoir_chin_pitch": 0,
+      "eoir_port_yaw": 0,
+      "eoir_port_pitch": 0
+    },
+    "SERVICE": {
+      "gun30_yaw": 0,
+      "gun30_pitch": 0,
+      "gun30_recoil": 0,
+      "gun105_yaw": 0,
+      "gun105_pitch": 0,
+      "gun105_recoil": 0,
+      "flap_right": 0,
+      "aileron_right": 0,
+      "elevator_right": 0,
+      "flap_left": 0,
+      "aileron_left": 0,
+      "elevator_left": 0,
+      "rudder": 0,
+      "prop_1": 0,
+      "prop_2": 0,
+      "prop_3": 0,
+      "prop_4": 0,
+      "cargo_ramp": 1,
+      "cargo_upper_door": 0,
+      "crew_door": 1,
+      "paratroop_right": 1,
+      "wheel_left_1": 0,
+      "wheel_left_2": 0,
+      "gear_left": 0,
+      "gear_door_left": 0,
+      "wheel_right_1": 0,
+      "wheel_right_2": 0,
+      "gear_right": 0,
+      "gear_door_right": 0,
+      "wheel_nose": 0,
+      "gear_nose": 0,
+      "gear_door_nose": 0,
+      "eoir_chin_yaw": 0,
+      "eoir_chin_pitch": 0,
+      "eoir_port_yaw": 0,
+      "eoir_port_pitch": 0
+    },
+    "FLYING": {
+      "gun30_yaw": 0,
+      "gun30_pitch": 0,
+      "gun30_recoil": 0,
+      "gun105_yaw": 0,
+      "gun105_pitch": 0,
+      "gun105_recoil": 0,
+      "flap_right": 0,
+      "aileron_right": 0,
+      "elevator_right": 0,
+      "flap_left": 0,
+      "aileron_left": 0,
+      "elevator_left": 0,
+      "rudder": 0,
+      "prop_1": 1,
+      "prop_2": 1,
+      "prop_3": 1,
+      "prop_4": 1,
+      "cargo_ramp": 0,
+      "cargo_upper_door": 0,
+      "crew_door": 0,
+      "paratroop_right": 0,
+      "wheel_left_1": 0,
+      "wheel_left_2": 0,
+      "gear_left": 1,
+      "gear_door_left": 0,
+      "wheel_right_1": 0,
+      "wheel_right_2": 0,
+      "gear_right": 1,
+      "gear_door_right": 0,
+      "wheel_nose": 0,
+      "gear_nose": 1,
+      "gear_door_nose": 0,
+      "eoir_chin_yaw": 0,
+      "eoir_chin_pitch": 0,
+      "eoir_port_yaw": 0,
+      "eoir_port_pitch": 0
+    }
+  },
+  "presets": [
+    {
+      "id": "PARKED",
+      "label": "Parked",
+      "controls": {
+        "gun30_yaw": 0,
+        "gun30_pitch": 0,
+        "gun30_recoil": 0,
+        "gun105_yaw": 0,
+        "gun105_pitch": 0,
+        "gun105_recoil": 0,
+        "flap_right": 0,
+        "aileron_right": 0,
+        "elevator_right": 0,
+        "flap_left": 0,
+        "aileron_left": 0,
+        "elevator_left": 0,
+        "rudder": 0,
+        "prop_1": 0,
+        "prop_2": 0,
+        "prop_3": 0,
+        "prop_4": 0,
+        "cargo_ramp": 0,
+        "cargo_upper_door": 0,
+        "crew_door": 0,
+        "paratroop_right": 0,
+        "wheel_left_1": 0,
+        "wheel_left_2": 0,
+        "gear_left": 0,
+        "gear_door_left": 0,
+        "wheel_right_1": 0,
+        "wheel_right_2": 0,
+        "gear_right": 0,
+        "gear_door_right": 0,
+        "wheel_nose": 0,
+        "gear_nose": 0,
+        "gear_door_nose": 0,
+        "eoir_chin_yaw": 0,
+        "eoir_chin_pitch": 0,
+        "eoir_port_yaw": 0,
+        "eoir_port_pitch": 0
+      }
+    },
+    {
+      "id": "SERVICE",
+      "label": "Service",
+      "controls": {
+        "gun30_yaw": 0,
+        "gun30_pitch": 0,
+        "gun30_recoil": 0,
+        "gun105_yaw": 0,
+        "gun105_pitch": 0,
+        "gun105_recoil": 0,
+        "flap_right": 0,
+        "aileron_right": 0,
+        "elevator_right": 0,
+        "flap_left": 0,
+        "aileron_left": 0,
+        "elevator_left": 0,
+        "rudder": 0,
+        "prop_1": 0,
+        "prop_2": 0,
+        "prop_3": 0,
+        "prop_4": 0,
+        "cargo_ramp": 1,
+        "cargo_upper_door": 0,
+        "crew_door": 1,
+        "paratroop_right": 1,
+        "wheel_left_1": 0,
+        "wheel_left_2": 0,
+        "gear_left": 0,
+        "gear_door_left": 0,
+        "wheel_right_1": 0,
+        "wheel_right_2": 0,
+        "gear_right": 0,
+        "gear_door_right": 0,
+        "wheel_nose": 0,
+        "gear_nose": 0,
+        "gear_door_nose": 0,
+        "eoir_chin_yaw": 0,
+        "eoir_chin_pitch": 0,
+        "eoir_port_yaw": 0,
+        "eoir_port_pitch": 0
+      }
+    },
+    {
+      "id": "FLYING",
+      "label": "Flying",
+      "controls": {
+        "gun30_yaw": 0,
+        "gun30_pitch": 0,
+        "gun30_recoil": 0,
+        "gun105_yaw": 0,
+        "gun105_pitch": 0,
+        "gun105_recoil": 0,
+        "flap_right": 0,
+        "aileron_right": 0,
+        "elevator_right": 0,
+        "flap_left": 0,
+        "aileron_left": 0,
+        "elevator_left": 0,
+        "rudder": 0,
+        "prop_1": 1,
+        "prop_2": 1,
+        "prop_3": 1,
+        "prop_4": 1,
+        "cargo_ramp": 0,
+        "cargo_upper_door": 0,
+        "crew_door": 0,
+        "paratroop_right": 0,
+        "wheel_left_1": 0,
+        "wheel_left_2": 0,
+        "gear_left": 1,
+        "gear_door_left": 0,
+        "wheel_right_1": 0,
+        "wheel_right_2": 0,
+        "gear_right": 1,
+        "gear_door_right": 0,
+        "wheel_nose": 0,
+        "gear_nose": 1,
+        "gear_door_nose": 0,
+        "eoir_chin_yaw": 0,
+        "eoir_chin_pitch": 0,
+        "eoir_port_yaw": 0,
+        "eoir_port_pitch": 0
+      }
+    }
+  ],
+  "effects": [],
+  "cameras": [
+    {
+      "id": "hero",
+      "position": [
+        -36,
+        20,
+        -35
+      ],
+      "target": [
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "port",
+      "position": [
+        -38,
+        6,
+        0
+      ],
+      "target": [
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "cargo",
+      "position": [
+        -8,
+        6,
+        16
+      ],
+      "target": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "sim_inputs": [],
+  "openings": [
+    {
+      "id": "gun30",
+      "aperture": "PANEL_GUN30_SOURCE_SKIN",
+      "receiver": "BAY_gun30_RECEIVING_VOLUME",
+      "closure": null,
+      "minimum_depth_m": 0.89,
+      "layout_status": "PRESERVED_SOURCE_OR_ILLUSTRATIVE",
+      "control": "gun30",
+      "notes": "Real skin/cabin-wall aperture; enclosed illustrative gun-mount recess. Source port aft door module replaced on gunships.",
+      "visual_validation": "PENDING_CURRENT_EXPORT_RENDER"
+    },
+    {
+      "id": "gun105",
+      "aperture": "PANEL_GUN105_SOURCE_SKIN",
+      "receiver": "BAY_gun105_RECEIVING_VOLUME",
+      "closure": null,
+      "minimum_depth_m": 0.89,
+      "layout_status": "PRESERVED_SOURCE_OR_ILLUSTRATIVE",
+      "control": "gun105",
+      "notes": "Real skin/cabin-wall aperture; enclosed illustrative gun-mount recess. Source port aft door module replaced on gunships.",
+      "visual_validation": "PENDING_CURRENT_EXPORT_RENDER"
+    },
+    {
+      "id": "cargo_ramp",
+      "aperture": "CARGO_APERTURE_ORIGINAL",
+      "receiver": "CARGO_CABIN_PRESERVED",
+      "closure": [
+        "CARGO_LOWER_RAMP_PRESERVED",
+        "CARGO_UPPER_DOOR_PRESERVED"
+      ],
+      "minimum_depth_m": 8.0,
+      "layout_status": "PRESERVED_SOURCE_OR_ILLUSTRATIVE",
+      "control": "cargo_ramp",
+      "notes": "Original full cabin, floor, ribs and aft opening retained. Closing rest reconstructed from original baked part transforms.",
+      "visual_validation": "PENDING_CURRENT_EXPORT_RENDER"
+    },
+    {
+      "id": "crew_door",
+      "aperture": "CREW_APERTURE_CUT",
+      "receiver": "CARGO_CABIN_PRESERVED",
+      "closure": "CREW_AIRSTAIR_DOOR_PRESERVED",
+      "minimum_depth_m": 1.3,
+      "layout_status": "PRESERVED_SOURCE_OR_ILLUSTRATIVE",
+      "control": "crew_door",
+      "notes": "Original exterior and interior blockers removed at original door; original bounded cabin retained.",
+      "visual_validation": "PENDING_CURRENT_EXPORT_RENDER"
+    },
+    {
+      "id": "paratroop_right",
+      "aperture": "PARATROOP_RIGHT_APERTURE_CUT",
+      "receiver": "CARGO_CABIN_PRESERVED",
+      "closure": [
+        "PARATROOP_RIGHT_SOURCE_18",
+        "PARATROOP_RIGHT_SOURCE_19"
+      ],
+      "minimum_depth_m": 2.0,
+      "layout_status": "PRESERVED_SOURCE_OR_ILLUSTRATIVE",
+      "control": "paratroop_right",
+      "notes": "Actual skin/cabin cut; overhead final tilt authored to fit receiving volume.",
+      "visual_validation": "PENDING_CURRENT_EXPORT_RENDER"
+    }
+  ],
+  "acceptance": {
+    "structural": "PENDING_CURRENT_EXPORT_QA",
+    "photographic": "NOT_ACCEPTED",
+    "native_blender": "PENDING",
+    "native_unreal": "NOT_RUN",
+    "continuous_clearance": "NOT_PROVEN",
+    "licensing": "REVIEW_REQUIRED"
+  },
+  "notes": [
+    {
+      "component": "main landing gear well fit",
+      "change": "retained original outer fairing, removed only swept inner wheel corridor; tapered receiver fitted inside original shell and above closed cover",
+      "travel_m": 1.25,
+      "status": "ARTIST_AUTHORED_GEOMETRY_PENDING_CURRENT_EXPORT_QA"
+    },
+    {
+      "component": "cargo ramp internal side clearance",
+      "change": "paired local cabin-rib relief pockets only",
+      "bounds_abs_x": [
+        1.47,
+        1.66
+      ],
+      "bounds_y": [
+        1.85,
+        2.37
+      ],
+      "bounds_z": [
+        5.2,
+        6.32
+      ],
+      "basis": "actual exported triangle crossing coordinates",
+      "acceptance": "REQUIRES_CURRENT_EXPORT_SWEEP"
+    },
+    {
+      "component": "cockpit",
+      "variant": "legacy analogue dial insert",
+      "status": "PHOTO_GUIDED_ILLUSTRATIVE_LAYOUT",
+      "reference": "https://www.dvidshub.net/image/7918484/"
+    },
+    {
+      "component": "cargo ramp outer flange fit",
+      "change": "only measured outer closing-corner flange protrusions trimmed/capped at absolute X1.89m, Y1.90..2.41m, Z5.15..6.11m",
+      "basis": "actual closed-state source ramp/exterior intersections, including prior 4.3mm trim-end contact",
+      "not_changed": "overall airframe scale, central ramp floor and original cabin"
+    },
+    {
+      "component": "nose gear closure fit",
+      "change": "preserved original aft panel translates 0.99m forward and 0.30m upward with 3-degree final tilt into original nose opening; added forward well uses original curved skin leaves",
+      "no_added_bridge_across_source_wheel_hole": true,
+      "status": "ARTIST_AUTHORED_LINKAGE_PENDING_CURRENT_EXPORT_QA"
+    }
+  ]
+}
