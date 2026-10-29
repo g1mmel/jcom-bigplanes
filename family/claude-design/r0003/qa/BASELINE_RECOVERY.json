@@ -1,0 +1,9 @@
+{
+  "author": "claude-design",
+  "source_commit": "e9021ef629be8bb8afb096883d63186afae9dce8",
+  "original_glb_hash_verified": true,
+  "r0002_three_glb_hashes_verified": true,
+  "source": "provided prior-turn filesystem preserved bytes",
+  "baseline_read_only": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002",
+  "status": "candidate inputs recovered; no new validity claim"
+}

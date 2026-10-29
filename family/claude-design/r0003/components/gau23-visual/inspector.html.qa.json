@@ -1,0 +1,29 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "portable_sha256": "08685af0a205911d919e0d54d59216c430dc3669551677ad9f15ba0e1c963e9f",
+  "bytes": 2456965,
+  "embedded_modules": [
+    "three",
+    "c130-controller",
+    "c130-pose-driver",
+    "gltf-loader",
+    "orbit-controls",
+    "c130-buffer-utils"
+  ],
+  "models": [
+    {
+      "id": "gau23-visual",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053"
+    }
+  ],
+  "checks": [
+    "All modules parse",
+    "All module imports resolve within embedded importmap",
+    "Browser-standard gzip DecompressionStream restores exact model bytes",
+    "Embedded model hashes equal delivered GLBs and sidecars",
+    "Declared assets and revision notes embedded"
+  ],
+  "scope": "Dependency/byte integrity; browser WebGL rendering NOT_RUN"
+}

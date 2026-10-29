@@ -1,0 +1,47 @@
+{
+  "revision": "r0003",
+  "author": "claude-design",
+  "original_source_sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+  "outputs": [
+    {
+      "path": "/workspace/scratch/8a5fd93f2c8f/claude-design-c130/family/claude-design/r0003/models/ac130.glb",
+      "bytes": 17480992,
+      "sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+      "nodes": 368,
+      "meshes": 311,
+      "clips": 38
+    },
+    {
+      "path": "/workspace/scratch/8a5fd93f2c8f/claude-design-c130/family/claude-design/r0003/models/ac130j.glb",
+      "bytes": 17247052,
+      "sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+      "nodes": 394,
+      "meshes": 337,
+      "clips": 38
+    },
+    {
+      "path": "/workspace/scratch/8a5fd93f2c8f/claude-design-c130/family/claude-design/r0003/components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "nodes": 103,
+      "meshes": 91,
+      "clips": 4
+    },
+    {
+      "path": "/workspace/scratch/8a5fd93f2c8f/claude-design-c130/family/claude-design/r0003/components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "nodes": 41,
+      "meshes": 28,
+      "clips": 4
+    },
+    {
+      "path": "/workspace/scratch/8a5fd93f2c8f/claude-design-c130/family/claude-design/r0003/components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "nodes": 47,
+      "meshes": 41,
+      "clips": 2
+    }
+  ]
+}

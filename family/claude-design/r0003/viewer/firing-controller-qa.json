@@ -1,0 +1,20 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "controller_sha256": "f799b4ebbdaad6e44cd5406a2defbc823844e7944eba1a1650768b5efe214763",
+  "checks": [
+    "manual recoil recovery before firing",
+    "pause freezes firing timeline",
+    "interrupted reverse returns identical phase",
+    "three visual cycles exactly",
+    "single shot and burst can run concurrently",
+    "full reverse playback",
+    "cycle and manual ownership arbitration",
+    "Actuate everything coverage",
+    "reset clears all firing instances",
+    "ALL-to-manual clears transient cases",
+    "repeated fire reuses one cycle instance",
+    "preset and restart clear firing poses"
+  ],
+  "scope": "Scheduling only. Actual model bindings and geometry are tested separately; no browser rendering, ballistic or native-engine claim."
+}

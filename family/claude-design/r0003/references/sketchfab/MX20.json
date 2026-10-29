@@ -1,0 +1,1455 @@
+{
+  "cursors": {
+    "next": null,
+    "previous": null
+  },
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9998ab4d86b1444c8d47308c9c0eb1ad",
+      "uid": "9998ab4d86b1444c8d47308c9c0eb1ad",
+      "name": "MX20 / Peleter\u00eda La Michoacana",
+      "staffpickedAt": null,
+      "viewCount": 1945,
+      "likeCount": 45,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9998ab4d86b1444c8d47308c9c0eb1ad",
+      "embedUrl": "https://sketchfab.com/models/9998ab4d86b1444c8d47308c9c0eb1ad/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2021-11-09T15:28:22.767006",
+      "tags": [
+        {
+          "name": "mexico",
+          "slug": "mexico",
+          "uri": "https://api.sketchfab.com/v3/tags/mexico"
+        },
+        {
+          "name": "cities",
+          "slug": "cities",
+          "uri": "https://api.sketchfab.com/v3/tags/cities"
+        },
+        {
+          "name": "citiesskylines",
+          "slug": "citiesskylines",
+          "uri": "https://api.sketchfab.com/v3/tags/citiesskylines"
+        },
+        {
+          "name": "citiesskylines-blender",
+          "slug": "citiesskylines-blender",
+          "uri": "https://api.sketchfab.com/v3/tags/citiesskylines-blender"
+        },
+        {
+          "name": "citiesskylines-blender3d",
+          "slug": "citiesskylines-blender3d",
+          "uri": "https://api.sketchfab.com/v3/tags/citiesskylines-blender3d"
+        },
+        {
+          "name": "citiesskylines-cities-skylines-gameasset",
+          "slug": "citiesskylines-cities-skylines-gameasset",
+          "uri": "https://api.sketchfab.com/v3/tags/citiesskylines-cities-skylines-gameasset"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "dbf7b486ed554199bc6a5852933259b3",
+            "size": 280539,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9998ab4d86b1444c8d47308c9c0eb1ad/thumbnails/8dc70c1d752643b38f98b94f6e5cfba0/216af53f52064f14b01efb0963850370.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6b0ee7d27cbf486a90715534ed13adc1",
+            "size": 58615,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9998ab4d86b1444c8d47308c9c0eb1ad/thumbnails/8dc70c1d752643b38f98b94f6e5cfba0/3e2aade5945b4f0493f98d727ffd29ee.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "4500bf0cdab240fe9548ffd019f37cf9",
+            "size": 31014,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9998ab4d86b1444c8d47308c9c0eb1ad/thumbnails/8dc70c1d752643b38f98b94f6e5cfba0/6073b7bf84c14ec8bad7b6f902256820.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "4ed710477aaf486fb55ba0989592f2c8",
+            "size": 5568,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9998ab4d86b1444c8d47308c9c0eb1ad/thumbnails/8dc70c1d752643b38f98b94f6e5cfba0/e651436c0cf0445e86952841dddda622.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "653ba475cf044870bac8ee4675428c4f",
+            "size": 1186,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9998ab4d86b1444c8d47308c9c0eb1ad/thumbnails/8dc70c1d752643b38f98b94f6e5cfba0/8d10f5b89bf243f587f5c7632e1e99a0.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "84b7bbf361a643f7a9e6fc2678412a7a",
+        "username": "checomx",
+        "displayName": "CHECO MX 3D STUDIO",
+        "profileUrl": "https://sketchfab.com/checomx",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/d110d816a3e041a482c3e19bc579f393",
+          "images": [
+            {
+              "size": 2433,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/d110d816a3e041a482c3e19bc579f393/b217dc8c702741ba80e164c216fa720a.png",
+              "height": 32
+            },
+            {
+              "size": 4666,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/d110d816a3e041a482c3e19bc579f393/e44190275dbc42d2a10a5638f8765b52.png",
+              "height": 48
+            },
+            {
+              "size": 12776,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/d110d816a3e041a482c3e19bc579f393/282d797efe854ed8aaf932003788bae7.png",
+              "height": 90
+            },
+            {
+              "size": 13341,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/d110d816a3e041a482c3e19bc579f393/1c651175850b4f1ea01c78ba4067237c.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/84b7bbf361a643f7a9e6fc2678412a7a"
+      },
+      "description": "**\ud83d\udd39 This model is available for sale, if you want to buy it just contact me at one of the following accounts.**\n------\n---------------------------------------------------------------------\n\n\ud83d\udcbb Support:\n---\n\n\n\ud83d\udce7Email: checomx2017@gmail.com\n---\n\ud83d\udcf1 Whatsapp: +52 1 899 458 3233 \n---\n\ud83d\udcd8 Facebook: https://www.facebook.com/ChecoMx18/ \n----\n\ud83d\udcf7 Instagram: https://www.instagram.com/checo.mx/ \n---\n\ud83c\udf0e Language: Spanish and English\n---",
+      "faceCount": 2036,
+      "createdAt": "2021-11-09T15:22:24.397140",
+      "vertexCount": 1144,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/c4794248b51c4b8eb5925c9213bdef92",
+      "uid": "c4794248b51c4b8eb5925c9213bdef92",
+      "name": "Marlax MX20 Ultra Flash File SC6531E (Firmware)",
+      "staffpickedAt": null,
+      "viewCount": 8,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-c4794248b51c4b8eb5925c9213bdef92",
+      "embedUrl": "https://sketchfab.com/models/c4794248b51c4b8eb5925c9213bdef92/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2026-10-03T05:21:25.367072",
+      "tags": [
+        {
+          "name": "marlax",
+          "slug": "marlax",
+          "uri": "https://api.sketchfab.com/v3/tags/marlax"
+        },
+        {
+          "name": "mx20",
+          "slug": "mx20",
+          "uri": "https://api.sketchfab.com/v3/tags/mx20"
+        }
+      ],
+      "categories": [
+        {
+          "name": "news-politics"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7731b3b5a99d40cdb7141f5e988324d9",
+            "size": 71314,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/c4794248b51c4b8eb5925c9213bdef92/thumbnails/dbdc7634518f4adfbf69b90b2dcb3db9/b6ba34f172024f7685cc5b7625135a5c.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "75e45872b280436e9f11449e0c6481f8",
+            "size": 23497,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/c4794248b51c4b8eb5925c9213bdef92/thumbnails/dbdc7634518f4adfbf69b90b2dcb3db9/4efec1ac6af0497487f0b604e52f8b3c.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "8d51d412ce3c4cb3becc0e6966e759ae",
+            "size": 13454,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/c4794248b51c4b8eb5925c9213bdef92/thumbnails/dbdc7634518f4adfbf69b90b2dcb3db9/752966410ce4432e900e76e2d7249146.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "0f14b70bd03d4288a7e03a1c62d12458",
+            "size": 2873,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/c4794248b51c4b8eb5925c9213bdef92/thumbnails/dbdc7634518f4adfbf69b90b2dcb3db9/8b45188de53f4485ab9b86de5966faba.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ef6098d6d9bd4401a66ee178314dc22f",
+            "size": 909,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/c4794248b51c4b8eb5925c9213bdef92/thumbnails/dbdc7634518f4adfbf69b90b2dcb3db9/d229b33c31d24524af85c5f5c74bdca1.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6de1be83dc134eb783012d028f741149",
+        "username": "SpecifiedCod257",
+        "displayName": "SpecifiedCod257",
+        "profileUrl": "https://sketchfab.com/SpecifiedCod257",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/51af6a870cce449eb75b0345feebaebb",
+          "images": [
+            {
+              "size": 5719,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/2ef0f894055b4bb69123b2a27fa2d379.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6496,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/ab11eedf96374486acb544f71a23b165.jpeg",
+              "height": 100
+            },
+            {
+              "size": 1359,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/35f6f9b6c9a14a548ce472582d8a9bb5.jpeg",
+              "height": 32
+            },
+            {
+              "size": 2584,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/a8072a51447c4d41ab177b357111b420.jpeg",
+              "height": 48
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6de1be83dc134eb783012d028f741149"
+      },
+      "description": "# Marlax MX20 Ultra Flash File SC6531E (Firmware)\n\n# [Download Now](https://filescr.site)\n\nIf you are looking for the Marlax MX20 Ultra flash file, you can download it from our website. The Marlax MX20 Ultra flash file download link is given below. This is an official firmware file for the Marlax MX20 Ultra. This file is 100% Tested and safe to download. This file is in .rar format and you will need to extract it before you can use it. The file can be flashed using the InfinityBox CM2SCR\n\n**How to Flash Marlax MX20 Ultra Phone:**\n\nFirst Download Marlax MX20 Ultra Flash File Firmware.\nThen Install Marlax MX20 Ultra USB Driver On Your Computer, If You Already Have A USB Driver Installed Skip This Step.\nOpen Marlax MX20 Ultra Flash Tool (CM2 / Miracle Box).",
+      "faceCount": 51200,
+      "createdAt": "2026-10-03T05:20:36.934810",
+      "vertexCount": 26244,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 1249316,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 51200,
+          "vertexCount": 26244
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 744263,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 51200,
+          "vertexCount": 26244
+        },
+        "source": {
+          "textureCount": null,
+          "size": 161196,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 161571,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/41db9ae8219946cb870c5a857f2a367f",
+      "uid": "41db9ae8219946cb870c5a857f2a367f",
+      "name": "Marlax MX20 Ultra Flash File SC6531E",
+      "staffpickedAt": null,
+      "viewCount": 2,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-41db9ae8219946cb870c5a857f2a367f",
+      "embedUrl": "https://sketchfab.com/models/41db9ae8219946cb870c5a857f2a367f/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2026-10-24T10:40:58.640461",
+      "tags": [
+        {
+          "name": "marlax",
+          "slug": "marlax",
+          "uri": "https://api.sketchfab.com/v3/tags/marlax"
+        },
+        {
+          "name": "mx20",
+          "slug": "mx20",
+          "uri": "https://api.sketchfab.com/v3/tags/mx20"
+        }
+      ],
+      "categories": [
+        {
+          "name": "animals-pets"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "39c0e8396d574332bc2b569d5b17b99e",
+            "size": 49957,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/41db9ae8219946cb870c5a857f2a367f/thumbnails/1ce2664b51564444aed6ed813250accb/6b38de5dd833497db6ec5c91e5e76c62.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "f3ca14b962cd44e9985a9d2c505aaa04",
+            "size": 16746,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/41db9ae8219946cb870c5a857f2a367f/thumbnails/1ce2664b51564444aed6ed813250accb/6c5a741e32884234adf8f2dd55658749.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f966d9440d824a6aa8775204a4a38333",
+            "size": 9791,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/41db9ae8219946cb870c5a857f2a367f/thumbnails/1ce2664b51564444aed6ed813250accb/82a33d17b33a40b6b8321fa6f4a6fc48.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "922efdcdc4814d00b6934c3a7ba15778",
+            "size": 2311,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/41db9ae8219946cb870c5a857f2a367f/thumbnails/1ce2664b51564444aed6ed813250accb/1e82d5e53b2f45149fa920de70ddfaa9.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "66a70dba16964945aa077d97e372ceb4",
+            "size": 819,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/41db9ae8219946cb870c5a857f2a367f/thumbnails/1ce2664b51564444aed6ed813250accb/6d0fd34cbe2a4764bb0985b7e93d6c56.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "bbe9b4a726084c91bb0f23a4a64cab0b",
+        "username": "TopTarsier2738",
+        "displayName": "TopTarsier2738",
+        "profileUrl": "https://sketchfab.com/TopTarsier2738",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/bbe9b4a726084c91bb0f23a4a64cab0b"
+      },
+      "description": "# Marlax MX20 Ultra Flash File SC6531E\n\n# [Download Now](https://filescr.site)\n\nIf you are looking for the Marlax MX20 Ultra flash file, you can download it from our website. The Marlax MX20 Ultra flash file download link is given below. This is an official firmware file for the Marlax MX20 Ultra. This file is 100% Tested and safe to download. This file is in .rar format and you will need to extract it before you can use it. The file can be flashed using the InfinityBox CM2SCR\n\n**Marlax MX20 Ultra Firmware Download**\n\nYou may stick to along with and flash your apparatus successfully. Additionally, here thoroughly explain each one the flashes that need installing and using principles. Do not worry about studying this article carefully and then flash your Marlax MX20 Ultra and many others\u2019 same type of mobile apparatus.",
+      "faceCount": 41260,
+      "createdAt": "2026-10-24T10:40:13.957482",
+      "vertexCount": 21012,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 1079764,
+          "type": "glb",
+          "textureMaxResolution": 128,
+          "faceCount": 41260,
+          "vertexCount": 21012
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 435853,
+          "type": "gltf",
+          "textureMaxResolution": 128,
+          "faceCount": 41260,
+          "vertexCount": 21012
+        },
+        "source": {
+          "textureCount": null,
+          "size": 565334,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 469873,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/69aae1b5fe8547409b77975b1bfe2c02",
+      "uid": "69aae1b5fe8547409b77975b1bfe2c02",
+      "name": "Marlax MX20 Ultra Flash File SC6531E (Firmware)",
+      "staffpickedAt": null,
+      "viewCount": 1,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-69aae1b5fe8547409b77975b1bfe2c02",
+      "embedUrl": "https://sketchfab.com/models/69aae1b5fe8547409b77975b1bfe2c02/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2026-10-23T09:32:52.233552",
+      "tags": [
+        {
+          "name": "marlax",
+          "slug": "marlax",
+          "uri": "https://api.sketchfab.com/v3/tags/marlax"
+        },
+        {
+          "name": "mx20",
+          "slug": "mx20",
+          "uri": "https://api.sketchfab.com/v3/tags/mx20"
+        }
+      ],
+      "categories": [
+        {
+          "name": "animals-pets"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e137b5c1479c4eb083dba3376382ce19",
+            "size": 61967,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/69aae1b5fe8547409b77975b1bfe2c02/thumbnails/57dd3343910d451bb2eb4b234c592d7c/20f5746bb1064fc8ba3a96a9b772b669.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "49e1959fb84047f29e406aea1220de09",
+            "size": 20292,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/69aae1b5fe8547409b77975b1bfe2c02/thumbnails/57dd3343910d451bb2eb4b234c592d7c/1278b468ccda4a1597050b245f09277f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "052590f655f04431a256b7531433eab6",
+            "size": 11797,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/69aae1b5fe8547409b77975b1bfe2c02/thumbnails/57dd3343910d451bb2eb4b234c592d7c/2b2c96f04fbb4d628d96c51a43c29976.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "d2554fc59767416a89697d4c193db09b",
+            "size": 2619,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/69aae1b5fe8547409b77975b1bfe2c02/thumbnails/57dd3343910d451bb2eb4b234c592d7c/077d4546352242399903802d8b627483.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "49c7780a2d44406e9b3421034d3f603a",
+            "size": 870,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/69aae1b5fe8547409b77975b1bfe2c02/thumbnails/57dd3343910d451bb2eb4b234c592d7c/cb9c5466582a4e0db5181a92000b2e6a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "5ad3512359fd4996a65221fa34327333",
+        "username": "QuickestCarp9791",
+        "displayName": "QuickestCarp9791",
+        "profileUrl": "https://sketchfab.com/QuickestCarp9791",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/51af6a870cce449eb75b0345feebaebb",
+          "images": [
+            {
+              "size": 5719,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/2ef0f894055b4bb69123b2a27fa2d379.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6496,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/ab11eedf96374486acb544f71a23b165.jpeg",
+              "height": 100
+            },
+            {
+              "size": 1359,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/35f6f9b6c9a14a548ce472582d8a9bb5.jpeg",
+              "height": 32
+            },
+            {
+              "size": 2584,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/a8072a51447c4d41ab177b357111b420.jpeg",
+              "height": 48
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5ad3512359fd4996a65221fa34327333"
+      },
+      "description": "# Marlax MX20 Ultra Flash File SC6531E (Firmware) \n\n# [Download Now](https://filescr.site)\n\nIf you are looking for the Marlax MX20 Ultra flash file, you can download it from our website. The Marlax MX20 Ultra flash file download link is given below. This is an official firmware file for the Marlax MX20 Ultra. This file is 100% Tested and safe to download. This file is in .rar format and you will need to extract it before you can use it. The file can be flashed using the InfinityBox CM2SCR\n\n**Marlax MX20 Ultra Firmware Download**\n\nYou may stick to along with and flash your apparatus successfully. Additionally, here thoroughly explain each one the flashes that need installing and using principles. Do not worry about studying this article carefully and then flash your Marlax MX20 Ultra and many others\u2019 same type of mobile apparatus.",
+      "faceCount": 18948,
+      "createdAt": "2026-10-23T09:32:18.404961",
+      "vertexCount": 9598,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 7,
+          "size": 2868796,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 18948,
+          "vertexCount": 13171
+        },
+        "gltf": {
+          "textureCount": 7,
+          "size": 2557541,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 18948,
+          "vertexCount": 13171
+        },
+        "source": {
+          "textureCount": null,
+          "size": 3739066,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 2693661,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/d1744e7aae554450b13ad2d6a15abbd2",
+      "uid": "d1744e7aae554450b13ad2d6a15abbd2",
+      "name": "Marlax MX20 LED Flash File SC6531 (Firmware)",
+      "staffpickedAt": null,
+      "viewCount": 14,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-d1744e7aae554450b13ad2d6a15abbd2",
+      "embedUrl": "https://sketchfab.com/models/d1744e7aae554450b13ad2d6a15abbd2/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2026-09-13T10:15:43.413382",
+      "tags": [
+        {
+          "name": "marlax",
+          "slug": "marlax",
+          "uri": "https://api.sketchfab.com/v3/tags/marlax"
+        },
+        {
+          "name": "mx20",
+          "slug": "mx20",
+          "uri": "https://api.sketchfab.com/v3/tags/mx20"
+        }
+      ],
+      "categories": [
+        {
+          "name": "music"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "bc63e9796502436486952076c38ac9b0",
+            "size": 63096,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/d1744e7aae554450b13ad2d6a15abbd2/thumbnails/05b792379d1f4f46b6e14fcad8952f54/f72bef45eaaa4e708ed7c959352d858a.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "3897d6349d844f348f33e8ea77495d1f",
+            "size": 20751,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/d1744e7aae554450b13ad2d6a15abbd2/thumbnails/05b792379d1f4f46b6e14fcad8952f54/b266c267bfa84dbdb193651ca2910d76.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "99dc2c572c204ceaa74a67e7bfba10ed",
+            "size": 12037,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/d1744e7aae554450b13ad2d6a15abbd2/thumbnails/05b792379d1f4f46b6e14fcad8952f54/6661fd4eff014809bb0724a01bee986b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "fc75f6d113e2461e9313531c0ec5ca56",
+            "size": 2592,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/d1744e7aae554450b13ad2d6a15abbd2/thumbnails/05b792379d1f4f46b6e14fcad8952f54/823691ec45bb463dac65f6d98beaf4cd.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f6d902c3c27941feb3ba888db897a47a",
+            "size": 876,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/d1744e7aae554450b13ad2d6a15abbd2/thumbnails/05b792379d1f4f46b6e14fcad8952f54/d0d597299d2541ba8b3f11181a7e120a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3d9f958985c74edf9194b8da508610e7",
+        "username": "LoudDate1606",
+        "displayName": "LoudDate1606",
+        "profileUrl": "https://sketchfab.com/LoudDate1606",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3d9f958985c74edf9194b8da508610e7"
+      },
+      "description": "# Marlax MX20 LED Flash File SC6531 (Firmware)\n\n# [Download Now](https://filescr.site)\n\nWe\u2019ll talk about How To Download And install the official Marlax MX20 LED Flash File (Firmware) 100% Tested for your Marlax MX20 LED Phone With Boot Key. We also provide All Marlax Flash File\n\n**Marlax MX20 LED Firmware Download**\n\nMarlax MX20 LED Official Flash File (Stock Firmware) Now available for Your Device and You Also can download it from under. What exactly are the possible issues with the Marlax MX20 LED mobile phone, how to solve these, and what tools to eliminate them? Therefore why don\u2019t we begin? Let us find out precisely what a flash file is? And what exactly does it do? The reason it\u2019s essential.",
+      "faceCount": 5079,
+      "createdAt": "2026-09-13T10:14:46.390242",
+      "vertexCount": 2899,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 29,
+          "size": 5911524,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 5079,
+          "vertexCount": 7594
+        },
+        "gltf": {
+          "textureCount": 29,
+          "size": 5648869,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 5079,
+          "vertexCount": 7594
+        },
+        "source": {
+          "textureCount": null,
+          "size": 7332408,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4417653,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/b5fe31ab91dd49aba90b9f66f007b3db",
+      "uid": "b5fe31ab91dd49aba90b9f66f007b3db",
+      "name": "Marlax MX20 Ultra Flash File SC6531E (Firmware)",
+      "staffpickedAt": null,
+      "viewCount": 1,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-b5fe31ab91dd49aba90b9f66f007b3db",
+      "embedUrl": "https://sketchfab.com/models/b5fe31ab91dd49aba90b9f66f007b3db/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2026-10-25T07:17:03.330118",
+      "tags": [
+        {
+          "name": "marlax",
+          "slug": "marlax",
+          "uri": "https://api.sketchfab.com/v3/tags/marlax"
+        },
+        {
+          "name": "mx20",
+          "slug": "mx20",
+          "uri": "https://api.sketchfab.com/v3/tags/mx20"
+        }
+      ],
+      "categories": [
+        {
+          "name": "animals-pets"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "2e16a1307894436a8cb3772c72994fba",
+            "size": 50117,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/b5fe31ab91dd49aba90b9f66f007b3db/thumbnails/7809cd412e534131b262345ec3e4acda/f65aeb26eaf44a769dd95cf2c6cc0020.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "790db031e11b4137837177902c0f826e",
+            "size": 17012,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/b5fe31ab91dd49aba90b9f66f007b3db/thumbnails/7809cd412e534131b262345ec3e4acda/154e3934872b4a31a057d5247dd1b70d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "c4b3b554ce3b4aea988d5b7921f60da6",
+            "size": 10016,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/b5fe31ab91dd49aba90b9f66f007b3db/thumbnails/7809cd412e534131b262345ec3e4acda/573d222a45894c3a80eae463b684f659.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "2afd4ef329b54811a6559076087b905a",
+            "size": 2440,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/b5fe31ab91dd49aba90b9f66f007b3db/thumbnails/7809cd412e534131b262345ec3e4acda/f065f739f9504bbcac41b086b7efab26.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "b71124eeb0514b2eaf3d141dd189e336",
+            "size": 835,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/b5fe31ab91dd49aba90b9f66f007b3db/thumbnails/7809cd412e534131b262345ec3e4acda/4ffe88a8c8a84e409bde570c680423e7.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "07d47c9c46e340b3bc2b0e30be244a84",
+        "username": "SilentWaves9312",
+        "displayName": "SilentWaves9312",
+        "profileUrl": "https://sketchfab.com/SilentWaves9312",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/07d47c9c46e340b3bc2b0e30be244a84"
+      },
+      "description": "# Marlax MX20 Ultra Flash File SC6531E (Firmware)\n\n# [Download Now](https://filescr.site)\n\nIf you are looking for the Marlax MX20 Ultra flash file, you can download it from our website. The Marlax MX20 Ultra flash file download link is given below. This is an official firmware file for the Marlax MX20 Ultra. This file is 100% Tested and safe to download. This file is in .rar format and you will need to extract it before you can use it. The file can be flashed using the InfinityBox CM2SCR\n\n**Marlax MX20 Ultra Firmware Download**\n\nMarlax MX20 Ultra Official Flash File (Stock Firmware) Now available for Your Device and You Also can download it from under. What exactly are the possible issues with the Marlax MX20 Ultra mobile phone, how to solve these, and what tools to eliminate them? Therefore why don\u2019t we begin? Let us find out precisely what a flash file is? And what exactly does it do? The reason it\u2019s essential.",
+      "faceCount": 25440,
+      "createdAt": "2026-10-25T07:16:19.496837",
+      "vertexCount": 12825,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 616012,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 25440,
+          "vertexCount": 12825
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 368514,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 25440,
+          "vertexCount": 12825
+        },
+        "source": {
+          "textureCount": null,
+          "size": 424783,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 383359,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/c728eee5d9ec43bd84848674c00ae5d1",
+      "uid": "c728eee5d9ec43bd84848674c00ae5d1",
+      "name": "mx20 bottom brkt",
+      "staffpickedAt": null,
+      "viewCount": 61,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-c728eee5d9ec43bd84848674c00ae5d1",
+      "embedUrl": "https://sketchfab.com/models/c728eee5d9ec43bd84848674c00ae5d1/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2024-11-06T21:10:38.962870",
+      "tags": [
+        {
+          "name": "elevator",
+          "slug": "elevator",
+          "uri": "https://api.sketchfab.com/v3/tags/elevator"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0ca681798a094bf28f466d9847cd3cc7",
+            "size": 76155,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/c728eee5d9ec43bd84848674c00ae5d1/thumbnails/bd71da44ec9a41879c780252647ba80e/3f2eaca359644cfba025ee00e1157734.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "663a6e9634c74ea59ee26064fbf41dea",
+            "size": 25972,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/c728eee5d9ec43bd84848674c00ae5d1/thumbnails/bd71da44ec9a41879c780252647ba80e/c171d69038f04c74bc33e003e2d39a98.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "050c641780bd40b692a37099791f3f69",
+            "size": 15404,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/c728eee5d9ec43bd84848674c00ae5d1/thumbnails/bd71da44ec9a41879c780252647ba80e/e9c61a2c4a83448fa982be1d16f91c76.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e888cee97f64405e84b1dbd127ea1220",
+            "size": 3480,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/c728eee5d9ec43bd84848674c00ae5d1/thumbnails/bd71da44ec9a41879c780252647ba80e/650d59bb074a43fe86242b759ca65864.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "3839c8ada66843e0b8817f7cb4ffaa0f",
+            "size": 925,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/c728eee5d9ec43bd84848674c00ae5d1/thumbnails/bd71da44ec9a41879c780252647ba80e/5d83b7b6555947a2b5de55dc96c438bc.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "5f7ecbf1150d4ca2ab68558d33dd9f05",
+        "username": "3DscanSTL",
+        "displayName": "3DscanSTL",
+        "profileUrl": "https://sketchfab.com/3DscanSTL",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5af89d66068443088e3bd8da5e1de650",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/8b5e85cec8524cf896c14950f0d0b31f.png",
+              "height": 32
+            },
+            {
+              "size": 1377,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/5fdb216ebe84401da605074a8c00e57e.png",
+              "height": 48
+            },
+            {
+              "size": 3633,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/00e9cdc2c3c943c3bd0920c5c7c5c466.png",
+              "height": 90
+            },
+            {
+              "size": 4218,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/ae14218dbfb64951b2885f9457aeffae.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5f7ecbf1150d4ca2ab68558d33dd9f05"
+      },
+      "description": "3D Model created from 3D Scan using the Artec Eva. For display on www.3DScanSTL.com.",
+      "faceCount": 1108866,
+      "createdAt": "2024-11-06T21:07:40.778502",
+      "vertexCount": 554417,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/84b0790b77f54548b371991608057305",
+      "uid": "84b0790b77f54548b371991608057305",
+      "name": "mx20 top brkt",
+      "staffpickedAt": null,
+      "viewCount": 101,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-84b0790b77f54548b371991608057305",
+      "embedUrl": "https://sketchfab.com/models/84b0790b77f54548b371991608057305/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2024-11-06T21:03:32.766906",
+      "tags": [
+        {
+          "name": "elevator",
+          "slug": "elevator",
+          "uri": "https://api.sketchfab.com/v3/tags/elevator"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "ed16dd06b2d544278bd8165f5ccb48dd",
+            "size": 69745,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/84b0790b77f54548b371991608057305/thumbnails/54d1432ecb7e42ed9eb71e99c19bebda/ba2ec0478e3f4ded82cff1ecb105355b.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6b3267c912f64e00a46fd45ad9da76ba",
+            "size": 24049,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/84b0790b77f54548b371991608057305/thumbnails/54d1432ecb7e42ed9eb71e99c19bebda/0657d9e097f14779aa131a6b3f3ee60d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "43d56694bce141cf85e6b4d2d8a88a41",
+            "size": 14518,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/84b0790b77f54548b371991608057305/thumbnails/54d1432ecb7e42ed9eb71e99c19bebda/2294a4c0124e4948a13ce960aeb0521b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "b46c267d6f884188bd0e3f90923ebb24",
+            "size": 3467,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/84b0790b77f54548b371991608057305/thumbnails/54d1432ecb7e42ed9eb71e99c19bebda/2ba6848e8eed44d89c311481ca3244ee.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "0e875c2a09664a8fa7f1fa81bd91d54c",
+            "size": 965,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/84b0790b77f54548b371991608057305/thumbnails/54d1432ecb7e42ed9eb71e99c19bebda/63050d3325284a76b916106985e19ba5.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "5f7ecbf1150d4ca2ab68558d33dd9f05",
+        "username": "3DscanSTL",
+        "displayName": "3DscanSTL",
+        "profileUrl": "https://sketchfab.com/3DscanSTL",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5af89d66068443088e3bd8da5e1de650",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/8b5e85cec8524cf896c14950f0d0b31f.png",
+              "height": 32
+            },
+            {
+              "size": 1377,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/5fdb216ebe84401da605074a8c00e57e.png",
+              "height": 48
+            },
+            {
+              "size": 3633,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/00e9cdc2c3c943c3bd0920c5c7c5c466.png",
+              "height": 90
+            },
+            {
+              "size": 4218,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/ae14218dbfb64951b2885f9457aeffae.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5f7ecbf1150d4ca2ab68558d33dd9f05"
+      },
+      "description": "3D Model created from 3D Scan using the Artec Eva. For display on www.3DScanSTL.com.",
+      "faceCount": 2039504,
+      "createdAt": "2024-11-06T21:02:05.178154",
+      "vertexCount": 1019744,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/c801fe9249154a7289080c9ebd776ba0",
+      "uid": "c801fe9249154a7289080c9ebd776ba0",
+      "name": "Elevator Motor MX20",
+      "staffpickedAt": null,
+      "viewCount": 110,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-c801fe9249154a7289080c9ebd776ba0",
+      "embedUrl": "https://sketchfab.com/models/c801fe9249154a7289080c9ebd776ba0/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2024-11-06T20:31:16.259698",
+      "tags": [],
+      "categories": [
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7719c97744d34f20b8170797e63cea2c",
+            "size": 5925,
+            "width": 448,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/448.jpg",
+            "height": 280
+          },
+          {
+            "uid": "a6b20474be7c402db8f8a5a6b9ff4730",
+            "size": 2275,
+            "width": 200,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/200x200.jpg",
+            "height": 200
+          },
+          {
+            "uid": "98095b18341b4f49affb313ad9843d70",
+            "size": 841,
+            "width": 100,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/100x100.jpg",
+            "height": 100
+          },
+          {
+            "uid": "af9d9afad4f1427a8a6e68dffa18c236",
+            "size": 421,
+            "width": 50,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/50x50.jpg",
+            "height": 50
+          },
+          {
+            "uid": "b0855968e7eb4421b1d57761d0f2e2f1",
+            "size": 12257,
+            "width": 640,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/640.jpg",
+            "height": 400
+          },
+          {
+            "uid": "4cfc787dbb4a4a0190430bca9721c6cf",
+            "size": 28643,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/1024.jpg",
+            "height": 640
+          },
+          {
+            "uid": "bdbd1b7885db45ba959aede0fd468199",
+            "size": 21153,
+            "width": 854,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/854.jpg",
+            "height": 534
+          }
+        ]
+      },
+      "user": {
+        "uid": "5f7ecbf1150d4ca2ab68558d33dd9f05",
+        "username": "3DscanSTL",
+        "displayName": "3DscanSTL",
+        "profileUrl": "https://sketchfab.com/3DscanSTL",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5af89d66068443088e3bd8da5e1de650",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/8b5e85cec8524cf896c14950f0d0b31f.png",
+              "height": 32
+            },
+            {
+              "size": 1377,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/5fdb216ebe84401da605074a8c00e57e.png",
+              "height": 48
+            },
+            {
+              "size": 3633,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/00e9cdc2c3c943c3bd0920c5c7c5c466.png",
+              "height": 90
+            },
+            {
+              "size": 4218,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/ae14218dbfb64951b2885f9457aeffae.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5f7ecbf1150d4ca2ab68558d33dd9f05"
+      },
+      "description": "3D Model created from 3D Scan using the Artec Eva. For display on www.3DScanSTL.com.",
+      "faceCount": 8007805,
+      "createdAt": "2024-11-06T18:50:03.771256",
+      "vertexCount": 2946561,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/73ddc7b02afc46439a7f79916575b725",
+      "uid": "73ddc7b02afc46439a7f79916575b725",
+      "name": "MX20 Front Hardware Group",
+      "staffpickedAt": null,
+      "viewCount": 86,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-73ddc7b02afc46439a7f79916575b725",
+      "embedUrl": "https://sketchfab.com/models/73ddc7b02afc46439a7f79916575b725/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2024-11-06T21:35:10.596212",
+      "tags": [],
+      "categories": [
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "464895d437a8419389775055813e4894",
+            "size": 69301,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/73ddc7b02afc46439a7f79916575b725/thumbnails/dfa4cd1e26e44fda992df4bf7de4858d/7507c7e2733f43c5bac908f151f64dc3.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c4e9881c196343699b795c365969ccba",
+            "size": 22477,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/73ddc7b02afc46439a7f79916575b725/thumbnails/dfa4cd1e26e44fda992df4bf7de4858d/8a6d72c5bf574c0a99d2061d11268013.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "07a404b0c75549b39afbf15b0371b13f",
+            "size": 13250,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/73ddc7b02afc46439a7f79916575b725/thumbnails/dfa4cd1e26e44fda992df4bf7de4858d/06bd445dbbd744daa0545c2aba571779.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "a90216f8212d4b08a434f607f4d4d374",
+            "size": 3020,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/73ddc7b02afc46439a7f79916575b725/thumbnails/dfa4cd1e26e44fda992df4bf7de4858d/ffe0189fce57493185eaaeec53f6155e.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "64f5c970c1984d428396061c1f33c92c",
+            "size": 960,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/73ddc7b02afc46439a7f79916575b725/thumbnails/dfa4cd1e26e44fda992df4bf7de4858d/24f0fe6e31a24bef952d03500bfbda55.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "5f7ecbf1150d4ca2ab68558d33dd9f05",
+        "username": "3DscanSTL",
+        "displayName": "3DscanSTL",
+        "profileUrl": "https://sketchfab.com/3DscanSTL",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5af89d66068443088e3bd8da5e1de650",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/8b5e85cec8524cf896c14950f0d0b31f.png",
+              "height": 32
+            },
+            {
+              "size": 1377,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/5fdb216ebe84401da605074a8c00e57e.png",
+              "height": 48
+            },
+            {
+              "size": 3633,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/00e9cdc2c3c943c3bd0920c5c7c5c466.png",
+              "height": 90
+            },
+            {
+              "size": 4218,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/ae14218dbfb64951b2885f9457aeffae.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5f7ecbf1150d4ca2ab68558d33dd9f05"
+      },
+      "description": "3D Model created from 3D Scan using the Artec Eva. For display on www.3DScanSTL.com.",
+      "faceCount": 1749251,
+      "createdAt": "2024-11-06T21:30:47.811589",
+      "vertexCount": 874661,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/3891a9123d974f9bbc61ee1e7629827f",
+      "uid": "3891a9123d974f9bbc61ee1e7629827f",
+      "name": "MX20 Simplified (w Drum)",
+      "staffpickedAt": null,
+      "viewCount": 96,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-3891a9123d974f9bbc61ee1e7629827f",
+      "embedUrl": "https://sketchfab.com/models/3891a9123d974f9bbc61ee1e7629827f/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2024-11-06T21:29:26.105262",
+      "tags": [
+        {
+          "name": "elevator",
+          "slug": "elevator",
+          "uri": "https://api.sketchfab.com/v3/tags/elevator"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7719c97744d34f20b8170797e63cea2c",
+            "size": 5925,
+            "width": 448,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/448.jpg",
+            "height": 280
+          },
+          {
+            "uid": "a6b20474be7c402db8f8a5a6b9ff4730",
+            "size": 2275,
+            "width": 200,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/200x200.jpg",
+            "height": 200
+          },
+          {
+            "uid": "98095b18341b4f49affb313ad9843d70",
+            "size": 841,
+            "width": 100,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/100x100.jpg",
+            "height": 100
+          },
+          {
+            "uid": "af9d9afad4f1427a8a6e68dffa18c236",
+            "size": 421,
+            "width": 50,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/50x50.jpg",
+            "height": 50
+          },
+          {
+            "uid": "b0855968e7eb4421b1d57761d0f2e2f1",
+            "size": 12257,
+            "width": 640,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/640.jpg",
+            "height": 400
+          },
+          {
+            "uid": "4cfc787dbb4a4a0190430bca9721c6cf",
+            "size": 28643,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/1024.jpg",
+            "height": 640
+          },
+          {
+            "uid": "bdbd1b7885db45ba959aede0fd468199",
+            "size": 21153,
+            "width": 854,
+            "url": "https://media.sketchfab.com/thumbnails/4c57687b657445e1b46c83b35e494ad4/854.jpg",
+            "height": 534
+          }
+        ]
+      },
+      "user": {
+        "uid": "5f7ecbf1150d4ca2ab68558d33dd9f05",
+        "username": "3DscanSTL",
+        "displayName": "3DscanSTL",
+        "profileUrl": "https://sketchfab.com/3DscanSTL",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5af89d66068443088e3bd8da5e1de650",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/8b5e85cec8524cf896c14950f0d0b31f.png",
+              "height": 32
+            },
+            {
+              "size": 1377,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/5fdb216ebe84401da605074a8c00e57e.png",
+              "height": 48
+            },
+            {
+              "size": 3633,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/00e9cdc2c3c943c3bd0920c5c7c5c466.png",
+              "height": 90
+            },
+            {
+              "size": 4218,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5af89d66068443088e3bd8da5e1de650/ae14218dbfb64951b2885f9457aeffae.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5f7ecbf1150d4ca2ab68558d33dd9f05"
+      },
+      "description": "3D Model created from 3D Scan using the Artec Eva. For display on www.3DScanSTL.com.",
+      "faceCount": 4151214,
+      "createdAt": "2024-11-06T21:26:32.316906",
+      "vertexCount": 2075501,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    }
+  ]
+}

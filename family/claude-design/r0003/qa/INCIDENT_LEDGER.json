@@ -1,0 +1,101 @@
+{
+  "author": "claude-design",
+  "chat_code": "cg46",
+  "revision": "r0003",
+  "recorded_utc": "2026-10-29T05:51:50.304530+00:00",
+  "final_model_hashes": {
+    "c130": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+    "ac130": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+    "ac130j": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+    "gau23-visual": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+    "m102-airborne-visual": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+    "eoir-visual": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f"
+  },
+  "overall_acceptance": "DRAFT_SYSTEMS_VISUAL_REVIEW",
+  "native_final_refresh": "COMPLETE_SCOPED_PASS; final exact-hash native evidence indexed in system-review-summary.json",
+  "incidents": [
+    {
+      "id": "R3-001",
+      "issue": "Collection bag surface winding",
+      "correction": "Corrected the collection bag mesh winding in the authored visual component.",
+      "status": "CORRECTED_IN_FROZEN_SOURCE",
+      "recheck": {
+        "format_and_exported_geometry": "PASS on final hashes; gltf-validator-summary.json and system_geometry_report.json",
+        "native_visual_refresh": "PASS for selected final native view(s); see system-review-summary.json for exact source, render and scene hashes",
+        "limit": "Format/runtime results alone do not establish fabric appearance or complete bag/case clearance."
+      }
+    },
+    {
+      "id": "R3-002",
+      "issue": "Aircraft interface ring/boot occlusion by inherited skin",
+      "correction": "Refit the ring, flexible seal and fasteners to sampled inherited fuselage/door skin; maintain real skin/cabin apertures.",
+      "status": "CORRECTED_IN_FROZEN_SOURCE",
+      "recheck": {
+        "exported_geometry": "Current scoped system geometry report and final exact-hash snapshots",
+        "native_visual_refresh": "PASS for selected final native view(s); see system-review-summary.json for exact source, render and scene hashes",
+        "limit": "Fit is to the inherited game mesh, not real aircraft station drawings; exact door-panel contour remains open."
+      }
+    },
+    {
+      "id": "R3-003",
+      "issue": "Solid-looking muzzle flash geometry",
+      "correction": "Replaced the solid-looking flash with soft textured crossed cards, retaining the authored firing-cycle bindings.",
+      "status": "CORRECTED_IN_FROZEN_SOURCE",
+      "recheck": {
+        "embedded_images_and_material_links": "PASS in system_geometry_report.json",
+        "actual_cycle_and_portable_bindings": "PASS in viewer model/firing/portable reports",
+        "native_flash_view_refresh": "PASS for selected final native view(s); see system-review-summary.json for exact source, render and scene hashes",
+        "browser_rendering": "NOT_RUN",
+        "limit": "Soft textured flash observed in the selected native Cycles frame. Browser rendering, photographic exposure/color equivalence and real operation remain unaccepted."
+      }
+    },
+    {
+      "id": "R3-004",
+      "issue": "105 mm empty case intersects illustrative inboard base during descent",
+      "failed_candidate": {
+        "ac130": "a79a67478f31fdb65d2ec10e0d4031e11584bf45b02b2630b4577041f0c86904",
+        "ac130j": "506b4bcc253ed2500a7acf494f95f7613a5377df2a5a25ef450b165bc9ebfef8",
+        "standalone_105": "c35369606ed894c3c660ec0feac0f3e88455841958c9dac55c9f96cec7b2ff87"
+      },
+      "observation": "AABB overlap prompted convex beveled-base face-plane checks; actual case vertices were inside the base around normalized phase 0.578\u20130.625, maximum sampled penetration 0.06449 m.",
+      "correction": "Moved the authored case trajectory farther inboard before descent while preserving the internal collection presentation. The earlier cover obstruction was separately resolved by opening the visual exit cover sideways before case appearance.",
+      "status": "SCOPED_RECHECK_PASS",
+      "recheck": {
+        "report": "../viewer/case-obstruction-qa.json",
+        "sampling": "129 cycle phases; rest aim; actual transformed mesh vertices",
+        "final_overlaps": 0,
+        "minimum_105_base_aabb_gap_m": 0.07385146897961398,
+        "minimum_105_exit_cover_aabb_gap_m": 0.12201562063273741,
+        "limit": "Named case/base/support/cover pairs only. This is not full cabin, all-aim, combined-motion or continuous collision clearance.",
+        "native_case_view": "PASS selected actual controller GUN105_CYCLE_50 cutaway on final aircraft hash; native view alone is not a sweep."
+      }
+    },
+    {
+      "id": "R3-005",
+      "issue": "Lower30 bag base/supports protrude through the narrower inherited fuselage skin after lowering the collection base",
+      "failed_candidate": {
+        "ac130": "8d1fbc1c9b57108b30985b1360e36ba43ff16366c6fda599156cb61e7646cd8b",
+        "ac130j": "c176a15c283ebfaec2f4924492e5df72119f1f9816b0d173aef81449a2042047",
+        "standalone_30": "a150df4d99925450e21de0aa6efe13ff4facb01220eef2da22aec4ee8f33786e"
+      },
+      "observation": "Final exterior30 inspection exposed an unintended horizontal bracket and support feet below the gun boot. A mount-datum inboard check alone had not detected the lower curved-skin protrusion.",
+      "correction": "Moved the outer boundary of the30 base and both support feet inward to the retained skin while preserving the unobstructed internal case-drop presentation.",
+      "status": "SCOPED_RECHECK_PASS",
+      "recheck": {
+        "geometry_report": "system_geometry_report.json; focused_lower_30_skin_probe for both aircraft",
+        "sampling": "24 unique exported rest vertices per named base/support mesh, 72 per assembly, compared along X to original skin at each vertex Y,Z",
+        "minimum_inboard_margins_m": {
+          "gun30_INBOARD_BASE": 0.07277592776471042,
+          "gun30_BASE_SUPPORT_0": 0.10667158848901637,
+          "gun30_BASE_SUPPORT_1": 0.10337098486656848
+        },
+        "native_view": "../previews/system-ac130j-r0003-gun30-rest.png",
+        "native_report": "system-review-ac130j-r0003-rest.json",
+        "native_visual_result": "PASS; unintended lower bracket/support protrusion is absent in the final exterior30 view",
+        "limit": "Only named fixed meshes and sampled rest vertices; no triangle-interior, motion-sweep or real aircraft dimensional claim."
+      }
+    }
+  ],
+  "last_input_refresh_utc": "2026-10-29T05:55:10.740435+00:00",
+  "native_completed_utc": "2026-10-29T06:00:49.297369+00:00"
+}

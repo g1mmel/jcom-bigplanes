@@ -1,0 +1,148 @@
+{
+  "animationCount": 0,
+  "categories": [],
+  "commentCount": 2,
+  "createdAt": "2017-08-14T09:50:13.005082",
+  "embedUrl": "https://sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/embed",
+  "faceCount": 14500,
+  "isAgeRestricted": false,
+  "license": {},
+  "likeCount": 24,
+  "name": "AC-130 - 105mm HC",
+  "publishedAt": "2017-09-04T12:10:46.939296",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [
+    {
+      "name": "howitzer",
+      "slug": "howitzer",
+      "uri": "https://api.sketchfab.com/v3/tags/howitzer"
+    },
+    {
+      "name": "105mm",
+      "slug": "105mm",
+      "uri": "https://api.sketchfab.com/v3/tags/105mm"
+    },
+    {
+      "name": "zombiegunshipsurvival",
+      "slug": "zombiegunshipsurvival",
+      "uri": "https://api.sketchfab.com/v3/tags/zombiegunshipsurvival"
+    },
+    {
+      "name": "flaregames",
+      "slug": "flaregames",
+      "uri": "https://api.sketchfab.com/v3/tags/flaregames"
+    },
+    {
+      "name": "ac-130",
+      "slug": "ac-130",
+      "uri": "https://api.sketchfab.com/v3/tags/ac-130"
+    },
+    {
+      "name": "weapon",
+      "slug": "weapon",
+      "uri": "https://api.sketchfab.com/v3/tags/weapon"
+    },
+    {
+      "name": "gun",
+      "slug": "gun",
+      "uri": "https://api.sketchfab.com/v3/tags/gun"
+    },
+    {
+      "name": "zombie",
+      "slug": "zombie",
+      "uri": "https://api.sketchfab.com/v3/tags/zombie"
+    }
+  ],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "4806d47e992c4ffeb6a7cb9a43463149",
+        "width": 1024,
+        "height": 576,
+        "size": 82715,
+        "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/1024x576.jpeg"
+      },
+      {
+        "uid": "33613e8f660c403a9c4e8960e3822b5f",
+        "width": 720,
+        "height": 405,
+        "size": 40405,
+        "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/720x405.jpeg"
+      },
+      {
+        "uid": "0196199941554961bbbbe14027ffee89",
+        "width": 256,
+        "height": 144,
+        "size": 5915,
+        "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/256x144.jpeg"
+      },
+      {
+        "uid": "b207fab78e154496996706387c621e3f",
+        "width": 64,
+        "height": 36,
+        "size": 1197,
+        "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/64x36.jpeg"
+      }
+    ]
+  },
+  "uid": "68b8a004365a4f4cb3f98727c6f893a9",
+  "uri": "https://api.sketchfab.com/v3/models/68b8a004365a4f4cb3f98727c6f893a9",
+  "user": {
+    "uid": "6b75b525625440fa964e3f1c49ffa84b",
+    "username": "ZombieGunshipSurvival",
+    "displayName": "ZombieGunshipSurvival",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/ZombieGunshipSurvival",
+    "avatar": {
+      "uid": "9f69a7b38a1f44a6aaf079e3438c9a1f",
+      "uri": "https://api.sketchfab.com/v3/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 1170,
+          "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/426734c3f43743158d0d5d23104f9adf.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1998,
+          "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/c6f6a842e25342ee8689ce95bb585c23.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 5275,
+          "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/0a2743f64dcd416584ec4cfd77b77017.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 6068,
+          "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/da85eebbe2e54589b6b1fe41ec1b181e.jpeg"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/6b75b525625440fa964e3f1c49ffa84b"
+  },
+  "vertexCount": 14445,
+  "viewCount": 1982,
+  "viewerUrl": "https://sketchfab.com/3d-models/ac-130-105mm-hc-68b8a004365a4f4cb3f98727c6f893a9",
+  "isDownloadable": false,
+  "isProtected": false,
+  "description": "AC-130 - 105mm HC",
+  "price": null,
+  "downloadCount": 0,
+  "editorUrl": "https://sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "website",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2022-04-15T13:43:52.772300",
+  "pbrType": null,
+  "textureCount": null,
+  "materialCount": 2
+}

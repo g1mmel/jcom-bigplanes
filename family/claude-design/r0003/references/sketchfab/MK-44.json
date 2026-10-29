@@ -1,0 +1,2979 @@
+{
+  "cursors": {
+    "next": null,
+    "previous": null
+  },
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/da15bafcbf0e44769860acf47f194a74",
+      "uid": "da15bafcbf0e44769860acf47f194a74",
+      "name": "Opel Blitz Troop Transport",
+      "staffpickedAt": null,
+      "viewCount": 1252,
+      "likeCount": 14,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-da15bafcbf0e44769860acf47f194a74",
+      "embedUrl": "https://sketchfab.com/models/da15bafcbf0e44769860acf47f194a74/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2018-03-25T21:41:28.710624",
+      "tags": [
+        {
+          "name": "truck",
+          "slug": "truck",
+          "uri": "https://api.sketchfab.com/v3/tags/truck"
+        },
+        {
+          "name": "ww2",
+          "slug": "ww2",
+          "uri": "https://api.sketchfab.com/v3/tags/ww2"
+        },
+        {
+          "name": "transport",
+          "slug": "transport",
+          "uri": "https://api.sketchfab.com/v3/tags/transport"
+        },
+        {
+          "name": "germany",
+          "slug": "germany",
+          "uri": "https://api.sketchfab.com/v3/tags/germany"
+        },
+        {
+          "name": "troop",
+          "slug": "troop",
+          "uri": "https://api.sketchfab.com/v3/tags/troop"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "4fd98d9fbf7047eea2a071841729478b",
+            "size": 35021,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/da15bafcbf0e44769860acf47f194a74/thumbnails/454a80821a524bb5a2321207fc8bbc86/1adac35c4afb453e9967a57758acc60b.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f5602bc33eef4f87b707398f74775b8c",
+            "size": 155147,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/da15bafcbf0e44769860acf47f194a74/thumbnails/454a80821a524bb5a2321207fc8bbc86/a38fe62a385f4a598f12f1116f775ead.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a7c5040b323c45d998b321b83500b7b8",
+            "size": 20294,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/da15bafcbf0e44769860acf47f194a74/thumbnails/454a80821a524bb5a2321207fc8bbc86/392b9e8aa9e84f5a9d8f00756ddea08b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "5241d992fc4a4d99b4fa6c0c00731212",
+            "size": 3962,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/da15bafcbf0e44769860acf47f194a74/thumbnails/454a80821a524bb5a2321207fc8bbc86/263dc849535342259cbf0a797f531a07.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "4573bcac565149b2abd3e31bbc7e8e67",
+            "size": 738,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/da15bafcbf0e44769860acf47f194a74/thumbnails/454a80821a524bb5a2321207fc8bbc86/e722bcbecc3f422c8a4fe527e39fbebd.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c5dffbdf48af4189a345577a303c9b53",
+        "username": "ShinySpiteful",
+        "displayName": "Shiny Spiteful Mk. XIVe",
+        "profileUrl": "https://sketchfab.com/ShinySpiteful",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/159997e05f9146fa9cdbd96d430601b3",
+          "images": [
+            {
+              "size": 661,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/8cb00cb53f354cf4ac7880b18ce2c520.jpeg",
+              "height": 32
+            },
+            {
+              "size": 965,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/ef9ef204119a4f29bd0b474d55019c47.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2463,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/48c275b0d35d4fccb071242f602f30af.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2881,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/97778c30a699458eb3885d217494e6d7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c5dffbdf48af4189a345577a303c9b53"
+      },
+      "description": "Opel Blitz Troop transport variant used by nazi germany in WW2. \nModel for Darkest Hour 44-45 and Ravenfield.\n\nTextures made by General Salmon.\nsketchfab: https://sketchfab.com/G_Salmon",
+      "faceCount": 18650,
+      "createdAt": "2018-03-25T21:14:57.887244",
+      "vertexCount": 10419,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/06189299365f482d9cce8c3959039526",
+      "uid": "06189299365f482d9cce8c3959039526",
+      "name": "Fallout Greaser Character",
+      "staffpickedAt": null,
+      "viewCount": 810,
+      "likeCount": 8,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-06189299365f482d9cce8c3959039526",
+      "embedUrl": "https://sketchfab.com/models/06189299365f482d9cce8c3959039526/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2022-08-19T16:34:56.799530",
+      "tags": [
+        {
+          "name": "mark",
+          "slug": "mark",
+          "uri": "https://api.sketchfab.com/v3/tags/mark"
+        },
+        {
+          "name": "boy",
+          "slug": "boy",
+          "uri": "https://api.sketchfab.com/v3/tags/boy"
+        },
+        {
+          "name": "revolver",
+          "slug": "revolver",
+          "uri": "https://api.sketchfab.com/v3/tags/revolver"
+        },
+        {
+          "name": "post-apocalyptic",
+          "slug": "post-apocalyptic",
+          "uri": "https://api.sketchfab.com/v3/tags/post-apocalyptic"
+        },
+        {
+          "name": "vault",
+          "slug": "vault",
+          "uri": "https://api.sketchfab.com/v3/tags/vault"
+        },
+        {
+          "name": "jacket",
+          "slug": "jacket",
+          "uri": "https://api.sketchfab.com/v3/tags/jacket"
+        },
+        {
+          "name": "repeater",
+          "slug": "repeater",
+          "uri": "https://api.sketchfab.com/v3/tags/repeater"
+        },
+        {
+          "name": "new",
+          "slug": "new",
+          "uri": "https://api.sketchfab.com/v3/tags/new"
+        },
+        {
+          "name": "2000",
+          "slug": "2000",
+          "uri": "https://api.sketchfab.com/v3/tags/2000"
+        },
+        {
+          "name": "jean",
+          "slug": "jean",
+          "uri": "https://api.sketchfab.com/v3/tags/jean"
+        },
+        {
+          "name": "cowboy",
+          "slug": "cowboy",
+          "uri": "https://api.sketchfab.com/v3/tags/cowboy"
+        },
+        {
+          "name": "vegas",
+          "slug": "vegas",
+          "uri": "https://api.sketchfab.com/v3/tags/vegas"
+        },
+        {
+          "name": "kings",
+          "slug": "kings",
+          "uri": "https://api.sketchfab.com/v3/tags/kings"
+        },
+        {
+          "name": "strap",
+          "slug": "strap",
+          "uri": "https://api.sketchfab.com/v3/tags/strap"
+        },
+        {
+          "name": "snakes",
+          "slug": "snakes",
+          "uri": "https://api.sketchfab.com/v3/tags/snakes"
+        },
+        {
+          "name": "vi",
+          "slug": "vi",
+          "uri": "https://api.sketchfab.com/v3/tags/vi"
+        },
+        {
+          "name": "jeans",
+          "slug": "jeans",
+          "uri": "https://api.sketchfab.com/v3/tags/jeans"
+        },
+        {
+          "name": "44",
+          "slug": "44",
+          "uri": "https://api.sketchfab.com/v3/tags/44"
+        },
+        {
+          "name": "pistol",
+          "slug": "pistol",
+          "uri": "https://api.sketchfab.com/v3/tags/pistol"
+        },
+        {
+          "name": "gang",
+          "slug": "gang",
+          "uri": "https://api.sketchfab.com/v3/tags/gang"
+        },
+        {
+          "name": "belt",
+          "slug": "belt",
+          "uri": "https://api.sketchfab.com/v3/tags/belt"
+        },
+        {
+          "name": "mk",
+          "slug": "mk",
+          "uri": "https://api.sketchfab.com/v3/tags/mk"
+        },
+        {
+          "name": "holster",
+          "slug": "holster",
+          "uri": "https://api.sketchfab.com/v3/tags/holster"
+        },
+        {
+          "name": "tunnel",
+          "slug": "tunnel",
+          "uri": "https://api.sketchfab.com/v3/tags/tunnel"
+        },
+        {
+          "name": "magnum",
+          "slug": "magnum",
+          "uri": "https://api.sketchfab.com/v3/tags/magnum"
+        },
+        {
+          "name": "10mm",
+          "slug": "10mm",
+          "uri": "https://api.sketchfab.com/v3/tags/10mm"
+        },
+        {
+          "name": "pip",
+          "slug": "pip",
+          "uri": "https://api.sketchfab.com/v3/tags/pip"
+        },
+        {
+          "name": "pip-boy",
+          "slug": "pip-boy",
+          "uri": "https://api.sketchfab.com/v3/tags/pip-boy"
+        },
+        {
+          "name": "greaser",
+          "slug": "greaser",
+          "uri": "https://api.sketchfab.com/v3/tags/greaser"
+        },
+        {
+          "name": "denim",
+          "slug": "denim",
+          "uri": "https://api.sketchfab.com/v3/tags/denim"
+        },
+        {
+          "name": "character",
+          "slug": "character",
+          "uri": "https://api.sketchfab.com/v3/tags/character"
+        },
+        {
+          "name": "game",
+          "slug": "game",
+          "uri": "https://api.sketchfab.com/v3/tags/game"
+        },
+        {
+          "name": "model",
+          "slug": "model",
+          "uri": "https://api.sketchfab.com/v3/tags/model"
+        },
+        {
+          "name": "design",
+          "slug": "design",
+          "uri": "https://api.sketchfab.com/v3/tags/design"
+        },
+        {
+          "name": "video",
+          "slug": "video",
+          "uri": "https://api.sketchfab.com/v3/tags/video"
+        }
+      ],
+      "categories": [
+        {
+          "name": "characters-creatures"
+        },
+        {
+          "name": "people"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "1154fee5b94e4429b8b2ca305ceca0a9",
+            "size": 88128,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/06189299365f482d9cce8c3959039526/thumbnails/ec8a93b9eb5c4fb39c75dc3c056b8a9e/84cf22597cb049d8bd70a011cf02a5ce.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "1f4781c08da14e0cbefe813d75012878",
+            "size": 27920,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/06189299365f482d9cce8c3959039526/thumbnails/ec8a93b9eb5c4fb39c75dc3c056b8a9e/3bf04597aadc475993c83ed8407e3bb6.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7aaffa205e0c4c9d9ceb5d8544220482",
+            "size": 16127,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/06189299365f482d9cce8c3959039526/thumbnails/ec8a93b9eb5c4fb39c75dc3c056b8a9e/c6158a3d301242de8030bb55f11fe89a.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "ac9f9adbba4d43078ba7c89e9d63e582",
+            "size": 3502,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/06189299365f482d9cce8c3959039526/thumbnails/ec8a93b9eb5c4fb39c75dc3c056b8a9e/9c2ac8bd3d9748e8b0c365af8237c20c.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ecd3a41bdbac48159f724854c9c1b526",
+            "size": 990,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/06189299365f482d9cce8c3959039526/thumbnails/ec8a93b9eb5c4fb39c75dc3c056b8a9e/7cd19fa46db1449e8c8fa205fe752cae.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "96b691c100f44d1dbd8fd8748f495dce",
+        "username": "KaelanL",
+        "displayName": "Kaelan",
+        "profileUrl": "https://sketchfab.com/KaelanL",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/d9f08f577bd0423a86aec17fa6588c5f",
+          "images": [
+            {
+              "size": 2622,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/d9f08f577bd0423a86aec17fa6588c5f/5bc735c8eb2248cebfed1a03cb0cadb4.png",
+              "height": 32
+            },
+            {
+              "size": 5630,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/d9f08f577bd0423a86aec17fa6588c5f/7137416f830e4833ad429d1e566a9ac3.png",
+              "height": 48
+            },
+            {
+              "size": 19366,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/d9f08f577bd0423a86aec17fa6588c5f/f809e77925bf46f684f130c565767c66.png",
+              "height": 90
+            },
+            {
+              "size": 23938,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/d9f08f577bd0423a86aec17fa6588c5f/f68804e6a98f4a0e89911dcf0b7ee58c.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/96b691c100f44d1dbd8fd8748f495dce"
+      },
+      "description": "Made this for my visual design class. A Vault Dweller who has adventured above the surface. He carries a Pip-Boy 2000 Mk VI, 10mm Pistol, .44 Magnum Revolver and a Cowboy Repeater. Took inspiration from greaser gangs, Kings and Tunnel Snakes. Vertex count without hair - 124,034 Face count without hair - 126,943 Tri count without Hair - 246,468",
+      "faceCount": 705205,
+      "createdAt": "2022-08-19T15:58:39.469352",
+      "vertexCount": 492092,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/283d05367c644aeb9d264038ae6b45ef",
+      "uid": "283d05367c644aeb9d264038ae6b45ef",
+      "name": "HCX-23 Beomgorae Drone Carrier V2",
+      "staffpickedAt": null,
+      "viewCount": 763,
+      "likeCount": 21,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-283d05367c644aeb9d264038ae6b45ef",
+      "embedUrl": "https://sketchfab.com/models/283d05367c644aeb9d264038ae6b45ef/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2025-06-17T19:54:21.565320",
+      "tags": [
+        {
+          "name": "warship",
+          "slug": "warship",
+          "uri": "https://api.sketchfab.com/v3/tags/warship"
+        },
+        {
+          "name": "navy",
+          "slug": "navy",
+          "uri": "https://api.sketchfab.com/v3/tags/navy"
+        },
+        {
+          "name": "drone-carrier",
+          "slug": "drone-carrier",
+          "uri": "https://api.sketchfab.com/v3/tags/drone-carrier"
+        },
+        {
+          "name": "hx-32",
+          "slug": "hx-32",
+          "uri": "https://api.sketchfab.com/v3/tags/hx-32"
+        },
+        {
+          "name": "hcx-23",
+          "slug": "hcx-23",
+          "uri": "https://api.sketchfab.com/v3/tags/hcx-23"
+        },
+        {
+          "name": "south-korean-navy",
+          "slug": "south-korean-navy",
+          "uri": "https://api.sketchfab.com/v3/tags/south-korean-navy"
+        },
+        {
+          "name": "stealth-carrier",
+          "slug": "stealth-carrier",
+          "uri": "https://api.sketchfab.com/v3/tags/stealth-carrier"
+        },
+        {
+          "name": "stealth-drone-carrier",
+          "slug": "stealth-drone-carrier",
+          "uri": "https://api.sketchfab.com/v3/tags/stealth-drone-carrier"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f069193966f645c58108b721cb01bed7",
+            "size": 473291,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/283d05367c644aeb9d264038ae6b45ef/thumbnails/49a5c8b84cdf4c4594899404eb3b706a/0b50da0035104e3992fd270eae79e6b0.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "4f5bd84062364e41aff466ef0e107971",
+            "size": 65409,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/283d05367c644aeb9d264038ae6b45ef/thumbnails/49a5c8b84cdf4c4594899404eb3b706a/3a6011faa86947a8862131175154a1a7.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "30ccd23e8f0c48488b53762d9d510fc6",
+            "size": 32918,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/283d05367c644aeb9d264038ae6b45ef/thumbnails/49a5c8b84cdf4c4594899404eb3b706a/99516bfb57e9480598055e9101a14d5c.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "37ed1722a75a4f5e80fb99011ea39b4a",
+            "size": 6204,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/283d05367c644aeb9d264038ae6b45ef/thumbnails/49a5c8b84cdf4c4594899404eb3b706a/16bf95a0c07342cca70b33f5e83480f1.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "0af0ca0685db4b59b067ca0627b76c28",
+            "size": 1338,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/283d05367c644aeb9d264038ae6b45ef/thumbnails/49a5c8b84cdf4c4594899404eb3b706a/a3ec5824519346e5b28c6f7d073be9cf.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "0d94a8c903a9414fb485f67623c8a942",
+        "username": "jloiacono82",
+        "displayName": "Late Nite Game Studios",
+        "profileUrl": "https://sketchfab.com/jloiacono82",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5d52d06fcf6847f3be8e8716b27773c6",
+          "images": [
+            {
+              "size": 1425,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/7ed033524805497fbbee4cb3571ce3af.png",
+              "height": 32
+            },
+            {
+              "size": 2701,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/8d25c28a7d0442f8ab4fac9f6e3f111a.png",
+              "height": 48
+            },
+            {
+              "size": 7571,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/5ba4eebf33154faf9488ee27c7cedf79.png",
+              "height": 90
+            },
+            {
+              "size": 9121,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/4d6c8d2464034e37a95d24be79bce0b6.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0d94a8c903a9414fb485f67623c8a942"
+      },
+      "description": "The Beomgorae -Class is a cutting-edge South Korean multi-domain drone carrier designed for advanced naval warfare. Its forward flight deck supports launch and recovery of aerial drones, including the MQ-9N, MQ-180, VQ-44, and MQ-8B. It also deploys unmanned surface and sub-surface drones, all coordinated through a centralized digital control center. Armament includes a 57mm naval cannon, 3x SeaRAM CIWS, 2x Mk 42 torpedo launchers, 2x Mk 41 VLS cells, and 8x long-range anti-ship missiles. Defensive systems feature ANQ-32 electronic warfare suites and MASS IR decoys for countermeasure coverage.\n\nLearn more at https://discord.gg/tCAJpmA",
+      "faceCount": 1425306,
+      "createdAt": "2025-06-17T19:27:11.434482",
+      "vertexCount": 767348,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ff2c91a704b14419b235900cf4955a6a",
+      "uid": "ff2c91a704b14419b235900cf4955a6a",
+      "name": "PL-93 Wakasa(\u308f\u304b\u3055)\uff1aJapan Coast Guard Patrol Ship",
+      "staffpickedAt": null,
+      "viewCount": 1772,
+      "likeCount": 20,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ff2c91a704b14419b235900cf4955a6a",
+      "embedUrl": "https://sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2023-12-18T09:13:18.273390",
+      "tags": [
+        {
+          "name": "japan",
+          "slug": "japan",
+          "uri": "https://api.sketchfab.com/v3/tags/japan"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e7db50cdd10c4d738f2d06fc37a9eb6c",
+            "size": 102536,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/0b723b1bc816415291bbc864d1114e49.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "b8a6c8f4956143be9109da0f97a831c1",
+            "size": 35358,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/e177320f542d45c1b4d44e01406b31b7.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "b1b51e7a9b6949b2be5918fa295b82dc",
+            "size": 21326,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/79b39065a3e8478bbebe8fb62f1024d1.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "1f8739b73cd54e9fb0c850e1ceb36843",
+            "size": 4789,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/1f69c711412c4bd8807d9fca76d30a05.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "341160eced284a8dab9809e8be0820eb",
+            "size": 1079,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/e237340bdd8245c1aa17d03228820f60.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "ff20b355d6d54004968cf5d851e50751",
+        "username": "YumeMaiMfg",
+        "displayName": "YumeMaizuruMfg",
+        "profileUrl": "https://sketchfab.com/YumeMaiMfg",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/d32368370a8f4c9aa8e826ce88f7157c",
+          "images": [
+            {
+              "size": 2616,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/9dd48634f03c4762a5110c3f17ba3bc0.png",
+              "height": 32
+            },
+            {
+              "size": 5346,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/025a06af53b2466c87656f8869997f22.png",
+              "height": 48
+            },
+            {
+              "size": 16775,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/70a27c99abd5412e9167e365ca585c56.png",
+              "height": 90
+            },
+            {
+              "size": 20345,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/07bb2bcd718b4d1da52f6f31e4ccc6c2.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ff20b355d6d54004968cf5d851e50751"
+      },
+      "description": "We built a Japanese patrol boat called Wakasa. Some historical facts and equipment are different, but they are almost the same.\n\nspec\n\nShip type: 1000 ton patrol boat (with helicopter deck)\nTotal length 96 meters\nTotal tonnage: 1,500 tons\n\nMk 44 Bushmaster II 30\uff4d\uff4d  x\uff11\nFCS  x 1\nRemote water cannon x 1\nStop command display device  x 2\n\nI would be happy if you liked it.\nThanks for watching always!",
+      "faceCount": 531809,
+      "createdAt": "2023-12-18T08:57:39.809841",
+      "vertexCount": 289094,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/294acdf417734cb68fb974e737f18e9f",
+      "uid": "294acdf417734cb68fb974e737f18e9f",
+      "name": "HC MK II 8000 Lb.",
+      "staffpickedAt": null,
+      "viewCount": 98,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-294acdf417734cb68fb974e737f18e9f",
+      "embedUrl": "https://sketchfab.com/models/294acdf417734cb68fb974e737f18e9f/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2025-11-10T21:37:03.269943",
+      "tags": [
+        {
+          "name": "bomb",
+          "slug": "bomb",
+          "uri": "https://api.sketchfab.com/v3/tags/bomb"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        },
+        {
+          "name": "british-bomb",
+          "slug": "british-bomb",
+          "uri": "https://api.sketchfab.com/v3/tags/british-bomb"
+        },
+        {
+          "name": "ww-ii-weapon",
+          "slug": "ww-ii-weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/ww-ii-weapon"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "61f9d26fc9c744dc9eb0d81d0639e6aa",
+            "size": 95374,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/294acdf417734cb68fb974e737f18e9f/thumbnails/0f75ed6446974975a49f770dde647575/7d1cf2a41c6746fc8e125fc8b252fcf3.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "dc48324afea545d88b307eaa19223cae",
+            "size": 33328,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/294acdf417734cb68fb974e737f18e9f/thumbnails/0f75ed6446974975a49f770dde647575/71e116cf99ce4ff69015e97536ea5a02.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7c234e7609a54648bdb3fb0b888412fc",
+            "size": 19739,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/294acdf417734cb68fb974e737f18e9f/thumbnails/0f75ed6446974975a49f770dde647575/52ac1b0730324b198e31ffd0811bfd1a.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "076c9967cb4449c9a06856068ae23cb1",
+            "size": 4330,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/294acdf417734cb68fb974e737f18e9f/thumbnails/0f75ed6446974975a49f770dde647575/d2275460291f472db6b36227eb30e7de.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "d4c8e520f42743758e0beec2c99873e6",
+            "size": 1054,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/294acdf417734cb68fb974e737f18e9f/thumbnails/0f75ed6446974975a49f770dde647575/ce4308e38ba548169e49a73e9954e95d.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "ef2ef1c4c8114ed19968873e60f2ba7c",
+        "username": "e.brito",
+        "displayName": "Edgar Brito",
+        "profileUrl": "https://sketchfab.com/e.brito",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3df7e4f9fec94f00b66ce196761686a7",
+          "images": [
+            {
+              "size": 2263,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3df7e4f9fec94f00b66ce196761686a7/e6d33a9d2bc8466687fc5a77ce3a7c34.png",
+              "height": 32
+            },
+            {
+              "size": 4555,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3df7e4f9fec94f00b66ce196761686a7/1929019b0ce64d45a22da00538e5bf23.png",
+              "height": 48
+            },
+            {
+              "size": 14091,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3df7e4f9fec94f00b66ce196761686a7/48cc92bff73d431391f35ec337d4038c.png",
+              "height": 90
+            },
+            {
+              "size": 17136,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3df7e4f9fec94f00b66ce196761686a7/bc04d58b5af044ddb1f38b005cd3ec80.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ef2ef1c4c8114ed19968873e60f2ba7c"
+      },
+      "description": "8,000-lb HC Bomb Mk II \u2013 Operation Gomorrah, July 1943\n\nThe 8,000-lb High Capacity (HC) Bomb Mk II was a British blast weapon designed for maximum destructive effect against urban and industrial targets. It featured a thin-walled steel casing to allow for a high explosive filling ratio, typically Amatol comprising up to 70% of total weight. The bomb was constructed in two cylindrical sections joined by a bolted flange. \nFuzing was achieved via a nose-mounted 3 Pitols No. 44 Mk I The pistol provided instantaneous detonation on impact, maximizing blast radius before incendiaries were deployed.\nThe Mk II was carried exclusively by Avro Lancaster bombers, which could accommodate its large size in their bomb bays. During Operation Gomorrah, Hamburg, July 1943 in July 1943, the bomb was used to flatten buildings and expose interiors.\nThis model is a personal artistic creation nor a faithful reproduction of historical data.",
+      "faceCount": 624032,
+      "createdAt": "2025-11-10T21:18:05.787622",
+      "vertexCount": 312282,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/f1495bc315284536b87abc35fc3ca134",
+      "uid": "f1495bc315284536b87abc35fc3ca134",
+      "name": "Hellenic Coast Guard",
+      "staffpickedAt": null,
+      "viewCount": 2185,
+      "likeCount": 13,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-f1495bc315284536b87abc35fc3ca134",
+      "embedUrl": "https://sketchfab.com/models/f1495bc315284536b87abc35fc3ca134/embed",
+      "commentCount": 4,
+      "isDownloadable": false,
+      "publishedAt": "2023-02-09T09:02:57.873259",
+      "tags": [
+        {
+          "name": "greek",
+          "slug": "greek",
+          "uri": "https://api.sketchfab.com/v3/tags/greek"
+        },
+        {
+          "name": "coast",
+          "slug": "coast",
+          "uri": "https://api.sketchfab.com/v3/tags/coast"
+        },
+        {
+          "name": "vessel",
+          "slug": "vessel",
+          "uri": "https://api.sketchfab.com/v3/tags/vessel"
+        },
+        {
+          "name": "guard",
+          "slug": "guard",
+          "uri": "https://api.sketchfab.com/v3/tags/guard"
+        },
+        {
+          "name": "hellenic",
+          "slug": "hellenic",
+          "uri": "https://api.sketchfab.com/v3/tags/hellenic"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        },
+        {
+          "name": "boat",
+          "slug": "boat",
+          "uri": "https://api.sketchfab.com/v3/tags/boat"
+        },
+        {
+          "name": "lambro",
+          "slug": "lambro",
+          "uri": "https://api.sketchfab.com/v3/tags/lambro"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "43acc38f5187409c9ed8baf2e5dde7e3",
+            "size": 125382,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/f1495bc315284536b87abc35fc3ca134/thumbnails/4a92701dfe6d4504aad7c304c0e0da20/db62f518da0b4a4d9ca3fb004cc58e8c.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a774672305f4453487f798684a5b2786",
+            "size": 45992,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/f1495bc315284536b87abc35fc3ca134/thumbnails/4a92701dfe6d4504aad7c304c0e0da20/f7aa6d14e30e46c08d4e29787bd1b30a.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "ff9eb36917f84b2c9552c383ec2fccc3",
+            "size": 27874,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/f1495bc315284536b87abc35fc3ca134/thumbnails/4a92701dfe6d4504aad7c304c0e0da20/8495ff60ccb144cf89cba48c0bf8127b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "503ea38f50a94179bb00484b4070ee9e",
+            "size": 6200,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/f1495bc315284536b87abc35fc3ca134/thumbnails/4a92701dfe6d4504aad7c304c0e0da20/da76cfef915f4182af80d709dff9945f.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "5321e82e1f6940da8a4703bd3fbecf23",
+            "size": 1222,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/f1495bc315284536b87abc35fc3ca134/thumbnails/4a92701dfe6d4504aad7c304c0e0da20/14055111690a457aae0bd1c291e61bd4.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c0d4c272d90f47bba73bb4e556ad55d8",
+        "username": "3dship.net",
+        "displayName": "3dship.net",
+        "profileUrl": "https://sketchfab.com/3dship.net",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/d2b349750f0a4316805d0eed8dc5b607",
+          "images": [
+            {
+              "size": 1098,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/d2b349750f0a4316805d0eed8dc5b607/e9e9c44a87c14bb99367a0d251fe9fcd.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1333,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/d2b349750f0a4316805d0eed8dc5b607/d66b4c29e36045dda1382ababfac2d14.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2605,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/d2b349750f0a4316805d0eed8dc5b607/f3af96a70dce42c6b45cf49129d95273.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2777,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/d2b349750f0a4316805d0eed8dc5b607/9174edfe5ef04c799782fe0d56b7910a.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c0d4c272d90f47bba73bb4e556ad55d8"
+      },
+      "description": "Hellenic Coast Guard - Lambro 57 Panther Mk II\n\nFrom Wikipedia,\n\nThe Panther 57 Fast Patrol Boat is an evolution of the Lambro 57 coastal patrol boat, built by MotoMarine, a Greek company formerly known as Lambro boats. The Mark I model has a displacement of 28 long tons (28 t), an overall length of 18.2 m (59 ft 9 in), and a maximum speed of 44 knots (81 km/h; 51 mph), and is armed with a M2 Browning machine gun.\n\nThis particular model, and its predecessors, have been among the key types employed by the Hellenic Coast Guard.",
+      "faceCount": 45146,
+      "createdAt": "2023-02-09T08:52:03.043346",
+      "vertexCount": 24600,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 10,
+          "size": 8314636,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 45130,
+          "vertexCount": 46570
+        },
+        "gltf": {
+          "textureCount": 10,
+          "size": 6511988,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 45130,
+          "vertexCount": 46570
+        },
+        "source": {
+          "textureCount": null,
+          "size": 11450144,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 1733143,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/b851ed8d45b24ef592d6c4d36d54537f",
+      "uid": "b851ed8d45b24ef592d6c4d36d54537f",
+      "name": "STG44",
+      "staffpickedAt": null,
+      "viewCount": 13101,
+      "likeCount": 3,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-b851ed8d45b24ef592d6c4d36d54537f",
+      "embedUrl": "https://sketchfab.com/models/b851ed8d45b24ef592d6c4d36d54537f/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2017-09-02T16:51:03.657384",
+      "tags": [
+        {
+          "name": "ww2",
+          "slug": "ww2",
+          "uri": "https://api.sketchfab.com/v3/tags/ww2"
+        },
+        {
+          "name": "germany",
+          "slug": "germany",
+          "uri": "https://api.sketchfab.com/v3/tags/germany"
+        },
+        {
+          "name": "44",
+          "slug": "44",
+          "uri": "https://api.sketchfab.com/v3/tags/44"
+        },
+        {
+          "name": "stg44",
+          "slug": "stg44",
+          "uri": "https://api.sketchfab.com/v3/tags/stg44"
+        },
+        {
+          "name": "sturmgewehr",
+          "slug": "sturmgewehr",
+          "uri": "https://api.sketchfab.com/v3/tags/sturmgewehr"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8e1fd1dd51094d3992e1100feb87e3bc",
+            "size": 50730,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/b851ed8d45b24ef592d6c4d36d54537f/thumbnails/b42643c4906a43cab2136436e8407f2c/d788f0079ca041b99b35f79e231e3380.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "d79112af341241b6896318f273ba4494",
+            "size": 17512,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/b851ed8d45b24ef592d6c4d36d54537f/thumbnails/b42643c4906a43cab2136436e8407f2c/590f31a1fd7b41ec8aeed1d23df955b1.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "9e150971023a4be089cf2b8cdc79e981",
+            "size": 10830,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/b851ed8d45b24ef592d6c4d36d54537f/thumbnails/b42643c4906a43cab2136436e8407f2c/1a4dcb55cfde4a4f976f1d88da956f6e.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "3b38223ecd4c4da6b7fd44e6a7fafdb9",
+            "size": 2582,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/b851ed8d45b24ef592d6c4d36d54537f/thumbnails/b42643c4906a43cab2136436e8407f2c/ff3876ce49204fea988efbf185b17e28.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "e64c86d29aa94c54bf7650e90ecbdc6e",
+            "size": 622,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/b851ed8d45b24ef592d6c4d36d54537f/thumbnails/b42643c4906a43cab2136436e8407f2c/8fedf2f7760246789c10e48414f88cc3.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c5dffbdf48af4189a345577a303c9b53",
+        "username": "ShinySpiteful",
+        "displayName": "Shiny Spiteful Mk. XIVe",
+        "profileUrl": "https://sketchfab.com/ShinySpiteful",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/159997e05f9146fa9cdbd96d430601b3",
+          "images": [
+            {
+              "size": 661,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/8cb00cb53f354cf4ac7880b18ce2c520.jpeg",
+              "height": 32
+            },
+            {
+              "size": 965,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/ef9ef204119a4f29bd0b474d55019c47.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2463,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/48c275b0d35d4fccb071242f602f30af.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2881,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/97778c30a699458eb3885d217494e6d7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c5dffbdf48af4189a345577a303c9b53"
+      },
+      "description": "This model is done and ready for in ravenfield.\n\n15-11-2018\nUpdated the textures so the gun looks cooler.",
+      "faceCount": 14660,
+      "createdAt": "2017-09-02T16:48:40.661951",
+      "vertexCount": 7440,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ccb0703492cf488aaeadab083f09e6e3",
+      "uid": "ccb0703492cf488aaeadab083f09e6e3",
+      "name": "M4A2 Sherman",
+      "staffpickedAt": null,
+      "viewCount": 16907,
+      "likeCount": 2,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ccb0703492cf488aaeadab083f09e6e3",
+      "embedUrl": "https://sketchfab.com/models/ccb0703492cf488aaeadab083f09e6e3/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2019-04-03T17:13:15.028096",
+      "tags": [
+        {
+          "name": "m4",
+          "slug": "m4",
+          "uri": "https://api.sketchfab.com/v3/tags/m4"
+        },
+        {
+          "name": "ww2",
+          "slug": "ww2",
+          "uri": "https://api.sketchfab.com/v3/tags/ww2"
+        },
+        {
+          "name": "american",
+          "slug": "american",
+          "uri": "https://api.sketchfab.com/v3/tags/american"
+        },
+        {
+          "name": "sherman",
+          "slug": "sherman",
+          "uri": "https://api.sketchfab.com/v3/tags/sherman"
+        },
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "a2",
+          "slug": "a2",
+          "uri": "https://api.sketchfab.com/v3/tags/a2"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "a454c942aee24c29b4c7c02bafeea0d4",
+            "size": 231608,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ccb0703492cf488aaeadab083f09e6e3/thumbnails/ee2d95cecb4c4889b0e7a322b4c4cb5b/9b01f3825ab1491cb6fb9983e938cd16.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c164cb47206140c383bb498a3955b6fb",
+            "size": 61971,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ccb0703492cf488aaeadab083f09e6e3/thumbnails/ee2d95cecb4c4889b0e7a322b4c4cb5b/04c3c8c3d92242b3a7554c5de50d97d8.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "d66d68836975446f9646927459f70b39",
+            "size": 30619,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ccb0703492cf488aaeadab083f09e6e3/thumbnails/ee2d95cecb4c4889b0e7a322b4c4cb5b/bce85bd6f0f1475ba1894648411f07eb.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "85ea3234455147c0a2fc29e94e5fdae9",
+            "size": 4700,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ccb0703492cf488aaeadab083f09e6e3/thumbnails/ee2d95cecb4c4889b0e7a322b4c4cb5b/7a5e368437a1493185965a69a36c9662.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "39ec575bc615436184599ca1e268e87b",
+            "size": 726,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ccb0703492cf488aaeadab083f09e6e3/thumbnails/ee2d95cecb4c4889b0e7a322b4c4cb5b/9b1f9a90442a4ab5be3a6a4beed16427.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c5dffbdf48af4189a345577a303c9b53",
+        "username": "ShinySpiteful",
+        "displayName": "Shiny Spiteful Mk. XIVe",
+        "profileUrl": "https://sketchfab.com/ShinySpiteful",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/159997e05f9146fa9cdbd96d430601b3",
+          "images": [
+            {
+              "size": 661,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/8cb00cb53f354cf4ac7880b18ce2c520.jpeg",
+              "height": 32
+            },
+            {
+              "size": 965,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/ef9ef204119a4f29bd0b474d55019c47.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2463,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/48c275b0d35d4fccb071242f602f30af.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2881,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/97778c30a699458eb3885d217494e6d7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c5dffbdf48af4189a345577a303c9b53"
+      },
+      "description": "M4A2 Sherman made for warfare 44. Textured by myself for sketchfab.\nM4A2 Sherman was used by the allies in normandy featuring a new turret design and a heavier 76mm gun.",
+      "faceCount": 71824,
+      "createdAt": "2019-04-03T16:50:17.835123",
+      "vertexCount": 44503,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/2a406f9690b44adbadfe5bf18de596d6",
+      "uid": "2a406f9690b44adbadfe5bf18de596d6",
+      "name": "Lucerna Lamp ME5032 Evora, Portugal",
+      "staffpickedAt": null,
+      "viewCount": 266,
+      "likeCount": 17,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-2a406f9690b44adbadfe5bf18de596d6",
+      "embedUrl": "https://sketchfab.com/models/2a406f9690b44adbadfe5bf18de596d6/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-01-14T15:31:08.626407",
+      "tags": [
+        {
+          "name": "portugal",
+          "slug": "portugal",
+          "uri": "https://api.sketchfab.com/v3/tags/portugal"
+        },
+        {
+          "name": "pottery",
+          "slug": "pottery",
+          "uri": "https://api.sketchfab.com/v3/tags/pottery"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "museum",
+          "slug": "museum",
+          "uri": "https://api.sketchfab.com/v3/tags/museum"
+        },
+        {
+          "name": "roman",
+          "slug": "roman",
+          "uri": "https://api.sketchfab.com/v3/tags/roman"
+        },
+        {
+          "name": "alentejo",
+          "slug": "alentejo",
+          "uri": "https://api.sketchfab.com/v3/tags/alentejo"
+        },
+        {
+          "name": "gdh",
+          "slug": "gdh",
+          "uri": "https://api.sketchfab.com/v3/tags/gdh"
+        },
+        {
+          "name": "realitycapture",
+          "slug": "realitycapture",
+          "uri": "https://api.sketchfab.com/v3/tags/realitycapture"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "globaldigitalheritage",
+          "slug": "globaldigitalheritage",
+          "uri": "https://api.sketchfab.com/v3/tags/globaldigitalheritage"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "5bbdac2df79c42aba380f967a954c9c0",
+            "size": 160826,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/2a406f9690b44adbadfe5bf18de596d6/thumbnails/8084e3616c174431962c844dfa9b72fe/c697ed6c1e9e4672a90116026f0a52f9.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "10e9a222c04f442bae7769b8dc6621f2",
+            "size": 50785,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/2a406f9690b44adbadfe5bf18de596d6/thumbnails/8084e3616c174431962c844dfa9b72fe/030855fcc1cf4d17b582a55b0de8518f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "29651f236a54416b8e8fe05562f4542a",
+            "size": 28161,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/2a406f9690b44adbadfe5bf18de596d6/thumbnails/8084e3616c174431962c844dfa9b72fe/29f560687f7c4c56a323a0cf8f5ad202.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "64411ddbcc12413e831856b9685faee5",
+            "size": 5325,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/2a406f9690b44adbadfe5bf18de596d6/thumbnails/8084e3616c174431962c844dfa9b72fe/470d16e413674fca9c3df43ef0f5a543.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ed859e6a70f64d63b45d79b114c21a20",
+            "size": 1228,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/2a406f9690b44adbadfe5bf18de596d6/thumbnails/8084e3616c174431962c844dfa9b72fe/cf635e6daaca41f58208c1b011be00c0.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c6c27d4322fe41c4a157d96f56c47fd3",
+        "username": "GlobalDigitalHeritage",
+        "displayName": "Global Digital Heritage and GDH-Afrika",
+        "profileUrl": "https://sketchfab.com/GlobalDigitalHeritage",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/048fd93d0fc44a05b7b0b573d6f68f14.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1639,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/aed12b256e7246bdaac23a9e7c8a3af5.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3452,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/d367232573314438948472d97ccc8aa9.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/7c5a7134a0aa432a874fbe51a30f9b6d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c6c27d4322fe41c4a157d96f56c47fd3"
+      },
+      "description": "Roman clay lamp (lucerna) dated in the 1st century BC, of unknown origin. Lamps fueled with olive oil and other vegetable oils were very common in the Roman world to provide artificial light. Partially decorated annular wing with two parallel grooves. Flat base with incised ring. The specimen presents 6,5 cm in height and 12,5 cm in long. It is currently preserved in the Frei Manuel do Cen\u00e1culo National Museum (\u00c9vora, Portugal). Catalog No. ME5032.\n\n342 photos from Canon 5D Mk IV. Completely processed (aligned, scaled, meshed, cleaned, simplified, unwrapped, textured) in Reality Capture. FERREIRA DE ALMEIDA, Jos\u00e9 Antonio - \"Introdu\u00e7\u00e3o ao estudo das lucernas em Portugal\" in O Arque\u00f3logo Portugu\u00eas, Nova S\u00e9rie, II. Lisboa: 1953, p. 162.\n\nSOUSA, J.J. Rigaud de - \"Invent\u00e1rio de materiais para a arqueologia bracarense\" in Bracara Augusta, vol. XX, n\u00ba 43-44 (55-56). Braga: 1966, pp. 165-178.",
+      "faceCount": 941561,
+      "createdAt": "2020-01-08T21:48:34.268629",
+      "vertexCount": 471139,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 42105024,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 941561,
+          "vertexCount": 607849
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 23278366,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 941561,
+          "vertexCount": 607849
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 21439,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 102000195,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 23988105,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/0ee59b8bb7214c2a9eac129499f49441",
+      "uid": "0ee59b8bb7214c2a9eac129499f49441",
+      "name": "StG44",
+      "staffpickedAt": null,
+      "viewCount": 37299,
+      "likeCount": 2,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-0ee59b8bb7214c2a9eac129499f49441",
+      "embedUrl": "https://sketchfab.com/models/0ee59b8bb7214c2a9eac129499f49441/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2019-08-03T09:45:35.615847",
+      "tags": [
+        {
+          "name": "ww2",
+          "slug": "ww2",
+          "uri": "https://api.sketchfab.com/v3/tags/ww2"
+        },
+        {
+          "name": "mp",
+          "slug": "mp",
+          "uri": "https://api.sketchfab.com/v3/tags/mp"
+        },
+        {
+          "name": "germany",
+          "slug": "germany",
+          "uri": "https://api.sketchfab.com/v3/tags/germany"
+        },
+        {
+          "name": "44",
+          "slug": "44",
+          "uri": "https://api.sketchfab.com/v3/tags/44"
+        },
+        {
+          "name": "stg44",
+          "slug": "stg44",
+          "uri": "https://api.sketchfab.com/v3/tags/stg44"
+        },
+        {
+          "name": "gewehr",
+          "slug": "gewehr",
+          "uri": "https://api.sketchfab.com/v3/tags/gewehr"
+        },
+        {
+          "name": "mp44",
+          "slug": "mp44",
+          "uri": "https://api.sketchfab.com/v3/tags/mp44"
+        },
+        {
+          "name": "sturm",
+          "slug": "sturm",
+          "uri": "https://api.sketchfab.com/v3/tags/sturm"
+        },
+        {
+          "name": "substancepainter",
+          "slug": "substancepainter",
+          "uri": "https://api.sketchfab.com/v3/tags/substancepainter"
+        },
+        {
+          "name": "substance",
+          "slug": "substance",
+          "uri": "https://api.sketchfab.com/v3/tags/substance"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8d66d5a4c7fd41bd85ed1c017d65f175",
+            "size": 227911,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/0ee59b8bb7214c2a9eac129499f49441/thumbnails/bd53cf6adf23441eb3ba3fb3358588de/a2b417b1b38a4c85b808e26d6d153d49.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "ebfdda7a2a354ea78758b57a2786b8b8",
+            "size": 60676,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/0ee59b8bb7214c2a9eac129499f49441/thumbnails/bd53cf6adf23441eb3ba3fb3358588de/c43b8242552f4c4a96b7b423849d00b9.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "fdb37eeee6ce482ea5ee427930685e87",
+            "size": 27187,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/0ee59b8bb7214c2a9eac129499f49441/thumbnails/bd53cf6adf23441eb3ba3fb3358588de/a8de566cc2a145418b1acae0df415f89.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "fa0674bb947b4cba9579e5ad4c08a87b",
+            "size": 3302,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/0ee59b8bb7214c2a9eac129499f49441/thumbnails/bd53cf6adf23441eb3ba3fb3358588de/9291bd9c42364757acb87b790cbdfff2.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "fccf54ae97314bacaf464ef38d538a95",
+            "size": 575,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/0ee59b8bb7214c2a9eac129499f49441/thumbnails/bd53cf6adf23441eb3ba3fb3358588de/033d340ea35f45c7899a470d35c4e581.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c5dffbdf48af4189a345577a303c9b53",
+        "username": "ShinySpiteful",
+        "displayName": "Shiny Spiteful Mk. XIVe",
+        "profileUrl": "https://sketchfab.com/ShinySpiteful",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/159997e05f9146fa9cdbd96d430601b3",
+          "images": [
+            {
+              "size": 661,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/8cb00cb53f354cf4ac7880b18ce2c520.jpeg",
+              "height": 32
+            },
+            {
+              "size": 965,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/ef9ef204119a4f29bd0b474d55019c47.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2463,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/48c275b0d35d4fccb071242f602f30af.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2881,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/159997e05f9146fa9cdbd96d430601b3/97778c30a699458eb3885d217494e6d7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c5dffbdf48af4189a345577a303c9b53"
+      },
+      "description": "Rework of an older StG44 model i did over a year ago.\nThe StG is probably one of my favourite weapons from ww2 and i'm really glad with how this turned out.",
+      "faceCount": 57804,
+      "createdAt": "2019-08-03T08:59:28.664337",
+      "vertexCount": 30150,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ec142bcccf0d425bbd4dd8c5847ac6b9",
+      "uid": "ec142bcccf0d425bbd4dd8c5847ac6b9",
+      "name": "Lucerna, Lamp ME5027, Evora, Portugal",
+      "staffpickedAt": null,
+      "viewCount": 99,
+      "likeCount": 8,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ec142bcccf0d425bbd4dd8c5847ac6b9",
+      "embedUrl": "https://sketchfab.com/models/ec142bcccf0d425bbd4dd8c5847ac6b9/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-01-14T17:08:05.783592",
+      "tags": [
+        {
+          "name": "portugal",
+          "slug": "portugal",
+          "uri": "https://api.sketchfab.com/v3/tags/portugal"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "museum",
+          "slug": "museum",
+          "uri": "https://api.sketchfab.com/v3/tags/museum"
+        },
+        {
+          "name": "roman",
+          "slug": "roman",
+          "uri": "https://api.sketchfab.com/v3/tags/roman"
+        },
+        {
+          "name": "evora",
+          "slug": "evora",
+          "uri": "https://api.sketchfab.com/v3/tags/evora"
+        },
+        {
+          "name": "alentejo",
+          "slug": "alentejo",
+          "uri": "https://api.sketchfab.com/v3/tags/alentejo"
+        },
+        {
+          "name": "gdh",
+          "slug": "gdh",
+          "uri": "https://api.sketchfab.com/v3/tags/gdh"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "globaldigitalheritage",
+          "slug": "globaldigitalheritage",
+          "uri": "https://api.sketchfab.com/v3/tags/globaldigitalheritage"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f10ab2bb157948a19f01109b31aa3aff",
+            "size": 186710,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ec142bcccf0d425bbd4dd8c5847ac6b9/thumbnails/8af6ae597e2649f7ac14d1366b021de3/0378dda13dab47abac9b71a4be946307.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "2ca6b92a218d4d3b99c33d833ada0267",
+            "size": 57655,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ec142bcccf0d425bbd4dd8c5847ac6b9/thumbnails/8af6ae597e2649f7ac14d1366b021de3/8e276711e6184488b0c37bb210131690.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "63979452c21642dd93f72aaef049aa18",
+            "size": 31273,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ec142bcccf0d425bbd4dd8c5847ac6b9/thumbnails/8af6ae597e2649f7ac14d1366b021de3/2de3e095e91742e2a653702e484484af.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "04152852020945b1be21499d614104ab",
+            "size": 5685,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ec142bcccf0d425bbd4dd8c5847ac6b9/thumbnails/8af6ae597e2649f7ac14d1366b021de3/76c6b666b68d43bab72c47865c25e132.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "8f0dfb3993c442c48be6b40e6e35e2ca",
+            "size": 1256,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ec142bcccf0d425bbd4dd8c5847ac6b9/thumbnails/8af6ae597e2649f7ac14d1366b021de3/1ddfb25630804b86ac0fbdaa8a1c2e4b.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c6c27d4322fe41c4a157d96f56c47fd3",
+        "username": "GlobalDigitalHeritage",
+        "displayName": "Global Digital Heritage and GDH-Afrika",
+        "profileUrl": "https://sketchfab.com/GlobalDigitalHeritage",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/048fd93d0fc44a05b7b0b573d6f68f14.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1639,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/aed12b256e7246bdaac23a9e7c8a3af5.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3452,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/d367232573314438948472d97ccc8aa9.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/7c5a7134a0aa432a874fbe51a30f9b6d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c6c27d4322fe41c4a157d96f56c47fd3"
+      },
+      "description": "Roman clay lamp (lucerna) of unknown origin. Lamps fueled with olive oil and other vegetable oils were very common in the Roman world to provide artificial light. It is decorated with a shell. The specimen presents 3 cm in height and 8,8 cm in long. It is currently preserved in the Frei Manuel do Cen\u00e1culo National Museum (\u00c9vora, Portugal). Catalog No. ME5027.\n\n427 photos from Canon 5D Mk IV. Completely processed (aligned, scaled, meshed, cleaned, simplified, unwrapped, textured) in Reality Capture. FERREIRA DE ALMEIDA, Jos\u00e9 Antonio - \"Introdu\u00e7\u00e3o ao estudo das lucernas em Portugal\" in O Arque\u00f3logo Portugu\u00eas, Nova S\u00e9rie, II. Lisboa: 1953, p. 150. SOUSA, J.J. Rigaud de - \"Invent\u00e1rio de materiais para a arqueologia bracarense\" in Bracara Augusta, vol. XX, n\u00ba 43-44 (55-56). Braga: 1966, pp. 165-178.",
+      "faceCount": 807969,
+      "createdAt": "2020-01-14T16:56:54.716981",
+      "vertexCount": 404136,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 40569132,
+          "type": "glb",
+          "textureMaxResolution": 8192,
+          "faceCount": 807969,
+          "vertexCount": 501999
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 31229583,
+          "type": "gltf",
+          "textureMaxResolution": 8192,
+          "faceCount": 807969,
+          "vertexCount": 501999
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 14257,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 135497902,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 21107864,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/4c91a8ce412f415b94e9e8c71bc27cbc",
+      "uid": "4c91a8ce412f415b94e9e8c71bc27cbc",
+      "name": "Lucerna ME5036",
+      "staffpickedAt": null,
+      "viewCount": 331,
+      "likeCount": 11,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-4c91a8ce412f415b94e9e8c71bc27cbc",
+      "embedUrl": "https://sketchfab.com/models/4c91a8ce412f415b94e9e8c71bc27cbc/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-01-14T15:33:46.777166",
+      "tags": [
+        {
+          "name": "portugal",
+          "slug": "portugal",
+          "uri": "https://api.sketchfab.com/v3/tags/portugal"
+        },
+        {
+          "name": "pottery",
+          "slug": "pottery",
+          "uri": "https://api.sketchfab.com/v3/tags/pottery"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "museum",
+          "slug": "museum",
+          "uri": "https://api.sketchfab.com/v3/tags/museum"
+        },
+        {
+          "name": "roman",
+          "slug": "roman",
+          "uri": "https://api.sketchfab.com/v3/tags/roman"
+        },
+        {
+          "name": "evora",
+          "slug": "evora",
+          "uri": "https://api.sketchfab.com/v3/tags/evora"
+        },
+        {
+          "name": "alentejo",
+          "slug": "alentejo",
+          "uri": "https://api.sketchfab.com/v3/tags/alentejo"
+        },
+        {
+          "name": "gdh",
+          "slug": "gdh",
+          "uri": "https://api.sketchfab.com/v3/tags/gdh"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "globaldigitalheritage",
+          "slug": "globaldigitalheritage",
+          "uri": "https://api.sketchfab.com/v3/tags/globaldigitalheritage"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "34e6003a60a143329717db0149552e67",
+            "size": 108793,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/4c91a8ce412f415b94e9e8c71bc27cbc/thumbnails/fc97a9c638994e10b6dbbaf55b9b034c/4519fbc1f972435e915d60d6f47881f3.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "d28412b0c21c42e08abfa40df6292a34",
+            "size": 35376,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/4c91a8ce412f415b94e9e8c71bc27cbc/thumbnails/fc97a9c638994e10b6dbbaf55b9b034c/f157521351864c59b067b6aa1942dc3b.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "2b323fadd8d6421384b2ed7e868d8cfc",
+            "size": 20065,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/4c91a8ce412f415b94e9e8c71bc27cbc/thumbnails/fc97a9c638994e10b6dbbaf55b9b034c/8d6348a634984e769832b8c3634fec0e.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "046e8bf3f5b04a669cb287b379b0f86d",
+            "size": 3938,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/4c91a8ce412f415b94e9e8c71bc27cbc/thumbnails/fc97a9c638994e10b6dbbaf55b9b034c/3837c9ab6ab34023bc0ae8399534cfff.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "00b5eeb1d14545aea5bbc16d6546c490",
+            "size": 1050,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/4c91a8ce412f415b94e9e8c71bc27cbc/thumbnails/fc97a9c638994e10b6dbbaf55b9b034c/071bd9595a1a4460a2637b809aebce7a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c6c27d4322fe41c4a157d96f56c47fd3",
+        "username": "GlobalDigitalHeritage",
+        "displayName": "Global Digital Heritage and GDH-Afrika",
+        "profileUrl": "https://sketchfab.com/GlobalDigitalHeritage",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/048fd93d0fc44a05b7b0b573d6f68f14.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1639,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/aed12b256e7246bdaac23a9e7c8a3af5.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3452,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/d367232573314438948472d97ccc8aa9.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/7c5a7134a0aa432a874fbe51a30f9b6d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c6c27d4322fe41c4a157d96f56c47fd3"
+      },
+      "description": "Roman clay lamp (lucerna) of unknown origin. Lamps fueled with olive oil and other vegetable oils were very common in the Roman world to provide artificial light. Straight base engraved with two circles, between which a dotted row appears, in the center a cross of straight arms with a small circle in each quadrant. The specimen presents 5,5 cm in height and 9,5 cm in long. It is currently preserved in the Frei Manuel do Cen\u00e1culo National Museum (\u00c9vora, Portugal). Catalog No. ME5036.\n\n440 photos from Canon 5D Mk IV. Completely processed (aligned, scaled, meshed, cleaned, simplified, unwrapped, textured) in Reality Capture.\n\nFERREIRA DE ALMEIDA, Jos\u00e9 Antonio - \"Introdu\u00e7\u00e3o ao estudo das lucernas em Portugal\" in O Arque\u00f3logo Portugu\u00eas, Nova S\u00e9rie, II. Lisboa: 1953, p. 177.\n\nSOUSA, J.J. Rigaud de - \"Invent\u00e1rio de materiais para a arqueologia bracarense\" in Bracara Augusta, vol. XX, n\u00ba 43-44 (55-56). Braga: 1966, pp. 165-178.",
+      "faceCount": 970087,
+      "createdAt": "2020-01-08T21:57:59.443488",
+      "vertexCount": 485230,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 48696960,
+          "type": "glb",
+          "textureMaxResolution": 8192,
+          "faceCount": 970087,
+          "vertexCount": 632509
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 28838165,
+          "type": "gltf",
+          "textureMaxResolution": 8192,
+          "faceCount": 970087,
+          "vertexCount": 632509
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 21446,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 110938434,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 24550669,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/2bc2f7479eb64ebcb999731375870b59",
+      "uid": "2bc2f7479eb64ebcb999731375870b59",
+      "name": "Dumortieria moorei (Lycett, 1857)",
+      "staffpickedAt": null,
+      "viewCount": 52,
+      "likeCount": 2,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-2bc2f7479eb64ebcb999731375870b59",
+      "embedUrl": "https://sketchfab.com/models/2bc2f7479eb64ebcb999731375870b59/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2025-03-29T07:53:13.762636",
+      "tags": [
+        {
+          "name": "geology",
+          "slug": "geology",
+          "uri": "https://api.sketchfab.com/v3/tags/geology"
+        },
+        {
+          "name": "jurassic",
+          "slug": "jurassic",
+          "uri": "https://api.sketchfab.com/v3/tags/jurassic"
+        },
+        {
+          "name": "ammonite",
+          "slug": "ammonite",
+          "uri": "https://api.sketchfab.com/v3/tags/ammonite"
+        },
+        {
+          "name": "bgs",
+          "slug": "bgs",
+          "uri": "https://api.sketchfab.com/v3/tags/bgs"
+        },
+        {
+          "name": "toarcian",
+          "slug": "toarcian",
+          "uri": "https://api.sketchfab.com/v3/tags/toarcian"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "yeovilian",
+          "slug": "yeovilian",
+          "uri": "https://api.sketchfab.com/v3/tags/yeovilian"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        },
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "1d965bfc50b549efa8fd9e65467fc46a",
+            "size": 119538,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/2bc2f7479eb64ebcb999731375870b59/thumbnails/cb47ee39cf794fe8937dc3e0fb7a019d/eba66d489af64aaf801310f8071a25aa.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "907a1ea1b4624086bd0f7ea30592aa02",
+            "size": 36577,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/2bc2f7479eb64ebcb999731375870b59/thumbnails/cb47ee39cf794fe8937dc3e0fb7a019d/44e148146e6f493fb2a6ead8404c036d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "29eef3e5a3934983affc6164082d41c4",
+            "size": 19762,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/2bc2f7479eb64ebcb999731375870b59/thumbnails/cb47ee39cf794fe8937dc3e0fb7a019d/1a023ff14c204e408ffd1fd4c9a99efa.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "09a92187c2f944bd8e1c2d6c9c510697",
+            "size": 3589,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/2bc2f7479eb64ebcb999731375870b59/thumbnails/cb47ee39cf794fe8937dc3e0fb7a019d/6e07d0eecec5437085b17dbe3e23850d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "1fd5643f66b842a59373118b1d9fc0f0",
+            "size": 989,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/2bc2f7479eb64ebcb999731375870b59/thumbnails/cb47ee39cf794fe8937dc3e0fb7a019d/7e57670a634a4edca7776bc1114fc3f0.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2a17df1bfa5942cf98ac16a79ed8865f",
+        "username": "geoffr",
+        "displayName": "Geoff Rowland",
+        "profileUrl": "https://sketchfab.com/geoffr",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/0b2854f9a96f4a5da6d39ed2a6a4dc3b",
+          "images": [
+            {
+              "size": 2178,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/0b2854f9a96f4a5da6d39ed2a6a4dc3b/827fe93611704f7f97357bebe2bb90dd.png",
+              "height": 32
+            },
+            {
+              "size": 4499,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/0b2854f9a96f4a5da6d39ed2a6a4dc3b/10448025f9d44f89af0cef66ee2027e3.png",
+              "height": 48
+            },
+            {
+              "size": 14469,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/0b2854f9a96f4a5da6d39ed2a6a4dc3b/2b73c95a55be4eff9b39966dd3ee1c2f.png",
+              "height": 90
+            },
+            {
+              "size": 17591,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/0b2854f9a96f4a5da6d39ed2a6a4dc3b/e118a8b7002b4dad960bb36ae74dc823.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2a17df1bfa5942cf98ac16a79ed8865f"
+      },
+      "description": "BGS GSM25312 \u2013 Holotype\nBritish Geological Survey Collection\n\nHolotype\nFrocester Hill - Gloucestershire, England\nLias Group\n\nBuckman, S. 1891. Palaeont Soc.Mon 44 9\nDean, WT, Donovan, DT & Howarth, MK. 1961. Bulletin BM (NH) Geol 74 5\nDonovan. 1954. Supplement to Mon Lias Amms - Palaeont Soc p.50\nLycett, J. 1857. Cotteswold Hills 1 7",
+      "faceCount": 347175,
+      "createdAt": "2025-03-29T07:42:50.229448",
+      "vertexCount": 203078,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 12,
+          "size": 16475352,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 347175,
+          "vertexCount": 203497
+        },
+        "gltf": {
+          "textureCount": 12,
+          "size": 12853277,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 347175,
+          "vertexCount": 203497
+        },
+        "source": {
+          "textureCount": null,
+          "size": 12530156,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 13399139,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/7c5617f22fc545af8e8d1a2cefb9101e",
+      "uid": "7c5617f22fc545af8e8d1a2cefb9101e",
+      "name": "Lucerna Lamp ME5043 Evora, Portugal",
+      "staffpickedAt": null,
+      "viewCount": 100,
+      "likeCount": 5,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-7c5617f22fc545af8e8d1a2cefb9101e",
+      "embedUrl": "https://sketchfab.com/models/7c5617f22fc545af8e8d1a2cefb9101e/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-01-14T15:43:22.827693",
+      "tags": [
+        {
+          "name": "portugal",
+          "slug": "portugal",
+          "uri": "https://api.sketchfab.com/v3/tags/portugal"
+        },
+        {
+          "name": "pottery",
+          "slug": "pottery",
+          "uri": "https://api.sketchfab.com/v3/tags/pottery"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "museum",
+          "slug": "museum",
+          "uri": "https://api.sketchfab.com/v3/tags/museum"
+        },
+        {
+          "name": "roman",
+          "slug": "roman",
+          "uri": "https://api.sketchfab.com/v3/tags/roman"
+        },
+        {
+          "name": "alentejo",
+          "slug": "alentejo",
+          "uri": "https://api.sketchfab.com/v3/tags/alentejo"
+        },
+        {
+          "name": "gdh",
+          "slug": "gdh",
+          "uri": "https://api.sketchfab.com/v3/tags/gdh"
+        },
+        {
+          "name": "realitycapture",
+          "slug": "realitycapture",
+          "uri": "https://api.sketchfab.com/v3/tags/realitycapture"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "evil",
+          "slug": "evil",
+          "uri": "https://api.sketchfab.com/v3/tags/evil"
+        },
+        {
+          "name": "globaldigitalheritage",
+          "slug": "globaldigitalheritage",
+          "uri": "https://api.sketchfab.com/v3/tags/globaldigitalheritage"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "ff279b5c368346059a75324e26db26b2",
+            "size": 164653,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/7c5617f22fc545af8e8d1a2cefb9101e/thumbnails/a8e1b236ebea46c780e791ca777d01d4/aac67e4776a54207981babcd982ec304.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "4fc48eade64641f2bcf1d3301ee610b8",
+            "size": 48294,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/7c5617f22fc545af8e8d1a2cefb9101e/thumbnails/a8e1b236ebea46c780e791ca777d01d4/20479e010e1244ed84a86fac798c3402.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e56dbf586df646169a6903dee7b5da2c",
+            "size": 25757,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/7c5617f22fc545af8e8d1a2cefb9101e/thumbnails/a8e1b236ebea46c780e791ca777d01d4/eda18a5628564e4c97cfc00774878732.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "d10471ea5e8f4fa1ae4ab2880ad8afd8",
+            "size": 4431,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/7c5617f22fc545af8e8d1a2cefb9101e/thumbnails/a8e1b236ebea46c780e791ca777d01d4/50a028b2464649b49618c482d6f44f09.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "e8f67bd4f497473e8753d83fcaa3c018",
+            "size": 1097,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/7c5617f22fc545af8e8d1a2cefb9101e/thumbnails/a8e1b236ebea46c780e791ca777d01d4/743c42bbb7c84e4da4386cbc12c57d7f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c6c27d4322fe41c4a157d96f56c47fd3",
+        "username": "GlobalDigitalHeritage",
+        "displayName": "Global Digital Heritage and GDH-Afrika",
+        "profileUrl": "https://sketchfab.com/GlobalDigitalHeritage",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/048fd93d0fc44a05b7b0b573d6f68f14.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1639,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/aed12b256e7246bdaac23a9e7c8a3af5.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3452,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/d367232573314438948472d97ccc8aa9.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/7c5a7134a0aa432a874fbe51a30f9b6d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c6c27d4322fe41c4a157d96f56c47fd3"
+      },
+      "description": "Roman clay lamp (lucerna) dated between the 1st century AD and the 2nd century AD, of unknown origin. Lamps fueled with olive oil and other vegetable oils were very common in the Roman world to provide artificial light. The specimen presents 4 cm in height and 8,5 cm in long. It is currently preserved in the Frei Manuel do Cen\u00e1culo National Museum (\u00c9vora, Portugal). Catalog No. ME5043.\n\n440 photos from Canon 5D Mk IV. Completely processed (aligned, scaled, meshed, cleaned, simplified, unwrapped, textured) in Reality Capture. SOUSA, J.J. Rigaud de - \"Invent\u00e1rio de materiais para a arqueologia bracarense\" in Bracara Augusta, vol. XX, n\u00ba 43-44 (55-56). Braga: 1966, pp. 165-178.",
+      "faceCount": 975364,
+      "createdAt": "2020-01-08T22:00:46.967592",
+      "vertexCount": 488478,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 84639672,
+          "type": "glb",
+          "textureMaxResolution": 8192,
+          "faceCount": 975364,
+          "vertexCount": 638406
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 64957989,
+          "type": "gltf",
+          "textureMaxResolution": 8192,
+          "faceCount": 975364,
+          "vertexCount": 638406
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 21492,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 200504044,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 25449089,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/4fa8e5db26fe43c8837efa5b42412dfb",
+      "uid": "4fa8e5db26fe43c8837efa5b42412dfb",
+      "name": "Lucerna ME5034 Roman Lamp, Evora",
+      "staffpickedAt": null,
+      "viewCount": 132,
+      "likeCount": 6,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-4fa8e5db26fe43c8837efa5b42412dfb",
+      "embedUrl": "https://sketchfab.com/models/4fa8e5db26fe43c8837efa5b42412dfb/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2019-11-07T20:52:33.073121",
+      "tags": [
+        {
+          "name": "portugal",
+          "slug": "portugal",
+          "uri": "https://api.sketchfab.com/v3/tags/portugal"
+        },
+        {
+          "name": "museum",
+          "slug": "museum",
+          "uri": "https://api.sketchfab.com/v3/tags/museum"
+        },
+        {
+          "name": "roman",
+          "slug": "roman",
+          "uri": "https://api.sketchfab.com/v3/tags/roman"
+        },
+        {
+          "name": "alentejo",
+          "slug": "alentejo",
+          "uri": "https://api.sketchfab.com/v3/tags/alentejo"
+        },
+        {
+          "name": "gdh",
+          "slug": "gdh",
+          "uri": "https://api.sketchfab.com/v3/tags/gdh"
+        },
+        {
+          "name": "realitycapture",
+          "slug": "realitycapture",
+          "uri": "https://api.sketchfab.com/v3/tags/realitycapture"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "archaeology",
+          "slug": "archaeology",
+          "uri": "https://api.sketchfab.com/v3/tags/archaeology"
+        },
+        {
+          "name": "globaldigitalheritage",
+          "slug": "globaldigitalheritage",
+          "uri": "https://api.sketchfab.com/v3/tags/globaldigitalheritage"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "23f70fef109a47f082b2b6802f13541e",
+            "size": 253916,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/4fa8e5db26fe43c8837efa5b42412dfb/thumbnails/6c0eb4f0d3b64b54968a5bfd7ca5567d/71099bdcbbd349e5a31e8230206a7cde.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "828fd9ab0ca94fbab0d93c09753b7ae4",
+            "size": 75884,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/4fa8e5db26fe43c8837efa5b42412dfb/thumbnails/6c0eb4f0d3b64b54968a5bfd7ca5567d/11f7dd2aed6142e8abd227a6dc56b077.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "038afded700c4de29b27797144683c47",
+            "size": 39796,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/4fa8e5db26fe43c8837efa5b42412dfb/thumbnails/6c0eb4f0d3b64b54968a5bfd7ca5567d/921bffca11ed4cd2960371431e437e67.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "51d605929b814e53b085d7301e53ce70",
+            "size": 6244,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/4fa8e5db26fe43c8837efa5b42412dfb/thumbnails/6c0eb4f0d3b64b54968a5bfd7ca5567d/b4db1106dcbb4f7da920524f1da7e727.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "eaca7999b4ce404983c526d355199473",
+            "size": 1303,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/4fa8e5db26fe43c8837efa5b42412dfb/thumbnails/6c0eb4f0d3b64b54968a5bfd7ca5567d/d88f8b48e3794f40b9d9514623d43ec8.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c6c27d4322fe41c4a157d96f56c47fd3",
+        "username": "GlobalDigitalHeritage",
+        "displayName": "Global Digital Heritage and GDH-Afrika",
+        "profileUrl": "https://sketchfab.com/GlobalDigitalHeritage",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/048fd93d0fc44a05b7b0b573d6f68f14.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1639,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/aed12b256e7246bdaac23a9e7c8a3af5.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3452,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/d367232573314438948472d97ccc8aa9.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/7c5a7134a0aa432a874fbe51a30f9b6d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c6c27d4322fe41c4a157d96f56c47fd3"
+      },
+      "description": "Roman clay lamp (lucerna) dated between the 2nd century AD and the 3rd century AD, of unknown origin. Lamps fueled with olive oil and other vegetable oils were very common in the Roman world to provide artificial light. This lucerna would belong to the typology Bailey Q-viii, Dressel 27-28, Deneauve VIII. It is decorated with an erotic scene on a horse surrounded by bunches of grapes. The specimen presents 3 cm in height and 10,6 cm in long. It is currently preserved in the Frei Manuel do Cen\u00e1culo National Museum (\u00c9vora, Portugal). Catalog No. ME5034.\n\nSOUSA, J.J. Rigaud de - \"Invent\u00e1rio de materiais para a arqueologia bracarense\" in Bracara Augusta, vol. XX, n\u00ba 43-44 (55-56). Braga: 1966, pp. 165\u2013178.\n\n587 photos from Canon 5D Mk IV. Completely processed (aligned, scaled, meshed, cleaned, simplified, unwrapped, textured) in Reality Capture.",
+      "faceCount": 935999,
+      "createdAt": "2019-07-08T17:50:19.151666",
+      "vertexCount": 468323,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 42019376,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 935999,
+          "vertexCount": 593458
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 23894913,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 935999,
+          "vertexCount": 593458
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 21442,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 102226964,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 24219341,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/7b5cee07b76c4bbcb1bcc80cd8d8aaa3",
+      "uid": "7b5cee07b76c4bbcb1bcc80cd8d8aaa3",
+      "name": "Lucerna Lamp ME5048 Evora Portugal",
+      "staffpickedAt": null,
+      "viewCount": 67,
+      "likeCount": 4,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-7b5cee07b76c4bbcb1bcc80cd8d8aaa3",
+      "embedUrl": "https://sketchfab.com/models/7b5cee07b76c4bbcb1bcc80cd8d8aaa3/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-01-14T16:15:16.092021",
+      "tags": [
+        {
+          "name": "portugal",
+          "slug": "portugal",
+          "uri": "https://api.sketchfab.com/v3/tags/portugal"
+        },
+        {
+          "name": "pottery",
+          "slug": "pottery",
+          "uri": "https://api.sketchfab.com/v3/tags/pottery"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "museum",
+          "slug": "museum",
+          "uri": "https://api.sketchfab.com/v3/tags/museum"
+        },
+        {
+          "name": "roman",
+          "slug": "roman",
+          "uri": "https://api.sketchfab.com/v3/tags/roman"
+        },
+        {
+          "name": "evora",
+          "slug": "evora",
+          "uri": "https://api.sketchfab.com/v3/tags/evora"
+        },
+        {
+          "name": "alentejo",
+          "slug": "alentejo",
+          "uri": "https://api.sketchfab.com/v3/tags/alentejo"
+        },
+        {
+          "name": "gdh",
+          "slug": "gdh",
+          "uri": "https://api.sketchfab.com/v3/tags/gdh"
+        },
+        {
+          "name": "realitycapture",
+          "slug": "realitycapture",
+          "uri": "https://api.sketchfab.com/v3/tags/realitycapture"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "globaldigitalheritage",
+          "slug": "globaldigitalheritage",
+          "uri": "https://api.sketchfab.com/v3/tags/globaldigitalheritage"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "d3de9e124c7945bc81dfd8082e49582a",
+            "size": 184683,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/7b5cee07b76c4bbcb1bcc80cd8d8aaa3/thumbnails/5f01b5a8fd0b4da98f516d367380cea4/8342645dcd2f45dd8d77c8f26440baf7.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "7e00ca8905124fe09538eca545746dee",
+            "size": 52380,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/7b5cee07b76c4bbcb1bcc80cd8d8aaa3/thumbnails/5f01b5a8fd0b4da98f516d367380cea4/b2b0bd2048414dcc978ce8dcf6502805.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "2ca7a4e79ef14e20bd2cf8ad500a38ed",
+            "size": 26997,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/7b5cee07b76c4bbcb1bcc80cd8d8aaa3/thumbnails/5f01b5a8fd0b4da98f516d367380cea4/80471a1024794a829d6c8f2dc79d79f2.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "06cc5fe3a7b0475380a47b544c384c0d",
+            "size": 4644,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/7b5cee07b76c4bbcb1bcc80cd8d8aaa3/thumbnails/5f01b5a8fd0b4da98f516d367380cea4/2b989206cc2f4a89977601ba2907cbb5.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "e82699efea764e13b39df6d3bfbf77b2",
+            "size": 1208,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/7b5cee07b76c4bbcb1bcc80cd8d8aaa3/thumbnails/5f01b5a8fd0b4da98f516d367380cea4/8822236c81e94878a6e8f342b35209f0.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c6c27d4322fe41c4a157d96f56c47fd3",
+        "username": "GlobalDigitalHeritage",
+        "displayName": "Global Digital Heritage and GDH-Afrika",
+        "profileUrl": "https://sketchfab.com/GlobalDigitalHeritage",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/048fd93d0fc44a05b7b0b573d6f68f14.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1639,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/aed12b256e7246bdaac23a9e7c8a3af5.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3452,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/d367232573314438948472d97ccc8aa9.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/7c5a7134a0aa432a874fbe51a30f9b6d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c6c27d4322fe41c4a157d96f56c47fd3"
+      },
+      "description": "Roman clay lamp (lucerna) of unknown origin. Lamps fueled with olive oil and other vegetable oils were very common in the Roman world to provide artificial light. It is decorated with barely noticeable and unidentified vegetal elements. The specimen presents 5,2 cm in height and 10,6 cm in long. It is currently preserved in the Frei Manuel do Cen\u00e1culo National Museum (\u00c9vora, Portugal). Catalog No. ME5048.\n\n587 photos from Canon 5D Mk IV. Completely processed (aligned, scaled, meshed, cleaned, simplified, unwrapped, textured) in Reality Capture. SOUSA, J.J. Rigaud de - \"Invent\u00e1rio de materiais para a arqueologia bracarense\" in Bracara Augusta, vol. XX, n\u00ba 43-44 (55-56). Braga: 1966, pp. 165\u2013178.",
+      "faceCount": 982927,
+      "createdAt": "2020-01-14T15:48:41.939397",
+      "vertexCount": 491763,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 44597740,
+          "type": "glb",
+          "textureMaxResolution": 8192,
+          "faceCount": 982916,
+          "vertexCount": 642520
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 32944640,
+          "type": "gltf",
+          "textureMaxResolution": 8192,
+          "faceCount": 982916,
+          "vertexCount": 642520
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 17303,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 162527970,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 25677794,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/14cd89589cc34d86bce251b461541b5c",
+      "uid": "14cd89589cc34d86bce251b461541b5c",
+      "name": "Lucerna Lamp ME5029 Evora, Portugal",
+      "staffpickedAt": null,
+      "viewCount": 129,
+      "likeCount": 2,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-14cd89589cc34d86bce251b461541b5c",
+      "embedUrl": "https://sketchfab.com/models/14cd89589cc34d86bce251b461541b5c/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-01-14T15:28:53.589664",
+      "tags": [
+        {
+          "name": "portugal",
+          "slug": "portugal",
+          "uri": "https://api.sketchfab.com/v3/tags/portugal"
+        },
+        {
+          "name": "pottery",
+          "slug": "pottery",
+          "uri": "https://api.sketchfab.com/v3/tags/pottery"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "museum",
+          "slug": "museum",
+          "uri": "https://api.sketchfab.com/v3/tags/museum"
+        },
+        {
+          "name": "roman",
+          "slug": "roman",
+          "uri": "https://api.sketchfab.com/v3/tags/roman"
+        },
+        {
+          "name": "evora",
+          "slug": "evora",
+          "uri": "https://api.sketchfab.com/v3/tags/evora"
+        },
+        {
+          "name": "alentejo",
+          "slug": "alentejo",
+          "uri": "https://api.sketchfab.com/v3/tags/alentejo"
+        },
+        {
+          "name": "gdh",
+          "slug": "gdh",
+          "uri": "https://api.sketchfab.com/v3/tags/gdh"
+        },
+        {
+          "name": "realitycapture",
+          "slug": "realitycapture",
+          "uri": "https://api.sketchfab.com/v3/tags/realitycapture"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "globaldigitalheritage",
+          "slug": "globaldigitalheritage",
+          "uri": "https://api.sketchfab.com/v3/tags/globaldigitalheritage"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "2d8764c70c10437089cd8fd37d736c25",
+            "size": 190214,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/14cd89589cc34d86bce251b461541b5c/thumbnails/9b89ed2bdaaf4654b70799a0427e8a87/16c57deaabc3413ab2b159dcc464a12b.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6199b00d3070403cacb8ef6f2e608f71",
+            "size": 60385,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/14cd89589cc34d86bce251b461541b5c/thumbnails/9b89ed2bdaaf4654b70799a0427e8a87/f1ffab7ec3e54dcdb21d488e0d0b3c65.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "8c496a93fc064356ae18a1321ec9e0fa",
+            "size": 32597,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/14cd89589cc34d86bce251b461541b5c/thumbnails/9b89ed2bdaaf4654b70799a0427e8a87/e6071b0152cc45e887d41b2582f56e45.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e6878cec8ced4032bc4206eecd952992",
+            "size": 5524,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/14cd89589cc34d86bce251b461541b5c/thumbnails/9b89ed2bdaaf4654b70799a0427e8a87/7d6639a6050f4105a7d8eb9ed4906c9a.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "daf07ffdc8694a7fa7c76b66981f7558",
+            "size": 1160,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/14cd89589cc34d86bce251b461541b5c/thumbnails/9b89ed2bdaaf4654b70799a0427e8a87/8cddefe1d9da4397a6edac51f1c67ecd.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c6c27d4322fe41c4a157d96f56c47fd3",
+        "username": "GlobalDigitalHeritage",
+        "displayName": "Global Digital Heritage and GDH-Afrika",
+        "profileUrl": "https://sketchfab.com/GlobalDigitalHeritage",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/048fd93d0fc44a05b7b0b573d6f68f14.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1639,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/aed12b256e7246bdaac23a9e7c8a3af5.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3452,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/d367232573314438948472d97ccc8aa9.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/be1e31eb0c1e47d7a3eda6ecb7f6211b/7c5a7134a0aa432a874fbe51a30f9b6d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c6c27d4322fe41c4a157d96f56c47fd3"
+      },
+      "description": "Fragment of roman clay lamp (lucerna) dated in the 1st century AD, of unknown origin. Lamps fueled with olive oil and other vegetable oils were very common in the Roman world to provide artificial light. It is decorated with an Eros turned to the right, with a leaf in its left hand, and an elongated object on the right. The specimen presents 0,5 cm in height and 8,3 cm in long. It is currently preserved in the Frei Manuel do Cen\u00e1culo National Museum (\u00c9vora, Portugal). Catalog No. ME5029.\n\n542 photos from Canon 5D Mk IV. Completely processed (aligned, scaled, meshed, cleaned, simplified, unwrapped, textured) in Reality Capture. FERREIRA DE ALMEIDA, Jos\u00e9 Antonio - \"Introdu\u00e7\u00e3o ao estudo das lucernas em Portugal\" in O Arque\u00f3logo Portugu\u00eas, Nova S\u00e9rie, II. Lisboa: 1953, p. 155. OUSA, J.J. Rigaud de - \"Invent\u00e1rio de materiais para a arqueologia bracarense\" in Bracara Augusta, vol. XX, n\u00ba 43-44 (55-56). Braga: 1966, pp. 165-178.",
+      "faceCount": 999968,
+      "createdAt": "2020-01-08T21:46:02.287572",
+      "vertexCount": 499984,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 47130196,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 999968,
+          "vertexCount": 682636
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 26907774,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 999968,
+          "vertexCount": 682636
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 23378,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 109629831,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 27096886,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    }
+  ]
+}

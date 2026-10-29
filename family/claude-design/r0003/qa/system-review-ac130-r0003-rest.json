@@ -1,0 +1,1470 @@
+{
+  "author": "claude-design",
+  "asset_id": "ac130",
+  "revision_label": "r0003",
+  "input": "models/ac130.glb",
+  "input_sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+  "script_sha256": "dd9b31de2de6f5d2b67748372b7bfd05dbfc32e13cd456d351db41f2580aa06f",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "asset_objects": 368,
+  "meshes": 311,
+  "triangles": 244811,
+  "bounds_blender_m": {
+    "min": [
+      -20.205015182495117,
+      -14.894960403442383,
+      5.662441253662109e-07
+    ],
+    "max": [
+      20.204984664916992,
+      14.895039558410645,
+      11.84000015258789
+    ]
+  },
+  "coordinate_conversion": "Source glTF [x,y,z] -> native Blender [x,-z,y]; metres, scale 1",
+  "source_clip_names": [
+    "gun30_yaw",
+    "gun30_pitch",
+    "gun30_recoil",
+    "gun30_fire_cycle",
+    "gun105_yaw",
+    "gun105_pitch",
+    "gun105_recoil",
+    "gun105_fire_cycle",
+    "flap_right",
+    "aileron_right",
+    "elevator_right",
+    "flap_left",
+    "aileron_left",
+    "elevator_left",
+    "rudder",
+    "prop_1",
+    "prop_2",
+    "prop_3",
+    "prop_4",
+    "cargo_ramp",
+    "cargo_upper_door",
+    "crew_door",
+    "paratroop_right",
+    "wheel_left_1",
+    "wheel_left_2",
+    "gear_left",
+    "gear_door_left",
+    "wheel_right_1",
+    "wheel_right_2",
+    "gear_right",
+    "gear_door_right",
+    "wheel_nose",
+    "gear_nose",
+    "gear_door_nose",
+    "eoir_chin_yaw",
+    "eoir_chin_pitch",
+    "eoir_port_yaw",
+    "eoir_port_pitch"
+  ],
+  "native_action_names": [
+    "aileron_left",
+    "aileron_right",
+    "cargo_ramp",
+    "cargo_upper_door",
+    "crew_door",
+    "elevator_left",
+    "elevator_right",
+    "eoir_chin_pitch",
+    "eoir_chin_yaw",
+    "eoir_port_pitch",
+    "eoir_port_yaw",
+    "flap_left",
+    "flap_right",
+    "gear_door_left",
+    "gear_door_nose",
+    "gear_door_right",
+    "gear_left",
+    "gear_nose",
+    "gear_right",
+    "gun105_fire_cycle",
+    "gun105_pitch",
+    "gun105_recoil",
+    "gun105_yaw",
+    "gun30_fire_cycle",
+    "gun30_pitch",
+    "gun30_recoil",
+    "gun30_yaw",
+    "paratroop_right",
+    "prop_1",
+    "prop_2",
+    "prop_3",
+    "prop_4",
+    "rudder",
+    "wheel_left_1",
+    "wheel_left_2",
+    "wheel_nose",
+    "wheel_right_1",
+    "wheel_right_2"
+  ],
+  "native_animation_inventory": [
+    {
+      "node": "PIVOT_gun30_yaw",
+      "track": "gun30_yaw",
+      "strips": [
+        {
+          "name": "gun30_yaw",
+          "action": "gun30_yaw",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_pitch",
+      "track": "gun30_pitch",
+      "strips": [
+        {
+          "name": "gun30_pitch",
+          "action": "gun30_pitch",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_recoil",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_recoil",
+      "track": "gun30_recoil",
+      "strips": [
+        {
+          "name": "gun30_recoil",
+          "action": "gun30_recoil",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_flash",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_case",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_smoke",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_yaw",
+      "track": "gun105_yaw",
+      "strips": [
+        {
+          "name": "gun105_yaw",
+          "action": "gun105_yaw",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_pitch",
+      "track": "gun105_pitch",
+      "strips": [
+        {
+          "name": "gun105_pitch",
+          "action": "gun105_pitch",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_recoil",
+      "track": "gun105_fire_cycle",
+      "strips": [
+        {
+          "name": "gun105_fire_cycle",
+          "action": "gun105_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_recoil",
+      "track": "gun105_recoil",
+      "strips": [
+        {
+          "name": "gun105_recoil",
+          "action": "gun105_recoil",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_case_exit_cover",
+      "track": "gun105_fire_cycle",
+      "strips": [
+        {
+          "name": "gun105_fire_cycle",
+          "action": "gun105_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_flash",
+      "track": "gun105_fire_cycle",
+      "strips": [
+        {
+          "name": "gun105_fire_cycle",
+          "action": "gun105_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_case",
+      "track": "gun105_fire_cycle",
+      "strips": [
+        {
+          "name": "gun105_fire_cycle",
+          "action": "gun105_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun105_smoke",
+      "track": "gun105_fire_cycle",
+      "strips": [
+        {
+          "name": "gun105_fire_cycle",
+          "action": "gun105_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_eoir_chin_yaw",
+      "track": "eoir_chin_yaw",
+      "strips": [
+        {
+          "name": "eoir_chin_yaw",
+          "action": "eoir_chin_yaw",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_eoir_chin_pitch",
+      "track": "eoir_chin_pitch",
+      "strips": [
+        {
+          "name": "eoir_chin_pitch",
+          "action": "eoir_chin_pitch",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_eoir_port_yaw",
+      "track": "eoir_port_yaw",
+      "strips": [
+        {
+          "name": "eoir_port_yaw",
+          "action": "eoir_port_yaw",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_eoir_port_pitch",
+      "track": "eoir_port_pitch",
+      "strips": [
+        {
+          "name": "eoir_port_pitch",
+          "action": "eoir_port_pitch",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_flap_right",
+      "track": "flap_right",
+      "strips": [
+        {
+          "name": "flap_right",
+          "action": "flap_right",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_aileron_right",
+      "track": "aileron_right",
+      "strips": [
+        {
+          "name": "aileron_right",
+          "action": "aileron_right",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_elevator_right",
+      "track": "elevator_right",
+      "strips": [
+        {
+          "name": "elevator_right",
+          "action": "elevator_right",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_flap_left",
+      "track": "flap_left",
+      "strips": [
+        {
+          "name": "flap_left",
+          "action": "flap_left",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_aileron_left",
+      "track": "aileron_left",
+      "strips": [
+        {
+          "name": "aileron_left",
+          "action": "aileron_left",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_elevator_left",
+      "track": "elevator_left",
+      "strips": [
+        {
+          "name": "elevator_left",
+          "action": "elevator_left",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_rudder",
+      "track": "rudder",
+      "strips": [
+        {
+          "name": "rudder",
+          "action": "rudder",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_1",
+      "track": "prop_1",
+      "strips": [
+        {
+          "name": "prop_1",
+          "action": "prop_1",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_2",
+      "track": "prop_2",
+      "strips": [
+        {
+          "name": "prop_2",
+          "action": "prop_2",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_3",
+      "track": "prop_3",
+      "strips": [
+        {
+          "name": "prop_3",
+          "action": "prop_3",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_prop_4",
+      "track": "prop_4",
+      "strips": [
+        {
+          "name": "prop_4",
+          "action": "prop_4",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_cargo_ramp",
+      "track": "cargo_ramp",
+      "strips": [
+        {
+          "name": "cargo_ramp",
+          "action": "cargo_ramp",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_cargo_upper_door",
+      "track": "cargo_upper_door",
+      "strips": [
+        {
+          "name": "cargo_upper_door",
+          "action": "cargo_upper_door",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_cargo_upper_door",
+      "track": "cargo_ramp",
+      "strips": [
+        {
+          "name": "cargo_ramp",
+          "action": "cargo_ramp",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_crew_door",
+      "track": "crew_door",
+      "strips": [
+        {
+          "name": "crew_door",
+          "action": "crew_door",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_paratroop_right",
+      "track": "paratroop_right",
+      "strips": [
+        {
+          "name": "paratroop_right",
+          "action": "paratroop_right",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_left",
+      "track": "gear_left",
+      "strips": [
+        {
+          "name": "gear_left",
+          "action": "gear_left",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_left_1",
+      "track": "wheel_left_1",
+      "strips": [
+        {
+          "name": "wheel_left_1",
+          "action": "wheel_left_1",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_left_2",
+      "track": "wheel_left_2",
+      "strips": [
+        {
+          "name": "wheel_left_2",
+          "action": "wheel_left_2",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_left",
+      "track": "gear_door_left",
+      "strips": [
+        {
+          "name": "gear_door_left",
+          "action": "gear_door_left",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_left",
+      "track": "gear_left",
+      "strips": [
+        {
+          "name": "gear_left",
+          "action": "gear_left",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_right",
+      "track": "gear_right",
+      "strips": [
+        {
+          "name": "gear_right",
+          "action": "gear_right",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_right_1",
+      "track": "wheel_right_1",
+      "strips": [
+        {
+          "name": "wheel_right_1",
+          "action": "wheel_right_1",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_right_2",
+      "track": "wheel_right_2",
+      "strips": [
+        {
+          "name": "wheel_right_2",
+          "action": "wheel_right_2",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_right",
+      "track": "gear_door_right",
+      "strips": [
+        {
+          "name": "gear_door_right",
+          "action": "gear_door_right",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_right",
+      "track": "gear_right",
+      "strips": [
+        {
+          "name": "gear_right",
+          "action": "gear_right",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_nose",
+      "track": "gear_nose",
+      "strips": [
+        {
+          "name": "gear_nose",
+          "action": "gear_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_wheel_nose",
+      "track": "wheel_nose",
+      "strips": [
+        {
+          "name": "wheel_nose",
+          "action": "wheel_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_nose",
+      "track": "gear_door_nose",
+      "strips": [
+        {
+          "name": "gear_door_nose",
+          "action": "gear_door_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gear_door_nose",
+      "track": "gear_nose",
+      "strips": [
+        {
+          "name": "gear_nose",
+          "action": "gear_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_nose_forward_hatch_left",
+      "track": "gear_door_nose",
+      "strips": [
+        {
+          "name": "gear_door_nose",
+          "action": "gear_door_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_nose_forward_hatch_left",
+      "track": "gear_nose",
+      "strips": [
+        {
+          "name": "gear_nose",
+          "action": "gear_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_nose_forward_hatch_right",
+      "track": "gear_door_nose",
+      "strips": [
+        {
+          "name": "gear_door_nose",
+          "action": "gear_door_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_nose_forward_hatch_right",
+      "track": "gear_nose",
+      "strips": [
+        {
+          "name": "gear_nose",
+          "action": "gear_nose",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    }
+  ],
+  "native_animation_evaluation": {
+    "result": "PASS",
+    "scope": "Eight samples per imported gun cycle / sensor action retained in named NLA tracks. Exact imported actions and action slots are evaluated natively. Actual mesh vertices and target matrices; no continuous collision or real operational certification.",
+    "clips": [
+      {
+        "clip": "eoir_chin_pitch",
+        "native_track_count": 1,
+        "animated_target_nodes": [
+          "PIVOT_eoir_chin_pitch"
+        ],
+        "animated_mesh_count": 34,
+        "sampled_vertex_count": 816,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.014752527698874474,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.014752527698874474
+            },
+            "max_sampled_vertex_displacement_m": 0.0036882007490451948
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.05401964113116264,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.05401964113116264
+            },
+            "max_sampled_vertex_displacement_m": 0.013509801429362282
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.14971910417079926,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.14971910417079926
+            },
+            "max_sampled_vertex_displacement_m": 0.037535747960352486
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.31681516766548157,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.31681516766548157
+            },
+            "max_sampled_vertex_displacement_m": 0.08024401752118476
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.5066431164741516,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.5066431164741516
+            },
+            "max_sampled_vertex_displacement_m": 0.13126504349213652
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.6578384637832642,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.6578384637832642
+            },
+            "max_sampled_vertex_displacement_m": 0.17565626760988973
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_pitch": 0.7071069478988647
+            },
+            "max_sampled_vertex_displacement_m": 0.1913417116176049
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      },
+      {
+        "clip": "eoir_chin_yaw",
+        "native_track_count": 1,
+        "animated_target_nodes": [
+          "PIVOT_eoir_chin_yaw"
+        ],
+        "animated_mesh_count": 39,
+        "sampled_vertex_count": 936,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.029501860961318016,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 0.029501860961318016
+            },
+            "max_sampled_vertex_displacement_m": 0.008681226507118441
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.10788135230541229,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 0.10788135230541229
+            },
+            "max_sampled_vertex_displacement_m": 0.0317875562144221
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.29606327414512634,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 0.29606327414512634
+            },
+            "max_sampled_vertex_displacement_m": 0.08810095001287235
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.6009897589683533,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 0.6009897589683533
+            },
+            "max_sampled_vertex_displacement_m": 0.1864281322012913
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.8736112713813782,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 0.8736112713813782
+            },
+            "max_sampled_vertex_displacement_m": 0.29813176326732516
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.9909140467643738,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 0.9909140467643738
+            },
+            "max_sampled_vertex_displacement_m": 0.38710164371318634
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 1.0000001343588565,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_chin_yaw": 1.0000001343588565
+            },
+            "max_sampled_vertex_displacement_m": 0.41609334891225097
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      },
+      {
+        "clip": "eoir_port_pitch",
+        "native_track_count": 1,
+        "animated_target_nodes": [
+          "PIVOT_eoir_port_pitch"
+        ],
+        "animated_mesh_count": 34,
+        "sampled_vertex_count": 816,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.014752527698874474,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.014752527698874474
+            },
+            "max_sampled_vertex_displacement_m": 0.0036881972042293047
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.05401964113116264,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.05401964113116264
+            },
+            "max_sampled_vertex_displacement_m": 0.013509794985469142
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.14971910417079926,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.14971910417079926
+            },
+            "max_sampled_vertex_displacement_m": 0.0375357300664238
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.31681516766548157,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.31681516766548157
+            },
+            "max_sampled_vertex_displacement_m": 0.08024397925721269
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.5066431164741516,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.5066431164741516
+            },
+            "max_sampled_vertex_displacement_m": 0.13126504349213652
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.6578384637832642,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.6578384637832642
+            },
+            "max_sampled_vertex_displacement_m": 0.17565622585694662
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_pitch": 0.7071069478988647
+            },
+            "max_sampled_vertex_displacement_m": 0.19134180287995417
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      },
+      {
+        "clip": "eoir_port_yaw",
+        "native_track_count": 1,
+        "animated_target_nodes": [
+          "PIVOT_eoir_port_yaw"
+        ],
+        "animated_mesh_count": 39,
+        "sampled_vertex_count": 936,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.029501860712898065,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 0.029501860712898065
+            },
+            "max_sampled_vertex_displacement_m": 0.008681015689795093
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.10788135205699234,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 0.10788135205699234
+            },
+            "max_sampled_vertex_displacement_m": 0.03178759123507277
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.2960632589955452,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 0.2960632589955452
+            },
+            "max_sampled_vertex_displacement_m": 0.08810155363623866
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.6009897438187721,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 0.6009897438187721
+            },
+            "max_sampled_vertex_displacement_m": 0.18642823995816757
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.8736111966271523,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 0.8736111966271523
+            },
+            "max_sampled_vertex_displacement_m": 0.2981320264526075
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.9909139124055031,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 0.9909139124055031
+            },
+            "max_sampled_vertex_displacement_m": 0.38710197572536525
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 1.0000002687177414,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_port_yaw": 1.0000002687177414
+            },
+            "max_sampled_vertex_displacement_m": 0.41609382342181417
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      },
+      {
+        "clip": "gun105_fire_cycle",
+        "native_track_count": 5,
+        "animated_target_nodes": [
+          "PIVOT_gun105_case",
+          "PIVOT_gun105_case_exit_cover",
+          "PIVOT_gun105_flash",
+          "PIVOT_gun105_recoil",
+          "PIVOT_gun105_smoke"
+        ],
+        "animated_mesh_count": 9,
+        "sampled_vertex_count": 172,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 4.000000626547262e-05,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.0,
+              "PIVOT_gun105_case_exit_cover": 0.0,
+              "PIVOT_gun105_flash": 0.0,
+              "PIVOT_gun105_recoil": 0.0,
+              "PIVOT_gun105_smoke": 4.000000626547262e-05
+            },
+            "max_sampled_vertex_displacement_m": 2.8322682199320788e-05
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.32138563862099545,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.0,
+              "PIVOT_gun105_case_exit_cover": 0.08500003814697266,
+              "PIVOT_gun105_flash": 0.32138563862099545,
+              "PIVOT_gun105_recoil": 0.08500003814697266,
+              "PIVOT_gun105_smoke": 0.2734932171370019
+            },
+            "max_sampled_vertex_displacement_m": 0.24628816788985114
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.559900002386712,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.0,
+              "PIVOT_gun105_case_exit_cover": 0.03714287281036377,
+              "PIVOT_gun105_flash": 0.03714299201965332,
+              "PIVOT_gun105_recoil": 0.03714287281036377,
+              "PIVOT_gun105_smoke": 0.559900002386712
+            },
+            "max_sampled_vertex_displacement_m": 0.39590920930952256
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.9999000000025262,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.9999000000025262,
+              "PIVOT_gun105_case_exit_cover": 0.2999999523162842,
+              "PIVOT_gun105_flash": 0.019999980926513672,
+              "PIVOT_gun105_recoil": 0.019999980926513672,
+              "PIVOT_gun105_smoke": 0.9799000190760125
+            },
+            "max_sampled_vertex_displacement_m": 0.7025448671173693
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 1.356150047686242,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.9999000000025262,
+              "PIVOT_gun105_case_exit_cover": 0.2999999523162842,
+              "PIVOT_gun105_flash": 0.0,
+              "PIVOT_gun105_recoil": 0.0,
+              "PIVOT_gun105_smoke": 1.356150047686242
+            },
+            "max_sampled_vertex_displacement_m": 1.144072723164556
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 1.7338479923273553,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.9999000000025262,
+              "PIVOT_gun105_case_exit_cover": 0.2999999523162842,
+              "PIVOT_gun105_flash": 0.0,
+              "PIVOT_gun105_recoil": 0.0,
+              "PIVOT_gun105_smoke": 1.7338479923273553
+            },
+            "max_sampled_vertex_displacement_m": 1.665242086405419
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.9948921633695136,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.9948921633695136,
+              "PIVOT_gun105_case_exit_cover": 0.10823869705200195,
+              "PIVOT_gun105_flash": 0.0,
+              "PIVOT_gun105_recoil": 0.0,
+              "PIVOT_gun105_smoke": 0.4499998092651367
+            },
+            "max_sampled_vertex_displacement_m": 1.0447950090061378
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 4.000000626547262e-05,
+            "target_matrix_deltas": {
+              "PIVOT_gun105_case": 0.0,
+              "PIVOT_gun105_case_exit_cover": 0.0,
+              "PIVOT_gun105_flash": 0.0,
+              "PIVOT_gun105_recoil": 0.0,
+              "PIVOT_gun105_smoke": 4.000000626547262e-05
+            },
+            "max_sampled_vertex_displacement_m": 2.8322682199320788e-05
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      },
+      {
+        "clip": "gun30_fire_cycle",
+        "native_track_count": 4,
+        "animated_target_nodes": [
+          "PIVOT_gun30_case",
+          "PIVOT_gun30_flash",
+          "PIVOT_gun30_recoil",
+          "PIVOT_gun30_smoke"
+        ],
+        "animated_mesh_count": 24,
+        "sampled_vertex_count": 536,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.32138563862099545,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.32138563862099545,
+              "PIVOT_gun30_recoil": 0.02974998950958252,
+              "PIVOT_gun30_smoke": 0.15623897483601468
+            },
+            "max_sampled_vertex_displacement_m": 0.14845423012019135
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.31989999284996884,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.013000011444091797,
+              "PIVOT_gun30_recoil": 0.013000011444091797,
+              "PIVOT_gun30_smoke": 0.31989999284996884
+            },
+            "max_sampled_vertex_displacement_m": 0.22620348602390483
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.999899761605775,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.999899761605775,
+              "PIVOT_gun30_flash": 0.006999969482421875,
+              "PIVOT_gun30_recoil": 0.006999969482421875,
+              "PIVOT_gun30_smoke": 0.559900002386712
+            },
+            "max_sampled_vertex_displacement_m": 0.4055655174363037
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.999899761605775,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.999899761605775,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.7749000357653131
+            },
+            "max_sampled_vertex_displacement_m": 0.7339564599296052
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.999899761605775,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.999899761605775,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.9907275008226861
+            },
+            "max_sampled_vertex_displacement_m": 1.1425768083988657
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.9946919249778148,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.9946919249778148,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.4499998092651367
+            },
+            "max_sampled_vertex_displacement_m": 0.6696388764951386
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      }
+    ]
+  },
+  "render_runtime": "Blender Cycles CPU",
+  "render_samples": 24,
+  "render_resolution": [
+    1000,
+    740
+  ],
+  "browser_rendering": "NOT_RUN",
+  "native_unreal": "NOT_RUN",
+  "continuous_clearance": "NOT_RUN",
+  "photographic_equivalence": "NOT_RUN",
+  "geometry_changes": "NONE; direct native glTF import",
+  "camera_contract": {
+    "path": "qa/system-review-cameras.json",
+    "sha256": "1e2e35980cb9ac8e22f7790794df9d5b78081670edf3c407bed8d6a70d8f2ca1"
+  },
+  "renders": [
+    {
+      "path": "previews/system-ac130-r0003-hero-rest.png",
+      "sha256": "779ca3574ea2559318be7342689010d7563aac408a98662cda4724f092859b23",
+      "view": "hero",
+      "camera_gltf": {
+        "id": "hero",
+        "position": [
+          -36,
+          20,
+          -35
+        ],
+        "target": [
+          0,
+          3,
+          0
+        ],
+        "scale": 51.0
+      },
+      "pose": "rest",
+      "hidden_meshes": [],
+      "cutaway": false,
+      "inspection_light": false
+    },
+    {
+      "path": "previews/system-ac130-r0003-port-rest.png",
+      "sha256": "f45957629de90735fd231d522df78ba5d6fa9122a328e5da0c7e93311e043e12",
+      "view": "port",
+      "camera_gltf": {
+        "id": "port",
+        "position": [
+          -38,
+          6,
+          0
+        ],
+        "target": [
+          0,
+          3,
+          0
+        ],
+        "scale": 43.0
+      },
+      "pose": "rest",
+      "hidden_meshes": [],
+      "cutaway": false,
+      "inspection_light": false
+    }
+  ],
+  "controller_snapshot_source": {
+    "path": "qa/viewer-poses-ac130.json",
+    "sha256": "812d7aa5a1e0f2234def5f801a2734d8f4e9b73bb72364efdf6fc5f2edbf0b91",
+    "result": "PASS",
+    "source_hash_checks": {
+      "model_sha256": true,
+      "articulation_sha256": true,
+      "controller_sha256": true,
+      "pose_driver_sha256": true
+    },
+    "pose_labels": [
+      "PARKED",
+      "SERVICE",
+      "FLYING",
+      "GLOBAL_0",
+      "GLOBAL_INSPECTION_OPEN",
+      "GLOBAL_25",
+      "GLOBAL_ACCESS_OPEN",
+      "GLOBAL_50",
+      "GLOBAL_75",
+      "GLOBAL_100",
+      "REVERSE_50",
+      "GUN30_CYCLE_5",
+      "GUN30_CYCLE_10",
+      "GUN30_CYCLE_25",
+      "GUN30_CYCLE_50",
+      "GUN30_CYCLE_65",
+      "GUN30_CYCLE_80",
+      "GUN105_CYCLE_5",
+      "GUN105_CYCLE_10",
+      "GUN105_CYCLE_25",
+      "GUN105_CYCLE_50",
+      "GUN105_CYCLE_65",
+      "GUN105_CYCLE_80",
+      "RESET"
+    ],
+    "scope": "Source identity check; this does not render the browser."
+  },
+  "editable_blend": {
+    "path": "editable/system-ac130-r0003.blend",
+    "sha256": "607e771ebabf9e64f00156a0eb9f144d07478f4a0693b1138f0c480cd13ab797"
+  },
+  "blend_reopen": {
+    "result": "PASS",
+    "asset_objects": 368,
+    "named_actions_retained": true,
+    "nla_track_inventory_retained": true,
+    "all_texture_images_packed": true
+  },
+  "render_pose": {
+    "source": "canonical imported rest"
+  },
+  "input_unchanged_during_review": true,
+  "status": "PASS"
+}

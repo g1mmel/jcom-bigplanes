@@ -1,0 +1,241 @@
+{
+  "animationCount": 1,
+  "categories": [
+    {
+      "uid": "22a2f677efad4d7bbca5ad45f9b5868e",
+      "name": "Cars & Vehicles",
+      "slug": "cars-vehicles",
+      "uri": "https://api.sketchfab.com/v3/categories/22a2f677efad4d7bbca5ad45f9b5868e",
+      "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/45dd0cc0860ac57fcd63bde1cc3f2b7c-v2.svg",
+      "thumbnails": [
+        {
+          "width": "512",
+          "height": "288",
+          "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/512x288.png"
+        },
+        {
+          "width": "800",
+          "height": "450",
+          "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/800x450.png"
+        }
+      ]
+    },
+    {
+      "uid": "3badf36bd9f549bdba295334d75e04d3",
+      "name": "Weapons & Military",
+      "slug": "weapons-military",
+      "uri": "https://api.sketchfab.com/v3/categories/3badf36bd9f549bdba295334d75e04d3",
+      "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/6f71af8dadcca706c7404c9a0f82c1a3-v2.svg",
+      "thumbnails": [
+        {
+          "width": "512",
+          "height": "288",
+          "url": "https://static.sketchfab.com/categories/3badf36bd9f549bdba295334d75e04d3/512x288.png"
+        },
+        {
+          "width": "800",
+          "height": "450",
+          "url": "https://static.sketchfab.com/categories/3badf36bd9f549bdba295334d75e04d3/800x450.png"
+        }
+      ]
+    }
+  ],
+  "commentCount": 2,
+  "createdAt": "2020-10-27T03:59:57.148589",
+  "embedUrl": "https://sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/embed",
+  "faceCount": 44265,
+  "isAgeRestricted": false,
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/5b54cf13b1a4422ca439696eb152070d",
+    "label": "Editorial",
+    "fullName": "Editorial",
+    "requirements": "Use only in connection with events that are newsworthy or of public interest",
+    "url": "https://sketchfab.com/licenses",
+    "slug": "ed"
+  },
+  "likeCount": 35,
+  "name": "Lockheed AC-130J Ghostrider",
+  "publishedAt": "2020-10-27T04:12:15.355616",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [
+    {
+      "name": "marine",
+      "slug": "marine",
+      "uri": "https://api.sketchfab.com/v3/tags/marine"
+    },
+    {
+      "name": "gunship",
+      "slug": "gunship",
+      "uri": "https://api.sketchfab.com/v3/tags/gunship"
+    },
+    {
+      "name": "usaf",
+      "slug": "usaf",
+      "uri": "https://api.sketchfab.com/v3/tags/usaf"
+    },
+    {
+      "name": "transport",
+      "slug": "transport",
+      "uri": "https://api.sketchfab.com/v3/tags/transport"
+    },
+    {
+      "name": "logistics",
+      "slug": "logistics",
+      "uri": "https://api.sketchfab.com/v3/tags/logistics"
+    },
+    {
+      "name": "hercules",
+      "slug": "hercules",
+      "uri": "https://api.sketchfab.com/v3/tags/hercules"
+    },
+    {
+      "name": "cargo",
+      "slug": "cargo",
+      "uri": "https://api.sketchfab.com/v3/tags/cargo"
+    },
+    {
+      "name": "airbus",
+      "slug": "airbus",
+      "uri": "https://api.sketchfab.com/v3/tags/airbus"
+    },
+    {
+      "name": "HMS",
+      "slug": "hms",
+      "uri": "https://api.sketchfab.com/v3/tags/hms"
+    },
+    {
+      "name": "nato",
+      "slug": "nato",
+      "uri": "https://api.sketchfab.com/v3/tags/nato"
+    },
+    {
+      "name": "refuelling",
+      "slug": "refuelling",
+      "uri": "https://api.sketchfab.com/v3/tags/refuelling"
+    },
+    {
+      "name": "gun",
+      "slug": "gun",
+      "uri": "https://api.sketchfab.com/v3/tags/gun"
+    },
+    {
+      "name": "royal",
+      "slug": "royal",
+      "uri": "https://api.sketchfab.com/v3/tags/royal"
+    },
+    {
+      "name": "a-400m",
+      "slug": "a-400m",
+      "uri": "https://api.sketchfab.com/v3/tags/a-400m"
+    },
+    {
+      "name": "c-130u",
+      "slug": "c-130u",
+      "uri": "https://api.sketchfab.com/v3/tags/c-130u"
+    },
+    {
+      "name": "ckc-130",
+      "slug": "ckc-130",
+      "uri": "https://api.sketchfab.com/v3/tags/ckc-130"
+    }
+  ],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "b6c49596fa2940f98441b885172fa189",
+        "width": 1920,
+        "height": 1080,
+        "size": 33239,
+        "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/3b79de87284746b9b863f468f12cb07a.jpeg"
+      },
+      {
+        "uid": "37344d3ee9004b3dabf5337008ce00d7",
+        "width": 1024,
+        "height": 576,
+        "size": 11303,
+        "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/0010e269f23d4866a72f38a4ddb81f06.jpeg"
+      },
+      {
+        "uid": "a10950559ca6412ea56f5b6d0c830aaa",
+        "width": 720,
+        "height": 405,
+        "size": 6779,
+        "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/c7f885e4f23543da89c4ac3c9b8f3c18.jpeg"
+      },
+      {
+        "uid": "51436625db6c42ebb2b6431b3f184d7f",
+        "width": 256,
+        "height": 144,
+        "size": 1655,
+        "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/c1811cf52acf4429b5174b9523f25c39.jpeg"
+      },
+      {
+        "uid": "a8d16c5ed17346bcaaf5caa366cf7e6e",
+        "width": 64,
+        "height": 36,
+        "size": 540,
+        "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/1965f5c2359040dc9ee0c369f1ff9c15.jpeg"
+      }
+    ]
+  },
+  "uid": "f1cfdf557a424ea4b6c3b64ffc493f9f",
+  "uri": "https://api.sketchfab.com/v3/models/f1cfdf557a424ea4b6c3b64ffc493f9f",
+  "user": {
+    "uid": "894f5206f4eb4e128fad5c3e374a3a8c",
+    "username": "timonfreud",
+    "displayName": "timonfreud",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/timonfreud",
+    "avatar": {
+      "uid": "080143bf4cc148fc8a433df54dd0af8d",
+      "uri": "https://api.sketchfab.com/v3/avatars/080143bf4cc148fc8a433df54dd0af8d",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 1037,
+          "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/e03fd29a0279471db9bc07d1ed47fbfc.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1440,
+          "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/c9697ba4e08a4bb186bf983d78c9ba5d.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 3135,
+          "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/64245261a9ac427aa4773a8f90a53a9a.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 3657,
+          "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/018450e79e364982b3f541eb085fe701.jpeg"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/894f5206f4eb4e128fad5c3e374a3a8c"
+  },
+  "vertexCount": 24707,
+  "viewCount": 8915,
+  "viewerUrl": "https://sketchfab.com/3d-models/lockheed-ac-130j-ghostrider-f1cfdf557a424ea4b6c3b64ffc493f9f",
+  "isDownloadable": false,
+  "isProtected": false,
+  "description": "The AC-130J Ghostrider is a new addition to Air Force Special Operations Command (AFSOC)'s arsenal. The Ghostrider, which is currently under development, is a gunship created by adding a weapons package to a MC-130J Commando II aircraft. The aircraft is earmarked to eventually replace current AC-130H gunships. All the propeller, gear wheel, slat, rudder, gear door, gun flash, cargo door are rigged, game-ready for engines.",
+  "price": 14900,
+  "downloadCount": 0,
+  "editorUrl": "https://sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "website",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2022-07-20T11:00:21.001306",
+  "pbrType": null,
+  "textureCount": 3,
+  "materialCount": 7
+}

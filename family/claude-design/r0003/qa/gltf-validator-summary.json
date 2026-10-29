@@ -1,0 +1,111 @@
+{
+  "generated_utc": "2026-10-29T05:55:29.398Z",
+  "tool": "KhronosGroup/glTF-Validator",
+  "upstream": "https://github.com/KhronosGroup/glTF-Validator",
+  "npm_package": "gltf-validator",
+  "pinned_version": "2.0.0-dev.3.10",
+  "actual_version": "2.0.0-dev.3.10",
+  "npm_integrity": "sha512-odJ4k0tRkGXiDGn78yDBg+fBbAIvBnXxh3RwAta0emSxGtyagFE8B4xELB1oYe3S5RD8Ci3uZAsZaascH2LAEQ==",
+  "node_version": "v24.22.1",
+  "scope": "glTF2.0/GLB format, schema, references, binary/accessor/animation data and embedded resources. Does not establish visual accuracy, collision clearance, license or native engine acceptance.",
+  "models": [
+    {
+      "id": "ac130",
+      "file": "models/ac130.glb",
+      "bytes": 17480992,
+      "sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 78,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 53,
+        "UNUSED_MESH_TANGENT": 24,
+        "IMAGE_NPOT_DIMENSIONS": 1
+      },
+      "report": "qa/ac130.gltf-validator.json"
+    },
+    {
+      "id": "ac130j",
+      "file": "models/ac130j.glb",
+      "bytes": 17247052,
+      "sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 52,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 39,
+        "UNUSED_MESH_TANGENT": 12,
+        "IMAGE_NPOT_DIMENSIONS": 1
+      },
+      "report": "qa/ac130j.gltf-validator.json"
+    },
+    {
+      "id": "gau23-visual",
+      "file": "components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 31,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 30,
+        "IMAGE_NPOT_DIMENSIONS": 1
+      },
+      "report": "qa/gau23-visual.gltf-validator.json"
+    },
+    {
+      "id": "m102-airborne-visual",
+      "file": "components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 22,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 21,
+        "IMAGE_NPOT_DIMENSIONS": 1
+      },
+      "report": "qa/m102-airborne-visual.gltf-validator.json"
+    },
+    {
+      "id": "eoir-visual",
+      "file": "components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 10,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 10
+      },
+      "report": "qa/eoir-visual.gltf-validator.json"
+    }
+  ],
+  "refresh": {
+    "refreshed_models": [
+      "ac130",
+      "ac130j",
+      "gau23-visual"
+    ],
+    "reused_hash_matched_models": [
+      "m102-airborne-visual",
+      "eoir-visual"
+    ]
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "claude-design-c130-review-viewer",
+  "private": true,
+  "type": "module",
+  "version": "0.3.0",
+  "scripts": {
+    "test": "node test-controller.mjs && node test-firing.mjs"
+  }
+}

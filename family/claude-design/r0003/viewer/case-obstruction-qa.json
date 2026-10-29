@@ -1,0 +1,138 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "scope": "Actual transformed case mesh vertices and named base/support/exit-cover mesh vertices, 129 normalized firing samples with aim at rest. Disjoint AABBs prove no intersection at sampled times. Overlapping AABBs are conservative flags, not proven collisions. For overlaps, actual case vertices are additionally tested against the target convex beveled-box mesh face planes; contained vertices establish real sampled interpenetration. Other geometry and continuous travel are untested.",
+  "models": [
+    {
+      "id": "ac130",
+      "model_sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+      "systems": [
+        {
+          "control": "gun30_fire_cycle",
+          "visible_phase_samples": 82,
+          "obstacle_names": [
+            "gun30_INBOARD_BASE",
+            "gun30_BASE_SUPPORT_0",
+            "gun30_BASE_SUPPORT_1"
+          ],
+          "overlap_count": 0,
+          "potential_overlaps": [],
+          "minimum_aabb_gaps_m": {
+            "gun30_INBOARD_BASE": 0.25497801415749,
+            "gun30_BASE_SUPPORT_0": 0.5109970454391422,
+            "gun30_BASE_SUPPORT_1": 0.32606437533455596
+          },
+          "status": "PASS"
+        },
+        {
+          "control": "gun105_fire_cycle",
+          "visible_phase_samples": 82,
+          "obstacle_names": [
+            "gun105_INBOARD_BASE",
+            "gun105_CASE_EXIT_COVER"
+          ],
+          "overlap_count": 0,
+          "potential_overlaps": [],
+          "minimum_aabb_gaps_m": {
+            "gun105_INBOARD_BASE": 0.07385146897961398,
+            "gun105_CASE_EXIT_COVER": 0.12201562063273741
+          },
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "ac130j",
+      "model_sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+      "systems": [
+        {
+          "control": "gun30_fire_cycle",
+          "visible_phase_samples": 82,
+          "obstacle_names": [
+            "gun30_INBOARD_BASE",
+            "gun30_BASE_SUPPORT_0",
+            "gun30_BASE_SUPPORT_1"
+          ],
+          "overlap_count": 0,
+          "potential_overlaps": [],
+          "minimum_aabb_gaps_m": {
+            "gun30_INBOARD_BASE": 0.25497801415749,
+            "gun30_BASE_SUPPORT_0": 0.5109970454391422,
+            "gun30_BASE_SUPPORT_1": 0.32606437533455596
+          },
+          "status": "PASS"
+        },
+        {
+          "control": "gun105_fire_cycle",
+          "visible_phase_samples": 82,
+          "obstacle_names": [
+            "gun105_INBOARD_BASE",
+            "gun105_CASE_EXIT_COVER"
+          ],
+          "overlap_count": 0,
+          "potential_overlaps": [],
+          "minimum_aabb_gaps_m": {
+            "gun105_INBOARD_BASE": 0.07385146897961398,
+            "gun105_CASE_EXIT_COVER": 0.12201562063273741
+          },
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "gau23-visual",
+      "model_sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "systems": [
+        {
+          "control": "gun30_fire_cycle",
+          "visible_phase_samples": 82,
+          "obstacle_names": [
+            "gun30_INBOARD_BASE",
+            "gun30_BASE_SUPPORT_0",
+            "gun30_BASE_SUPPORT_1"
+          ],
+          "overlap_count": 0,
+          "potential_overlaps": [],
+          "minimum_aabb_gaps_m": {
+            "gun30_INBOARD_BASE": 0.2549780141574901,
+            "gun30_BASE_SUPPORT_0": 0.5109970454391429,
+            "gun30_BASE_SUPPORT_1": 0.32606437533455596
+          },
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "m102-airborne-visual",
+      "model_sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "systems": [
+        {
+          "control": "gun105_fire_cycle",
+          "visible_phase_samples": 82,
+          "obstacle_names": [
+            "gun105_INBOARD_BASE",
+            "gun105_CASE_EXIT_COVER"
+          ],
+          "overlap_count": 0,
+          "potential_overlaps": [],
+          "minimum_aabb_gaps_m": {
+            "gun105_INBOARD_BASE": 0.07385146897961392,
+            "gun105_CASE_EXIT_COVER": 0.12201562063273741
+          },
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "focused_refresh": {
+    "rerun_assets": [
+      "ac130",
+      "ac130j",
+      "gau23-visual"
+    ],
+    "reused_unchanged_assets": [
+      "m102-airborne-visual"
+    ],
+    "reuse_basis": "Recorded GLB and sidecar hashes match current bytes; controller and pose-driver hashes unchanged. No behavioral re-test of unchanged assets."
+  }
+}

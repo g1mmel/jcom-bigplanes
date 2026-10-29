@@ -1,0 +1,4241 @@
+{
+  "cursors": {
+    "next": "24",
+    "previous": null
+  },
+  "next": "https://api.sketchfab.com/v3/search?count=24&cursor=24&q=sensor+turret&type=models",
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/d64a4623a48648b09c978fb8b59a1e6a",
+      "uid": "d64a4623a48648b09c978fb8b59a1e6a",
+      "name": "Hover-Guard Auto Turret",
+      "staffpickedAt": null,
+      "viewCount": 4878,
+      "likeCount": 166,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-d64a4623a48648b09c978fb8b59a1e6a",
+      "embedUrl": "https://sketchfab.com/models/d64a4623a48648b09c978fb8b59a1e6a/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2017-04-09T02:23:00.959172",
+      "tags": [
+        {
+          "name": "steampunk",
+          "slug": "steampunk",
+          "uri": "https://api.sketchfab.com/v3/tags/steampunk"
+        },
+        {
+          "name": "drone",
+          "slug": "drone",
+          "uri": "https://api.sketchfab.com/v3/tags/drone"
+        },
+        {
+          "name": "prop",
+          "slug": "prop",
+          "uri": "https://api.sketchfab.com/v3/tags/prop"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "game",
+          "slug": "game",
+          "uri": "https://api.sketchfab.com/v3/tags/game"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        },
+        {
+          "name": "pbr",
+          "slug": "pbr",
+          "uri": "https://api.sketchfab.com/v3/tags/pbr"
+        },
+        {
+          "name": "helicopter",
+          "slug": "helicopter",
+          "uri": "https://api.sketchfab.com/v3/tags/helicopter"
+        },
+        {
+          "name": "fantasy",
+          "slug": "fantasy",
+          "uri": "https://api.sketchfab.com/v3/tags/fantasy"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "1a28fdb803884976a7c6467ce74a4f68",
+            "size": 50455,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/d64a4623a48648b09c978fb8b59a1e6a/thumbnails/b1cd77f68f1a4b1ca4fe8cc4f4bff79a/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "93bcda4b91ea48c0ab268222e9782175",
+            "size": 29509,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/d64a4623a48648b09c978fb8b59a1e6a/thumbnails/b1cd77f68f1a4b1ca4fe8cc4f4bff79a/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "5e82d2f4ab9046c886aa58a4b7318bbd",
+            "size": 6010,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/d64a4623a48648b09c978fb8b59a1e6a/thumbnails/b1cd77f68f1a4b1ca4fe8cc4f4bff79a/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "8a56e86c2adb499da1f13cf97e3da789",
+            "size": 979,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/d64a4623a48648b09c978fb8b59a1e6a/thumbnails/b1cd77f68f1a4b1ca4fe8cc4f4bff79a/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a9705610495b492e9d7d9718b21c2cf9",
+        "username": "babies-4-cash",
+        "displayName": "T Doolen",
+        "profileUrl": "https://sketchfab.com/babies-4-cash",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/a69c794f02334394aede89ba0b6ea15d",
+          "images": [
+            {
+              "size": 774,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/a69c794f02334394aede89ba0b6ea15d/070f4e552e6c42848e8d12ceb5e3d3ea.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1159,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/a69c794f02334394aede89ba0b6ea15d/1542d75f8ace4997b55cb2ac09a42fd8.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2845,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/a69c794f02334394aede89ba0b6ea15d/8e4bd5de617642789f9810ea2f613da3.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3287,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/a69c794f02334394aede89ba0b6ea15d/8935d94d0541426ca6018e37d51a7f89.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a9705610495b492e9d7d9718b21c2cf9"
+      },
+      "description": "Reverse engineered from fragments of technology used in the previous catastrophic wars. This floating gun platform is activated through subtle vibrations detected by its magnetic sensor. Ideal for dispatching an undesired airship or biplane.",
+      "faceCount": 12312,
+      "createdAt": "2017-04-09T02:04:47.500864",
+      "vertexCount": 12298,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ca9635ab062642b2a8f1d700a0b35e84",
+      "uid": "ca9635ab062642b2a8f1d700a0b35e84",
+      "name": "Turret battle automatic gun with sensor aim da1",
+      "staffpickedAt": null,
+      "viewCount": 1548,
+      "likeCount": 45,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ca9635ab062642b2a8f1d700a0b35e84",
+      "embedUrl": "https://sketchfab.com/models/ca9635ab062642b2a8f1d700a0b35e84/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2022-03-19T06:50:32.133026",
+      "tags": [
+        {
+          "name": "raw",
+          "slug": "raw",
+          "uri": "https://api.sketchfab.com/v3/tags/raw"
+        },
+        {
+          "name": "arm",
+          "slug": "arm",
+          "uri": "https://api.sketchfab.com/v3/tags/arm"
+        },
+        {
+          "name": "army",
+          "slug": "army",
+          "uri": "https://api.sketchfab.com/v3/tags/army"
+        },
+        {
+          "name": "riffle",
+          "slug": "riffle",
+          "uri": "https://api.sketchfab.com/v3/tags/riffle"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "rusted",
+          "slug": "rusted",
+          "uri": "https://api.sketchfab.com/v3/tags/rusted"
+        },
+        {
+          "name": "machinegun",
+          "slug": "machinegun",
+          "uri": "https://api.sketchfab.com/v3/tags/machinegun"
+        },
+        {
+          "name": "dirty",
+          "slug": "dirty",
+          "uri": "https://api.sketchfab.com/v3/tags/dirty"
+        },
+        {
+          "name": "millitary",
+          "slug": "millitary",
+          "uri": "https://api.sketchfab.com/v3/tags/millitary"
+        },
+        {
+          "name": "damaged",
+          "slug": "damaged",
+          "uri": "https://api.sketchfab.com/v3/tags/damaged"
+        },
+        {
+          "name": "old",
+          "slug": "old",
+          "uri": "https://api.sketchfab.com/v3/tags/old"
+        },
+        {
+          "name": "machine",
+          "slug": "machine",
+          "uri": "https://api.sketchfab.com/v3/tags/machine"
+        },
+        {
+          "name": "battle",
+          "slug": "battle",
+          "uri": "https://api.sketchfab.com/v3/tags/battle"
+        },
+        {
+          "name": "ppsh",
+          "slug": "ppsh",
+          "uri": "https://api.sketchfab.com/v3/tags/ppsh"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "scan",
+          "slug": "scan",
+          "uri": "https://api.sketchfab.com/v3/tags/scan"
+        },
+        {
+          "name": "car",
+          "slug": "car",
+          "uri": "https://api.sketchfab.com/v3/tags/car"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "millitary-assets",
+          "slug": "millitary-assets",
+          "uri": "https://api.sketchfab.com/v3/tags/millitary-assets"
+        },
+        {
+          "name": "battle-race",
+          "slug": "battle-race",
+          "uri": "https://api.sketchfab.com/v3/tags/battle-race"
+        },
+        {
+          "name": "soivet",
+          "slug": "soivet",
+          "uri": "https://api.sketchfab.com/v3/tags/soivet"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "139e089a34ef473aa2850fd4b9cba8eb",
+            "size": 412544,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ca9635ab062642b2a8f1d700a0b35e84/thumbnails/b14c50fa47474f709aa4f74e2ad6ed7e/dc50452d33fc42f6a207e6080831deed.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "dc78889d61d643dfabd6cc4971ca4209",
+            "size": 59943,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ca9635ab062642b2a8f1d700a0b35e84/thumbnails/b14c50fa47474f709aa4f74e2ad6ed7e/f67eda6213e44d0392e3ea8f21e738e2.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "b982b9d53d634af5bf4feff086167418",
+            "size": 32374,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ca9635ab062642b2a8f1d700a0b35e84/thumbnails/b14c50fa47474f709aa4f74e2ad6ed7e/7067eafd4a8942039f69ad0091ca3f40.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "bd2120f4ba3140708b8ca223c36db71b",
+            "size": 6229,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ca9635ab062642b2a8f1d700a0b35e84/thumbnails/b14c50fa47474f709aa4f74e2ad6ed7e/f0034c714e7241feb28eab381df94a63.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "e47093120f5b4eb0aa48d8624033784b",
+            "size": 1281,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ca9635ab062642b2a8f1d700a0b35e84/thumbnails/b14c50fa47474f709aa4f74e2ad6ed7e/0397f9f7401e47599363f939b1091c70.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3a66f5efde3441b4a95b44c2f3f5107c",
+        "username": "flawlessnormals",
+        "displayName": "flawlessnormals",
+        "profileUrl": "https://sketchfab.com/flawlessnormals",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/02d3ab8a99194d86a400b86cc800d9e2",
+          "images": [
+            {
+              "size": 1454,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/02d3ab8a99194d86a400b86cc800d9e2/e35fbc9c32f94649b51215d4c0a5bda7.png",
+              "height": 32
+            },
+            {
+              "size": 2777,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/02d3ab8a99194d86a400b86cc800d9e2/45aa776cd06b4633a1c46ea97eadfd90.png",
+              "height": 48
+            },
+            {
+              "size": 5764,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/02d3ab8a99194d86a400b86cc800d9e2/36317be2a6bc4d80bc3a0e4517619a02.png",
+              "height": 90
+            },
+            {
+              "size": 6394,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/02d3ab8a99194d86a400b86cc800d9e2/7bb5ed8234b64b7aa5e11fe8f22662d7.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3a66f5efde3441b4a95b44c2f3f5107c"
+      },
+      "description": "",
+      "faceCount": 24149,
+      "createdAt": "2022-03-19T06:25:04.906408",
+      "vertexCount": 13233,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 17545140,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 24149,
+          "vertexCount": 20995
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 16900258,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 24149,
+          "vertexCount": 20995
+        },
+        "source": {
+          "textureCount": null,
+          "size": 39623534,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6890717,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a4856e7eb06146b39bcb1b3e3bee21b5",
+      "uid": "a4856e7eb06146b39bcb1b3e3bee21b5",
+      "name": "SciFi Turret",
+      "staffpickedAt": null,
+      "viewCount": 177,
+      "likeCount": 7,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a4856e7eb06146b39bcb1b3e3bee21b5",
+      "embedUrl": "https://sketchfab.com/models/a4856e7eb06146b39bcb1b3e3bee21b5/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2023-11-24T17:20:06.971831",
+      "tags": [
+        {
+          "name": "cyberpunk",
+          "slug": "cyberpunk",
+          "uri": "https://api.sketchfab.com/v3/tags/cyberpunk"
+        },
+        {
+          "name": "shooterweapon",
+          "slug": "shooterweapon",
+          "uri": "https://api.sketchfab.com/v3/tags/shooterweapon"
+        },
+        {
+          "name": "props-assets",
+          "slug": "props-assets",
+          "uri": "https://api.sketchfab.com/v3/tags/props-assets"
+        },
+        {
+          "name": "weapon-3dmodel",
+          "slug": "weapon-3dmodel",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon-3dmodel"
+        },
+        {
+          "name": "scifiobjects",
+          "slug": "scifiobjects",
+          "uri": "https://api.sketchfab.com/v3/tags/scifiobjects"
+        },
+        {
+          "name": "prop_modeling",
+          "slug": "prop_modeling",
+          "uri": "https://api.sketchfab.com/v3/tags/prop_modeling"
+        },
+        {
+          "name": "turret-weapon",
+          "slug": "turret-weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/turret-weapon"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        },
+        {
+          "name": "enemy-robot",
+          "slug": "enemy-robot",
+          "uri": "https://api.sketchfab.com/v3/tags/enemy-robot"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "4673eb745f604926b09a45ae2da00d49",
+            "size": 182739,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a4856e7eb06146b39bcb1b3e3bee21b5/thumbnails/de10871872b843b096aa79ff5a660e8c/9b82110b7867422c8d9ad10b76e12be9.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e9494c4edd2a4fe39c37cf99dc311304",
+            "size": 53967,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a4856e7eb06146b39bcb1b3e3bee21b5/thumbnails/de10871872b843b096aa79ff5a660e8c/e4e2a84364be4a24982e45c36f127f85.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "5317888b4835487ba55a07dae1ef25c7",
+            "size": 31758,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a4856e7eb06146b39bcb1b3e3bee21b5/thumbnails/de10871872b843b096aa79ff5a660e8c/ad6a74289d564b3da26a5a47f5abd7f2.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "388d81e6f3a34140ba7ea6863dff9b9b",
+            "size": 7070,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a4856e7eb06146b39bcb1b3e3bee21b5/thumbnails/de10871872b843b096aa79ff5a660e8c/53d4842f7e974d6bbedae31e13f4a047.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ee149ce6bf344fedb718b43be5bd8de0",
+            "size": 1323,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a4856e7eb06146b39bcb1b3e3bee21b5/thumbnails/de10871872b843b096aa79ff5a660e8c/918b40ac3a9f4f2587a7ccce1dbdbc93.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "bd668ade751a494c8720d8b0ecccf895",
+        "username": "mysticmike369",
+        "displayName": "Miguel Torres",
+        "profileUrl": "https://sketchfab.com/mysticmike369",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/28d2160a2d8947be838c40054ebb5877",
+          "images": [
+            {
+              "size": 2042,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/28d2160a2d8947be838c40054ebb5877/6b77e945bf6949319d313d46f76d1507.png",
+              "height": 32
+            },
+            {
+              "size": 4061,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/28d2160a2d8947be838c40054ebb5877/d2d2b2090284452dbc0fa663574c9898.png",
+              "height": 48
+            },
+            {
+              "size": 11934,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/28d2160a2d8947be838c40054ebb5877/152447382e4b4fc18d55a858b9a9793a.png",
+              "height": 90
+            },
+            {
+              "size": 14284,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/28d2160a2d8947be838c40054ebb5877/86b5805a1df04d3193304c74b11c860d.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/bd668ade751a494c8720d8b0ecccf895"
+      },
+      "description": "Designed for scifi videogame, this turret is ready to kill and has moving detector sensors on the top.",
+      "faceCount": 32974,
+      "createdAt": "2023-11-24T16:29:52.355539",
+      "vertexCount": 16988,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 4,
+          "size": 11933704,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 32972,
+          "vertexCount": 31843
+        },
+        "gltf": {
+          "textureCount": 4,
+          "size": 10972420,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 32972,
+          "vertexCount": 31843
+        },
+        "source": {
+          "textureCount": null,
+          "size": 18508570,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 2577641,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/fb7ad5bc232b4a589ce34259a0bb9404",
+      "uid": "fb7ad5bc232b4a589ce34259a0bb9404",
+      "name": "Red Turret",
+      "staffpickedAt": null,
+      "viewCount": 35,
+      "likeCount": 6,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-fb7ad5bc232b4a589ce34259a0bb9404",
+      "embedUrl": "https://sketchfab.com/models/fb7ad5bc232b4a589ce34259a0bb9404/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2025-09-14T12:06:25.925305",
+      "tags": [
+        {
+          "name": "red",
+          "slug": "red",
+          "uri": "https://api.sketchfab.com/v3/tags/red"
+        },
+        {
+          "name": "army",
+          "slug": "army",
+          "uri": "https://api.sketchfab.com/v3/tags/army"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "automatic",
+          "slug": "automatic",
+          "uri": "https://api.sketchfab.com/v3/tags/automatic"
+        },
+        {
+          "name": "fictional",
+          "slug": "fictional",
+          "uri": "https://api.sketchfab.com/v3/tags/fictional"
+        },
+        {
+          "name": "firegun",
+          "slug": "firegun",
+          "uri": "https://api.sketchfab.com/v3/tags/firegun"
+        },
+        {
+          "name": "laserpointer",
+          "slug": "laserpointer",
+          "uri": "https://api.sketchfab.com/v3/tags/laserpointer"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "war",
+          "slug": "war",
+          "uri": "https://api.sketchfab.com/v3/tags/war"
+        },
+        {
+          "name": "motionsensor",
+          "slug": "motionsensor",
+          "uri": "https://api.sketchfab.com/v3/tags/motionsensor"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "29f7bb06686247b38faaa9a21e7b80a8",
+            "size": 231788,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/fb7ad5bc232b4a589ce34259a0bb9404/thumbnails/b6dc563ab9744f6fa005d3fb1030f48f/ebdcd50d9af14220b24c0f1c8729e4e4.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "26ab1ff800d241e89fd8998be5e04922",
+            "size": 30205,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/fb7ad5bc232b4a589ce34259a0bb9404/thumbnails/b6dc563ab9744f6fa005d3fb1030f48f/82c1f1d716ca4efabe27464c4ce637f5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f15e078460b646f29d961c87a3a8880b",
+            "size": 17195,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/fb7ad5bc232b4a589ce34259a0bb9404/thumbnails/b6dc563ab9744f6fa005d3fb1030f48f/0ccdfccb7d2840a69d679ff8c562022e.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "1e4540aa995a4769a96ba70f127e2cd1",
+            "size": 4112,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/fb7ad5bc232b4a589ce34259a0bb9404/thumbnails/b6dc563ab9744f6fa005d3fb1030f48f/0549e654d7104371b47f8d9b89c694ad.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "4a6a8ecbf4d4488abf77ef8f091d67a2",
+            "size": 1118,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/fb7ad5bc232b4a589ce34259a0bb9404/thumbnails/b6dc563ab9744f6fa005d3fb1030f48f/625b646221ca43779eac3604a7ff68ee.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "24438bda6e714494ab0d9c3cc5e88bdc",
+        "username": "VertexVendingMachine",
+        "displayName": "Wonderful Optics Workshop",
+        "profileUrl": "https://sketchfab.com/VertexVendingMachine",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/8c1ce8d540c848a8adb43ae4dd3c071c",
+          "images": [
+            {
+              "size": 1204,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/8c1ce8d540c848a8adb43ae4dd3c071c/f4d2c93243b247edacb8b33bd06e0f99.png",
+              "height": 32
+            },
+            {
+              "size": 2143,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/8c1ce8d540c848a8adb43ae4dd3c071c/83a8a47d1089481da6befd5311c1a3bc.png",
+              "height": 48
+            },
+            {
+              "size": 5724,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/8c1ce8d540c848a8adb43ae4dd3c071c/c8a6cf8692f542af9ae7ac845a7eaf00.png",
+              "height": 90
+            },
+            {
+              "size": 6778,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/8c1ce8d540c848a8adb43ae4dd3c071c/5d6536600f304f6b997df593fa69d2fc.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/24438bda6e714494ab0d9c3cc5e88bdc"
+      },
+      "description": "This is a turret equipped with a dual motion sensor and middle-ranged fire. With a middle-sized barrel aqcuired with a laser pointer on the side. The body is entirely glazed with a shiny red coat. And shields to protect the electric box from any potential damage. This entire engineering was perfectly made to cause chaos in the 3d universe.",
+      "faceCount": 180058,
+      "createdAt": "2025-09-14T11:47:06.060431",
+      "vertexCount": 91193,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/b392989af9fb401e9ff4cfd5dbbeace2",
+      "uid": "b392989af9fb401e9ff4cfd5dbbeace2",
+      "name": "Hyper Laser Turret (Sci-Fi) - Crane",
+      "staffpickedAt": null,
+      "viewCount": 411,
+      "likeCount": 5,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-b392989af9fb401e9ff4cfd5dbbeace2",
+      "embedUrl": "https://sketchfab.com/models/b392989af9fb401e9ff4cfd5dbbeace2/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2025-02-11T00:42:55.294462",
+      "tags": [
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "hard-surface",
+          "slug": "hard-surface",
+          "uri": "https://api.sketchfab.com/v3/tags/hard-surface"
+        },
+        {
+          "name": "game-art",
+          "slug": "game-art",
+          "uri": "https://api.sketchfab.com/v3/tags/game-art"
+        },
+        {
+          "name": "fbx",
+          "slug": "fbx",
+          "uri": "https://api.sketchfab.com/v3/tags/fbx"
+        },
+        {
+          "name": "midpoly",
+          "slug": "midpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/midpoly"
+        },
+        {
+          "name": "tower-defense",
+          "slug": "tower-defense",
+          "uri": "https://api.sketchfab.com/v3/tags/tower-defense"
+        },
+        {
+          "name": "unity-asset",
+          "slug": "unity-asset",
+          "uri": "https://api.sketchfab.com/v3/tags/unity-asset"
+        },
+        {
+          "name": "unity-ready",
+          "slug": "unity-ready",
+          "uri": "https://api.sketchfab.com/v3/tags/unity-ready"
+        },
+        {
+          "name": "scifimodels",
+          "slug": "scifimodels",
+          "uri": "https://api.sketchfab.com/v3/tags/scifimodels"
+        },
+        {
+          "name": "substancepainter",
+          "slug": "substancepainter",
+          "uri": "https://api.sketchfab.com/v3/tags/substancepainter"
+        },
+        {
+          "name": "substance",
+          "slug": "substance",
+          "uri": "https://api.sketchfab.com/v3/tags/substance"
+        },
+        {
+          "name": "unity",
+          "slug": "unity",
+          "uri": "https://api.sketchfab.com/v3/tags/unity"
+        },
+        {
+          "name": "unity3d",
+          "slug": "unity3d",
+          "uri": "https://api.sketchfab.com/v3/tags/unity3d"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "sci-fi",
+          "slug": "sci-fi",
+          "uri": "https://api.sketchfab.com/v3/tags/sci-fi"
+        },
+        {
+          "name": "gameasset",
+          "slug": "gameasset",
+          "uri": "https://api.sketchfab.com/v3/tags/gameasset"
+        },
+        {
+          "name": "laser",
+          "slug": "laser",
+          "uri": "https://api.sketchfab.com/v3/tags/laser"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "266afb5984c54c6db6dc5f30b482c034",
+            "size": 221153,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/b392989af9fb401e9ff4cfd5dbbeace2/thumbnails/961ece0f0b1842e9a77b2640c58bb055/6c78bd6f227a43d39132233f68014a09.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "ee1ba5ee7f51497f9770c7e81e307a09",
+            "size": 59576,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/b392989af9fb401e9ff4cfd5dbbeace2/thumbnails/961ece0f0b1842e9a77b2640c58bb055/2adcd977c28d4f9884dd74b20a1ae25c.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7d4ee15a45914490b89946a42eec2b78",
+            "size": 32616,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/b392989af9fb401e9ff4cfd5dbbeace2/thumbnails/961ece0f0b1842e9a77b2640c58bb055/0291338359d24c7c91e3efb73cc9d69e.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c283c3855a144b00aab2c8f93b3ed8b7",
+            "size": 6383,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/b392989af9fb401e9ff4cfd5dbbeace2/thumbnails/961ece0f0b1842e9a77b2640c58bb055/3bd0591c660041c6962113b800a346f2.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "6a3ce9657db148d08578843a4cd0136d",
+            "size": 1202,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/b392989af9fb401e9ff4cfd5dbbeace2/thumbnails/961ece0f0b1842e9a77b2640c58bb055/8494e954031b4ef5b8f165e02b5f0b75.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2fa27dd433fb4038832e2e99357638d3",
+        "username": "BardoComputing",
+        "displayName": "Bardo Computing",
+        "profileUrl": "https://sketchfab.com/BardoComputing",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/2f70a951705347e584e17ad5344c5f0d",
+          "images": [
+            {
+              "size": 794,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/e282e95aa80741ac8a61ae6c42cca73c.png",
+              "height": 32
+            },
+            {
+              "size": 1256,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/caa07c2334b245019a257f4509a950b6.png",
+              "height": 48
+            },
+            {
+              "size": 2323,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/6d8052bd9ce7459bb1741a4243f7be25.png",
+              "height": 90
+            },
+            {
+              "size": 2563,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/5dfeca04fbec409b8a2d11b1d0ad1de0.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2fa27dd433fb4038832e2e99357638d3"
+      },
+      "description": "**This model is part of a laser turret collection. For the full list, see below:**  \n  - [View the Basic Laser Turret: Egret](https://skfb.ly/p9GRA)  \n  - [View the Heavy Laser Turret: Stork](https://skfb.ly/p9GRC)  \n  - [View the Hyper Laser Turret: Crane](https://skfb.ly/p9GRo)  \n\n# **Crane Laser Turret**  \n\n### Ultimate Firepower, Unbreakable Precision  \n\nThe **Crane Laser Turret** is the peak of energy-based defense, built for total battlefield dominance.  \n\n### Key Features:  \n- **Hyper Laser Emitter:** Maximum firepower, instant devastation.  \n- **Ultra-Compact Fusion Core:** Limitless, high-intensity energy.  \n- **Reinforced Mecha Frame:** Heavy-duty, combat-ready construction.  \n- **Precision Motion Control:** Seamless rotation and adaptive tracking.  \n- **High-Fidelity Sensors:** Flawless target detection and engagement.",
+      "faceCount": 52016,
+      "createdAt": "2025-02-08T01:12:41.921377",
+      "vertexCount": 29017,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/99215caabf1a46f4b58f2e722b2a1497",
+      "uid": "99215caabf1a46f4b58f2e722b2a1497",
+      "name": "\"The Tik\" Battle Tank",
+      "staffpickedAt": null,
+      "viewCount": 10297,
+      "likeCount": 170,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-99215caabf1a46f4b58f2e722b2a1497",
+      "embedUrl": "https://sketchfab.com/models/99215caabf1a46f4b58f2e722b2a1497/embed",
+      "commentCount": 3,
+      "isDownloadable": false,
+      "publishedAt": "2017-08-16T10:28:48.383687",
+      "tags": [
+        {
+          "name": "modern",
+          "slug": "modern",
+          "uri": "https://api.sketchfab.com/v3/tags/modern"
+        },
+        {
+          "name": "tracks",
+          "slug": "tracks",
+          "uri": "https://api.sketchfab.com/v3/tags/tracks"
+        },
+        {
+          "name": "off",
+          "slug": "off",
+          "uri": "https://api.sketchfab.com/v3/tags/off"
+        },
+        {
+          "name": "russian",
+          "slug": "russian",
+          "uri": "https://api.sketchfab.com/v3/tags/russian"
+        },
+        {
+          "name": "support",
+          "slug": "support",
+          "uri": "https://api.sketchfab.com/v3/tags/support"
+        },
+        {
+          "name": "combat",
+          "slug": "combat",
+          "uri": "https://api.sketchfab.com/v3/tags/combat"
+        },
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "ranged",
+          "slug": "ranged",
+          "uri": "https://api.sketchfab.com/v3/tags/ranged"
+        },
+        {
+          "name": "t90",
+          "slug": "t90",
+          "uri": "https://api.sketchfab.com/v3/tags/t90"
+        },
+        {
+          "name": "t-90",
+          "slug": "t-90",
+          "uri": "https://api.sketchfab.com/v3/tags/t-90"
+        },
+        {
+          "name": "sensors",
+          "slug": "sensors",
+          "uri": "https://api.sketchfab.com/v3/tags/sensors"
+        },
+        {
+          "name": "heavy-vehicle",
+          "slug": "heavy-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/heavy-vehicle"
+        },
+        {
+          "name": "two_cannons",
+          "slug": "two_cannons",
+          "uri": "https://api.sketchfab.com/v3/tags/two_cannons"
+        },
+        {
+          "name": "dualcannon",
+          "slug": "dualcannon",
+          "uri": "https://api.sketchfab.com/v3/tags/dualcannon"
+        },
+        {
+          "name": "battle-tank",
+          "slug": "battle-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/battle-tank"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        },
+        {
+          "name": "scifi",
+          "slug": "scifi",
+          "uri": "https://api.sketchfab.com/v3/tags/scifi"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "futuristic",
+          "slug": "futuristic",
+          "uri": "https://api.sketchfab.com/v3/tags/futuristic"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "bc3ce6c254904982870ebae564acec1c",
+            "size": 388892,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/99215caabf1a46f4b58f2e722b2a1497/thumbnails/a62094f2d929436ea25842984c2af392/c8bddac47a044c8688ef2f977aea45d5.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6694a506110c4eedbd7be8b908f219c7",
+            "size": 92562,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/99215caabf1a46f4b58f2e722b2a1497/thumbnails/a62094f2d929436ea25842984c2af392/838cf1c0d2534ba7b44d2b21585be415.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "17b52532920e4f1a889ee3769d635859",
+            "size": 47800,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/99215caabf1a46f4b58f2e722b2a1497/thumbnails/a62094f2d929436ea25842984c2af392/17a6b32af9c64993835b08cdc64bf995.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "8cd071e7af4f48c29226d8494b7d396c",
+            "size": 7255,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/99215caabf1a46f4b58f2e722b2a1497/thumbnails/a62094f2d929436ea25842984c2af392/8a449bc84cc44d6fa814aa4de8c1510e.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "66295dcae3fd48edac54d1c4bba25d67",
+            "size": 999,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/99215caabf1a46f4b58f2e722b2a1497/thumbnails/a62094f2d929436ea25842984c2af392/2a0b123206b447a9b6ef3476d14f3ce9.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "fb606e31a27148618fff224de8e00e1a",
+        "username": "joshuawatt811",
+        "displayName": "McCarthy3D",
+        "profileUrl": "https://sketchfab.com/joshuawatt811",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/944aa705159046c0b75012ce03de3a1a",
+          "images": [
+            {
+              "size": 4974,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/944aa705159046c0b75012ce03de3a1a/b99caeed833145e68cc9f7a6d5fb1c27.png",
+              "height": 32
+            },
+            {
+              "size": 7236,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/944aa705159046c0b75012ce03de3a1a/1920997301e34d928972943258bf09c6.png",
+              "height": 48
+            },
+            {
+              "size": 14742,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/944aa705159046c0b75012ce03de3a1a/62f1f3140b0e49f5bb33f08382604b46.png",
+              "height": 90
+            },
+            {
+              "size": 16844,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/944aa705159046c0b75012ce03de3a1a/c27088d10d3e42ec8a23588428810679.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/fb606e31a27148618fff224de8e00e1a"
+      },
+      "description": "Based off the Russian T-90 Tank, this is the T1k aka The \"Tik\". It is a modern / scifi tank, with enhanced firepower and speed.  Its primary weapon is a 155mm dual cannon, they are designed to be independent of each other for multi target aquistions. Sensors are run on the turret, and barrels to increase tracking performance.   When the tank is running at high speed, it locks its two main turrets into the back position, into cradles on the back of the tank, this improves aerodynamics for a greater top speed, allowing it to reach up to speeds of 105km/hr.  The Model is running 3x 2k prb shaders, and is 38,765 tris.  Purchase Here -link removed-",
+      "faceCount": 79680,
+      "createdAt": "2017-08-16T09:25:43.847850",
+      "vertexCount": 44644,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 27,
+          "size": 81080416,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 79675,
+          "vertexCount": 72692
+        },
+        "gltf": {
+          "textureCount": 27,
+          "size": 76720572,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 79675,
+          "vertexCount": 72692
+        },
+        "source": {
+          "textureCount": null,
+          "size": 97479386,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 13335325,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "5b54cf13b1a4422ca439696eb152070d",
+        "label": "Editorial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/02cd8ff990374a168f44f4e6eb23bcee",
+      "uid": "02cd8ff990374a168f44f4e6eb23bcee",
+      "name": "Futuristic Quad-Barrel Turret",
+      "staffpickedAt": null,
+      "viewCount": 88,
+      "likeCount": 3,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-02cd8ff990374a168f44f4e6eb23bcee",
+      "embedUrl": "https://sketchfab.com/models/02cd8ff990374a168f44f4e6eb23bcee/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2025-06-21T08:51:42.448565",
+      "tags": [
+        {
+          "name": "tower",
+          "slug": "tower",
+          "uri": "https://api.sketchfab.com/v3/tags/tower"
+        },
+        {
+          "name": "quad",
+          "slug": "quad",
+          "uri": "https://api.sketchfab.com/v3/tags/quad"
+        },
+        {
+          "name": "barrel",
+          "slug": "barrel",
+          "uri": "https://api.sketchfab.com/v3/tags/barrel"
+        },
+        {
+          "name": "system",
+          "slug": "system",
+          "uri": "https://api.sketchfab.com/v3/tags/system"
+        },
+        {
+          "name": "prop",
+          "slug": "prop",
+          "uri": "https://api.sketchfab.com/v3/tags/prop"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "defense",
+          "slug": "defense",
+          "uri": "https://api.sketchfab.com/v3/tags/defense"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "sci-fi",
+          "slug": "sci-fi",
+          "uri": "https://api.sketchfab.com/v3/tags/sci-fi"
+        },
+        {
+          "name": "futuristic",
+          "slug": "futuristic",
+          "uri": "https://api.sketchfab.com/v3/tags/futuristic"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "6c1a7dd253f74f04903fb3765060fe88",
+            "size": 139386,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/02cd8ff990374a168f44f4e6eb23bcee/thumbnails/e2d133f8c06c46f396af1951282a5e7e/f4b687cf27af4d598fe18b37e22446d0.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "360bb5fc99d94ac0a38786e45063c414",
+            "size": 43874,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/02cd8ff990374a168f44f4e6eb23bcee/thumbnails/e2d133f8c06c46f396af1951282a5e7e/4cd0fa4436e644249ee28b42877d5dbb.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "ac191d963e8449f1898a618767fdd48f",
+            "size": 26088,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/02cd8ff990374a168f44f4e6eb23bcee/thumbnails/e2d133f8c06c46f396af1951282a5e7e/6d8c8ee60b4d42daa7b837bf5f3abb7e.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "b016cc8d507c452c839635ebafe8ba7d",
+            "size": 6066,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/02cd8ff990374a168f44f4e6eb23bcee/thumbnails/e2d133f8c06c46f396af1951282a5e7e/5377404f666b46899c576e7046f12d02.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "53670de678c84292a4803cdf12706046",
+            "size": 1352,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/02cd8ff990374a168f44f4e6eb23bcee/thumbnails/e2d133f8c06c46f396af1951282a5e7e/e5e9a943af0545ffb9c2d9d90c1cdbbe.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "ea49f6b9527146b9ba32593c835e10bb",
+        "username": "halobungie",
+        "displayName": "Andrin Sky",
+        "profileUrl": "https://sketchfab.com/halobungie",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/0ab14a61a0244f84a70a04311c5f6d51",
+          "images": [
+            {
+              "size": 1046,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/0ab14a61a0244f84a70a04311c5f6d51/8ee830583b6c40cc8742e3ff5020931e.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1456,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/0ab14a61a0244f84a70a04311c5f6d51/fc6911d8cb544f8aabec6c98bcec8f6e.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3201,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/0ab14a61a0244f84a70a04311c5f6d51/fb316097dfeb4109bded950b08ed92c4.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3647,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/0ab14a61a0244f84a70a04311c5f6d51/fe4f5c7917ff4c69864cae4e615de803.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ea49f6b9527146b9ba32593c835e10bb"
+      },
+      "description": "This is a detailed 3D model of a futuristic quad-barrel turret designed for sci-fi environments. The turret features four heavy barrels mounted on a rotating base with a sleek, armored design and a tactical targeting sensor. Perfect for use in game levels, tower defense scenes, sci-fi animations, or concept art for advanced military or defense systems. The model is optimized for rendering and can be integrated into various interactive projects.",
+      "faceCount": 499958,
+      "createdAt": "2025-06-21T08:39:43.633561",
+      "vertexCount": 249896,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/7113f9519f6541a1876ece053288a0ec",
+      "uid": "7113f9519f6541a1876ece053288a0ec",
+      "name": "Scifi Modular Spaceship Weapons",
+      "staffpickedAt": null,
+      "viewCount": 10631,
+      "likeCount": 118,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-7113f9519f6541a1876ece053288a0ec",
+      "embedUrl": "https://sketchfab.com/models/7113f9519f6541a1876ece053288a0ec/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2018-03-21T07:12:13.722182",
+      "tags": [
+        {
+          "name": "generator",
+          "slug": "generator",
+          "uri": "https://api.sketchfab.com/v3/tags/generator"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "sensor",
+          "slug": "sensor",
+          "uri": "https://api.sketchfab.com/v3/tags/sensor"
+        },
+        {
+          "name": "cargo",
+          "slug": "cargo",
+          "uri": "https://api.sketchfab.com/v3/tags/cargo"
+        },
+        {
+          "name": "game-ready",
+          "slug": "game-ready",
+          "uri": "https://api.sketchfab.com/v3/tags/game-ready"
+        },
+        {
+          "name": "starshio",
+          "slug": "starshio",
+          "uri": "https://api.sketchfab.com/v3/tags/starshio"
+        },
+        {
+          "name": "broadside",
+          "slug": "broadside",
+          "uri": "https://api.sketchfab.com/v3/tags/broadside"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "pbr",
+          "slug": "pbr",
+          "uri": "https://api.sketchfab.com/v3/tags/pbr"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "scifi",
+          "slug": "scifi",
+          "uri": "https://api.sketchfab.com/v3/tags/scifi"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "modular",
+          "slug": "modular",
+          "uri": "https://api.sketchfab.com/v3/tags/modular"
+        },
+        {
+          "name": "space",
+          "slug": "space",
+          "uri": "https://api.sketchfab.com/v3/tags/space"
+        },
+        {
+          "name": "spaceship",
+          "slug": "spaceship",
+          "uri": "https://api.sketchfab.com/v3/tags/spaceship"
+        },
+        {
+          "name": "shield",
+          "slug": "shield",
+          "uri": "https://api.sketchfab.com/v3/tags/shield"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "72e7405d0af745d7864c3cc278cd0ebc",
+            "size": 193190,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/7113f9519f6541a1876ece053288a0ec/thumbnails/f1491bd091bd4942817072734985ae84/cbeaf25f16bd43afb8abb816e67bbecc.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "099795cbf69849a1808748ae8899c907",
+            "size": 44974,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/7113f9519f6541a1876ece053288a0ec/thumbnails/f1491bd091bd4942817072734985ae84/748ebe56bf90429c8efefd95979a2538.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "6d9d33a3035648d5a5c6a9a0ec850d08",
+            "size": 24804,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/7113f9519f6541a1876ece053288a0ec/thumbnails/f1491bd091bd4942817072734985ae84/bc11e2a06b954f759a60cd2d0a1e78b4.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "b110db19387f4ddcb78469eac097b2b7",
+            "size": 4602,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/7113f9519f6541a1876ece053288a0ec/thumbnails/f1491bd091bd4942817072734985ae84/ce3f37fd227f4d11b650200edc3f47f1.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ac114abb2ff448e3aefb46accfed6a77",
+            "size": 737,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/7113f9519f6541a1876ece053288a0ec/thumbnails/f1491bd091bd4942817072734985ae84/512e213b9dde43b8abf853e27e0f7a02.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "73b9efeb8e59494ca0e757ff854a739c",
+        "username": "MSGDI",
+        "displayName": "MSGDI",
+        "profileUrl": "https://sketchfab.com/MSGDI",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/f279aa68e3404a34be197c939f466290",
+          "images": [
+            {
+              "size": 647,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/f279aa68e3404a34be197c939f466290/9abeda6b673d4025aa7fa8bcfa1f1c8c.jpeg",
+              "height": 32
+            },
+            {
+              "size": 806,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/f279aa68e3404a34be197c939f466290/939befc219e84d28ba6ccba7983fff5c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1491,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/f279aa68e3404a34be197c939f466290/35820449f041422796d373072116e6e5.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1817,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/f279aa68e3404a34be197c939f466290/4ee3846e5b6f41dc81e6cab6de30c5fd.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/73b9efeb8e59494ca0e757ff854a739c"
+      },
+      "description": "These are low-poly and game-ready modular scifi equipment models. They can be used to equip/upgrade any spaceship.\n\nThe weapons are separate meshes and can be animated with a keyframe animation tool.\n\nThe PSD file with intact layers is included.\n\nPlease note: The textures in the Sketchfab viewer have a reduced resolution to improve Sketchfab loading speed.\n\n**If you have bought this model please make sure to download the \u201cadditional files\u201d. Those include FBX and OBJ meshes, full resolution textures and the source PSDs with intact layers. The meshes are separate and can be animated (e.g. firing animations for gun barrels, rotating turrets, etc).**",
+      "faceCount": 46790,
+      "createdAt": "2018-02-14T18:24:22.312459",
+      "vertexCount": 28399,
+      "isAgeRestricted": false,
+      "archives": {
+        "extra": {
+          "textureCount": null,
+          "size": 166733749,
+          "type": "extra",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "glb": {
+          "textureCount": 4,
+          "size": 13266444,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 46790,
+          "vertexCount": 82273
+        },
+        "gltf": {
+          "textureCount": 4,
+          "size": 9671795,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 46790,
+          "vertexCount": 82273
+        },
+        "source": {
+          "textureCount": null,
+          "size": 16553047,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6625967,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/6f47cd938afc40669270f4cb716b812d",
+      "uid": "6f47cd938afc40669270f4cb716b812d",
+      "name": "Hyper Machine Gun Turret - Naja",
+      "staffpickedAt": null,
+      "viewCount": 252,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-6f47cd938afc40669270f4cb716b812d",
+      "embedUrl": "https://sketchfab.com/models/6f47cd938afc40669270f4cb716b812d/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2025-01-04T07:28:46.486803",
+      "tags": [
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "fbx",
+          "slug": "fbx",
+          "uri": "https://api.sketchfab.com/v3/tags/fbx"
+        },
+        {
+          "name": "turrets",
+          "slug": "turrets",
+          "uri": "https://api.sketchfab.com/v3/tags/turrets"
+        },
+        {
+          "name": "tower-defense",
+          "slug": "tower-defense",
+          "uri": "https://api.sketchfab.com/v3/tags/tower-defense"
+        },
+        {
+          "name": "gamereadymodel",
+          "slug": "gamereadymodel",
+          "uri": "https://api.sketchfab.com/v3/tags/gamereadymodel"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "unity",
+          "slug": "unity",
+          "uri": "https://api.sketchfab.com/v3/tags/unity"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "gameart",
+          "slug": "gameart",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart"
+        },
+        {
+          "name": "scifi",
+          "slug": "scifi",
+          "uri": "https://api.sketchfab.com/v3/tags/scifi"
+        },
+        {
+          "name": "gameasset",
+          "slug": "gameasset",
+          "uri": "https://api.sketchfab.com/v3/tags/gameasset"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "3e7c0a54a6984ddc9d4cdbb2e7c6aab3",
+            "size": 323384,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/6f47cd938afc40669270f4cb716b812d/thumbnails/12af48bfa3a349378dacac5d6989b609/d8cb2858e0b34d8dba82e1219da33837.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "df1c8fa562ef40c0a35c27632b134dd5",
+            "size": 61330,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/6f47cd938afc40669270f4cb716b812d/thumbnails/12af48bfa3a349378dacac5d6989b609/ae3a88681f2f4022993b8760f226adaa.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e7c72839c1a64ea2923ea5afcac3d27d",
+            "size": 30182,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/6f47cd938afc40669270f4cb716b812d/thumbnails/12af48bfa3a349378dacac5d6989b609/53f822d54a774e588ec42a6e09d8f4ff.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "5091382cc42a4305939258d5e08cc79f",
+            "size": 4921,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/6f47cd938afc40669270f4cb716b812d/thumbnails/12af48bfa3a349378dacac5d6989b609/f540f57868464ee5bf3f6d26d749d72a.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "78f58366954b4775b024bce0e2682aac",
+            "size": 1043,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/6f47cd938afc40669270f4cb716b812d/thumbnails/12af48bfa3a349378dacac5d6989b609/91616a96ff804d52942648e8df843ae2.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2fa27dd433fb4038832e2e99357638d3",
+        "username": "BardoComputing",
+        "displayName": "Bardo Computing",
+        "profileUrl": "https://sketchfab.com/BardoComputing",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/2f70a951705347e584e17ad5344c5f0d",
+          "images": [
+            {
+              "size": 794,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/e282e95aa80741ac8a61ae6c42cca73c.png",
+              "height": 32
+            },
+            {
+              "size": 1256,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/caa07c2334b245019a257f4509a950b6.png",
+              "height": 48
+            },
+            {
+              "size": 2323,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/6d8052bd9ce7459bb1741a4243f7be25.png",
+              "height": 90
+            },
+            {
+              "size": 2563,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/5dfeca04fbec409b8a2d11b1d0ad1de0.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2fa27dd433fb4038832e2e99357638d3"
+      },
+      "description": "**This model is part of a turret collection. For the full list, see below:**  \n  - [View the Level 1: Viper Turret](https://skfb.ly/psWxB)  \n  - [View the Level 2: Python Turret](https://skfb.ly/ptoSV)  \n  - [View the Level 3: Naja Turret](https://skfb.ly/ptvxz)\n\nInspired by the sleek and striking design of a cobra, the Naja Turret represents the pinnacle of turret evolution. With its streamlined, minimalist form, this next-generation turret exudes sophistication and power. Its hidden sensor array ensures a clean, stealthy appearance while delivering unmatched battlefield awareness. Equipped with a short yet robust barrel, the Naja Turret unleashes devastating firepower, surpassing its predecessors in both style and functionality.\n\nPrepare to dominate the battlefield with the Naja Turret!",
+      "faceCount": 62324,
+      "createdAt": "2025-01-04T00:47:36.534298",
+      "vertexCount": 31598,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/fddbcc2fd4e943cc8837b7cee4329eb6",
+      "uid": "fddbcc2fd4e943cc8837b7cee4329eb6",
+      "name": "Higher Bastion Sentry Turret",
+      "staffpickedAt": null,
+      "viewCount": 145,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-fddbcc2fd4e943cc8837b7cee4329eb6",
+      "embedUrl": "https://sketchfab.com/models/fddbcc2fd4e943cc8837b7cee4329eb6/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2022-04-08T15:13:06.682035",
+      "tags": [
+        {
+          "name": "millitary",
+          "slug": "millitary",
+          "uri": "https://api.sketchfab.com/v3/tags/millitary"
+        },
+        {
+          "name": "granite",
+          "slug": "granite",
+          "uri": "https://api.sketchfab.com/v3/tags/granite"
+        },
+        {
+          "name": "18th-century",
+          "slug": "18th-century",
+          "uri": "https://api.sketchfab.com/v3/tags/18th-century"
+        },
+        {
+          "name": "post-medieval",
+          "slug": "post-medieval",
+          "uri": "https://api.sketchfab.com/v3/tags/post-medieval"
+        },
+        {
+          "name": "isles_of_scilly",
+          "slug": "isles_of_scilly",
+          "uri": "https://api.sketchfab.com/v3/tags/isles_of_scilly"
+        },
+        {
+          "name": "sentry-turret",
+          "slug": "sentry-turret",
+          "uri": "https://api.sketchfab.com/v3/tags/sentry-turret"
+        },
+        {
+          "name": "stmarys",
+          "slug": "stmarys",
+          "uri": "https://api.sketchfab.com/v3/tags/stmarys"
+        },
+        {
+          "name": "polycam",
+          "slug": "polycam",
+          "uri": "https://api.sketchfab.com/v3/tags/polycam"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8fad1320555645b7a96cdd5c385e5f6e",
+            "size": 265484,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/fddbcc2fd4e943cc8837b7cee4329eb6/thumbnails/7e66e14fcd7c4ceebe7d676903e87e20/eac0b81284f84a82bbf2ed5c6ddcbf0c.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "ac9ddab9dadf469aaa37e97b024a4093",
+            "size": 63591,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/fddbcc2fd4e943cc8837b7cee4329eb6/thumbnails/7e66e14fcd7c4ceebe7d676903e87e20/b5a2f2cd1939494b9724d98bf61792bd.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "900bf73a1307456fb36a153ec1c615f9",
+            "size": 32667,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/fddbcc2fd4e943cc8837b7cee4329eb6/thumbnails/7e66e14fcd7c4ceebe7d676903e87e20/df6fcd89764647b994abfb0cf809c28f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "6a9a588f06ec4f1281639eb91173b37c",
+            "size": 5394,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/fddbcc2fd4e943cc8837b7cee4329eb6/thumbnails/7e66e14fcd7c4ceebe7d676903e87e20/a450db8f57c74209a9c13bf9b8e844bb.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "4e14b219861a4288b80cc392cbbbfe7e",
+            "size": 1121,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/fddbcc2fd4e943cc8837b7cee4329eb6/thumbnails/7e66e14fcd7c4ceebe7d676903e87e20/e00a162d89ac4fdeba32a19046bbe3da.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "5b1ff9285ea44d9aabfa880ad97ae8a5",
+        "username": "Context_One",
+        "displayName": "Context_One",
+        "profileUrl": "https://sketchfab.com/Context_One",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/ba6f4ea2671f465eae576f479992e978",
+          "images": [
+            {
+              "size": 1758,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/ba6f4ea2671f465eae576f479992e978/4b0bd7c26fc4445a95b9b3701a3a216e.png",
+              "height": 32
+            },
+            {
+              "size": 2705,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/ba6f4ea2671f465eae576f479992e978/4efebd5bb72d4e01b72c3657e6618c37.png",
+              "height": 48
+            },
+            {
+              "size": 5418,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/ba6f4ea2671f465eae576f479992e978/bdc097afa67d4bb8a7314d98f6e5d5c2.png",
+              "height": 90
+            },
+            {
+              "size": 6287,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/ba6f4ea2671f465eae576f479992e978/08f68d74a47f4113947bc9ac71e56211.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5b1ff9285ea44d9aabfa880ad97ae8a5"
+      },
+      "description": "Higher Bastion Sentry Turret, Garrison Wall, St Mary's, Isles of Scilly.\n18th century granite structure with slate roof.\nRapid 5 minute survey with iPhone 13 Pro equipped with LiDAR sensor using Polycam app and automatic processing.\nSuperficial editing for presentation in Sketchfab.",
+      "faceCount": 158498,
+      "createdAt": "2022-04-05T11:57:30.017064",
+      "vertexCount": 80209,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9c6c7525b7e44a6e8b8d8d978ac4036e",
+      "uid": "9c6c7525b7e44a6e8b8d8d978ac4036e",
+      "name": "turret sensor",
+      "staffpickedAt": null,
+      "viewCount": 25,
+      "likeCount": 0,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9c6c7525b7e44a6e8b8d8d978ac4036e",
+      "embedUrl": "https://sketchfab.com/models/9c6c7525b7e44a6e8b8d8d978ac4036e/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2022-03-06T13:48:12.467481",
+      "tags": [],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8284c92115054844ae35ac15827d82af",
+            "size": 54607,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9c6c7525b7e44a6e8b8d8d978ac4036e/thumbnails/16080386a55d4ee5b3621c9899b64557/feca6146c0c2429b81996404e7a3664e.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6a61ffdd3ad34857a14e30a1ea9865a0",
+            "size": 19023,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9c6c7525b7e44a6e8b8d8d978ac4036e/thumbnails/16080386a55d4ee5b3621c9899b64557/4fa4a61bba4446739be280eb8cc87d4a.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "18bd4bb836df4378833b78e835f1e063",
+            "size": 11416,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9c6c7525b7e44a6e8b8d8d978ac4036e/thumbnails/16080386a55d4ee5b3621c9899b64557/974c28a823ac494d97ac6c643238dcc3.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "5b523547002142dfb6a211f4867a97b5",
+            "size": 2812,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9c6c7525b7e44a6e8b8d8d978ac4036e/thumbnails/16080386a55d4ee5b3621c9899b64557/6b6cc55a50ad455bbca649e7b0199432.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "49f99cd71ae84d41b3f82bcadbba12cb",
+            "size": 932,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9c6c7525b7e44a6e8b8d8d978ac4036e/thumbnails/16080386a55d4ee5b3621c9899b64557/201161627c9b46449aadefdfa8ba7a6a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "10708cde0d494e9c8cb89bdad875b4ef",
+        "username": "ynebbeny",
+        "displayName": "ynebbeny",
+        "profileUrl": "https://sketchfab.com/ynebbeny",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/10708cde0d494e9c8cb89bdad875b4ef"
+      },
+      "description": "",
+      "faceCount": 25092,
+      "createdAt": "2022-03-06T12:53:56.485263",
+      "vertexCount": 13509,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/e632f01862fa423ab61f32d998c17d06",
+      "uid": "e632f01862fa423ab61f32d998c17d06",
+      "name": "3D Military Turret",
+      "staffpickedAt": null,
+      "viewCount": 41,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-e632f01862fa423ab61f32d998c17d06",
+      "embedUrl": "https://sketchfab.com/models/e632f01862fa423ab61f32d998c17d06/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2026-05-01T09:38:18.997642",
+      "tags": [
+        {
+          "name": "mech",
+          "slug": "mech",
+          "uri": "https://api.sketchfab.com/v3/tags/mech"
+        },
+        {
+          "name": "prop",
+          "slug": "prop",
+          "uri": "https://api.sketchfab.com/v3/tags/prop"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "defense",
+          "slug": "defense",
+          "uri": "https://api.sketchfab.com/v3/tags/defense"
+        },
+        {
+          "name": "combat",
+          "slug": "combat",
+          "uri": "https://api.sketchfab.com/v3/tags/combat"
+        },
+        {
+          "name": "static",
+          "slug": "static",
+          "uri": "https://api.sketchfab.com/v3/tags/static"
+        },
+        {
+          "name": "assets-game",
+          "slug": "assets-game",
+          "uri": "https://api.sketchfab.com/v3/tags/assets-game"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "pbr",
+          "slug": "pbr",
+          "uri": "https://api.sketchfab.com/v3/tags/pbr"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "sci-fi",
+          "slug": "sci-fi",
+          "uri": "https://api.sketchfab.com/v3/tags/sci-fi"
+        },
+        {
+          "name": "robot",
+          "slug": "robot",
+          "uri": "https://api.sketchfab.com/v3/tags/robot"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "c864c610514f4560a74f34675dd9e5d8",
+            "size": 286283,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/e632f01862fa423ab61f32d998c17d06/thumbnails/243d052400ea4c708e6970a01da811b0/26272320497149d6b6171f948cb7ae3e.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "aa507467d6ac4bc89017971b4def4c4d",
+            "size": 47848,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/e632f01862fa423ab61f32d998c17d06/thumbnails/243d052400ea4c708e6970a01da811b0/e6bef21e677b4896a882d3ae99f879d8.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "d454cbc7485e44f4b62fad399992dba1",
+            "size": 23687,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/e632f01862fa423ab61f32d998c17d06/thumbnails/243d052400ea4c708e6970a01da811b0/fca49ce5da944aa29d89418f5659bc35.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "639cbccb5e1b4d35a7eef2fc161fcb86",
+            "size": 4603,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/e632f01862fa423ab61f32d998c17d06/thumbnails/243d052400ea4c708e6970a01da811b0/c36195e73af94657b5aaff3e9f5815f1.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "0db4e599801b497781899e3312260612",
+            "size": 1073,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/e632f01862fa423ab61f32d998c17d06/thumbnails/243d052400ea4c708e6970a01da811b0/a927c4a4631641dabe0baf65eae8ca83.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "208ad608c93e40c6acd07e38612b1c52",
+        "username": "gattara",
+        "displayName": "Gattara",
+        "profileUrl": "https://sketchfab.com/gattara",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/ff13dd649eee40d59d44e712fb958c12",
+          "images": [
+            {
+              "size": 1079,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/ff13dd649eee40d59d44e712fb958c12/b14ac67a264445ba956e9e1738311607.png",
+              "height": 32
+            },
+            {
+              "size": 1755,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/ff13dd649eee40d59d44e712fb958c12/92029374c4f74729b93981327a3481db.png",
+              "height": 48
+            },
+            {
+              "size": 3823,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/ff13dd649eee40d59d44e712fb958c12/1f9bf390168a49cb854d348910014f53.png",
+              "height": 90
+            },
+            {
+              "size": 4238,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/ff13dd649eee40d59d44e712fb958c12/c3b9e045e5c042d1830f4fe325f78771.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/208ad608c93e40c6acd07e38612b1c52"
+      },
+      "description": "A detailed military turret with quad-leg walking base, gatling gun, and sensor array. Designed in a realistic sci-fi style.Modeled with attention to mechanical detail \u2014 bolts, joints, hydraulics and panel seams are all part of the geometry.\n\nSpecs:\n\n* 117862 triangles\n* PBR textures and materials included\n* No rig or animations\n* Formats: FBX, OBJ, Blend, Unitypackage\n\n\nYou can buy the model here\nhttps://www.fab.com/listings/b59d8086-59bb-4504-ab1b-20d746731cdc",
+      "faceCount": 117862,
+      "createdAt": "2026-05-01T09:07:18.751953",
+      "vertexCount": 62304,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/72e0a6e298594bc2933368d4ca8efd73",
+      "uid": "72e0a6e298594bc2933368d4ca8efd73",
+      "name": "USS Gamgee",
+      "staffpickedAt": null,
+      "viewCount": 1732,
+      "likeCount": 29,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-72e0a6e298594bc2933368d4ca8efd73",
+      "embedUrl": "https://sketchfab.com/models/72e0a6e298594bc2933368d4ca8efd73/embed",
+      "commentCount": 6,
+      "isDownloadable": true,
+      "publishedAt": "2023-03-09T15:04:48.158067",
+      "tags": [
+        {
+          "name": "trek",
+          "slug": "trek",
+          "uri": "https://api.sketchfab.com/v3/tags/trek"
+        },
+        {
+          "name": "starship",
+          "slug": "starship",
+          "uri": "https://api.sketchfab.com/v3/tags/starship"
+        },
+        {
+          "name": "cruiser",
+          "slug": "cruiser",
+          "uri": "https://api.sketchfab.com/v3/tags/cruiser"
+        },
+        {
+          "name": "startrek",
+          "slug": "startrek",
+          "uri": "https://api.sketchfab.com/v3/tags/startrek"
+        },
+        {
+          "name": "federation",
+          "slug": "federation",
+          "uri": "https://api.sketchfab.com/v3/tags/federation"
+        },
+        {
+          "name": "starfleet",
+          "slug": "starfleet",
+          "uri": "https://api.sketchfab.com/v3/tags/starfleet"
+        },
+        {
+          "name": "star",
+          "slug": "star",
+          "uri": "https://api.sketchfab.com/v3/tags/star"
+        },
+        {
+          "name": "1701",
+          "slug": "1701",
+          "uri": "https://api.sketchfab.com/v3/tags/1701"
+        },
+        {
+          "name": "nacelle",
+          "slug": "nacelle",
+          "uri": "https://api.sketchfab.com/v3/tags/nacelle"
+        },
+        {
+          "name": "warpdrive",
+          "slug": "warpdrive",
+          "uri": "https://api.sketchfab.com/v3/tags/warpdrive"
+        },
+        {
+          "name": "scifimodels",
+          "slug": "scifimodels",
+          "uri": "https://api.sketchfab.com/v3/tags/scifimodels"
+        },
+        {
+          "name": "scifi",
+          "slug": "scifi",
+          "uri": "https://api.sketchfab.com/v3/tags/scifi"
+        },
+        {
+          "name": "space",
+          "slug": "space",
+          "uri": "https://api.sketchfab.com/v3/tags/space"
+        },
+        {
+          "name": "spaceship",
+          "slug": "spaceship",
+          "uri": "https://api.sketchfab.com/v3/tags/spaceship"
+        },
+        {
+          "name": "federationstarfleet",
+          "slug": "federationstarfleet",
+          "uri": "https://api.sketchfab.com/v3/tags/federationstarfleet"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "3d2e7f0fa4774e3fa893e3c84b896c05",
+            "size": 254493,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/72e0a6e298594bc2933368d4ca8efd73/thumbnails/7e492cb5718143dc80620c5cf6d667b2/e6f4a18eb7914767aa51ae3265464d44.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c320c9e4e8fc4ec89adbffb4236be370",
+            "size": 83848,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/72e0a6e298594bc2933368d4ca8efd73/thumbnails/7e492cb5718143dc80620c5cf6d667b2/28472687b461440ba3d146b1a643cf4d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e16c5f44e71c49b5b0a83f73f8bf0b8b",
+            "size": 48875,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/72e0a6e298594bc2933368d4ca8efd73/thumbnails/7e492cb5718143dc80620c5cf6d667b2/f0d58da154ee4adb871b28fd2918f3bf.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "32457ae9573448d6a8e1c4b18ba0dad6",
+            "size": 9470,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/72e0a6e298594bc2933368d4ca8efd73/thumbnails/7e492cb5718143dc80620c5cf6d667b2/22a5d5787d914268b015a572f234c27c.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "dd68e1c0be744c6d84f24a1fd5c52ca5",
+            "size": 1475,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/72e0a6e298594bc2933368d4ca8efd73/thumbnails/7e492cb5718143dc80620c5cf6d667b2/1053c6cc556f4dc687426a439fa4866b.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "f0f52e74e4a24d48aa2ffd3d086e4563",
+        "username": "WideFoot",
+        "displayName": "WideFoot",
+        "profileUrl": "https://sketchfab.com/WideFoot",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/504258f4cd4b4eb3b229fa584dd7571c",
+          "images": [
+            {
+              "size": 1201,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/504258f4cd4b4eb3b229fa584dd7571c/5a9e73c84f6741069b876e3b41a910be.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1771,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/504258f4cd4b4eb3b229fa584dd7571c/2149ef4716124c0abee0761f41410d2a.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4429,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/504258f4cd4b4eb3b229fa584dd7571c/4087e23d38f54f17b0ddeef9ddb99c19.jpeg",
+              "height": 90
+            },
+            {
+              "size": 5050,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/504258f4cd4b4eb3b229fa584dd7571c/c14302939182471183715225af03728c.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/f0f52e74e4a24d48aa2ffd3d086e4563"
+      },
+      "description": "This is an older model.  it started out as an experiment in how to design a ship around extruded hull plates. It worked really well and I learned a lot about simplifying models.\n\nThe ship is designed to be a support vessel. The ship is capable of spending long periods of time in deep space as part of a larger force, but is most frequently assigned as a workhorse for stations and bases. In a pinch, it can be outfitted with four large phaser cannons and serve as a fast destroyer\n\nThe original idea behind the turret mounts was that they would be hardpoints where different self-sufficient modules could be installed. The phaser turret could be removed, leaving a circular void in the hull, and operate as a stationary turret separate from the ship. Other modules might be sensor packages, data storage, or cargo holds.\n\nThe name of this ship is based on it's role as a \"sidekick\" to larger ships and stations. The U.S.S. Panza and the U.S.S. Watson are examples of other ships in this class.",
+      "faceCount": 4360654,
+      "createdAt": "2023-03-09T14:10:16.306469",
+      "vertexCount": 3185016,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 25,
+          "size": 368064192,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 8243754,
+          "vertexCount": 11651311
+        },
+        "gltf": {
+          "textureCount": 25,
+          "size": 144908851,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 8243754,
+          "vertexCount": 11651311
+        },
+        "source": {
+          "textureCount": null,
+          "size": 23672379,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 194966061,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/8d5a49f552d94b9196b4bdb86118eeea",
+      "uid": "8d5a49f552d94b9196b4bdb86118eeea",
+      "name": "Rill Corvette",
+      "staffpickedAt": null,
+      "viewCount": 1565,
+      "likeCount": 20,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-8d5a49f552d94b9196b4bdb86118eeea",
+      "embedUrl": "https://sketchfab.com/models/8d5a49f552d94b9196b4bdb86118eeea/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2022-02-19T20:32:55.371681",
+      "tags": [
+        {
+          "name": "spacecraft",
+          "slug": "spacecraft",
+          "uri": "https://api.sketchfab.com/v3/tags/spacecraft"
+        },
+        {
+          "name": "corvette",
+          "slug": "corvette",
+          "uri": "https://api.sketchfab.com/v3/tags/corvette"
+        },
+        {
+          "name": "warship",
+          "slug": "warship",
+          "uri": "https://api.sketchfab.com/v3/tags/warship"
+        },
+        {
+          "name": "mandalorian",
+          "slug": "mandalorian",
+          "uri": "https://api.sketchfab.com/v3/tags/mandalorian"
+        },
+        {
+          "name": "science-fiction",
+          "slug": "science-fiction",
+          "uri": "https://api.sketchfab.com/v3/tags/science-fiction"
+        },
+        {
+          "name": "starwarsfanart",
+          "slug": "starwarsfanart",
+          "uri": "https://api.sketchfab.com/v3/tags/starwarsfanart"
+        },
+        {
+          "name": "scifi",
+          "slug": "scifi",
+          "uri": "https://api.sketchfab.com/v3/tags/scifi"
+        },
+        {
+          "name": "starwars",
+          "slug": "starwars",
+          "uri": "https://api.sketchfab.com/v3/tags/starwars"
+        },
+        {
+          "name": "spaceship",
+          "slug": "spaceship",
+          "uri": "https://api.sketchfab.com/v3/tags/spaceship"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "65d856b62d0f43bca164a7264363e76d",
+            "size": 289963,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/8d5a49f552d94b9196b4bdb86118eeea/thumbnails/373a622a16094072a3b581295c2a009f/a6d5e5f3a5ee40638d4f36a02f4604f7.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "0072ce6695e54faaa43b3d85cd41426b",
+            "size": 84316,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/8d5a49f552d94b9196b4bdb86118eeea/thumbnails/373a622a16094072a3b581295c2a009f/c37c76646582466a8c82d36b27dc49c7.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "2734e705914341eb900605324fd2f359",
+            "size": 41451,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/8d5a49f552d94b9196b4bdb86118eeea/thumbnails/373a622a16094072a3b581295c2a009f/069583bff4fd47219c4a21c122cfa056.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "589b8f732fee43b091de8f7cba252a8a",
+            "size": 6097,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/8d5a49f552d94b9196b4bdb86118eeea/thumbnails/373a622a16094072a3b581295c2a009f/9056864415e24568889796baf334ce79.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "05b6334b2abf48ecb4cf845f08cf4bb7",
+            "size": 1163,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/8d5a49f552d94b9196b4bdb86118eeea/thumbnails/373a622a16094072a3b581295c2a009f/5d062b4f58f34c1cb8c1ab852e6c9076.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "0fd341cdb56a4fb48e2666aed4a68b53",
+        "username": "Agent_Traitor",
+        "displayName": "Agent_Traitor",
+        "profileUrl": "https://sketchfab.com/Agent_Traitor",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/8506580a78774231aece15d127c64362",
+          "images": [
+            {
+              "size": 741,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/8506580a78774231aece15d127c64362/f87d5543add64157b9cc1f1111a04b3b.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1180,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/8506580a78774231aece15d127c64362/12d8a37b28db4a9c9267bd831042006f.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2727,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/8506580a78774231aece15d127c64362/470294427aea426197f3f488424ee104.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3118,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/8506580a78774231aece15d127c64362/5b8c3b1906ef48fb806bbffca111be6e.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0fd341cdb56a4fb48e2666aed4a68b53"
+      },
+      "description": "The Rill Corvette is is a creation of mine to help fill out the mandalorian fleets a bit more. I made the Rill corvette to fill a patrol roll for Mandalorian space. The ship is very fast and is equipped with powerful sensor and communication equipment. \n\nOwner: Mandalore\nConstructor: Mando Motors\nClass: Corvette\nPurpose: Patrol\nArmament: 17 Dual Medium Laser Turrets\nLenght: 150m",
+      "faceCount": 12064,
+      "createdAt": "2022-02-19T19:50:58.845692",
+      "vertexCount": 6058,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 4,
+          "size": 8047584,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 12064,
+          "vertexCount": 19209
+        },
+        "gltf": {
+          "textureCount": 4,
+          "size": 7277549,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 12064,
+          "vertexCount": 19209
+        },
+        "source": {
+          "textureCount": null,
+          "size": 17215203,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3592815,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "5b54cf13b1a4422ca439696eb152070d",
+        "label": "Editorial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/2fdea39d5da749aeb7ecd7e347605a19",
+      "uid": "2fdea39d5da749aeb7ecd7e347605a19",
+      "name": "Futuristic Tank",
+      "staffpickedAt": null,
+      "viewCount": 1432,
+      "likeCount": 22,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-2fdea39d5da749aeb7ecd7e347605a19",
+      "embedUrl": "https://sketchfab.com/models/2fdea39d5da749aeb7ecd7e347605a19/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2020-11-20T10:57:37.388827",
+      "tags": [
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "hovering",
+          "slug": "hovering",
+          "uri": "https://api.sketchfab.com/v3/tags/hovering"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "sci-fi",
+          "slug": "sci-fi",
+          "uri": "https://api.sketchfab.com/v3/tags/sci-fi"
+        },
+        {
+          "name": "futuristic",
+          "slug": "futuristic",
+          "uri": "https://api.sketchfab.com/v3/tags/futuristic"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "1a86fcbce1b74c3ebf48ec5ec683dc7f",
+            "size": 178529,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/2fdea39d5da749aeb7ecd7e347605a19/thumbnails/371269c8a51e43be91dd70d981b5d588/e82bb70b29ba4dc3b8a39f8844b24ad8.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "92f71a7fc0de410a897536aed9bb3d54",
+            "size": 40832,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/2fdea39d5da749aeb7ecd7e347605a19/thumbnails/371269c8a51e43be91dd70d981b5d588/9f84e92771864a7393966a0badb0c2ee.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "02b54881ab6047fb8fb763ba7ad3d011",
+            "size": 24358,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/2fdea39d5da749aeb7ecd7e347605a19/thumbnails/371269c8a51e43be91dd70d981b5d588/0476cfac27e54aa68c54191201408742.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "980c1dd5dc9443289879e893660e80e9",
+            "size": 5117,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/2fdea39d5da749aeb7ecd7e347605a19/thumbnails/371269c8a51e43be91dd70d981b5d588/bf4e18972aeb4ab9a30ad88f9d67f34c.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "5ff0104516b74bdd838566e7ff0d5e4a",
+            "size": 878,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/2fdea39d5da749aeb7ecd7e347605a19/thumbnails/371269c8a51e43be91dd70d981b5d588/e6cdfc0a4fde4b9c83eef7f08525fdb4.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "778dc4e3af5544f593565608ef248b9f",
+        "username": "LeleuStigArt",
+        "displayName": "LeleuStigArt",
+        "profileUrl": "https://sketchfab.com/LeleuStigArt",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/e3bfe5f4a8b14279b2435a3eb50340c7",
+          "images": [
+            {
+              "size": 738,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/e3bfe5f4a8b14279b2435a3eb50340c7/7ed8b49e4be6416aa978eee987596f93.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1166,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/e3bfe5f4a8b14279b2435a3eb50340c7/203744fed16b4c31bd16754d58334fc7.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3030,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/e3bfe5f4a8b14279b2435a3eb50340c7/2654e8a95c67495895d1a6cdab1ef902.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3542,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/e3bfe5f4a8b14279b2435a3eb50340c7/aa156a52742e431195f5b4313399423b.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/778dc4e3af5544f593565608ef248b9f"
+      },
+      "description": "Modern-futuristic hovering tank.\n\n\nThe model is in 4 pieces (Body, Wings, Turret & Gun), one texture for all the model.\n\n\n\nIt was first inspired by two majors sci-fi vehicules : \nTau \"Hammerhead Gunship\" from Warhammer 40k for the asymetrical turret.\nLunar Corporation \"Crusher\" class tank from Earth 2150 for the two wing design.\n\nThen i put some Gulf War vibes with the paintjob and modern battle tanks designs with all armor plates, sensors and 360\u00b0 cameras.\n\nUVW and texturing was a great challenge, i never paint model in multiple pieces so i ended up by setting each UVW's pieces in a corner for getting a full map.",
+      "faceCount": 17659,
+      "createdAt": "2020-11-20T10:09:03.917263",
+      "vertexCount": 9212,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/74e6f3b2182c4a0e862a775c6df5e7cc",
+      "uid": "74e6f3b2182c4a0e862a775c6df5e7cc",
+      "name": "Avalanche Tank",
+      "staffpickedAt": null,
+      "viewCount": 193,
+      "likeCount": 4,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-74e6f3b2182c4a0e862a775c6df5e7cc",
+      "embedUrl": "https://sketchfab.com/models/74e6f3b2182c4a0e862a775c6df5e7cc/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2016-12-13T19:34:31.315044",
+      "tags": [
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f3226af130564a6d97eb864ef366e5ea",
+            "size": 1107,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/74e6f3b2182c4a0e862a775c6df5e7cc/thumbnails/2eefc99ba2af4ee58d3194204a116450/64x36.jpeg",
+            "height": 36
+          },
+          {
+            "uid": "3b383b82636549d49c33d72f56dc1286",
+            "size": 7692,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/74e6f3b2182c4a0e862a775c6df5e7cc/thumbnails/2eefc99ba2af4ee58d3194204a116450/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "8d0908de3f2349a5bbc5b9c42dcfee4e",
+            "size": 62145,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/74e6f3b2182c4a0e862a775c6df5e7cc/thumbnails/2eefc99ba2af4ee58d3194204a116450/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "242f84a2504a45558d1b084099cb06f9",
+            "size": 37026,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/74e6f3b2182c4a0e862a775c6df5e7cc/thumbnails/2eefc99ba2af4ee58d3194204a116450/720x405.jpeg",
+            "height": 405
+          }
+        ]
+      },
+      "user": {
+        "uid": "8065a10430e64d88a5519212d4e246ed",
+        "username": "dragonfireca",
+        "displayName": "DragonFireCA",
+        "profileUrl": "https://sketchfab.com/dragonfireca",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/0771e9747bd6446a9b5419eeeecd3ac3",
+          "images": [
+            {
+              "size": 4235,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/0771e9747bd6446a9b5419eeeecd3ac3/a23f45f146a74068b4164689f03d2bd6.jpeg",
+              "height": 100
+            },
+            {
+              "size": 3783,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/0771e9747bd6446a9b5419eeeecd3ac3/4a4accc4d6b142e6a34d040e4914c2f3.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1682,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/0771e9747bd6446a9b5419eeeecd3ac3/35589eea24c746bdba932c89dce9a233.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1095,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/0771e9747bd6446a9b5419eeeecd3ac3/3038ff67d37442aaaf8b7ffa2e88041b.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/8065a10430e64d88a5519212d4e246ed"
+      },
+      "description": "designed for arctic warfare. features: tank destroyer cannon, side turrets, flamethrower, spotlight, , storage crates, smoke grenade launchers and motion sensor!",
+      "faceCount": 108266,
+      "createdAt": "2016-12-13T18:49:30.200023",
+      "vertexCount": 104434,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/97ceb2aec9084683888be2541b9fc5ba",
+      "uid": "97ceb2aec9084683888be2541b9fc5ba",
+      "name": "Vehicles>Human>Fighters>Broadsword",
+      "staffpickedAt": null,
+      "viewCount": 2921,
+      "likeCount": 109,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-97ceb2aec9084683888be2541b9fc5ba",
+      "embedUrl": "https://sketchfab.com/models/97ceb2aec9084683888be2541b9fc5ba/embed",
+      "commentCount": 2,
+      "isDownloadable": true,
+      "publishedAt": "2023-12-08T16:51:48.557646",
+      "tags": [
+        {
+          "name": "4",
+          "slug": "4",
+          "uri": "https://api.sketchfab.com/v3/tags/4"
+        },
+        {
+          "name": "broadsword",
+          "slug": "broadsword",
+          "uri": "https://api.sketchfab.com/v3/tags/broadsword"
+        },
+        {
+          "name": "halo",
+          "slug": "halo",
+          "uri": "https://api.sketchfab.com/v3/tags/halo"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "6d34874f40204eb48dff8ce3f36e3798",
+            "size": 184523,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/97ceb2aec9084683888be2541b9fc5ba/thumbnails/1c4f87e8b2e34030a5a73e19c5d7b0b5/8a06edf4ca9f4e399f4583283e0514d5.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "3113654634224168ac48e78f3e27b41e",
+            "size": 63610,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/97ceb2aec9084683888be2541b9fc5ba/thumbnails/1c4f87e8b2e34030a5a73e19c5d7b0b5/7d377d4fc5a94f3a92db0ec3d2ab1c0a.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "d28960cd62ea46619d447816ec5022ad",
+            "size": 34948,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/97ceb2aec9084683888be2541b9fc5ba/thumbnails/1c4f87e8b2e34030a5a73e19c5d7b0b5/661bd5bf1ad44eb4aa2b3b4c04e441ec.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "906a9b12911447e2962200b617f82ca3",
+            "size": 5730,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/97ceb2aec9084683888be2541b9fc5ba/thumbnails/1c4f87e8b2e34030a5a73e19c5d7b0b5/52615853a2d64abf90b20ba064ab6809.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "d1040d6c7bee4a0ca5edd1159588f405",
+            "size": 1177,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/97ceb2aec9084683888be2541b9fc5ba/thumbnails/1c4f87e8b2e34030a5a73e19c5d7b0b5/9cdda696ddd84adb8ae6148201d40775.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "881b61365a0c4e7eb218b1793e83648e",
+        "username": "jameslucino117",
+        "displayName": "Bornstellar Makes Eternallasting",
+        "profileUrl": "https://sketchfab.com/jameslucino117",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/7c53bf19e9074f4ca306853a68c2c555",
+          "images": [
+            {
+              "size": 1065,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/712136dc8f1848ee9061ca19195f553c.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1515,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/6dc09fbc4285419f94bbd31453007113.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3402,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/3f9d56e496874c0e91b267cac04dfe91.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3934,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/26943411236f438c96c59de96c7bdfc4.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/881b61365a0c4e7eb218b1793e83648e"
+      },
+      "description": "The F-41 Broadsword is a versatile and well-armed A/X strike fighter typically used to engage equal or superior enemy craft. As its kind has few equals within humanity's known arsenal, the Broadsword was designed to address the speed and firepower displayed by a variety of Covenant fighters. The F-41E Broadsword was introduced in 2554, featuring an upgrade package including energy shielding derived from the FSS-1000 Sabre that covers the entire fighter and recharges when depleted, specifically conceived to withstand pulse laser turrets. However these shields are not rated for slipspace travel. As well as shields, the F-41E features an advanced sensor and target designation suite that can process hundreds of targets, on top of reformulated Titanium-A armor panels. These upgrades were considered impossible to implement fleetwide under wartime conditions, and included a range of design improvements and deferred upgrades, such as reformulated Titanium-A panels and an upgraded fusion reactor to power the shields.",
+      "faceCount": 36925,
+      "createdAt": "2023-12-08T16:38:50.058224",
+      "vertexCount": 20646,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 15,
+          "size": 14676524,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 36925,
+          "vertexCount": 33711
+        },
+        "gltf": {
+          "textureCount": 15,
+          "size": 13535600,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 36925,
+          "vertexCount": 33711
+        },
+        "source": {
+          "textureCount": null,
+          "size": 30708121,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 7397215,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/afac5bffcd9945a78440ce5873b8a758",
+      "uid": "afac5bffcd9945a78440ce5873b8a758",
+      "name": "ODLS weapon system",
+      "staffpickedAt": null,
+      "viewCount": 572,
+      "likeCount": 7,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-afac5bffcd9945a78440ce5873b8a758",
+      "embedUrl": "https://sketchfab.com/models/afac5bffcd9945a78440ce5873b8a758/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2023-08-18T15:04:23.158236",
+      "tags": [
+        {
+          "name": "system",
+          "slug": "system",
+          "uri": "https://api.sketchfab.com/v3/tags/system"
+        },
+        {
+          "name": "leonardo",
+          "slug": "leonardo",
+          "uri": "https://api.sketchfab.com/v3/tags/leonardo"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "launch",
+          "slug": "launch",
+          "uri": "https://api.sketchfab.com/v3/tags/launch"
+        },
+        {
+          "name": "rocket",
+          "slug": "rocket",
+          "uri": "https://api.sketchfab.com/v3/tags/rocket"
+        },
+        {
+          "name": "defence",
+          "slug": "defence",
+          "uri": "https://api.sketchfab.com/v3/tags/defence"
+        },
+        {
+          "name": "decoy",
+          "slug": "decoy",
+          "uri": "https://api.sketchfab.com/v3/tags/decoy"
+        },
+        {
+          "name": "ballistic",
+          "slug": "ballistic",
+          "uri": "https://api.sketchfab.com/v3/tags/ballistic"
+        },
+        {
+          "name": "oto",
+          "slug": "oto",
+          "uri": "https://api.sketchfab.com/v3/tags/oto"
+        },
+        {
+          "name": "melara",
+          "slug": "melara",
+          "uri": "https://api.sketchfab.com/v3/tags/melara"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "odls",
+          "slug": "odls",
+          "uri": "https://api.sketchfab.com/v3/tags/odls"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e239b14c6f7543348a2e4a0818fa211f",
+            "size": 128212,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/afac5bffcd9945a78440ce5873b8a758/thumbnails/8925b3c0758040bfb58f7153ab77dc32/318c1fd27d2a4514ad4c6b97bd98102e.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "423962c5632048c9ad33967cae9e6921",
+            "size": 31677,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/afac5bffcd9945a78440ce5873b8a758/thumbnails/8925b3c0758040bfb58f7153ab77dc32/9c9e3de66df94f0a8c326b4547efd42d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "ceda7f088f47432cbffb723690e3f923",
+            "size": 18539,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/afac5bffcd9945a78440ce5873b8a758/thumbnails/8925b3c0758040bfb58f7153ab77dc32/c3eb9820e81a48d09693149e674823df.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "f7308eab666041f69d241bfe54ed650e",
+            "size": 4192,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/afac5bffcd9945a78440ce5873b8a758/thumbnails/8925b3c0758040bfb58f7153ab77dc32/9483d00da33e4662952dd10a51679718.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "d6090403914e4b4ab79f196fcf2ef165",
+            "size": 1133,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/afac5bffcd9945a78440ce5873b8a758/thumbnails/8925b3c0758040bfb58f7153ab77dc32/efadd8f38a094918ad66c2fcb3ea5091.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "01a235c39bd74fb6aede54906b3417ed",
+        "username": "navalsystems1980",
+        "displayName": "navalsystems1980",
+        "profileUrl": "https://sketchfab.com/navalsystems1980",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+          "images": [
+            {
+              "size": 680,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1253,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2797,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3215,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/01a235c39bd74fb6aede54906b3417ed"
+      },
+      "description": "The ODLS is manufactured by Leonardo (Formerly Oto Melara). It's main use is to defend the ship from sensor guided missiles by launching decoys.\n\nThis 3D model was created using 3ds Max, with textures designed in Substance Painter. The model has been meticulously unwrapped and divided into separate parts, enabling the base and turret to rotate seamlessly. If necessary, I am also capable of exporting the textures in various formats suitable for Unity, Unreal Engine, or V-Ray integration.",
+      "faceCount": 31176,
+      "createdAt": "2023-08-18T15:03:11.244730",
+      "vertexCount": 16845,
+      "isAgeRestricted": false,
+      "archives": {
+        "extra": {
+          "textureCount": null,
+          "size": 3814400,
+          "type": "extra",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "glb": {
+          "textureCount": 3,
+          "size": 30478304,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 31175,
+          "vertexCount": 31213
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 29180798,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 31175,
+          "vertexCount": 31213
+        },
+        "source": {
+          "textureCount": null,
+          "size": 28445618,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3086462,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/99a3510b2083434b97fa1e929dcbd1c6",
+      "uid": "99a3510b2083434b97fa1e929dcbd1c6",
+      "name": "Heimerdinger turret",
+      "staffpickedAt": null,
+      "viewCount": 58,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-99a3510b2083434b97fa1e929dcbd1c6",
+      "embedUrl": "https://sketchfab.com/models/99a3510b2083434b97fa1e929dcbd1c6/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2025-07-14T19:55:37.161974",
+      "tags": [
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "leagueoflegends",
+          "slug": "leagueoflegends",
+          "uri": "https://api.sketchfab.com/v3/tags/leagueoflegends"
+        },
+        {
+          "name": "arcane",
+          "slug": "arcane",
+          "uri": "https://api.sketchfab.com/v3/tags/arcane"
+        },
+        {
+          "name": "heimerdinger",
+          "slug": "heimerdinger",
+          "uri": "https://api.sketchfab.com/v3/tags/heimerdinger"
+        }
+      ],
+      "categories": [
+        {
+          "name": "characters-creatures"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e606eb757b9c460484f1c9e6f2d14006",
+            "size": 56670,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/99a3510b2083434b97fa1e929dcbd1c6/thumbnails/9f36b902f14d44ecb9285013229763a8/bd05e9e2ce1948c28d5eff5fefc4d479.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "ab05dfb0d7b54c4483e88050591c121e",
+            "size": 20102,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/99a3510b2083434b97fa1e929dcbd1c6/thumbnails/9f36b902f14d44ecb9285013229763a8/9e3d125790b34fd3810a81b7781aecee.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "a04e2f34ddf546f88df8131ee9630d84",
+            "size": 12111,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/99a3510b2083434b97fa1e929dcbd1c6/thumbnails/9f36b902f14d44ecb9285013229763a8/70ffc2581bf34608a4f248ce918adea0.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "644fc94ac5aa4359b46e2f3b42caff61",
+            "size": 3131,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/99a3510b2083434b97fa1e929dcbd1c6/thumbnails/9f36b902f14d44ecb9285013229763a8/a7d65efc5514474686f5f04774977547.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "03da9884fb7642e79754ffe87bae7962",
+            "size": 1015,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/99a3510b2083434b97fa1e929dcbd1c6/thumbnails/9f36b902f14d44ecb9285013229763a8/5a133edd5491446d8ec6f136601f4e17.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "09bf9e57b2c64a36850e0f3396af7c78",
+        "username": "kedigamer158",
+        "displayName": "nekondev",
+        "profileUrl": "https://sketchfab.com/kedigamer158",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/51af6a870cce449eb75b0345feebaebb",
+          "images": [
+            {
+              "size": 5719,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/2ef0f894055b4bb69123b2a27fa2d379.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6496,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/ab11eedf96374486acb544f71a23b165.jpeg",
+              "height": 100
+            },
+            {
+              "size": 1359,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/35f6f9b6c9a14a548ce472582d8a9bb5.jpeg",
+              "height": 32
+            },
+            {
+              "size": 2584,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/a8072a51447c4d41ab177b357111b420.jpeg",
+              "height": 48
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/09bf9e57b2c64a36850e0f3396af7c78"
+      },
+      "description": "The design of this model is not owned by me i've just rethinked the turret of heimerdinger from leauge of legends game\n\nTHERE WERE NO AI USED IN THIS MODEL I'VE COMPLETELY MODELED IT FROM MY OWN HAND WITH MY OWN TIME\n\nThe turret has four articulated legs, each composed of multiple segments connected by joints. The feet appear wide and stable, allowing it to supporting main body securely\n\nThe central structure is a compact, box-like chassis housing the main systems. It has a rectangular form with some angled extensions, possibly for mounting or armor\n\nOn the front, there is a prominent cannon-like structure. It's cylindrical, mounted to the body with mechanical joints, and clearly designed to fire projectiles or energy.\n\nA spherical object is mounted on top of the turret, possibly acting as a sensor, camera, or targeting unit. This component likely assists in aiming or scanning.\n\nThere are two tubular elements angled backward from the top rear, which could be exhausts, secondary weapons, or sensor extensions.",
+      "faceCount": 20844,
+      "createdAt": "2025-07-14T19:49:05.976753",
+      "vertexCount": 10685,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 805916,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 20844,
+          "vertexCount": 17221
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 369560,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 20844,
+          "vertexCount": 17221
+        },
+        "source": {
+          "textureCount": null,
+          "size": 1551639,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 472468,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/c720596a18be4f858f7ce20c37075827",
+      "uid": "c720596a18be4f858f7ce20c37075827",
+      "name": "[Rodin] futuristic armored vehicle",
+      "staffpickedAt": null,
+      "viewCount": 467,
+      "likeCount": 28,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-c720596a18be4f858f7ce20c37075827",
+      "embedUrl": "https://sketchfab.com/models/c720596a18be4f858f7ce20c37075827/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2024-12-31T16:10:58.770717",
+      "tags": [
+        {
+          "name": "wheels",
+          "slug": "wheels",
+          "uri": "https://api.sketchfab.com/v3/tags/wheels"
+        },
+        {
+          "name": "armored",
+          "slug": "armored",
+          "uri": "https://api.sketchfab.com/v3/tags/armored"
+        },
+        {
+          "name": "heavy",
+          "slug": "heavy",
+          "uri": "https://api.sketchfab.com/v3/tags/heavy"
+        },
+        {
+          "name": "cyber",
+          "slug": "cyber",
+          "uri": "https://api.sketchfab.com/v3/tags/cyber"
+        },
+        {
+          "name": "cyberpunk",
+          "slug": "cyberpunk",
+          "uri": "https://api.sketchfab.com/v3/tags/cyberpunk"
+        },
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "rodin",
+          "slug": "rodin",
+          "uri": "https://api.sketchfab.com/v3/tags/rodin"
+        },
+        {
+          "name": "shaded",
+          "slug": "shaded",
+          "uri": "https://api.sketchfab.com/v3/tags/shaded"
+        },
+        {
+          "name": "miltech",
+          "slug": "miltech",
+          "uri": "https://api.sketchfab.com/v3/tags/miltech"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "cartoon",
+          "slug": "cartoon",
+          "uri": "https://api.sketchfab.com/v3/tags/cartoon"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "futuristic",
+          "slug": "futuristic",
+          "uri": "https://api.sketchfab.com/v3/tags/futuristic"
+        },
+        {
+          "name": "war",
+          "slug": "war",
+          "uri": "https://api.sketchfab.com/v3/tags/war"
+        },
+        {
+          "name": "gen-1",
+          "slug": "gen-1",
+          "uri": "https://api.sketchfab.com/v3/tags/gen-1"
+        },
+        {
+          "name": "createdwithai",
+          "slug": "createdwithai",
+          "uri": "https://api.sketchfab.com/v3/tags/createdwithai"
+        },
+        {
+          "name": "tripo3d",
+          "slug": "tripo3d",
+          "uri": "https://api.sketchfab.com/v3/tags/tripo3d"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "73d546579d7f4b39b3c31b2b7d798931",
+            "size": 122734,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/c720596a18be4f858f7ce20c37075827/thumbnails/f952811eede54b02a62bc6cc69ccf2b9/e68bd0c863014cbe949b6431fbdeb6a3.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "bcc304435fdb4d8f8fe259875dfe97c5",
+            "size": 43341,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/c720596a18be4f858f7ce20c37075827/thumbnails/f952811eede54b02a62bc6cc69ccf2b9/2a5a4ac2f1a149f78b941ec43913f2d8.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "39db509bd2554440b3d81ebafac045b1",
+            "size": 26029,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/c720596a18be4f858f7ce20c37075827/thumbnails/f952811eede54b02a62bc6cc69ccf2b9/7bcbd7398151484699c1b8f49b678ab2.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "71bd82622f1148dcb8c4a25c6162caa5",
+            "size": 5879,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/c720596a18be4f858f7ce20c37075827/thumbnails/f952811eede54b02a62bc6cc69ccf2b9/4e514e8a0cc34800812acf87373a2f2d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "0ef99e3f47ed456a86c445c4ea3b8538",
+            "size": 1289,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/c720596a18be4f858f7ce20c37075827/thumbnails/f952811eede54b02a62bc6cc69ccf2b9/c331a41eee0b47ada4dc072fb1d14f08.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "578b38339c1a4424af27442b2de3a5fd",
+        "username": "line-o",
+        "displayName": "LINE-O",
+        "profileUrl": "https://sketchfab.com/line-o",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/6e3f15d2f1ab4faa984af9dc05c3b7bc",
+          "images": [
+            {
+              "size": 2035,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/6e3f15d2f1ab4faa984af9dc05c3b7bc/a00378a6a65d4dedb9711c1096f07631.png",
+              "height": 32
+            },
+            {
+              "size": 4032,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/6e3f15d2f1ab4faa984af9dc05c3b7bc/836d6767e9f14fd98c56f3b8b85cc40e.png",
+              "height": 48
+            },
+            {
+              "size": 11142,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/6e3f15d2f1ab4faa984af9dc05c3b7bc/0e4d18e56b98476da5849516708fb765.png",
+              "height": 90
+            },
+            {
+              "size": 12902,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/6e3f15d2f1ab4faa984af9dc05c3b7bc/0b8b75dca5bb4add9a5ee97958dc9210.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/578b38339c1a4424af27442b2de3a5fd"
+      },
+      "description": "reference image created with Flux that glitches into 6 wheels\n\npart of experiment chain ChatGPT > prompt to Flux / prompt to text to 3D, AI: Hyper3D Rodin\n\n# base prompt:\n> hyper-detailed 3D render of an advanced long-range drone detection and tracking system against a clean white background. The vehicle is an 8-wheeled armored platform with sharp, angular armor plating and matte gunmetal gray surfaces with faint hexagonal nano-texture patterns. Atop the platform sits a colossal AESA radar array with sharp triangular fins and segmented, carbon-fiber-coated panels. Rising beside it is a tall, telescopic mast holding a multi-layered electro-optical/infrared (EO/IR) turret with glowing cyan sensor lenses and micro-servo actuators. Around the vehicle's edges are modular RF sensor pods with intricate vent grilles and status lights pulsing faintly. Style Notes: Cinematic lighting, high-fidelity texturing, ultra-defined surface materials, sharp polygonal geometry, modular mechanical joints, faint ambient glow.",
+      "faceCount": 38398,
+      "createdAt": "2024-12-31T16:10:06.863810",
+      "vertexCount": 19181,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 8553268,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 38398,
+          "vertexCount": 25005
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 7945845,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 38398,
+          "vertexCount": 25005
+        },
+        "source": {
+          "textureCount": null,
+          "size": 21419658,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 2787483,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/60bda03c39b2490ea286706c8a24c31b",
+      "uid": "60bda03c39b2490ea286706c8a24c31b",
+      "name": "Vehicles>Covenant>Capital Ships>Cruiser",
+      "staffpickedAt": null,
+      "viewCount": 2481,
+      "likeCount": 68,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-60bda03c39b2490ea286706c8a24c31b",
+      "embedUrl": "https://sketchfab.com/models/60bda03c39b2490ea286706c8a24c31b/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2023-12-10T23:28:21.045596",
+      "tags": [
+        {
+          "name": "4",
+          "slug": "4",
+          "uri": "https://api.sketchfab.com/v3/tags/4"
+        },
+        {
+          "name": "reach",
+          "slug": "reach",
+          "uri": "https://api.sketchfab.com/v3/tags/reach"
+        },
+        {
+          "name": "cruiser",
+          "slug": "cruiser",
+          "uri": "https://api.sketchfab.com/v3/tags/cruiser"
+        },
+        {
+          "name": "halo",
+          "slug": "halo",
+          "uri": "https://api.sketchfab.com/v3/tags/halo"
+        },
+        {
+          "name": "3",
+          "slug": "3",
+          "uri": "https://api.sketchfab.com/v3/tags/3"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "2680c3e667ce49329b339c8cb42bf95c",
+            "size": 61508,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/60bda03c39b2490ea286706c8a24c31b/thumbnails/a60c05c3238a488ebba9a36dd38a35b9/2e9a3ebf5f8e4b1babf5d91647a45978.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e336e887668747b0a2b1e2df9acc99f7",
+            "size": 19282,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/60bda03c39b2490ea286706c8a24c31b/thumbnails/a60c05c3238a488ebba9a36dd38a35b9/4b5562b0f9d748b2950e1c8755551ee2.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f8163af364444bf18dcd78168fff2e99",
+            "size": 10720,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/60bda03c39b2490ea286706c8a24c31b/thumbnails/a60c05c3238a488ebba9a36dd38a35b9/d9ce1b6e7b514fa4aabf0ae7286432e7.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "8bc3db92322c41eaa6598496da905c06",
+            "size": 2342,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/60bda03c39b2490ea286706c8a24c31b/thumbnails/a60c05c3238a488ebba9a36dd38a35b9/87c1bbc2bd254ff88af84d2e5337db78.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "bede3243123f47fd9e738413e3f63cfd",
+            "size": 846,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/60bda03c39b2490ea286706c8a24c31b/thumbnails/a60c05c3238a488ebba9a36dd38a35b9/18f848efd1a348d3b2cc04dafc631a33.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "881b61365a0c4e7eb218b1793e83648e",
+        "username": "jameslucino117",
+        "displayName": "Bornstellar Makes Eternallasting",
+        "profileUrl": "https://sketchfab.com/jameslucino117",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/7c53bf19e9074f4ca306853a68c2c555",
+          "images": [
+            {
+              "size": 1065,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/712136dc8f1848ee9061ca19195f553c.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1515,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/6dc09fbc4285419f94bbd31453007113.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3402,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/3f9d56e496874c0e91b267cac04dfe91.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3934,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/7c53bf19e9074f4ca306853a68c2c555/26943411236f438c96c59de96c7bdfc4.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/881b61365a0c4e7eb218b1793e83648e"
+      },
+      "description": "From left to right: Halo 3 normal and flood infested versions, Halo Reach, Halo 4.\n\n*Cruisers are shaped to allow for mobility in atmospheric flight and agility when fighting in space. Their hulls are shaped with almost-perfect symmetry. Cruisers feature internal modular bays that can be configured as engineering, medical, armory, barracks and religious facilities. They are best recognized for their distinctive fins, located on the underside of the ship's nose. These fins serve as sensor arrays, the number of which can differ between designs, though the configuration of the fits themselves is not an indicator of design pattern variation. Their primary weapon system usually consists of a ventral energy projector, with plasma cannons and pulse laser turrets for secondary weapons, respectively. They may also be fitted with plasma torpedos. The primary pinch fusion reactor located in the ship's core provides the power needed to operate the excavation beam and plasma lance and ignite the plasma torpedoes.*",
+      "faceCount": 61129,
+      "createdAt": "2023-12-10T23:13:45.712721",
+      "vertexCount": 31479,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 7,
+          "size": 10068688,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 61119,
+          "vertexCount": 52695
+        },
+        "gltf": {
+          "textureCount": 7,
+          "size": 8661645,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 61119,
+          "vertexCount": 52695
+        },
+        "source": {
+          "textureCount": null,
+          "size": 53618305,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4059679,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/71553972057442109f0ef013237e8e11",
+      "uid": "71553972057442109f0ef013237e8e11",
+      "name": "Spider construction robot",
+      "staffpickedAt": null,
+      "viewCount": 364,
+      "likeCount": 6,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-71553972057442109f0ef013237e8e11",
+      "embedUrl": "https://sketchfab.com/models/71553972057442109f0ef013237e8e11/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2018-07-03T04:52:15.911224",
+      "tags": [
+        {
+          "name": "drone",
+          "slug": "drone",
+          "uri": "https://api.sketchfab.com/v3/tags/drone"
+        },
+        {
+          "name": "spider",
+          "slug": "spider",
+          "uri": "https://api.sketchfab.com/v3/tags/spider"
+        },
+        {
+          "name": "droid",
+          "slug": "droid",
+          "uri": "https://api.sketchfab.com/v3/tags/droid"
+        },
+        {
+          "name": "utility",
+          "slug": "utility",
+          "uri": "https://api.sketchfab.com/v3/tags/utility"
+        },
+        {
+          "name": "cybernetic",
+          "slug": "cybernetic",
+          "uri": "https://api.sketchfab.com/v3/tags/cybernetic"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        },
+        {
+          "name": "construction",
+          "slug": "construction",
+          "uri": "https://api.sketchfab.com/v3/tags/construction"
+        },
+        {
+          "name": "robot",
+          "slug": "robot",
+          "uri": "https://api.sketchfab.com/v3/tags/robot"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "dfbe804c2c044b69a81f69c6a335defb",
+            "size": 707,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/71553972057442109f0ef013237e8e11/thumbnails/08d6285e52e844c3a152d79347d13168/f06f5feba3594f3cae1ece95c4674877.jpeg",
+            "height": 36
+          },
+          {
+            "uid": "4b6c4062b5de47b5964302da6c176cf7",
+            "size": 3585,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/71553972057442109f0ef013237e8e11/thumbnails/08d6285e52e844c3a152d79347d13168/ed4adfafbb254c3e8085b6f15d2f74d7.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "3842761ea06f4bc48e05782b6428e54e",
+            "size": 21568,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/71553972057442109f0ef013237e8e11/thumbnails/08d6285e52e844c3a152d79347d13168/c542f231f6074a6c8839760eb6a285d5.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "887d6ca7a93542e9964843b4641ac239",
+            "size": 274717,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/71553972057442109f0ef013237e8e11/thumbnails/08d6285e52e844c3a152d79347d13168/e7c2461ee8224be796631c53a01105a6.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "2cb0180142514d92aed997334ceeea21",
+            "size": 45254,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/71553972057442109f0ef013237e8e11/thumbnails/08d6285e52e844c3a152d79347d13168/dcc8fd242b7449f290eac9c04080f294.jpeg",
+            "height": 576
+          }
+        ]
+      },
+      "user": {
+        "uid": "f6eea99a7d2c4ef8a3897a52f96cb384",
+        "username": "wafel",
+        "displayName": "Wafelek",
+        "profileUrl": "https://sketchfab.com/wafel",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/145d393f44e94dab9a33993dc46cff09",
+          "images": [
+            {
+              "size": 1927,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/145d393f44e94dab9a33993dc46cff09/3667abfaab574433a6f14023d7055a35.png",
+              "height": 32
+            },
+            {
+              "size": 3853,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/145d393f44e94dab9a33993dc46cff09/817ffbcba5f04bd888dd4d1669e9f2b1.png",
+              "height": 48
+            },
+            {
+              "size": 12318,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/145d393f44e94dab9a33993dc46cff09/8f7e4d16b144485e99db8ee9bbaff92e.png",
+              "height": 90
+            },
+            {
+              "size": 14950,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/145d393f44e94dab9a33993dc46cff09/ad7b084d79e44761a0d4061b50c4d59b.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/f6eea99a7d2c4ef8a3897a52f96cb384"
+      },
+      "description": "Spider robot with 4 legs and two arms with grapples. Jump jets on the bottom make extremly mobile even in rough terran. Carries light machinegin in the back in case of need of hostile situation can slide to the top and act as a turret. Front sensors are placed to resemble spider eyes.",
+      "faceCount": 5484,
+      "createdAt": "2018-07-03T04:44:12.329272",
+      "vertexCount": 3040,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 32694876,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 5484,
+          "vertexCount": 5509
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 32516650,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 5484,
+          "vertexCount": 5509
+        },
+        "source": {
+          "textureCount": null,
+          "size": 43696397,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4430279,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/db4ac7a135944345be35781af21ba5dd",
+      "uid": "db4ac7a135944345be35781af21ba5dd",
+      "name": "Mining Set",
+      "staffpickedAt": null,
+      "viewCount": 606,
+      "likeCount": 8,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-db4ac7a135944345be35781af21ba5dd",
+      "embedUrl": "https://sketchfab.com/models/db4ac7a135944345be35781af21ba5dd/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2016-11-06T18:59:40.330453",
+      "tags": [
+        {
+          "name": "starmade",
+          "slug": "starmade",
+          "uri": "https://api.sketchfab.com/v3/tags/starmade"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "d99993d6eb544603af42b7071a9ed4e1",
+            "size": 74982,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/db4ac7a135944345be35781af21ba5dd/thumbnails/b8e65aab1fc44a249c057bbb8f73283b/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "0d29873c3846483e87fa0482ffce05f2",
+            "size": 45270,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/db4ac7a135944345be35781af21ba5dd/thumbnails/b8e65aab1fc44a249c057bbb8f73283b/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "ae5ab7f04a1f42eab6c7c9fd62777344",
+            "size": 9014,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/db4ac7a135944345be35781af21ba5dd/thumbnails/b8e65aab1fc44a249c057bbb8f73283b/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ba1360ae5a114591ae375411260aa597",
+            "size": 1099,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/db4ac7a135944345be35781af21ba5dd/thumbnails/b8e65aab1fc44a249c057bbb8f73283b/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "9484eb0bd4bf4ed4a72bd4e7a1b6d866",
+        "username": "Rumcajz",
+        "displayName": "Rumcajz",
+        "profileUrl": "https://sketchfab.com/Rumcajz",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/2ff96fc2fc134c3994624bdb59ece432",
+          "images": [
+            {
+              "size": 2810,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/2ff96fc2fc134c3994624bdb59ece432/6ca0ae08cc674d3ea53b46b013329d39.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2483,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/2ff96fc2fc134c3994624bdb59ece432/38aaa5924b704c1893790c01953e7957.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1094,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/2ff96fc2fc134c3994624bdb59ece432/c15d5742177a45bd804c785273ccdd14.jpeg",
+              "height": 48
+            },
+            {
+              "size": 739,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/2ff96fc2fc134c3994624bdb59ece432/15fb9e42fa974e9b89a2bbe435db8e6b.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/9484eb0bd4bf4ed4a72bd4e7a1b6d866"
+      },
+      "description": "this is my mining set, which is actually a cargo ship with specialy created loading system and docking bay for a yellow mining ship which is docked in the bay. Ship have a some little feature and it is create more for RP stlye game. Have a small ammount of shield almost no weapon system, only 2 Turrets for defending and few PDS turrets. inside have a lot of interier. ship is mostly created from standard armor and have 2 jump drivers...\n\nthis set is outdated and have before a little upgrade (some sensors for detecting cargo and some display features...)",
+      "faceCount": 425116,
+      "createdAt": "2016-11-06T18:38:40.411095",
+      "vertexCount": 161425,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ca97fa3de8ee49f4a93c6e7ed5a334e9",
+      "uid": "ca97fa3de8ee49f4a93c6e7ed5a334e9",
+      "name": "Heavy Cannon Turret (Sci-Fi) - Mammoth",
+      "staffpickedAt": null,
+      "viewCount": 94,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ca97fa3de8ee49f4a93c6e7ed5a334e9",
+      "embedUrl": "https://sketchfab.com/models/ca97fa3de8ee49f4a93c6e7ed5a334e9/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2025-01-13T22:12:51.867251",
+      "tags": [
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "fbx",
+          "slug": "fbx",
+          "uri": "https://api.sketchfab.com/v3/tags/fbx"
+        },
+        {
+          "name": "midpoly",
+          "slug": "midpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/midpoly"
+        },
+        {
+          "name": "cannon",
+          "slug": "cannon",
+          "uri": "https://api.sketchfab.com/v3/tags/cannon"
+        },
+        {
+          "name": "game-ready",
+          "slug": "game-ready",
+          "uri": "https://api.sketchfab.com/v3/tags/game-ready"
+        },
+        {
+          "name": "turrets",
+          "slug": "turrets",
+          "uri": "https://api.sketchfab.com/v3/tags/turrets"
+        },
+        {
+          "name": "unity-3d",
+          "slug": "unity-3d",
+          "uri": "https://api.sketchfab.com/v3/tags/unity-3d"
+        },
+        {
+          "name": "tower-defense",
+          "slug": "tower-defense",
+          "uri": "https://api.sketchfab.com/v3/tags/tower-defense"
+        },
+        {
+          "name": "unity-asset",
+          "slug": "unity-asset",
+          "uri": "https://api.sketchfab.com/v3/tags/unity-asset"
+        },
+        {
+          "name": "unity-ready",
+          "slug": "unity-ready",
+          "uri": "https://api.sketchfab.com/v3/tags/unity-ready"
+        },
+        {
+          "name": "cannon-weapon",
+          "slug": "cannon-weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/cannon-weapon"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "gameart",
+          "slug": "gameart",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart"
+        },
+        {
+          "name": "scifi",
+          "slug": "scifi",
+          "uri": "https://api.sketchfab.com/v3/tags/scifi"
+        },
+        {
+          "name": "sci-fi",
+          "slug": "sci-fi",
+          "uri": "https://api.sketchfab.com/v3/tags/sci-fi"
+        },
+        {
+          "name": "hardsurface",
+          "slug": "hardsurface",
+          "uri": "https://api.sketchfab.com/v3/tags/hardsurface"
+        },
+        {
+          "name": "gameasset",
+          "slug": "gameasset",
+          "uri": "https://api.sketchfab.com/v3/tags/gameasset"
+        },
+        {
+          "name": "gameready",
+          "slug": "gameready",
+          "uri": "https://api.sketchfab.com/v3/tags/gameready"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "51dfad96562944f2bf2c341c6bb76581",
+            "size": 380792,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ca97fa3de8ee49f4a93c6e7ed5a334e9/thumbnails/875c0a4feb3a4cf89c1957d9f3aeba58/28fc15558cc94962b86c6b9502a2f051.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "37d231af5ac1442083cc7e2fa0c4aa58",
+            "size": 102417,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ca97fa3de8ee49f4a93c6e7ed5a334e9/thumbnails/875c0a4feb3a4cf89c1957d9f3aeba58/7af8ecf5774b407fae582090b497a8aa.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "352f3f65a42f4ced8d384b8ca8974fde",
+            "size": 50374,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ca97fa3de8ee49f4a93c6e7ed5a334e9/thumbnails/875c0a4feb3a4cf89c1957d9f3aeba58/55176a9852684accb65a3b37ab73469b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "3ffbdbc7dc5c4b08829bca692cfb3bde",
+            "size": 7101,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ca97fa3de8ee49f4a93c6e7ed5a334e9/thumbnails/875c0a4feb3a4cf89c1957d9f3aeba58/c5f8a3289cff469891dffd28d75405b3.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "2ec2263cd68f4d2db5c2442baaadf1a5",
+            "size": 1222,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ca97fa3de8ee49f4a93c6e7ed5a334e9/thumbnails/875c0a4feb3a4cf89c1957d9f3aeba58/76c2d26a3a1247d8b5d9ebfc198b16bc.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2fa27dd433fb4038832e2e99357638d3",
+        "username": "BardoComputing",
+        "displayName": "Bardo Computing",
+        "profileUrl": "https://sketchfab.com/BardoComputing",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/2f70a951705347e584e17ad5344c5f0d",
+          "images": [
+            {
+              "size": 794,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/e282e95aa80741ac8a61ae6c42cca73c.png",
+              "height": 32
+            },
+            {
+              "size": 1256,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/caa07c2334b245019a257f4509a950b6.png",
+              "height": 48
+            },
+            {
+              "size": 2323,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/6d8052bd9ce7459bb1741a4243f7be25.png",
+              "height": 90
+            },
+            {
+              "size": 2563,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/2f70a951705347e584e17ad5344c5f0d/5dfeca04fbec409b8a2d11b1d0ad1de0.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2fa27dd433fb4038832e2e99357638d3"
+      },
+      "description": "**This model is part of a Sci-Fi Cannon turret collection. For the full list, see below:**  \n- [View the Level 1: Tusker Cannon](https://skfb.ly/ptWxP)  \n- [View the Level 2: Mammoth Cannon](https://skfb.ly/ptHYv)  \n- [View the Level 3: Behemoth Cannon](https://skfb.ly/ptUIt)\n\n# Mammoth Cannon  \n\n### Advanced Power, Superior Precision  \n\nThe **Mammoth Cannon** builds on the Tusker's design with greater strength, advanced tech, and a commanding presence, perfect for any sci-fi setting.  \n\n### Key Features:  \n- **Reinforced Barrel:** Larger and more impactful for added power.  \n- **Integrated Sensors:** Top-mounted array for futuristic functionality.  \n- **Heavy-Duty Build:** Bulkier construction for unmatched durability.  \n- **Precise Adjustments:** Smooth rotation and tilt for seamless positioning.  \n- **Bold Aesthetic:** Enhanced black-white-red design for a striking look.  \n\nThe **Mammoth Cannon** is a powerhouse of performance and style, ready to elevate your projects.",
+      "faceCount": 93040,
+      "createdAt": "2025-01-13T04:38:12.267191",
+      "vertexCount": 47453,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "author": "claude-design",
+  "scope": "Visual reference evidence for JCNC non-operational game-asset repair",
+  "reviewed_at": "2026-10-29",
+  "selected_era": "circa 2021 AC-130W / earlier-gun AC-130J candidate",
+  "reference_acceptance": "SCOPED_REFERENCE_REVIEW_NOT_FULL_PHOTOGRAPHIC_ACCEPTANCE",
+  "images": [
+    {
+      "id": "DVIDS-6427944",
+      "file": "images/DVIDS-6427944-30mm-exterior.jpg",
+      "sha256": "de8d362022abf1b233682789ccc3c83b9ef83c34e2fd446e83f6997e27879f10",
+      "bytes": 150436,
+      "date_taken": "2020-11-09",
+      "variant": "AC-130J",
+      "subject": "30mm-exterior",
+      "page_url": "https://www.dvidshub.net/image/6427944/ac-130j-crew-maintain-proficiency-combat-readiness",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2011/6427944/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Staff Sgt. Rachel Williams",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Single dark gun tube, enlarged cylindrical muzzle sleeve with visible oblong side vents, and open dark bore.",
+        "Large circular dark flexible boot inside a riveted fuselage surround; peripheral angular fairing visible.",
+        "External gun silhouette is primarily tube and muzzle; receiver/feed machinery is not a large free-standing exterior turret."
+      ],
+      "limitations": [
+        "Oblique frontal photograph does not provide orthographic dimensions, travel limits or exact mount position on this game airframe.",
+        "Do not infer identical W pressure-boot geometry from this J image."
+      ]
+    },
+    {
+      "id": "DVIDS-3486265",
+      "file": "images/DVIDS-3486265-30mm-case-ejection.jpg",
+      "sha256": "42137dd6daabd2c137939a1629cfd5358b2f0b6801716b26a975b0813ecd90ca",
+      "bytes": 222261,
+      "date_taken": "2017-06-13",
+      "variant": "AC-130W",
+      "subject": "30mm-case-ejection",
+      "page_url": "https://www.dvidshub.net/image/3486265/live-fire-training-with-ac-130w",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1706/3486265/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Staff Sgt. Michael Washburn",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "An empty case is visibly airborne inside the cabin above a fabric catch bag.",
+        "Nearby separate collection bag contains disintegrating link-like pieces.",
+        "Bulky dark receiver, curved feed path, internal mount, quilted wall and porthole establish cabin-side installation."
+      ],
+      "limitations": [
+        "A still image does not certify real ejection velocity, animation cadence or complete motion path.",
+        "Use as destination and visual identity evidence; authored game paths must remain explicitly approximate."
+      ]
+    },
+    {
+      "id": "DVIDS-3146917",
+      "file": "images/DVIDS-3146917-30mm-case-ejection.jpg",
+      "sha256": "58be6459accf99b9aa184e4f59e1b329f22c54bec20381f6d186bbc73dc31aad",
+      "bytes": 158586,
+      "date_taken": "2017-01-23",
+      "variant": "AC-130J",
+      "subject": "30mm-case-ejection",
+      "page_url": "https://www.dvidshub.net/image/3146917/angry-annie-fires-first-rounds",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1702/3146917/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Senior Airman Jeff Parkinson",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "A spent hollow case leaves the internal receiver toward an orange fabric catch bag.",
+        "Case release is inside the aircraft, not out through the muzzle or fuselage skin."
+      ],
+      "limitations": [
+        "Motion blur prevents precise orientation measurements.",
+        "Photo alone does not establish real animation timings."
+      ]
+    },
+    {
+      "id": "DVIDS-6317363",
+      "file": "images/DVIDS-6317363-30mm-internal.jpg",
+      "sha256": "4a7a46bcb54bd64c4714022d25f23ea254519e1ac1260e33a6415d9ce570cd7b",
+      "bytes": 237764,
+      "date_taken": "2020-08-11",
+      "variant": "AC-130W",
+      "subject": "30mm-internal",
+      "page_url": "https://www.dvidshub.net/image/6317363/ac-130w-supports-uae-us-maritime-surface-warfare-exercise",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2008/6317363/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Senior Airman Duncan C. Bevan",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Internal dark receiver has stepped/bolted housings and broad curved feed guides.",
+        "Soft collection bags are below the gun inside rigid surrounding guards.",
+        "Cabin-side machinery is substantial and should be visible in cutaway/isolated component views."
+      ],
+      "limitations": [
+        "Supports visual surfaces only; no engineering or construction details are derived."
+      ]
+    },
+    {
+      "id": "DVIDS-3486262",
+      "file": "images/DVIDS-3486262-105mm-recoil.jpg",
+      "sha256": "744b7e34095ac4a9928ebe2928aa493b663bed59ab90c46a51280c2517b6e580",
+      "bytes": 248578,
+      "date_taken": "2017-06-13",
+      "variant": "AC-130W",
+      "subject": "105mm-recoil",
+      "page_url": "https://www.dvidshub.net/image/3486262/live-fire-training-with-ac-130w",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1706/3486262/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Staff Sgt. Michael Washburn",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Caption identifies recoil; moving gun/breech portion is blurred relative to yellow rear rail/cradle elements.",
+        "Long dark upper assembly and gold/yellow rear guard rails dominate the indoor silhouette.",
+        "The caption distinguishes individually serviced shots, supporting separate visual shots with a recovery interval."
+      ],
+      "limitations": [
+        "No operational rate of fire, travel distance or loading procedure is specified for the game.",
+        "Still-image motion blur establishes motion qualitatively only."
+      ]
+    },
+    {
+      "id": "DVIDS-3146918",
+      "file": "images/DVIDS-3146918-105mm-internal.jpg",
+      "sha256": "c23ecb46b94163da3d0dcbbf048b85c35984d9b61fb49a326719e15aaab76299",
+      "bytes": 232694,
+      "date_taken": "2017-01-23",
+      "variant": "AC-130J",
+      "subject": "105mm-internal",
+      "page_url": "https://www.dvidshub.net/image/3146918/angry-annie-fires-first-rounds",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1702/3146918/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Senior Airman Jeff Parkinson",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Earlier J installation already includes long dark tube/cradle and yellow rear rails.",
+        "A faint indoor smoke haze surrounds the gun-area floor.",
+        "This predates the publicly announced 2022 replacement gun and therefore resolves the yellow-rail age concern."
+      ],
+      "limitations": [
+        "Photo is of one early J configuration, not every later J lot or retrofit.",
+        "Effects intensity depends on lighting/exposure and must be artist-authored."
+      ]
+    },
+    {
+      "id": "DVIDS-6637434",
+      "file": "images/DVIDS-6637434-105mm-inner-mount.jpg",
+      "sha256": "6643f10f95821703450a11de5b2ad0d1797d899bb806c26218b3c0789c7ac415",
+      "bytes": 273333,
+      "date_taken": "2021-05-07",
+      "variant": "AC-130J",
+      "subject": "105mm-inner-mount",
+      "page_url": "https://www.dvidshub.net/image/6637434/ac-130j-gunship-trains-with-multinational-forces-during-trojan-footprint-21",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2105/6637434/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Staff Sgt. Brandon Nelson",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Circular black inner support frame around the wall opening, dark main tube and plate-like cradle structure.",
+        "Two exposed spring-like visual elements appear at the inner mounting region.",
+        "Yellow actuator housing and dark hoses provide restrained contrasting materials."
+      ],
+      "limitations": [
+        "This is an interior visual reference; avoid translating it into functional weapon internals.",
+        "No mounting coordinates or physical load paths are validated."
+      ]
+    },
+    {
+      "id": "DVIDS-2850910",
+      "file": "images/DVIDS-2850910-105mm-rear-view.jpg",
+      "sha256": "3e82fdba8c91e7e7235768f23e42992ebb0fbde3503979f9604dd549029a5c2e",
+      "bytes": 199401,
+      "date_taken": "2016-09-06",
+      "variant": "AC-130J",
+      "subject": "105mm-rear-view",
+      "page_url": "https://www.dvidshub.net/image/2850910/ac-130j-load-fire-105mm-first-time",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1609/2850910/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Airman 1st Class Isaac O. Guest IV",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Rear-facing view shows yellow protective rails around the dark gun rear.",
+        "Apparent loading opening is inside the cabin and aligned with the projecting barrel assembly."
+      ],
+      "limitations": [
+        "Page metadata gives September 6 while caption mentions September 8; preserve this date discrepancy.",
+        "A still image is not proof of full mechanism operation."
+      ]
+    },
+    {
+      "id": "DVIDS-5621883",
+      "file": "images/DVIDS-5621883-105mm-exterior-rear.jpg",
+      "sha256": "9497ee3eb26d682b7a91038ca32182bf91d69a35a862fc4c86a33f7fa88c03e7",
+      "bytes": 212659,
+      "date_taken": "2019-07-19",
+      "variant": "AC-130J",
+      "subject": "105mm-exterior-rear",
+      "page_url": "https://www.dvidshub.net/image/5621883/73rd-amu-air-commandos-perform-post-flight-inspection-ac-130j-ghostrider-gunship",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1907/5621883/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Airman 1st Class Joseph P. Leveille",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "105-mm assembly projects from the aft port fuselage, left in this direct rear view.",
+        "Visible external tube includes raised collars/end diffuser silhouette; dark flexible opening cover surrounds the wall crossing.",
+        "Cargo ramp view simultaneously reveals the internal yellow gun rail assembly."
+      ],
+      "limitations": [
+        "The gun occupies relatively few pixels in the available public preview; exact diffuser contour and dimensions remain unaccepted.",
+        "Use for assembly placement and silhouette; detailed muzzle geometry remains an approximation pending closer imagery."
+      ]
+    },
+    {
+      "id": "DVIDS-5621880",
+      "file": "images/DVIDS-5621880-chin-eoir.jpg",
+      "sha256": "ab7a082d2aab1bb06f80578676e72602dcc4f4a8c0882c21a606a0964bd1f39a",
+      "bytes": 195257,
+      "date_taken": "2019-07-19",
+      "variant": "AC-130J",
+      "subject": "chin-eoir",
+      "page_url": "https://www.dvidshub.net/image/5621880/73rd-amu-air-commandos-perform-post-flight-inspection-ac-130j-ghostrider-gunship",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1907/5621880/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Airman 1st Class Joseph P. Leveille",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Gray chin turret hangs below the nose with short cylindrical mounting neck and rounded lower capsule.",
+        "One dark window is turned laterally in the visible pose; small fasteners follow the lower housing.",
+        "Crew access opening and partial forward-gun boot establish nose-side context; fuselage number 5783 is visible."
+      ],
+      "limitations": [
+        "View does not identify every optical aperture, exact sensor suffix or aft sensor configuration.",
+        "Turret motion axes are plausible model rig choices, not validated full real travel limits."
+      ]
+    },
+    {
+      "id": "DVIDS-6427973",
+      "file": "images/DVIDS-6427973-105mm-spent-cases.jpg",
+      "sha256": "1590e378cb2552d531ef831c3f26c9d4cef0224a8e2d060b92b6551889a6fc0a",
+      "bytes": 150291,
+      "date_taken": "2020-11-09",
+      "variant": "AC-130J",
+      "subject": "105mm-spent-cases",
+      "page_url": "https://www.dvidshub.net/image/6427973/ac-130j-crew-maintain-proficiency-combat-readiness",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2011/6427973/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Staff Sgt. Rachel Williams",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "PRIMARY_GEOMETRY_REFERENCE",
+      "observed": [
+        "Crew member stacks large empty brass cases inside the cabin.",
+        "Cases have hollow mouths and broad bases; these must be separate from outgoing projectile visuals."
+      ],
+      "limitations": [
+        "Does not show exact breech ejection trajectory.",
+        "Interior retention is confirmed; the proposed brief drop/bounce path is authored for review."
+      ]
+    },
+    {
+      "id": "DVIDS-2392818",
+      "file": "images/DVIDS-2392818-exterior-firing-smoke.jpg",
+      "sha256": "ba25d2304a96907a748c5142c75a29f1615ebaf6c8c6f76e02557346c53c5832",
+      "bytes": 78972,
+      "date_taken": "2016-02-03",
+      "variant": "AC-130W",
+      "subject": "exterior-firing-smoke",
+      "page_url": "https://www.dvidshub.net/image/2392818/ac-130w-stinger-ii-live-fire-melrose-air-force-range",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1602/2392818/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Tech. Sgt. Manuel J. Martinez",
+      "rights": "DVIDS identifies public domain; comply with linked DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded original public preview and inspected using view_image; no generated/retouched reference images.",
+      "role": "EFFECT_MORPHOLOGY_ONLY",
+      "observed": [
+        "A gray/white diffuse smoke puff trails the port lower fuselage during firing.",
+        "No large persistent rocket-like flame is visible in this photographed moment."
+      ],
+      "limitations": [
+        "Earlier W event does not establish the later 105-mm fit.",
+        "One photograph cannot determine flash duration, color in all lighting or true firing cadence."
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Both selected families use side-firing single-barrel 30-mm and 105-mm installations; no rotary Gatling barrel is supported for these candidate configurations.",
+      "status": "CONFIRMED_CONFIG_WITH_VISUAL_REFERENCE",
+      "sources": [
+        "https://www.dvidshub.net/news/385195/jtf-quartz-weapon-system-ac-130w-stinger-ii",
+        "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      ],
+      "images": [
+        "DVIDS-6427944",
+        "DVIDS-6317363"
+      ]
+    },
+    {
+      "claim": "30-mm spent cases collect inside fabric bags; 105-mm spent cases remain inside and are handled/stacked.",
+      "status": "CONFIRMED_FOR_PHOTOGRAPHED_EARLIER_CONFIGURATIONS",
+      "images": [
+        "DVIDS-3486265",
+        "DVIDS-3146917",
+        "DVIDS-6427973"
+      ]
+    },
+    {
+      "claim": "The earlier 105-mm gun and the upgraded Gun Aircraft Unit must not be silently blended.",
+      "status": "CONFIRMED_UPGRADE_EXISTS",
+      "source": "https://www.navsea.navy.mil/Media/News/Article/2895381/nswc-dahlgren-engineers-deliver-upgraded-gun-aircraft-unit-for-the-warfighters/",
+      "decision": "Use circa-2021 legacy installation; upgraded 2022+ appearance remains separate future option."
+    },
+    {
+      "claim": "Two EO/IR installations are part of the relevant family equipment, but exact J sensor identity depends on configuration.",
+      "status": "TWO_SENSORS_CONFIRMED_EXACT_SLOT_VARIANTS_UNRESOLVED",
+      "sources": [
+        "https://www.robins.af.mil/News/Article-Display/Article/377994/mc-130w-dragon-spear-visits-robins/",
+        "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/",
+        "https://www.dote.osd.mil/Portals/97/pub/reports/FY2020/other/2020DOTEAnnualReport.pdf?ver=rvLsaCQ_njLmPDrNIFJBWQ%3D%3D"
+      ],
+      "decision": "Label authored MX-20-family form as representative until exact tail/block/slot is accepted; never substitute generic MTS appearance based solely on C-130 family."
+    }
+  ],
+  "authored_assumptions": [
+    "Mechanism travel, timing, visual-only projectile path, case fall path, FX intensity and detailed mounting coordinates are artist-authored and remain non-certified.",
+    "No guidance, targeting, ballistic effectiveness, fire-control system or real weapon construction is part of this reference work.",
+    "W and J exterior pressure boots, sensor models and installation offsets require tail-specific acceptance; common caliber alone is not interchangeability evidence."
+  ],
+  "outstanding": [
+    "Closer orthogonal pre-2022 105-mm external muzzle and boot references",
+    "Tail/block-specific left-side sensor model and aperture assignment",
+    "W exterior pressure-boot comparison",
+    "Multi-view photographic overlays of current exported geometry"
+  ]
+}

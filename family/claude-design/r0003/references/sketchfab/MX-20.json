@@ -1,0 +1,894 @@
+{
+  "cursors": {
+    "next": null,
+    "previous": null
+  },
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/eb5c49afcf7445fa81d0c8827ed17bec",
+      "uid": "eb5c49afcf7445fa81d0c8827ed17bec",
+      "name": "Logitech Mx Master Mouse",
+      "staffpickedAt": null,
+      "viewCount": 410,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-eb5c49afcf7445fa81d0c8827ed17bec",
+      "embedUrl": "https://sketchfab.com/models/eb5c49afcf7445fa81d0c8827ed17bec/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2023-06-17T10:36:57.876666",
+      "tags": [
+        {
+          "name": "mouse",
+          "slug": "mouse",
+          "uri": "https://api.sketchfab.com/v3/tags/mouse"
+        },
+        {
+          "name": "fix",
+          "slug": "fix",
+          "uri": "https://api.sketchfab.com/v3/tags/fix"
+        },
+        {
+          "name": "logitech",
+          "slug": "logitech",
+          "uri": "https://api.sketchfab.com/v3/tags/logitech"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "scan",
+          "slug": "scan",
+          "uri": "https://api.sketchfab.com/v3/tags/scan"
+        },
+        {
+          "name": "3dscan",
+          "slug": "3dscan",
+          "uri": "https://api.sketchfab.com/v3/tags/3dscan"
+        },
+        {
+          "name": "mxmaster",
+          "slug": "mxmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/mxmaster"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        },
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "dd076294a15f48a893647c988ac2c887",
+            "size": 145062,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/eb5c49afcf7445fa81d0c8827ed17bec/thumbnails/35a8808a6edc4cd281e9f27e223db2ca/ccbc04ba4c6940089194eae07be6bdd5.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "78aab8e1c58142bf98c27900df83caeb",
+            "size": 47997,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/eb5c49afcf7445fa81d0c8827ed17bec/thumbnails/35a8808a6edc4cd281e9f27e223db2ca/deafa1c8e7c242ffbc2734fad5a34a83.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "2f4339571fe04459825e3c1d02818069",
+            "size": 26197,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/eb5c49afcf7445fa81d0c8827ed17bec/thumbnails/35a8808a6edc4cd281e9f27e223db2ca/8513a7ff8fcf41f59032568adb07c018.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "204e66bf869c46dda69a33d862a9e139",
+            "size": 4773,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/eb5c49afcf7445fa81d0c8827ed17bec/thumbnails/35a8808a6edc4cd281e9f27e223db2ca/989c7e4c76c84f7bb17a16ad40408c3d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "6ffdcc671f1c424388743193a7daf37c",
+            "size": 1141,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/eb5c49afcf7445fa81d0c8827ed17bec/thumbnails/35a8808a6edc4cd281e9f27e223db2ca/bfe2553b015f486abc8f477da722cb41.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "e0be6f3319964810b59fe7ab98ec5900",
+        "username": "axuhakan",
+        "displayName": "axuhakan",
+        "profileUrl": "https://sketchfab.com/axuhakan",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/579b6596eaad44df9a9204990b865418",
+          "images": [
+            {
+              "size": 959,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/579b6596eaad44df9a9204990b865418/280b92c528694f0bb6bf8b46c294f197.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1312,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/579b6596eaad44df9a9204990b865418/24739121d8f94fd8bfa43e24431dc24e.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2876,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/579b6596eaad44df9a9204990b865418/ea5e700248114858b1c56fe5e03f8acf.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3304,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/579b6596eaad44df9a9204990b865418/e7b053bd7030444f828302757f69bc04.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/e0be6f3319964810b59fe7ab98ec5900"
+      },
+      "description": "My favorite logitech mx master mouse. I did a 3d scan. that is, I will throw it into a 3d program and model the part for the problematic place and solve the problem. maybe someone with the same problem can use this data. \n\n\n*I share this process on twitter.*\n\n[https://twitter.com/benhaksu/status/1670019157427904513?s=20](http://)",
+      "faceCount": 58564,
+      "createdAt": "2023-06-17T10:30:29.642990",
+      "vertexCount": 29786,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 10745648,
+          "type": "glb",
+          "textureMaxResolution": 8192,
+          "faceCount": 58564,
+          "vertexCount": 33879
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 8968966,
+          "type": "gltf",
+          "textureMaxResolution": 8192,
+          "faceCount": 58564,
+          "vertexCount": 33879
+        },
+        "source": {
+          "textureCount": null,
+          "size": 11911420,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 2475346,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a4db33365d5546c7bf6a8b39f800d386",
+      "uid": "a4db33365d5546c7bf6a8b39f800d386",
+      "name": "XV2F-20 | Sistema Vertical 2 Filas",
+      "staffpickedAt": null,
+      "viewCount": 2325,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a4db33365d5546c7bf6a8b39f800d386",
+      "embedUrl": "https://sketchfab.com/models/a4db33365d5546c7bf6a8b39f800d386/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2021-11-24T17:46:36.745366",
+      "tags": [
+        {
+          "name": "solar",
+          "slug": "solar",
+          "uri": "https://api.sketchfab.com/v3/tags/solar"
+        },
+        {
+          "name": "rackingsystems",
+          "slug": "rackingsystems",
+          "uri": "https://api.sketchfab.com/v3/tags/rackingsystems"
+        },
+        {
+          "name": "middleclamp",
+          "slug": "middleclamp",
+          "uri": "https://api.sketchfab.com/v3/tags/middleclamp"
+        },
+        {
+          "name": "solarracking",
+          "slug": "solarracking",
+          "uri": "https://api.sketchfab.com/v3/tags/solarracking"
+        },
+        {
+          "name": "solarmountingsystem",
+          "slug": "solarmountingsystem",
+          "uri": "https://api.sketchfab.com/v3/tags/solarmountingsystem"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "9633262a08cf48bf9828ed0c5baacea0",
+            "size": 362828,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a4db33365d5546c7bf6a8b39f800d386/thumbnails/8a81f1bb407840b696e48b03c3bdc523/110035c26e164a7fb4e82d5bbc236ea4.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "cffde5a1fbf84f028e888523a09aac2f",
+            "size": 38736,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a4db33365d5546c7bf6a8b39f800d386/thumbnails/8a81f1bb407840b696e48b03c3bdc523/1003757140364e32bbc84bcf41f45b4a.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e4f99314c5f74b209b1abc6d521895aa",
+            "size": 22079,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a4db33365d5546c7bf6a8b39f800d386/thumbnails/8a81f1bb407840b696e48b03c3bdc523/0a06306aad354a4da1deae357b443b8b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "db51a0981bcd40cd9722fd8e573aa9be",
+            "size": 5277,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a4db33365d5546c7bf6a8b39f800d386/thumbnails/8a81f1bb407840b696e48b03c3bdc523/a35421447dbc4a69980e178f015c25e8.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "27c88b297e834ead8c9ba4c5b6950828",
+            "size": 1314,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a4db33365d5546c7bf6a8b39f800d386/thumbnails/8a81f1bb407840b696e48b03c3bdc523/0a8bd79bb1934c139b15621c255716d0.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "233bff471e3741c0818d4ed9459f18bd",
+        "username": "Solida_mx",
+        "displayName": "Solida",
+        "profileUrl": "https://sketchfab.com/Solida_mx",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/195a257a77934d1da21fe78a99db295b",
+          "images": [
+            {
+              "size": 534,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/195a257a77934d1da21fe78a99db295b/df4641bd5bea4d69b4c3b3d6da110b84.png",
+              "height": 32
+            },
+            {
+              "size": 899,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/195a257a77934d1da21fe78a99db295b/032d92551c8247b4a48c894fcdbcb170.png",
+              "height": 48
+            },
+            {
+              "size": 1815,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/195a257a77934d1da21fe78a99db295b/0d466bf3cd184747b5d3c18e394a4924.png",
+              "height": 90
+            },
+            {
+              "size": 2145,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/195a257a77934d1da21fe78a99db295b/e5f61411e94a47638777875120ec3ae8.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/233bff471e3741c0818d4ed9459f18bd"
+      },
+      "description": "Sistema Vertical 2 Filas 8 M\u00f3dulos a 20\u00b0",
+      "faceCount": 247932,
+      "createdAt": "2021-11-24T16:27:08.804540",
+      "vertexCount": 123366,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 11149836,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 247932,
+          "vertexCount": 254563
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 3590436,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 247932,
+          "vertexCount": 254563
+        },
+        "source": {
+          "textureCount": null,
+          "size": 36581459,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6262815,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9813949541134a63ac96b5db7d67a340",
+      "uid": "9813949541134a63ac96b5db7d67a340",
+      "name": "Caparaz\u00f3n de Erizo (Echinoidea) - 2",
+      "staffpickedAt": null,
+      "viewCount": 126,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9813949541134a63ac96b5db7d67a340",
+      "embedUrl": "https://sketchfab.com/models/9813949541134a63ac96b5db7d67a340/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2023-06-22T19:17:50.018441",
+      "tags": [],
+      "categories": [
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "2f1de1f8bd484704b6463e5a3c3fdd96",
+            "size": 92419,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9813949541134a63ac96b5db7d67a340/thumbnails/237ab064fcd340beb071cf1f15b13d5c/4afc7974ad844f43baac4fdba7fe32a9.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "421dfc4074a640e7ae6ec1261ef0e2f0",
+            "size": 30558,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9813949541134a63ac96b5db7d67a340/thumbnails/237ab064fcd340beb071cf1f15b13d5c/0730f720bea04752934d5fef2d006eaa.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "0da47d841c1749e8a3adfbbe89fd9ed4",
+            "size": 17313,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9813949541134a63ac96b5db7d67a340/thumbnails/237ab064fcd340beb071cf1f15b13d5c/fa72affe03914c59a21413d29e0b9dd3.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "79758578fd444e99b699b2ac0e29eee7",
+            "size": 3352,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9813949541134a63ac96b5db7d67a340/thumbnails/237ab064fcd340beb071cf1f15b13d5c/277b83aedfac4f18a710339ec817ed63.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "1edf8bef310944cfbe76bd5de312d99e",
+            "size": 915,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9813949541134a63ac96b5db7d67a340/thumbnails/237ab064fcd340beb071cf1f15b13d5c/9c224e1317034bd59092370c8988df0f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "28b1949586ad4c3ba896b3c183cd572c",
+        "username": "laaa_mx",
+        "displayName": "Laboratorio de Arte, Arquitectura y Arqueolog\u00eda",
+        "profileUrl": "https://sketchfab.com/laaa_mx",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/33013efe748c49fa889e930938fffea5",
+          "images": [
+            {
+              "size": 843,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/70af6341ba8e46f280c6ee7238b33435.jpeg",
+              "height": 32
+            },
+            {
+              "size": 994,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/569daeedf9b947e5a5cfd586eec8df2c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1885,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/a9c5d34ded9d46a985074ebc701ff96d.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2076,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/dba6e9611ff741bfbd1ddb6fc51ac308.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/28b1949586ad4c3ba896b3c183cd572c"
+      },
+      "description": "* Dimensions: 43 x 37 x 20 mm\n* Weight: 4g\n* Date of scan: 9 of June of 2023\n_____\n* Dimensiones: 43 x 37 x 20 mm\n* Peso: 4g\n* Fecha de registro 9 de Junio, 2023",
+      "faceCount": 499999,
+      "createdAt": "2023-06-22T19:14:18.838828",
+      "vertexCount": 250409,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 31389968,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 499999,
+          "vertexCount": 343007
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 25284113,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 499999,
+          "vertexCount": 343007
+        },
+        "source": {
+          "textureCount": null,
+          "size": 30000331,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 14353220,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/854a16fa36f8441ca70b902ce5b3d4da",
+      "uid": "854a16fa36f8441ca70b902ce5b3d4da",
+      "name": "Sand Dollar (Clypeasteroida)",
+      "staffpickedAt": null,
+      "viewCount": 78,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-854a16fa36f8441ca70b902ce5b3d4da",
+      "embedUrl": "https://sketchfab.com/models/854a16fa36f8441ca70b902ce5b3d4da/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2023-07-24T23:31:52.852277",
+      "tags": [],
+      "categories": [
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "6cf7a21efde44583920bc732adf6ae84",
+            "size": 64237,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/854a16fa36f8441ca70b902ce5b3d4da/thumbnails/2e38cdcec6b148d19f33aa64005c9df0/2c797d33e55947dab9eb2c95eee50e8d.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "2ddba828030246e6b6a559a959d33699",
+            "size": 18762,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/854a16fa36f8441ca70b902ce5b3d4da/thumbnails/2e38cdcec6b148d19f33aa64005c9df0/5a4b3c3232e2441b8291dc350ff49223.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f66e14e162424abba2fb7ad89b818fe6",
+            "size": 10261,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/854a16fa36f8441ca70b902ce5b3d4da/thumbnails/2e38cdcec6b148d19f33aa64005c9df0/52e7e6568e5148b08edcb7cff286e956.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "fbd1de01962047e085de7769398601b1",
+            "size": 2353,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/854a16fa36f8441ca70b902ce5b3d4da/thumbnails/2e38cdcec6b148d19f33aa64005c9df0/8ea1d9096c074399acda282548d70738.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ea1a7da40a9646958264b8db604370db",
+            "size": 874,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/854a16fa36f8441ca70b902ce5b3d4da/thumbnails/2e38cdcec6b148d19f33aa64005c9df0/1517f807b000405a9a22cf955f557649.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "28b1949586ad4c3ba896b3c183cd572c",
+        "username": "laaa_mx",
+        "displayName": "Laboratorio de Arte, Arquitectura y Arqueolog\u00eda",
+        "profileUrl": "https://sketchfab.com/laaa_mx",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/33013efe748c49fa889e930938fffea5",
+          "images": [
+            {
+              "size": 843,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/70af6341ba8e46f280c6ee7238b33435.jpeg",
+              "height": 32
+            },
+            {
+              "size": 994,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/569daeedf9b947e5a5cfd586eec8df2c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1885,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/a9c5d34ded9d46a985074ebc701ff96d.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2076,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/dba6e9611ff741bfbd1ddb6fc51ac308.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/28b1949586ad4c3ba896b3c183cd572c"
+      },
+      "description": "* Dimensions: 116 x 89 x 43 mm\n* Weight: 114g\n* Date of scan: July 20th, 2023\n_____\n* Dimensions: 116 x 89 x 43 mm\n* Peso: 114g\n* Fecha de registro: 20 de Julio, 2023",
+      "faceCount": 499992,
+      "createdAt": "2023-07-24T23:27:30.592387",
+      "vertexCount": 249998,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 27663032,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 499992,
+          "vertexCount": 308818
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 22032217,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 499992,
+          "vertexCount": 308818
+        },
+        "source": {
+          "textureCount": null,
+          "size": 25945913,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 13010767,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/3740766753084b1abfa0709abccd24c8",
+      "uid": "3740766753084b1abfa0709abccd24c8",
+      "name": "Caparaz\u00f3n de Erizo (Echinoidea) 3",
+      "staffpickedAt": null,
+      "viewCount": 90,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-3740766753084b1abfa0709abccd24c8",
+      "embedUrl": "https://sketchfab.com/models/3740766753084b1abfa0709abccd24c8/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2023-07-24T22:35:12.987432",
+      "tags": [],
+      "categories": [
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "ac18609f7b294d629c982ab75623806c",
+            "size": 106837,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/3740766753084b1abfa0709abccd24c8/thumbnails/11ae778619a74bd1a54d58fcd2e832b4/cec7220787db4ab382aaab35d34fd5af.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a085e6381d8946b2ab54d44a3ba6f411",
+            "size": 35973,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/3740766753084b1abfa0709abccd24c8/thumbnails/11ae778619a74bd1a54d58fcd2e832b4/6cd6a30e68b0416ca89d03b6a4c2a7ca.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "1602e5af803b4e19bd24576e833d2a66",
+            "size": 20937,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/3740766753084b1abfa0709abccd24c8/thumbnails/11ae778619a74bd1a54d58fcd2e832b4/e07a906c4e684907adb5ab83013a5748.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c1941abb047e47eead13db53d5a70f8c",
+            "size": 4285,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/3740766753084b1abfa0709abccd24c8/thumbnails/11ae778619a74bd1a54d58fcd2e832b4/ddec29de83644bf4a89737d98fb487ae.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "bf039d6c9b0a4460ae298aa9441293ea",
+            "size": 1010,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/3740766753084b1abfa0709abccd24c8/thumbnails/11ae778619a74bd1a54d58fcd2e832b4/01adf67716f64a5d950be0d2c65ed121.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "28b1949586ad4c3ba896b3c183cd572c",
+        "username": "laaa_mx",
+        "displayName": "Laboratorio de Arte, Arquitectura y Arqueolog\u00eda",
+        "profileUrl": "https://sketchfab.com/laaa_mx",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/33013efe748c49fa889e930938fffea5",
+          "images": [
+            {
+              "size": 843,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/70af6341ba8e46f280c6ee7238b33435.jpeg",
+              "height": 32
+            },
+            {
+              "size": 994,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/569daeedf9b947e5a5cfd586eec8df2c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1885,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/a9c5d34ded9d46a985074ebc701ff96d.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2076,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/dba6e9611ff741bfbd1ddb6fc51ac308.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/28b1949586ad4c3ba896b3c183cd572c"
+      },
+      "description": "* Dimensions: 64 x 65 x 46 mm\n* Weight: 28g\n* Date of scan: July 20th, 2023\n_____\n* Dimensiones: 64 x 65 x 46 mm\n* Peso: 28g\n* Fecha de registro: 20 de Julio, 2023",
+      "faceCount": 499965,
+      "createdAt": "2023-07-24T22:32:00.326279",
+      "vertexCount": 250378,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 31114724,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 499965,
+          "vertexCount": 338251
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 25071086,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 499965,
+          "vertexCount": 338251
+        },
+        "source": {
+          "textureCount": null,
+          "size": 29251133,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 14003791,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a82034adb280487db3cbde738e2ade5f",
+      "uid": "a82034adb280487db3cbde738e2ade5f",
+      "name": "Hoja de Higuera (Ficus Americana Guianensis)",
+      "staffpickedAt": null,
+      "viewCount": 100,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a82034adb280487db3cbde738e2ade5f",
+      "embedUrl": "https://sketchfab.com/models/a82034adb280487db3cbde738e2ade5f/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2023-08-10T22:37:22.106609",
+      "tags": [],
+      "categories": [
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0c583dd31c764669a1f47fdb33d7faec",
+            "size": 98728,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a82034adb280487db3cbde738e2ade5f/thumbnails/5ad40cfc1c034e2cb409d5a530746a42/91441f534138429fbb9063d54a36ea8d.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a45d14c5208e4f02a5f922fa7a90e9aa",
+            "size": 29273,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a82034adb280487db3cbde738e2ade5f/thumbnails/5ad40cfc1c034e2cb409d5a530746a42/4e4d3caae06b45b0a71a632c1874f143.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "c200048c1ac0446e88feb652bb6425dc",
+            "size": 16252,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a82034adb280487db3cbde738e2ade5f/thumbnails/5ad40cfc1c034e2cb409d5a530746a42/95d076dfeba74d1dab524744813a889d.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "3b088ddf5d0d4a0d99abd14c079bfdfb",
+            "size": 3380,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a82034adb280487db3cbde738e2ade5f/thumbnails/5ad40cfc1c034e2cb409d5a530746a42/1c95fc49984240cea98aca957724d13e.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "e116932bcd0240bf9774f8836aa15dd5",
+            "size": 1011,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a82034adb280487db3cbde738e2ade5f/thumbnails/5ad40cfc1c034e2cb409d5a530746a42/3fc9e3df84364f1a9f9aef9fb4d0d549.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "28b1949586ad4c3ba896b3c183cd572c",
+        "username": "laaa_mx",
+        "displayName": "Laboratorio de Arte, Arquitectura y Arqueolog\u00eda",
+        "profileUrl": "https://sketchfab.com/laaa_mx",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/33013efe748c49fa889e930938fffea5",
+          "images": [
+            {
+              "size": 843,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/70af6341ba8e46f280c6ee7238b33435.jpeg",
+              "height": 32
+            },
+            {
+              "size": 994,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/569daeedf9b947e5a5cfd586eec8df2c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1885,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/a9c5d34ded9d46a985074ebc701ff96d.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2076,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/33013efe748c49fa889e930938fffea5/dba6e9611ff741bfbd1ddb6fc51ac308.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/28b1949586ad4c3ba896b3c183cd572c"
+      },
+      "description": "* Dimensions: 170 x 97 x 55 mm \n* Weight: 4g\n* Date of scan: July 20th, 2023\n___\n* Dimensiones: 170 x 97 x 55 mm \n* Peso: 4g\n* Fecha de registro: 20 de Julio, 2023",
+      "faceCount": 499980,
+      "createdAt": "2023-08-10T22:32:28.597546",
+      "vertexCount": 249990,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 29480576,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 499980,
+          "vertexCount": 321128
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 23731523,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 499980,
+          "vertexCount": 321128
+        },
+        "source": {
+          "textureCount": null,
+          "size": 27773137,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 13660912,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": null
+    }
+  ]
+}

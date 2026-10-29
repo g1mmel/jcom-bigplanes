@@ -1,0 +1,1527 @@
+{
+  "schema": "jcnc.asset-revision/3",
+  "revision": "r0003",
+  "author": "claude-design",
+  "created_utc": "2026-10-29T06:03:00Z",
+  "status": "DRAFT_SYSTEMS_VISUAL_REVIEW",
+  "production_accepted": false,
+  "parent": {
+    "repository": "g1mmel/jcom-bigplanes",
+    "commit": "e9021ef629be8bb8afb096883d63186afae9dce8",
+    "revision": "family/claude-design/r0002"
+  },
+  "source": {
+    "input": "source/inputs/c130-hercules-unified-r0001.glb",
+    "sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+    "licensing": "INHERITED_AIRFRAME_PROVENANCE_REVIEW_REQUIRED",
+    "third_party_component_meshes_used": false
+  },
+  "coordinate_contract": {
+    "units": "metres",
+    "up": "+Y",
+    "nose": "-Z",
+    "right": "+X"
+  },
+  "models": [
+    {
+      "id": "c130",
+      "label": "C-130H legacy Hercules candidate",
+      "file": "models/c130.glb",
+      "bytes": 13876572,
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+      "nodes": 144,
+      "meshes": 111,
+      "triangles": 159558,
+      "clips": 27,
+      "controls": 27,
+      "articulation": "articulation/c130.json",
+      "editable": null,
+      "validation": {
+        "khronos": {
+          "status": "UNCHANGED_R0002_BY_HASH"
+        },
+        "three_actual_controls": "PASS",
+        "native_blender": "UNCHANGED_R0002_BY_HASH",
+        "native_unreal": "NOT_RUN",
+        "photographic_acceptance": "NOT_ACCEPTED"
+      },
+      "unchanged_from_r0002": true
+    },
+    {
+      "id": "ac130",
+      "label": "AC-130W Stinger II \u2014 circa 2021 visual candidate",
+      "file": "models/ac130.glb",
+      "bytes": 17480992,
+      "sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+      "nodes": 368,
+      "meshes": 311,
+      "triangles": 244811,
+      "clips": 38,
+      "controls": 38,
+      "articulation": "articulation/ac130.json",
+      "editable": "editable/system-ac130-r0003.blend",
+      "validation": {
+        "khronos": {
+          "errors": 0,
+          "warnings": 0,
+          "status": "PASS"
+        },
+        "three_actual_controls": "PASS",
+        "native_blender": "PASS",
+        "native_unreal": "NOT_RUN",
+        "photographic_acceptance": "NOT_ACCEPTED"
+      },
+      "unchanged_from_r0002": false
+    },
+    {
+      "id": "ac130j",
+      "label": "AC-130J Ghostrider \u2014 circa 2021 earlier-installation visual candidate",
+      "file": "models/ac130j.glb",
+      "bytes": 17247052,
+      "sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+      "nodes": 394,
+      "meshes": 337,
+      "triangles": 240843,
+      "clips": 38,
+      "controls": 38,
+      "articulation": "articulation/ac130j.json",
+      "editable": "editable/system-ac130j-r0003.blend",
+      "validation": {
+        "khronos": {
+          "errors": 0,
+          "warnings": 0,
+          "status": "PASS"
+        },
+        "three_actual_controls": "PASS",
+        "native_blender": "PASS",
+        "native_unreal": "NOT_RUN",
+        "photographic_acceptance": "NOT_ACCEPTED"
+      },
+      "unchanged_from_r0002": false
+    },
+    {
+      "id": "gau23-visual",
+      "label": "GAU-23 family aircraft cannon \u2014 visual component",
+      "file": "components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "nodes": 103,
+      "meshes": 91,
+      "triangles": 15719,
+      "clips": 4,
+      "controls": 4,
+      "articulation": "components/gau23-visual/articulation.json",
+      "editable": "components/gau23-visual/editable.blend",
+      "validation": {
+        "khronos": {
+          "errors": 0,
+          "warnings": 0,
+          "status": "PASS"
+        },
+        "three_actual_controls": "PASS",
+        "native_blender": "PASS",
+        "native_unreal": "NOT_RUN",
+        "photographic_acceptance": "NOT_ACCEPTED"
+      },
+      "unchanged_from_r0002": false
+    },
+    {
+      "id": "m102-airborne-visual",
+      "label": "Legacy 105 mm aircraft gun \u2014 visual component",
+      "file": "components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "nodes": 41,
+      "meshes": 28,
+      "triangles": 11343,
+      "clips": 4,
+      "controls": 4,
+      "articulation": "components/m102-airborne-visual/articulation.json",
+      "editable": "components/m102-airborne-visual/editable.blend",
+      "validation": {
+        "khronos": {
+          "errors": 0,
+          "warnings": 0,
+          "status": "PASS"
+        },
+        "three_actual_controls": "PASS",
+        "native_blender": "PASS",
+        "native_unreal": "NOT_RUN",
+        "photographic_acceptance": "NOT_ACCEPTED"
+      },
+      "unchanged_from_r0002": false
+    },
+    {
+      "id": "eoir-visual",
+      "label": "MX-20-family representative EO/IR visual component",
+      "file": "components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "nodes": 47,
+      "meshes": 41,
+      "triangles": 10674,
+      "clips": 2,
+      "controls": 2,
+      "articulation": "components/eoir-visual/articulation.json",
+      "editable": "components/eoir-visual/editable.blend",
+      "validation": {
+        "khronos": {
+          "errors": 0,
+          "warnings": 0,
+          "status": "PASS"
+        },
+        "three_actual_controls": "PASS",
+        "native_blender": "PASS",
+        "native_unreal": "NOT_RUN",
+        "photographic_acceptance": "NOT_ACCEPTED"
+      },
+      "unchanged_from_r0002": false
+    }
+  ],
+  "component_registry": "articulation/component-registry.json",
+  "validation_reports": {
+    "format": "qa/gltf-validator-summary.json",
+    "geometry_and_isolation": "qa/system_geometry_report.json",
+    "runtime": "viewer/model-runtime-qa.json",
+    "firing": "viewer/firing-model-qa.json",
+    "scoped_case_obstructions": "viewer/case-obstruction-qa.json",
+    "portable": "viewer/final-portable-receipt.json",
+    "native_blender": [
+      "qa/system-review-ac130-r0003-rest.json",
+      "qa/system-review-ac130j-r0003-GUN105_CYCLE_5.json",
+      "qa/system-review-ac130j-r0003-GUN105_CYCLE_50.json",
+      "qa/system-review-ac130j-r0003-GUN30_CYCLE_50.json",
+      "qa/system-review-ac130j-r0003-rest.json",
+      "qa/system-review-eoir-visual-r0003-rest.json",
+      "qa/system-review-gau23-visual-r0003-rest.json",
+      "qa/system-review-m102-airborne-visual-r0003-rest.json"
+    ],
+    "scope": "qa/QA_SCOPE.md",
+    "incidents": "qa/INCIDENT_LEDGER.json"
+  },
+  "remaining_acceptance": {
+    "photographic_fit": "NOT_ACCEPTED",
+    "photorealistic_finish": "NOT_ACCEPTED",
+    "browser_rendering": "NOT_RUN",
+    "native_unreal": "NOT_RUN",
+    "continuous_combined_clearance": "NOT_PROVEN",
+    "gameplay_damage_lod_performance": "NOT_ACCEPTED"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1937,
+      "sha256": "91a7f5035eeb6c4bbd774c43616a60833fae94f1eeb1aba3ca0922d4bcae236e",
+      "role": "README.md"
+    },
+    {
+      "path": "REVISION.md",
+      "bytes": 7010,
+      "sha256": "42622125ebb8df78878c1be40c61844d1d4b8d289a0b1868821f0dec7c37c1ce",
+      "role": "REVISION.md"
+    },
+    {
+      "path": "UNREAL_HANDOFF.md",
+      "bytes": 2829,
+      "sha256": "5a8ce76fcc3d84925858d28ce2c00966fc0afca45834fb3477e8adf58e7d7f11",
+      "role": "UNREAL_HANDOFF.md"
+    },
+    {
+      "path": "WORKLOG.md",
+      "bytes": 3119,
+      "sha256": "364faa99af3e6fe794c66be90ecff4ab22d22dfc2964bcad8d972d17665d2e57",
+      "role": "WORKLOG.md"
+    },
+    {
+      "path": "articulation/ac130.json",
+      "bytes": 53882,
+      "sha256": "1d554930665d5a5c8bb47331c441f734fefe6363f26f6709e2912cac0766bca9",
+      "role": "articulation"
+    },
+    {
+      "path": "articulation/ac130j.json",
+      "bytes": 54408,
+      "sha256": "e81e808602b644345106491e48bd7db4718c4bea38029ad746f3ff5c705602cb",
+      "role": "articulation"
+    },
+    {
+      "path": "articulation/c130.json",
+      "bytes": 33702,
+      "sha256": "54f0ca69a323055853137af5825c05cc5c909cc87b6550de650c4a18852ab4b0",
+      "role": "articulation"
+    },
+    {
+      "path": "articulation/component-registry.json",
+      "bytes": 6047,
+      "sha256": "1abf20256090e986de509ef381e9ffa7c3f82bfa68fd6420bbba34d88b8e470e",
+      "role": "articulation"
+    },
+    {
+      "path": "components/eoir-visual/README.md",
+      "bytes": 5538,
+      "sha256": "2fada1784d71638ec00182e064936621deacc615d5aa158ff0cac052c0cba308",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/articulation.json",
+      "bytes": 5648,
+      "sha256": "9987dcb657e3091d3d07e81589914fa78249385e14d42e95f8b49ce2b80b89de",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/editable.blend",
+      "bytes": 274480,
+      "sha256": "3c5a45686da0bd6bf5493df678fa82e7d6816e4d7d186153ae604cb5be9b17ba",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/inspector.html",
+      "bytes": 2179348,
+      "sha256": "d1d85ad86dfbaf648e797b34cd971793fa2f8ac1b7790cc01a6198deb53c4e74",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/inspector.html.qa.json",
+      "bytes": 845,
+      "sha256": "9527bfb8021944cc50417199034f12879860153902e395411a6a81c713b3b186",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/inspector.manifest.json",
+      "bytes": 376,
+      "sha256": "85e706cd266b133df73fa6abfbb05f3a4dc7627c7f91b79cd12032dec367865e",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/manifest.json",
+      "bytes": 7767,
+      "sha256": "a3bb1e835828fde66931d7ffc53fe02e61a5bec64f115c5984140950303c4b24",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/materials.json",
+      "bytes": 18523,
+      "sha256": "2b080b337a0c3709d8d8fd28a3bf67c9a933730839333ec73fe4da1736cdbff9",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/component.json",
+      "bytes": 111,
+      "sha256": "53498d367f2d25dba1ec0c3e5841c2c315ec4637a19ae26444cc4c72cea3ebe3",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/requirements.txt",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/textures/README.md",
+      "bytes": 342,
+      "sha256": "98a49bc0087b44cb233cd47a8287cbfa9a499d47c0d35380077ae28653557617",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/README.md",
+      "bytes": 5294,
+      "sha256": "0c9055c236543b60b32f17c55f44f3a88783962c4a544bd6dffaff9c87e2d6b1",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/articulation.json",
+      "bytes": 8073,
+      "sha256": "29122b0ca3128086e723e3a251c669f4a17908837e0570fc3f407bd97a492bdd",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/editable.blend",
+      "bytes": 578899,
+      "sha256": "f770ce3d046f2f90036cf00bd9f1a2aa25d95a887c97c4f6f20f799d0ef9dfd7",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/inspector.html",
+      "bytes": 2456965,
+      "sha256": "08685af0a205911d919e0d54d59216c430dc3669551677ad9f15ba0e1c963e9f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/inspector.html.qa.json",
+      "bytes": 846,
+      "sha256": "8fd1a701444a3f8a28c13da9c6c6c92b73200c74edb5adb2c54f824e5a1e9242",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/inspector.manifest.json",
+      "bytes": 377,
+      "sha256": "c9e951da9d7036c23e8bd08d9631ce35a942e78c2c277a6a59eee9a0de19faba",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/manifest.json",
+      "bytes": 12134,
+      "sha256": "a30fb51b9ae63346e025ddeb52a292d7cdcab821482cbb5adf995d3dfa3acf9c",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/materials.json",
+      "bytes": 40223,
+      "sha256": "aff01e4ad2053b189d973807349dee672186d770aed64505f3f12ab7b8f3af4c",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/component.json",
+      "bytes": 111,
+      "sha256": "663ca650260e50fa53affc57765050172e2b17cc3be991ede234fc776f393977",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/requirements.txt",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/README.md",
+      "bytes": 678,
+      "sha256": "d0e6553e8fb64f57a9697bd05b985f854d2690eb24ffb7da72066de88af026b0",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-00-muzzle-flash-soft-alpha.png",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-01-smoke-soft-alpha.png",
+      "bytes": 4791,
+      "sha256": "f02b126e60594ec95c2be905921c83f82e4f83515927790e198ff98f7e7ea51a",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-02-gun-metallic-roughness.png",
+      "bytes": 16976,
+      "sha256": "dc61d8ce06a0e3b5de405aabe5f9b26b29fbc3c45f754ce5edb1f2e4f0e4decb",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-03-mount-paint-metallic-roughness.png",
+      "bytes": 16981,
+      "sha256": "0c4df8333bd90a130c05fb37f762ded3c6acb69c5e2c7f604cc8980f0040dda9",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-04-canvas-boot-metallic-roughness.png",
+      "bytes": 18269,
+      "sha256": "b710caacf5b5c1403a1dac3ad8871f4860dd0db345471d02be6ff7331b491929",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-05-ochre-guard-metallic-roughness.png",
+      "bytes": 16992,
+      "sha256": "93d51f17961b5c3f35a1bdbb2186a67d4d5212ab9d0aa4ccb795e863cfd953e5",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-06-khaki-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-07-orange-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-08-brass-case-metallic-roughness.png",
+      "bytes": 16975,
+      "sha256": "96f0c718eff4e69887e25d09f0063ca617729bbe312b2b1cab8fd1b853f201df",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/README.md",
+      "bytes": 5638,
+      "sha256": "78faab015bf1465df54081edbebd89ed3556ed1c0705dc6e8a745c820cd96695",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/articulation.json",
+      "bytes": 8281,
+      "sha256": "3b0df52bdba9998ec7aec3843bdb9bf4170aa796b04fa8044d26787d009b6f1d",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/editable.blend",
+      "bytes": 485729,
+      "sha256": "2e110cc91435887f3bed4f48e076de0d9a2ec3c11d1a31b517fda355f85d2ffe",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/inspector.html",
+      "bytes": 2413201,
+      "sha256": "02beb83e903a95855b96cc49a3bc2e3d9ff239c060a74d440005c10a95be31a5",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/inspector.html.qa.json",
+      "bytes": 854,
+      "sha256": "b7d3b0dbaaadf46d4dbdce0641a07e8fc09548d339863a0e520db700ab231273",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/inspector.manifest.json",
+      "bytes": 385,
+      "sha256": "ba747e1955aed665281004848d9a80999c5e83efa293d3ec6635cb82f1111f60",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/manifest.json",
+      "bytes": 12447,
+      "sha256": "97d110a1a491c5aef4bd9592a0de36240dd7fe2ddcc30d66c5e2d4b911e3cd9b",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/materials.json",
+      "bytes": 31912,
+      "sha256": "0e799d3d68d7cdfb8d70ae23abcf054cca155ba14c19079fab75031563cc10a4",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/component.json",
+      "bytes": 117,
+      "sha256": "d7b17d3128081aee4960e81847daa552d45393b5bf28a3a0de8cdf52a291fe25",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/requirements.txt",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/README.md",
+      "bytes": 678,
+      "sha256": "d0e6553e8fb64f57a9697bd05b985f854d2690eb24ffb7da72066de88af026b0",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-00-muzzle-flash-soft-alpha.png",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-01-smoke-soft-alpha.png",
+      "bytes": 4791,
+      "sha256": "f02b126e60594ec95c2be905921c83f82e4f83515927790e198ff98f7e7ea51a",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-02-gun-metallic-roughness.png",
+      "bytes": 16976,
+      "sha256": "dc61d8ce06a0e3b5de405aabe5f9b26b29fbc3c45f754ce5edb1f2e4f0e4decb",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-03-mount-paint-metallic-roughness.png",
+      "bytes": 16981,
+      "sha256": "0c4df8333bd90a130c05fb37f762ded3c6acb69c5e2c7f604cc8980f0040dda9",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-04-canvas-boot-metallic-roughness.png",
+      "bytes": 18269,
+      "sha256": "b710caacf5b5c1403a1dac3ad8871f4860dd0db345471d02be6ff7331b491929",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-05-ochre-guard-metallic-roughness.png",
+      "bytes": 16992,
+      "sha256": "93d51f17961b5c3f35a1bdbb2186a67d4d5212ab9d0aa4ccb795e863cfd953e5",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-06-khaki-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-07-orange-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-08-brass-case-metallic-roughness.png",
+      "bytes": 16975,
+      "sha256": "96f0c718eff4e69887e25d09f0063ca617729bbe312b2b1cab8fd1b853f201df",
+      "role": "components"
+    },
+    {
+      "path": "editable/system-ac130-r0003.blend",
+      "bytes": 12518833,
+      "sha256": "607e771ebabf9e64f00156a0eb9f144d07478f4a0693b1138f0c480cd13ab797",
+      "role": "editable"
+    },
+    {
+      "path": "editable/system-ac130j-r0003.blend",
+      "bytes": 12372118,
+      "sha256": "48933381cb82362f239bb4527f87f07a24e8f0bb57a49f94cbc0e3d255b6c6ec",
+      "role": "editable"
+    },
+    {
+      "path": "models/ac130.glb",
+      "bytes": 17480992,
+      "sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+      "role": "models"
+    },
+    {
+      "path": "models/ac130j.glb",
+      "bytes": 17247052,
+      "sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+      "role": "models"
+    },
+    {
+      "path": "models/c130.glb",
+      "bytes": 13876572,
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+      "role": "models"
+    },
+    {
+      "path": "packages/eoir-visual-r0003.zip",
+      "bytes": 1005881,
+      "sha256": "cf31c11c45445220d778781265996b9e94f12f92036bec457d4dbec007941903",
+      "role": "packages"
+    },
+    {
+      "path": "packages/gau23-visual-r0003.zip",
+      "bytes": 1858537,
+      "sha256": "d969d5432c844a107fdf8d458b4955fca1e893735966cad0221459b11ffc1eb2",
+      "role": "packages"
+    },
+    {
+      "path": "packages/m102-airborne-visual-r0003.zip",
+      "bytes": 1708816,
+      "sha256": "139169ce6443cbd93c78413e80094762bd4776d04d329156f30d7e6a94add480",
+      "role": "packages"
+    },
+    {
+      "path": "previews/system-ac130-r0003-hero-rest.png",
+      "bytes": 759694,
+      "sha256": "779ca3574ea2559318be7342689010d7563aac408a98662cda4724f092859b23",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130-r0003-port-rest.png",
+      "bytes": 750270,
+      "sha256": "f45957629de90735fd231d522df78ba5d6fa9122a328e5da0c7e93311e043e12",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130j-r0002-gun105-rest.png",
+      "bytes": 830467,
+      "sha256": "fdc848798dcdaf8571b3d66abe6468e6f72895e3b2032805a1036d38248538a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130j-r0002-gun30-rest.png",
+      "bytes": 790552,
+      "sha256": "834dc07fa12fc4aff77c50c3cc27d9dc5bd8c948cfb1427ec074ea25e2b9f189",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130j-r0003-gun105-GUN105_CYCLE_5.png",
+      "bytes": 818273,
+      "sha256": "8bb5430e7706beef24ba83a63a67329003449ac27f2f884bc44863f219e78174",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130j-r0003-gun105-rest.png",
+      "bytes": 813503,
+      "sha256": "e0749484cf70b55fb552be036fc98fe9448b061accae02fc1e9e8758b6ea42a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130j-r0003-gun30-rest.png",
+      "bytes": 783664,
+      "sha256": "0474234cfb98769e2c574d61831dbeaed5292a1a227063353fa001202ff84213",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130j-r0003-internal105-cutaway-GUN105_CYCLE_50.png",
+      "bytes": 882470,
+      "sha256": "e8786416c1acac1836b9bd2fce65b79e496666b8700ddc37ceaaba92d3a65daf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-ac130j-r0003-internal30-cutaway-GUN30_CYCLE_50.png",
+      "bytes": 851175,
+      "sha256": "6505779be6974d0ab2f04a1e048870243a0a527f99d1eccda58fecd03c3f5a08",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-eoir-visual-r0003-isolated-rest.png",
+      "bytes": 768421,
+      "sha256": "40980a9124b7f541b3fe78059641cffe6ed06a7994d9daf435e131dbfd47f04d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-gau23-visual-r0003-isolated-rest.png",
+      "bytes": 795371,
+      "sha256": "42c8b6b54bf31cbfe39a1e3f1c6f8e43f9783ece6d6b2c5c49f96432e1fb4fdb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/system-m102-airborne-visual-r0003-isolated-rest.png",
+      "bytes": 793899,
+      "sha256": "13fbfb225f3118820aca69b09dd6e2e4aab8014f38631cea876d94108ef77091",
+      "role": "previews"
+    },
+    {
+      "path": "qa/BASELINE_RECOVERY.json",
+      "bytes": 408,
+      "sha256": "9de3b77965967b6fad1356b7d0c9442898a2931ba6f933da8ab3121dd23cc992",
+      "role": "qa"
+    },
+    {
+      "path": "qa/INCIDENT_LEDGER.json",
+      "bytes": 6553,
+      "sha256": "15db3820038af28b77dcba1aa65b6383ed6b5ad2a2504fe9c59d795a4b1cc300",
+      "role": "qa"
+    },
+    {
+      "path": "qa/QA_SCOPE.md",
+      "bytes": 4163,
+      "sha256": "89e534155a08119d53bd09a5abaa8b007213b6ccbe270854a019a176abd08521",
+      "role": "qa"
+    },
+    {
+      "path": "qa/QA_SUMMARY.md",
+      "bytes": 5022,
+      "sha256": "361df15d3995f6d3bb16718f15e6eaa910fbf7e1fab88098ad3110dd8c6b80b5",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ac130-component-inventory.json",
+      "bytes": 165066,
+      "sha256": "70c465e774bf117c90f2e72eddd980f89a24ed0f08e14873dbda26310b374c52",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ac130.gltf-validator.json",
+      "bytes": 21248,
+      "sha256": "6ec6c2f988c43b1248decee29a262a029cdba5976ebf9b8e3f0eaed6b13d6330",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ac130j-component-inventory.json",
+      "bytes": 178365,
+      "sha256": "73e2510f89d5e334912b3c5ef6de641c2046c3123975485ac8df42c27fd9aea2",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ac130j.gltf-validator.json",
+      "bytes": 15576,
+      "sha256": "f80ce971bc22fd540d68c3be6c66b50e8642eddd0761112b26ceeb6977bc86a7",
+      "role": "qa"
+    },
+    {
+      "path": "qa/eoir-visual.gltf-validator.json",
+      "bytes": 2857,
+      "sha256": "ec29f6a77222e6e6c6117934ceabcef9d2b0d62939f67a3a2248ab33e632dfb7",
+      "role": "qa"
+    },
+    {
+      "path": "qa/gau23-visual.gltf-validator.json",
+      "bytes": 9936,
+      "sha256": "91b460c9e81513ef3cb8036d19efcae9ccb762a2f56f39c087f2781e66572f7f",
+      "role": "qa"
+    },
+    {
+      "path": "qa/gltf-validator-summary.json",
+      "bytes": 3277,
+      "sha256": "ab654532c7c0ed623e92a98b59c5346aa32d4180e7d5d277218772972b2f780a",
+      "role": "qa"
+    },
+    {
+      "path": "qa/m102-airborne-visual.gltf-validator.json",
+      "bytes": 8142,
+      "sha256": "e177808ea899f071a935e473eb7b3900612d3b035cb3defad3ca8dcbb4074b54",
+      "role": "qa"
+    },
+    {
+      "path": "qa/package.json",
+      "bytes": 67,
+      "sha256": "305561156ebddbe79ffddf43dcbc73ca436b129eda25b563d31ab08b157f5843",
+      "role": "qa"
+    },
+    {
+      "path": "qa/package_components.py",
+      "bytes": 23789,
+      "sha256": "1fd371fc30497470dbf68aee1d525c25797819240ce32571a928a322476d8ac0",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-ac130-r0003-rest.json",
+      "bytes": 40327,
+      "sha256": "9959f0d1013aeb17267c5656e2b1e3ecbe7a775531a4e30e2208e9bc38010b2c",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-ac130j-r0002-rest.json",
+      "bytes": 29187,
+      "sha256": "4536e7656e34e738ecb2ec35139f3572863983d31be9943b0f042aded30a3c5c",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-ac130j-r0003-GUN105_CYCLE_5.json",
+      "bytes": 40130,
+      "sha256": "e78fafc4f938f389799db87d2ed34c58585c12d13058ddc2f8b8199d7eb824e4",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-ac130j-r0003-GUN105_CYCLE_50.json",
+      "bytes": 51850,
+      "sha256": "bf936631d931636072fab660fdedc7122c8577ed9acdb198130c9b835f0ae74a",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-ac130j-r0003-GUN30_CYCLE_50.json",
+      "bytes": 49529,
+      "sha256": "985e7140db2c77514346dfc361546ab6012a84eca436717f58f6be4832d7aa23",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-ac130j-r0003-rest.json",
+      "bytes": 40752,
+      "sha256": "1f2f591bb07f69f4499eb930fc00783239f9835abfb4c1b3fc4d96675e75b340",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-cameras.json",
+      "bytes": 2255,
+      "sha256": "1e2e35980cb9ac8e22f7790794df9d5b78081670edf3c407bed8d6a70d8f2ca1",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-eoir-visual-r0003-rest.json",
+      "bytes": 10158,
+      "sha256": "28d35af186e84c4f7ebcaf639c992aaf454eed614a553bfd21387c8914032488",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-gau23-visual-r0003-rest.json",
+      "bytes": 9862,
+      "sha256": "69095a36b159997ac7d3abf571b668f3bc2b1bbd7a12bbdaec0596ed4994e75e",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-m102-airborne-visual-r0003-rest.json",
+      "bytes": 10910,
+      "sha256": "b51434955d67e25c5782554dae616ac02443b3368a4bf09280e150bcd43bb6e1",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-summary.json",
+      "bytes": 37831,
+      "sha256": "7f04d581f643d671474ee366d09f14e2e537ca43f24642d70779dba083a28c09",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system-review-usage.md",
+      "bytes": 4422,
+      "sha256": "41839478d1a963ded3b02105cd0f9097a52109c458ebcf3a475311d97adbabd5",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system_geometry_audit.py",
+      "bytes": 35304,
+      "sha256": "80b5c91ec49af538c96e98c686732a2d18c137b107755fcd49f00e92062c2b65",
+      "role": "qa"
+    },
+    {
+      "path": "qa/system_geometry_report.json",
+      "bytes": 315353,
+      "sha256": "15eb9e737239dd8ebfa88fef87f413eab7fad449b13c434b74175435f05cd859",
+      "role": "qa"
+    },
+    {
+      "path": "qa/validate_articulation.py",
+      "bytes": 20423,
+      "sha256": "788367bb7ba18a0b043ef79246d212feb4401c099bbbdc4c0b859e67aafd806e",
+      "role": "qa"
+    },
+    {
+      "path": "qa/validate_gltf.mjs",
+      "bytes": 3823,
+      "sha256": "a37f0d36f4d8422dbf2dbdbce73d4489c570e74c4ad8680f3f3d06ac2f509cbe",
+      "role": "qa"
+    },
+    {
+      "path": "qa/viewer-poses-ac130.json",
+      "bytes": 6911029,
+      "sha256": "812d7aa5a1e0f2234def5f801a2734d8f4e9b73bb72364efdf6fc5f2edbf0b91",
+      "role": "qa"
+    },
+    {
+      "path": "qa/viewer-poses-ac130j.json",
+      "bytes": 7346974,
+      "sha256": "f2ccf7674c924cb06d55612f6b96bace4bf70db6adfd600ee0a9c93986990ac6",
+      "role": "qa"
+    },
+    {
+      "path": "qa/viewer-poses-eoir-visual.json",
+      "bytes": 453624,
+      "sha256": "ad5197f1c1da2f0a921d79dbe72a1a8b721b50fd2c17bc1241ef973ae7bdb829",
+      "role": "qa"
+    },
+    {
+      "path": "qa/viewer-poses-gau23-visual.json",
+      "bytes": 1448774,
+      "sha256": "8bd561067af74abeae56cecdbd2b4f36194c599f32e45776e179b497b1815d14",
+      "role": "qa"
+    },
+    {
+      "path": "qa/viewer-poses-m102-airborne-visual.json",
+      "bytes": 585576,
+      "sha256": "04b6635f99220b198d6f25b611d8ac104f37c7b02917fb1cafd633524c6975b8",
+      "role": "qa"
+    },
+    {
+      "path": "references/REFERENCE_NOTES.md",
+      "bytes": 2067,
+      "sha256": "329b0044f76a908a434be1443eef28042549e54d9ea10eb0f42c19b01c9ccf26",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/README.md",
+      "bytes": 5670,
+      "sha256": "92ea5e2c0b72455c50e2a585c0e4f423a12dde309bb5af80d214db019f019302",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-2392818-exterior-firing-smoke.jpg",
+      "bytes": 78972,
+      "sha256": "ba25d2304a96907a748c5142c75a29f1615ebaf6c8c6f76e02557346c53c5832",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-2850910-105mm-rear-view.jpg",
+      "bytes": 199401,
+      "sha256": "3e82fdba8c91e7e7235768f23e42992ebb0fbde3503979f9604dd549029a5c2e",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-3146917-30mm-case-ejection.jpg",
+      "bytes": 158586,
+      "sha256": "58be6459accf99b9aa184e4f59e1b329f22c54bec20381f6d186bbc73dc31aad",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-3146918-105mm-internal.jpg",
+      "bytes": 232694,
+      "sha256": "c23ecb46b94163da3d0dcbbf048b85c35984d9b61fb49a326719e15aaab76299",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-3486262-105mm-recoil.jpg",
+      "bytes": 248578,
+      "sha256": "744b7e34095ac4a9928ebe2928aa493b663bed59ab90c46a51280c2517b6e580",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-3486265-30mm-case-ejection.jpg",
+      "bytes": 222261,
+      "sha256": "42137dd6daabd2c137939a1629cfd5358b2f0b6801716b26a975b0813ecd90ca",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-5621880-chin-eoir.jpg",
+      "bytes": 195257,
+      "sha256": "ab7a082d2aab1bb06f80578676e72602dcc4f4a8c0882c21a606a0964bd1f39a",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-5621883-105mm-exterior-rear.jpg",
+      "bytes": 212659,
+      "sha256": "9497ee3eb26d682b7a91038ca32182bf91d69a35a862fc4c86a33f7fa88c03e7",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-6317363-30mm-internal.jpg",
+      "bytes": 237764,
+      "sha256": "4a7a46bcb54bd64c4714022d25f23ea254519e1ac1260e33a6415d9ce570cd7b",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-6427944-30mm-exterior.jpg",
+      "bytes": 150436,
+      "sha256": "de8d362022abf1b233682789ccc3c83b9ef83c34e2fd446e83f6997e27879f10",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-6427973-105mm-spent-cases.jpg",
+      "bytes": 150291,
+      "sha256": "1590e378cb2552d531ef831c3f26c9d4cef0224a8e2d060b92b6551889a6fc0a",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/images/DVIDS-6637434-105mm-inner-mount.jpg",
+      "bytes": 273333,
+      "sha256": "6643f10f95821703450a11de5b2ad0d1797d899bb806c26218b3c0789c7ac415",
+      "role": "references"
+    },
+    {
+      "path": "references/gunship-visual/reference-ledger.json",
+      "bytes": 21303,
+      "sha256": "a749c2e032c66cd490887ccc226261404dd517477736d2d34a9d8adfc86f6b6e",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/105_howitzer.json",
+      "bytes": 120437,
+      "sha256": "2d95f8279d36aadd2619e021723b32273ae0865fd2e2a535f0632d0bb5ab66d4",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/105mm_HC.json",
+      "bytes": 4861,
+      "sha256": "b8b2396040ffcccca4ba8394f650b837594ce5c454f182857d5d9194f1c6b5af",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/105mm_gun.json",
+      "bytes": 144876,
+      "sha256": "e9350ebac6958cb6c79b41f7dad05ee632af484728740c99a5df0f943028f028",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/2b46c9d9e0b9482980a3b35fc7a56903-metadata.json",
+      "bytes": 5688,
+      "sha256": "731066ff2256c17590baf4f4b87ab3ab787c9674fcce4966d4bd282842ab181d",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/30mm_cannon.json",
+      "bytes": 159100,
+      "sha256": "54133433edcdf835801a57ffa73f0705f914873435930cdb5254680215a8eeb8",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/411a4dd6915c4e1db39ab7372625e588-metadata.json",
+      "bytes": 4397,
+      "sha256": "2658368c666503b7ebd1dac342e4b1e69e4ea65e5fa61376faf1f7474a211148",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/68b8a004365a4f4cb3f98727c6f893a9-metadata.json",
+      "bytes": 4651,
+      "sha256": "2ec8f7872a3df4401b6ac01b032eebd64bc7062b75aeef3c0235fffd9b0c5955",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/AC-130_gun.json",
+      "bytes": 39520,
+      "sha256": "75bb739be4d0a1e685cbdd1a87edf8d55974fb11fcb254d8b5b101abe71b8b1d",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/Bushmaster.json",
+      "bytes": 158497,
+      "sha256": "37c7ccc2eb7c1793864bd1e25f94fa18bdba802abd62c8adaf861db84480b6d2",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/Bushmaster_II.json",
+      "bytes": 21326,
+      "sha256": "83da3db3f1b6f31a45632bbfb6fd83b9cfaa217b6c51c27e4eb433074f62ccce",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/EO_IR.json",
+      "bytes": 113865,
+      "sha256": "534f98fb072bce3f23763900330ed1fd18ae0d7e31247599bacfaad47d886e80",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/GAU-23.json",
+      "bytes": 23736,
+      "sha256": "011941972c2eb8e966627ae542beadc6040ce23372856388595d439bfd7e4beb",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/GAU23.json",
+      "bytes": 114,
+      "sha256": "a584412a6108b49902d56f5daf10589d9516d88f583090bd72491ead3e620fb0",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/GAU_23.json",
+      "bytes": 23736,
+      "sha256": "011941972c2eb8e966627ae542beadc6040ce23372856388595d439bfd7e4beb",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/M102.json",
+      "bytes": 49492,
+      "sha256": "48b07829699f84016c42fe8a1057208f656f99920a506cd5dde76c705812fceb",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/MK-44.json",
+      "bytes": 112883,
+      "sha256": "c90a8c23d192483cb1026e993c054062226cc54fa6ade00b9ea54924a830b105",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/MK_44.json",
+      "bytes": 112883,
+      "sha256": "a323d92bf149121b20e2d7755c029dac7d3bd5e61ebd9745a8369f84b3f2b297",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/MX-20.json",
+      "bytes": 32690,
+      "sha256": "a2a7e18d611c9c96dd09c2f299de3b677483a3536553c84c03bfe27caa7ca4fe",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/MX20.json",
+      "bytes": 57705,
+      "sha256": "ffb7ad3d6f8496d75aa19faf64a48ab7641efc30aea3114d68294b2ebefd4b97",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/Mk44.json",
+      "bytes": 35413,
+      "sha256": "90424853b228ab62219ad2c565ee1624a7ef38381519530e75b2826f9ad8e828",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/SKETCHFAB_CANDIDATES.md",
+      "bytes": 3619,
+      "sha256": "1306620876ddaf159aceeecee8c8fc9507e74137ed88b1d278afa96a9138254f",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/Wescam.json",
+      "bytes": 13516,
+      "sha256": "51211fb3ef0e152290a93b30eecfee628f82985d791347148c8f5b68170893cf",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/Wescam_MX.json",
+      "bytes": 114,
+      "sha256": "a584412a6108b49902d56f5daf10589d9516d88f583090bd72491ead3e620fb0",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/d4189d67fdcc4920ae3997ebe530f26b-metadata.json",
+      "bytes": 5068,
+      "sha256": "a65dd56a68d25b57197d4b75bf2c0319f75a2461f4b0f6256bba1cfcd368ee4a",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/f1cfdf557a424ea4b6c3b64ffc493f9f-metadata.json",
+      "bytes": 8148,
+      "sha256": "e4d78c65b917761a14e0bbc29bbe28817bf11071ea63c36557cdcbd4c6af0b7e",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/m102-download-api-receipt.json",
+      "bytes": 185,
+      "sha256": "19824ce1c5536e7c5a0050e723f93e6425d227463c34602b818c20d401d4f15a",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/sensor_turret.json",
+      "bytes": 157984,
+      "sha256": "36e986b8d6e555e1f7cf02b7b836056a047bb809b74f21d57979cd5bbdb6ab8a",
+      "role": "references"
+    },
+    {
+      "path": "references/sketchfab/sketchfab-component-shortlist.json",
+      "bytes": 8180,
+      "sha256": "6a6038c4bfe79bd961dcf39d06bfaa2a9b9c17e457f9b186feb2e259553d3898",
+      "role": "references"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 2908,
+      "sha256": "572380b412a53fdb0d36cf35a61e4b0ff42d8e58af335860436d9c8f4b46b9a0",
+      "role": "source"
+    },
+    {
+      "path": "source/blender_review.py",
+      "bytes": 13954,
+      "sha256": "321d87ccf510ebacb49a45d44a0db6037379da5416bdbfda884ebb7653fb3c13",
+      "role": "source"
+    },
+    {
+      "path": "source/blender_systems_review.py",
+      "bytes": 30354,
+      "sha256": "dd9b31de2de6f5d2b67748372b7bfd05dbfc32e13cd456d351db41f2580aa06f",
+      "role": "source"
+    },
+    {
+      "path": "source/build-systems-all-receipts.json",
+      "bytes": 1680,
+      "sha256": "4f2f91b956710842ea262c37072d65c90fe88163a7eace8d2dac3edf5e8841ad",
+      "role": "source"
+    },
+    {
+      "path": "source/build_family.py",
+      "bytes": 40959,
+      "sha256": "09a40e8da5d4555c9b0ea0782beb226db78a3bec88ae90422d1de8accffca781",
+      "role": "source"
+    },
+    {
+      "path": "source/build_systems_revision.py",
+      "bytes": 4100,
+      "sha256": "77eebcf2d6fde5047d4b04f296e924b79db7bac4c8b9284c06d6a6fd2d104a66",
+      "role": "source"
+    },
+    {
+      "path": "source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "source"
+    },
+    {
+      "path": "source/create_transfer.py",
+      "bytes": 2734,
+      "sha256": "080a24479590ac86e4cd1a1b335817861f805080f34b5ce45404e9e25be7fc9a",
+      "role": "source"
+    },
+    {
+      "path": "source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "source"
+    },
+    {
+      "path": "source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "source"
+    },
+    {
+      "path": "source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "source"
+    },
+    {
+      "path": "source/inputs/c130-hercules-unified-r0001.glb",
+      "bytes": 9823080,
+      "sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+      "role": "source"
+    },
+    {
+      "path": "source/package_revision.py",
+      "bytes": 10722,
+      "sha256": "d7abe75734686a5cb07859201c5e1042a77d6e8bb9928769a793be0640a0b540",
+      "role": "source"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 101,
+      "sha256": "ba604abf6d07813bb7272c25c54873107117a75f7342bef8731d9f8dd04527c9",
+      "role": "source"
+    },
+    {
+      "path": "source/restore_delivery.py",
+      "bytes": 4499,
+      "sha256": "9bba1e2a2852cb2157405070ba0502b3582875db1c73552ee54d3d1bdca4905a",
+      "role": "source"
+    },
+    {
+      "path": "source/variants.json",
+      "bytes": 2205,
+      "sha256": "1c6b588db46d6ef4f5f72ebae324a3b1357d2106f383fb720895a5697a3ac8f1",
+      "role": "source"
+    },
+    {
+      "path": "viewer/C130-family-portable.html",
+      "bytes": 35259062,
+      "sha256": "7a20212aad4630da879458cf5e0760bcba94ccbf94b40ebc3b1c0623d06142ad",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/README.md",
+      "bytes": 4570,
+      "sha256": "6086442cc0c7ab996da94f15596c24b17baaac2079879cdc305b0766f319a9f9",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/app.mjs",
+      "bytes": 20031,
+      "sha256": "215ce55683419ee13138320d8e1152e7e7ab57a9e93a631a09cbe7377ae4c604",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/build-portable.py",
+      "bytes": 3887,
+      "sha256": "7ba0050f402eef505247a440ed8ca0bd734d2f56a90f5e9b27e3f197b9f81893",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/case-obstruction-qa.json",
+      "bytes": 4608,
+      "sha256": "ceb1dc0f4e2cc484240e10b5398a57915690750431ea40704b05d7eb2ac5e83a",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/check-case-obstructions.mjs",
+      "bytes": 5988,
+      "sha256": "347f2e5d04dc19929643ede0f5beed07889e1b0412ca733a7273634d6d60d67a",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/controller-qa.json",
+      "bytes": 486,
+      "sha256": "eaf4c101ba1c3a980e52dd531ef2a04b0e695019a0fd7cbcebb07f055981f556",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/controller.mjs",
+      "bytes": 11162,
+      "sha256": "f799b4ebbdaad6e44cd5406a2defbc823844e7944eba1a1650768b5efe214763",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/export-poses.mjs",
+      "bytes": 4112,
+      "sha256": "6392f5747ebdd62e1371f7344b80c56f2b4ed0f1f90dc5752ae7265c6f0ecec4",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/final-portable-receipt.json",
+      "bytes": 1682,
+      "sha256": "079330b5fe7bda0e2289e2be0d696a42209dec09b5fb3d86d6a109bdc0c74681",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/firing-controller-qa.json",
+      "bytes": 810,
+      "sha256": "2990351b3c589387b862ef9222b5c792a099ddf94efd38e6beab17cf44c84525",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/firing-model-qa.json",
+      "bytes": 191222,
+      "sha256": "199ebbc2ee5f1380efe0e5142d26cf8023a1c8453048eaca71c895b1f0de48e5",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/index.html",
+      "bytes": 6228,
+      "sha256": "8e051d46025a70d2c7b2e6d6c13f8f654d95bca0a2c67929e229c68af6a84efb",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/model-runtime-qa.json",
+      "bytes": 8573,
+      "sha256": "360724b88fa44129741918cbf073ffc66f8671e18a89a1c75a2c7e48327b3b58",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/node-module-loader.mjs",
+      "bytes": 476,
+      "sha256": "aad2bd36b757355d192851d0edce64c3a1d58ff56bff2431ef27e93a985b10fa",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/package.json",
+      "bytes": 193,
+      "sha256": "7c44c765affa5f54b2bfd9a24edf2a5d512a1b74b7de8d96209679baa785fd20",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/portable-manifest.json",
+      "bytes": 815,
+      "sha256": "c188e4b36a718c46045dd5dec9d9006524f3ed975d9e87520218a1d26c32657b",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/portable-qa.json",
+      "bytes": 1574,
+      "sha256": "ab1e0c0aeaa73fb681aec08c1eff8d7e1a0078149e3f7ec568bcc3d7ab904a69",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/pose-driver.mjs",
+      "bytes": 2151,
+      "sha256": "aac824cf19c3ff1a99a2cc162cb15c9ee01231e3f8c2f77c500c4c66831e7530",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/style.css",
+      "bytes": 11421,
+      "sha256": "891288e82b2ee93453d1b0a63df96e08eb2e382be9a59150eafe1fbc075a227c",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/test-controller.mjs",
+      "bytes": 3510,
+      "sha256": "7fd2f3060fc743fb1cd52abe0ef3bc4e155737c3a8589837e1628622aa480978",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/test-firing-models.mjs",
+      "bytes": 8235,
+      "sha256": "2069f3f3c2a07ac18c9ae60e860cc55132bc624360ba4af4880444988bd8e03d",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/test-firing.mjs",
+      "bytes": 5437,
+      "sha256": "c533fad1d2f3ad0a280403361a5437060e959ba04b67e665a53948462374fc65",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/test-models.mjs",
+      "bytes": 5825,
+      "sha256": "0dd7fa550ed551180a8837c6d5677e7f1fe253ea297f028cbcd32d0fb43e7432",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/BufferGeometryUtils.js",
+      "bytes": 31768,
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/GLTFLoader.js",
+      "bytes": 110266,
+      "sha256": "8a7db5a19d1018d79fb9a7a8b8372f317682027321a67d86023002e264ea479d",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/LICENSE.three.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/OrbitControls.js",
+      "bytes": 32134,
+      "sha256": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/PROVENANCE.json",
+      "bytes": 868,
+      "sha256": "e181a5aae2461fd99deccbfaab2743254d0f7fff238d492179cbd254e65b403e",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/three.module.js",
+      "bytes": 1314681,
+      "sha256": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/verify-portable.mjs",
+      "bytes": 2795,
+      "sha256": "1cfd62b084638d29d0d753fa612c957f88091f864986063f0715cc96e4279888",
+      "role": "viewer"
+    }
+  ],
+  "integrity_note": "Manifest excludes itself and root SHA256SUMS; SHA256SUMS includes manifest. Hosted preservation receipts are recorded after publication."
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://api.sketchfab.com/v3/models/d4189d67fdcc4920ae3997ebe530f26b/download",
+  "status": 401,
+  "body": "{\"detail\":\"Authentication credentials were not provided.\"}"
+}

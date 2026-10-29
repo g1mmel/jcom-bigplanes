@@ -1,0 +1,520 @@
+{
+  "cursors": {
+    "next": null,
+    "previous": null
+  },
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/429d82bad1d7412aa14ce83b67ef10d0",
+      "uid": "429d82bad1d7412aa14ce83b67ef10d0",
+      "name": "M1296 DRAGOON [LOW-POLY]",
+      "staffpickedAt": null,
+      "viewCount": 697,
+      "likeCount": 15,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-429d82bad1d7412aa14ce83b67ef10d0",
+      "embedUrl": "https://sketchfab.com/models/429d82bad1d7412aa14ce83b67ef10d0/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2025-08-08T06:33:59.013308",
+      "tags": [
+        {
+          "name": "blockbench",
+          "slug": "blockbench",
+          "uri": "https://api.sketchfab.com/v3/tags/blockbench"
+        },
+        {
+          "name": "low-poly",
+          "slug": "low-poly",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly"
+        },
+        {
+          "name": "minecraft",
+          "slug": "minecraft",
+          "uri": "https://api.sketchfab.com/v3/tags/minecraft"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "blockbenchmodel",
+          "slug": "blockbenchmodel",
+          "uri": "https://api.sketchfab.com/v3/tags/blockbenchmodel"
+        },
+        {
+          "name": "blockbench-model",
+          "slug": "blockbench-model",
+          "uri": "https://api.sketchfab.com/v3/tags/blockbench-model"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "b581e435ee4f488a90dc26634c55a4b0",
+            "size": 87713,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/429d82bad1d7412aa14ce83b67ef10d0/thumbnails/2eb4b8eb2995409abbefff238ef02717/6b3daaee5e054d5fa3799db71fc69ca8.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c3d80af40b4d44478bcabdd8c2046591",
+            "size": 27513,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/429d82bad1d7412aa14ce83b67ef10d0/thumbnails/2eb4b8eb2995409abbefff238ef02717/a5b141a51946482ab97fb2352842227e.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "c6a5042d3b244723ba90a7f98e3382df",
+            "size": 15008,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/429d82bad1d7412aa14ce83b67ef10d0/thumbnails/2eb4b8eb2995409abbefff238ef02717/da8a1ef012be4f6ab84ea79bc39925dc.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "9f7c96fa5c88406295ff2686007d295a",
+            "size": 2759,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/429d82bad1d7412aa14ce83b67ef10d0/thumbnails/2eb4b8eb2995409abbefff238ef02717/de30bc1e1e5744ddb312efaacee90d29.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "683f29b970b54587b0481847cb08974f",
+            "size": 840,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/429d82bad1d7412aa14ce83b67ef10d0/thumbnails/2eb4b8eb2995409abbefff238ef02717/7198a55aa47a4a5bb383042ac0913449.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "40b195fdca1d449e916f63d89df5b9fa",
+        "username": "blackout_198787",
+        "displayName": "BLACKOUT1987",
+        "profileUrl": "https://sketchfab.com/blackout_198787",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/0c83a6d76d7e49e789b056de78511db0",
+          "images": [
+            {
+              "size": 1008,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/0c83a6d76d7e49e789b056de78511db0/752b288a77f5414dbcd980e13d4e2219.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1390,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/0c83a6d76d7e49e789b056de78511db0/13918eb5d61c4f6dad60f4b68387e789.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3019,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/0c83a6d76d7e49e789b056de78511db0/d94bba50db95419e9d0254151dc4bc8a.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3416,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/0c83a6d76d7e49e789b056de78511db0/59fd69b4ad30485d89539a7462dabe0b.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/40b195fdca1d449e916f63d89df5b9fa"
+      },
+      "description": "The M1296 Infantry Carrier Vehicle Dragoon (ICVD) is an upgraded variant of the Stryker infantry carrier vehicle (ICV), designed to enhance the firepower of U.S. Army Stryker brigade combat teams (SBCTs). The vehicle integrates a 30 mm XM813 Bushmaster II autocannon in a Kongsberg MCT-30 remote turret, significantly increasing its lethality over the standard Stryker Infantry Carrier Vehicle (ICV).",
+      "faceCount": 6276,
+      "createdAt": "2025-08-08T06:22:39.067939",
+      "vertexCount": 4184,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ff2c91a704b14419b235900cf4955a6a",
+      "uid": "ff2c91a704b14419b235900cf4955a6a",
+      "name": "PL-93 Wakasa(\u308f\u304b\u3055)\uff1aJapan Coast Guard Patrol Ship",
+      "staffpickedAt": null,
+      "viewCount": 1772,
+      "likeCount": 20,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ff2c91a704b14419b235900cf4955a6a",
+      "embedUrl": "https://sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2023-12-18T09:13:18.273390",
+      "tags": [
+        {
+          "name": "japan",
+          "slug": "japan",
+          "uri": "https://api.sketchfab.com/v3/tags/japan"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e7db50cdd10c4d738f2d06fc37a9eb6c",
+            "size": 102536,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/0b723b1bc816415291bbc864d1114e49.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "b8a6c8f4956143be9109da0f97a831c1",
+            "size": 35358,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/e177320f542d45c1b4d44e01406b31b7.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "b1b51e7a9b6949b2be5918fa295b82dc",
+            "size": 21326,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/79b39065a3e8478bbebe8fb62f1024d1.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "1f8739b73cd54e9fb0c850e1ceb36843",
+            "size": 4789,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/1f69c711412c4bd8807d9fca76d30a05.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "341160eced284a8dab9809e8be0820eb",
+            "size": 1079,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ff2c91a704b14419b235900cf4955a6a/thumbnails/16ccd0e2f35649829be1aafee444fc35/e237340bdd8245c1aa17d03228820f60.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "ff20b355d6d54004968cf5d851e50751",
+        "username": "YumeMaiMfg",
+        "displayName": "YumeMaizuruMfg",
+        "profileUrl": "https://sketchfab.com/YumeMaiMfg",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/d32368370a8f4c9aa8e826ce88f7157c",
+          "images": [
+            {
+              "size": 2616,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/9dd48634f03c4762a5110c3f17ba3bc0.png",
+              "height": 32
+            },
+            {
+              "size": 5346,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/025a06af53b2466c87656f8869997f22.png",
+              "height": 48
+            },
+            {
+              "size": 16775,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/70a27c99abd5412e9167e365ca585c56.png",
+              "height": 90
+            },
+            {
+              "size": 20345,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/d32368370a8f4c9aa8e826ce88f7157c/07bb2bcd718b4d1da52f6f31e4ccc6c2.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ff20b355d6d54004968cf5d851e50751"
+      },
+      "description": "We built a Japanese patrol boat called Wakasa. Some historical facts and equipment are different, but they are almost the same.\n\nspec\n\nShip type: 1000 ton patrol boat (with helicopter deck)\nTotal length 96 meters\nTotal tonnage: 1,500 tons\n\nMk 44 Bushmaster II 30\uff4d\uff4d  x\uff11\nFCS  x 1\nRemote water cannon x 1\nStop command display device  x 2\n\nI would be happy if you liked it.\nThanks for watching always!",
+      "faceCount": 531809,
+      "createdAt": "2023-12-18T08:57:39.809841",
+      "vertexCount": 289094,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/d809ca9e6ae24f118564cb6dc5e5c94e",
+      "uid": "d809ca9e6ae24f118564cb6dc5e5c94e",
+      "name": "CM34 \"Clouded Leopard\" Infantry Fighting Vehicle",
+      "staffpickedAt": null,
+      "viewCount": 1680,
+      "likeCount": 21,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-d809ca9e6ae24f118564cb6dc5e5c94e",
+      "embedUrl": "https://sketchfab.com/models/d809ca9e6ae24f118564cb6dc5e5c94e/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2024-09-14T04:52:49.425077",
+      "tags": [
+        {
+          "name": "taiwan",
+          "slug": "taiwan",
+          "uri": "https://api.sketchfab.com/v3/tags/taiwan"
+        },
+        {
+          "name": "wheeled",
+          "slug": "wheeled",
+          "uri": "https://api.sketchfab.com/v3/tags/wheeled"
+        },
+        {
+          "name": "military-vehicle",
+          "slug": "military-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/military-vehicle"
+        },
+        {
+          "name": "substancepainter",
+          "slug": "substancepainter",
+          "uri": "https://api.sketchfab.com/v3/tags/substancepainter"
+        },
+        {
+          "name": "substance",
+          "slug": "substance",
+          "uri": "https://api.sketchfab.com/v3/tags/substance"
+        },
+        {
+          "name": "armoured-persona",
+          "slug": "armoured-persona",
+          "uri": "https://api.sketchfab.com/v3/tags/armoured-persona"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "872b21a0bce54dabada288857d1f92f9",
+            "size": 230254,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/d809ca9e6ae24f118564cb6dc5e5c94e/thumbnails/a915db075a254f809395b3bb5cd181db/a7cf22b66199487496be9d1c926c8015.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "f4293f2bbf7b409da81fdd60a3397cae",
+            "size": 44761,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/d809ca9e6ae24f118564cb6dc5e5c94e/thumbnails/a915db075a254f809395b3bb5cd181db/fc97060b143248b8b9ba391c7a406c73.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "b1bda94b133e48cebc712e1bd0b2eef4",
+            "size": 22857,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/d809ca9e6ae24f118564cb6dc5e5c94e/thumbnails/a915db075a254f809395b3bb5cd181db/f6fff92801dd4ba6be50cc4ea22f893b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "7b1cc292267240f8ac044190003e5105",
+            "size": 4277,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/d809ca9e6ae24f118564cb6dc5e5c94e/thumbnails/a915db075a254f809395b3bb5cd181db/732ec82f6e4b47ca87191d7038ef4c6e.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f0e78fbde6214196961025deff4a7073",
+            "size": 1026,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/d809ca9e6ae24f118564cb6dc5e5c94e/thumbnails/a915db075a254f809395b3bb5cd181db/66f1995d182a4b36878084adf47ba08a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "0d13a1c99aaa40599f1f1e7570813cfb",
+        "username": "Brandon..Chen",
+        "displayName": "Zufa",
+        "profileUrl": "https://sketchfab.com/Brandon..Chen",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/fb9c9b8c632c422e985aa4c8eed6f95a",
+          "images": [
+            {
+              "size": 1123,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/fb9c9b8c632c422e985aa4c8eed6f95a/09416b706b164f909d422773343264cf.png",
+              "height": 32
+            },
+            {
+              "size": 1938,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/fb9c9b8c632c422e985aa4c8eed6f95a/68a36d28c5b9446abb0046ab53c180b3.png",
+              "height": 48
+            },
+            {
+              "size": 5490,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/fb9c9b8c632c422e985aa4c8eed6f95a/b4e034eba0b14758a373c117b7e057f0.png",
+              "height": 90
+            },
+            {
+              "size": 6316,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/fb9c9b8c632c422e985aa4c8eed6f95a/804b3edece9b4df8b9025041bab29dde.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0d13a1c99aaa40599f1f1e7570813cfb"
+      },
+      "description": "The CM-32 \"Clouded Leopard\" (Chinese: \u96f2\u8c79\u88dd\u7532\u8eca; pinyin: y\u00fanb\u00e0o zhu\u0101ngji\u01cech\u0113; lit. 'Cloud Leopard Armoured Vehicle'), officially Taiwan Infantry Fighting Vehicle (TIFV), is an eight-wheeled armoured vehicle currently being produced for the Republic of China Army. It is based on the 6x6 CM-31 designed by Timoney Technology Limited of Ireland and is further developed by the Ordnance Readiness Development Center.\n\nCM-34 variant armed with Mk44 Bushmaster II, a 30mm chain gun instead of 40 mm grenade launcher remote turret on CM-32 and CM-33.",
+      "faceCount": 112004,
+      "createdAt": "2024-09-14T03:32:21.918370",
+      "vertexCount": 62897,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/b9e28c01439b42b297a9fdb40850bce5",
+      "uid": "b9e28c01439b42b297a9fdb40850bce5",
+      "name": "M1296 ATRYKER 8X8 DRAGOON",
+      "staffpickedAt": null,
+      "viewCount": 918,
+      "likeCount": 15,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-b9e28c01439b42b297a9fdb40850bce5",
+      "embedUrl": "https://sketchfab.com/models/b9e28c01439b42b297a9fdb40850bce5/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2025-07-31T00:56:44.823852",
+      "tags": [
+        {
+          "name": "military-vehicle",
+          "slug": "military-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/military-vehicle"
+        },
+        {
+          "name": "ukrainewar",
+          "slug": "ukrainewar",
+          "uri": "https://api.sketchfab.com/v3/tags/ukrainewar"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "fashion-style"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "b82138042f354b148b429b0c38a9e965",
+            "size": 212587,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/b9e28c01439b42b297a9fdb40850bce5/thumbnails/4bea5043f2ee44358e86196b9d230e1a/f11a818d2af346eca7f464720b99281a.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "86a413c93aeb4693b1a222faa98e9771",
+            "size": 71694,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/b9e28c01439b42b297a9fdb40850bce5/thumbnails/4bea5043f2ee44358e86196b9d230e1a/9e11953cfe5f402fb24c417f97d8817d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "b53783c7d18a4224a4c795aa834cc3c2",
+            "size": 41495,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/b9e28c01439b42b297a9fdb40850bce5/thumbnails/4bea5043f2ee44358e86196b9d230e1a/33fd4582c32e4060ad85dff20b764f53.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "f5b53089be4a42399f9c58dfad8da34f",
+            "size": 7599,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/b9e28c01439b42b297a9fdb40850bce5/thumbnails/4bea5043f2ee44358e86196b9d230e1a/bc5288bcd39749eea798cf40d116a85c.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "3d039028e510414cb0d6f4c3e9216143",
+            "size": 1384,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/b9e28c01439b42b297a9fdb40850bce5/thumbnails/4bea5043f2ee44358e86196b9d230e1a/b546d0a17e8a4b09b9fee53acc0d689f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "e7a0c20730734c22831b2a9aa469c01c",
+        "username": "lm9241221",
+        "displayName": "LM3D",
+        "profileUrl": "https://sketchfab.com/lm9241221",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/49871528dc1c40c697fcfdf29a427558",
+          "images": [
+            {
+              "size": 633,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/d6a9b8fb19a1465992acedbc562cee46.png",
+              "height": 32
+            },
+            {
+              "size": 980,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/d108b503d2fa465d91097aa0b511c954.png",
+              "height": 48
+            },
+            {
+              "size": 2122,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/2824a3e0c6f04f7b8dbc8d288a20bbdd.png",
+              "height": 90
+            },
+            {
+              "size": 3034,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/12c4fd1f0d604da5995b971dd039f3a2.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/e7a0c20730734c22831b2a9aa469c01c"
+      },
+      "description": "O M1296 Infantry Carrier Vehicle Dragoon (ICVD) \u00e9 uma variante atualizada do Stryker infantry carrier vehicle (ICV), projetado para aumentar o poder de fogo das equipes de combate de brigada Stryker do Ex\u00e9rcito dos EUA (SBCTs). O ve\u00edculo integra um canh\u00e3o autom\u00e1tico XM813 Bushmaster II de 30 mm em uma torre remota Kongsberg MCT-30, aumentando significativamente sua letalidade em rela\u00e7\u00e3o ao Stryker Infantry Carrier Vehicle (ICV) padr\u00e3o. Entregue pela primeira vez em dezembro de 2017,  o ICVD foi desenvolvido em resposta \u00e0s demandas operacionais por um Stryker mais fortemente armado , capaz de combater amea\u00e7as em evolu\u00e7\u00e3o no campo de batalha. \u00c9 operado por dois tripulantes e pode transportar at\u00e9 9 desmontados.",
+      "faceCount": 983506,
+      "createdAt": "2025-07-31T00:28:33.607523",
+      "vertexCount": 507169,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    }
+  ]
+}

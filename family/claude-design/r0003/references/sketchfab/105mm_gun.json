@@ -1,0 +1,3852 @@
+{
+  "cursors": {
+    "next": "24",
+    "previous": null
+  },
+  "next": "https://api.sketchfab.com/v3/search?count=24&cursor=24&q=105mm+gun&type=models",
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/3a8ba881edd54257b456000e2de1dcb1",
+      "uid": "3a8ba881edd54257b456000e2de1dcb1",
+      "name": "[Partial Kitbash] Quad 105mm gun turret",
+      "staffpickedAt": null,
+      "viewCount": 864,
+      "likeCount": 24,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-3a8ba881edd54257b456000e2de1dcb1",
+      "embedUrl": "https://sketchfab.com/models/3a8ba881edd54257b456000e2de1dcb1/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-10-31T04:42:15.656694",
+      "tags": [
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "warships",
+          "slug": "warships",
+          "uri": "https://api.sketchfab.com/v3/tags/warships"
+        },
+        {
+          "name": "naval-gun",
+          "slug": "naval-gun",
+          "uri": "https://api.sketchfab.com/v3/tags/naval-gun"
+        },
+        {
+          "name": "destroyer-gun",
+          "slug": "destroyer-gun",
+          "uri": "https://api.sketchfab.com/v3/tags/destroyer-gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "99336e0025234a119444544a364c6bfb",
+            "size": 45686,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/3a8ba881edd54257b456000e2de1dcb1/thumbnails/df66cf1338bc4217a5b27083ca09c380/e5bbcab6df914a54b95cd7d4788fc7bf.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "75f40311c7704c2c90c969a2172c5a8c",
+            "size": 17019,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/3a8ba881edd54257b456000e2de1dcb1/thumbnails/df66cf1338bc4217a5b27083ca09c380/8e7ed826e55647c0b4e368271958b3cd.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "965fb0a07a3446f7bbb5cbb7a8b97f7c",
+            "size": 10235,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/3a8ba881edd54257b456000e2de1dcb1/thumbnails/df66cf1338bc4217a5b27083ca09c380/cc141d98d83946eeab4e9b52ef5285ff.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "7a6de5d3f9a14f1289f1f539ccc75ca2",
+            "size": 2413,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/3a8ba881edd54257b456000e2de1dcb1/thumbnails/df66cf1338bc4217a5b27083ca09c380/bb260d2cd7a54d8bb6987fef01f4cd8c.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "e745611de11d4fc4b19ed87399e16e53",
+            "size": 569,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/3a8ba881edd54257b456000e2de1dcb1/thumbnails/df66cf1338bc4217a5b27083ca09c380/1e3f002d3e18413195a78cdaaf5f7504.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a4a27cd6489c451db85371bce8028835",
+        "username": "Cheer_Up_Ship",
+        "displayName": "Mea",
+        "profileUrl": "https://sketchfab.com/Cheer_Up_Ship",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3910cd780243411cb34e89015fbcadde",
+          "images": [
+            {
+              "size": 2724,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/17266561997644848b070cfb2bef9b06.png",
+              "height": 32
+            },
+            {
+              "size": 5696,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/a90765bb14c440f5a442cfae87712b2d.png",
+              "height": 48
+            },
+            {
+              "size": 18077,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/814038ebfc4644cf8cb39564a6f37d16.png",
+              "height": 90
+            },
+            {
+              "size": 22022,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/da318fa5d66c4d1790b7ee81dd8f8323.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a4a27cd6489c451db85371bce8028835"
+      },
+      "description": "This is a fictional dual purpose quad gun mount used in an alternate history. It can be used on destroyers, cruisers, and battleships. Feel free to use however you want.\n\nOnly the turret is my creation. The guns came from somewhere else, but I no longer remember what. Probably not worth the attention it got.",
+      "faceCount": 14623,
+      "createdAt": "2020-10-31T04:38:44.939771",
+      "vertexCount": 6998,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 1000056,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 14344,
+          "vertexCount": 34375
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 240005,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 14344,
+          "vertexCount": 34375
+        },
+        "source": {
+          "textureCount": null,
+          "size": 802187,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 850230,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/68b8a004365a4f4cb3f98727c6f893a9",
+      "uid": "68b8a004365a4f4cb3f98727c6f893a9",
+      "name": "AC-130 - 105mm HC",
+      "staffpickedAt": null,
+      "viewCount": 1982,
+      "likeCount": 24,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-68b8a004365a4f4cb3f98727c6f893a9",
+      "embedUrl": "https://sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2017-09-04T12:10:46.939296",
+      "tags": [
+        {
+          "name": "howitzer",
+          "slug": "howitzer",
+          "uri": "https://api.sketchfab.com/v3/tags/howitzer"
+        },
+        {
+          "name": "105mm",
+          "slug": "105mm",
+          "uri": "https://api.sketchfab.com/v3/tags/105mm"
+        },
+        {
+          "name": "zombiegunshipsurvival",
+          "slug": "zombiegunshipsurvival",
+          "uri": "https://api.sketchfab.com/v3/tags/zombiegunshipsurvival"
+        },
+        {
+          "name": "flaregames",
+          "slug": "flaregames",
+          "uri": "https://api.sketchfab.com/v3/tags/flaregames"
+        },
+        {
+          "name": "ac-130",
+          "slug": "ac-130",
+          "uri": "https://api.sketchfab.com/v3/tags/ac-130"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "zombie",
+          "slug": "zombie",
+          "uri": "https://api.sketchfab.com/v3/tags/zombie"
+        }
+      ],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "4806d47e992c4ffeb6a7cb9a43463149",
+            "size": 82715,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "33613e8f660c403a9c4e8960e3822b5f",
+            "size": 40405,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "0196199941554961bbbbe14027ffee89",
+            "size": 5915,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "b207fab78e154496996706387c621e3f",
+            "size": 1197,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6b75b525625440fa964e3f1c49ffa84b",
+        "username": "ZombieGunshipSurvival",
+        "displayName": "ZombieGunshipSurvival",
+        "profileUrl": "https://sketchfab.com/ZombieGunshipSurvival",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f",
+          "images": [
+            {
+              "size": 1170,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/426734c3f43743158d0d5d23104f9adf.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1998,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/c6f6a842e25342ee8689ce95bb585c23.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5275,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/0a2743f64dcd416584ec4cfd77b77017.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6068,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/da85eebbe2e54589b6b1fe41ec1b181e.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6b75b525625440fa964e3f1c49ffa84b"
+      },
+      "description": "AC-130 - 105mm HC",
+      "faceCount": 14500,
+      "createdAt": "2017-08-14T09:50:13.005082",
+      "vertexCount": 14445,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/fe48ac1260d24d46af01d09208deda7d",
+      "uid": "fe48ac1260d24d46af01d09208deda7d",
+      "name": "Belochast T-72 MBT",
+      "staffpickedAt": null,
+      "viewCount": 238,
+      "likeCount": 4,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-fe48ac1260d24d46af01d09208deda7d",
+      "embedUrl": "https://sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2016-01-26T19:32:18.570386",
+      "tags": [],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "5c883f65ef5d466497ed0d311cdfb592",
+            "size": 4800,
+            "width": 200,
+            "url": "https://media.sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/thumbnails/5804363c73a54b17b358f15c46aef3cf/200x200.jpeg",
+            "height": 200
+          },
+          {
+            "uid": "ee361fadb38a40da9eae4c46dbf1caca",
+            "size": 927,
+            "width": 50,
+            "url": "https://media.sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/thumbnails/5804363c73a54b17b358f15c46aef3cf/50x50.jpeg",
+            "height": 50
+          },
+          {
+            "uid": "a9dbae6f253a4e50804f0a89d265cc9c",
+            "size": 1944,
+            "width": 100,
+            "url": "https://media.sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/thumbnails/5804363c73a54b17b358f15c46aef3cf/100x100.jpeg",
+            "height": 100
+          },
+          {
+            "uid": "3dddd797761540b3963e89db2c1fbc0d",
+            "size": 8757,
+            "width": 448,
+            "url": "https://media.sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/thumbnails/5804363c73a54b17b358f15c46aef3cf/448.jpeg",
+            "height": 251
+          },
+          {
+            "uid": "2f41e9172e584d8b87377fbabdad27bd",
+            "size": 14809,
+            "width": 640,
+            "url": "https://media.sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/thumbnails/5804363c73a54b17b358f15c46aef3cf/640.jpeg",
+            "height": 358
+          },
+          {
+            "uid": "a7f72ef9975346d6a188b0bfbcbc311d",
+            "size": 22153,
+            "width": 854,
+            "url": "https://media.sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/thumbnails/5804363c73a54b17b358f15c46aef3cf/854.jpeg",
+            "height": 478
+          },
+          {
+            "uid": "8aa81adb5cb64b449941cd96ff4ffd08",
+            "size": 28772,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/fe48ac1260d24d46af01d09208deda7d/thumbnails/5804363c73a54b17b358f15c46aef3cf/1024.jpeg",
+            "height": 574
+          }
+        ]
+      },
+      "user": {
+        "uid": "8f991fedf1604e2b8138c185acf56613",
+        "username": "korian",
+        "displayName": "korian",
+        "profileUrl": "https://sketchfab.com/korian",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/7784f2a3187340fa843f95827dd1221b",
+          "images": [
+            {
+              "size": 829,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/7784f2a3187340fa843f95827dd1221b/8f74b0537f174053aa58603dbb8d35a0.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1132,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/7784f2a3187340fa843f95827dd1221b/867d2acce142454380dce8ee84bbbfc6.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2129,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/7784f2a3187340fa843f95827dd1221b/9430510304b441f9b4cab01af37295b2.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2464,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/7784f2a3187340fa843f95827dd1221b/a32a07361d64466ebe75c7fcd789dbd2.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/8f991fedf1604e2b8138c185acf56613"
+      },
+      "description": "105mm gun  \nIR system  \nautoloader",
+      "faceCount": 14475,
+      "createdAt": "2016-01-26T19:22:35.925181",
+      "vertexCount": 13566,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/5eb6fe97063e42c28955f1c39beca360",
+      "uid": "5eb6fe97063e42c28955f1c39beca360",
+      "name": "M2A1 105mm Field Howitzer",
+      "staffpickedAt": null,
+      "viewCount": 7149,
+      "likeCount": 26,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-5eb6fe97063e42c28955f1c39beca360",
+      "embedUrl": "https://sketchfab.com/models/5eb6fe97063e42c28955f1c39beca360/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2017-09-23T02:41:04.458967",
+      "tags": [
+        {
+          "name": "ww2",
+          "slug": "ww2",
+          "uri": "https://api.sketchfab.com/v3/tags/ww2"
+        },
+        {
+          "name": "artillery",
+          "slug": "artillery",
+          "uri": "https://api.sketchfab.com/v3/tags/artillery"
+        },
+        {
+          "name": "howitzer",
+          "slug": "howitzer",
+          "uri": "https://api.sketchfab.com/v3/tags/howitzer"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "sketchup",
+          "slug": "sketchup",
+          "uri": "https://api.sketchfab.com/v3/tags/sketchup"
+        },
+        {
+          "name": "war",
+          "slug": "war",
+          "uri": "https://api.sketchfab.com/v3/tags/war"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        },
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "07e5db6c2c454fecbcb9a0fd39d04fbb",
+            "size": 277627,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/5eb6fe97063e42c28955f1c39beca360/thumbnails/a4d4b699a677428da246ce19408af51b/66318ec8aaa84b9c81830f45076ba210.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a0dfa229008647439de11794eb5824e7",
+            "size": 56252,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/5eb6fe97063e42c28955f1c39beca360/thumbnails/a4d4b699a677428da246ce19408af51b/bcfcec9f04de4340979c86a3d2cbcec4.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "bca966ba612e433da9872a3fc00244b3",
+            "size": 30184,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/5eb6fe97063e42c28955f1c39beca360/thumbnails/a4d4b699a677428da246ce19408af51b/e1937d2f482a4b1b8fdc649924967fc6.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e9e83e91e97e4ad2a9f5f2ac6c3d0a87",
+            "size": 6003,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/5eb6fe97063e42c28955f1c39beca360/thumbnails/a4d4b699a677428da246ce19408af51b/239387e543884cbc9f4d9b5515d334b6.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "31debe8d5493495aa77089ec7f713cab",
+            "size": 991,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/5eb6fe97063e42c28955f1c39beca360/thumbnails/a4d4b699a677428da246ce19408af51b/ca68a686e36a4c919637bf5c12fddf34.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "86df00496cbd4d5b98d2d419f8412aa4",
+        "username": "ronansmith",
+        "displayName": "RonanSmith",
+        "profileUrl": "https://sketchfab.com/ronansmith",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/227cecdf0f8e49d7937af76b23c74c42",
+          "images": [
+            {
+              "size": 997,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/227cecdf0f8e49d7937af76b23c74c42/0a5a23178e374722a409afd7df15fc31.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1333,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/227cecdf0f8e49d7937af76b23c74c42/b86c71ab03404daeb8e73ee52283a4e8.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2753,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/227cecdf0f8e49d7937af76b23c74c42/c8af2f15948b4c9485809b304b605469.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3123,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/227cecdf0f8e49d7937af76b23c74c42/b169203e478e495f926b625482d5b9d4.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/86df00496cbd4d5b98d2d419f8412aa4"
+      },
+      "description": "This is a (somewhat) low-poly replica of the M2A1 105mm field howitzer.\n\nThe M2A1 is a field artillery gun used by allied forces during the second world war, it could fire a 33 pound (14.9kg) high explosive shell a distance of up to 12,200 yards.\n\nThis was my first \"large\" model project as before-hand I had only created small assets for my own videogames.",
+      "faceCount": 34226,
+      "createdAt": "2017-09-23T02:19:43.008588",
+      "vertexCount": 17629,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/23dcc6eff98f4899a62a9151e0cdc7ac",
+      "uid": "23dcc6eff98f4899a62a9151e0cdc7ac",
+      "name": "WIP2 Low Poly m60a1(rise)",
+      "staffpickedAt": null,
+      "viewCount": 3242,
+      "likeCount": 23,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-23dcc6eff98f4899a62a9151e0cdc7ac",
+      "embedUrl": "https://sketchfab.com/models/23dcc6eff98f4899a62a9151e0cdc7ac/embed",
+      "commentCount": 12,
+      "isDownloadable": true,
+      "publishedAt": "2023-08-10T06:25:28.497719",
+      "tags": [
+        {
+          "name": "tanks",
+          "slug": "tanks",
+          "uri": "https://api.sketchfab.com/v3/tags/tanks"
+        },
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "m60",
+          "slug": "m60",
+          "uri": "https://api.sketchfab.com/v3/tags/m60"
+        },
+        {
+          "name": "patton",
+          "slug": "patton",
+          "uri": "https://api.sketchfab.com/v3/tags/patton"
+        },
+        {
+          "name": "coldwar",
+          "slug": "coldwar",
+          "uri": "https://api.sketchfab.com/v3/tags/coldwar"
+        },
+        {
+          "name": "m60a3",
+          "slug": "m60a3",
+          "uri": "https://api.sketchfab.com/v3/tags/m60a3"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "usa",
+          "slug": "usa",
+          "uri": "https://api.sketchfab.com/v3/tags/usa"
+        },
+        {
+          "name": "m60a1",
+          "slug": "m60a1",
+          "uri": "https://api.sketchfab.com/v3/tags/m60a1"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "573451cd491f4c0fb3559445c0b6e1ce",
+            "size": 96235,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/23dcc6eff98f4899a62a9151e0cdc7ac/thumbnails/8bc7edbf785a4ab08efb7eae9c0f1895/13a700e268564af5a841f68fb7a2dc27.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "44bc7cd764e848f7ac45a9879618a75d",
+            "size": 32043,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/23dcc6eff98f4899a62a9151e0cdc7ac/thumbnails/8bc7edbf785a4ab08efb7eae9c0f1895/f8e88bb30e9542babeac2444affb82d5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "0f3c45da1b994ec9bb6abe6fb1fe8b28",
+            "size": 18277,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/23dcc6eff98f4899a62a9151e0cdc7ac/thumbnails/8bc7edbf785a4ab08efb7eae9c0f1895/df7921fa99ca43c0a9b71603926a262f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "2e15fb445e8e4a92894646e53a0f1c9c",
+            "size": 3575,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/23dcc6eff98f4899a62a9151e0cdc7ac/thumbnails/8bc7edbf785a4ab08efb7eae9c0f1895/6991c3d5c11d4b56a0d400eb80704a8f.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "fe42414f3a5d46159591c237515726db",
+            "size": 967,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/23dcc6eff98f4899a62a9151e0cdc7ac/thumbnails/8bc7edbf785a4ab08efb7eae9c0f1895/d3f5635a7e57499f90f4e7cd43616c5c.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "da62888ae0424de3b27cf706d2715ff9",
+        "username": "Dezryelle",
+        "displayName": "Dezryelle",
+        "profileUrl": "https://sketchfab.com/Dezryelle",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/67950b70aae244b392b09f0f626738ba",
+          "images": [
+            {
+              "size": 1042,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/67950b70aae244b392b09f0f626738ba/9a791581c8374cc789347ca2c87a100b.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1599,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/67950b70aae244b392b09f0f626738ba/472a2019ee8f4c6cb69f8b5899bee23f.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4032,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/67950b70aae244b392b09f0f626738ba/2f47cb046a164a11a8fa7feb22573a66.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4906,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/67950b70aae244b392b09f0f626738ba/33a87143bb39452cba890e660254d9ff.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/da62888ae0424de3b27cf706d2715ff9"
+      },
+      "description": "WIP model of m60a1 rise tank or m60 105mm gun tank. mostly accurately recreated from blueprint, reference pictures, and lineart. Some more bits have been added over previous upload WIP m60 tank such as later turret with armor neck and various bits.\nFeel free to download and use however you want. Give credit if you use please ). Optimized high detail but Low poly model suitable for FPS games.\n\nif you have any questions dont hesitate to comment )",
+      "faceCount": 71629,
+      "createdAt": "2023-08-10T06:17:34.819401",
+      "vertexCount": 45671,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 5913820,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 71629,
+          "vertexCount": 157664
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 1332792,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 71629,
+          "vertexCount": 157664
+        },
+        "source": {
+          "textureCount": null,
+          "size": 5491962,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3870148,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "2628dbe5140a4e9592126c8df566c0b7",
+        "label": "CC Attribution-NonCommercial-ShareAlike"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/31865013ad8844959c3e0bcfa6607813",
+      "uid": "31865013ad8844959c3e0bcfa6607813",
+      "name": "South African Rooikat 105mm",
+      "staffpickedAt": null,
+      "viewCount": 1091,
+      "likeCount": 5,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-31865013ad8844959c3e0bcfa6607813",
+      "embedUrl": "https://sketchfab.com/models/31865013ad8844959c3e0bcfa6607813/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2024-11-29T09:01:13.512426",
+      "tags": [
+        {
+          "name": "tanks",
+          "slug": "tanks",
+          "uri": "https://api.sketchfab.com/v3/tags/tanks"
+        },
+        {
+          "name": "military-vehicle",
+          "slug": "military-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/military-vehicle"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "9ca6e8a572e043d08de7e05cc90c4bd4",
+            "size": 331708,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/31865013ad8844959c3e0bcfa6607813/thumbnails/ca568d531baa488992c8046777ad26a1/15fb40bdcc734681a1a5d01704e88597.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "fdd563b6ed6e4cd0beea6ad329a5552b",
+            "size": 48798,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/31865013ad8844959c3e0bcfa6607813/thumbnails/ca568d531baa488992c8046777ad26a1/5faa7f6c01bd4c15bffd787d2142e8e0.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "5797046bbc33426c9885bb82cfa0bc40",
+            "size": 27373,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/31865013ad8844959c3e0bcfa6607813/thumbnails/ca568d531baa488992c8046777ad26a1/a81cac3958064a08832db91d5eda19fd.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "56b81580072347d58973f12c7e6d5aff",
+            "size": 5670,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/31865013ad8844959c3e0bcfa6607813/thumbnails/ca568d531baa488992c8046777ad26a1/7cbed5c55c9b4f76b500309016febf59.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "eb9eb92c604942d8ba19c029efa4263b",
+            "size": 1230,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/31865013ad8844959c3e0bcfa6607813/thumbnails/ca568d531baa488992c8046777ad26a1/8ca425f33050437eb8df48adcaea00a8.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3db1e0ed9f764d80b9635140f731f59d",
+        "username": "AMO00",
+        "displayName": "ReShi",
+        "profileUrl": "https://sketchfab.com/AMO00",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/15a76f87a21f4c02acc686eba4bf7659",
+          "images": [
+            {
+              "size": 1160,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/15a76f87a21f4c02acc686eba4bf7659/2608cc83e5494bd09ed2559d08bbe9fd.png",
+              "height": 32
+            },
+            {
+              "size": 2046,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/15a76f87a21f4c02acc686eba4bf7659/c1ce06cd07d34a8c81185ffe89fb60e9.png",
+              "height": 48
+            },
+            {
+              "size": 6292,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/15a76f87a21f4c02acc686eba4bf7659/bcdddb7200bc4cd696cc8e509511d59c.png",
+              "height": 90
+            },
+            {
+              "size": 7595,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/15a76f87a21f4c02acc686eba4bf7659/62e5ceeeae9241438aa088d00329d61f.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3db1e0ed9f764d80b9635140f731f59d"
+      },
+      "description": "South African armoured reconnaissance vehicle equipped with a stabilised 105mm smoothbore gun",
+      "faceCount": 82438,
+      "createdAt": "2024-11-29T08:51:23.402261",
+      "vertexCount": 42982,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 9,
+          "size": 17271712,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 82436,
+          "vertexCount": 75601
+        },
+        "gltf": {
+          "textureCount": 9,
+          "size": 14348068,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 82436,
+          "vertexCount": 75601
+        },
+        "source": {
+          "textureCount": null,
+          "size": 19540899,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4932252,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/54f593df85aa4ff9b4b593093ccfadba",
+      "uid": "54f593df85aa4ff9b4b593093ccfadba",
+      "name": "GIAT Vextra 105",
+      "staffpickedAt": null,
+      "viewCount": 88,
+      "likeCount": 4,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-54f593df85aa4ff9b4b593093ccfadba",
+      "embedUrl": "https://sketchfab.com/models/54f593df85aa4ff9b4b593093ccfadba/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2026-04-29T02:07:23.867121",
+      "tags": [
+        {
+          "name": "low-poly",
+          "slug": "low-poly",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "light-armor-vehicle",
+          "slug": "light-armor-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/light-armor-vehicle"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7c09c7dce57c4c9cad2250bc8d413050",
+            "size": 91056,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/54f593df85aa4ff9b4b593093ccfadba/thumbnails/eaa469a82de84bd9b5403e7a7a578f24/9d25bf6ff69e4c33a8f424af2500a086.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "4bba0397fb1b4c6193db10c528f633c0",
+            "size": 33090,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/54f593df85aa4ff9b4b593093ccfadba/thumbnails/eaa469a82de84bd9b5403e7a7a578f24/b554a4644ba44974a81333c962e0267f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "2c7f10fda47445d7801bee169a5ad8fa",
+            "size": 19914,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/54f593df85aa4ff9b4b593093ccfadba/thumbnails/eaa469a82de84bd9b5403e7a7a578f24/8e6999d76b2a4eeea1256011cf2c65b7.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "47a06b3b700241389baccef12276f611",
+            "size": 4624,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/54f593df85aa4ff9b4b593093ccfadba/thumbnails/eaa469a82de84bd9b5403e7a7a578f24/605e33cb70eb41efb080c4c3397ba875.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "7a175a8ab22f469fbd686d687dba6d64",
+            "size": 1173,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/54f593df85aa4ff9b4b593093ccfadba/thumbnails/eaa469a82de84bd9b5403e7a7a578f24/44fd0c94738d4a569f85fbc1b248978b.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "128439d2314e4435b8bcaaf4a17ebf63",
+        "username": "Captain_Momiji",
+        "displayName": "Captain_Momiji",
+        "profileUrl": "https://sketchfab.com/Captain_Momiji",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/a1608f78e0594c5985d33bb4169c83f5",
+          "images": [
+            {
+              "size": 1121,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/a1608f78e0594c5985d33bb4169c83f5/a7fb0ad529f94dc7a4ed0128411b74a3.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1607,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/a1608f78e0594c5985d33bb4169c83f5/690746e9e2fc4aa3bd3611f8aaeec329.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3524,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/a1608f78e0594c5985d33bb4169c83f5/632ed2df94604921b73f97136717f424.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4063,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/a1608f78e0594c5985d33bb4169c83f5/d5c62ce665504c11a9cf0992dc43b9c7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/128439d2314e4435b8bcaaf4a17ebf63"
+      },
+      "description": "The Vextra was classified as an armored reconnaissance vehicle, fire support vehicle, and/or anti-tank vehicle. The Vextra was based on multiple preceding French armored vehicles of similar type. The Vextra was equipped with a GIAT TLM 105mm three-man turret, armed with a GIAT G2 low-recoil 105mm gun.",
+      "faceCount": 31858,
+      "createdAt": "2026-04-29T02:05:53.259283",
+      "vertexCount": 18081,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/e92b9f21977b48aca755e5949dcd1958",
+      "uid": "e92b9f21977b48aca755e5949dcd1958",
+      "name": "L5 105mm Australian Howitzer WIP",
+      "staffpickedAt": null,
+      "viewCount": 424,
+      "likeCount": 8,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-e92b9f21977b48aca755e5949dcd1958",
+      "embedUrl": "https://sketchfab.com/models/e92b9f21977b48aca755e5949dcd1958/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2023-10-20T22:53:08.647311",
+      "tags": [],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "2f6aeabe8895466a848ba9fe7256dcd4",
+            "size": 302810,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/e92b9f21977b48aca755e5949dcd1958/thumbnails/b1b96e429102431fadb7b3026cc0bb03/68920594cf1d4edeb0ea540cee228e70.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "125ffb07761944afada7a4e6bc56af20",
+            "size": 32619,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/e92b9f21977b48aca755e5949dcd1958/thumbnails/b1b96e429102431fadb7b3026cc0bb03/b2e101a8eef6493991649c148e1288e1.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "73dc9873b0e747c79fc488636f02e474",
+            "size": 17881,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/e92b9f21977b48aca755e5949dcd1958/thumbnails/b1b96e429102431fadb7b3026cc0bb03/14379882d9744a95bfc27fa95f814976.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "0f2310f5fdae42de92fbf74e6c5b621d",
+            "size": 3661,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/e92b9f21977b48aca755e5949dcd1958/thumbnails/b1b96e429102431fadb7b3026cc0bb03/876fddf6cbbf4c8c800b39dc3e184810.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ba6d44e43a2b4e77af3c2e03f5bce323",
+            "size": 1071,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/e92b9f21977b48aca755e5949dcd1958/thumbnails/b1b96e429102431fadb7b3026cc0bb03/81c7350f90a6415cac74f2ae3e4c62ed.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "f140341e1a1b4293b77d94fdac9fd77f",
+        "username": "DracoArt501",
+        "displayName": "DracoArt501",
+        "profileUrl": "https://sketchfab.com/DracoArt501",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/a36325227c5042b1a619de273a00de2c",
+          "images": [
+            {
+              "size": 1099,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/a36325227c5042b1a619de273a00de2c/9e722c32640d4288abc5c6edae831441.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1633,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/a36325227c5042b1a619de273a00de2c/ca3334d7813849359cebd6c6aa4f865e.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3875,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/a36325227c5042b1a619de273a00de2c/a269928428874c7bb4867a5911222170.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4481,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/a36325227c5042b1a619de273a00de2c/a4eca7ed1bcc4f409d22fa7ccb60ff3f.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/f140341e1a1b4293b77d94fdac9fd77f"
+      },
+      "description": "I Made a gun and animated it useing  Maya, Substance Painter 3D, Sketchfab. \nI will be revising this model and animation.",
+      "faceCount": 11644,
+      "createdAt": "2023-10-20T22:34:48.628183",
+      "vertexCount": 5941,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/373dafe55e824fbe89f4c7d3c1533e4d",
+      "uid": "373dafe55e824fbe89f4c7d3c1533e4d",
+      "name": "M1399 Bulldog High Mobile Light Artillery",
+      "staffpickedAt": null,
+      "viewCount": 877,
+      "likeCount": 23,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-373dafe55e824fbe89f4c7d3c1533e4d",
+      "embedUrl": "https://sketchfab.com/models/373dafe55e824fbe89f4c7d3c1533e4d/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2023-05-17T01:17:26.243821",
+      "tags": [
+        {
+          "name": "artillery",
+          "slug": "artillery",
+          "uri": "https://api.sketchfab.com/v3/tags/artillery"
+        },
+        {
+          "name": "105mm",
+          "slug": "105mm",
+          "uri": "https://api.sketchfab.com/v3/tags/105mm"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "himars",
+          "slug": "himars",
+          "uri": "https://api.sketchfab.com/v3/tags/himars"
+        },
+        {
+          "name": "artillery-gun",
+          "slug": "artillery-gun",
+          "uri": "https://api.sketchfab.com/v3/tags/artillery-gun"
+        },
+        {
+          "name": "mobile-gun",
+          "slug": "mobile-gun",
+          "uri": "https://api.sketchfab.com/v3/tags/mobile-gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f67271c5b90048a99611e5c802eab0de",
+            "size": 470100,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/373dafe55e824fbe89f4c7d3c1533e4d/thumbnails/906905b4da1548fa8baaa154a03e66ee/b4e3280afd834b15b5634249770e6434.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "2035777d2b5d49ffb76ad89ff56d3e40",
+            "size": 61713,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/373dafe55e824fbe89f4c7d3c1533e4d/thumbnails/906905b4da1548fa8baaa154a03e66ee/c23a6774b65b446b8e6d1a281f943cd2.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7d87c15b0ffe479891c5f783992a97f2",
+            "size": 30693,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/373dafe55e824fbe89f4c7d3c1533e4d/thumbnails/906905b4da1548fa8baaa154a03e66ee/12698b0e99354cff9e9ca627a08bfebd.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "34faa583406643d68aae3b8869093822",
+            "size": 6086,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/373dafe55e824fbe89f4c7d3c1533e4d/thumbnails/906905b4da1548fa8baaa154a03e66ee/a1ec0ced1ab44be59bbfa3ce32a9196f.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "9e4203673b914828a66956eb7f3b58a3",
+            "size": 1289,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/373dafe55e824fbe89f4c7d3c1533e4d/thumbnails/906905b4da1548fa8baaa154a03e66ee/be0838eacd6d47ff9234ff2bce22bc54.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "0d94a8c903a9414fb485f67623c8a942",
+        "username": "jloiacono82",
+        "displayName": "Late Nite Game Studios",
+        "profileUrl": "https://sketchfab.com/jloiacono82",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5d52d06fcf6847f3be8e8716b27773c6",
+          "images": [
+            {
+              "size": 1425,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/7ed033524805497fbbee4cb3571ce3af.png",
+              "height": 32
+            },
+            {
+              "size": 2701,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/8d25c28a7d0442f8ab4fac9f6e3f111a.png",
+              "height": 48
+            },
+            {
+              "size": 7571,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/5ba4eebf33154faf9488ee27c7cedf79.png",
+              "height": 90
+            },
+            {
+              "size": 9121,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/4d6c8d2464034e37a95d24be79bce0b6.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0d94a8c903a9414fb485f67623c8a942"
+      },
+      "description": "The M1399 is a 105mm light artillery system designed to be mounted on a 2 ton light truck, the Bulldog can hit targets from up to 15km away and 25km with rocket assisted rounds. It can fire all types of 105mm artillery including guided rounds. The M1399 can be operated by one person using a digital sight system and internal GPS and fire control. \n\nLearn More at https://killcapturedestroy.com/",
+      "faceCount": 16509,
+      "createdAt": "2023-05-16T01:27:16.340592",
+      "vertexCount": 8955,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 1024700,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 16509,
+          "vertexCount": 16960
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 211901,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 16509,
+          "vertexCount": 16960
+        },
+        "source": {
+          "textureCount": null,
+          "size": 1238448,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 336381,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/143ccc16bd694766b9d25c45ec500474",
+      "uid": "143ccc16bd694766b9d25c45ec500474",
+      "name": "Zorawar LT",
+      "staffpickedAt": null,
+      "viewCount": 1863,
+      "likeCount": 32,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-143ccc16bd694766b9d25c45ec500474",
+      "embedUrl": "https://sketchfab.com/models/143ccc16bd694766b9d25c45ec500474/embed",
+      "commentCount": 2,
+      "isDownloadable": true,
+      "publishedAt": "2024-07-16T04:37:10.664153",
+      "tags": [
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "mbt",
+          "slug": "mbt",
+          "uri": "https://api.sketchfab.com/v3/tags/mbt"
+        },
+        {
+          "name": "light-tank",
+          "slug": "light-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/light-tank"
+        },
+        {
+          "name": "indian-tank",
+          "slug": "indian-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/indian-tank"
+        },
+        {
+          "name": "zorawar",
+          "slug": "zorawar",
+          "uri": "https://api.sketchfab.com/v3/tags/zorawar"
+        },
+        {
+          "name": "zorawar-light-tank",
+          "slug": "zorawar-light-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/zorawar-light-tank"
+        },
+        {
+          "name": "indian-army",
+          "slug": "indian-army",
+          "uri": "https://api.sketchfab.com/v3/tags/indian-army"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "11f796a8471141ae8a1328be6ae3ae50",
+            "size": 478065,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/143ccc16bd694766b9d25c45ec500474/thumbnails/178176228059480f94cbfb5a88c4eafe/7bbd1d33facc484d873bcade554c5457.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "7ed61e48959f41df8e40164e87f9a4b6",
+            "size": 67496,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/143ccc16bd694766b9d25c45ec500474/thumbnails/178176228059480f94cbfb5a88c4eafe/a61688a3fe694db18b421587ec0795d3.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "fa8c45c1d7664645a7bdea3a178eb87d",
+            "size": 35331,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/143ccc16bd694766b9d25c45ec500474/thumbnails/178176228059480f94cbfb5a88c4eafe/0b52d840f1e6413fa968619e7cea114c.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "be0ae7195e994cf0bd30857f97145a2f",
+            "size": 7005,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/143ccc16bd694766b9d25c45ec500474/thumbnails/178176228059480f94cbfb5a88c4eafe/a5df851b779b40149384cc8a8dc88d83.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "d180ba8f9dad43f7b1263f3d7a8a4470",
+            "size": 1332,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/143ccc16bd694766b9d25c45ec500474/thumbnails/178176228059480f94cbfb5a88c4eafe/854d4ded29f949b19ac58ad9d977cd00.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "0d94a8c903a9414fb485f67623c8a942",
+        "username": "jloiacono82",
+        "displayName": "Late Nite Game Studios",
+        "profileUrl": "https://sketchfab.com/jloiacono82",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5d52d06fcf6847f3be8e8716b27773c6",
+          "images": [
+            {
+              "size": 1425,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/7ed033524805497fbbee4cb3571ce3af.png",
+              "height": 32
+            },
+            {
+              "size": 2701,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/8d25c28a7d0442f8ab4fac9f6e3f111a.png",
+              "height": 48
+            },
+            {
+              "size": 7571,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/5ba4eebf33154faf9488ee27c7cedf79.png",
+              "height": 90
+            },
+            {
+              "size": 9121,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/4d6c8d2464034e37a95d24be79bce0b6.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0d94a8c903a9414fb485f67623c8a942"
+      },
+      "description": "The Zorawar is an Indian light tank design. It is designed to have a high power-to-weight ratio along with substantial firepower, protection, surveillance and communication capabilities. It was designed to provide the Indian Army with the versatility to execute operations in varying terrain against diverse threats and equipment profiles of its adversaries. The Zorawar is armed with a 105mm NATO cannon, 12.7mm heavy machine mounted in a remote weapons station, a 7.62mm coaxial machine gun, and a launcher for two SPIKE anti-tank missiles. The Zorawar can be extended with multimission module that allows it to deploy a UAV and loiter munitions. It can also use the NIRMA Anti-tank missile system in place of the 105mm cannon.\n\nLearn more at  https://killcapturedestroy.com/",
+      "faceCount": 212270,
+      "createdAt": "2024-07-16T04:27:48.899860",
+      "vertexCount": 136768,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 11237164,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 212192,
+          "vertexCount": 254353
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 3781532,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 212192,
+          "vertexCount": 254353
+        },
+        "source": {
+          "textureCount": null,
+          "size": 7744582,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4606501,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/21d7412780a0451a9487a019bfde3d47",
+      "uid": "21d7412780a0451a9487a019bfde3d47",
+      "name": "Pandur II with Cockerill 105",
+      "staffpickedAt": null,
+      "viewCount": 2744,
+      "likeCount": 19,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-21d7412780a0451a9487a019bfde3d47",
+      "embedUrl": "https://sketchfab.com/models/21d7412780a0451a9487a019bfde3d47/embed",
+      "commentCount": 9,
+      "isDownloadable": false,
+      "publishedAt": "2023-02-12T08:00:43.961465",
+      "tags": [
+        {
+          "name": "apc",
+          "slug": "apc",
+          "uri": "https://api.sketchfab.com/v3/tags/apc"
+        },
+        {
+          "name": "indonesia",
+          "slug": "indonesia",
+          "uri": "https://api.sketchfab.com/v3/tags/indonesia"
+        },
+        {
+          "name": "ifv",
+          "slug": "ifv",
+          "uri": "https://api.sketchfab.com/v3/tags/ifv"
+        },
+        {
+          "name": "cockerill",
+          "slug": "cockerill",
+          "uri": "https://api.sketchfab.com/v3/tags/cockerill"
+        },
+        {
+          "name": "pandur",
+          "slug": "pandur",
+          "uri": "https://api.sketchfab.com/v3/tags/pandur"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "cb2828600e6847438104cecc26da12b4",
+            "size": 101481,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/21d7412780a0451a9487a019bfde3d47/thumbnails/a1b52dc0bae94a41916e30fa45e77ae9/022ff9baaed14a228244d91e6157b406.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "519cd30acb784b6c826c5933df1ad0c8",
+            "size": 37738,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/21d7412780a0451a9487a019bfde3d47/thumbnails/a1b52dc0bae94a41916e30fa45e77ae9/4c695791e1f34d469bd6364c45b119d5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f2e312f40e00409e8545848fa7074744",
+            "size": 22756,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/21d7412780a0451a9487a019bfde3d47/thumbnails/a1b52dc0bae94a41916e30fa45e77ae9/0ff57f41f94349838b1b8404336d81aa.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "711b85ff1cf941a1a19f022670dc7665",
+            "size": 5397,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/21d7412780a0451a9487a019bfde3d47/thumbnails/a1b52dc0bae94a41916e30fa45e77ae9/ea36ac9329854f4383859c16f818117d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "76f52bad19104c299eee18ae87da6dbf",
+            "size": 1255,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/21d7412780a0451a9487a019bfde3d47/thumbnails/a1b52dc0bae94a41916e30fa45e77ae9/471c9ecc8b9a4cb6a003f6f5d69af9ab.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "553c4be6860645429eb12eb85a782b28",
+        "username": "ProfessionalDebil",
+        "displayName": "ProfessionalDebil",
+        "profileUrl": "https://sketchfab.com/ProfessionalDebil",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/e93f68f2bee04d7bb32c39fc6dee04b8",
+          "images": [
+            {
+              "size": 1010,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/e93f68f2bee04d7bb32c39fc6dee04b8/c2fe5a12802c42f0bc54f06dde3c67c7.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1430,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/e93f68f2bee04d7bb32c39fc6dee04b8/9944f89c370e43be9cac50f5711160ec.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3328,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/e93f68f2bee04d7bb32c39fc6dee04b8/967c119897524cc182706aefff8d3b7e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3906,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/e93f68f2bee04d7bb32c39fc6dee04b8/df4903daefd840dbb4671e9d4e14a183.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/553c4be6860645429eb12eb85a782b28"
+      },
+      "description": "This is the Austrian Pandur II APC fitted with the Belgium Cockerill 105 cannon making it an IFV. It has a 105mm High Pressuse cannon as the primary gun. For the coaxial I used the Indonesian SM2-V2, a locally made American M240. It also has the Indonesian SMB-2, a locally made American M2HB, on the roof pintle mount",
+      "faceCount": 38747,
+      "createdAt": "2023-02-12T07:57:41.113564",
+      "vertexCount": 23133,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/68fac87a9b384d5a8724ffd2800a0c8a",
+      "uid": "68fac87a9b384d5a8724ffd2800a0c8a",
+      "name": "Cannon detail",
+      "staffpickedAt": null,
+      "viewCount": 160,
+      "likeCount": 14,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-68fac87a9b384d5a8724ffd2800a0c8a",
+      "embedUrl": "https://sketchfab.com/models/68fac87a9b384d5a8724ffd2800a0c8a/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2015-04-13T17:29:26",
+      "tags": [
+        {
+          "name": "chateau",
+          "slug": "chateau",
+          "uri": "https://api.sketchfab.com/v3/tags/chateau"
+        },
+        {
+          "name": "world",
+          "slug": "world",
+          "uri": "https://api.sketchfab.com/v3/tags/world"
+        },
+        {
+          "name": "castle",
+          "slug": "castle",
+          "uri": "https://api.sketchfab.com/v3/tags/castle"
+        },
+        {
+          "name": "fort",
+          "slug": "fort",
+          "uri": "https://api.sketchfab.com/v3/tags/fort"
+        },
+        {
+          "name": "german",
+          "slug": "german",
+          "uri": "https://api.sketchfab.com/v3/tags/german"
+        },
+        {
+          "name": "detail",
+          "slug": "detail",
+          "uri": "https://api.sketchfab.com/v3/tags/detail"
+        },
+        {
+          "name": "artillery",
+          "slug": "artillery",
+          "uri": "https://api.sketchfab.com/v3/tags/artillery"
+        },
+        {
+          "name": "reconstruction",
+          "slug": "reconstruction",
+          "uri": "https://api.sketchfab.com/v3/tags/reconstruction"
+        },
+        {
+          "name": "germany",
+          "slug": "germany",
+          "uri": "https://api.sketchfab.com/v3/tags/germany"
+        },
+        {
+          "name": "engraved",
+          "slug": "engraved",
+          "uri": "https://api.sketchfab.com/v3/tags/engraved"
+        },
+        {
+          "name": "first",
+          "slug": "first",
+          "uri": "https://api.sketchfab.com/v3/tags/first"
+        },
+        {
+          "name": "inscription",
+          "slug": "inscription",
+          "uri": "https://api.sketchfab.com/v3/tags/inscription"
+        },
+        {
+          "name": "cannon",
+          "slug": "cannon",
+          "uri": "https://api.sketchfab.com/v3/tags/cannon"
+        },
+        {
+          "name": "baroque",
+          "slug": "baroque",
+          "uri": "https://api.sketchfab.com/v3/tags/baroque"
+        },
+        {
+          "name": "saarbrucken",
+          "slug": "saarbrucken",
+          "uri": "https://api.sketchfab.com/v3/tags/saarbrucken"
+        },
+        {
+          "name": "105mm",
+          "slug": "105mm",
+          "uri": "https://api.sketchfab.com/v3/tags/105mm"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "scan",
+          "slug": "scan",
+          "uri": "https://api.sketchfab.com/v3/tags/scan"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "war",
+          "slug": "war",
+          "uri": "https://api.sketchfab.com/v3/tags/war"
+        },
+        {
+          "name": "history",
+          "slug": "history",
+          "uri": "https://api.sketchfab.com/v3/tags/history"
+        },
+        {
+          "name": "motto",
+          "slug": "motto",
+          "uri": "https://api.sketchfab.com/v3/tags/motto"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "cf82ada6038a4bb095b38bbc25d462e5",
+            "size": 223981,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/68fac87a9b384d5a8724ffd2800a0c8a/thumbnails/91044b0aa1fc4075b0ab9bfc6d94975b/c04f0e47bba24fe6978f6e1c47720ed6.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "8b233425b0e0414485c55e0a3f20f9d6",
+            "size": 58175,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/68fac87a9b384d5a8724ffd2800a0c8a/thumbnails/91044b0aa1fc4075b0ab9bfc6d94975b/da9a77f280b14c258839257044901ce6.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "1eabd130522741a5bcfe729e2762167f",
+            "size": 29297,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/68fac87a9b384d5a8724ffd2800a0c8a/thumbnails/91044b0aa1fc4075b0ab9bfc6d94975b/e69c71679c5b4c078032b9be85e8c874.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e7b4f9ef11744303ae9dcd58e6529a20",
+            "size": 3905,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/68fac87a9b384d5a8724ffd2800a0c8a/thumbnails/91044b0aa1fc4075b0ab9bfc6d94975b/b1bbd866d0ba4f209267084444cbf214.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "78277db814a44586948b69d42a7ae1a7",
+            "size": 672,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/68fac87a9b384d5a8724ffd2800a0c8a/thumbnails/91044b0aa1fc4075b0ab9bfc6d94975b/a9c10c6555fc491caffeb184c37bed2a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "be14acd0febe4957ac874c7a7198d94f",
+        "username": "senyul",
+        "displayName": "SenYul",
+        "profileUrl": "https://sketchfab.com/senyul",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/59678cbb549b4330b0c6e64b3d754c2e",
+          "images": [
+            {
+              "size": 38336,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/59678cbb549b4330b0c6e64b3d754c2e/ab1a95571f054a8eacbb389dc13ac4a9.jpeg",
+              "height": 100
+            },
+            {
+              "size": 37252,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/59678cbb549b4330b0c6e64b3d754c2e/114ae5176c4541428c38eb2b9240df06.jpeg",
+              "height": 90
+            },
+            {
+              "size": 31806,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/59678cbb549b4330b0c6e64b3d754c2e/b1503a6a9ddd4bf2a569b45a070b5d68.jpeg",
+              "height": 32
+            },
+            {
+              "size": 33026,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/59678cbb549b4330b0c6e64b3d754c2e/066f06ee26ba47caa0183958351e2340.jpeg",
+              "height": 48
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/be14acd0febe4957ac874c7a7198d94f"
+      },
+      "description": "Detail of a german 105mm cannon located in the garden of the [Saarbr\u00fccken Castle](https://en.wikipedia.org/wiki/Saarbr%C3%BCcken_Castle). It was used in the First World War. The inscription reads: **Pro Gloria et Patria** (For Glory and Homeland) and **Ultima Ratio Regis** (The Final Argument of Kings) (resorting to arms).",
+      "faceCount": 1986531,
+      "createdAt": "2015-04-13T17:08:50",
+      "vertexCount": 995750,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 2,
+          "size": 76991732,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 1986531,
+          "vertexCount": 1196045
+        },
+        "gltf": {
+          "textureCount": 2,
+          "size": 53600333,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 1986531,
+          "vertexCount": 1196045
+        },
+        "source": {
+          "textureCount": null,
+          "size": 60468042,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 47444845,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "34b725081a6a4184957efaec2cb84ed3",
+        "label": "CC Attribution-NonCommercial-NoDerivs"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/f93f7c3d5bcc4a2fb4774e0ce081b574",
+      "uid": "f93f7c3d5bcc4a2fb4774e0ce081b574",
+      "name": "ZTQ-15 Black Panther Light Tank \u5f0f\u8f7b\u578b\u5766\u514b",
+      "staffpickedAt": null,
+      "viewCount": 1851,
+      "likeCount": 15,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-f93f7c3d5bcc4a2fb4774e0ce081b574",
+      "embedUrl": "https://sketchfab.com/models/f93f7c3d5bcc4a2fb4774e0ce081b574/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2023-07-27T18:23:01.377463",
+      "tags": [
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "panther",
+          "slug": "panther",
+          "uri": "https://api.sketchfab.com/v3/tags/panther"
+        },
+        {
+          "name": "black",
+          "slug": "black",
+          "uri": "https://api.sketchfab.com/v3/tags/black"
+        },
+        {
+          "name": "light",
+          "slug": "light",
+          "uri": "https://api.sketchfab.com/v3/tags/light"
+        },
+        {
+          "name": "pla-tank",
+          "slug": "pla-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/pla-tank"
+        },
+        {
+          "name": "type-15",
+          "slug": "type-15",
+          "uri": "https://api.sketchfab.com/v3/tags/type-15"
+        },
+        {
+          "name": "vt-15",
+          "slug": "vt-15",
+          "uri": "https://api.sketchfab.com/v3/tags/vt-15"
+        },
+        {
+          "name": "black-panther-tank",
+          "slug": "black-panther-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/black-panther-tank"
+        },
+        {
+          "name": "ztq-15",
+          "slug": "ztq-15",
+          "uri": "https://api.sketchfab.com/v3/tags/ztq-15"
+        },
+        {
+          "name": "shi-qing-xing-tan-ke",
+          "slug": "shi-qing-xing-tan-ke",
+          "uri": "https://api.sketchfab.com/v3/tags/shi-qing-xing-tan-ke"
+        },
+        {
+          "name": "type-15-light-tank",
+          "slug": "type-15-light-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/type-15-light-tank"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "6a6326d91cb64106bcaba24de77de70e",
+            "size": 466340,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/f93f7c3d5bcc4a2fb4774e0ce081b574/thumbnails/f69fe9722e004d3aab5b9349a87d795f/1bfabed06aab4f4d873b92a1e0245924.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "ee9cf7f4135f4dbb98854dbffaf5be05",
+            "size": 71130,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/f93f7c3d5bcc4a2fb4774e0ce081b574/thumbnails/f69fe9722e004d3aab5b9349a87d795f/d12026c1c5fe45ee8f63de1b8f15117e.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "8d3aa81f3ecd41bf85c10f9c6a71af98",
+            "size": 36875,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/f93f7c3d5bcc4a2fb4774e0ce081b574/thumbnails/f69fe9722e004d3aab5b9349a87d795f/3d1f0d6d7e354160bf8ab535af5f8396.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "404bf6e88d734ad0a794292929df002d",
+            "size": 7522,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/f93f7c3d5bcc4a2fb4774e0ce081b574/thumbnails/f69fe9722e004d3aab5b9349a87d795f/073a851b18684a59be40262698f568a5.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "b40967ba79294ed1b894ee2e15e5c2c5",
+            "size": 1435,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/f93f7c3d5bcc4a2fb4774e0ce081b574/thumbnails/f69fe9722e004d3aab5b9349a87d795f/cfd34201f5824d418b96a5c670f6b21f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "0d94a8c903a9414fb485f67623c8a942",
+        "username": "jloiacono82",
+        "displayName": "Late Nite Game Studios",
+        "profileUrl": "https://sketchfab.com/jloiacono82",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5d52d06fcf6847f3be8e8716b27773c6",
+          "images": [
+            {
+              "size": 1425,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/7ed033524805497fbbee4cb3571ce3af.png",
+              "height": 32
+            },
+            {
+              "size": 2701,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/8d25c28a7d0442f8ab4fac9f6e3f111a.png",
+              "height": 48
+            },
+            {
+              "size": 7571,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/5ba4eebf33154faf9488ee27c7cedf79.png",
+              "height": 90
+            },
+            {
+              "size": 9121,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5d52d06fcf6847f3be8e8716b27773c6/4d6c8d2464034e37a95d24be79bce0b6.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0d94a8c903a9414fb485f67623c8a942"
+      },
+      "description": "Type 15 (Chinese: 15\u5f0f\u8f7b\u578b\u5766\u514b; ZTQ-15), nicknamed the Black Panther is a Chinese third-generation light tank. Designed for combat in extreme temperatures the Type 15 has been adopted by the Chinese Marines and Chinese Army as the ZTQ-15. The main gun is a 105mm rifled gun and the first designed to fire standard NATO 105mm ammunition with a 38-round autoloader.  It is also armed with a 35mm automatic grenade launcher, a 7.62mm coaxial machine gun, and a remotely controlled 12.7mm heavy machine gun. The Type-15 can also fire GP105mm guided missiles out to a range of 5km. The Type 15 has advanced optics and thermal imaging which gives it superior night fighting and long-range engagement up to 8km. It's also equipped with laser warning, NBC, air conditioning, smoke, and fire suppression systems.  The ZTQ-15 is able to be rapidly deployed and fight in high mountains and coastlines\n\nLearn more at https://killcapturedestroy.com/",
+      "faceCount": 458965,
+      "createdAt": "2023-07-27T18:00:54.745218",
+      "vertexCount": 228424,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a0fb1a1d51114598bda52239e632f3ed",
+      "uid": "a0fb1a1d51114598bda52239e632f3ed",
+      "name": "Utility Platform Truck",
+      "staffpickedAt": null,
+      "viewCount": 3947,
+      "likeCount": 103,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a0fb1a1d51114598bda52239e632f3ed",
+      "embedUrl": "https://sketchfab.com/models/a0fb1a1d51114598bda52239e632f3ed/embed",
+      "commentCount": 3,
+      "isDownloadable": true,
+      "publishedAt": "2020-01-14T12:43:31.176543",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "truck",
+          "slug": "truck",
+          "uri": "https://api.sketchfab.com/v3/tags/truck"
+        },
+        {
+          "name": "ammo",
+          "slug": "ammo",
+          "uri": "https://api.sketchfab.com/v3/tags/ammo"
+        },
+        {
+          "name": "offroad",
+          "slug": "offroad",
+          "uri": "https://api.sketchfab.com/v3/tags/offroad"
+        },
+        {
+          "name": "mule",
+          "slug": "mule",
+          "uri": "https://api.sketchfab.com/v3/tags/mule"
+        },
+        {
+          "name": "ammunition",
+          "slug": "ammunition",
+          "uri": "https://api.sketchfab.com/v3/tags/ammunition"
+        },
+        {
+          "name": "flatbed",
+          "slug": "flatbed",
+          "uri": "https://api.sketchfab.com/v3/tags/flatbed"
+        },
+        {
+          "name": "m40",
+          "slug": "m40",
+          "uri": "https://api.sketchfab.com/v3/tags/m40"
+        },
+        {
+          "name": "utility",
+          "slug": "utility",
+          "uri": "https://api.sketchfab.com/v3/tags/utility"
+        },
+        {
+          "name": "military-vehicle",
+          "slug": "military-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/military-vehicle"
+        },
+        {
+          "name": "recoilless",
+          "slug": "recoilless",
+          "uri": "https://api.sketchfab.com/v3/tags/recoilless"
+        },
+        {
+          "name": "military-equipment",
+          "slug": "military-equipment",
+          "uri": "https://api.sketchfab.com/v3/tags/military-equipment"
+        },
+        {
+          "name": "105mm",
+          "slug": "105mm",
+          "uri": "https://api.sketchfab.com/v3/tags/105mm"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "m274",
+          "slug": "m274",
+          "uri": "https://api.sketchfab.com/v3/tags/m274"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e9bc3abea1e94756b3a2dd3a74ccb0c1",
+            "size": 301380,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a0fb1a1d51114598bda52239e632f3ed/thumbnails/dca5325d64034b42a1a2b26b18bc0faa/d73d17017f784f4fa1bb438b3ebde971.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "9f3fac4d6ddd49728f0f47ae22fde8d7",
+            "size": 86646,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a0fb1a1d51114598bda52239e632f3ed/thumbnails/dca5325d64034b42a1a2b26b18bc0faa/998f899478864c67932f77c96c89fca8.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "8d35e3a13ebb43a884a20af9bba00d3a",
+            "size": 47145,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a0fb1a1d51114598bda52239e632f3ed/thumbnails/dca5325d64034b42a1a2b26b18bc0faa/c7bb2212ef9146bfb07fc3ba52efaf05.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "438af58a71af43908baa30ca36166f40",
+            "size": 7773,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a0fb1a1d51114598bda52239e632f3ed/thumbnails/dca5325d64034b42a1a2b26b18bc0faa/1325283c042e42afb5e0e378f85e5a71.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "a0e1ad8f975c420f87d969d424121db5",
+            "size": 1068,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a0fb1a1d51114598bda52239e632f3ed/thumbnails/dca5325d64034b42a1a2b26b18bc0faa/e4bfe2fb6d5840228c6f66e0268452bb.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "98d1698168894c40ab20ffe90d0628de",
+        "username": "hippostance",
+        "displayName": "HippoStance",
+        "profileUrl": "https://sketchfab.com/hippostance",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/8be953b252844efe88cee6490b911782",
+          "images": [
+            {
+              "size": 640,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/8be953b252844efe88cee6490b911782/573b3708bc82479bb69b7c3e670fac30.jpeg",
+              "height": 32
+            },
+            {
+              "size": 876,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/8be953b252844efe88cee6490b911782/6161fc547212432c8962fdcd4482ff51.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1712,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/8be953b252844efe88cee6490b911782/91f31c4f280544c9b9ce6e9505c6d4ea.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1947,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/8be953b252844efe88cee6490b911782/daec4b8a249a43e09858f07dc35d1245.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/98d1698168894c40ab20ffe90d0628de"
+      },
+      "description": "Utility Platform Truck \"Mule\" with recoiless rifle in desert colors.",
+      "faceCount": 250306,
+      "createdAt": "2020-01-13T05:39:50.408566",
+      "vertexCount": 132833,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 59,
+          "size": 135437324,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 250304,
+          "vertexCount": 188877
+        },
+        "gltf": {
+          "textureCount": 59,
+          "size": 127805996,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 250304,
+          "vertexCount": 188877
+        },
+        "source": {
+          "textureCount": null,
+          "size": 84311134,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 10598377,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/da4415ecda874d8b968a34a9098604e2",
+      "uid": "da4415ecda874d8b968a34a9098604e2",
+      "name": "Beaverhawk - tank",
+      "staffpickedAt": null,
+      "viewCount": 93,
+      "likeCount": 4,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-da4415ecda874d8b968a34a9098604e2",
+      "embedUrl": "https://sketchfab.com/models/da4415ecda874d8b968a34a9098604e2/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2025-05-02T02:08:10.158123",
+      "tags": [],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "910107b0290c493db4e3a7dd48480621",
+            "size": 142383,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/da4415ecda874d8b968a34a9098604e2/thumbnails/1aad10ee2eac4468ac8ffc9801edadc9/9fcebd7815b7441797b47bf7e9f00ad4.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "b49bc7c19d4b4480a821ebea7c6e44c9",
+            "size": 51590,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/da4415ecda874d8b968a34a9098604e2/thumbnails/1aad10ee2eac4468ac8ffc9801edadc9/9650fd9788ec456f8eb3d9da7a56f4d2.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "5e2934a3391c4af784ff7544fa22559d",
+            "size": 31255,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/da4415ecda874d8b968a34a9098604e2/thumbnails/1aad10ee2eac4468ac8ffc9801edadc9/83ededde45494e5782b3a0e3b74f74a1.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "d6e59eb52de148bfb299eb33e21cd304",
+            "size": 7097,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/da4415ecda874d8b968a34a9098604e2/thumbnails/1aad10ee2eac4468ac8ffc9801edadc9/2eb4e535702c40d1b9dc1bb5faf8872b.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "3a890a5563714480b1ef0cb892cf5a9e",
+            "size": 1435,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/da4415ecda874d8b968a34a9098604e2/thumbnails/1aad10ee2eac4468ac8ffc9801edadc9/5645fb9c44ff4d66bf3a028a5ec58b76.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "97940a6dfa434d689838641c6c168fa4",
+        "username": "CMBC",
+        "displayName": "Brian Trepanier",
+        "profileUrl": "https://sketchfab.com/CMBC",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/ade567e10ef64375b161d0643e1022c1",
+          "images": [
+            {
+              "size": 1088,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/ade567e10ef64375b161d0643e1022c1/c05e99b953a4434b851214a3210bc857.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1577,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/ade567e10ef64375b161d0643e1022c1/a533f6ed9b064b7cbc69810930aa884b.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3730,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/ade567e10ef64375b161d0643e1022c1/9e9de1ad43894ab1ae4e209ec49d2925.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4309,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/ade567e10ef64375b161d0643e1022c1/906497c62ca4436da40577f57abdea0a.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/97940a6dfa434d689838641c6c168fa4"
+      },
+      "description": "The *Beaverhawk I* was a secret heavy tank developed by the Canadian Army in the early 1940s, as part of a contingency plan in the event of an invasion from south of the 49th parallel during World War II. Designed to defend Canada\u2019s vast, rugged terrain, the *Beaverhawk I* was built to withstand both the harsh northern conditions and any potential American assault.\nWeighing 95 tons, the *Beaverhawk I* was heavily armored, with up to 200mm of steel on its front hull. Its primary armament was a 105mm gun, mounted in a fully rotating turret capable of handling various terrain, from dense forests to icy tundra. The tank\u2019s suspension system was specially engineered for maximum durability, incorporating oversized tracks for stability in snow and mud.\nOnly two prototypes were produced, and the project was quietly shelved after the war. Official records about the tank remain scarce, though declassified documents confirm its existence and development as a defensive measure against a potential invasion.",
+      "faceCount": 196874,
+      "createdAt": "2025-05-02T01:45:19.409169",
+      "vertexCount": 98046,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 8945740,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 196874,
+          "vertexCount": 130266
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 6267933,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 196874,
+          "vertexCount": 130266
+        },
+        "source": {
+          "textureCount": null,
+          "size": 14846312,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 7070880,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/6ebb407d9e984c17ae1b994a915af3bf",
+      "uid": "6ebb407d9e984c17ae1b994a915af3bf",
+      "name": "M6A2E1",
+      "staffpickedAt": null,
+      "viewCount": 4882,
+      "likeCount": 13,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-6ebb407d9e984c17ae1b994a915af3bf",
+      "embedUrl": "https://sketchfab.com/models/6ebb407d9e984c17ae1b994a915af3bf/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2017-02-18T22:44:10.834708",
+      "tags": [
+        {
+          "name": "world",
+          "slug": "world",
+          "uri": "https://api.sketchfab.com/v3/tags/world"
+        },
+        {
+          "name": "heavy",
+          "slug": "heavy",
+          "uri": "https://api.sketchfab.com/v3/tags/heavy"
+        },
+        {
+          "name": "experimental",
+          "slug": "experimental",
+          "uri": "https://api.sketchfab.com/v3/tags/experimental"
+        },
+        {
+          "name": "american",
+          "slug": "american",
+          "uri": "https://api.sketchfab.com/v3/tags/american"
+        },
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "2",
+          "slug": "2",
+          "uri": "https://api.sketchfab.com/v3/tags/2"
+        },
+        {
+          "name": "m6",
+          "slug": "m6",
+          "uri": "https://api.sketchfab.com/v3/tags/m6"
+        },
+        {
+          "name": "m6a2e1",
+          "slug": "m6a2e1",
+          "uri": "https://api.sketchfab.com/v3/tags/m6a2e1"
+        },
+        {
+          "name": "testbed",
+          "slug": "testbed",
+          "uri": "https://api.sketchfab.com/v3/tags/testbed"
+        },
+        {
+          "name": "105mm",
+          "slug": "105mm",
+          "uri": "https://api.sketchfab.com/v3/tags/105mm"
+        },
+        {
+          "name": "war",
+          "slug": "war",
+          "uri": "https://api.sketchfab.com/v3/tags/war"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "29b4f0e1338242019c93557cf1e0798b",
+            "size": 707,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/6ebb407d9e984c17ae1b994a915af3bf/thumbnails/5b976a24a5eb42478e5911c608dd58cf/64x36.jpeg",
+            "height": 36
+          },
+          {
+            "uid": "ab9de3fede824ff1a89680f3d2293667",
+            "size": 16724,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/6ebb407d9e984c17ae1b994a915af3bf/thumbnails/5b976a24a5eb42478e5911c608dd58cf/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "3f74bc08b3884b13a22f6d4b74a6b9ec",
+            "size": 31058,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/6ebb407d9e984c17ae1b994a915af3bf/thumbnails/5b976a24a5eb42478e5911c608dd58cf/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "5596fd1730bc433993eddf37afd76b66",
+            "size": 3367,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/6ebb407d9e984c17ae1b994a915af3bf/thumbnails/5b976a24a5eb42478e5911c608dd58cf/256x144.jpeg",
+            "height": 144
+          }
+        ]
+      },
+      "user": {
+        "uid": "0b1afddfe43c436ab72618ef28b451df",
+        "username": "madmailbox",
+        "displayName": "Giganaut",
+        "profileUrl": "https://sketchfab.com/madmailbox",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/ba94761a168d4e699fb918bae4e432ce",
+          "images": [
+            {
+              "size": 4773,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/ba94761a168d4e699fb918bae4e432ce/9695776de40a47079f753537f438d5f0.jpeg",
+              "height": 100
+            },
+            {
+              "size": 3999,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/ba94761a168d4e699fb918bae4e432ce/d02c6cf52d9d4c598d43adea665866d0.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1371,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/ba94761a168d4e699fb918bae4e432ce/4d702c3ad7704836b0545b2e07118b8f.jpeg",
+              "height": 48
+            },
+            {
+              "size": 838,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/ba94761a168d4e699fb918bae4e432ce/e305f193e21c4bc096ae286d955e27e3.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0b1afddfe43c436ab72618ef28b451df"
+      },
+      "description": "M6A2E1 \u2013 Uparmored T1E1 fitted with a new turret with a T5E1 105 mm gun. Used for testing T29 heavy tank project armament system.\n\nM6A2E1 \u2013 with thicker (equivalent to 7.5-inch (190 mm) vertical protection) glacis armor and a turret developed for the T29 Heavy Tank, armed with a T5E1 105 mm gun but no increase in engine power. Ordnance believed they could be delivered by November. The proposal was put to the supreme commander in Europe General Eisenhower, who rejected them as impracticable. Two tanks were used to test the T29 turret and gun, but their armor was not modified.",
+      "faceCount": 446635,
+      "createdAt": "2017-02-18T22:27:29.788358",
+      "vertexCount": 227822,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/60b4c53e8f884f099d237a7ff6f92a29",
+      "uid": "60b4c53e8f884f099d237a7ff6f92a29",
+      "name": "SMS Geier",
+      "staffpickedAt": null,
+      "viewCount": 1775,
+      "likeCount": 42,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-60b4c53e8f884f099d237a7ff6f92a29",
+      "embedUrl": "https://sketchfab.com/models/60b4c53e8f884f099d237a7ff6f92a29/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2023-10-05T11:02:22.746669",
+      "tags": [
+        {
+          "name": "cruiser",
+          "slug": "cruiser",
+          "uri": "https://api.sketchfab.com/v3/tags/cruiser"
+        },
+        {
+          "name": "german",
+          "slug": "german",
+          "uri": "https://api.sketchfab.com/v3/tags/german"
+        },
+        {
+          "name": "navy",
+          "slug": "navy",
+          "uri": "https://api.sketchfab.com/v3/tags/navy"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7037f94f5ad74c678ab99e7b349718f6",
+            "size": 132354,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/60b4c53e8f884f099d237a7ff6f92a29/thumbnails/bb814e1d68004befb98bd377934ea22f/c54a09b33e244459b8428af33278dbf2.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "b957a00aeddc4178b8320cb917a362ee",
+            "size": 44345,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/60b4c53e8f884f099d237a7ff6f92a29/thumbnails/bb814e1d68004befb98bd377934ea22f/132998d0cc604268b9fd7054fef5e0c7.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "1ac495f9321b4ca3aea4e1b0b946fa10",
+            "size": 25926,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/60b4c53e8f884f099d237a7ff6f92a29/thumbnails/bb814e1d68004befb98bd377934ea22f/c2a45c6cefe04528b53489f5c507d057.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "13dd929808f542ca84b2d41a1da7a2f8",
+            "size": 5796,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/60b4c53e8f884f099d237a7ff6f92a29/thumbnails/bb814e1d68004befb98bd377934ea22f/261114735d2c4e6da59eda225fbb2448.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "4f7759389ad3477285bb8ccff094ebc1",
+            "size": 1265,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/60b4c53e8f884f099d237a7ff6f92a29/thumbnails/bb814e1d68004befb98bd377934ea22f/4e644f1f334246ea937e36e80c267e9a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "e9a7417674074b73a08cabea08a07d25",
+        "username": "martyn169",
+        "displayName": "martyn169",
+        "profileUrl": "https://sketchfab.com/martyn169",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/0dd9b9a3629345e287f239c716c8ba73",
+          "images": [
+            {
+              "size": 1020,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/0dd9b9a3629345e287f239c716c8ba73/c8360b2c86b84035bea7d343be12bba0.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1304,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/0dd9b9a3629345e287f239c716c8ba73/6a9cb785e6804fe69a35b334a208a0f0.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2549,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/0dd9b9a3629345e287f239c716c8ba73/8e5c987a02cb43e9a694ea96aabed2b5.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2893,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/0dd9b9a3629345e287f239c716c8ba73/d3fcc9e17fee410bb8d381aa5794014b.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/e9a7417674074b73a08cabea08a07d25"
+      },
+      "description": "SMS Geier was an unprotecte cruiser built for the Imperial German navy in 1893, and later came under American control during the midd stage of ww1 when she was interned in Hawaii at the beginning of the war. She was laid down in 1893 and launched a year later before entering service in 1895. The ship was designed to operate overseas in German colonies and to protect those colonies, and so came with an armament of 105mm guns, but no armour and a top speed of 15 knots, which in later years proved to be fairly slow. She was sunk in June 1918 by a collision with a freighter off the coast of North Carolina where shee rests to this day, albeit the wreck is not in good condition.",
+      "faceCount": 813615,
+      "createdAt": "2023-10-05T10:59:46.581373",
+      "vertexCount": 279251,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 28759948,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 812788,
+          "vertexCount": 742751
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 7641417,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 812788,
+          "vertexCount": 742751
+        },
+        "source": {
+          "textureCount": null,
+          "size": 59261568,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 19776608,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/b93a859f89e74ae193c57b10d4a2dad9",
+      "uid": "b93a859f89e74ae193c57b10d4a2dad9",
+      "name": "10.5 Cm L65 SK C 33",
+      "staffpickedAt": null,
+      "viewCount": 1832,
+      "likeCount": 51,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-b93a859f89e74ae193c57b10d4a2dad9",
+      "embedUrl": "https://sketchfab.com/models/b93a859f89e74ae193c57b10d4a2dad9/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2022-02-18T11:59:24.280583",
+      "tags": [
+        {
+          "name": "battleship",
+          "slug": "battleship",
+          "uri": "https://api.sketchfab.com/v3/tags/battleship"
+        },
+        {
+          "name": "airplane",
+          "slug": "airplane",
+          "uri": "https://api.sketchfab.com/v3/tags/airplane"
+        },
+        {
+          "name": "aa",
+          "slug": "aa",
+          "uri": "https://api.sketchfab.com/v3/tags/aa"
+        },
+        {
+          "name": "turret",
+          "slug": "turret",
+          "uri": "https://api.sketchfab.com/v3/tags/turret"
+        },
+        {
+          "name": "kriegsmarine",
+          "slug": "kriegsmarine",
+          "uri": "https://api.sketchfab.com/v3/tags/kriegsmarine"
+        },
+        {
+          "name": "aaa",
+          "slug": "aaa",
+          "uri": "https://api.sketchfab.com/v3/tags/aaa"
+        },
+        {
+          "name": "germany",
+          "slug": "germany",
+          "uri": "https://api.sketchfab.com/v3/tags/germany"
+        },
+        {
+          "name": "kms",
+          "slug": "kms",
+          "uri": "https://api.sketchfab.com/v3/tags/kms"
+        },
+        {
+          "name": "105mm",
+          "slug": "105mm",
+          "uri": "https://api.sketchfab.com/v3/tags/105mm"
+        },
+        {
+          "name": "cruisers",
+          "slug": "cruisers",
+          "uri": "https://api.sketchfab.com/v3/tags/cruisers"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7ee4e2cc16034ec7bf0199215571ecbd",
+            "size": 137894,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/b93a859f89e74ae193c57b10d4a2dad9/thumbnails/3868a5a2d08a430580a22d2133905473/69d62b1f64c940a7aaa7f07ed5fdd501.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "fc1566b4a46c48ccaa80f06fad12d5f9",
+            "size": 29988,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/b93a859f89e74ae193c57b10d4a2dad9/thumbnails/3868a5a2d08a430580a22d2133905473/cd02bcbf7f9b48d8aa71e7a1b84f7eb0.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "634fab650bde490eb0d3efe0007a36f1",
+            "size": 16551,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/b93a859f89e74ae193c57b10d4a2dad9/thumbnails/3868a5a2d08a430580a22d2133905473/77aac2b529174062a1a2184f71a86f71.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "8c9438214cf44971b24b61d134a6272d",
+            "size": 3849,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/b93a859f89e74ae193c57b10d4a2dad9/thumbnails/3868a5a2d08a430580a22d2133905473/ad9b4039b16a446b8d790fa470360cec.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "da9a3f8e089a4d91a01c7ef2c1d1df70",
+            "size": 1060,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/b93a859f89e74ae193c57b10d4a2dad9/thumbnails/3868a5a2d08a430580a22d2133905473/03e23caf673a4b518a04693e9a4ab8d6.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6b69db9ac36a4c17889b714bfc3b29af",
+        "username": "snrnsrk5",
+        "displayName": "snrnsrk5",
+        "profileUrl": "https://sketchfab.com/snrnsrk5",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/85f631383a6f4afe868d647b62e459cd",
+          "images": [
+            {
+              "size": 1113,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/85f631383a6f4afe868d647b62e459cd/73e57787dbc8482b8081242c9e7d587f.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1572,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/85f631383a6f4afe868d647b62e459cd/c5f11a9c63f941c9b5f78bf953e00bb0.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3379,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/85f631383a6f4afe868d647b62e459cd/703dcbed11f44001b2c3c1f0fa7bb675.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3853,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/85f631383a6f4afe868d647b62e459cd/89fa3891babc41dba9f0fcc95fc5d439.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6b69db9ac36a4c17889b714bfc3b29af"
+      },
+      "description": "This weapon was used primarily as AAA on cruisers and capital ships, although it could be used against surface targets. A reasonably good weapon, but the training and elevation rates of their mountings were rather slow. Replaced the older 8.8 cm (3.5\") SK C/31 on newer ships.",
+      "faceCount": 3609,
+      "createdAt": "2022-02-18T11:57:51.507578",
+      "vertexCount": 2234,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 1217024,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 3605,
+          "vertexCount": 5377
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 1003172,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 3605,
+          "vertexCount": 5377
+        },
+        "source": {
+          "textureCount": null,
+          "size": 4967375,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 438998,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/08fc00536d514129ba9b6bfc49df8752",
+      "uid": "08fc00536d514129ba9b6bfc49df8752",
+      "name": "Nikon AF-S DX Nikkor 18-105mm f/3.5-5.6G ED VR",
+      "staffpickedAt": null,
+      "viewCount": 278,
+      "likeCount": 2,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-08fc00536d514129ba9b6bfc49df8752",
+      "embedUrl": "https://sketchfab.com/models/08fc00536d514129ba9b6bfc49df8752/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2021-07-04T18:34:51.622119",
+      "tags": [
+        {
+          "name": "kit",
+          "slug": "kit",
+          "uri": "https://api.sketchfab.com/v3/tags/kit"
+        },
+        {
+          "name": "still",
+          "slug": "still",
+          "uri": "https://api.sketchfab.com/v3/tags/still"
+        },
+        {
+          "name": "eye",
+          "slug": "eye",
+          "uri": "https://api.sketchfab.com/v3/tags/eye"
+        },
+        {
+          "name": "photo",
+          "slug": "photo",
+          "uri": "https://api.sketchfab.com/v3/tags/photo"
+        },
+        {
+          "name": "fish",
+          "slug": "fish",
+          "uri": "https://api.sketchfab.com/v3/tags/fish"
+        },
+        {
+          "name": "dslr",
+          "slug": "dslr",
+          "uri": "https://api.sketchfab.com/v3/tags/dslr"
+        },
+        {
+          "name": "camera",
+          "slug": "camera",
+          "uri": "https://api.sketchfab.com/v3/tags/camera"
+        },
+        {
+          "name": "zoom",
+          "slug": "zoom",
+          "uri": "https://api.sketchfab.com/v3/tags/zoom"
+        },
+        {
+          "name": "reflex",
+          "slug": "reflex",
+          "uri": "https://api.sketchfab.com/v3/tags/reflex"
+        },
+        {
+          "name": "fisheye",
+          "slug": "fisheye",
+          "uri": "https://api.sketchfab.com/v3/tags/fisheye"
+        },
+        {
+          "name": "optic",
+          "slug": "optic",
+          "uri": "https://api.sketchfab.com/v3/tags/optic"
+        },
+        {
+          "name": "objective",
+          "slug": "objective",
+          "uri": "https://api.sketchfab.com/v3/tags/objective"
+        },
+        {
+          "name": "slr",
+          "slug": "slr",
+          "uri": "https://api.sketchfab.com/v3/tags/slr"
+        },
+        {
+          "name": "telephoto",
+          "slug": "telephoto",
+          "uri": "https://api.sketchfab.com/v3/tags/telephoto"
+        },
+        {
+          "name": "low-poly",
+          "slug": "low-poly",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly"
+        },
+        {
+          "name": "glass",
+          "slug": "glass",
+          "uri": "https://api.sketchfab.com/v3/tags/glass"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "low",
+          "slug": "low",
+          "uri": "https://api.sketchfab.com/v3/tags/low"
+        },
+        {
+          "name": "poly",
+          "slug": "poly",
+          "uri": "https://api.sketchfab.com/v3/tags/poly"
+        },
+        {
+          "name": "model",
+          "slug": "model",
+          "uri": "https://api.sketchfab.com/v3/tags/model"
+        },
+        {
+          "name": "digital",
+          "slug": "digital",
+          "uri": "https://api.sketchfab.com/v3/tags/digital"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "super",
+          "slug": "super",
+          "uri": "https://api.sketchfab.com/v3/tags/super"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "97d6ce684c0349aebda77a2a056da915",
+            "size": 227583,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/08fc00536d514129ba9b6bfc49df8752/thumbnails/67405042d1df4e7e8816371de1af0d7d/8e798ebb63c8404c8db97684650710fc.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "2249319651c94a1a9083649365630ba0",
+            "size": 34982,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/08fc00536d514129ba9b6bfc49df8752/thumbnails/67405042d1df4e7e8816371de1af0d7d/cb347fdc6a23467b889e5e0ced7ab57f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "9a971b81f05e41898d02a95ec4ae0940",
+            "size": 19764,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/08fc00536d514129ba9b6bfc49df8752/thumbnails/67405042d1df4e7e8816371de1af0d7d/9244e71f1c214742bd3035f0223ecfd6.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "4809349d3d804d22b5d147911cc4124f",
+            "size": 4210,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/08fc00536d514129ba9b6bfc49df8752/thumbnails/67405042d1df4e7e8816371de1af0d7d/75019af45d6b4a5db26f0494ce1fefe0.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "e5813e1250eb4e23b3531430ff97af0a",
+            "size": 1128,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/08fc00536d514129ba9b6bfc49df8752/thumbnails/67405042d1df4e7e8816371de1af0d7d/48e2ff8c421147228322632c026b2439.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "135b5f8a0245438b8bdd932e5b3e7862",
+        "username": "3DOverstock",
+        "displayName": "3DOverstock",
+        "profileUrl": "https://sketchfab.com/3DOverstock",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/d11f7fa51722456ca9a8bbabd103407d",
+          "images": [
+            {
+              "size": 793,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/d11f7fa51722456ca9a8bbabd103407d/c598e193ced54ff89705b757f1ca2842.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1239,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/d11f7fa51722456ca9a8bbabd103407d/4b046182a9e541b3852d3c04c062624a.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2803,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/d11f7fa51722456ca9a8bbabd103407d/b6df3945b76e4a3d83a023c29e2b646c.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3179,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/d11f7fa51722456ca9a8bbabd103407d/a752fdd7389f48ac898d23d444ee0748.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/135b5f8a0245438b8bdd932e5b3e7862"
+      },
+      "description": "\u2022\tLet me present to you simple-quality low-poly 3D model Nikon AF-S DX Nikkor 18-105mm f/3.5-5.6G ED VR Lens. Modeling was made with ortho-photos of real lens that is why all details of design are recreated most authentically.\n\n\u2022    Ease of use consists of one mesh, it is low-polygonal and it has only one material.\n\n\u2022\tThe total of the main textures is 4. Resolution of all textures is 4096 pixels square aspect ratio in .png format. Also there is original texture file .PSD format in separate archive.\n\n\u2022\tPolygon count of the model is \u2013 1063.\n\n\u2022\tThe model has correct dimensions in real-world scale. All parts grouped and named correctly.\n\n\u2022\tTo use the model in other 3D programs there are scenes saved in formats .fbx, .obj, .DAE, .max (2010 version).\n\nNote: If you see some artifacts on the textures, it means compression works in the Viewer. We recommend setting HD quality for textures. But anyway, original textures have no artifacts.",
+      "faceCount": 2044,
+      "createdAt": "2021-06-17T15:51:44.679484",
+      "vertexCount": 1024,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/09c0e7bd44fb4789a6fea0435e6ab8aa",
+      "uid": "09c0e7bd44fb4789a6fea0435e6ab8aa",
+      "name": "PHN Quezon",
+      "staffpickedAt": null,
+      "viewCount": 553,
+      "likeCount": 6,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-09c0e7bd44fb4789a6fea0435e6ab8aa",
+      "embedUrl": "https://sketchfab.com/models/09c0e7bd44fb4789a6fea0435e6ab8aa/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-12-13T09:28:19.367404",
+      "tags": [
+        {
+          "name": "battleship",
+          "slug": "battleship",
+          "uri": "https://api.sketchfab.com/v3/tags/battleship"
+        },
+        {
+          "name": "fiction",
+          "slug": "fiction",
+          "uri": "https://api.sketchfab.com/v3/tags/fiction"
+        },
+        {
+          "name": "warships",
+          "slug": "warships",
+          "uri": "https://api.sketchfab.com/v3/tags/warships"
+        },
+        {
+          "name": "alternatehistory",
+          "slug": "alternatehistory",
+          "uri": "https://api.sketchfab.com/v3/tags/alternatehistory"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "5d82fd8f3b7d4c3da9552508c216ad38",
+            "size": 63353,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/09c0e7bd44fb4789a6fea0435e6ab8aa/thumbnails/f3a16bda2960499caba71384e6804edc/9d4d80e9b2334b6daee96979601b7362.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "270a3509b0884a69b103ad27f42cba4c",
+            "size": 22455,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/09c0e7bd44fb4789a6fea0435e6ab8aa/thumbnails/f3a16bda2960499caba71384e6804edc/cd433344843e4ad388ff095065e6ad5c.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "658a579aaebe47449455011e4d61ef5f",
+            "size": 13365,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/09c0e7bd44fb4789a6fea0435e6ab8aa/thumbnails/f3a16bda2960499caba71384e6804edc/15da178e8c8c4900a2c269b36247b285.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e2be5ff785b548dc84eab4869ee44a25",
+            "size": 2924,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/09c0e7bd44fb4789a6fea0435e6ab8aa/thumbnails/f3a16bda2960499caba71384e6804edc/4747955ca458422681137003be71c15b.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "946cb05cbdd8417c889d79cc459e7251",
+            "size": 634,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/09c0e7bd44fb4789a6fea0435e6ab8aa/thumbnails/f3a16bda2960499caba71384e6804edc/6cf291e046e4497c858f56a5dfc0547d.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a4a27cd6489c451db85371bce8028835",
+        "username": "Cheer_Up_Ship",
+        "displayName": "Mea",
+        "profileUrl": "https://sketchfab.com/Cheer_Up_Ship",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3910cd780243411cb34e89015fbcadde",
+          "images": [
+            {
+              "size": 2724,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/17266561997644848b070cfb2bef9b06.png",
+              "height": 32
+            },
+            {
+              "size": 5696,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/a90765bb14c440f5a442cfae87712b2d.png",
+              "height": 48
+            },
+            {
+              "size": 18077,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/814038ebfc4644cf8cb39564a6f37d16.png",
+              "height": 90
+            },
+            {
+              "size": 22022,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/da318fa5d66c4d1790b7ee81dd8f8323.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a4a27cd6489c451db85371bce8028835"
+      },
+      "description": "Anti-cruiser role battleship. Its commissioning was delayed severely due to the impression that the PHN officers had that the bigger battleships can fit the role, well, that is, until they lost a lot of superbattleships in ways that you can lose a superbattleship [example: lots of hits to massive citadel area, too many bomb and/or torpedo hits, etc.]\n\nIt is armed with a main armament of 6 350mm guns in 3 turrets, a secondary armament of 105mm, 127mm, and 150mm guns, and an assorted anti air armament.",
+      "faceCount": 943490,
+      "createdAt": "2020-12-13T09:23:38.236623",
+      "vertexCount": 431831,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 65492012,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 933826,
+          "vertexCount": 1356710
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 16085593,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 933826,
+          "vertexCount": 1356710
+        },
+        "source": {
+          "textureCount": null,
+          "size": 19345864,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 33874031,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/93fe6e8de3d4400b8d82275310282e6c",
+      "uid": "93fe6e8de3d4400b8d82275310282e6c",
+      "name": "Chibi CM-32 105mm MGS (Mobile Gun System)",
+      "staffpickedAt": null,
+      "viewCount": 245,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-93fe6e8de3d4400b8d82275310282e6c",
+      "embedUrl": "https://sketchfab.com/models/93fe6e8de3d4400b8d82275310282e6c/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2022-09-07T03:57:53.130271",
+      "tags": [
+        {
+          "name": "chibi",
+          "slug": "chibi",
+          "uri": "https://api.sketchfab.com/v3/tags/chibi"
+        },
+        {
+          "name": "taiwan",
+          "slug": "taiwan",
+          "uri": "https://api.sketchfab.com/v3/tags/taiwan"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "63e6a3ed6e3440eaaa20c93154843c4a",
+            "size": 55342,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/93fe6e8de3d4400b8d82275310282e6c/thumbnails/96618d139ce84bf9b98df5d3d17b0139/ef3efb86b2d9461dba2bdcbc02c02c0b.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "60937031b2534ca997451a268ee49d24",
+            "size": 18737,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/93fe6e8de3d4400b8d82275310282e6c/thumbnails/96618d139ce84bf9b98df5d3d17b0139/170d6e00e8984c308f87a0d655a714ca.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e340e3e74002460b974bd9e81331bd23",
+            "size": 11009,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/93fe6e8de3d4400b8d82275310282e6c/thumbnails/96618d139ce84bf9b98df5d3d17b0139/b7995d52ed7c46f0b6346ee5fe361715.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "75c4e9081c2d40f3a5b5a2f902c45f59",
+            "size": 2616,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/93fe6e8de3d4400b8d82275310282e6c/thumbnails/96618d139ce84bf9b98df5d3d17b0139/3a80b2b49471445bb0102f55cfbee43f.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "5190ef8aac4549afbe8717bc1160dd92",
+            "size": 872,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/93fe6e8de3d4400b8d82275310282e6c/thumbnails/96618d139ce84bf9b98df5d3d17b0139/0b38793038df44868bbe900a79df3c1f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "81b268a6443145079a7d8fdf44884d95",
+        "username": "KaVaLeRiYa",
+        "displayName": "KaVa.TW",
+        "profileUrl": "https://sketchfab.com/KaVaLeRiYa",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/daab8e7e1f354b648f46dbb25b433d9e",
+          "images": [
+            {
+              "size": 1970,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/daab8e7e1f354b648f46dbb25b433d9e/f151b6e370254e10a845a465a8be727a.png",
+              "height": 32
+            },
+            {
+              "size": 3785,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/daab8e7e1f354b648f46dbb25b433d9e/0b14c5400cc347d580fc5c1168feb8d5.png",
+              "height": 48
+            },
+            {
+              "size": 10630,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/daab8e7e1f354b648f46dbb25b433d9e/2ab65f72f9004fa484661f8b201166bc.png",
+              "height": 90
+            },
+            {
+              "size": 12450,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/daab8e7e1f354b648f46dbb25b433d9e/c590138487ae4f67b3485f7bab9bf05c.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/81b268a6443145079a7d8fdf44884d95"
+      },
+      "description": "Armored vehicles of the Republic of China Army with 105 mm gun.\n\nBase on CM-32 (first generation ).\n\nThe turret is original.",
+      "faceCount": 16550,
+      "createdAt": "2022-09-07T03:35:20.658719",
+      "vertexCount": 9330,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/cd84eebe2a8e4aa7a880ce89cfc19620",
+      "uid": "cd84eebe2a8e4aa7a880ce89cfc19620",
+      "name": "Pittsburgh Class Heavy Cruiser",
+      "staffpickedAt": null,
+      "viewCount": 1154,
+      "likeCount": 19,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-cd84eebe2a8e4aa7a880ce89cfc19620",
+      "embedUrl": "https://sketchfab.com/models/cd84eebe2a8e4aa7a880ce89cfc19620/embed",
+      "commentCount": 14,
+      "isDownloadable": false,
+      "publishedAt": "2020-12-17T10:55:00.514560",
+      "tags": [
+        {
+          "name": "ww2",
+          "slug": "ww2",
+          "uri": "https://api.sketchfab.com/v3/tags/ww2"
+        },
+        {
+          "name": "warship",
+          "slug": "warship",
+          "uri": "https://api.sketchfab.com/v3/tags/warship"
+        },
+        {
+          "name": "american",
+          "slug": "american",
+          "uri": "https://api.sketchfab.com/v3/tags/american"
+        },
+        {
+          "name": "naval",
+          "slug": "naval",
+          "uri": "https://api.sketchfab.com/v3/tags/naval"
+        },
+        {
+          "name": "large",
+          "slug": "large",
+          "uri": "https://api.sketchfab.com/v3/tags/large"
+        },
+        {
+          "name": "high-resolution",
+          "slug": "high-resolution",
+          "uri": "https://api.sketchfab.com/v3/tags/high-resolution"
+        },
+        {
+          "name": "blender3dmodel",
+          "slug": "blender3dmodel",
+          "uri": "https://api.sketchfab.com/v3/tags/blender3dmodel"
+        },
+        {
+          "name": "cold-war",
+          "slug": "cold-war",
+          "uri": "https://api.sketchfab.com/v3/tags/cold-war"
+        },
+        {
+          "name": "substance-painter-2",
+          "slug": "substance-painter-2",
+          "uri": "https://api.sketchfab.com/v3/tags/substance-painter-2"
+        },
+        {
+          "name": "heavycruiser",
+          "slug": "heavycruiser",
+          "uri": "https://api.sketchfab.com/v3/tags/heavycruiser"
+        },
+        {
+          "name": "alternatehistory",
+          "slug": "alternatehistory",
+          "uri": "https://api.sketchfab.com/v3/tags/alternatehistory"
+        },
+        {
+          "name": "pbr",
+          "slug": "pbr",
+          "uri": "https://api.sketchfab.com/v3/tags/pbr"
+        },
+        {
+          "name": "usa",
+          "slug": "usa",
+          "uri": "https://api.sketchfab.com/v3/tags/usa"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        },
+        {
+          "name": "highpoly",
+          "slug": "highpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/highpoly"
+        },
+        {
+          "name": "navy",
+          "slug": "navy",
+          "uri": "https://api.sketchfab.com/v3/tags/navy"
+        },
+        {
+          "name": "alt-history",
+          "slug": "alt-history",
+          "uri": "https://api.sketchfab.com/v3/tags/alt-history"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8d6e4c4e20014881949a7fbe93d06f3a",
+            "size": 184497,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/cd84eebe2a8e4aa7a880ce89cfc19620/thumbnails/f117e4799ffa40c8980bbdc7dbd9c47d/e32cace267f842e597add69bf64aa200.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "d3fe6b4cc3224a0d8547b47159a35a00",
+            "size": 32909,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/cd84eebe2a8e4aa7a880ce89cfc19620/thumbnails/f117e4799ffa40c8980bbdc7dbd9c47d/a18366889e084dd9a0fcb47002f97a47.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "67c8d881e31e4ba482968ccc4dfed4a0",
+            "size": 18435,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/cd84eebe2a8e4aa7a880ce89cfc19620/thumbnails/f117e4799ffa40c8980bbdc7dbd9c47d/1dd77c00d7134508a6a886eaacb75999.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "51c8fa41db524dd1a5f709ac5e09af1b",
+            "size": 3579,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/cd84eebe2a8e4aa7a880ce89cfc19620/thumbnails/f117e4799ffa40c8980bbdc7dbd9c47d/b7ba2df91be44f2abd30c95da8bdb350.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "36d2a7e1e21e4934b43cbff1060fa9d0",
+            "size": 712,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/cd84eebe2a8e4aa7a880ce89cfc19620/thumbnails/f117e4799ffa40c8980bbdc7dbd9c47d/2beb3871fa3549f184032fb6aef1f0a3.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2742baa122d749059208b65cb10b9595",
+        "username": "Barneh_Modelling",
+        "displayName": "Barneh_Modelling",
+        "profileUrl": "https://sketchfab.com/Barneh_Modelling",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/2fdb89d376e948f28b1536c3ad8a8e11",
+          "images": [
+            {
+              "size": 636,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/2fdb89d376e948f28b1536c3ad8a8e11/d0df1d9e1d154731b432c51a92acf10e.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1015,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/2fdb89d376e948f28b1536c3ad8a8e11/c5f7a4f119e0480aa4614e7f79923147.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2942,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/2fdb89d376e948f28b1536c3ad8a8e11/b6ca805ee23c425f9de3d39682caaea3.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3487,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/2fdb89d376e948f28b1536c3ad8a8e11/f926a2a3ca8b4c79aa3adac998664f8d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2742baa122d749059208b65cb10b9595"
+      },
+      "description": "The USS Pittsburgh. Lead ship of the Pittsburgh Class Heavy cruiser! Featured in some naval battles and conflicts that took place in an AU (alternate universe) such as the Battle of the yellow sea and the Battle of Hengqin islands.\n\nSize: 282m (Length), 28.3m (Width), 7.8m (Draft).\n\nArmament: 12x 230mm/56 inch caliber guns (4x3). 10x 130mm/40 inch caliber guns DP (8x2). 32x 76mm M55 Skysweepers (16x2). 14x 25mm Autocannons (14x1) 24x 25mm Autocannons (12x2).\n\nArmour: 205mm main belt, 120mm upper and lower belts. Deck 105mm. Turrets 254mm front, 128mm sides. Barbettes 185mm. Conning tower 203mm.\n\nPropulsion: 4 shafts, 10 boilers, Vertical Electric turbines. 185,000 shp.\n\nCrew: 1625 crew, 50 officers.\n\nSpeed: 36.5 knots. Can push to 41.5 knots for 3 hours if needed.\n\nService time: 1957+\n\nDate of Construction: 1957.\n\nRange: 12,500 nmi at 18 knots.\n\nNumber Built: 28.\n\nEnjoy!",
+      "faceCount": 1025254,
+      "createdAt": "2020-12-17T10:13:12.222080",
+      "vertexCount": 522529,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/818d9326b1524b8d9c65c8b298b2e335",
+      "uid": "818d9326b1524b8d9c65c8b298b2e335",
+      "name": "PHN Lucena",
+      "staffpickedAt": null,
+      "viewCount": 156,
+      "likeCount": 3,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-818d9326b1524b8d9c65c8b298b2e335",
+      "embedUrl": "https://sketchfab.com/models/818d9326b1524b8d9c65c8b298b2e335/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2021-02-03T04:53:27.705462",
+      "tags": [],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "096600e52d644e8d8f811c6caca443d2",
+            "size": 54915,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/818d9326b1524b8d9c65c8b298b2e335/thumbnails/bf24e09acf42403db92faa99d31e578b/1c940721b9e344978618aa22679f2608.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a359f77c97a2406485bd7facc9a9d7a1",
+            "size": 19411,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/818d9326b1524b8d9c65c8b298b2e335/thumbnails/bf24e09acf42403db92faa99d31e578b/112ed00edce9417eaf62814d615a15b5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "9641cf8e533040a8946169813026e16e",
+            "size": 11684,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/818d9326b1524b8d9c65c8b298b2e335/thumbnails/bf24e09acf42403db92faa99d31e578b/c88ea6a27e42403d93f53c6bfbc9f420.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "a72f85216c8f49a49ab2359e44308707",
+            "size": 2762,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/818d9326b1524b8d9c65c8b298b2e335/thumbnails/bf24e09acf42403db92faa99d31e578b/a00c6c1c54a041429d2b0bb0b83091e1.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "8aa4667474eb4e3b81ede312f29f8ef4",
+            "size": 680,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/818d9326b1524b8d9c65c8b298b2e335/thumbnails/bf24e09acf42403db92faa99d31e578b/48250204746b4ab79e22775c079a6fcd.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a4a27cd6489c451db85371bce8028835",
+        "username": "Cheer_Up_Ship",
+        "displayName": "Mea",
+        "profileUrl": "https://sketchfab.com/Cheer_Up_Ship",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3910cd780243411cb34e89015fbcadde",
+          "images": [
+            {
+              "size": 2724,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/17266561997644848b070cfb2bef9b06.png",
+              "height": 32
+            },
+            {
+              "size": 5696,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/a90765bb14c440f5a442cfae87712b2d.png",
+              "height": 48
+            },
+            {
+              "size": 18077,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/814038ebfc4644cf8cb39564a6f37d16.png",
+              "height": 90
+            },
+            {
+              "size": 22022,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/da318fa5d66c4d1790b7ee81dd8f8323.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a4a27cd6489c451db85371bce8028835"
+      },
+      "description": "**PHN Lucena, 1929 BB**\n\nMain gun caliber - 15.7\u201d [400mm]\n\nSecondary gun caliber\u2026\n\n\u2026casemate guns: 6\u201d [155mm]\n\n\u2026single turret: 5\u201d [127mm]\n\n...pedestal mount: 3.9\" [105mm]\n\nDeck armor: 5\u201d [127mm]\n\nBelt armor: 13\u201d [330mm]\n\nBelt incline: 20 degrees\n\nCitadel armor: 15\u201d [381mm]\n\nSuperstructure armor: 6\u201d [155mm]\n\nTurret armor [main guns]: 16\u201d [406mm]\n\nTurret armor [secondary guns]: 2\u201d [50mm]\n\nother unspecified armor values are 13\", and conning tower counts in the superstructure part\n\nOuter hull thickness: 2.2\u201d\n\nDisplacement: Around 45,000 tons\n\nMaximum speed: 24 knots",
+      "faceCount": 574200,
+      "createdAt": "2021-02-03T04:31:16.739718",
+      "vertexCount": 272130,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 36838112,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 571146,
+          "vertexCount": 749346
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 9134095,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 571146,
+          "vertexCount": 749346
+        },
+        "source": {
+          "textureCount": null,
+          "size": 12051798,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 18725558,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/4d2dcbd68e4e46c38b169a606b7f7e69",
+      "uid": "4d2dcbd68e4e46c38b169a606b7f7e69",
+      "name": "1965 MBT A14 Mk.I",
+      "staffpickedAt": null,
+      "viewCount": 132,
+      "likeCount": 2,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-4d2dcbd68e4e46c38b169a606b7f7e69",
+      "embedUrl": "https://sketchfab.com/models/4d2dcbd68e4e46c38b169a606b7f7e69/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2022-04-08T09:36:11.203406",
+      "tags": [
+        {
+          "name": "main-battle-tank",
+          "slug": "main-battle-tank",
+          "uri": "https://api.sketchfab.com/v3/tags/main-battle-tank"
+        },
+        {
+          "name": "alternate-history",
+          "slug": "alternate-history",
+          "uri": "https://api.sketchfab.com/v3/tags/alternate-history"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "ac9b337df3a946e2afb7896bf2828322",
+            "size": 77610,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/4d2dcbd68e4e46c38b169a606b7f7e69/thumbnails/ed697ae8cea242b88c17755bd786589a/49a2a2603e4c4ba3a1653d01594ed1d3.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "3e632455b920448aaf842bade5ad2851",
+            "size": 27643,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/4d2dcbd68e4e46c38b169a606b7f7e69/thumbnails/ed697ae8cea242b88c17755bd786589a/f3d01ee13cb64c38ab5119d7ac359ad9.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "cec8606cbdbb4a12a25f5e14783225d3",
+            "size": 16509,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/4d2dcbd68e4e46c38b169a606b7f7e69/thumbnails/ed697ae8cea242b88c17755bd786589a/0a688e8f53704929a7491c6c8c321d19.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "5b5bb4bf3b6c41ebbf68618d2630edad",
+            "size": 3753,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/4d2dcbd68e4e46c38b169a606b7f7e69/thumbnails/ed697ae8cea242b88c17755bd786589a/691907fb5f294cd2850e395e010f7aa0.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "d06b26a7783549e795ea74d0e4ce3494",
+            "size": 993,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/4d2dcbd68e4e46c38b169a606b7f7e69/thumbnails/ed697ae8cea242b88c17755bd786589a/5f16d2af98104c209611e0c85838ba64.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a4a27cd6489c451db85371bce8028835",
+        "username": "Cheer_Up_Ship",
+        "displayName": "Mea",
+        "profileUrl": "https://sketchfab.com/Cheer_Up_Ship",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3910cd780243411cb34e89015fbcadde",
+          "images": [
+            {
+              "size": 2724,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/17266561997644848b070cfb2bef9b06.png",
+              "height": 32
+            },
+            {
+              "size": 5696,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/a90765bb14c440f5a442cfae87712b2d.png",
+              "height": 48
+            },
+            {
+              "size": 18077,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/814038ebfc4644cf8cb39564a6f37d16.png",
+              "height": 90
+            },
+            {
+              "size": 22022,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3910cd780243411cb34e89015fbcadde/da318fa5d66c4d1790b7ee81dd8f8323.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a4a27cd6489c451db85371bce8028835"
+      },
+      "description": "The A14, a main battle tank developed in 1963 and entering service in 1965. It is armed with a 105mm L7A1, two 7.92mm machine guns, and a single 10mm machine gun. It features composite armor on the front and sides of the turret as well as some minimal composite armor behind the hull's front armor slope.\n\n\nAnyway, I'm back. Not dead. Just took a long break from uploading.",
+      "faceCount": 256796,
+      "createdAt": "2022-04-08T09:31:07.634065",
+      "vertexCount": 119872,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    }
+  ]
+}

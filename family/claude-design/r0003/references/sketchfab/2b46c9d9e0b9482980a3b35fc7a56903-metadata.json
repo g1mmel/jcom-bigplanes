@@ -1,0 +1,162 @@
+{
+  "animationCount": 0,
+  "categories": [
+    {
+      "uid": "3badf36bd9f549bdba295334d75e04d3",
+      "name": "Weapons & Military",
+      "slug": "weapons-military",
+      "uri": "https://api.sketchfab.com/v3/categories/3badf36bd9f549bdba295334d75e04d3",
+      "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/6f71af8dadcca706c7404c9a0f82c1a3-v2.svg",
+      "thumbnails": [
+        {
+          "width": "512",
+          "height": "288",
+          "url": "https://static.sketchfab.com/categories/3badf36bd9f549bdba295334d75e04d3/512x288.png"
+        },
+        {
+          "width": "800",
+          "height": "450",
+          "url": "https://static.sketchfab.com/categories/3badf36bd9f549bdba295334d75e04d3/800x450.png"
+        }
+      ]
+    }
+  ],
+  "commentCount": 0,
+  "createdAt": "2020-05-16T14:27:32.354893",
+  "embedUrl": "https://sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/embed",
+  "faceCount": 1243600,
+  "isAgeRestricted": false,
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "likeCount": 38,
+  "name": "30mm Bushmaster Cannon",
+  "publishedAt": "2020-05-16T14:42:57.428400",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [
+    {
+      "name": "bullets",
+      "slug": "bullets",
+      "uri": "https://api.sketchfab.com/v3/tags/bullets"
+    },
+    {
+      "name": "30mm",
+      "slug": "30mm",
+      "uri": "https://api.sketchfab.com/v3/tags/30mm"
+    },
+    {
+      "name": "blackhole",
+      "slug": "blackhole",
+      "uri": "https://api.sketchfab.com/v3/tags/blackhole"
+    },
+    {
+      "name": "30mm-cannon",
+      "slug": "30mm-cannon",
+      "uri": "https://api.sketchfab.com/v3/tags/30mm-cannon"
+    }
+  ],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "89f50ec5ea03482aaa3d477a6c9526ec",
+        "width": 1920,
+        "height": 1080,
+        "size": 69617,
+        "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/d7168377fd264dd989b65bf17cf97df0.jpeg"
+      },
+      {
+        "uid": "f205e06a2a844d66bd9ef0e50922c57d",
+        "width": 1024,
+        "height": 576,
+        "size": 16570,
+        "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/619a8db60998405faebe055b1d578305.jpeg"
+      },
+      {
+        "uid": "8f98ba25e86c4cc794f67d1fee17ccda",
+        "width": 720,
+        "height": 405,
+        "size": 9777,
+        "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/89093eb1bbb04085a663a8cd73dbd5a6.jpeg"
+      },
+      {
+        "uid": "cefb157f4b9a4fefa23a135f170c0349",
+        "width": 256,
+        "height": 144,
+        "size": 2190,
+        "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/f3bc4a2dd3644542b9da4ce9cd012ab9.jpeg"
+      },
+      {
+        "uid": "6fca5eb1bf6940999ec99ba0c5f99310",
+        "width": 64,
+        "height": 36,
+        "size": 628,
+        "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/c28b6e71ba74480e87c07c6cbdecd3be.jpeg"
+      }
+    ]
+  },
+  "uid": "2b46c9d9e0b9482980a3b35fc7a56903",
+  "uri": "https://api.sketchfab.com/v3/models/2b46c9d9e0b9482980a3b35fc7a56903",
+  "user": {
+    "uid": "af8ba4b473ad41e69b58f1274ddd0f34",
+    "username": "blckhole",
+    "displayName": "Black Hole M. PR.",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/blckhole",
+    "avatar": {
+      "uid": "4bd0e966245b49d98e95f60044b804b9",
+      "uri": "https://api.sketchfab.com/v3/avatars/4bd0e966245b49d98e95f60044b804b9",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 824,
+          "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/f1a742d73932481d91738f8be165bdd2.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 973,
+          "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/8d78bd2a639542cbb01b18ce96062151.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 1382,
+          "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/90370d6670b74ac68ce5f7c65faf0cb1.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 1601,
+          "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/6f30d1048f0b4f42b716312174e16cd2.jpeg"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/af8ba4b473ad41e69b58f1274ddd0f34"
+  },
+  "vertexCount": 545177,
+  "viewCount": 1376,
+  "viewerUrl": "https://sketchfab.com/3d-models/30mm-bushmaster-cannon-2b46c9d9e0b9482980a3b35fc7a56903",
+  "isDownloadable": true,
+  "isProtected": false,
+  "description": "30mm bullet.\nBushmaster gun cannon\nHigh Quality Design, Detail and Model\n\n***Black Hole***",
+  "price": null,
+  "downloadCount": 314,
+  "editorUrl": "https://sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "website",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2023-01-07T23:08:46.005763",
+  "pbrType": null,
+  "textureCount": 2,
+  "materialCount": 10
+}

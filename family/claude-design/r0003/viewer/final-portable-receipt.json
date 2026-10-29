@@ -1,0 +1,59 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "artifacts": [
+    {
+      "path": "viewer/C130-family-portable.html",
+      "bytes": 35259062,
+      "sha256": "7a20212aad4630da879458cf5e0760bcba94ccbf94b40ebc3b1c0623d06142ad",
+      "models": [
+        "c130",
+        "ac130",
+        "ac130j",
+        "gau23-visual",
+        "m102-airborne-visual",
+        "eoir-visual"
+      ],
+      "final_notes_exact_match": true
+    },
+    {
+      "path": "components/eoir-visual/inspector.html",
+      "bytes": 2179348,
+      "sha256": "d1d85ad86dfbaf648e797b34cd971793fa2f8ac1b7790cc01a6198deb53c4e74",
+      "models": [
+        "eoir-visual"
+      ],
+      "final_notes_exact_match": true
+    },
+    {
+      "path": "components/m102-airborne-visual/inspector.html",
+      "bytes": 2413201,
+      "sha256": "02beb83e903a95855b96cc49a3bc2e3d9ff239c060a74d440005c10a95be31a5",
+      "models": [
+        "m102-airborne-visual"
+      ],
+      "final_notes_exact_match": true
+    },
+    {
+      "path": "components/gau23-visual/inspector.html",
+      "bytes": 2456965,
+      "sha256": "08685af0a205911d919e0d54d59216c430dc3669551677ad9f15ba0e1c963e9f",
+      "models": [
+        "gau23-visual"
+      ],
+      "final_notes_exact_match": true
+    }
+  ],
+  "browser_rendering": "NOT_RUN",
+  "focused_refresh": {
+    "rebuilt_and_verified": [
+      "viewer/C130-family-portable.html",
+      "components/gau23-visual/inspector.html"
+    ],
+    "unchanged_inspectors_retained": [
+      "components/m102-airborne-visual/inspector.html",
+      "components/eoir-visual/inspector.html"
+    ],
+    "notes": "Revision/reference text unchanged; previous verified 105/EOIR inspectors retained."
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "author": "claude-design",
+  "revision": "r0003",
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "components": [
+    {
+      "id": "gau23-visual",
+      "file": "components/gau23-visual/model.glb",
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "parent_aircraft_dependency": false
+    },
+    {
+      "id": "m102-airborne-visual",
+      "file": "components/m102-airborne-visual/model.glb",
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "parent_aircraft_dependency": false
+    },
+    {
+      "id": "eoir-visual",
+      "file": "components/eoir-visual/model.glb",
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "parent_aircraft_dependency": false
+    }
+  ],
+  "instances": [
+    {
+      "assembly": "ac130",
+      "component_id": "gau23-visual",
+      "node": "PIVOT_gun30_component",
+      "canonical_component_sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "world_rest_matrix_column_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2.125,
+        2.55,
+        -7.72,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    },
+    {
+      "assembly": "ac130",
+      "component_id": "m102-airborne-visual",
+      "node": "PIVOT_gun105_component",
+      "canonical_component_sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "world_rest_matrix_column_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2.022,
+        2.2,
+        2.35,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    },
+    {
+      "assembly": "ac130",
+      "component_id": "eoir-visual",
+      "node": "PIVOT_eoir_chin_component",
+      "canonical_component_sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "world_rest_matrix_column_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.15,
+        -13.92,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    },
+    {
+      "assembly": "ac130",
+      "component_id": "eoir-visual",
+      "node": "PIVOT_eoir_port_component",
+      "canonical_component_sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "world_rest_matrix_column_major": [
+        2.220446049250313e-16,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.220446049250313e-16,
+        0.0,
+        -1.42,
+        1.18,
+        -5.65,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    },
+    {
+      "assembly": "ac130j",
+      "component_id": "gau23-visual",
+      "node": "PIVOT_gun30_component",
+      "canonical_component_sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "world_rest_matrix_column_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2.125,
+        2.55,
+        -7.72,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    },
+    {
+      "assembly": "ac130j",
+      "component_id": "m102-airborne-visual",
+      "node": "PIVOT_gun105_component",
+      "canonical_component_sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "world_rest_matrix_column_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2.022,
+        2.2,
+        2.35,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    },
+    {
+      "assembly": "ac130j",
+      "component_id": "eoir-visual",
+      "node": "PIVOT_eoir_chin_component",
+      "canonical_component_sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "world_rest_matrix_column_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.15,
+        -13.92,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    },
+    {
+      "assembly": "ac130j",
+      "component_id": "eoir-visual",
+      "node": "PIVOT_eoir_port_component",
+      "canonical_component_sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "world_rest_matrix_column_major": [
+        2.220446049250313e-16,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.220446049250313e-16,
+        0.0,
+        -1.42,
+        1.18,
+        -5.65,
+        1.0
+      ],
+      "interface": "Aircraft-specific skin-conforming gun interface and J bag finish are assembly overrides; shared source definition retained."
+    }
+  ],
+  "note": "Software asset architecture; no real aircraft interchangeability claim."
+}

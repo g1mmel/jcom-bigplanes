@@ -1,0 +1,121 @@
+{
+  "animationCount": 0,
+  "categories": [],
+  "commentCount": 0,
+  "createdAt": "2020-06-25T00:08:46.778671",
+  "embedUrl": "https://sketchfab.com/models/411a4dd6915c4e1db39ab7372625e588/embed",
+  "faceCount": 32516,
+  "isAgeRestricted": false,
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "likeCount": 0,
+  "name": "Wescam Homeland Security",
+  "publishedAt": "2020-06-25T00:15:39.160526",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "46cfa58a303d4aa4bed6e78daade5879",
+        "width": 1920,
+        "height": 1080,
+        "size": 35499,
+        "url": "https://media.sketchfab.com/models/411a4dd6915c4e1db39ab7372625e588/thumbnails/a46fcfa881fe4ad589a2050fc3ed4c98/c781b12068db4d7d8a91ed76138a5ab6.jpeg"
+      },
+      {
+        "uid": "c757c57ba2814954a3f750ccf12fa47a",
+        "width": 1024,
+        "height": 576,
+        "size": 11898,
+        "url": "https://media.sketchfab.com/models/411a4dd6915c4e1db39ab7372625e588/thumbnails/a46fcfa881fe4ad589a2050fc3ed4c98/c76232c9ea5c413f803dc75f6ed0085f.jpeg"
+      },
+      {
+        "uid": "3f7f06985423446284ce04fb61821c4e",
+        "width": 720,
+        "height": 405,
+        "size": 6825,
+        "url": "https://media.sketchfab.com/models/411a4dd6915c4e1db39ab7372625e588/thumbnails/a46fcfa881fe4ad589a2050fc3ed4c98/4480fd0b73a8478caca738e418b9ff6c.jpeg"
+      },
+      {
+        "uid": "a71d662ea5b8437ba76b97e95817d22d",
+        "width": 256,
+        "height": 144,
+        "size": 1524,
+        "url": "https://media.sketchfab.com/models/411a4dd6915c4e1db39ab7372625e588/thumbnails/a46fcfa881fe4ad589a2050fc3ed4c98/7469ca9a7c304bfba694cbb6d2f53168.jpeg"
+      },
+      {
+        "uid": "aec2b5fee59a4478acbb75664199d01e",
+        "width": 64,
+        "height": 36,
+        "size": 446,
+        "url": "https://media.sketchfab.com/models/411a4dd6915c4e1db39ab7372625e588/thumbnails/a46fcfa881fe4ad589a2050fc3ed4c98/68a238e97be245149107a809e40a6785.jpeg"
+      }
+    ]
+  },
+  "uid": "411a4dd6915c4e1db39ab7372625e588",
+  "uri": "https://api.sketchfab.com/v3/models/411a4dd6915c4e1db39ab7372625e588",
+  "user": {
+    "uid": "5ed890fd4d9f4013a1d13ac3f44adabc",
+    "username": "jjwiseman",
+    "displayName": "jjwiseman",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/jjwiseman",
+    "avatar": {
+      "uid": "78fa317e46024a5283765aa34df5e508",
+      "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+      "images": [
+        {
+          "width": 100,
+          "height": 100,
+          "size": 6421,
+          "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 2518,
+          "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 5653,
+          "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "size": 1350,
+          "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/5ed890fd4d9f4013a1d13ac3f44adabc"
+  },
+  "vertexCount": 16403,
+  "viewCount": 111,
+  "viewerUrl": "https://sketchfab.com/3d-models/wescam-homeland-security-411a4dd6915c4e1db39ab7372625e588",
+  "isDownloadable": true,
+  "isProtected": false,
+  "description": "From https://www.youtube.com/watch?v=N_ZcZyQH1HE#t=0m59s",
+  "price": null,
+  "downloadCount": 13,
+  "editorUrl": "https://sketchfab.com/models/411a4dd6915c4e1db39ab7372625e588/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "website",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2022-03-27T15:29:03.818459",
+  "pbrType": null,
+  "textureCount": 1,
+  "materialCount": 1
+}

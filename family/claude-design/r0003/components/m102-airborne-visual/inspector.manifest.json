@@ -1,0 +1,10 @@
+{
+  "file": "inspector.html",
+  "bytes": 2413201,
+  "sha256": "02beb83e903a95855b96cc49a3bc2e3d9ff239c060a74d440005c10a95be31a5",
+  "source_models": {
+    "m102-airborne-visual": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026"
+  },
+  "dependencies": "three 0.170.0; embedded, no network; browser DecompressionStream gzip",
+  "runtime_render_validation": "NOT_RUN"
+}

@@ -1,0 +1,328 @@
+{
+  "author": "claude-design",
+  "asset_id": "eoir-visual",
+  "revision_label": "r0003",
+  "input": "components/eoir-visual/model.glb",
+  "input_sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+  "script_sha256": "dd9b31de2de6f5d2b67748372b7bfd05dbfc32e13cd456d351db41f2580aa06f",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "asset_objects": 47,
+  "meshes": 41,
+  "triangles": 10674,
+  "bounds_blender_m": {
+    "min": [
+      -0.2874600887298584,
+      -0.2814677059650421,
+      -0.3048212230205536
+    ],
+    "max": [
+      0.2874600887298584,
+      0.2814677059650421,
+      0.3100000023841858
+    ]
+  },
+  "coordinate_conversion": "Source glTF [x,y,z] -> native Blender [x,-z,y]; metres, scale 1",
+  "source_clip_names": [
+    "eoir_yaw",
+    "eoir_pitch"
+  ],
+  "native_action_names": [
+    "eoir_pitch",
+    "eoir_yaw"
+  ],
+  "native_animation_inventory": [
+    {
+      "node": "PIVOT_eoir_yaw",
+      "track": "eoir_yaw",
+      "strips": [
+        {
+          "name": "eoir_yaw",
+          "action": "eoir_yaw",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_eoir_pitch",
+      "track": "eoir_pitch",
+      "strips": [
+        {
+          "name": "eoir_pitch",
+          "action": "eoir_pitch",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    }
+  ],
+  "native_animation_evaluation": {
+    "result": "PASS",
+    "scope": "Eight samples per imported gun cycle / sensor action retained in named NLA tracks. Exact imported actions and action slots are evaluated natively. Actual mesh vertices and target matrices; no continuous collision or real operational certification.",
+    "clips": [
+      {
+        "clip": "eoir_pitch",
+        "native_track_count": 1,
+        "animated_target_nodes": [
+          "PIVOT_eoir_pitch"
+        ],
+        "animated_mesh_count": 34,
+        "sampled_vertex_count": 816,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.014752527698874474,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.014752527698874474
+            },
+            "max_sampled_vertex_displacement_m": 0.0036882308454980165
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.05401964113116264,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.05401964113116264
+            },
+            "max_sampled_vertex_displacement_m": 0.0135098400758875
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.14971910417079926,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.14971910417079926
+            },
+            "max_sampled_vertex_displacement_m": 0.03753569224427772
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.31681516766548157,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.31681516766548157
+            },
+            "max_sampled_vertex_displacement_m": 0.08024393016196728
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.5066431164741516,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.5066431164741516
+            },
+            "max_sampled_vertex_displacement_m": 0.1312650484404656
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.6578384637832642,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.6578384637832642
+            },
+            "max_sampled_vertex_displacement_m": 0.17565625432230403
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.7071069478988647,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_pitch": 0.7071069478988647
+            },
+            "max_sampled_vertex_displacement_m": 0.19134176125339583
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      },
+      {
+        "clip": "eoir_yaw",
+        "native_track_count": 1,
+        "animated_target_nodes": [
+          "PIVOT_eoir_yaw"
+        ],
+        "animated_mesh_count": 39,
+        "sampled_vertex_count": 936,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.008884185925126076,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.008884185925126076
+            },
+            "max_sampled_vertex_displacement_m": 0.0026139536172641712
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.02061767503619194,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.02061767503619194
+            },
+            "max_sampled_vertex_displacement_m": 0.006067305662693645
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.09899716638028622,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.09899716638028622
+            },
+            "max_sampled_vertex_displacement_m": 0.029177105548043106
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.28717908822000027,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.28717908822000027
+            },
+            "max_sampled_vertex_displacement_m": 0.08551620676080333
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.5921055730432272,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.5921055730432272
+            },
+            "max_sampled_vertex_displacement_m": 0.18394708592323125
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.8647270854562521,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.8647270854562521
+            },
+            "max_sampled_vertex_displacement_m": 0.29587553347962336
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.9820298608392477,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.9820298608392477
+            },
+            "max_sampled_vertex_displacement_m": 0.38512943708395153
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.9999606760840152,
+            "target_matrix_deltas": {
+              "PIVOT_eoir_yaw": 0.9999606760840152
+            },
+            "max_sampled_vertex_displacement_m": 0.4142413292986317
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      }
+    ]
+  },
+  "render_runtime": "Blender Cycles CPU",
+  "render_samples": 24,
+  "render_resolution": [
+    1000,
+    740
+  ],
+  "browser_rendering": "NOT_RUN",
+  "native_unreal": "NOT_RUN",
+  "continuous_clearance": "NOT_RUN",
+  "photographic_equivalence": "NOT_RUN",
+  "geometry_changes": "NONE; direct native glTF import",
+  "camera_contract": {
+    "source": "Script defaults / projected component bounds"
+  },
+  "renders": [
+    {
+      "path": "previews/system-eoir-visual-r0003-isolated-rest.png",
+      "sha256": "40980a9124b7f541b3fe78059641cffe6ed06a7994d9daf435e131dbfd47f04d",
+      "view": "isolated",
+      "camera_gltf": {
+        "position": [
+          -0.7377854585647583,
+          0.5251874327659607,
+          -1.1066781282424927
+        ],
+        "target": [
+          0.0,
+          0.002589389681816101,
+          -0.0
+        ],
+        "scale": 1.418081858673611,
+        "framing": "Projected source bounds plus 22 percent margin"
+      },
+      "pose": "rest",
+      "hidden_meshes": [],
+      "cutaway": false,
+      "inspection_light": false
+    }
+  ],
+  "controller_snapshot_source": {
+    "path": "qa/viewer-poses-eoir-visual.json",
+    "sha256": "ad5197f1c1da2f0a921d79dbe72a1a8b721b50fd2c17bc1241ef973ae7bdb829",
+    "result": "PASS",
+    "source_hash_checks": {
+      "model_sha256": true,
+      "controller_sha256": true,
+      "pose_driver_sha256": true
+    },
+    "pose_labels": [
+      "PARKED",
+      "SERVICE",
+      "FLYING",
+      "GLOBAL_0",
+      "GLOBAL_INSPECTION_OPEN",
+      "GLOBAL_25",
+      "GLOBAL_ACCESS_OPEN",
+      "GLOBAL_50",
+      "GLOBAL_75",
+      "GLOBAL_100",
+      "REVERSE_50",
+      "RESET"
+    ],
+    "scope": "Source identity check; this does not render the browser."
+  },
+  "editable_blend": {
+    "path": "components/eoir-visual/editable.blend",
+    "sha256": "3c5a45686da0bd6bf5493df678fa82e7d6816e4d7d186153ae604cb5be9b17ba",
+    "original_export_path": "editable/system-eoir-visual-r0003.blend",
+    "delivery_copy_verification": "Byte-identical to the imported/saved/reopened native scene"
+  },
+  "blend_reopen": {
+    "result": "PASS",
+    "asset_objects": 47,
+    "named_actions_retained": true,
+    "nla_track_inventory_retained": true,
+    "all_texture_images_packed": true
+  },
+  "render_pose": {
+    "source": "canonical imported rest"
+  },
+  "input_unchanged_during_review": true,
+  "status": "PASS"
+}

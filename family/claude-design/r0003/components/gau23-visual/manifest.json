@@ -1,0 +1,349 @@
+{
+  "schema": "jcnc-standalone-package-manifest-1",
+  "asset_id": "gau23-visual",
+  "revision": "r0003",
+  "author": "claude-design",
+  "acceptance": "DRAFT_ARTICULATED_REVIEW",
+  "model": {
+    "file": "model.glb",
+    "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+    "component_root": "PIVOT_gun30_component",
+    "units": "metres",
+    "aircraft_dependency": false
+  },
+  "editable_native": {
+    "file": "editable.blend",
+    "sha256": "f770ce3d046f2f90036cf00bd9f1a2aa25d95a887c97c4f6f20f799d0ef9dfd7",
+    "source_model_sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+    "blender_version": "4.5.15 LTS",
+    "import": "PASS",
+    "reopen": {
+      "result": "PASS",
+      "asset_objects": 103,
+      "named_actions_retained": true,
+      "nla_track_inventory_retained": true,
+      "all_texture_images_packed": true
+    },
+    "geometry_changes": "NONE; direct native glTF import"
+  },
+  "provenance": {
+    "geometry": "Original photo-guided visual component authored for this revision.",
+    "textures": "Original analytic PNGs; no third-party or photographic texture ingestion.",
+    "third_party_models_ingested": [],
+    "reference_pages": [
+      {
+        "label": "USAF/DVIDS: AC-130J exterior 30 mm installation",
+        "url": "https://www.dvidshub.net/image/6427944/ac-130j-crew-maintain-proficiency-combat-readiness"
+      },
+      {
+        "label": "USAF/DVIDS: AC-130W interior installation",
+        "url": "https://www.dvidshub.net/image/6317363/ac-130w-supports-uae-us-maritime-surface-warfare-exercise"
+      },
+      {
+        "label": "USAF/DVIDS: AC-130W live-fire visual reference",
+        "url": "https://www.dvidshub.net/image/3486265/live-fire-training-with-ac-130w"
+      },
+      {
+        "label": "USAF/DVIDS: AC-130J early firing reference",
+        "url": "https://www.dvidshub.net/image/3146917/angry-annie-fires-first-rounds"
+      }
+    ]
+  },
+  "existing_review_summary": {
+    "gltf_validator": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 31,
+      "issue_codes": {
+        "UNUSED_OBJECT": 30,
+        "IMAGE_NPOT_DIMENSIONS": 1
+      }
+    },
+    "scoped_geometry": {
+      "status": "PASS",
+      "triangles": 15719,
+      "meshes": 91,
+      "clips_total": 4,
+      "embedded_images": [
+        {
+          "image": 0,
+          "bytes": 4266,
+          "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+          "size": [
+            192,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 1,
+          "bytes": 4791,
+          "sha256": "f02b126e60594ec95c2be905921c83f82e4f83515927790e198ff98f7e7ea51a",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 2,
+          "bytes": 16976,
+          "sha256": "dc61d8ce06a0e3b5de405aabe5f9b26b29fbc3c45f754ce5edb1f2e4f0e4decb",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 3,
+          "bytes": 16981,
+          "sha256": "0c4df8333bd90a130c05fb37f762ded3c6acb69c5e2c7f604cc8980f0040dda9",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 4,
+          "bytes": 18269,
+          "sha256": "b710caacf5b5c1403a1dac3ad8871f4860dd0db345471d02be6ff7331b491929",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 5,
+          "bytes": 16992,
+          "sha256": "93d51f17961b5c3f35a1bdbb2186a67d4d5212ab9d0aa4ccb795e863cfd953e5",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 6,
+          "bytes": 18739,
+          "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 7,
+          "bytes": 18739,
+          "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        },
+        {
+          "image": 8,
+          "bytes": 16975,
+          "sha256": "96f0c718eff4e69887e25d09f0063ca617729bbe312b2b1cab8fd1b853f201df",
+          "size": [
+            128,
+            128
+          ],
+          "format": "PNG",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    "isolated_source_rebuild": {
+      "status": "PASS",
+      "network_disabled": true,
+      "parent_project_reads_forbidden": true,
+      "byte_identical": false,
+      "expected_byte_difference": "Assembly-built exports retain unused family material records and metadata; semantic payload is compared independently."
+    },
+    "native_review": "PASS",
+    "full_family_receipts": [
+      {
+        "path": "qa/gau23-visual.gltf-validator.json",
+        "sha256": "91b460c9e81513ef3cb8036d19efcae9ccb762a2f56f39c087f2781e66572f7f"
+      },
+      {
+        "path": "qa/system_geometry_report.json",
+        "sha256": "15eb9e737239dd8ebfa88fef87f413eab7fad449b13c434b74175435f05cd859"
+      },
+      {
+        "path": "qa/system-review-gau23-visual-r0003-rest.json",
+        "sha256": "69095a36b159997ac7d3abf571b668f3bc2b1bbd7a12bbdaec0596ed4994e75e"
+      }
+    ],
+    "receipt_note": "Summaries transcribed from the existing final-byte reviews; detailed receipts are distributed in the full family package. Packaging did not rerun geometry or runtime tests."
+  },
+  "limitations": [
+    "The visible mount, feed guides and case path are authored approximations of an aircraft installation. Mechanical internals and ammunition feeding are not simulated. The case is an empty visual prop; no projectile, ballistic path, fire-control solution, damage or combat behavior is supplied. The flash, smoke, recoil distance, motion limits and clip timing are presentation choices, not measured operating data. Use the fire cycle on its own when inspecting coordinated firing; its recoil track overlaps the separate recoil demonstration clip.",
+    "Appearance, dimensions and motion are visual approximations, not an operational model.",
+    "Photographic acceptance, native Unreal, runtime performance, damage and continuous collision clearance remain open."
+  ],
+  "hash_algorithm": "SHA-256",
+  "hash_scope": "Every regular file in this component directory, excluding only manifest.json. Archive is stored outside this directory to avoid recursion.",
+  "file_count_excluding_manifest": 24,
+  "bytes_excluding_manifest": 4091345,
+  "files": [
+    {
+      "path": "README.md",
+      "role": "metadata_or_documentation",
+      "bytes": 5294,
+      "sha256": "0c9055c236543b60b32f17c55f44f3a88783962c4a544bd6dffaff9c87e2d6b1"
+    },
+    {
+      "path": "articulation.json",
+      "role": "metadata_or_documentation",
+      "bytes": 8073,
+      "sha256": "29122b0ca3128086e723e3a251c669f4a17908837e0570fc3f407bd97a492bdd"
+    },
+    {
+      "path": "editable.blend",
+      "role": "reviewed_native_editable",
+      "bytes": 578899,
+      "sha256": "f770ce3d046f2f90036cf00bd9f1a2aa25d95a887c97c4f6f20f799d0ef9dfd7"
+    },
+    {
+      "path": "inspector.html",
+      "role": "portable_inspector_or_receipt",
+      "bytes": 2456965,
+      "sha256": "08685af0a205911d919e0d54d59216c430dc3669551677ad9f15ba0e1c963e9f"
+    },
+    {
+      "path": "inspector.html.qa.json",
+      "role": "portable_inspector_or_receipt",
+      "bytes": 846,
+      "sha256": "8fd1a701444a3f8a28c13da9c6c6c92b73200c74edb5adb2c54f824e5a1e9242"
+    },
+    {
+      "path": "inspector.manifest.json",
+      "role": "portable_inspector_or_receipt",
+      "bytes": 377,
+      "sha256": "c9e951da9d7036c23e8bd08d9631ce35a942e78c2c277a6a59eee9a0de19faba"
+    },
+    {
+      "path": "materials.json",
+      "role": "metadata_or_documentation",
+      "bytes": 40223,
+      "sha256": "aff01e4ad2053b189d973807349dee672186d770aed64505f3f12ab7b8f3af4c"
+    },
+    {
+      "path": "model.glb",
+      "role": "standalone_model",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053"
+    },
+    {
+      "path": "source/component.json",
+      "role": "independent_authoring_source",
+      "bytes": 111,
+      "sha256": "663ca650260e50fa53affc57765050172e2b17cc3be991ede234fc776f393977"
+    },
+    {
+      "path": "source/component_source.py",
+      "role": "independent_authoring_source",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b"
+    },
+    {
+      "path": "source/eoir_component.py",
+      "role": "independent_authoring_source",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4"
+    },
+    {
+      "path": "source/gltf_core.py",
+      "role": "independent_authoring_source",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953"
+    },
+    {
+      "path": "source/gun_components.py",
+      "role": "independent_authoring_source",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f"
+    },
+    {
+      "path": "source/requirements.txt",
+      "role": "independent_authoring_source",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed"
+    },
+    {
+      "path": "textures/README.md",
+      "role": "texture_export_or_documentation",
+      "bytes": 678,
+      "sha256": "d0e6553e8fb64f57a9697bd05b985f854d2690eb24ffb7da72066de88af026b0"
+    },
+    {
+      "path": "textures/image-00-muzzle-flash-soft-alpha.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98"
+    },
+    {
+      "path": "textures/image-01-smoke-soft-alpha.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 4791,
+      "sha256": "f02b126e60594ec95c2be905921c83f82e4f83515927790e198ff98f7e7ea51a"
+    },
+    {
+      "path": "textures/image-02-gun-metallic-roughness.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 16976,
+      "sha256": "dc61d8ce06a0e3b5de405aabe5f9b26b29fbc3c45f754ce5edb1f2e4f0e4decb"
+    },
+    {
+      "path": "textures/image-03-mount-paint-metallic-roughness.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 16981,
+      "sha256": "0c4df8333bd90a130c05fb37f762ded3c6acb69c5e2c7f604cc8980f0040dda9"
+    },
+    {
+      "path": "textures/image-04-canvas-boot-metallic-roughness.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 18269,
+      "sha256": "b710caacf5b5c1403a1dac3ad8871f4860dd0db345471d02be6ff7331b491929"
+    },
+    {
+      "path": "textures/image-05-ochre-guard-metallic-roughness.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 16992,
+      "sha256": "93d51f17961b5c3f35a1bdbb2186a67d4d5212ab9d0aa4ccb795e863cfd953e5"
+    },
+    {
+      "path": "textures/image-06-khaki-bag-metallic-roughness.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f"
+    },
+    {
+      "path": "textures/image-07-orange-bag-metallic-roughness.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f"
+    },
+    {
+      "path": "textures/image-08-brass-case-metallic-roughness.png",
+      "role": "texture_export_or_documentation",
+      "bytes": 16975,
+      "sha256": "96f0c718eff4e69887e25d09f0063ca617729bbe312b2b1cab8fd1b853f201df"
+    }
+  ]
+}

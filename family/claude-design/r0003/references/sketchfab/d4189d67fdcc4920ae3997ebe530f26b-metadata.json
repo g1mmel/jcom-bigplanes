@@ -1,0 +1,141 @@
+{
+  "animationCount": 0,
+  "categories": [
+    {
+      "uid": "22a2f677efad4d7bbca5ad45f9b5868e",
+      "name": "Cars & Vehicles",
+      "slug": "cars-vehicles",
+      "uri": "https://api.sketchfab.com/v3/categories/22a2f677efad4d7bbca5ad45f9b5868e",
+      "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/45dd0cc0860ac57fcd63bde1cc3f2b7c-v2.svg",
+      "thumbnails": [
+        {
+          "width": "512",
+          "height": "288",
+          "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/512x288.png"
+        },
+        {
+          "width": "800",
+          "height": "450",
+          "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/800x450.png"
+        }
+      ]
+    }
+  ],
+  "commentCount": 1,
+  "createdAt": "2023-08-08T16:17:15.092636",
+  "embedUrl": "https://sketchfab.com/models/d4189d67fdcc4920ae3997ebe530f26b/embed",
+  "faceCount": 7097,
+  "isAgeRestricted": false,
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "likeCount": 59,
+  "name": "M102 howitzer",
+  "publishedAt": "2023-08-08T16:21:00.433039",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "e298e5dc86a145e7abedbc32cf67566c",
+        "width": 1920,
+        "height": 1080,
+        "size": 104708,
+        "url": "https://media.sketchfab.com/models/d4189d67fdcc4920ae3997ebe530f26b/thumbnails/5db40a11309b472da12217dc8f112935/b16dd92780264a7db455bcde873459e8.jpeg"
+      },
+      {
+        "uid": "a3823ddfc5324b1e99f8fa35e291a94d",
+        "width": 1024,
+        "height": 576,
+        "size": 33244,
+        "url": "https://media.sketchfab.com/models/d4189d67fdcc4920ae3997ebe530f26b/thumbnails/5db40a11309b472da12217dc8f112935/4a212d23505b44cfbe741a99cc3960a2.jpeg"
+      },
+      {
+        "uid": "5cd10798d29c454fb6c2b9aa9a9f9250",
+        "width": 720,
+        "height": 405,
+        "size": 19204,
+        "url": "https://media.sketchfab.com/models/d4189d67fdcc4920ae3997ebe530f26b/thumbnails/5db40a11309b472da12217dc8f112935/23856505f72440019b45c3faf498413f.jpeg"
+      },
+      {
+        "uid": "8e0221f0eef14998a4051f970c9cbfb7",
+        "width": 256,
+        "height": 144,
+        "size": 4399,
+        "url": "https://media.sketchfab.com/models/d4189d67fdcc4920ae3997ebe530f26b/thumbnails/5db40a11309b472da12217dc8f112935/fadc567e005e4d5a9adccb6ab7c40dcd.jpeg"
+      },
+      {
+        "uid": "c63f003e8c9e44d0b244bcb768297a46",
+        "width": 64,
+        "height": 36,
+        "size": 1132,
+        "url": "https://media.sketchfab.com/models/d4189d67fdcc4920ae3997ebe530f26b/thumbnails/5db40a11309b472da12217dc8f112935/1fc27eb2414049de99cd56031776c10b.jpeg"
+      }
+    ]
+  },
+  "uid": "d4189d67fdcc4920ae3997ebe530f26b",
+  "uri": "https://api.sketchfab.com/v3/models/d4189d67fdcc4920ae3997ebe530f26b",
+  "user": {
+    "uid": "631ef8cced324f54ab7ed6e3d901bd6d",
+    "username": "tnikita",
+    "displayName": "Ford mondeo",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/tnikita",
+    "avatar": {
+      "uid": "ce9eb74731394f2d842f53cb3af344c6",
+      "uri": "https://api.sketchfab.com/v3/avatars/ce9eb74731394f2d842f53cb3af344c6",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 2396,
+          "url": "https://media.sketchfab.com/avatars/ce9eb74731394f2d842f53cb3af344c6/7546b04f90bc44bc831794580f0c428f.png"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 4876,
+          "url": "https://media.sketchfab.com/avatars/ce9eb74731394f2d842f53cb3af344c6/343ff8cb259044c7a14c8880c1bd7422.png"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 14601,
+          "url": "https://media.sketchfab.com/avatars/ce9eb74731394f2d842f53cb3af344c6/0ac68c193d984e4b882b8ed0d14e11d1.png"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 17480,
+          "url": "https://media.sketchfab.com/avatars/ce9eb74731394f2d842f53cb3af344c6/cbaa7a6607424487ba3793a2e225923a.png"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/631ef8cced324f54ab7ed6e3d901bd6d"
+  },
+  "vertexCount": 4725,
+  "viewCount": 2716,
+  "viewerUrl": "https://sketchfab.com/3d-models/m102-howitzer-d4189d67fdcc4920ae3997ebe530f26b",
+  "isDownloadable": true,
+  "isProtected": false,
+  "description": "",
+  "price": null,
+  "downloadCount": 734,
+  "editorUrl": "https://sketchfab.com/models/d4189d67fdcc4920ae3997ebe530f26b/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "website",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2023-08-08T16:21:42.673210",
+  "pbrType": null,
+  "textureCount": 1,
+  "materialCount": 2
+}

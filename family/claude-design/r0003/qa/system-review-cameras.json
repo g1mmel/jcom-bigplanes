@@ -1,0 +1,137 @@
+{
+  "author": "claude-design",
+  "basis": "Source glTF +Y up, nose -Z. Original sidecar locations; 30 exterior camera moved forward to avoid the propeller. Orthographic scales are authored inspection values.",
+  "cameras": {
+    "hero": {
+      "id": "hero",
+      "position": [
+        -36,
+        20,
+        -35
+      ],
+      "target": [
+        0,
+        3,
+        0
+      ]
+    },
+    "port": {
+      "id": "port",
+      "position": [
+        -38,
+        6,
+        0
+      ],
+      "target": [
+        0,
+        3,
+        0
+      ]
+    },
+    "cargo": {
+      "id": "cargo",
+      "position": [
+        -8,
+        6,
+        16
+      ],
+      "target": [
+        0,
+        2,
+        3
+      ]
+    },
+    "gun30": {
+      "id": "gun30",
+      "position": [
+        -5.5,
+        3.0,
+        -9.6
+      ],
+      "target": [
+        -2.3,
+        2.5,
+        -7.7
+      ],
+      "scale": 3.7
+    },
+    "gun105": {
+      "id": "gun105",
+      "position": [
+        -5.5,
+        2.9,
+        5.1
+      ],
+      "target": [
+        -2.3,
+        2.2,
+        2.35
+      ],
+      "scale": 4.3
+    },
+    "internal30": {
+      "id": "internal30",
+      "position": [
+        0.6,
+        2.9,
+        -6.3
+      ],
+      "target": [
+        -1.1,
+        2.2,
+        -7.7
+      ],
+      "scale": 2.8,
+      "inspection_fill": true
+    },
+    "internal105": {
+      "id": "internal105",
+      "position": [
+        0.8,
+        2.9,
+        4.2
+      ],
+      "target": [
+        -0.8,
+        2.0,
+        2.35
+      ],
+      "scale": 3.3,
+      "inspection_fill": true
+    },
+    "internal30-cutaway": {
+      "id": "internal30",
+      "position": [
+        0.6,
+        2.9,
+        -6.3
+      ],
+      "target": [
+        -1.1,
+        2.2,
+        -7.7
+      ],
+      "scale": 2.8,
+      "inspection_fill": true,
+      "cutaway": true,
+      "keep_mesh_regex": "gun30|PANEL_GUN30"
+    },
+    "internal105-cutaway": {
+      "id": "internal105",
+      "position": [
+        0.8,
+        2.9,
+        4.2
+      ],
+      "target": [
+        -0.8,
+        2.0,
+        2.35
+      ],
+      "scale": 3.3,
+      "inspection_fill": true,
+      "cutaway": true,
+      "keep_mesh_regex": "gun105|PANEL_GUN105|PANEL_AFT_PORT_GUN_STATION"
+    }
+  }
+}

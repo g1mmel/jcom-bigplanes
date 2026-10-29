@@ -1,0 +1,658 @@
+{
+  "cursors": {
+    "next": null,
+    "previous": null
+  },
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/fd4ad64dbad64ef99c82d1e1b1fa1e72",
+      "uid": "fd4ad64dbad64ef99c82d1e1b1fa1e72",
+      "name": "Gau MX-23",
+      "staffpickedAt": null,
+      "viewCount": 1778,
+      "likeCount": 40,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-fd4ad64dbad64ef99c82d1e1b1fa1e72",
+      "embedUrl": "https://sketchfab.com/models/fd4ad64dbad64ef99c82d1e1b1fa1e72/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2024-06-08T16:47:56.914440",
+      "tags": [
+        {
+          "name": "high",
+          "slug": "high",
+          "uri": "https://api.sketchfab.com/v3/tags/high"
+        },
+        {
+          "name": "resolution",
+          "slug": "resolution",
+          "uri": "https://api.sketchfab.com/v3/tags/resolution"
+        },
+        {
+          "name": "heavy",
+          "slug": "heavy",
+          "uri": "https://api.sketchfab.com/v3/tags/heavy"
+        },
+        {
+          "name": "artillery",
+          "slug": "artillery",
+          "uri": "https://api.sketchfab.com/v3/tags/artillery"
+        },
+        {
+          "name": "defense",
+          "slug": "defense",
+          "uri": "https://api.sketchfab.com/v3/tags/defense"
+        },
+        {
+          "name": "firearm",
+          "slug": "firearm",
+          "uri": "https://api.sketchfab.com/v3/tags/firearm"
+        },
+        {
+          "name": "high-poly",
+          "slug": "high-poly",
+          "uri": "https://api.sketchfab.com/v3/tags/high-poly"
+        },
+        {
+          "name": "fbx",
+          "slug": "fbx",
+          "uri": "https://api.sketchfab.com/v3/tags/fbx"
+        },
+        {
+          "name": "marius",
+          "slug": "marius",
+          "uri": "https://api.sketchfab.com/v3/tags/marius"
+        },
+        {
+          "name": "combat",
+          "slug": "combat",
+          "uri": "https://api.sketchfab.com/v3/tags/combat"
+        },
+        {
+          "name": "realistic",
+          "slug": "realistic",
+          "uri": "https://api.sketchfab.com/v3/tags/realistic"
+        },
+        {
+          "name": "machine",
+          "slug": "machine",
+          "uri": "https://api.sketchfab.com/v3/tags/machine"
+        },
+        {
+          "name": "cannon",
+          "slug": "cannon",
+          "uri": "https://api.sketchfab.com/v3/tags/cannon"
+        },
+        {
+          "name": "tactical",
+          "slug": "tactical",
+          "uri": "https://api.sketchfab.com/v3/tags/tactical"
+        },
+        {
+          "name": "weaponry",
+          "slug": "weaponry",
+          "uri": "https://api.sketchfab.com/v3/tags/weaponry"
+        },
+        {
+          "name": "rotary",
+          "slug": "rotary",
+          "uri": "https://api.sketchfab.com/v3/tags/rotary"
+        },
+        {
+          "name": "gau",
+          "slug": "gau",
+          "uri": "https://api.sketchfab.com/v3/tags/gau"
+        },
+        {
+          "name": "modernized",
+          "slug": "modernized",
+          "uri": "https://api.sketchfab.com/v3/tags/modernized"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "art",
+          "slug": "art",
+          "uri": "https://api.sketchfab.com/v3/tags/art"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "technology",
+          "slug": "technology",
+          "uri": "https://api.sketchfab.com/v3/tags/technology"
+        },
+        {
+          "name": "digital",
+          "slug": "digital",
+          "uri": "https://api.sketchfab.com/v3/tags/digital"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "engineering",
+          "slug": "engineering",
+          "uri": "https://api.sketchfab.com/v3/tags/engineering"
+        },
+        {
+          "name": "omassyx",
+          "slug": "omassyx",
+          "uri": "https://api.sketchfab.com/v3/tags/omassyx"
+        },
+        {
+          "name": "omsx",
+          "slug": "omsx",
+          "uri": "https://api.sketchfab.com/v3/tags/omsx"
+        },
+        {
+          "name": "mx-23",
+          "slug": "mx-23",
+          "uri": "https://api.sketchfab.com/v3/tags/mx-23"
+        },
+        {
+          "name": "gau-19",
+          "slug": "gau-19",
+          "uri": "https://api.sketchfab.com/v3/tags/gau-19"
+        },
+        {
+          "name": "ciulei",
+          "slug": "ciulei",
+          "uri": "https://api.sketchfab.com/v3/tags/ciulei"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "46e51a53fa8e4cac9a0f259234e1adc0",
+            "size": 270518,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/fd4ad64dbad64ef99c82d1e1b1fa1e72/thumbnails/5d3016b82b844dcc8188296e138c3410/d6e0a89069ac4737acf1d9eeb00ac03a.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "2286e05dfd1c4aaabb9805e26b5698ae",
+            "size": 43764,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/fd4ad64dbad64ef99c82d1e1b1fa1e72/thumbnails/5d3016b82b844dcc8188296e138c3410/22c32265d5d1421ba07404853e4cb730.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "4a8b35f85a6a4d6198f6bdf3964f68fc",
+            "size": 23020,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/fd4ad64dbad64ef99c82d1e1b1fa1e72/thumbnails/5d3016b82b844dcc8188296e138c3410/6a7e42fa8adb42039203038c1f7550d8.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "13a226c255f14e369cbccf9edee230c5",
+            "size": 4722,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/fd4ad64dbad64ef99c82d1e1b1fa1e72/thumbnails/5d3016b82b844dcc8188296e138c3410/4095660223164530b109274f57d5abe7.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "dddde1a69dc147a28de23523f23dbb9b",
+            "size": 1107,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/fd4ad64dbad64ef99c82d1e1b1fa1e72/thumbnails/5d3016b82b844dcc8188296e138c3410/3b9bafdc19854902a5538d31101c7abf.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6ed42f9c28634ccd8f965cf955c71e25",
+        "username": "omassyx",
+        "displayName": "Marius Ciulei",
+        "profileUrl": "https://sketchfab.com/omassyx",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/09196f43a25541a3a7bcaaab1bf2161b",
+          "images": [
+            {
+              "size": 2671,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/09196f43a25541a3a7bcaaab1bf2161b/025a3e4abd2446b3a0d1f0a91c41a599.png",
+              "height": 32
+            },
+            {
+              "size": 5607,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/09196f43a25541a3a7bcaaab1bf2161b/4c266af17f424c59a2841904d56c8733.png",
+              "height": 48
+            },
+            {
+              "size": 18194,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/09196f43a25541a3a7bcaaab1bf2161b/b21f7f66ce9a4c95a4643ecb094fdcbb.png",
+              "height": 90
+            },
+            {
+              "size": 22153,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/09196f43a25541a3a7bcaaab1bf2161b/8fd2285948764be09720db881aef9ed0.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6ed42f9c28634ccd8f965cf955c71e25"
+      },
+      "description": "The GAU MX-23 is an advanced rotary cannon designed for modern combat scenarios. Its high rate of fire, combined with precision engineering, makes it an indispensable asset in any military arsenal.\n\nFormat: Highpoly FBX\n\n3D mesh data only ( NO UVs, NO Textures )\n\nMade in #Zbrush.",
+      "faceCount": 1938040,
+      "createdAt": "2024-06-08T16:02:16.371026",
+      "vertexCount": 969125,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 145657772,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 1938001,
+          "vertexCount": 3058786
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 51062459,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 1938001,
+          "vertexCount": 3058786
+        },
+        "source": {
+          "textureCount": null,
+          "size": 81881148,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 76198225,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/0b45fcc7f93c490cb56091a61317a77a",
+      "uid": "0b45fcc7f93c490cb56091a61317a77a",
+      "name": "VM-3A \"Locust\" Gunship",
+      "staffpickedAt": null,
+      "viewCount": 7745,
+      "likeCount": 17,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-0b45fcc7f93c490cb56091a61317a77a",
+      "embedUrl": "https://sketchfab.com/models/0b45fcc7f93c490cb56091a61317a77a/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2023-05-27T20:51:04.257181",
+      "tags": [
+        {
+          "name": "vtol",
+          "slug": "vtol",
+          "uri": "https://api.sketchfab.com/v3/tags/vtol"
+        },
+        {
+          "name": "avatar",
+          "slug": "avatar",
+          "uri": "https://api.sketchfab.com/v3/tags/avatar"
+        },
+        {
+          "name": "transport",
+          "slug": "transport",
+          "uri": "https://api.sketchfab.com/v3/tags/transport"
+        },
+        {
+          "name": "heli",
+          "slug": "heli",
+          "uri": "https://api.sketchfab.com/v3/tags/heli"
+        },
+        {
+          "name": "aircraft",
+          "slug": "aircraft",
+          "uri": "https://api.sketchfab.com/v3/tags/aircraft"
+        },
+        {
+          "name": "weaponry",
+          "slug": "weaponry",
+          "uri": "https://api.sketchfab.com/v3/tags/weaponry"
+        },
+        {
+          "name": "helicopters",
+          "slug": "helicopters",
+          "uri": "https://api.sketchfab.com/v3/tags/helicopters"
+        },
+        {
+          "name": "military-vehicle",
+          "slug": "military-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/military-vehicle"
+        },
+        {
+          "name": "military-aircraft",
+          "slug": "military-aircraft",
+          "uri": "https://api.sketchfab.com/v3/tags/military-aircraft"
+        },
+        {
+          "name": "attack-helicopter",
+          "slug": "attack-helicopter",
+          "uri": "https://api.sketchfab.com/v3/tags/attack-helicopter"
+        },
+        {
+          "name": "transport-vehicles",
+          "slug": "transport-vehicles",
+          "uri": "https://api.sketchfab.com/v3/tags/transport-vehicles"
+        },
+        {
+          "name": "unity",
+          "slug": "unity",
+          "uri": "https://api.sketchfab.com/v3/tags/unity"
+        },
+        {
+          "name": "unity3d",
+          "slug": "unity3d",
+          "uri": "https://api.sketchfab.com/v3/tags/unity3d"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "helicopter",
+          "slug": "helicopter",
+          "uri": "https://api.sketchfab.com/v3/tags/helicopter"
+        },
+        {
+          "name": "vtol-aircraft",
+          "slug": "vtol-aircraft",
+          "uri": "https://api.sketchfab.com/v3/tags/vtol-aircraft"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        },
+        {
+          "name": "twinrotor",
+          "slug": "twinrotor",
+          "uri": "https://api.sketchfab.com/v3/tags/twinrotor"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "6448f8e73e49413bbf808df25108afe3",
+            "size": 153720,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/0b45fcc7f93c490cb56091a61317a77a/thumbnails/dd26a965e3d94b8ba75cf37f6125ee44/b5eb576deca54eafb4a55573f12b3bb4.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "db08e9e2bc754017b03e1acf48b20683",
+            "size": 23132,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/0b45fcc7f93c490cb56091a61317a77a/thumbnails/dd26a965e3d94b8ba75cf37f6125ee44/6e9bd9e74c2049c1a05e586db3923555.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "2e3d623a7759483a81d5408c23bb5aec",
+            "size": 13119,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/0b45fcc7f93c490cb56091a61317a77a/thumbnails/dd26a965e3d94b8ba75cf37f6125ee44/151a3ac20f6340f79ac893c5dadc6110.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "3d31042f95c84d3888cbfec2373041ac",
+            "size": 2867,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/0b45fcc7f93c490cb56091a61317a77a/thumbnails/dd26a965e3d94b8ba75cf37f6125ee44/fa70badae3834444b448b013bd92820a.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "6de2a4134d3a4b62924f2d8e0151de7f",
+            "size": 916,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/0b45fcc7f93c490cb56091a61317a77a/thumbnails/dd26a965e3d94b8ba75cf37f6125ee44/ee886745f961412593869cec5284c23a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a00b82b9bb7646af95081cb39cc5842b",
+        "username": "ghostrifter",
+        "displayName": "ghostrifter",
+        "profileUrl": "https://sketchfab.com/ghostrifter",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/84a2ae3720bb49fe83e577556e75b549",
+          "images": [
+            {
+              "size": 1066,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/84a2ae3720bb49fe83e577556e75b549/44e022b936374f1fbbb5fba21ac90c78.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1307,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/84a2ae3720bb49fe83e577556e75b549/071c5f6cbbf24866bb8f3bb3cb169f10.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2128,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/84a2ae3720bb49fe83e577556e75b549/ec002cdd006640668dfd81050f14f548.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2324,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/84a2ae3720bb49fe83e577556e75b549/f86dbf4310b94dccb04b5f6e3e8b3dfa.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a00b82b9bb7646af95081cb39cc5842b"
+      },
+      "description": "General Info:\nThe VM-3A \u201cLocust\u201d Gunship is a multirole rotorwing aircraft. It was designed to serve as both an utility and attack tiltrotor in a single package. Due to being heavily armed as well as keeping the cargo capabilities, it is much heavier, requiring it\u2019s more advanced engine.\n\nThe Locust has a cargo area which is commonly used to transport personel. In case of a logistics mission, the passenger seats can be removed, allowing for additional cargo space. Hook points are mounted on the skid for slingloading operations, allowing the Locust to carry extra or oversized cargo externally.\n\nCrew:\nThe \"Locust\" can fit 11 occupants: 1 pilot, 2 door gunners and 8 passengers.\n\nThe pilot has access to: 2x GAU 26-C Dual Gatling Gun, 2x VF-45 WAFAR Missile Pod, 8x Falcon AGM-217 HELLFIRE Missile\n\nThe door gunner has access to: MKR-23 Light Machine Gun",
+      "faceCount": 54100,
+      "createdAt": "2023-05-27T20:34:35.543178",
+      "vertexCount": 32584,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/5bf4ef8d4cd14deaa17717b2ef04c97a",
+      "uid": "5bf4ef8d4cd14deaa17717b2ef04c97a",
+      "name": "Noburo Heavy Fighter",
+      "staffpickedAt": null,
+      "viewCount": 136,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-5bf4ef8d4cd14deaa17717b2ef04c97a",
+      "embedUrl": "https://sketchfab.com/models/5bf4ef8d4cd14deaa17717b2ef04c97a/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2019-10-15T18:42:52.416339",
+      "tags": [
+        {
+          "name": "starmade",
+          "slug": "starmade",
+          "uri": "https://api.sketchfab.com/v3/tags/starmade"
+        },
+        {
+          "name": "heavy-fighter",
+          "slug": "heavy-fighter",
+          "uri": "https://api.sketchfab.com/v3/tags/heavy-fighter"
+        },
+        {
+          "name": "klawxx",
+          "slug": "klawxx",
+          "uri": "https://api.sketchfab.com/v3/tags/klawxx"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0a5a0165367d48d6bed6d6294980b0fc",
+            "size": 164219,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/5bf4ef8d4cd14deaa17717b2ef04c97a/thumbnails/de6c9cacbc2e4e1f97afee03fe398d40/925bd4ab2ecb4826976b48da5d6acfc5.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "1d5242a89e9b4095bca256861bd25ac8",
+            "size": 55410,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/5bf4ef8d4cd14deaa17717b2ef04c97a/thumbnails/de6c9cacbc2e4e1f97afee03fe398d40/f938fd70147b44938b2cadc5bfca5bc5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "bf2d5f1e72784f4981d9f97da1bd77fe",
+            "size": 33804,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/5bf4ef8d4cd14deaa17717b2ef04c97a/thumbnails/de6c9cacbc2e4e1f97afee03fe398d40/7dcb4a7657f84c60ba117f3fe8a6636a.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "970f0a2f7b4944a8964553f4549bf7d9",
+            "size": 6791,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/5bf4ef8d4cd14deaa17717b2ef04c97a/thumbnails/de6c9cacbc2e4e1f97afee03fe398d40/3f2d0bb7b3904048bfd8283036d0ff02.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "97fcc6182e9d4adaa6410e0c44fbf00d",
+            "size": 931,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/5bf4ef8d4cd14deaa17717b2ef04c97a/thumbnails/de6c9cacbc2e4e1f97afee03fe398d40/305a8b85d4714aff8e4aec6283a74985.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "7e1a069ea7564e418d1a687204656933",
+        "username": "klawxx",
+        "displayName": "klawxx",
+        "profileUrl": "https://sketchfab.com/klawxx",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/2ea16d4bdca0402b8098c3bd45696e39",
+          "images": [
+            {
+              "size": 776,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/2ea16d4bdca0402b8098c3bd45696e39/c9e1963f9b664a81b40365e3973705fa.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1260,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/2ea16d4bdca0402b8098c3bd45696e39/66a30699619041aba0a6370d36a3f6e2.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3300,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/2ea16d4bdca0402b8098c3bd45696e39/046013660409442b805e79fadcaac716.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3928,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/2ea16d4bdca0402b8098c3bd45696e39/f1a4cf06269446c6b5a7cb6a02cee004.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/7e1a069ea7564e418d1a687204656933"
+      },
+      "description": "Noburo Heavy Fighter - The coolest fighter sized ship you will find on the StarMade Dock!\n\nThis is the Fighter sized ship of the Klawxx Dominion Faction. You may fly it only if you have the \"Awesomely Special Forces Flight License TM\"(A.K.A: ASFFL) from the Klawxx Dominion Navy... Just Kidding: These babies look so cool that they have been smuggled to all the corners of the known universe and everyone can buy one, If they have the credits. Emperor Klawxx turn a blind eye to this black market operation, since it allowed him to be known as an incredible ruler and ship designer throughout the entire universe.\n\nDimensions (Main Fuselage):\n+Length: 23 m\n+Height 13 m\n+Width: 33 m\n\nStatistics:\n+ Mass: 240.5\n+ Shields: 72,000 (2,000 s/sec.)\n+ Power: 4,900 e/sec. (100% stable with 10% buffer)\n+ Thrust ratio: 2.5\n\nWeapons:\n+ 75mm GAU Laser auto-cannon (Logic controlled, three barreled cannon!)\n+ Dual Heavy Missile System (Lock-on Missile x2)",
+      "faceCount": 25126,
+      "createdAt": "2019-10-15T17:40:13.725186",
+      "vertexCount": 11223,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 18,
+          "size": 35800400,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 21289,
+          "vertexCount": 41431
+        },
+        "gltf": {
+          "textureCount": 18,
+          "size": 34138542,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 21289,
+          "vertexCount": 41431
+        },
+        "source": {
+          "textureCount": null,
+          "size": 64163724,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 9836869,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    }
+  ]
+}

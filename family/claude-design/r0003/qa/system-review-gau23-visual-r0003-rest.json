@@ -1,0 +1,335 @@
+{
+  "author": "claude-design",
+  "asset_id": "gau23-visual",
+  "revision_label": "r0003",
+  "input": "components/gau23-visual/model.glb",
+  "input_sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+  "script_sha256": "dd9b31de2de6f5d2b67748372b7bfd05dbfc32e13cd456d351db41f2580aa06f",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "asset_objects": 103,
+  "meshes": 91,
+  "triangles": 15719,
+  "bounds_blender_m": {
+    "min": [
+      -1.9100499153137207,
+      -0.578000009059906,
+      -1.059999942779541
+    ],
+    "max": [
+      1.4800000190734863,
+      0.578000009059906,
+      0.6539999842643738
+    ]
+  },
+  "coordinate_conversion": "Source glTF [x,y,z] -> native Blender [x,-z,y]; metres, scale 1",
+  "source_clip_names": [
+    "gun30_yaw",
+    "gun30_pitch",
+    "gun30_recoil",
+    "gun30_fire_cycle"
+  ],
+  "native_action_names": [
+    "gun30_fire_cycle",
+    "gun30_pitch",
+    "gun30_recoil",
+    "gun30_yaw"
+  ],
+  "native_animation_inventory": [
+    {
+      "node": "PIVOT_gun30_yaw",
+      "track": "gun30_yaw",
+      "strips": [
+        {
+          "name": "gun30_yaw",
+          "action": "gun30_yaw",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_pitch",
+      "track": "gun30_pitch",
+      "strips": [
+        {
+          "name": "gun30_pitch",
+          "action": "gun30_pitch",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_recoil",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_recoil",
+      "track": "gun30_recoil",
+      "strips": [
+        {
+          "name": "gun30_recoil",
+          "action": "gun30_recoil",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_flash",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_case",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    },
+    {
+      "node": "PIVOT_gun30_smoke",
+      "track": "gun30_fire_cycle",
+      "strips": [
+        {
+          "name": "gun30_fire_cycle",
+          "action": "gun30_fire_cycle",
+          "start_frame": 1.0,
+          "end_frame": 25.0
+        }
+      ]
+    }
+  ],
+  "native_animation_evaluation": {
+    "result": "PASS",
+    "scope": "Eight samples per imported gun cycle / sensor action retained in named NLA tracks. Exact imported actions and action slots are evaluated natively. Actual mesh vertices and target matrices; no continuous collision or real operational certification.",
+    "clips": [
+      {
+        "clip": "gun30_fire_cycle",
+        "native_track_count": 4,
+        "animated_target_nodes": [
+          "PIVOT_gun30_case",
+          "PIVOT_gun30_flash",
+          "PIVOT_gun30_recoil",
+          "PIVOT_gun30_smoke"
+        ],
+        "animated_mesh_count": 24,
+        "sampled_vertex_count": 536,
+        "frame_extent": {
+          "start_frame": 0.0,
+          "end_frame": 24.0,
+          "sample_frame": 0.0
+        },
+        "samples": [
+          {
+            "normalized_time": 0.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          },
+          {
+            "normalized_time": 0.08,
+            "finite": true,
+            "max_target_matrix_delta": 0.32138563862099545,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.32138563862099545,
+              "PIVOT_gun30_recoil": 0.02974998950958252,
+              "PIVOT_gun30_smoke": 0.15623897483601468
+            },
+            "max_sampled_vertex_displacement_m": 0.14845404289632047
+          },
+          {
+            "normalized_time": 0.16,
+            "finite": true,
+            "max_target_matrix_delta": 0.31989999284996884,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.013000011444091797,
+              "PIVOT_gun30_recoil": 0.013000011444091797,
+              "PIVOT_gun30_smoke": 0.31989999284996884
+            },
+            "max_sampled_vertex_displacement_m": 0.22620347367233656
+          },
+          {
+            "normalized_time": 0.28,
+            "finite": true,
+            "max_target_matrix_delta": 0.999899761605775,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.999899761605775,
+              "PIVOT_gun30_flash": 0.007000088691711426,
+              "PIVOT_gun30_recoil": 0.006999999284744263,
+              "PIVOT_gun30_smoke": 0.559900002386712
+            },
+            "max_sampled_vertex_displacement_m": 0.40556521446360033
+          },
+          {
+            "normalized_time": 0.44,
+            "finite": true,
+            "max_target_matrix_delta": 0.999899761605775,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.999899761605775,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.7749000357653131
+            },
+            "max_sampled_vertex_displacement_m": 0.7339564614364325
+          },
+          {
+            "normalized_time": 0.62,
+            "finite": true,
+            "max_target_matrix_delta": 0.999899761605775,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.999899761605775,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.9907275008226861
+            },
+            "max_sampled_vertex_displacement_m": 1.1425768903171356
+          },
+          {
+            "normalized_time": 0.82,
+            "finite": true,
+            "max_target_matrix_delta": 0.9946919249778148,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.9946919249778148,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.44999992847442627
+            },
+            "max_sampled_vertex_displacement_m": 0.6696392820821992
+          },
+          {
+            "normalized_time": 1.0,
+            "finite": true,
+            "max_target_matrix_delta": 0.0,
+            "target_matrix_deltas": {
+              "PIVOT_gun30_case": 0.0,
+              "PIVOT_gun30_flash": 0.0,
+              "PIVOT_gun30_recoil": 0.0,
+              "PIVOT_gun30_smoke": 0.0
+            },
+            "max_sampled_vertex_displacement_m": 0.0
+          }
+        ],
+        "all_animated_targets_changed": true,
+        "result": "PASS"
+      }
+    ]
+  },
+  "render_runtime": "Blender Cycles CPU",
+  "render_samples": 24,
+  "render_resolution": [
+    1000,
+    740
+  ],
+  "browser_rendering": "NOT_RUN",
+  "native_unreal": "NOT_RUN",
+  "continuous_clearance": "NOT_RUN",
+  "photographic_equivalence": "NOT_RUN",
+  "geometry_changes": "NONE; direct native glTF import",
+  "camera_contract": {
+    "source": "Script defaults / projected component bounds"
+  },
+  "renders": [
+    {
+      "path": "previews/system-gau23-visual-r0003-isolated-rest.png",
+      "sha256": "42c8b6b54bf31cbfe39a1e3f1c6f8e43f9783ece6d6b2c5c49f96432e1fb4fdb",
+      "view": "isolated",
+      "camera_gltf": {
+        "position": [
+          -4.283084869384766,
+          2.678542375564575,
+          -6.102089881896973
+        ],
+        "target": [
+          -0.2150249481201172,
+          -0.20299997925758362,
+          -0.0
+        ],
+        "scale": 4.343699410155013,
+        "framing": "Projected source bounds plus 22 percent margin"
+      },
+      "pose": "rest",
+      "hidden_meshes": [],
+      "cutaway": false,
+      "inspection_light": false
+    }
+  ],
+  "controller_snapshot_source": {
+    "path": "qa/viewer-poses-gau23-visual.json",
+    "sha256": "8bd561067af74abeae56cecdbd2b4f36194c599f32e45776e179b497b1815d14",
+    "result": "PASS",
+    "source_hash_checks": {
+      "model_sha256": true,
+      "controller_sha256": true,
+      "pose_driver_sha256": true
+    },
+    "pose_labels": [
+      "PARKED",
+      "SERVICE",
+      "FLYING",
+      "GLOBAL_0",
+      "GLOBAL_INSPECTION_OPEN",
+      "GLOBAL_25",
+      "GLOBAL_ACCESS_OPEN",
+      "GLOBAL_50",
+      "GLOBAL_75",
+      "GLOBAL_100",
+      "REVERSE_50",
+      "GUN30_CYCLE_5",
+      "GUN30_CYCLE_10",
+      "GUN30_CYCLE_25",
+      "GUN30_CYCLE_50",
+      "GUN30_CYCLE_65",
+      "GUN30_CYCLE_80",
+      "RESET"
+    ],
+    "scope": "Source identity check; this does not render the browser."
+  },
+  "editable_blend": {
+    "path": "components/gau23-visual/editable.blend",
+    "sha256": "f770ce3d046f2f90036cf00bd9f1a2aa25d95a887c97c4f6f20f799d0ef9dfd7",
+    "original_export_path": "editable/system-gau23-visual-r0003.blend",
+    "delivery_copy_verification": "Byte-identical to the imported/saved/reopened native scene"
+  },
+  "blend_reopen": {
+    "result": "PASS",
+    "asset_objects": 103,
+    "named_actions_retained": true,
+    "nla_track_inventory_retained": true,
+    "all_texture_images_packed": true
+  },
+  "render_pose": {
+    "source": "canonical imported rest"
+  },
+  "input_unchanged_during_review": true,
+  "status": "PASS"
+}

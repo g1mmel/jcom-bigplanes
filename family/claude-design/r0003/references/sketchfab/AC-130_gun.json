@@ -1,0 +1,1107 @@
+{
+  "cursors": {
+    "next": null,
+    "previous": null
+  },
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/820daf79abdf433eb014ad5279f686b9",
+      "uid": "820daf79abdf433eb014ad5279f686b9",
+      "name": "ac 130",
+      "staffpickedAt": null,
+      "viewCount": 10303,
+      "likeCount": 32,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-820daf79abdf433eb014ad5279f686b9",
+      "embedUrl": "https://sketchfab.com/models/820daf79abdf433eb014ad5279f686b9/embed",
+      "commentCount": 4,
+      "isDownloadable": false,
+      "publishedAt": "2017-08-01T21:44:19.930685",
+      "tags": [
+        {
+          "name": "vehicles",
+          "slug": "vehicles",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicles"
+        },
+        {
+          "name": "gunship",
+          "slug": "gunship",
+          "uri": "https://api.sketchfab.com/v3/tags/gunship"
+        },
+        {
+          "name": "airplane",
+          "slug": "airplane",
+          "uri": "https://api.sketchfab.com/v3/tags/airplane"
+        },
+        {
+          "name": "transport",
+          "slug": "transport",
+          "uri": "https://api.sketchfab.com/v3/tags/transport"
+        },
+        {
+          "name": "ac",
+          "slug": "ac",
+          "uri": "https://api.sketchfab.com/v3/tags/ac"
+        },
+        {
+          "name": "metal",
+          "slug": "metal",
+          "uri": "https://api.sketchfab.com/v3/tags/metal"
+        },
+        {
+          "name": "13",
+          "slug": "13",
+          "uri": "https://api.sketchfab.com/v3/tags/13"
+        },
+        {
+          "name": "ac130",
+          "slug": "ac130",
+          "uri": "https://api.sketchfab.com/v3/tags/ac130"
+        },
+        {
+          "name": "weapons",
+          "slug": "weapons",
+          "uri": "https://api.sketchfab.com/v3/tags/weapons"
+        },
+        {
+          "name": "cool",
+          "slug": "cool",
+          "uri": "https://api.sketchfab.com/v3/tags/cool"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "air",
+          "slug": "air",
+          "uri": "https://api.sketchfab.com/v3/tags/air"
+        },
+        {
+          "name": "plane",
+          "slug": "plane",
+          "uri": "https://api.sketchfab.com/v3/tags/plane"
+        },
+        {
+          "name": "animation",
+          "slug": "animation",
+          "uri": "https://api.sketchfab.com/v3/tags/animation"
+        },
+        {
+          "name": "guns",
+          "slug": "guns",
+          "uri": "https://api.sketchfab.com/v3/tags/guns"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "cars-vehicles"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f0f55ef8ee414241a6f4d22e756e09f2",
+            "size": 46311,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/820daf79abdf433eb014ad5279f686b9/thumbnails/4738297d44fa4aef9bdd343516476edc/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "ea3c4a0b3663433889ad3a09554b51b8",
+            "size": 25848,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/820daf79abdf433eb014ad5279f686b9/thumbnails/4738297d44fa4aef9bdd343516476edc/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "45b2f19411444376bcde149d49523df6",
+            "size": 5469,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/820daf79abdf433eb014ad5279f686b9/thumbnails/4738297d44fa4aef9bdd343516476edc/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "7fd549c9010b4924af0f1ff2e127ffbd",
+            "size": 1160,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/820daf79abdf433eb014ad5279f686b9/thumbnails/4738297d44fa4aef9bdd343516476edc/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "94df0ac13b864a4aa944294b7fc8621f",
+        "username": "musaab.alazawi",
+        "displayName": "musaab",
+        "profileUrl": "https://sketchfab.com/musaab.alazawi",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/6a3188bd5b37449587a476c24e82e968",
+          "images": [
+            {
+              "size": 1139,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/6a3188bd5b37449587a476c24e82e968/bb82f6412cad41b78b6892882b879ccc.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/6a3188bd5b37449587a476c24e82e968/a231aedbce7a4c38b31f2a9ecd910dfb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3395,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/6a3188bd5b37449587a476c24e82e968/e02574b176fa4070aa41a57e04883644.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3989,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/6a3188bd5b37449587a476c24e82e968/1c0e999e0aac47c7a22794cce482bfc1.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/94df0ac13b864a4aa944294b7fc8621f"
+      },
+      "description": "ac 130 gun ship all by me :)",
+      "faceCount": 3322298,
+      "createdAt": "2017-08-01T21:28:16.276850",
+      "vertexCount": 2131168,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9003b9c8c5274cdb8de653c418865cd8",
+      "uid": "9003b9c8c5274cdb8de653c418865cd8",
+      "name": "AC-130",
+      "staffpickedAt": null,
+      "viewCount": 13778,
+      "likeCount": 143,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9003b9c8c5274cdb8de653c418865cd8",
+      "embedUrl": "https://sketchfab.com/models/9003b9c8c5274cdb8de653c418865cd8/embed",
+      "commentCount": 6,
+      "isDownloadable": true,
+      "publishedAt": "2024-01-14T12:08:18.646834",
+      "tags": [
+        {
+          "name": "callofduty",
+          "slug": "callofduty",
+          "uri": "https://api.sketchfab.com/v3/tags/callofduty"
+        },
+        {
+          "name": "figherjet",
+          "slug": "figherjet",
+          "uri": "https://api.sketchfab.com/v3/tags/figherjet"
+        },
+        {
+          "name": "military-vehicle",
+          "slug": "military-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/military-vehicle"
+        },
+        {
+          "name": "military-aircraft",
+          "slug": "military-aircraft",
+          "uri": "https://api.sketchfab.com/v3/tags/military-aircraft"
+        },
+        {
+          "name": "ac130",
+          "slug": "ac130",
+          "uri": "https://api.sketchfab.com/v3/tags/ac130"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f638c6ce3ed54b74aa53a24bb049f71e",
+            "size": 264016,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9003b9c8c5274cdb8de653c418865cd8/thumbnails/0fe7cbc59b384cc8ac2fd39fdca53250/d0889733767e45cfac5b16bc2dff86e0.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "03a24066eb164d40be4f58e068a677ac",
+            "size": 69950,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9003b9c8c5274cdb8de653c418865cd8/thumbnails/0fe7cbc59b384cc8ac2fd39fdca53250/a91ebcfcc6d749c89f8893945312c7d3.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "1d4a6ffdac46474bb125018cf07a4196",
+            "size": 32507,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9003b9c8c5274cdb8de653c418865cd8/thumbnails/0fe7cbc59b384cc8ac2fd39fdca53250/417d9d7b579a4e26bef0e76b9bb90f94.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "f74ea7df94454f738e3f9f04efe28dde",
+            "size": 4514,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9003b9c8c5274cdb8de653c418865cd8/thumbnails/0fe7cbc59b384cc8ac2fd39fdca53250/41463eb5605b427aadfee320bc5cf8bb.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "2f7ab4cd3a89457089963c44eca2bba2",
+            "size": 1049,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9003b9c8c5274cdb8de653c418865cd8/thumbnails/0fe7cbc59b384cc8ac2fd39fdca53250/940c51aadbd94aba911ef5c14c9b507d.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "f583b97005434b09ac7beb6231efaad0",
+        "username": "joshua.171801051",
+        "displayName": "Josh Lasia",
+        "profileUrl": "https://sketchfab.com/joshua.171801051",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/7064b60637a4470e93a9327f9b4250eb",
+          "images": [
+            {
+              "size": 1148,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/7064b60637a4470e93a9327f9b4250eb/d1e6151fda6742888eb3fd0348041f51.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1698,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/7064b60637a4470e93a9327f9b4250eb/bbeba3463a6942b289d8be08cdb103e0.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4085,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/7064b60637a4470e93a9327f9b4250eb/43fa7ba383a14b209adedf8f020324df.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4803,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/7064b60637a4470e93a9327f9b4250eb/152931a6ca45476d9eddd583de53efb8.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/f583b97005434b09ac7beb6231efaad0"
+      },
+      "description": "",
+      "faceCount": 155691,
+      "createdAt": "2024-01-14T11:38:54.388673",
+      "vertexCount": 98528,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 9,
+          "size": 12511088,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 155671,
+          "vertexCount": 151411
+        },
+        "gltf": {
+          "textureCount": 9,
+          "size": 8204814,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 155671,
+          "vertexCount": 151411
+        },
+        "source": {
+          "textureCount": null,
+          "size": 42661286,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6889660,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/68b8a004365a4f4cb3f98727c6f893a9",
+      "uid": "68b8a004365a4f4cb3f98727c6f893a9",
+      "name": "AC-130 - 105mm HC",
+      "staffpickedAt": null,
+      "viewCount": 1982,
+      "likeCount": 24,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-68b8a004365a4f4cb3f98727c6f893a9",
+      "embedUrl": "https://sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2017-09-04T12:10:46.939296",
+      "tags": [
+        {
+          "name": "howitzer",
+          "slug": "howitzer",
+          "uri": "https://api.sketchfab.com/v3/tags/howitzer"
+        },
+        {
+          "name": "105mm",
+          "slug": "105mm",
+          "uri": "https://api.sketchfab.com/v3/tags/105mm"
+        },
+        {
+          "name": "zombiegunshipsurvival",
+          "slug": "zombiegunshipsurvival",
+          "uri": "https://api.sketchfab.com/v3/tags/zombiegunshipsurvival"
+        },
+        {
+          "name": "flaregames",
+          "slug": "flaregames",
+          "uri": "https://api.sketchfab.com/v3/tags/flaregames"
+        },
+        {
+          "name": "ac-130",
+          "slug": "ac-130",
+          "uri": "https://api.sketchfab.com/v3/tags/ac-130"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "zombie",
+          "slug": "zombie",
+          "uri": "https://api.sketchfab.com/v3/tags/zombie"
+        }
+      ],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "4806d47e992c4ffeb6a7cb9a43463149",
+            "size": 82715,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "33613e8f660c403a9c4e8960e3822b5f",
+            "size": 40405,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "0196199941554961bbbbe14027ffee89",
+            "size": 5915,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "b207fab78e154496996706387c621e3f",
+            "size": 1197,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/68b8a004365a4f4cb3f98727c6f893a9/thumbnails/5da9bad17ecd4bcb86231e7da11c34a4/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6b75b525625440fa964e3f1c49ffa84b",
+        "username": "ZombieGunshipSurvival",
+        "displayName": "ZombieGunshipSurvival",
+        "profileUrl": "https://sketchfab.com/ZombieGunshipSurvival",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f",
+          "images": [
+            {
+              "size": 1170,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/426734c3f43743158d0d5d23104f9adf.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1998,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/c6f6a842e25342ee8689ce95bb585c23.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5275,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/0a2743f64dcd416584ec4cfd77b77017.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6068,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/da85eebbe2e54589b6b1fe41ec1b181e.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6b75b525625440fa964e3f1c49ffa84b"
+      },
+      "description": "AC-130 - 105mm HC",
+      "faceCount": 14500,
+      "createdAt": "2017-08-14T09:50:13.005082",
+      "vertexCount": 14445,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/0bdb91a6ba404567a17e80f55426c186",
+      "uid": "0bdb91a6ba404567a17e80f55426c186",
+      "name": "AC-130 \u2013 AC20 Heavy Machine Gun",
+      "staffpickedAt": null,
+      "viewCount": 2444,
+      "likeCount": 41,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-0bdb91a6ba404567a17e80f55426c186",
+      "embedUrl": "https://sketchfab.com/models/0bdb91a6ba404567a17e80f55426c186/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2017-05-30T12:12:50.495211",
+      "tags": [
+        {
+          "name": "gunner",
+          "slug": "gunner",
+          "uri": "https://api.sketchfab.com/v3/tags/gunner"
+        },
+        {
+          "name": "zombiegunshipsurvival",
+          "slug": "zombiegunshipsurvival",
+          "uri": "https://api.sketchfab.com/v3/tags/zombiegunshipsurvival"
+        },
+        {
+          "name": "flaregames",
+          "slug": "flaregames",
+          "uri": "https://api.sketchfab.com/v3/tags/flaregames"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "zombie",
+          "slug": "zombie",
+          "uri": "https://api.sketchfab.com/v3/tags/zombie"
+        }
+      ],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "9488dc9f104045019a69ac156f846f3e",
+            "size": 76144,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/0bdb91a6ba404567a17e80f55426c186/thumbnails/82f7bf5eae6b4807bccc59923e21bdae/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "989042bd33bc472ab384de57d40cdf27",
+            "size": 36435,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/0bdb91a6ba404567a17e80f55426c186/thumbnails/82f7bf5eae6b4807bccc59923e21bdae/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "b11f0171199d4ca1836d125f4cffc016",
+            "size": 5534,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/0bdb91a6ba404567a17e80f55426c186/thumbnails/82f7bf5eae6b4807bccc59923e21bdae/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "9746f3e016ff4b1489b06c0c448bdaf2",
+            "size": 829,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/0bdb91a6ba404567a17e80f55426c186/thumbnails/82f7bf5eae6b4807bccc59923e21bdae/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6b75b525625440fa964e3f1c49ffa84b",
+        "username": "ZombieGunshipSurvival",
+        "displayName": "ZombieGunshipSurvival",
+        "profileUrl": "https://sketchfab.com/ZombieGunshipSurvival",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f",
+          "images": [
+            {
+              "size": 1170,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/426734c3f43743158d0d5d23104f9adf.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1998,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/c6f6a842e25342ee8689ce95bb585c23.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5275,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/0a2743f64dcd416584ec4cfd77b77017.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6068,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/da85eebbe2e54589b6b1fe41ec1b181e.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6b75b525625440fa964e3f1c49ffa84b"
+      },
+      "description": "Take a closer look at the AC20 Heavy Machine Gun from Zombie Gunship Survival!",
+      "faceCount": 17593,
+      "createdAt": "2017-05-30T11:42:06.837675",
+      "vertexCount": 16480,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/66ad59d63bad487bba64b262115b81a0",
+      "uid": "66ad59d63bad487bba64b262115b81a0",
+      "name": "AC-130 - AC25 Heavy Machine Gun",
+      "staffpickedAt": null,
+      "viewCount": 1773,
+      "likeCount": 21,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-66ad59d63bad487bba64b262115b81a0",
+      "embedUrl": "https://sketchfab.com/models/66ad59d63bad487bba64b262115b81a0/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2017-05-18T10:27:09.150873",
+      "tags": [
+        {
+          "name": "gunner",
+          "slug": "gunner",
+          "uri": "https://api.sketchfab.com/v3/tags/gunner"
+        },
+        {
+          "name": "zombiegunshipsurvival",
+          "slug": "zombiegunshipsurvival",
+          "uri": "https://api.sketchfab.com/v3/tags/zombiegunshipsurvival"
+        },
+        {
+          "name": "flaregames",
+          "slug": "flaregames",
+          "uri": "https://api.sketchfab.com/v3/tags/flaregames"
+        },
+        {
+          "name": "zombie",
+          "slug": "zombie",
+          "uri": "https://api.sketchfab.com/v3/tags/zombie"
+        }
+      ],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "a45895d0064a4abca2307560bad998ad",
+            "size": 89413,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/66ad59d63bad487bba64b262115b81a0/thumbnails/7674803360a44d77b51deb6369399175/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "9a361f8cb92b4d08b95a983dee359392",
+            "size": 44898,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/66ad59d63bad487bba64b262115b81a0/thumbnails/7674803360a44d77b51deb6369399175/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "675b196cf9934967a4d662d8f8d0d662",
+            "size": 6998,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/66ad59d63bad487bba64b262115b81a0/thumbnails/7674803360a44d77b51deb6369399175/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ac577d396a7e40ab87d4dedcbe1f429d",
+            "size": 985,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/66ad59d63bad487bba64b262115b81a0/thumbnails/7674803360a44d77b51deb6369399175/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6b75b525625440fa964e3f1c49ffa84b",
+        "username": "ZombieGunshipSurvival",
+        "displayName": "ZombieGunshipSurvival",
+        "profileUrl": "https://sketchfab.com/ZombieGunshipSurvival",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f",
+          "images": [
+            {
+              "size": 1170,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/426734c3f43743158d0d5d23104f9adf.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1998,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/c6f6a842e25342ee8689ce95bb585c23.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5275,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/0a2743f64dcd416584ec4cfd77b77017.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6068,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/9f69a7b38a1f44a6aaf079e3438c9a1f/da85eebbe2e54589b6b1fe41ec1b181e.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6b75b525625440fa964e3f1c49ffa84b"
+      },
+      "description": "Take a close look at the AC25 Heavy Machine Gun from Zombie Gunship Survival.",
+      "faceCount": 15863,
+      "createdAt": "2017-05-18T10:10:03.685794",
+      "vertexCount": 16592,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/f1cfdf557a424ea4b6c3b64ffc493f9f",
+      "uid": "f1cfdf557a424ea4b6c3b64ffc493f9f",
+      "name": "Lockheed AC-130J Ghostrider",
+      "staffpickedAt": null,
+      "viewCount": 8915,
+      "likeCount": 35,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-f1cfdf557a424ea4b6c3b64ffc493f9f",
+      "embedUrl": "https://sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2020-10-27T04:12:15.355616",
+      "tags": [
+        {
+          "name": "marine",
+          "slug": "marine",
+          "uri": "https://api.sketchfab.com/v3/tags/marine"
+        },
+        {
+          "name": "gunship",
+          "slug": "gunship",
+          "uri": "https://api.sketchfab.com/v3/tags/gunship"
+        },
+        {
+          "name": "usaf",
+          "slug": "usaf",
+          "uri": "https://api.sketchfab.com/v3/tags/usaf"
+        },
+        {
+          "name": "transport",
+          "slug": "transport",
+          "uri": "https://api.sketchfab.com/v3/tags/transport"
+        },
+        {
+          "name": "logistics",
+          "slug": "logistics",
+          "uri": "https://api.sketchfab.com/v3/tags/logistics"
+        },
+        {
+          "name": "hercules",
+          "slug": "hercules",
+          "uri": "https://api.sketchfab.com/v3/tags/hercules"
+        },
+        {
+          "name": "cargo",
+          "slug": "cargo",
+          "uri": "https://api.sketchfab.com/v3/tags/cargo"
+        },
+        {
+          "name": "airbus",
+          "slug": "airbus",
+          "uri": "https://api.sketchfab.com/v3/tags/airbus"
+        },
+        {
+          "name": "hms",
+          "slug": "hms",
+          "uri": "https://api.sketchfab.com/v3/tags/hms"
+        },
+        {
+          "name": "nato",
+          "slug": "nato",
+          "uri": "https://api.sketchfab.com/v3/tags/nato"
+        },
+        {
+          "name": "refuelling",
+          "slug": "refuelling",
+          "uri": "https://api.sketchfab.com/v3/tags/refuelling"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "royal",
+          "slug": "royal",
+          "uri": "https://api.sketchfab.com/v3/tags/royal"
+        },
+        {
+          "name": "a-400m",
+          "slug": "a-400m",
+          "uri": "https://api.sketchfab.com/v3/tags/a-400m"
+        },
+        {
+          "name": "c-130u",
+          "slug": "c-130u",
+          "uri": "https://api.sketchfab.com/v3/tags/c-130u"
+        },
+        {
+          "name": "ckc-130",
+          "slug": "ckc-130",
+          "uri": "https://api.sketchfab.com/v3/tags/ckc-130"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "b6c49596fa2940f98441b885172fa189",
+            "size": 33239,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/3b79de87284746b9b863f468f12cb07a.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "37344d3ee9004b3dabf5337008ce00d7",
+            "size": 11303,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/0010e269f23d4866a72f38a4ddb81f06.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "a10950559ca6412ea56f5b6d0c830aaa",
+            "size": 6779,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/c7f885e4f23543da89c4ac3c9b8f3c18.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "51436625db6c42ebb2b6431b3f184d7f",
+            "size": 1655,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/c1811cf52acf4429b5174b9523f25c39.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "a8d16c5ed17346bcaaf5caa366cf7e6e",
+            "size": 540,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/f1cfdf557a424ea4b6c3b64ffc493f9f/thumbnails/0a6540044dc847f49a9d0252be6b9d7a/1965f5c2359040dc9ee0c369f1ff9c15.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "894f5206f4eb4e128fad5c3e374a3a8c",
+        "username": "timonfreud",
+        "displayName": "timonfreud",
+        "profileUrl": "https://sketchfab.com/timonfreud",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/080143bf4cc148fc8a433df54dd0af8d",
+          "images": [
+            {
+              "size": 1037,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/e03fd29a0279471db9bc07d1ed47fbfc.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1440,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/c9697ba4e08a4bb186bf983d78c9ba5d.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3135,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/64245261a9ac427aa4773a8f90a53a9a.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3657,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/080143bf4cc148fc8a433df54dd0af8d/018450e79e364982b3f541eb085fe701.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/894f5206f4eb4e128fad5c3e374a3a8c"
+      },
+      "description": "The AC-130J Ghostrider is a new addition to Air Force Special Operations Command (AFSOC)'s arsenal. The Ghostrider, which is currently under development, is a gunship created by adding a weapons package to a MC-130J Commando II aircraft. The aircraft is earmarked to eventually replace current AC-130H gunships. All the propeller, gear wheel, slat, rudder, gear door, gun flash, cargo door are rigged, game-ready for engines.",
+      "faceCount": 44265,
+      "createdAt": "2020-10-27T03:59:57.148589",
+      "vertexCount": 24707,
+      "isAgeRestricted": false,
+      "archives": {
+        "extra": {
+          "textureCount": null,
+          "size": 32238211,
+          "type": "extra",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "glb": {
+          "textureCount": 3,
+          "size": 5008056,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 44263,
+          "vertexCount": 33143
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 3984227,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 44263,
+          "vertexCount": 33143
+        },
+        "source": {
+          "textureCount": null,
+          "size": 29003414,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 1888435,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "5b54cf13b1a4422ca439696eb152070d",
+        "label": "Editorial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/384491fd5fcf469c999eea93e3e8770a",
+      "uid": "384491fd5fcf469c999eea93e3e8770a",
+      "name": "CC Bomber CBB-1301717",
+      "staffpickedAt": null,
+      "viewCount": 69,
+      "likeCount": 0,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-384491fd5fcf469c999eea93e3e8770a",
+      "embedUrl": "https://sketchfab.com/models/384491fd5fcf469c999eea93e3e8770a/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2026-05-10T10:00:57.710841",
+      "tags": [
+        {
+          "name": "gunship",
+          "slug": "gunship",
+          "uri": "https://api.sketchfab.com/v3/tags/gunship"
+        },
+        {
+          "name": "ww2",
+          "slug": "ww2",
+          "uri": "https://api.sketchfab.com/v3/tags/ww2"
+        },
+        {
+          "name": "bomber",
+          "slug": "bomber",
+          "uri": "https://api.sketchfab.com/v3/tags/bomber"
+        },
+        {
+          "name": "massive",
+          "slug": "massive",
+          "uri": "https://api.sketchfab.com/v3/tags/massive"
+        },
+        {
+          "name": "alternative",
+          "slug": "alternative",
+          "uri": "https://api.sketchfab.com/v3/tags/alternative"
+        },
+        {
+          "name": "b17",
+          "slug": "b17",
+          "uri": "https://api.sketchfab.com/v3/tags/b17"
+        },
+        {
+          "name": "timeline",
+          "slug": "timeline",
+          "uri": "https://api.sketchfab.com/v3/tags/timeline"
+        },
+        {
+          "name": "low-poly",
+          "slug": "low-poly",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly"
+        },
+        {
+          "name": "sci-fi",
+          "slug": "sci-fi",
+          "uri": "https://api.sketchfab.com/v3/tags/sci-fi"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "d3212f33dc46474191ef0527fa1221f6",
+            "size": 108413,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/384491fd5fcf469c999eea93e3e8770a/thumbnails/2bf3a70195ba4142af89e35497aac342/4c98798493a849cfa9ad1e1e36430e29.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "5724e2f34f204077ba1bd2f02bf157d6",
+            "size": 35154,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/384491fd5fcf469c999eea93e3e8770a/thumbnails/2bf3a70195ba4142af89e35497aac342/a90bb5dd9f9f48dcb5da3beb64181fc2.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "cfb6f42653fd486cb29e761177d9c89d",
+            "size": 20374,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/384491fd5fcf469c999eea93e3e8770a/thumbnails/2bf3a70195ba4142af89e35497aac342/0fed6338190b4d3aa4ad741a07a57397.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "3532fa185c9f4c9d8df3301b14e1d4e0",
+            "size": 4486,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/384491fd5fcf469c999eea93e3e8770a/thumbnails/2bf3a70195ba4142af89e35497aac342/48f184dc168b49bc8d70896e2377c19b.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "914b040066f24ea1a31019cd4c414103",
+            "size": 1088,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/384491fd5fcf469c999eea93e3e8770a/thumbnails/2bf3a70195ba4142af89e35497aac342/46eeaf0ef24047b5af3119afa6fdfd53.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "b6d4ca2799f84fae864f901bd7e8d323",
+        "username": "Lordaloa",
+        "displayName": "Lordaloa",
+        "profileUrl": "https://sketchfab.com/Lordaloa",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/daf35cadf807459b937d636245fe41c9",
+          "images": [
+            {
+              "size": 1059,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/daf35cadf807459b937d636245fe41c9/97e937e32c2f4cff8959d8783b935862.png",
+              "height": 32
+            },
+            {
+              "size": 2127,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/daf35cadf807459b937d636245fe41c9/5b4f30bc05e34af391921708b8bbe8c5.png",
+              "height": 48
+            },
+            {
+              "size": 5295,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/daf35cadf807459b937d636245fe41c9/271962f4f23e4009858469433d299671.png",
+              "height": 90
+            },
+            {
+              "size": 6270,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/daf35cadf807459b937d636245fe41c9/f7a8064a4cc74b929b1767cc925d1a96.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/b6d4ca2799f84fae864f901bd7e8d323"
+      },
+      "description": "# CC Bomber CBB-1301717\nThe CBB-1301717 Bomber/Gunship is a massive flying fortress that sources its technology and combat role from relic vessels like the B-17 and AC-130. CBB-1301717 is armed with over 16 mounted weapons, manufactured across a plethora of Continental Conglomerate member states. They include quad and dual-mounted medium machine guns, two pilot-operated chainguns, 20mm flak cannons, Heavy Machine Guns mounted on the plane\u2019s side superstructure and pair of ball turrets, a set of heavy 40mm guns, and dual frontal autocannons, all supplemented in the ground role by a total of 48 unguided high explosive bombs.\n\n# Model\nThe model itself is one of my older models (2022). I based this model on the b17-flying-fortress and ac-130 aswel as the bomber from the short video \"flying fortress\" by Dima Fedotov. The model was initialy developed for a modding project, \"Reclamation-Eden (RE)\" in a small indie game called Ravenfield.",
+      "faceCount": 139932,
+      "createdAt": "2026-05-10T08:57:13.479158",
+      "vertexCount": 72464,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    }
+  ]
+}

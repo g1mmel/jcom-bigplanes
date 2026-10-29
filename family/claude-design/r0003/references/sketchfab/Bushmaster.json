@@ -1,0 +1,4576 @@
+{
+  "cursors": {
+    "next": "24",
+    "previous": null
+  },
+  "next": "https://api.sketchfab.com/v3/search?count=24&cursor=24&q=Bushmaster&type=models",
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/383942073c044bc1a0d217d62876f5b7",
+      "uid": "383942073c044bc1a0d217d62876f5b7",
+      "name": "Bushmaster M242",
+      "staffpickedAt": null,
+      "viewCount": 2751,
+      "likeCount": 89,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-383942073c044bc1a0d217d62876f5b7",
+      "embedUrl": "https://sketchfab.com/models/383942073c044bc1a0d217d62876f5b7/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2023-03-22T19:59:30.369339",
+      "tags": [
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "chaingun",
+          "slug": "chaingun",
+          "uri": "https://api.sketchfab.com/v3/tags/chaingun"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "weapons",
+          "slug": "weapons",
+          "uri": "https://api.sketchfab.com/v3/tags/weapons"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "09e9d308bf734c6bb959b85aa6fa2ca0",
+            "size": 100959,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/383942073c044bc1a0d217d62876f5b7/thumbnails/06ee535cdce44783bd2fe1dafabdce8b/e0989260723644aba5587cb665da9342.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "5a8aeaf3f74043459675a1e657f62447",
+            "size": 35076,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/383942073c044bc1a0d217d62876f5b7/thumbnails/06ee535cdce44783bd2fe1dafabdce8b/75c557da403548a18277f8ff0d30b216.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "69ba239a31f94adbb762de9d3d45723d",
+            "size": 20705,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/383942073c044bc1a0d217d62876f5b7/thumbnails/06ee535cdce44783bd2fe1dafabdce8b/f428e6a9de8140e79e73626ffef1e26d.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "29d5a1d7cbac49168e33aeb454c2201a",
+            "size": 4416,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/383942073c044bc1a0d217d62876f5b7/thumbnails/06ee535cdce44783bd2fe1dafabdce8b/3715b226ce9f4286bb7043a4eeaf4fe6.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "a0f7b1c68bf24286917c32552abe91e8",
+            "size": 1047,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/383942073c044bc1a0d217d62876f5b7/thumbnails/06ee535cdce44783bd2fe1dafabdce8b/663e452f3eca4f04a0091c927fa68e2f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "25260181a1964c738edcbd01687ab380",
+        "username": "Hydrolith",
+        "displayName": "Hydrolith",
+        "profileUrl": "https://sketchfab.com/Hydrolith",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/ed3409ec9d264b96a9c7f01af38e98aa",
+          "images": [
+            {
+              "size": 1036,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/ed3409ec9d264b96a9c7f01af38e98aa/cba5fd2d994d4e478e12ec531c88ba47.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1361,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/ed3409ec9d264b96a9c7f01af38e98aa/0376a3b3470843e28c3c18653b1a595e.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2528,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/ed3409ec9d264b96a9c7f01af38e98aa/2398ba43fdd14aaa9673d6435f98c55e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2858,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/ed3409ec9d264b96a9c7f01af38e98aa/3bd47e36aaaa4cb7897059d6c43e1804.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/25260181a1964c738edcbd01687ab380"
+      },
+      "description": "Bushmaster M242 chain gun, 25 mm single-barrel chain-driven autocannon.\nBushmaster_M242_**v1.3**",
+      "faceCount": 824762,
+      "createdAt": "2023-03-22T19:45:46.182017",
+      "vertexCount": 414218,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 22363604,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 824762,
+          "vertexCount": 484153
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 10088192,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 824762,
+          "vertexCount": 484153
+        },
+        "source": {
+          "textureCount": null,
+          "size": 19761925,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 14462903,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+        "label": "CC Attribution-NonCommercial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/b377b22480de49cd8d8680383de7ad04",
+      "uid": "b377b22480de49cd8d8680383de7ad04",
+      "name": "Model522 (M242 Bushmaster)",
+      "staffpickedAt": null,
+      "viewCount": 18117,
+      "likeCount": 934,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-b377b22480de49cd8d8680383de7ad04",
+      "embedUrl": "https://sketchfab.com/models/b377b22480de49cd8d8680383de7ad04/embed",
+      "commentCount": 27,
+      "isDownloadable": true,
+      "publishedAt": "2018-02-12T02:02:45.567371",
+      "tags": [
+        {
+          "name": "silo",
+          "slug": "silo",
+          "uri": "https://api.sketchfab.com/v3/tags/silo"
+        },
+        {
+          "name": "substance",
+          "slug": "substance",
+          "uri": "https://api.sketchfab.com/v3/tags/substance"
+        },
+        {
+          "name": "3d-coat",
+          "slug": "3d-coat",
+          "uri": "https://api.sketchfab.com/v3/tags/3d-coat"
+        },
+        {
+          "name": "weapons",
+          "slug": "weapons",
+          "uri": "https://api.sketchfab.com/v3/tags/weapons"
+        },
+        {
+          "name": "hardsurface",
+          "slug": "hardsurface",
+          "uri": "https://api.sketchfab.com/v3/tags/hardsurface"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0e9d319f68a6420a91c3e233b823c90d",
+            "size": 266918,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/b377b22480de49cd8d8680383de7ad04/thumbnails/41954d5ad64347db9600b429ed7f0104/ba2e90adec6443dd9fc023ce1f4d2aaf.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c6ea391ca51a47caba8f0ac353d0eb10",
+            "size": 52148,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/b377b22480de49cd8d8680383de7ad04/thumbnails/41954d5ad64347db9600b429ed7f0104/7214dd9debde4100b7dc4ed0b7755e35.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7a6618b9250c477da7a350adfcc21b01",
+            "size": 26648,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/b377b22480de49cd8d8680383de7ad04/thumbnails/41954d5ad64347db9600b429ed7f0104/e77927663d17416cb1e44eba60850463.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "125200a1ff6646adb4cee4b286a2a1d8",
+            "size": 4580,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/b377b22480de49cd8d8680383de7ad04/thumbnails/41954d5ad64347db9600b429ed7f0104/c4d490eaa48d4af9988142ae5d035ff3.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "2ea3696208714067a4d0216ea2aebb67",
+            "size": 793,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/b377b22480de49cd8d8680383de7ad04/thumbnails/41954d5ad64347db9600b429ed7f0104/4ca43eafff7144308fe0c9e4f82f7dbc.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "5fa1ea48149b401091125c598570b10a",
+        "username": "cgmekamono",
+        "displayName": "cgmekamono",
+        "profileUrl": "https://sketchfab.com/cgmekamono",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/433ff0322e14409c88c9d47f590d6fec",
+          "images": [
+            {
+              "size": 527,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/433ff0322e14409c88c9d47f590d6fec/b9ee590e8df84965bafe8758a2b9717f.jpeg",
+              "height": 32
+            },
+            {
+              "size": 702,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/433ff0322e14409c88c9d47f590d6fec/56a2308b00504e22a6f25e7dca758b9c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1487,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/433ff0322e14409c88c9d47f590d6fec/2d93dbe07eea41ec9706e930cd07858e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1698,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/433ff0322e14409c88c9d47f590d6fec/fd2ff76f235a4b5cacc4f18f0cb7dcbc.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5fa1ea48149b401091125c598570b10a"
+      },
+      "description": "",
+      "faceCount": 86006,
+      "createdAt": "2018-02-12T01:13:33.499141",
+      "vertexCount": 48045,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 45266484,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 86003,
+          "vertexCount": 84468
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 42633591,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 86003,
+          "vertexCount": 84468
+        },
+        "source": {
+          "textureCount": null,
+          "size": 21680654,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 9461782,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/11716211751f4c2c9a23143957353601",
+      "uid": "11716211751f4c2c9a23143957353601",
+      "name": "M242 Bushmaster 25mm",
+      "staffpickedAt": null,
+      "viewCount": 2594,
+      "likeCount": 62,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-11716211751f4c2c9a23143957353601",
+      "embedUrl": "https://sketchfab.com/models/11716211751f4c2c9a23143957353601/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2023-01-25T18:02:14.807391",
+      "tags": [
+        {
+          "name": "army",
+          "slug": "army",
+          "uri": "https://api.sketchfab.com/v3/tags/army"
+        },
+        {
+          "name": "artillery",
+          "slug": "artillery",
+          "uri": "https://api.sketchfab.com/v3/tags/artillery"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "single",
+          "slug": "single",
+          "uri": "https://api.sketchfab.com/v3/tags/single"
+        },
+        {
+          "name": "naval",
+          "slug": "naval",
+          "uri": "https://api.sketchfab.com/v3/tags/naval"
+        },
+        {
+          "name": "watercraft",
+          "slug": "watercraft",
+          "uri": "https://api.sketchfab.com/v3/tags/watercraft"
+        },
+        {
+          "name": "barreled",
+          "slug": "barreled",
+          "uri": "https://api.sketchfab.com/v3/tags/barreled"
+        },
+        {
+          "name": "25mm",
+          "slug": "25mm",
+          "uri": "https://api.sketchfab.com/v3/tags/25mm"
+        },
+        {
+          "name": "autocannon",
+          "slug": "autocannon",
+          "uri": "https://api.sketchfab.com/v3/tags/autocannon"
+        },
+        {
+          "name": "m242",
+          "slug": "m242",
+          "uri": "https://api.sketchfab.com/v3/tags/m242"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f67cff7a64094392a133966d0f954752",
+            "size": 109346,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/11716211751f4c2c9a23143957353601/thumbnails/349cf93a442c40538fa2fe68d3df7afc/7f584bf1ddcd462ba63d9fceb6c312ff.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e6376e92c5ff45cc9e13788b84c5ff34",
+            "size": 32573,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/11716211751f4c2c9a23143957353601/thumbnails/349cf93a442c40538fa2fe68d3df7afc/07873c19f94c4803974d4748313c2d12.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "1d9b0d582d4849f69d1e18e781faf6f8",
+            "size": 18750,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/11716211751f4c2c9a23143957353601/thumbnails/349cf93a442c40538fa2fe68d3df7afc/b4c2667324844e93a027684d7cf2f5be.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c8977f9c6e034938b5ca6f278d6533fa",
+            "size": 4102,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/11716211751f4c2c9a23143957353601/thumbnails/349cf93a442c40538fa2fe68d3df7afc/700abf0a1f8d4908b5e3453c28e42735.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "1160863995154c50addda0a114c155a7",
+            "size": 1046,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/11716211751f4c2c9a23143957353601/thumbnails/349cf93a442c40538fa2fe68d3df7afc/4c684a2ed033450392848e353e3f8885.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "45db42cbbd8f4f169c776f687bf0387d",
+        "username": "IgorYerm",
+        "displayName": "IgYerm",
+        "profileUrl": "https://sketchfab.com/IgorYerm",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/bf4e1a68c4694bf6a83c2b7abc42b67f",
+          "images": [
+            {
+              "size": 1048,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/bf4e1a68c4694bf6a83c2b7abc42b67f/452fb19b1fa645eaae6c612bbf1d14a6.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1536,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/bf4e1a68c4694bf6a83c2b7abc42b67f/78252d5bc075421cba08267b235d13d6.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3541,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/bf4e1a68c4694bf6a83c2b7abc42b67f/e784445e33a54d6b9d795dad5fb371ab.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4147,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/bf4e1a68c4694bf6a83c2b7abc42b67f/e83b012e9cd9453b810b20af520eb588.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/45db42cbbd8f4f169c776f687bf0387d"
+      },
+      "description": "https://www.cgtrader.com/3d-models/military/gun/m242-bushmaster-25mm\n* The M242 Bushmaster is a 25mm single barreled autocannon. \n* Highly detailed 25mm single barreled autocannon model \n* For far and near angles. \n* For rendering animations and games. \n* Has real dimensions. \n* Model formats: * .max . ma .fbx .blend \n* All textures are 4k resolution",
+      "faceCount": 11925,
+      "createdAt": "2023-01-25T17:37:11.326652",
+      "vertexCount": 8300,
+      "isAgeRestricted": false,
+      "archives": {
+        "extra": {
+          "textureCount": null,
+          "size": 113389286,
+          "type": "extra",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "glb": {
+          "textureCount": 3,
+          "size": 13465860,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 11909,
+          "vertexCount": 14382
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 12781553,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 11909,
+          "vertexCount": 14382
+        },
+        "source": {
+          "textureCount": null,
+          "size": 14477005,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 1756362,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "783b685da9bf457d81e829fa283f3567",
+        "label": "Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/b512fc2628f74e1999fe566d14ecb57a",
+      "uid": "b512fc2628f74e1999fe566d14ecb57a",
+      "name": "Bushmaster ACR",
+      "staffpickedAt": null,
+      "viewCount": 299,
+      "likeCount": 25,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-b512fc2628f74e1999fe566d14ecb57a",
+      "embedUrl": "https://sketchfab.com/models/b512fc2628f74e1999fe566d14ecb57a/embed",
+      "commentCount": 3,
+      "isDownloadable": true,
+      "publishedAt": "2026-09-13T07:36:09.070105",
+      "tags": [
+        {
+          "name": "nato",
+          "slug": "nato",
+          "uri": "https://api.sketchfab.com/v3/tags/nato"
+        },
+        {
+          "name": "unity",
+          "slug": "unity",
+          "uri": "https://api.sketchfab.com/v3/tags/unity"
+        },
+        {
+          "name": "asset",
+          "slug": "asset",
+          "uri": "https://api.sketchfab.com/v3/tags/asset"
+        },
+        {
+          "name": "putinhuilo",
+          "slug": "putinhuilo",
+          "uri": "https://api.sketchfab.com/v3/tags/putinhuilo"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        },
+        {
+          "name": "fuck_gen_alpha",
+          "slug": "fuck_gen_alpha",
+          "uri": "https://api.sketchfab.com/v3/tags/fuck_gen_alpha"
+        },
+        {
+          "name": "fuck_67",
+          "slug": "fuck_67",
+          "uri": "https://api.sketchfab.com/v3/tags/fuck_67"
+        },
+        {
+          "name": "fuck_k_pop",
+          "slug": "fuck_k_pop",
+          "uri": "https://api.sketchfab.com/v3/tags/fuck_k_pop"
+        },
+        {
+          "name": "khuy_voyne",
+          "slug": "khuy_voyne",
+          "uri": "https://api.sketchfab.com/v3/tags/khuy_voyne"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "3908a4e6161b48b896d5f0370b3cabf6",
+            "size": 52924,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/b512fc2628f74e1999fe566d14ecb57a/thumbnails/f041946ff72f45f6b281515b76c41852/1ef12f04d403408abd983ad6b937bfcb.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "4e4aab2da72c47ceae65aae1675d8233",
+            "size": 17496,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/b512fc2628f74e1999fe566d14ecb57a/thumbnails/f041946ff72f45f6b281515b76c41852/edc1e92a8b5c4983925480bc5e95e9c0.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "eba5c7332d234894b8ae690ff88f4add",
+            "size": 10333,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/b512fc2628f74e1999fe566d14ecb57a/thumbnails/f041946ff72f45f6b281515b76c41852/d0e73b72df074839917a7811b25b6c64.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "dea3b885e482434e99f9e55087d01330",
+            "size": 2474,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/b512fc2628f74e1999fe566d14ecb57a/thumbnails/f041946ff72f45f6b281515b76c41852/efef05b2a498430bb72cfc54e625630a.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "80100c1701f14fe59024d3d9f4ebd968",
+            "size": 884,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/b512fc2628f74e1999fe566d14ecb57a/thumbnails/f041946ff72f45f6b281515b76c41852/2a514760023c4039b5e45e66ac982df7.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3cd649b08756423aa4ec0714c23843c0",
+        "username": "FamousUnityHubSoldier",
+        "displayName": "FamousUnityHubSoldier",
+        "profileUrl": "https://sketchfab.com/FamousUnityHubSoldier",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/255f34e0eb65425b8b28489cbbfb264b",
+          "images": [
+            {
+              "size": 1139,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/255f34e0eb65425b8b28489cbbfb264b/67bd991172594f318e6afdabb0689ee7.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1634,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/255f34e0eb65425b8b28489cbbfb264b/71d2adf187e1483e8526c7f307bc8ac7.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3724,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/255f34e0eb65425b8b28489cbbfb264b/728a3d01d09c40bea7c04a0020ca35b8.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4292,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/255f34e0eb65425b8b28489cbbfb264b/de9c279dabe04e2986d6ff43dff69b37.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3cd649b08756423aa4ec0714c23843c0"
+      },
+      "description": "The Adaptive Combat Rifle (ACR) is a modular, gas-operated rifle originally designed by Magpul Industries as the \"Masada\". Bushmaster Firearms International teamed up with Magpul in 2008 to produce, develop, and sell the weapon to the civilian market as the Bushmaster ACR.",
+      "faceCount": 69329,
+      "createdAt": "2026-09-13T07:34:24.214583",
+      "vertexCount": 36062,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 9,
+          "size": 11084280,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 69329,
+          "vertexCount": 62033
+        },
+        "gltf": {
+          "textureCount": 9,
+          "size": 8123193,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 69329,
+          "vertexCount": 62033
+        },
+        "source": {
+          "textureCount": null,
+          "size": 42478523,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3979863,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "72eb2b1960364637901eacce19283624",
+        "label": "Free Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/2b46c9d9e0b9482980a3b35fc7a56903",
+      "uid": "2b46c9d9e0b9482980a3b35fc7a56903",
+      "name": "30mm Bushmaster Cannon",
+      "staffpickedAt": null,
+      "viewCount": 1376,
+      "likeCount": 38,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-2b46c9d9e0b9482980a3b35fc7a56903",
+      "embedUrl": "https://sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2020-05-16T14:42:57.428400",
+      "tags": [
+        {
+          "name": "bullets",
+          "slug": "bullets",
+          "uri": "https://api.sketchfab.com/v3/tags/bullets"
+        },
+        {
+          "name": "30mm",
+          "slug": "30mm",
+          "uri": "https://api.sketchfab.com/v3/tags/30mm"
+        },
+        {
+          "name": "blackhole",
+          "slug": "blackhole",
+          "uri": "https://api.sketchfab.com/v3/tags/blackhole"
+        },
+        {
+          "name": "30mm-cannon",
+          "slug": "30mm-cannon",
+          "uri": "https://api.sketchfab.com/v3/tags/30mm-cannon"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "89f50ec5ea03482aaa3d477a6c9526ec",
+            "size": 69617,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/d7168377fd264dd989b65bf17cf97df0.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "f205e06a2a844d66bd9ef0e50922c57d",
+            "size": 16570,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/619a8db60998405faebe055b1d578305.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "8f98ba25e86c4cc794f67d1fee17ccda",
+            "size": 9777,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/89093eb1bbb04085a663a8cd73dbd5a6.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "cefb157f4b9a4fefa23a135f170c0349",
+            "size": 2190,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/f3bc4a2dd3644542b9da4ce9cd012ab9.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "6fca5eb1bf6940999ec99ba0c5f99310",
+            "size": 628,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/2b46c9d9e0b9482980a3b35fc7a56903/thumbnails/42fd37c27c244b11a9f4b62bdb13c742/c28b6e71ba74480e87c07c6cbdecd3be.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "af8ba4b473ad41e69b58f1274ddd0f34",
+        "username": "blckhole",
+        "displayName": "Black Hole M. PR.",
+        "profileUrl": "https://sketchfab.com/blckhole",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/4bd0e966245b49d98e95f60044b804b9",
+          "images": [
+            {
+              "size": 824,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/f1a742d73932481d91738f8be165bdd2.jpeg",
+              "height": 32
+            },
+            {
+              "size": 973,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/8d78bd2a639542cbb01b18ce96062151.jpeg",
+              "height": 48
+            },
+            {
+              "size": 1382,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/90370d6670b74ac68ce5f7c65faf0cb1.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1601,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/4bd0e966245b49d98e95f60044b804b9/6f30d1048f0b4f42b716312174e16cd2.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/af8ba4b473ad41e69b58f1274ddd0f34"
+      },
+      "description": "30mm bullet.\nBushmaster gun cannon\nHigh Quality Design, Detail and Model\n\n***Black Hole***",
+      "faceCount": 1243600,
+      "createdAt": "2020-05-16T14:27:32.354893",
+      "vertexCount": 545177,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 2,
+          "size": 42196552,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 1089200,
+          "vertexCount": 558634
+        },
+        "gltf": {
+          "textureCount": 2,
+          "size": 23999622,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 1089200,
+          "vertexCount": 558634
+        },
+        "source": {
+          "textureCount": null,
+          "size": 43074093,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 20933250,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/01063e46b7344b9396fb5242ab37241a",
+      "uid": "01063e46b7344b9396fb5242ab37241a",
+      "name": "Bushmaster ACR",
+      "staffpickedAt": null,
+      "viewCount": 3140,
+      "likeCount": 40,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-01063e46b7344b9396fb5242ab37241a",
+      "embedUrl": "https://sketchfab.com/models/01063e46b7344b9396fb5242ab37241a/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2020-11-16T13:54:10.066873",
+      "tags": [
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "acr",
+          "slug": "acr",
+          "uri": "https://api.sketchfab.com/v3/tags/acr"
+        },
+        {
+          "name": "bushmaster_acr",
+          "slug": "bushmaster_acr",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster_acr"
+        },
+        {
+          "name": "low_poly_style",
+          "slug": "low_poly_style",
+          "uri": "https://api.sketchfab.com/v3/tags/low_poly_style"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "1ac58eebd8cb4435b98bbaba7139c351",
+            "size": 62497,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/01063e46b7344b9396fb5242ab37241a/thumbnails/07aec13221e140f195cf9a275cc9f61c/0bca738c39d74527950d3398e2cbb587.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "719c5defeb434e24a0af9fe4960a28de",
+            "size": 21582,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/01063e46b7344b9396fb5242ab37241a/thumbnails/07aec13221e140f195cf9a275cc9f61c/f9f8c58ebe114360a09764d52ce9e300.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "8d38a3d6f2f444b4822849c14c099fec",
+            "size": 13125,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/01063e46b7344b9396fb5242ab37241a/thumbnails/07aec13221e140f195cf9a275cc9f61c/a44b20cb1e6d4005be69c46aa1da77fd.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "f0923f1721a74611b98c1bd910bf8f98",
+            "size": 3292,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/01063e46b7344b9396fb5242ab37241a/thumbnails/07aec13221e140f195cf9a275cc9f61c/3c5f4f85787a4ab7b17640a0e4350ac8.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "3fa91630726d41c98ca92712f93d7fab",
+            "size": 836,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/01063e46b7344b9396fb5242ab37241a/thumbnails/07aec13221e140f195cf9a275cc9f61c/ad06e0acbd2c42c59b670d5a080a9a4e.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "d61b8cd1ec8c45a4b368cb20680ea90d",
+        "username": "CloudyRain",
+        "displayName": "CloudyRain",
+        "profileUrl": "https://sketchfab.com/CloudyRain",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/d61b8cd1ec8c45a4b368cb20680ea90d"
+      },
+      "description": "A modular semi-auto rifle designed in 2006 by Magpull Industries.",
+      "faceCount": 7518,
+      "createdAt": "2020-11-13T02:36:03.766309",
+      "vertexCount": 3819,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 726496,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 7498,
+          "vertexCount": 19170
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 139314,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 7498,
+          "vertexCount": 19170
+        },
+        "source": {
+          "textureCount": null,
+          "size": 1601350,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 478381,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/988e9469914d41da9094825bb2bb86c9",
+      "uid": "988e9469914d41da9094825bb2bb86c9",
+      "name": "Bushmaster PMV",
+      "staffpickedAt": null,
+      "viewCount": 1836,
+      "likeCount": 28,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-988e9469914d41da9094825bb2bb86c9",
+      "embedUrl": "https://sketchfab.com/models/988e9469914d41da9094825bb2bb86c9/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2025-05-08T14:08:22.657708",
+      "tags": [
+        {
+          "name": "modern",
+          "slug": "modern",
+          "uri": "https://api.sketchfab.com/v3/tags/modern"
+        },
+        {
+          "name": "truck",
+          "slug": "truck",
+          "uri": "https://api.sketchfab.com/v3/tags/truck"
+        },
+        {
+          "name": "armored",
+          "slug": "armored",
+          "uri": "https://api.sketchfab.com/v3/tags/armored"
+        },
+        {
+          "name": "army",
+          "slug": "army",
+          "uri": "https://api.sketchfab.com/v3/tags/army"
+        },
+        {
+          "name": "4x4",
+          "slug": "4x4",
+          "uri": "https://api.sketchfab.com/v3/tags/4x4"
+        },
+        {
+          "name": "australia",
+          "slug": "australia",
+          "uri": "https://api.sketchfab.com/v3/tags/australia"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "battlefield",
+          "slug": "battlefield",
+          "uri": "https://api.sketchfab.com/v3/tags/battlefield"
+        },
+        {
+          "name": "offroad",
+          "slug": "offroad",
+          "uri": "https://api.sketchfab.com/v3/tags/offroad"
+        },
+        {
+          "name": "australian",
+          "slug": "australian",
+          "uri": "https://api.sketchfab.com/v3/tags/australian"
+        },
+        {
+          "name": "ukraine",
+          "slug": "ukraine",
+          "uri": "https://api.sketchfab.com/v3/tags/ukraine"
+        },
+        {
+          "name": "ripped",
+          "slug": "ripped",
+          "uri": "https://api.sketchfab.com/v3/tags/ripped"
+        },
+        {
+          "name": "ukrainian",
+          "slug": "ukrainian",
+          "uri": "https://api.sketchfab.com/v3/tags/ukrainian"
+        },
+        {
+          "name": "mrap",
+          "slug": "mrap",
+          "uri": "https://api.sketchfab.com/v3/tags/mrap"
+        },
+        {
+          "name": "pmv",
+          "slug": "pmv",
+          "uri": "https://api.sketchfab.com/v3/tags/pmv"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "car",
+          "slug": "car",
+          "uri": "https://api.sketchfab.com/v3/tags/car"
+        },
+        {
+          "name": "war",
+          "slug": "war",
+          "uri": "https://api.sketchfab.com/v3/tags/war"
+        },
+        {
+          "name": "ukrainewar",
+          "slug": "ukrainewar",
+          "uri": "https://api.sketchfab.com/v3/tags/ukrainewar"
+        },
+        {
+          "name": "imv",
+          "slug": "imv",
+          "uri": "https://api.sketchfab.com/v3/tags/imv"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "31b024b5a98b4b01a3bdf3c10c360e02",
+            "size": 123773,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/988e9469914d41da9094825bb2bb86c9/thumbnails/30e149c5416a4ad2bf41dd325efec924/ec26e6589a914fe5bb2d932a7e8dcf91.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "fd57000445854b11bff73493dbf90cf8",
+            "size": 42666,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/988e9469914d41da9094825bb2bb86c9/thumbnails/30e149c5416a4ad2bf41dd325efec924/572745fc2eaf4e0bbae43337ba62fecd.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "0ffcfcf92e8d49b79e2471d652569540",
+            "size": 25457,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/988e9469914d41da9094825bb2bb86c9/thumbnails/30e149c5416a4ad2bf41dd325efec924/4132359259da4c13a02ea9260067633f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "1d7c3f87fed043498e0ec47234aa04ec",
+            "size": 5445,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/988e9469914d41da9094825bb2bb86c9/thumbnails/30e149c5416a4ad2bf41dd325efec924/e414fed9de7048f9aa4e5ff0abab46c3.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "809b822b7b774baab34a84fc7a612835",
+            "size": 1202,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/988e9469914d41da9094825bb2bb86c9/thumbnails/30e149c5416a4ad2bf41dd325efec924/66d39b4163ab4e37916ce211a434eb7c.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2a533251481140f298a62e3cbc74f969",
+        "username": "42manako",
+        "displayName": "42manako",
+        "profileUrl": "https://sketchfab.com/42manako",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/c76ccfda41594e33a6061999bef721f8",
+          "images": [
+            {
+              "size": 2452,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/c76ccfda41594e33a6061999bef721f8/a10ecf71005441f5ab40cd4fec112b87.png",
+              "height": 32
+            },
+            {
+              "size": 5116,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/c76ccfda41594e33a6061999bef721f8/1a43aee079a64949b5beee32b8a7f718.png",
+              "height": 48
+            },
+            {
+              "size": 16273,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/c76ccfda41594e33a6061999bef721f8/3c38e4c917514314a3af758ebee23240.png",
+              "height": 90
+            },
+            {
+              "size": 19604,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/c76ccfda41594e33a6061999bef721f8/587ddc7678dc46fe9ab6e6f774f6e4c8.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2a533251481140f298a62e3cbc74f969"
+      },
+      "description": "The Bushmaster PMV is an armored infantry mobility vehicle designed in Australia. The vehicle is currently in service with multiple countries, including Ukraine. Model ripped from Battlefield, however I edited the texture to remove the, um, *interesting* poster on the inside.\n\n**Join the Discord!** https://discord.gg/yFmUkcYb",
+      "faceCount": 9251,
+      "createdAt": "2025-05-07T21:12:21.725829",
+      "vertexCount": 5156,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 1439376,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 9243,
+          "vertexCount": 14811
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 1053733,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 9243,
+          "vertexCount": 14811
+        },
+        "source": {
+          "textureCount": null,
+          "size": 1590028,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 847111,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/3beccb4521c347868072785435766c56",
+      "uid": "3beccb4521c347868072785435766c56",
+      "name": "Bushmaster ACR",
+      "staffpickedAt": null,
+      "viewCount": 6758,
+      "likeCount": 57,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-3beccb4521c347868072785435766c56",
+      "embedUrl": "https://sketchfab.com/models/3beccb4521c347868072785435766c56/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2018-09-28T16:30:43.725062",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "soldier",
+          "slug": "soldier",
+          "uri": "https://api.sketchfab.com/v3/tags/soldier"
+        },
+        {
+          "name": "paint",
+          "slug": "paint",
+          "uri": "https://api.sketchfab.com/v3/tags/paint"
+        },
+        {
+          "name": "master",
+          "slug": "master",
+          "uri": "https://api.sketchfab.com/v3/tags/master"
+        },
+        {
+          "name": "magazine",
+          "slug": "magazine",
+          "uri": "https://api.sketchfab.com/v3/tags/magazine"
+        },
+        {
+          "name": "556",
+          "slug": "556",
+          "uri": "https://api.sketchfab.com/v3/tags/556"
+        },
+        {
+          "name": "remington",
+          "slug": "remington",
+          "uri": "https://api.sketchfab.com/v3/tags/remington"
+        },
+        {
+          "name": "bush",
+          "slug": "bush",
+          "uri": "https://api.sketchfab.com/v3/tags/bush"
+        },
+        {
+          "name": "caliber",
+          "slug": "caliber",
+          "uri": "https://api.sketchfab.com/v3/tags/caliber"
+        },
+        {
+          "name": "game-ready",
+          "slug": "game-ready",
+          "uri": "https://api.sketchfab.com/v3/tags/game-ready"
+        },
+        {
+          "name": "magpul",
+          "slug": "magpul",
+          "uri": "https://api.sketchfab.com/v3/tags/magpul"
+        },
+        {
+          "name": "assault-rifle",
+          "slug": "assault-rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/assault-rifle"
+        },
+        {
+          "name": "acr",
+          "slug": "acr",
+          "uri": "https://api.sketchfab.com/v3/tags/acr"
+        },
+        {
+          "name": "tan",
+          "slug": "tan",
+          "uri": "https://api.sketchfab.com/v3/tags/tan"
+        },
+        {
+          "name": "bushes",
+          "slug": "bushes",
+          "uri": "https://api.sketchfab.com/v3/tags/bushes"
+        },
+        {
+          "name": "weapons-game-objects-3d-models",
+          "slug": "weapons-game-objects-3d-models",
+          "uri": "https://api.sketchfab.com/v3/tags/weapons-game-objects-3d-models"
+        },
+        {
+          "name": "masada",
+          "slug": "masada",
+          "uri": "https://api.sketchfab.com/v3/tags/masada"
+        },
+        {
+          "name": "pubg",
+          "slug": "pubg",
+          "uri": "https://api.sketchfab.com/v3/tags/pubg"
+        },
+        {
+          "name": "pubg-skins",
+          "slug": "pubg-skins",
+          "uri": "https://api.sketchfab.com/v3/tags/pubg-skins"
+        },
+        {
+          "name": "substancepainter",
+          "slug": "substancepainter",
+          "uri": "https://api.sketchfab.com/v3/tags/substancepainter"
+        },
+        {
+          "name": "substance",
+          "slug": "substance",
+          "uri": "https://api.sketchfab.com/v3/tags/substance"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "maya",
+          "slug": "maya",
+          "uri": "https://api.sketchfab.com/v3/tags/maya"
+        },
+        {
+          "name": "3d-coat",
+          "slug": "3d-coat",
+          "uri": "https://api.sketchfab.com/v3/tags/3d-coat"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "94606be191214641947b2c0a333b6e94",
+            "size": 218283,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/3beccb4521c347868072785435766c56/thumbnails/2eb46870f0a140ddac1df30fd99f1abb/6bb0be83c1984ed5a2fcbf0a0071d542.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "0500dbf9378b4eb3b839f8562897149f",
+            "size": 38641,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/3beccb4521c347868072785435766c56/thumbnails/2eb46870f0a140ddac1df30fd99f1abb/a518602f2c19491c996712d8afd7359d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "fc80be1abeb64224a7a2ad121d5a470f",
+            "size": 21643,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/3beccb4521c347868072785435766c56/thumbnails/2eb46870f0a140ddac1df30fd99f1abb/cb3253fb34dd4994b62dc7c5c7667d08.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c3725ed0db2344fc88a1cc46a49eb924",
+            "size": 4463,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/3beccb4521c347868072785435766c56/thumbnails/2eb46870f0a140ddac1df30fd99f1abb/c5182a733baa4ff2871ee35f332bb6ad.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "fd410fc04cad4353b26a89efce04ef44",
+            "size": 859,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/3beccb4521c347868072785435766c56/thumbnails/2eb46870f0a140ddac1df30fd99f1abb/01dc8e89b5694dbc9e1a48b60023818e.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "23f5b19904d44077aaa9cfad0f9daa47",
+        "username": "Layneh",
+        "displayName": "Layne.H",
+        "profileUrl": "https://sketchfab.com/Layneh",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/f8b0557944de410ab178ab9361bb772a",
+          "images": [
+            {
+              "size": 1929,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/f8b0557944de410ab178ab9361bb772a/0c0c4847ac744d7db658e3923f0976ee.png",
+              "height": 32
+            },
+            {
+              "size": 3596,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/f8b0557944de410ab178ab9361bb772a/0f1f148654d64fc898165f0594672225.png",
+              "height": 48
+            },
+            {
+              "size": 9379,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/f8b0557944de410ab178ab9361bb772a/90702198e564421380de284fcd9edac0.png",
+              "height": 90
+            },
+            {
+              "size": 10833,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/f8b0557944de410ab178ab9361bb772a/618ae9849d364eabafd27c40ec8499bb.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/23f5b19904d44077aaa9cfad0f9daa47"
+      },
+      "description": "This gun is game-ready with sights for proper first person aiming and is ready to rig. \n\nThe Remington ACR is a modular assault rifle designed by Magpul Industries of Austin, Texas and was known as the Masada.",
+      "faceCount": 16938,
+      "createdAt": "2018-09-28T16:29:42.099243",
+      "vertexCount": 9400,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 6,
+          "size": 45580108,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 16931,
+          "vertexCount": 18682
+        },
+        "gltf": {
+          "textureCount": 6,
+          "size": 44624272,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 16931,
+          "vertexCount": 18682
+        },
+        "source": {
+          "textureCount": null,
+          "size": 38330486,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 5335748,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "5b54cf13b1a4422ca439696eb152070d",
+        "label": "Editorial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/26793b516b2d48ecbafe6c14fa1ce962",
+      "uid": "26793b516b2d48ecbafe6c14fa1ce962",
+      "name": "Bushmaster APC Low Poly",
+      "staffpickedAt": null,
+      "viewCount": 4560,
+      "likeCount": 55,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-26793b516b2d48ecbafe6c14fa1ce962",
+      "embedUrl": "https://sketchfab.com/models/26793b516b2d48ecbafe6c14fa1ce962/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2020-06-15T12:13:28.918574",
+      "tags": [
+        {
+          "name": "wheel",
+          "slug": "wheel",
+          "uri": "https://api.sketchfab.com/v3/tags/wheel"
+        },
+        {
+          "name": "green",
+          "slug": "green",
+          "uri": "https://api.sketchfab.com/v3/tags/green"
+        },
+        {
+          "name": "armor",
+          "slug": "armor",
+          "uri": "https://api.sketchfab.com/v3/tags/armor"
+        },
+        {
+          "name": "truck",
+          "slug": "truck",
+          "uri": "https://api.sketchfab.com/v3/tags/truck"
+        },
+        {
+          "name": "armored",
+          "slug": "armored",
+          "uri": "https://api.sketchfab.com/v3/tags/armored"
+        },
+        {
+          "name": "army",
+          "slug": "army",
+          "uri": "https://api.sketchfab.com/v3/tags/army"
+        },
+        {
+          "name": "mud",
+          "slug": "mud",
+          "uri": "https://api.sketchfab.com/v3/tags/mud"
+        },
+        {
+          "name": "engineer",
+          "slug": "engineer",
+          "uri": "https://api.sketchfab.com/v3/tags/engineer"
+        },
+        {
+          "name": "camo",
+          "slug": "camo",
+          "uri": "https://api.sketchfab.com/v3/tags/camo"
+        },
+        {
+          "name": "automotive",
+          "slug": "automotive",
+          "uri": "https://api.sketchfab.com/v3/tags/automotive"
+        },
+        {
+          "name": "fbx",
+          "slug": "fbx",
+          "uri": "https://api.sketchfab.com/v3/tags/fbx"
+        },
+        {
+          "name": "apc",
+          "slug": "apc",
+          "uri": "https://api.sketchfab.com/v3/tags/apc"
+        },
+        {
+          "name": "tank",
+          "slug": "tank",
+          "uri": "https://api.sketchfab.com/v3/tags/tank"
+        },
+        {
+          "name": "engine",
+          "slug": "engine",
+          "uri": "https://api.sketchfab.com/v3/tags/engine"
+        },
+        {
+          "name": "bush",
+          "slug": "bush",
+          "uri": "https://api.sketchfab.com/v3/tags/bush"
+        },
+        {
+          "name": "camouflage",
+          "slug": "camouflage",
+          "uri": "https://api.sketchfab.com/v3/tags/camouflage"
+        },
+        {
+          "name": "defence",
+          "slug": "defence",
+          "uri": "https://api.sketchfab.com/v3/tags/defence"
+        },
+        {
+          "name": "swamp",
+          "slug": "swamp",
+          "uri": "https://api.sketchfab.com/v3/tags/swamp"
+        },
+        {
+          "name": "woodland",
+          "slug": "woodland",
+          "uri": "https://api.sketchfab.com/v3/tags/woodland"
+        },
+        {
+          "name": "low-poly-model",
+          "slug": "low-poly-model",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly-model"
+        },
+        {
+          "name": "low-poly-art",
+          "slug": "low-poly-art",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly-art"
+        },
+        {
+          "name": "military-vehicle",
+          "slug": "military-vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/military-vehicle"
+        },
+        {
+          "name": "lowpoly-model",
+          "slug": "lowpoly-model",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly-model"
+        },
+        {
+          "name": "low-poly-blender",
+          "slug": "low-poly-blender",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly-blender"
+        },
+        {
+          "name": "shielding",
+          "slug": "shielding",
+          "uri": "https://api.sketchfab.com/v3/tags/shielding"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "vehicle",
+          "slug": "vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "blender3d",
+          "slug": "blender3d",
+          "uri": "https://api.sketchfab.com/v3/tags/blender3d"
+        },
+        {
+          "name": "gameart",
+          "slug": "gameart",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "gameasset",
+          "slug": "gameasset",
+          "uri": "https://api.sketchfab.com/v3/tags/gameasset"
+        },
+        {
+          "name": "car",
+          "slug": "car",
+          "uri": "https://api.sketchfab.com/v3/tags/car"
+        },
+        {
+          "name": "war",
+          "slug": "war",
+          "uri": "https://api.sketchfab.com/v3/tags/war"
+        },
+        {
+          "name": "engineering",
+          "slug": "engineering",
+          "uri": "https://api.sketchfab.com/v3/tags/engineering"
+        },
+        {
+          "name": "shield",
+          "slug": "shield",
+          "uri": "https://api.sketchfab.com/v3/tags/shield"
+        },
+        {
+          "name": "fbxmodel",
+          "slug": "fbxmodel",
+          "uri": "https://api.sketchfab.com/v3/tags/fbxmodel"
+        },
+        {
+          "name": "military-engineer",
+          "slug": "military-engineer",
+          "uri": "https://api.sketchfab.com/v3/tags/military-engineer"
+        },
+        {
+          "name": "dark-green",
+          "slug": "dark-green",
+          "uri": "https://api.sketchfab.com/v3/tags/dark-green"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "1db8d0e53c414b6ea9c1ba697e15c375",
+            "size": 292679,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/26793b516b2d48ecbafe6c14fa1ce962/thumbnails/886ca10679ad40949326d0ab27feb489/2f2f02390a9347d5bf8690e56d1243fb.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "02e3b1978a024b5d99a126cbd25c460c",
+            "size": 37133,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/26793b516b2d48ecbafe6c14fa1ce962/thumbnails/886ca10679ad40949326d0ab27feb489/4e91e0e0325d4f43b14593de55b84e43.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f82e377f38294d79b708c25a0f7aaf69",
+            "size": 21353,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/26793b516b2d48ecbafe6c14fa1ce962/thumbnails/886ca10679ad40949326d0ab27feb489/12ef412c078e41cd8d7e1eed242fbe62.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "ba1fddd566dc415196bbca5f77085551",
+            "size": 4775,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/26793b516b2d48ecbafe6c14fa1ce962/thumbnails/886ca10679ad40949326d0ab27feb489/344c39bd44a148d69c52db2945dab3f5.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "c32ec70e11ef484bb4a25bb091b32255",
+            "size": 921,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/26793b516b2d48ecbafe6c14fa1ce962/thumbnails/886ca10679ad40949326d0ab27feb489/f32aee37800c4cc0b6a13d94acebbf24.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c0d1a34e6d164dc7ace7231b22767fe4",
+        "username": "Dreyx",
+        "displayName": "Dreyx",
+        "profileUrl": "https://sketchfab.com/Dreyx",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/480d86dbd07b4320bebf33ca4ad3cc25",
+          "images": [
+            {
+              "size": 655,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/480d86dbd07b4320bebf33ca4ad3cc25/396c84cdb6b24119b6c35c8116ca17ec.png",
+              "height": 32
+            },
+            {
+              "size": 1114,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/480d86dbd07b4320bebf33ca4ad3cc25/475c3fa971924c0da2793bfbafa03b90.png",
+              "height": 48
+            },
+            {
+              "size": 2710,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/480d86dbd07b4320bebf33ca4ad3cc25/5fab2aa0177941269fba34e8c62331db.png",
+              "height": 90
+            },
+            {
+              "size": 3173,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/480d86dbd07b4320bebf33ca4ad3cc25/b52928064e1542b3bc71eaabf5b651ea.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c0d1a34e6d164dc7ace7231b22767fe4"
+      },
+      "description": "This is a low poly 3D model of the Bushmaster APC vehicle. It was modeled and prepared for low-poly style renderings and game development.\n\n* Higly customizable\n* Low Poly model\n\nModeled in Blender.",
+      "faceCount": 17798,
+      "createdAt": "2020-06-12T17:47:55.206126",
+      "vertexCount": 10322,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 1414436,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 17780,
+          "vertexCount": 32092
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 222036,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 17780,
+          "vertexCount": 32092
+        },
+        "source": {
+          "textureCount": null,
+          "size": 764152,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 472205,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "5b54cf13b1a4422ca439696eb152070d",
+        "label": "Editorial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a50752afa9694df0b23555e299558000",
+      "uid": "a50752afa9694df0b23555e299558000",
+      "name": "M4 Bushmaster",
+      "staffpickedAt": null,
+      "viewCount": 7776,
+      "likeCount": 61,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a50752afa9694df0b23555e299558000",
+      "embedUrl": "https://sketchfab.com/models/a50752afa9694df0b23555e299558000/embed",
+      "commentCount": 5,
+      "isDownloadable": false,
+      "publishedAt": "2015-03-05T09:05:05",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "m4a1",
+          "slug": "m4a1",
+          "uri": "https://api.sketchfab.com/v3/tags/m4a1"
+        },
+        {
+          "name": "assault",
+          "slug": "assault",
+          "uri": "https://api.sketchfab.com/v3/tags/assault"
+        },
+        {
+          "name": "m4",
+          "slug": "m4",
+          "uri": "https://api.sketchfab.com/v3/tags/m4"
+        },
+        {
+          "name": "carbine",
+          "slug": "carbine",
+          "uri": "https://api.sketchfab.com/v3/tags/carbine"
+        },
+        {
+          "name": "556",
+          "slug": "556",
+          "uri": "https://api.sketchfab.com/v3/tags/556"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "799e66ccbbfa4749a15fc769f3c81f49",
+            "size": 256754,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a50752afa9694df0b23555e299558000/thumbnails/e04348986ae04d77a5b89054cec38dfa/64295dba2d4f4a2ba20bb577585b420f.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "ffc1441f73454174b864b42a96ba9219",
+            "size": 69897,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a50752afa9694df0b23555e299558000/thumbnails/e04348986ae04d77a5b89054cec38dfa/5556bc7fcc3a44ca9b2c25a9e49a12db.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "a7e35d03aedf4c28ba0ba3c99ce72524",
+            "size": 33196,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a50752afa9694df0b23555e299558000/thumbnails/e04348986ae04d77a5b89054cec38dfa/5936b19326384f13a3debd6a10a765c3.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "7f0a878a34ff472eba9df39069dfe677",
+            "size": 4500,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a50752afa9694df0b23555e299558000/thumbnails/e04348986ae04d77a5b89054cec38dfa/dc5830ea4970401d833dac44dda63a22.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "85e12e4d6cda4c2095483f524ef6fd00",
+            "size": 665,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a50752afa9694df0b23555e299558000/thumbnails/e04348986ae04d77a5b89054cec38dfa/4980858ea7654a05b1a0c1771bb1309e.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "d6810b76c44d4e9290c28647ef152c99",
+        "username": "ulfen",
+        "displayName": "Ulfen",
+        "profileUrl": "https://sketchfab.com/ulfen",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/9e05d2a0dd614160999c7b1c3fb3b536",
+          "images": [
+            {
+              "size": 20050,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/9e05d2a0dd614160999c7b1c3fb3b536/c0e8602901f54da3bc029ee8cfa3cf78.jpeg",
+              "height": 32
+            },
+            {
+              "size": 20534,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/9e05d2a0dd614160999c7b1c3fb3b536/fec5d4d77f9b49459f2da944b71a82d8.jpeg",
+              "height": 48
+            },
+            {
+              "size": 22602,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/9e05d2a0dd614160999c7b1c3fb3b536/a56c9d6ae66543b0b6714c938484fbf8.jpeg",
+              "height": 90
+            },
+            {
+              "size": 23211,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/9e05d2a0dd614160999c7b1c3fb3b536/f29e76baf4164038bb31f3fcb2c951d4.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/d6810b76c44d4e9290c28647ef152c99"
+      },
+      "description": "Learning PBR is hard.",
+      "faceCount": 10749,
+      "createdAt": "2015-03-05T09:05:04",
+      "vertexCount": 5701,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/2adc739dff74478db72a1545fcc1eef7",
+      "uid": "2adc739dff74478db72a1545fcc1eef7",
+      "name": "Low-Poly Bushmaster M17s",
+      "staffpickedAt": null,
+      "viewCount": 1664,
+      "likeCount": 64,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-2adc739dff74478db72a1545fcc1eef7",
+      "embedUrl": "https://sketchfab.com/models/2adc739dff74478db72a1545fcc1eef7/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2017-10-13T07:46:28.839345",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "assault",
+          "slug": "assault",
+          "uri": "https://api.sketchfab.com/v3/tags/assault"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "bullpup",
+          "slug": "bullpup",
+          "uri": "https://api.sketchfab.com/v3/tags/bullpup"
+        },
+        {
+          "name": "american",
+          "slug": "american",
+          "uri": "https://api.sketchfab.com/v3/tags/american"
+        },
+        {
+          "name": "bush",
+          "slug": "bush",
+          "uri": "https://api.sketchfab.com/v3/tags/bush"
+        },
+        {
+          "name": "m17s",
+          "slug": "m17s",
+          "uri": "https://api.sketchfab.com/v3/tags/m17s"
+        },
+        {
+          "name": "low",
+          "slug": "low",
+          "uri": "https://api.sketchfab.com/v3/tags/low"
+        },
+        {
+          "name": "poly",
+          "slug": "poly",
+          "uri": "https://api.sketchfab.com/v3/tags/poly"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "99e64d9695964de0970cbd84fdc7863f",
+            "size": 89977,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/2adc739dff74478db72a1545fcc1eef7/thumbnails/466bed2ad33548b1aa8d22c24d02340e/3f4e6e234e2947ceaa76061b3c6bc419.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "4a74861b68cc4960b33ffc69550bb4eb",
+            "size": 28027,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/2adc739dff74478db72a1545fcc1eef7/thumbnails/466bed2ad33548b1aa8d22c24d02340e/6bbee93ba4e34982b6be352fe9bfabb1.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "de31ddbb4a144466a6a6ca2c446e3636",
+            "size": 16197,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/2adc739dff74478db72a1545fcc1eef7/thumbnails/466bed2ad33548b1aa8d22c24d02340e/a1b5805368e747729d03c1d106b07173.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "754869eeda794512bb5c5effd1180765",
+            "size": 3999,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/2adc739dff74478db72a1545fcc1eef7/thumbnails/466bed2ad33548b1aa8d22c24d02340e/0ce74d4c6bc5440a8948d752953f7833.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f0c2d7fc01374efdbdf0f6d3980422ef",
+            "size": 1075,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/2adc739dff74478db72a1545fcc1eef7/thumbnails/466bed2ad33548b1aa8d22c24d02340e/2b47089f09c24cae8f6bb39f669d55fd.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "ba88d4bd23174291a5c9016ba62c6a13",
+        "username": "TastyTony",
+        "displayName": "TastyTony",
+        "profileUrl": "https://sketchfab.com/TastyTony",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/eddea477138d482a852cab8fb209e6e8",
+          "images": [
+            {
+              "size": 1696,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/97047a5274304989830e653a21ad569f.png",
+              "height": 32
+            },
+            {
+              "size": 3418,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/856e1d9411ee4ac992da4897bae4aa6f.png",
+              "height": 48
+            },
+            {
+              "size": 11176,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/6e926dde05f54f8aa63a5848d3ae44db.png",
+              "height": 90
+            },
+            {
+              "size": 13694,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/163ac50b1678436ab7d0dba63300d14b.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ba88d4bd23174291a5c9016ba62c6a13"
+      },
+      "description": "An american made bullpup rifle. Was originally designed and produced for the Australian army.",
+      "faceCount": 4443,
+      "createdAt": "2017-10-13T07:43:10.029949",
+      "vertexCount": 2419,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 232384,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 4403,
+          "vertexCount": 7059
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 51383,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 4403,
+          "vertexCount": 7059
+        },
+        "source": {
+          "textureCount": null,
+          "size": 987150,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 189397,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/cfccdfca2ee0469cb2198d28e8258926",
+      "uid": "cfccdfca2ee0469cb2198d28e8258926",
+      "name": "Assault rifle Bushmaster ACR",
+      "staffpickedAt": null,
+      "viewCount": 4747,
+      "likeCount": 71,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-cfccdfca2ee0469cb2198d28e8258926",
+      "embedUrl": "https://sketchfab.com/models/cfccdfca2ee0469cb2198d28e8258926/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2018-01-21T15:40:06.998960",
+      "tags": [
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "assaultrifle",
+          "slug": "assaultrifle",
+          "uri": "https://api.sketchfab.com/v3/tags/assaultrifle"
+        },
+        {
+          "name": "acr",
+          "slug": "acr",
+          "uri": "https://api.sketchfab.com/v3/tags/acr"
+        },
+        {
+          "name": "usrifles",
+          "slug": "usrifles",
+          "uri": "https://api.sketchfab.com/v3/tags/usrifles"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "unity",
+          "slug": "unity",
+          "uri": "https://api.sketchfab.com/v3/tags/unity"
+        },
+        {
+          "name": "unity3d",
+          "slug": "unity3d",
+          "uri": "https://api.sketchfab.com/v3/tags/unity3d"
+        },
+        {
+          "name": "pbr",
+          "slug": "pbr",
+          "uri": "https://api.sketchfab.com/v3/tags/pbr"
+        },
+        {
+          "name": "guns",
+          "slug": "guns",
+          "uri": "https://api.sketchfab.com/v3/tags/guns"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "c042c1c5b7994176a1c94a081594c320",
+            "size": 266021,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/cfccdfca2ee0469cb2198d28e8258926/thumbnails/fcc00d8aeec2443e94b9d5811acf538d/a60116bb78064a5283ccbb444ec499dc.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6c15fc2e4a4b4738b951ad75130ad33f",
+            "size": 65346,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/cfccdfca2ee0469cb2198d28e8258926/thumbnails/fcc00d8aeec2443e94b9d5811acf538d/aff7a195a0b74af085c7e228bf5dd4a9.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "ccc4a8e4e37546d0b4749ef5693df288",
+            "size": 30994,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/cfccdfca2ee0469cb2198d28e8258926/thumbnails/fcc00d8aeec2443e94b9d5811acf538d/f38bb7b804e34b45bd181f56a3872e7b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "9950e03ab9ad4ae1a78e644c9cac3ff8",
+            "size": 4591,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/cfccdfca2ee0469cb2198d28e8258926/thumbnails/fcc00d8aeec2443e94b9d5811acf538d/7d6f3309d3f04dd2b62da3d756c657a8.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "1b61ca60014745e0bb855a0948345989",
+            "size": 725,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/cfccdfca2ee0469cb2198d28e8258926/thumbnails/fcc00d8aeec2443e94b9d5811acf538d/8bd9b8b2634e4de882b0fdba49112087.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c270a53c04c7449ab011ed4f3c3aa748",
+        "username": "craftworkmobile",
+        "displayName": "CraftworkMobile",
+        "profileUrl": "https://sketchfab.com/craftworkmobile",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/1a8b6cb487ec402099970b8832724999",
+          "images": [
+            {
+              "size": 3602,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/1a8b6cb487ec402099970b8832724999/89ba0495eb374aa99e9d89a7e4dde7f8.jpeg",
+              "height": 100
+            },
+            {
+              "size": 3180,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/1a8b6cb487ec402099970b8832724999/d4697db396a3423eb7041fdb8989d741.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1526,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/1a8b6cb487ec402099970b8832724999/45d7748825b64c8ba48d17e5a0de7799.jpeg",
+              "height": 48
+            },
+            {
+              "size": 981,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/1a8b6cb487ec402099970b8832724999/8c6167bfa59542f68f8c5b191bd0a058.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c270a53c04c7449ab011ed4f3c3aa748"
+      },
+      "description": "Lowpoly 3d model. 4k textures best fit for Standart (Specular Setup) for Unity3d 5.x+, 2017+\nThe model splited to 11 parts. So You can animate it, replace with others (battle sights, for example).\nReal world scale size model.\nThe model consists of separate parts that can be rigged and animated if need.\nTriangle count around 12000 tris.\nThere are 2 texture sets. Colored in black and desert style. 4k size each.\nEnjoy! :)",
+      "faceCount": 13794,
+      "createdAt": "2018-01-21T14:59:43.208603",
+      "vertexCount": 7181,
+      "isAgeRestricted": false,
+      "archives": {
+        "extra": {
+          "textureCount": null,
+          "size": 73788034,
+          "type": "extra",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "glb": {
+          "textureCount": 3,
+          "size": 30841000,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 13794,
+          "vertexCount": 11160
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 30174875,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 13794,
+          "vertexCount": 11160
+        },
+        "source": {
+          "textureCount": null,
+          "size": 57862388,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4818707,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "5b54cf13b1a4422ca439696eb152070d",
+        "label": "Editorial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/222ddc61df134580b16190b4c11345e1",
+      "uid": "222ddc61df134580b16190b4c11345e1",
+      "name": "Low-Poly Bushmaster ACR",
+      "staffpickedAt": null,
+      "viewCount": 4236,
+      "likeCount": 84,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-222ddc61df134580b16190b4c11345e1",
+      "embedUrl": "https://sketchfab.com/models/222ddc61df134580b16190b4c11345e1/embed",
+      "commentCount": 4,
+      "isDownloadable": true,
+      "publishedAt": "2019-02-06T18:02:22.449441",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "assault",
+          "slug": "assault",
+          "uri": "https://api.sketchfab.com/v3/tags/assault"
+        },
+        {
+          "name": "us",
+          "slug": "us",
+          "uri": "https://api.sketchfab.com/v3/tags/us"
+        },
+        {
+          "name": "carbine",
+          "slug": "carbine",
+          "uri": "https://api.sketchfab.com/v3/tags/carbine"
+        },
+        {
+          "name": "defense",
+          "slug": "defense",
+          "uri": "https://api.sketchfab.com/v3/tags/defense"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "firearm",
+          "slug": "firearm",
+          "uri": "https://api.sketchfab.com/v3/tags/firearm"
+        },
+        {
+          "name": "america",
+          "slug": "america",
+          "uri": "https://api.sketchfab.com/v3/tags/america"
+        },
+        {
+          "name": "american",
+          "slug": "american",
+          "uri": "https://api.sketchfab.com/v3/tags/american"
+        },
+        {
+          "name": "remington",
+          "slug": "remington",
+          "uri": "https://api.sketchfab.com/v3/tags/remington"
+        },
+        {
+          "name": "combat",
+          "slug": "combat",
+          "uri": "https://api.sketchfab.com/v3/tags/combat"
+        },
+        {
+          "name": "personal",
+          "slug": "personal",
+          "uri": "https://api.sketchfab.com/v3/tags/personal"
+        },
+        {
+          "name": "united",
+          "slug": "united",
+          "uri": "https://api.sketchfab.com/v3/tags/united"
+        },
+        {
+          "name": "defence",
+          "slug": "defence",
+          "uri": "https://api.sketchfab.com/v3/tags/defence"
+        },
+        {
+          "name": "states",
+          "slug": "states",
+          "uri": "https://api.sketchfab.com/v3/tags/states"
+        },
+        {
+          "name": "acr",
+          "slug": "acr",
+          "uri": "https://api.sketchfab.com/v3/tags/acr"
+        },
+        {
+          "name": "adaptive",
+          "slug": "adaptive",
+          "uri": "https://api.sketchfab.com/v3/tags/adaptive"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "low",
+          "slug": "low",
+          "uri": "https://api.sketchfab.com/v3/tags/low"
+        },
+        {
+          "name": "poly",
+          "slug": "poly",
+          "uri": "https://api.sketchfab.com/v3/tags/poly"
+        },
+        {
+          "name": "usa",
+          "slug": "usa",
+          "uri": "https://api.sketchfab.com/v3/tags/usa"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "smg",
+          "slug": "smg",
+          "uri": "https://api.sketchfab.com/v3/tags/smg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "3c34f422d87143509be91a6f8837987f",
+            "size": 96731,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/222ddc61df134580b16190b4c11345e1/thumbnails/4b7d4e3e4e7c4cbdb0745174f9aa6bbf/d0cae825bc614c53afdac44dc61d1d67.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "8ea9df364f544ef3924ab67c0bce3854",
+            "size": 33641,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/222ddc61df134580b16190b4c11345e1/thumbnails/4b7d4e3e4e7c4cbdb0745174f9aa6bbf/b3e6db1126f044eabc6ebef7ed218dc4.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "fcbdee1cd7a54bcab3237252956ddc5b",
+            "size": 19661,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/222ddc61df134580b16190b4c11345e1/thumbnails/4b7d4e3e4e7c4cbdb0745174f9aa6bbf/96daecc293544a42856ffcbfd653c1b3.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "8597e9c060194977b3a0b38077e7c93d",
+            "size": 4629,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/222ddc61df134580b16190b4c11345e1/thumbnails/4b7d4e3e4e7c4cbdb0745174f9aa6bbf/6847069d7ecd49188f920ba0a8ec3d14.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "7ca550b5a5d74767a6f86ecfe75fcb92",
+            "size": 1142,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/222ddc61df134580b16190b4c11345e1/thumbnails/4b7d4e3e4e7c4cbdb0745174f9aa6bbf/dac6aefeddfe4fc4a808e601e5e6f595.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "ba88d4bd23174291a5c9016ba62c6a13",
+        "username": "TastyTony",
+        "displayName": "TastyTony",
+        "profileUrl": "https://sketchfab.com/TastyTony",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/eddea477138d482a852cab8fb209e6e8",
+          "images": [
+            {
+              "size": 1696,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/97047a5274304989830e653a21ad569f.png",
+              "height": 32
+            },
+            {
+              "size": 3418,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/856e1d9411ee4ac992da4897bae4aa6f.png",
+              "height": 48
+            },
+            {
+              "size": 11176,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/6e926dde05f54f8aa63a5848d3ae44db.png",
+              "height": 90
+            },
+            {
+              "size": 13694,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/163ac50b1678436ab7d0dba63300d14b.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ba88d4bd23174291a5c9016ba62c6a13"
+      },
+      "description": "",
+      "faceCount": 8112,
+      "createdAt": "2019-02-06T17:55:28.028220",
+      "vertexCount": 4557,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 1252016,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 8104,
+          "vertexCount": 23559
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 166187,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 8104,
+          "vertexCount": 23559
+        },
+        "source": {
+          "textureCount": null,
+          "size": 245680,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 581280,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/07b9c993668041a58033fd19d5cf017e",
+      "uid": "07b9c993668041a58033fd19d5cf017e",
+      "name": "'97 ADI Bushmaster",
+      "staffpickedAt": null,
+      "viewCount": 56289,
+      "likeCount": 12,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-07b9c993668041a58033fd19d5cf017e",
+      "embedUrl": "https://sketchfab.com/models/07b9c993668041a58033fd19d5cf017e/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2022-12-07T20:46:29.267276",
+      "tags": [
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "adi",
+          "slug": "adi",
+          "uri": "https://api.sketchfab.com/v3/tags/adi"
+        },
+        {
+          "name": "pmv",
+          "slug": "pmv",
+          "uri": "https://api.sketchfab.com/v3/tags/pmv"
+        },
+        {
+          "name": "projectzomboid",
+          "slug": "projectzomboid",
+          "uri": "https://api.sketchfab.com/v3/tags/projectzomboid"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "fc0644d54f834967a998d888a89e2b4d",
+            "size": 156772,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/07b9c993668041a58033fd19d5cf017e/thumbnails/5e37c1c5863d4fb9aa9184a9fa9fa8bd/a2fa354fbdc84810ab6ed251eb50337a.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "48dd545271a844a4b9cc58f29f3e30ab",
+            "size": 34839,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/07b9c993668041a58033fd19d5cf017e/thumbnails/5e37c1c5863d4fb9aa9184a9fa9fa8bd/fd2d5e0e2b2a4871ab8a9a0ee6f1e1da.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "fad7a48862724cba9f9fd79b825e3f0d",
+            "size": 19268,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/07b9c993668041a58033fd19d5cf017e/thumbnails/5e37c1c5863d4fb9aa9184a9fa9fa8bd/e8b2266df10f41d8bbc698c1b3a004da.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "5c29b0e0641547b587dd2f128fc543a5",
+            "size": 3805,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/07b9c993668041a58033fd19d5cf017e/thumbnails/5e37c1c5863d4fb9aa9184a9fa9fa8bd/e78020b61549412289fc73772d1683ea.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "854e438009d64540a03108b51cba42ff",
+            "size": 996,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/07b9c993668041a58033fd19d5cf017e/thumbnails/5e37c1c5863d4fb9aa9184a9fa9fa8bd/92700cecec8b4815803886e0a506ca97.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "23beefc87cad4f9e80eb3a645f3cc411",
+        "username": "KI5mods",
+        "displayName": "KI5",
+        "profileUrl": "https://sketchfab.com/KI5mods",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/b0199e4f4225402b8b4dce36cd6dc092",
+          "images": [
+            {
+              "size": 972,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/b0199e4f4225402b8b4dce36cd6dc092/ba31f9f0df4e4b54abb49a66a4e5748f.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1232,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/b0199e4f4225402b8b4dce36cd6dc092/8e9f205a6724455eba598dcf69f59b75.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2210,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/b0199e4f4225402b8b4dce36cd6dc092/b4d831d4cabb4e8c94a0da11c3d4f94a.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2430,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/b0199e4f4225402b8b4dce36cd6dc092/0b8ab70598ca4a239610086b09f85738.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/23beefc87cad4f9e80eb3a645f3cc411"
+      },
+      "description": "Showcase of a 1997 Australian Defence Industries Bushmaster Protected Mobility Vehicle, I\u2019ve made for project ZOMBOID, low poly but with a high detail texture, optimized for game engine. This version is not a 100% true to the original since there are some compromises I\u2019ve had to make to present it here.\n\nYou can find the actual version in project ZOMBOID STEAM Workshop.",
+      "faceCount": 13651,
+      "createdAt": "2022-12-07T20:38:18.853426",
+      "vertexCount": 7789,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/8f376dbb84e04b25a9d09449c2b69f0c",
+      "uid": "8f376dbb84e04b25a9d09449c2b69f0c",
+      "name": "Arbiter 450 Bushmaster - Sawed off AR",
+      "staffpickedAt": null,
+      "viewCount": 2276,
+      "likeCount": 55,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-8f376dbb84e04b25a9d09449c2b69f0c",
+      "embedUrl": "https://sketchfab.com/models/8f376dbb84e04b25a9d09449c2b69f0c/embed",
+      "commentCount": 2,
+      "isDownloadable": false,
+      "publishedAt": "2020-06-27T08:55:47.242343",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "firearm",
+          "slug": "firearm",
+          "uri": "https://api.sketchfab.com/v3/tags/firearm"
+        },
+        {
+          "name": "ar",
+          "slug": "ar",
+          "uri": "https://api.sketchfab.com/v3/tags/ar"
+        },
+        {
+          "name": "sawed-off",
+          "slug": "sawed-off",
+          "uri": "https://api.sketchfab.com/v3/tags/sawed-off"
+        },
+        {
+          "name": "ar-15",
+          "slug": "ar-15",
+          "uri": "https://api.sketchfab.com/v3/tags/ar-15"
+        },
+        {
+          "name": "game-ready",
+          "slug": "game-ready",
+          "uri": "https://api.sketchfab.com/v3/tags/game-ready"
+        },
+        {
+          "name": "450",
+          "slug": "450",
+          "uri": "https://api.sketchfab.com/v3/tags/450"
+        },
+        {
+          "name": "sawedoff",
+          "slug": "sawedoff",
+          "uri": "https://api.sketchfab.com/v3/tags/sawedoff"
+        },
+        {
+          "name": "rifle-assault-rifle",
+          "slug": "rifle-assault-rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle-assault-rifle"
+        },
+        {
+          "name": "pbr-game-ready",
+          "slug": "pbr-game-ready",
+          "uri": "https://api.sketchfab.com/v3/tags/pbr-game-ready"
+        },
+        {
+          "name": "arbiter",
+          "slug": "arbiter",
+          "uri": "https://api.sketchfab.com/v3/tags/arbiter"
+        },
+        {
+          "name": "firearm-firearms-m4a1-m4-rifle-assault-rifle",
+          "slug": "firearm-firearms-m4a1-m4-rifle-assault-rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/firearm-firearms-m4a1-m4-rifle-assault-rifle"
+        },
+        {
+          "name": "pbr-materials",
+          "slug": "pbr-materials",
+          "uri": "https://api.sketchfab.com/v3/tags/pbr-materials"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "gameasset",
+          "slug": "gameasset",
+          "uri": "https://api.sketchfab.com/v3/tags/gameasset"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "rigged",
+          "slug": "rigged",
+          "uri": "https://api.sketchfab.com/v3/tags/rigged"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7cc715baecca447ea8ec36917c30519c",
+            "size": 132426,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/8f376dbb84e04b25a9d09449c2b69f0c/thumbnails/81cf9fcd446b4288a2f2721b2c6ec977/157d8cfa4f53441b8752d00fb976a821.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "1a8527639ed349ba9a5c78049f7d56b5",
+            "size": 33186,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/8f376dbb84e04b25a9d09449c2b69f0c/thumbnails/81cf9fcd446b4288a2f2721b2c6ec977/e82325bf49e749ea8733455425b5a6e0.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "02ae8935993e4ed3a7d529d757642a6e",
+            "size": 19512,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/8f376dbb84e04b25a9d09449c2b69f0c/thumbnails/81cf9fcd446b4288a2f2721b2c6ec977/b9d60431abca44e3ba8e7e78fb6874f5.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "6fb3f475b8bf4a72afd2007f6954a94f",
+            "size": 4371,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/8f376dbb84e04b25a9d09449c2b69f0c/thumbnails/81cf9fcd446b4288a2f2721b2c6ec977/7564c72b1b6b42698697ecbaca74c402.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "12f4aac745bc4f749a49db7f2093584c",
+            "size": 842,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/8f376dbb84e04b25a9d09449c2b69f0c/thumbnails/81cf9fcd446b4288a2f2721b2c6ec977/25918f2d2093401e976da18c91183507.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "67076a51fb8f489981e36c328bd2c01f",
+        "username": "Akinaro",
+        "displayName": "Akinaro",
+        "profileUrl": "https://sketchfab.com/Akinaro",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/7a6625f6b14e4aeb8e76126011646b08",
+          "images": [
+            {
+              "size": 726,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/7a6625f6b14e4aeb8e76126011646b08/c55c240f1504428dbc0789ddb9c3d0b4.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1141,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/7a6625f6b14e4aeb8e76126011646b08/cadcfb730b0b4368b60c08d3055e379c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3005,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/7a6625f6b14e4aeb8e76126011646b08/0bd492b2277242f498934e7caaa78fd4.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3674,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/7a6625f6b14e4aeb8e76126011646b08/1811e05fb74a4bc489bde2adb8a7fc20.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/67076a51fb8f489981e36c328bd2c01f"
+      },
+      "description": "Technically this model of gun was... can shooter, but no one really want that so I modified tube to be semi-supressor-handguard-thing and i chambered it with 450 bushmaster, because its just nice caliber for such weird gun.\nOriginally at the end of the grip there was some visible buffer tube but I realize that there should be no problem to cut it off and hide totally in grip for such big caliber...\n\nThere is rigged version in fbx and dae format. Gun have one 4k PBR material.\n\nModel is game ready.\n\nMade in Blender.",
+      "faceCount": 15407,
+      "createdAt": "2020-06-27T08:08:21.302241",
+      "vertexCount": 8008,
+      "isAgeRestricted": false,
+      "archives": {
+        "extra": {
+          "textureCount": null,
+          "size": 81671761,
+          "type": "extra",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "glb": {
+          "textureCount": 3,
+          "size": 52387860,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 15341,
+          "vertexCount": 15069
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 51877495,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 15341,
+          "vertexCount": 15069
+        },
+        "source": {
+          "textureCount": null,
+          "size": 65005496,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4514905,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "5b54cf13b1a4422ca439696eb152070d",
+        "label": "Editorial"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/537c6823abb6484682dc33da538a211b",
+      "uid": "537c6823abb6484682dc33da538a211b",
+      "name": "Customized ACR BushMaster",
+      "staffpickedAt": null,
+      "viewCount": 7225,
+      "likeCount": 24,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-537c6823abb6484682dc33da538a211b",
+      "embedUrl": "https://sketchfab.com/models/537c6823abb6484682dc33da538a211b/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2021-01-21T02:48:57.162281",
+      "tags": [
+        {
+          "name": "dae",
+          "slug": "dae",
+          "uri": "https://api.sketchfab.com/v3/tags/dae"
+        },
+        {
+          "name": "army",
+          "slug": "army",
+          "uri": "https://api.sketchfab.com/v3/tags/army"
+        },
+        {
+          "name": "shooter",
+          "slug": "shooter",
+          "uri": "https://api.sketchfab.com/v3/tags/shooter"
+        },
+        {
+          "name": "riffle",
+          "slug": "riffle",
+          "uri": "https://api.sketchfab.com/v3/tags/riffle"
+        },
+        {
+          "name": "cyberpunk",
+          "slug": "cyberpunk",
+          "uri": "https://api.sketchfab.com/v3/tags/cyberpunk"
+        },
+        {
+          "name": "callofduty",
+          "slug": "callofduty",
+          "uri": "https://api.sketchfab.com/v3/tags/callofduty"
+        },
+        {
+          "name": "acr",
+          "slug": "acr",
+          "uri": "https://api.sketchfab.com/v3/tags/acr"
+        },
+        {
+          "name": "gap",
+          "slug": "gap",
+          "uri": "https://api.sketchfab.com/v3/tags/gap"
+        },
+        {
+          "name": "howest",
+          "slug": "howest",
+          "uri": "https://api.sketchfab.com/v3/tags/howest"
+        },
+        {
+          "name": "mercenary",
+          "slug": "mercenary",
+          "uri": "https://api.sketchfab.com/v3/tags/mercenary"
+        },
+        {
+          "name": "dae_howest",
+          "slug": "dae_howest",
+          "uri": "https://api.sketchfab.com/v3/tags/dae_howest"
+        },
+        {
+          "name": "bpr",
+          "slug": "bpr",
+          "uri": "https://api.sketchfab.com/v3/tags/bpr"
+        },
+        {
+          "name": "gamereadyasset",
+          "slug": "gamereadyasset",
+          "uri": "https://api.sketchfab.com/v3/tags/gamereadyasset"
+        },
+        {
+          "name": "substancepainter",
+          "slug": "substancepainter",
+          "uri": "https://api.sketchfab.com/v3/tags/substancepainter"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "gameready",
+          "slug": "gameready",
+          "uri": "https://api.sketchfab.com/v3/tags/gameready"
+        },
+        {
+          "name": "gap2020",
+          "slug": "gap2020",
+          "uri": "https://api.sketchfab.com/v3/tags/gap2020"
+        },
+        {
+          "name": "combatarms",
+          "slug": "combatarms",
+          "uri": "https://api.sketchfab.com/v3/tags/combatarms"
+        },
+        {
+          "name": "gap2021",
+          "slug": "gap2021",
+          "uri": "https://api.sketchfab.com/v3/tags/gap2021"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "645b6d7f42fb4ed19ecaf95c475b45da",
+            "size": 206032,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/537c6823abb6484682dc33da538a211b/thumbnails/90fceb14ef6640f2ae5c1873cfc42266/1725518314bb4ecf8cf340b3477ad9bd.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "9f6be17ca34641d6b7c3caa4d0a06105",
+            "size": 60570,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/537c6823abb6484682dc33da538a211b/thumbnails/90fceb14ef6640f2ae5c1873cfc42266/8c0aa9f17ebe476ca04757ded7d24ba5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "496ff027071043cb8ccf371d0da4fb70",
+            "size": 34098,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/537c6823abb6484682dc33da538a211b/thumbnails/90fceb14ef6640f2ae5c1873cfc42266/80449389b9b34d898c646d7159cf7de8.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "52ab049b0e1d4b6c9a04efed937fae33",
+            "size": 6645,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/537c6823abb6484682dc33da538a211b/thumbnails/90fceb14ef6640f2ae5c1873cfc42266/02cfd783df4248ca9f043de557e4d245.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "a6761d928ada4b2c83c9338cc3c22c5c",
+            "size": 1327,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/537c6823abb6484682dc33da538a211b/thumbnails/90fceb14ef6640f2ae5c1873cfc42266/2913ca227055430d8efe5fbbe4759258.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2fb6dc88c78e46b982b23d0fce5bc1cd",
+        "username": "basshunt3r",
+        "displayName": "Lorenzo de Vries",
+        "profileUrl": "https://sketchfab.com/basshunt3r",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/568619d5d2a64afabd52282f94ca8969",
+          "images": [
+            {
+              "size": 1102,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/568619d5d2a64afabd52282f94ca8969/e62bc732e5c040718d77cb3ab44ee1d8.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1525,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/568619d5d2a64afabd52282f94ca8969/7d6f201ec4774d2883db68d5114e9b31.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3344,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/568619d5d2a64afabd52282f94ca8969/8ad673e00e494a2b8dcb72dad12773c5.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3921,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/568619d5d2a64afabd52282f94ca8969/5737317ad1a04b1f932c04dd0e142b20.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2fb6dc88c78e46b982b23d0fce5bc1cd"
+      },
+      "description": "ACR Bushmaster with some Cyberpunky decals.\nSeems theres been a lot of replacements to the gun, but overall the gun is fairly well maintained.\n\nGame Ready model and textures.\n\nUsed to be my favourite game when I played Combat Arms back in the day, \nAlso was very into the whole Cyberpunk thing after playing that so I decided to create this.\nI mixed and matched different type of parts that I liked most and gave it a lil bit more touch.",
+      "faceCount": 26287,
+      "createdAt": "2021-01-21T02:03:44.888851",
+      "vertexCount": 13188,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/rTfIhYNI0TWL2mpUN9LorqCbEYt",
+      "uid": "rTfIhYNI0TWL2mpUN9LorqCbEYt",
+      "name": "Bushmaster ACR",
+      "staffpickedAt": null,
+      "viewCount": 1839,
+      "likeCount": 27,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-rTfIhYNI0TWL2mpUN9LorqCbEYt",
+      "embedUrl": "https://sketchfab.com/models/rTfIhYNI0TWL2mpUN9LorqCbEYt/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2012-12-16T21:36:30",
+      "tags": [
+        {
+          "name": "riffle",
+          "slug": "riffle",
+          "uri": "https://api.sketchfab.com/v3/tags/riffle"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "game",
+          "slug": "game",
+          "uri": "https://api.sketchfab.com/v3/tags/game"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        }
+      ],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e147e588521d4c07a6e2ebfd58b2263a",
+            "size": 330445,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/rTfIhYNI0TWL2mpUN9LorqCbEYt/thumbnails/c64d42f32928428ea91765542cc64e79/e8333dd0d10349efb482a053efceb974.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "5137d4fab3104cef87152bc8c7ff1c20",
+            "size": 73673,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/rTfIhYNI0TWL2mpUN9LorqCbEYt/thumbnails/c64d42f32928428ea91765542cc64e79/e9242f9384e14d798bc83daed61fd522.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "afddc318c991438594a85536b2ac3326",
+            "size": 34026,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/rTfIhYNI0TWL2mpUN9LorqCbEYt/thumbnails/c64d42f32928428ea91765542cc64e79/0f18c44c73ed427c83df17c33c40b46f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "59247c11783143abbeee9892a2cc5110",
+            "size": 4733,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/rTfIhYNI0TWL2mpUN9LorqCbEYt/thumbnails/c64d42f32928428ea91765542cc64e79/74af9f069070463aaa7f3a72c4defe08.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "abed54a73c4f4a218f519002c2a7bafa",
+            "size": 762,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/rTfIhYNI0TWL2mpUN9LorqCbEYt/thumbnails/c64d42f32928428ea91765542cc64e79/feb3e9b4ed614d3ca112c601a2074806.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "7d2175243b5945ebb0c8e1e877a819d6",
+        "username": "YuryUvarov",
+        "displayName": "Yury",
+        "profileUrl": "https://sketchfab.com/YuryUvarov",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+          "images": [
+            {
+              "size": 680,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1253,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2797,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3215,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/7d2175243b5945ebb0c8e1e877a819d6"
+      },
+      "description": "One of my personal projects. Please check  my web site for more art: http://yuryuvarov.carbonmade.com/",
+      "faceCount": 5570,
+      "createdAt": "2012-12-16T21:36:30",
+      "vertexCount": 10384,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9d66529b0e074c0fb7b7a647a11b3dcf",
+      "uid": "9d66529b0e074c0fb7b7a647a11b3dcf",
+      "name": "Low-Poly Bushmaster BA-50",
+      "staffpickedAt": null,
+      "viewCount": 2431,
+      "likeCount": 59,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9d66529b0e074c0fb7b7a647a11b3dcf",
+      "embedUrl": "https://sketchfab.com/models/9d66529b0e074c0fb7b7a647a11b3dcf/embed",
+      "commentCount": 3,
+      "isDownloadable": true,
+      "publishedAt": "2019-09-03T21:30:48.106740",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "device",
+          "slug": "device",
+          "uri": "https://api.sketchfab.com/v3/tags/device"
+        },
+        {
+          "name": "action",
+          "slug": "action",
+          "uri": "https://api.sketchfab.com/v3/tags/action"
+        },
+        {
+          "name": "range",
+          "slug": "range",
+          "uri": "https://api.sketchfab.com/v3/tags/range"
+        },
+        {
+          "name": "bolt",
+          "slug": "bolt",
+          "uri": "https://api.sketchfab.com/v3/tags/bolt"
+        },
+        {
+          "name": "long",
+          "slug": "long",
+          "uri": "https://api.sketchfab.com/v3/tags/long"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "firearm",
+          "slug": "firearm",
+          "uri": "https://api.sketchfab.com/v3/tags/firearm"
+        },
+        {
+          "name": "anti",
+          "slug": "anti",
+          "uri": "https://api.sketchfab.com/v3/tags/anti"
+        },
+        {
+          "name": "america",
+          "slug": "america",
+          "uri": "https://api.sketchfab.com/v3/tags/america"
+        },
+        {
+          "name": "american",
+          "slug": "american",
+          "uri": "https://api.sketchfab.com/v3/tags/american"
+        },
+        {
+          "name": "50",
+          "slug": "50",
+          "uri": "https://api.sketchfab.com/v3/tags/50"
+        },
+        {
+          "name": "large",
+          "slug": "large",
+          "uri": "https://api.sketchfab.com/v3/tags/large"
+        },
+        {
+          "name": "caliber",
+          "slug": "caliber",
+          "uri": "https://api.sketchfab.com/v3/tags/caliber"
+        },
+        {
+          "name": "materiel",
+          "slug": "materiel",
+          "uri": "https://api.sketchfab.com/v3/tags/materiel"
+        },
+        {
+          "name": "civillian",
+          "slug": "civillian",
+          "uri": "https://api.sketchfab.com/v3/tags/civillian"
+        },
+        {
+          "name": "destructive",
+          "slug": "destructive",
+          "uri": "https://api.sketchfab.com/v3/tags/destructive"
+        },
+        {
+          "name": "bmg",
+          "slug": "bmg",
+          "uri": "https://api.sketchfab.com/v3/tags/bmg"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "low",
+          "slug": "low",
+          "uri": "https://api.sketchfab.com/v3/tags/low"
+        },
+        {
+          "name": "poly",
+          "slug": "poly",
+          "uri": "https://api.sketchfab.com/v3/tags/poly"
+        },
+        {
+          "name": "usa",
+          "slug": "usa",
+          "uri": "https://api.sketchfab.com/v3/tags/usa"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "material",
+          "slug": "material",
+          "uri": "https://api.sketchfab.com/v3/tags/material"
+        },
+        {
+          "name": "127x99mm",
+          "slug": "127x99mm",
+          "uri": "https://api.sketchfab.com/v3/tags/127x99mm"
+        },
+        {
+          "name": "ba-50",
+          "slug": "ba-50",
+          "uri": "https://api.sketchfab.com/v3/tags/ba-50"
+        }
+      ],
+      "categories": [
+        {
+          "name": "electronics-gadgets"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "c09bd6ada1f24c2d808441ff10ed0039",
+            "size": 88248,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9d66529b0e074c0fb7b7a647a11b3dcf/thumbnails/601d849bac024cfbb99e6416dae71a87/44ff4dc7635d4dd3827b02e4043d440b.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "16183d0d7c0248388c6f33ce32b1d86b",
+            "size": 28317,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9d66529b0e074c0fb7b7a647a11b3dcf/thumbnails/601d849bac024cfbb99e6416dae71a87/a0f9cc0c1e2448528dbc906456b477b5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "43f35c62de334e98a66ce79527e0d46d",
+            "size": 16518,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9d66529b0e074c0fb7b7a647a11b3dcf/thumbnails/601d849bac024cfbb99e6416dae71a87/941a69d1731c45119985435c489a3a0f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "84fae2c9d5a9472985f7c69661eaebaa",
+            "size": 3875,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9d66529b0e074c0fb7b7a647a11b3dcf/thumbnails/601d849bac024cfbb99e6416dae71a87/67248551186b495cbeb6fd3080362653.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "fd628c5a0b2a4109a18cb9547332dad0",
+            "size": 1081,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9d66529b0e074c0fb7b7a647a11b3dcf/thumbnails/601d849bac024cfbb99e6416dae71a87/479ae58a7f714c4aa54167e755e56873.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "ba88d4bd23174291a5c9016ba62c6a13",
+        "username": "TastyTony",
+        "displayName": "TastyTony",
+        "profileUrl": "https://sketchfab.com/TastyTony",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/eddea477138d482a852cab8fb209e6e8",
+          "images": [
+            {
+              "size": 1696,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/97047a5274304989830e653a21ad569f.png",
+              "height": 32
+            },
+            {
+              "size": 3418,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/856e1d9411ee4ac992da4897bae4aa6f.png",
+              "height": 48
+            },
+            {
+              "size": 11176,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/6e926dde05f54f8aa63a5848d3ae44db.png",
+              "height": 90
+            },
+            {
+              "size": 13694,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/eddea477138d482a852cab8fb209e6e8/163ac50b1678436ab7d0dba63300d14b.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ba88d4bd23174291a5c9016ba62c6a13"
+      },
+      "description": "",
+      "faceCount": 7966,
+      "createdAt": "2019-09-03T21:24:42.498177",
+      "vertexCount": 4477,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 1290976,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 7966,
+          "vertexCount": 22971
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 181867,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 7966,
+          "vertexCount": 22971
+        },
+        "source": {
+          "textureCount": null,
+          "size": 315284,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 568586,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/75fcc1e4d6d64063888c7e96990c9826",
+      "uid": "75fcc1e4d6d64063888c7e96990c9826",
+      "name": "m242 bushmaster",
+      "staffpickedAt": null,
+      "viewCount": 191,
+      "likeCount": 18,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-75fcc1e4d6d64063888c7e96990c9826",
+      "embedUrl": "https://sketchfab.com/models/75fcc1e4d6d64063888c7e96990c9826/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2026-08-15T00:03:42.526152",
+      "tags": [],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "35fad5454db54594af721bcd2f161a6c",
+            "size": 110888,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/75fcc1e4d6d64063888c7e96990c9826/thumbnails/1dea672bea5b4cf1a762649c62f0bc5a/c1dfe7891029419d8cb81ec71a1e04f2.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e39818da678b4ab49cf506298ecf4856",
+            "size": 36726,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/75fcc1e4d6d64063888c7e96990c9826/thumbnails/1dea672bea5b4cf1a762649c62f0bc5a/de6d12d9ca4f4f879e4c37f14694d0f2.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e0abbb87242f4313a469160d58bf4381",
+            "size": 21516,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/75fcc1e4d6d64063888c7e96990c9826/thumbnails/1dea672bea5b4cf1a762649c62f0bc5a/d602d42953f047fca0cf0f9df0439b99.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "adc4fbe31f2a458c89cd49be992f0b0e",
+            "size": 4649,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/75fcc1e4d6d64063888c7e96990c9826/thumbnails/1dea672bea5b4cf1a762649c62f0bc5a/397679acdf494c15aaefbf3566fd13c0.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "dcbe3e1cbfb348bf8ecd4881a2d84bc9",
+            "size": 1134,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/75fcc1e4d6d64063888c7e96990c9826/thumbnails/1dea672bea5b4cf1a762649c62f0bc5a/9c45aa41dc194bc8adc72d9527f87c5a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "e7a0c20730734c22831b2a9aa469c01c",
+        "username": "lm9241221",
+        "displayName": "LM3D",
+        "profileUrl": "https://sketchfab.com/lm9241221",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/49871528dc1c40c697fcfdf29a427558",
+          "images": [
+            {
+              "size": 633,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/d6a9b8fb19a1465992acedbc562cee46.png",
+              "height": 32
+            },
+            {
+              "size": 980,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/d108b503d2fa465d91097aa0b511c954.png",
+              "height": 48
+            },
+            {
+              "size": 2122,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/2824a3e0c6f04f7b8dbc8d288a20bbdd.png",
+              "height": 90
+            },
+            {
+              "size": 3034,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/12c4fd1f0d604da5995b971dd039f3a2.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/e7a0c20730734c22831b2a9aa469c01c"
+      },
+      "description": "",
+      "faceCount": 86003,
+      "createdAt": "2026-08-14T23:54:36.772558",
+      "vertexCount": 48224,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a74c80bfba004301803a11e121bce1f7",
+      "uid": "a74c80bfba004301803a11e121bce1f7",
+      "name": "Bushmaster-m242",
+      "staffpickedAt": null,
+      "viewCount": 309,
+      "likeCount": 17,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a74c80bfba004301803a11e121bce1f7",
+      "embedUrl": "https://sketchfab.com/models/a74c80bfba004301803a11e121bce1f7/embed",
+      "commentCount": 5,
+      "isDownloadable": false,
+      "publishedAt": "2025-11-29T14:35:57.300720",
+      "tags": [],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "a86357c4438e4b17a6c870c779553c8b",
+            "size": 91986,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a74c80bfba004301803a11e121bce1f7/thumbnails/7b0f2899f6dd486599cf886e8a4e0427/3102323decad48409856ba5332669aa6.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "41757e3bbab046ecbdb3fbef33f12f2d",
+            "size": 31659,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a74c80bfba004301803a11e121bce1f7/thumbnails/7b0f2899f6dd486599cf886e8a4e0427/2a0de4beca4444df891120f1b4b7caa2.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "c7a126e795154942b209f5a45b579b7f",
+            "size": 18850,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a74c80bfba004301803a11e121bce1f7/thumbnails/7b0f2899f6dd486599cf886e8a4e0427/bce17228b1ef46b590b5a986cded12ad.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "518205058d0b48b0bdd045bd650877c0",
+            "size": 4281,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a74c80bfba004301803a11e121bce1f7/thumbnails/7b0f2899f6dd486599cf886e8a4e0427/260537e85f5442e191680b37bf269f42.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "4927ed5c00a14102b9fc0f717de025a0",
+            "size": 1146,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a74c80bfba004301803a11e121bce1f7/thumbnails/7b0f2899f6dd486599cf886e8a4e0427/b7bbd2404897427b9cdf7a9d3122f6d6.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "e7a0c20730734c22831b2a9aa469c01c",
+        "username": "lm9241221",
+        "displayName": "LM3D",
+        "profileUrl": "https://sketchfab.com/lm9241221",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/49871528dc1c40c697fcfdf29a427558",
+          "images": [
+            {
+              "size": 633,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/d6a9b8fb19a1465992acedbc562cee46.png",
+              "height": 32
+            },
+            {
+              "size": 980,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/d108b503d2fa465d91097aa0b511c954.png",
+              "height": 48
+            },
+            {
+              "size": 2122,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/2824a3e0c6f04f7b8dbc8d288a20bbdd.png",
+              "height": 90
+            },
+            {
+              "size": 3034,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/49871528dc1c40c697fcfdf29a427558/12c4fd1f0d604da5995b971dd039f3a2.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/e7a0c20730734c22831b2a9aa469c01c"
+      },
+      "description": "",
+      "faceCount": 824762,
+      "createdAt": "2025-11-29T14:22:39.128057",
+      "vertexCount": 414218,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/90f5615410f7465ea811376066aa564f",
+      "uid": "90f5615410f7465ea811376066aa564f",
+      "name": "Bushmaster PMV (low-poly)",
+      "staffpickedAt": null,
+      "viewCount": 199,
+      "likeCount": 6,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-90f5615410f7465ea811376066aa564f",
+      "embedUrl": "https://sketchfab.com/models/90f5615410f7465ea811376066aa564f/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2025-03-15T05:10:54.338985",
+      "tags": [
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "armoured_vehicle",
+          "slug": "armoured_vehicle",
+          "uri": "https://api.sketchfab.com/v3/tags/armoured_vehicle"
+        },
+        {
+          "name": "pmv",
+          "slug": "pmv",
+          "uri": "https://api.sketchfab.com/v3/tags/pmv"
+        },
+        {
+          "name": "low-poly",
+          "slug": "low-poly",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly"
+        }
+      ],
+      "categories": [
+        {
+          "name": "cars-vehicles"
+        },
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "95789cd58b7841e5bd6b799b182cea36",
+            "size": 52375,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/90f5615410f7465ea811376066aa564f/thumbnails/4cdeb057a41544d2a245771a583e96c6/06167b053ac44c2fb3436a620f7d26e1.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "12ff22531e5d40728b8d138b0614c7f2",
+            "size": 17301,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/90f5615410f7465ea811376066aa564f/thumbnails/4cdeb057a41544d2a245771a583e96c6/675efa8535c548a88f3f84959da69746.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "145912a859974966a64ba1e55436c732",
+            "size": 9926,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/90f5615410f7465ea811376066aa564f/thumbnails/4cdeb057a41544d2a245771a583e96c6/cb156932997a4c768d80d788148449af.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "aca795924cb6413ea59050c202a69c12",
+            "size": 2405,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/90f5615410f7465ea811376066aa564f/thumbnails/4cdeb057a41544d2a245771a583e96c6/a76b344b622a4d95aa2dba9a398d598d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f9e41556e2f94623be2c41c6c30f5956",
+            "size": 881,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/90f5615410f7465ea811376066aa564f/thumbnails/4cdeb057a41544d2a245771a583e96c6/4c7861d67ca8498bb15adaed73daffde.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "c1c78f71fa7d48a1a24cfae38b8e8190",
+        "username": "ScurvyWoof",
+        "displayName": "ScurvyWoof",
+        "profileUrl": "https://sketchfab.com/ScurvyWoof",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/263e2cbda78f44389963534eea8b0b30",
+          "images": [
+            {
+              "size": 2908,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/263e2cbda78f44389963534eea8b0b30/d32de8d44aa54ca4a52b8aa9e2b7e444.png",
+              "height": 32
+            },
+            {
+              "size": 6222,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/263e2cbda78f44389963534eea8b0b30/431ee54fb8ce4ac3b137e6eb60ebefec.png",
+              "height": 48
+            },
+            {
+              "size": 18055,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/263e2cbda78f44389963534eea8b0b30/35b70680d7124d3bab51d061513a3af2.png",
+              "height": 90
+            },
+            {
+              "size": 21254,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/263e2cbda78f44389963534eea8b0b30/8eba892c085644d4a6092915f9c6e21c.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/c1c78f71fa7d48a1a24cfae38b8e8190"
+      },
+      "description": "A low-poly Bushmaster PMV created in Blender for the Ancient Warfare 3 Steam Workshop page.",
+      "faceCount": 27222,
+      "createdAt": "2025-03-15T05:08:52.367043",
+      "vertexCount": 15205,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 1873124,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 27093,
+          "vertexCount": 47755
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 394867,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 27093,
+          "vertexCount": 47755
+        },
+        "source": {
+          "textureCount": null,
+          "size": 3095694,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 1181289,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/4b993f36540b44ea90235eb48087048f",
+      "uid": "4b993f36540b44ea90235eb48087048f",
+      "name": "Bushmaster snake from Poly by Google",
+      "staffpickedAt": null,
+      "viewCount": 493,
+      "likeCount": 12,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-4b993f36540b44ea90235eb48087048f",
+      "embedUrl": "https://sketchfab.com/models/4b993f36540b44ea90235eb48087048f/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2021-01-06T10:02:55.694843",
+      "tags": [
+        {
+          "name": "google",
+          "slug": "google",
+          "uri": "https://api.sketchfab.com/v3/tags/google"
+        },
+        {
+          "name": "video-games",
+          "slug": "video-games",
+          "uri": "https://api.sketchfab.com/v3/tags/video-games"
+        },
+        {
+          "name": "poly",
+          "slug": "poly",
+          "uri": "https://api.sketchfab.com/v3/tags/poly"
+        }
+      ],
+      "categories": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "79118974d4664ad38f259a639d7942e5",
+            "size": 32395,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/4b993f36540b44ea90235eb48087048f/thumbnails/46f0265c90c040d1a12f73f23a57eeb2/dfca32ff27f24cb8a79c22897c546f7f.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "904096fed5e747c59816e525a865cefd",
+            "size": 12027,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/4b993f36540b44ea90235eb48087048f/thumbnails/46f0265c90c040d1a12f73f23a57eeb2/19bb4006f48146ca8cde9dec483efea0.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e6c2f739d903467d8f875f48c963acdb",
+            "size": 7373,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/4b993f36540b44ea90235eb48087048f/thumbnails/46f0265c90c040d1a12f73f23a57eeb2/963e3621d5b24e6a89b59571596c08a1.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "32d6f660672d45b18ce0c0010ed268a6",
+            "size": 1771,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/4b993f36540b44ea90235eb48087048f/thumbnails/46f0265c90c040d1a12f73f23a57eeb2/35034d3feea5412aba28f9e652d4c78d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "9397d129b8a54cf6acdf7fc942d86170",
+            "size": 486,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/4b993f36540b44ea90235eb48087048f/thumbnails/46f0265c90c040d1a12f73f23a57eeb2/f251b0529d894cf4a02c600c79e730c0.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "bf7a02b212e9410484469b999a5e6cda",
+        "username": "ie-niels",
+        "displayName": "IronEqual",
+        "profileUrl": "https://sketchfab.com/ie-niels",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/7ac6762ee9fc46e1961beffeaa9279fd",
+          "images": [
+            {
+              "size": 1029,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/7ac6762ee9fc46e1961beffeaa9279fd/d16e7f3ce7ca451cb68135c08fbe47c2.png",
+              "height": 32
+            },
+            {
+              "size": 1517,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/7ac6762ee9fc46e1961beffeaa9279fd/a261f3cbd8b84bd7ae4d8c7d86be53d4.png",
+              "height": 48
+            },
+            {
+              "size": 2485,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/7ac6762ee9fc46e1961beffeaa9279fd/c836ea2ace19418fb7db56f90948d5d5.png",
+              "height": 90
+            },
+            {
+              "size": 2991,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/7ac6762ee9fc46e1961beffeaa9279fd/ed3b6df97cba4752a60c9dd71d75bde9.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/bf7a02b212e9410484469b999a5e6cda"
+      },
+      "description": "This is a backup of a Poly Asset named Bushmaster snake. Saved from Poly by Google. Preview may be without textures, they are still in the Download ZIP with a preview thumbnail.",
+      "faceCount": 598,
+      "createdAt": "2021-01-06T10:00:54.580903",
+      "vertexCount": 301,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 47856,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 598,
+          "vertexCount": 1204
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 17867,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 598,
+          "vertexCount": 1204
+        },
+        "source": {
+          "textureCount": null,
+          "size": 8920558,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 32092,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9ccdcc5dd0cf4ed3827077ed90592872",
+      "uid": "9ccdcc5dd0cf4ed3827077ed90592872",
+      "name": "ACR Bushmaster",
+      "staffpickedAt": null,
+      "viewCount": 605,
+      "likeCount": 8,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9ccdcc5dd0cf4ed3827077ed90592872",
+      "embedUrl": "https://sketchfab.com/models/9ccdcc5dd0cf4ed3827077ed90592872/embed",
+      "commentCount": 0,
+      "isDownloadable": false,
+      "publishedAt": "2019-05-29T02:25:27.112536",
+      "tags": [
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "scope",
+          "slug": "scope",
+          "uri": "https://api.sketchfab.com/v3/tags/scope"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "holographic",
+          "slug": "holographic",
+          "uri": "https://api.sketchfab.com/v3/tags/holographic"
+        },
+        {
+          "name": "acr",
+          "slug": "acr",
+          "uri": "https://api.sketchfab.com/v3/tags/acr"
+        },
+        {
+          "name": "rifle-assault-rifle",
+          "slug": "rifle-assault-rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle-assault-rifle"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "34940193fafa4c0b940f676e1ce13b2d",
+            "size": 114688,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9ccdcc5dd0cf4ed3827077ed90592872/thumbnails/e59aa59fb22c4dcebf8e3f6b9b62f499/97f780dd7fcb40dfbacfdc245be82380.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e338f18746484353b79685fe5cf9898a",
+            "size": 32196,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9ccdcc5dd0cf4ed3827077ed90592872/thumbnails/e59aa59fb22c4dcebf8e3f6b9b62f499/2565711c190d4fb991c1fe3ca877079f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "ee654d1ceb5c430ea3a3e11a985b8a65",
+            "size": 19253,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9ccdcc5dd0cf4ed3827077ed90592872/thumbnails/e59aa59fb22c4dcebf8e3f6b9b62f499/58e7c89e58474900aa96a333488a3d20.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "4504a818c26346c690b7c2a32661e234",
+            "size": 4281,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9ccdcc5dd0cf4ed3827077ed90592872/thumbnails/e59aa59fb22c4dcebf8e3f6b9b62f499/8edded0cd5d24a55921d67445073f695.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "7f69fbea96a14eff8aaff98afb3b50f5",
+            "size": 837,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9ccdcc5dd0cf4ed3827077ed90592872/thumbnails/e59aa59fb22c4dcebf8e3f6b9b62f499/5cf07d2063e44eb2b4f14bf5a595dfda.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "813aa518ae6b483695df996c43a2f87a",
+        "username": "carbrenn",
+        "displayName": "Brennen Caron",
+        "profileUrl": "https://sketchfab.com/carbrenn",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+          "images": [
+            {
+              "size": 680,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1253,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2797,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3215,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/813aa518ae6b483695df996c43a2f87a"
+      },
+      "description": "ACR I modelled in 3ds Max and recently low poly'd and retextured in Substance Painter.",
+      "faceCount": 23357,
+      "createdAt": "2019-05-29T02:09:40.964992",
+      "vertexCount": 11974,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/63c0430adf5a4473b4daaf761fc4ef8a",
+      "uid": "63c0430adf5a4473b4daaf761fc4ef8a",
+      "name": "Low-Poly Bushmaster M4",
+      "staffpickedAt": null,
+      "viewCount": 941,
+      "likeCount": 25,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-63c0430adf5a4473b4daaf761fc4ef8a",
+      "embedUrl": "https://sketchfab.com/models/63c0430adf5a4473b4daaf761fc4ef8a/embed",
+      "commentCount": 1,
+      "isDownloadable": false,
+      "publishedAt": "2022-07-09T10:19:09.626118",
+      "tags": [
+        {
+          "name": "police",
+          "slug": "police",
+          "uri": "https://api.sketchfab.com/v3/tags/police"
+        },
+        {
+          "name": "rifle",
+          "slug": "rifle",
+          "uri": "https://api.sketchfab.com/v3/tags/rifle"
+        },
+        {
+          "name": "modern",
+          "slug": "modern",
+          "uri": "https://api.sketchfab.com/v3/tags/modern"
+        },
+        {
+          "name": "m4",
+          "slug": "m4",
+          "uri": "https://api.sketchfab.com/v3/tags/m4"
+        },
+        {
+          "name": "newzealand",
+          "slug": "newzealand",
+          "uri": "https://api.sketchfab.com/v3/tags/newzealand"
+        },
+        {
+          "name": "bushmaster",
+          "slug": "bushmaster",
+          "uri": "https://api.sketchfab.com/v3/tags/bushmaster"
+        },
+        {
+          "name": "ar-15",
+          "slug": "ar-15",
+          "uri": "https://api.sketchfab.com/v3/tags/ar-15"
+        },
+        {
+          "name": "smooth",
+          "slug": "smooth",
+          "uri": "https://api.sketchfab.com/v3/tags/smooth"
+        },
+        {
+          "name": "free3dmodel",
+          "slug": "free3dmodel",
+          "uri": "https://api.sketchfab.com/v3/tags/free3dmodel"
+        },
+        {
+          "name": "optimized",
+          "slug": "optimized",
+          "uri": "https://api.sketchfab.com/v3/tags/optimized"
+        },
+        {
+          "name": "illustration",
+          "slug": "illustration",
+          "uri": "https://api.sketchfab.com/v3/tags/illustration"
+        },
+        {
+          "name": "downloadable",
+          "slug": "downloadable",
+          "uri": "https://api.sketchfab.com/v3/tags/downloadable"
+        },
+        {
+          "name": "freedownload",
+          "slug": "freedownload",
+          "uri": "https://api.sketchfab.com/v3/tags/freedownload"
+        },
+        {
+          "name": "freemodel",
+          "slug": "freemodel",
+          "uri": "https://api.sketchfab.com/v3/tags/freemodel"
+        },
+        {
+          "name": "m4a3",
+          "slug": "m4a3",
+          "uri": "https://api.sketchfab.com/v3/tags/m4a3"
+        },
+        {
+          "name": "policeweapon",
+          "slug": "policeweapon",
+          "uri": "https://api.sketchfab.com/v3/tags/policeweapon"
+        },
+        {
+          "name": "close-up",
+          "slug": "close-up",
+          "uri": "https://api.sketchfab.com/v3/tags/close-up"
+        },
+        {
+          "name": "weapon",
+          "slug": "weapon",
+          "uri": "https://api.sketchfab.com/v3/tags/weapon"
+        },
+        {
+          "name": "low-poly",
+          "slug": "low-poly",
+          "uri": "https://api.sketchfab.com/v3/tags/low-poly"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "blender3d",
+          "slug": "blender3d",
+          "uri": "https://api.sketchfab.com/v3/tags/blender3d"
+        },
+        {
+          "name": "military",
+          "slug": "military",
+          "uri": "https://api.sketchfab.com/v3/tags/military"
+        },
+        {
+          "name": "free",
+          "slug": "free",
+          "uri": "https://api.sketchfab.com/v3/tags/free"
+        },
+        {
+          "name": "gun",
+          "slug": "gun",
+          "uri": "https://api.sketchfab.com/v3/tags/gun"
+        },
+        {
+          "name": "textured",
+          "slug": "textured",
+          "uri": "https://api.sketchfab.com/v3/tags/textured"
+        },
+        {
+          "name": "gameready",
+          "slug": "gameready",
+          "uri": "https://api.sketchfab.com/v3/tags/gameready"
+        },
+        {
+          "name": "rendering",
+          "slug": "rendering",
+          "uri": "https://api.sketchfab.com/v3/tags/rendering"
+        },
+        {
+          "name": "textured-model",
+          "slug": "textured-model",
+          "uri": "https://api.sketchfab.com/v3/tags/textured-model"
+        },
+        {
+          "name": "weaponattachment",
+          "slug": "weaponattachment",
+          "uri": "https://api.sketchfab.com/v3/tags/weaponattachment"
+        }
+      ],
+      "categories": [
+        {
+          "name": "weapons-military"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7c10a65e784c4e4a8f26c8fd52881780",
+            "size": 237726,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/63c0430adf5a4473b4daaf761fc4ef8a/thumbnails/27eed6a604eb4216b0d3248811da6c9b/1e248a830f2447ed8bf8af85b6b35ad9.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c3bd93921f3d403096a9e53911750461",
+            "size": 34305,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/63c0430adf5a4473b4daaf761fc4ef8a/thumbnails/27eed6a604eb4216b0d3248811da6c9b/3c036f5aa6a34bb18f765ad8bbd85ee6.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "103ad23e472041d39e8d543acf5d2576",
+            "size": 19959,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/63c0430adf5a4473b4daaf761fc4ef8a/thumbnails/27eed6a604eb4216b0d3248811da6c9b/37d50dcdcd714943a3e265b3b553f7ce.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "f20d44396a6a40e08b65f644d1abc9c9",
+            "size": 4635,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/63c0430adf5a4473b4daaf761fc4ef8a/thumbnails/27eed6a604eb4216b0d3248811da6c9b/5891052fe4bf4f3787d7dd045d384a60.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "0ed8be83788f46dd8ce66de28c894eb8",
+            "size": 1192,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/63c0430adf5a4473b4daaf761fc4ef8a/thumbnails/27eed6a604eb4216b0d3248811da6c9b/fcee8461f13a4dd6aa7ff9615b39f649.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "f84ea6fc454c4b59ab3a8ca8c02e97f2",
+        "username": "Snake_Eyes",
+        "displayName": "Snake_Eyes",
+        "profileUrl": "https://sketchfab.com/Snake_Eyes",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/f143585496cf462e8b5926385d0beacd",
+          "images": [
+            {
+              "size": 1000,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/f143585496cf462e8b5926385d0beacd/5dcd3a819c62430b89fb0e656ebd66c8.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1424,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/f143585496cf462e8b5926385d0beacd/675017594b3f42a6ba61ba197a6988bb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3453,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/f143585496cf462e8b5926385d0beacd/07164ee62ac14393a5093367147b17f7.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4053,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/f143585496cf462e8b5926385d0beacd/c79cce4c6b9344a5a9f71d70a8388f1e.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/f84ea6fc454c4b59ab3a8ca8c02e97f2"
+      },
+      "description": "This rifle is used by New Zealend police. The model is low-poly with applied smooth shading. Game ready model. Suitable for close-UPS,illustrations and renderings. It has a scope,a mag and a suppressor,that you can separate.\n* Optimized;\n* Textured with blender colors;\n* Triangles: 5017;\n* Verts: 3076;",
+      "faceCount": 5031,
+      "createdAt": "2022-07-09T09:19:56.900020",
+      "vertexCount": 3102,
+      "isAgeRestricted": false,
+      "archives": {},
+      "license": null
+    }
+  ]
+}
