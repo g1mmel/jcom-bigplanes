@@ -1,0 +1,48 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "method": "Fresh shallow temporary directory; only delivered source copied. Network guarded; prebuilt GLB reads restricted to the two declared original inputs. Every delivered master/new-component GLB rebuilt byte-identically.",
+  "model_sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+  "script_sha256": "bfc1d6475a8503744f473fca8698df33f3a2adf3077279a66d35580d84c4c478",
+  "source_files": {
+    "blender_loadout_review.py": "cd3a47484d5ed213f324aec854a8ffa6bc79f0256dd74504c83ffaac1ce6c2e2",
+    "blender_review.py": "321d87ccf510ebacb49a45d44a0db6037379da5416bdbfda884ebb7653fb3c13",
+    "blender_systems_review.py": "dd9b31de2de6f5d2b67748372b7bfd05dbfc32e13cd456d351db41f2580aa06f",
+    "build_family.py": "5d919565c45b93f54c10aa1d05e4114a0a1504de386c04f237e120af875ff37b",
+    "build_loadout_family.py": "e616ff942e076f5d29b9acfbf472c98e47cd652413345d65033474a8be257591",
+    "build_systems_revision.py": "77eebcf2d6fde5047d4b04f296e924b79db7bac4c8b9284c06d6a6fd2d104a66",
+    "component_source.py": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+    "create_transfer.py": "ccecd25dfc7eba2f610cb41d63ae651169c4353547cf60568423f47fe2efbcc9",
+    "eoir_component.py": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+    "family_glb.py": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+    "gltf_core.py": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+    "gun_components.py": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+    "inputs/c130-hercules-unified-r0001.glb": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+    "inputs/r0003-ac130j-articulation.json": "e81e808602b644345106491e48bd7db4718c4bea38029ad746f3ff5c705602cb",
+    "inputs/r0003-ac130j.glb": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+    "loadout_components.py": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+    "package_components_r4.py": "31f51a43cf91f7da6adeb12fcd8d62dd28163811a6bff8cf7e50c84f50e516a3",
+    "package_revision.py": "6162ca88264d30e6901f42ae8d6980bf800d0633998722bb0171311bc83131dd",
+    "ramp_repair.py": "c00cd110ac5921a41b4280d9c61a4de2a3252547d9417bf4b3d7098f923427a6",
+    "requirements.txt": "ba604abf6d07813bb7272c25c54873107117a75f7342bef8731d9f8dd04527c9",
+    "restore_delivery.py": "4331900eb1461396cf8a9a9e98e8682caceb736305f888fc0d1a01ce3099c65f",
+    "variants.json": "1c6b588db46d6ef4f5f72ebae324a3b1357d2106f383fb720895a5697a3ac8f1"
+  },
+  "python_version": "3.12.14",
+  "model_hashes": {
+    "models/c130-family.glb": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+    "components/hose-drogue-left/model.glb": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+    "components/hose-drogue-right/model.glb": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+    "components/fulton-yoke/model.glb": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+    "components/jato-kit/model.glb": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c"
+  },
+  "access": {
+    "declared_input_glb_reads": [
+      "source/inputs/c130-hercules-unified-r0001.glb",
+      "source/inputs/r0003-ac130j.glb"
+    ],
+    "network_attempts": []
+  },
+  "byte_identical": true,
+  "scope": "Reproduction and source dependency closure; does not establish real aircraft accuracy, collision clearance, browser or native Unreal acceptance."
+}

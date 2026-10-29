@@ -1,0 +1,86 @@
+{
+  "materials": [
+    {
+      "name": "MISSION_EQUIPMENT_GREY",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.48,
+          0.52,
+          0.53,
+          1
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.58
+      },
+      "doubleSided": false
+    },
+    {
+      "name": "MISSION_EXPOSED_METAL",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4,
+          0.43,
+          0.45,
+          1
+        ],
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.3
+      },
+      "doubleSided": false
+    },
+    {
+      "name": "JATO_DULL_BLUE_BODY",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.17,
+          0.25,
+          0.28,
+          1
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.66
+      },
+      "doubleSided": false
+    },
+    {
+      "name": "JATO_VISUAL_BLUE_VIOLET_EXHAUST",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.42,
+          1,
+          0.72
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "doubleSided": true,
+      "alphaMode": "BLEND",
+      "emissiveFactor": [
+        0.35,
+        0.2,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "index": 0,
+      "name": null,
+      "file": "textures/image_0.png",
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "bytes": 4266,
+      "mimeType": "image/png"
+    }
+  ],
+  "embedded_resources": true,
+  "source": "model.glb"
+}

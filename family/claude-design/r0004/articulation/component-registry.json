@@ -1,0 +1,199 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "components": [
+    {
+      "id": "hose-drogue-left",
+      "file": "components/hose-drogue-left/model.glb",
+      "bytes": 227144,
+      "sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+      "nodes": 102,
+      "meshes": 53,
+      "triangles_all_options": 3932,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/hose-drogue-left/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "hose-drogue-right",
+      "file": "components/hose-drogue-right/model.glb",
+      "bytes": 227348,
+      "sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+      "nodes": 102,
+      "meshes": 53,
+      "triangles_all_options": 3932,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/hose-drogue-right/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "fulton-yoke",
+      "file": "components/fulton-yoke/model.glb",
+      "bytes": 28596,
+      "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+      "nodes": 15,
+      "meshes": 11,
+      "triangles_all_options": 772,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/fulton-yoke/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "jato-kit",
+      "file": "components/jato-kit/model.glb",
+      "bytes": 146684,
+      "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+      "nodes": 65,
+      "meshes": 40,
+      "triangles_all_options": 4176,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/jato-kit/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "gau23-visual",
+      "file": "components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "nodes": 103,
+      "meshes": 91,
+      "triangles_all_options": 15719,
+      "clips": 4,
+      "controls": 4,
+      "articulation": "components/gau23-visual/articulation.json",
+      "revision": "r0003-preserved",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "m102-airborne-visual",
+      "file": "components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "nodes": 41,
+      "meshes": 28,
+      "triangles_all_options": 11343,
+      "clips": 4,
+      "controls": 4,
+      "articulation": "components/m102-airborne-visual/articulation.json",
+      "revision": "r0003-preserved",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "eoir-visual",
+      "file": "components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "nodes": 47,
+      "meshes": 41,
+      "triangles_all_options": 10674,
+      "clips": 2,
+      "controls": 2,
+      "articulation": "components/eoir-visual/articulation.json",
+      "revision": "r0003-preserved",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    }
+  ],
+  "instances": [
+    {
+      "component": "gau23-visual",
+      "node": "PIVOT_gun30_component",
+      "revision": "r0003-source-preserved",
+      "interface": "Host-specific skin/panel and finish may be assembly overrides."
+    },
+    {
+      "component": "m102-airborne-visual",
+      "node": "PIVOT_gun105_component",
+      "revision": "r0003-source-preserved",
+      "interface": "Host-specific skin/panel and finish may be assembly overrides."
+    },
+    {
+      "component": "eoir-visual",
+      "node": "PIVOT_eoir_chin_component",
+      "revision": "r0003-source-preserved",
+      "interface": "Host-specific skin/panel and finish may be assembly overrides."
+    },
+    {
+      "component": "eoir-visual",
+      "node": "PIVOT_eoir_port_component",
+      "revision": "r0003-source-preserved",
+      "interface": "Host-specific skin/panel and finish may be assembly overrides."
+    },
+    {
+      "component": "hose-drogue-left",
+      "node": "PIVOT_tanker_left_component",
+      "revision": "r0004",
+      "interface": "Independent component with local mounting datum; host fending lines remain airframe installation geometry."
+    },
+    {
+      "component": "hose-drogue-right",
+      "node": "PIVOT_tanker_right_component",
+      "revision": "r0004",
+      "interface": "Independent component with local mounting datum; host fending lines remain airframe installation geometry."
+    },
+    {
+      "component": "fulton-yoke",
+      "node": "PIVOT_fulton_component",
+      "revision": "r0004",
+      "interface": "Independent component with local mounting datum; host fending lines remain airframe installation geometry."
+    },
+    {
+      "component": "jato-kit",
+      "node": "PIVOT_jato_component",
+      "revision": "r0004",
+      "interface": "Independent component with local mounting datum; host fending lines remain airframe installation geometry."
+    }
+  ],
+  "note": "Software asset architecture; no real aircraft interchangeability claim."
+}

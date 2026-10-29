@@ -1,0 +1,59 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "parent_sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+  "shared_airframe_instances": 1,
+  "model": {
+    "path": "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/models/c130-family.glb",
+    "bytes": 21480060,
+    "sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+    "nodes": 768,
+    "meshes": 548,
+    "clips": 44
+  },
+  "components": [
+    {
+      "id": "hose-drogue-left",
+      "root": "PIVOT_tanker_left_component",
+      "path": "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/components/hose-drogue-left/model.glb",
+      "bytes": 227144,
+      "sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+      "nodes": 102,
+      "meshes": 53,
+      "clips": 1
+    },
+    {
+      "id": "hose-drogue-right",
+      "root": "PIVOT_tanker_right_component",
+      "path": "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/components/hose-drogue-right/model.glb",
+      "bytes": 227348,
+      "sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+      "nodes": 102,
+      "meshes": 53,
+      "clips": 1
+    },
+    {
+      "id": "fulton-yoke",
+      "root": "PIVOT_fulton_component",
+      "path": "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/components/fulton-yoke/model.glb",
+      "bytes": 28596,
+      "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+      "nodes": 15,
+      "meshes": 11,
+      "clips": 1
+    },
+    {
+      "id": "jato-kit",
+      "root": "PIVOT_jato_component",
+      "path": "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/components/jato-kit/model.glb",
+      "bytes": 146684,
+      "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+      "nodes": 65,
+      "meshes": 40,
+      "clips": 1
+    }
+  ],
+  "slots": 12,
+  "options": 28,
+  "presets": 8
+}

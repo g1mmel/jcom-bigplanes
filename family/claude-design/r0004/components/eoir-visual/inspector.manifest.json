@@ -1,0 +1,10 @@
+{
+  "file": "inspector.html",
+  "bytes": 2179348,
+  "sha256": "d1d85ad86dfbaf648e797b34cd971793fa2f8ac1b7790cc01a6198deb53c4e74",
+  "source_models": {
+    "eoir-visual": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f"
+  },
+  "dependencies": "three 0.170.0; embedded, no network; browser DecompressionStream gzip",
+  "runtime_render_validation": "NOT_RUN"
+}

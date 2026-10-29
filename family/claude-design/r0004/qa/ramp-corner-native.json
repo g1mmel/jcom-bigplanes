@@ -1,0 +1,58 @@
+{
+  "author": "claude-design",
+  "model_sha256": "18fa65edd7351baecc49a19db9d60324f20fa8786ec403b6429ed1f87273b0fe",
+  "script_sha256": "87e269cb8b9692c2faf8e2a234fb8a183a13bc3b3f83d24c8f12f15291ad507c",
+  "blender_version": "4.5.15 LTS",
+  "preserved_pose_basis": "de910de58de643328055f27246f2d8d7b86047cea6f35e4e46406144b71644fc",
+  "scope": "Native closed derivative closeups; original PARKED world transforms are identical, geometry is actual candidate GLB. No substitute render meshes.",
+  "renders": [
+    {
+      "file": "previews/ramp-corner-candidate-side.png",
+      "sha256": "a0e0c2edf71d5e37932cfd245dc405c2db0fcecbe2aed28aa2e3f98a37bc0f2d",
+      "camera": {
+        "position": [
+          -12,
+          2.7,
+          6.8
+        ],
+        "target": [
+          0,
+          2.2,
+          6.6
+        ],
+        "scale": 7
+      },
+      "pose": {
+        "result": "PASS",
+        "label": "PARKED",
+        "converted_nodes": 768,
+        "maximum_world_matrix_error": 9.5367431640625e-07,
+        "node_name_mapping": "Exact names plus collision-checked Three.js PropertyBinding.sanitizeNodeName aliases"
+      }
+    },
+    {
+      "file": "previews/ramp-corner-candidate-belly.png",
+      "sha256": "3cca2f5610045be6858072dc08df594a03c2bb4c5fc297a0c4cc3c5d9b5e2a1a",
+      "camera": {
+        "position": [
+          -5,
+          -4,
+          11
+        ],
+        "target": [
+          0,
+          2.2,
+          6.6
+        ],
+        "scale": 8
+      },
+      "pose": {
+        "result": "PASS",
+        "label": "PARKED",
+        "converted_nodes": 768,
+        "maximum_world_matrix_error": 9.5367431640625e-07,
+        "node_name_mapping": "Exact names plus collision-checked Three.js PropertyBinding.sanitizeNodeName aliases"
+      }
+    }
+  ]
+}

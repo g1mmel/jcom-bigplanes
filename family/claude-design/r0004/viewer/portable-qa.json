@@ -1,0 +1,30 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "portable_sha256": "837496fcf6ff836edcae688a7d4a2f8d729c7349af575addc490517ed658d2da",
+  "bytes": 15809826,
+  "embedded_modules": [
+    "three",
+    "c130-controller",
+    "c130-pose-driver",
+    "c130-loadouts",
+    "gltf-loader",
+    "orbit-controls",
+    "c130-buffer-utils"
+  ],
+  "models": [
+    {
+      "id": "c130-family",
+      "bytes": 21480060,
+      "sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f"
+    }
+  ],
+  "checks": [
+    "All modules parse",
+    "All module imports resolve within embedded importmap",
+    "Browser-standard gzip DecompressionStream restores exact model bytes",
+    "Embedded model hashes equal delivered GLBs and sidecars",
+    "Declared assets and revision notes embedded"
+  ],
+  "scope": "Dependency/byte integrity; browser WebGL rendering NOT_RUN"
+}

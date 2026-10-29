@@ -1,0 +1,54 @@
+{
+  "author": "claude-design",
+  "method": "Exact reviewed-byte restoration; no model-generation or rendering command executed",
+  "status": "PASS",
+  "restored_utc": "2026-10-29T07:18:10.652734+00:00",
+  "staging_commit": "8f23ad2afed3a70bd5426c8f7eb95105332e96c6",
+  "workflow_run_id": "40834518404",
+  "archive_sha256": "122e167b9ec3b87a136f755a1e0a2398b902331cd3141181c8ba7a51b40b3f1b",
+  "revision_manifest_sha256": "6174c231427161c5d3baafeb189f190708b174643d04d7a6c36f724b7e3fa4c8",
+  "archive_path": "family/claude-design/packages/C130-family-r0004.tar.xz",
+  "file_count": 296,
+  "models": [
+    {
+      "id": "c130-family",
+      "bytes": 21480060,
+      "sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f"
+    },
+    {
+      "id": "hose-drogue-left",
+      "bytes": 227144,
+      "sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb"
+    },
+    {
+      "id": "hose-drogue-right",
+      "bytes": 227348,
+      "sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd"
+    },
+    {
+      "id": "fulton-yoke",
+      "bytes": 28596,
+      "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53"
+    },
+    {
+      "id": "jato-kit",
+      "bytes": 146684,
+      "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c"
+    },
+    {
+      "id": "gau23-visual",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053"
+    },
+    {
+      "id": "m102-airborne-visual",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026"
+    },
+    {
+      "id": "eoir-visual",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f"
+    }
+  ]
+}

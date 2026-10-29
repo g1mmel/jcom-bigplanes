@@ -1,0 +1,64 @@
+{
+  "input": {
+    "file": "components/hose-drogue-right/model.glb",
+    "bytes": 227348,
+    "sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd"
+  },
+  "validator_report": {
+    "uri": "components/hose-drogue-right/model.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-10-29T06:41:49.679Z",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 3,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNUSED_MESH_WEIGHTS",
+          "message": "The static morph target weights are always overridden.",
+          "severity": 2,
+          "pointer": "/meshes/5/weights"
+        },
+        {
+          "code": "UNUSED_MESH_WEIGHTS",
+          "message": "The static morph target weights are always overridden.",
+          "severity": 2,
+          "pointer": "/meshes/27/weights"
+        },
+        {
+          "code": "UNUSED_MESH_WEIGHTS",
+          "message": "The static morph target weights are always overridden.",
+          "severity": 2,
+          "pointer": "/meshes/52/weights"
+        }
+      ],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "claude-design C130 single modular master r0004",
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 149096
+        }
+      ],
+      "animationCount": 1,
+      "materialCount": 5,
+      "hasMorphTargets": true,
+      "hasSkins": false,
+      "hasTextures": false,
+      "hasDefaultScene": true,
+      "drawCallCount": 53,
+      "totalVertexCount": 2466,
+      "totalTriangleCount": 3932,
+      "maxUVs": 0,
+      "maxInfluences": 0,
+      "maxAttributes": 2
+    }
+  }
+}

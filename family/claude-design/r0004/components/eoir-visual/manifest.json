@@ -1,0 +1,198 @@
+{
+  "schema": "jcnc-standalone-package-manifest-1",
+  "asset_id": "eoir-visual",
+  "revision": "r0003",
+  "author": "claude-design",
+  "acceptance": "DRAFT_ARTICULATED_REVIEW",
+  "model": {
+    "file": "model.glb",
+    "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+    "component_root": "PIVOT_eoir_component",
+    "units": "metres",
+    "aircraft_dependency": false
+  },
+  "editable_native": {
+    "file": "editable.blend",
+    "sha256": "3c5a45686da0bd6bf5493df678fa82e7d6816e4d7d186153ae604cb5be9b17ba",
+    "source_model_sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+    "blender_version": "4.5.15 LTS",
+    "import": "PASS",
+    "reopen": {
+      "result": "PASS",
+      "asset_objects": 47,
+      "named_actions_retained": true,
+      "nla_track_inventory_retained": true,
+      "all_texture_images_packed": true
+    },
+    "geometry_changes": "NONE; direct native glTF import"
+  },
+  "provenance": {
+    "geometry": "Original photo-guided visual component authored for this revision.",
+    "textures": "PBR factors only; no image maps.",
+    "third_party_models_ingested": [],
+    "reference_pages": [
+      {
+        "label": "L3Harris: WESCAM MX-20 manufacturer product page",
+        "url": "https://www.l3harris.com/all-capabilities/wescam-mx-20-air-surveillance-and-reconnaissance"
+      },
+      {
+        "label": "L3Harris: manufacturer product photograph used for visible form",
+        "url": "https://www.l3harris.com/sites/default/files/2026-04/wescam-mx-20-eo-ir-air-surveillance-reconnaissance.png"
+      },
+      {
+        "label": "L3Harris: public MX-20 family brochure",
+        "url": "https://www.l3harris.com/sites/default/files/2020-07/ims_eo_brochure_wescam_MX-20-0102AB-Brochure.pdf"
+      },
+      {
+        "label": "USAF: MC-130W Dragon Spear sensor identification",
+        "url": "https://www.robins.af.mil/News/Article-Display/Article/377994/mc-130w-dragon-spear-visits-robins/"
+      },
+      {
+        "label": "USAF/DVIDS: 2019 AC-130J chin installation photograph",
+        "url": "https://www.dvidshub.net/image/5621880/73rd-amu-air-commandos-perform-post-flight-inspection-ac-130j-ghostrider-gunship"
+      }
+    ]
+  },
+  "existing_review_summary": {
+    "gltf_validator": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 10,
+      "issue_codes": {
+        "UNUSED_OBJECT": 10
+      }
+    },
+    "scoped_geometry": {
+      "status": "PASS",
+      "triangles": 10674,
+      "meshes": 41,
+      "clips_total": 2,
+      "embedded_images": []
+    },
+    "isolated_source_rebuild": {
+      "status": "PASS",
+      "network_disabled": true,
+      "parent_project_reads_forbidden": true,
+      "byte_identical": false,
+      "expected_byte_difference": "Assembly-built exports retain unused family material records and metadata; semantic payload is compared independently."
+    },
+    "native_review": "PASS",
+    "full_family_receipts": [
+      {
+        "path": "qa/eoir-visual.gltf-validator.json",
+        "sha256": "ec29f6a77222e6e6c6117934ceabcef9d2b0d62939f67a3a2248ab33e632dfb7"
+      },
+      {
+        "path": "qa/system_geometry_report.json",
+        "sha256": "15eb9e737239dd8ebfa88fef87f413eab7fad449b13c434b74175435f05cd859"
+      },
+      {
+        "path": "qa/system-review-eoir-visual-r0003-rest.json",
+        "sha256": "28d35af186e84c4f7ebcaf639c992aaf454eed614a553bfd21387c8914032488"
+      }
+    ],
+    "receipt_note": "Summaries transcribed from the existing final-byte reviews; detailed receipts are distributed in the full family package. Packaging did not rerun geometry or runtime tests."
+  },
+  "limitations": [
+    "The visible form is guided by public MX-20 family imagery. Exact aperture assignments, window sizes, surface finishes, motion limits and internal gimbal construction are not established. The AC-130W source identifies two MX-20 sensors, but the exact sensor type fitted to each AC-130J slot remains configuration-dependent; this package does not establish a particular J tail/block fit. It contains no sensor image generation, tracking, laser, targeting or other operational sensor simulation. The manufacturer product photograph is a later family-form reference, not proof of a specific 2021 installation.",
+    "Appearance, dimensions and motion are visual approximations, not an operational model.",
+    "Photographic acceptance, native Unreal, runtime performance, damage and continuous collision clearance remain open."
+  ],
+  "hash_algorithm": "SHA-256",
+  "hash_scope": "Every regular file in this component directory, excluding only manifest.json. Archive is stored outside this directory to avoid recursion.",
+  "file_count_excluding_manifest": 15,
+  "bytes_excluding_manifest": 2830638,
+  "files": [
+    {
+      "path": "README.md",
+      "role": "metadata_or_documentation",
+      "bytes": 5538,
+      "sha256": "2fada1784d71638ec00182e064936621deacc615d5aa158ff0cac052c0cba308"
+    },
+    {
+      "path": "articulation.json",
+      "role": "metadata_or_documentation",
+      "bytes": 5648,
+      "sha256": "9987dcb657e3091d3d07e81589914fa78249385e14d42e95f8b49ce2b80b89de"
+    },
+    {
+      "path": "editable.blend",
+      "role": "reviewed_native_editable",
+      "bytes": 274480,
+      "sha256": "3c5a45686da0bd6bf5493df678fa82e7d6816e4d7d186153ae604cb5be9b17ba"
+    },
+    {
+      "path": "inspector.html",
+      "role": "portable_inspector_or_receipt",
+      "bytes": 2179348,
+      "sha256": "d1d85ad86dfbaf648e797b34cd971793fa2f8ac1b7790cc01a6198deb53c4e74"
+    },
+    {
+      "path": "inspector.html.qa.json",
+      "role": "portable_inspector_or_receipt",
+      "bytes": 845,
+      "sha256": "9527bfb8021944cc50417199034f12879860153902e395411a6a81c713b3b186"
+    },
+    {
+      "path": "inspector.manifest.json",
+      "role": "portable_inspector_or_receipt",
+      "bytes": 376,
+      "sha256": "85e706cd266b133df73fa6abfbb05f3a4dc7627c7f91b79cd12032dec367865e"
+    },
+    {
+      "path": "materials.json",
+      "role": "metadata_or_documentation",
+      "bytes": 18523,
+      "sha256": "2b080b337a0c3709d8d8fd28a3bf67c9a933730839333ec73fe4da1736cdbff9"
+    },
+    {
+      "path": "model.glb",
+      "role": "standalone_model",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f"
+    },
+    {
+      "path": "source/component.json",
+      "role": "independent_authoring_source",
+      "bytes": 111,
+      "sha256": "53498d367f2d25dba1ec0c3e5841c2c315ec4637a19ae26444cc4c72cea3ebe3"
+    },
+    {
+      "path": "source/component_source.py",
+      "role": "independent_authoring_source",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b"
+    },
+    {
+      "path": "source/eoir_component.py",
+      "role": "independent_authoring_source",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4"
+    },
+    {
+      "path": "source/gltf_core.py",
+      "role": "independent_authoring_source",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953"
+    },
+    {
+      "path": "source/gun_components.py",
+      "role": "independent_authoring_source",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f"
+    },
+    {
+      "path": "source/requirements.txt",
+      "role": "independent_authoring_source",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed"
+    },
+    {
+      "path": "textures/README.md",
+      "role": "texture_export_or_documentation",
+      "bytes": 342,
+      "sha256": "98a49bc0087b44cb233cd47a8287cbfa9a499d47c0d35380077ae28653557617"
+    }
+  ]
+}

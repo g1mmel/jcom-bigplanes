@@ -1,0 +1,157 @@
+{
+  "schema": "jcnc.independent-component/1.0",
+  "author": "claude-design",
+  "revision": "r0004",
+  "component_id": "fulton-yoke",
+  "tags": [
+    "level 1"
+  ],
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "origin": "Local mounting datum at [0,0,0]; +X right, +Y up, forward -Z; metres.",
+  "model": {
+    "file": "model.glb",
+    "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+    "bytes": 28596
+  },
+  "parent_aircraft_dependency": false,
+  "external_network_dependency": false,
+  "source_copy_adaptations": {
+    "build_family.py": "Unused aircraft CLI repository locator changed from HERE.parents[3] to HERE.parent so Model imports at any package directory depth; geometry and authoring functions are unchanged."
+  },
+  "source_files": {
+    "build_component.py": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff",
+    "build_family.py": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+    "component.json": "c3e2f0b52e4956b01757b19ed699f7205ea52d14a4f80373cb60af40de54b3ec",
+    "eoir_component.py": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+    "family_glb.py": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+    "gltf_core.py": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+    "gun_components.py": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+    "loadout_components.py": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+    "make_editable.py": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+    "requirements.txt": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52"
+  },
+  "embedded_images": [],
+  "editable": {
+    "file": "editable.blend",
+    "sha256": "74c5a5ef972cc664bd188e7c25ff43f87773431676cb8321c9b53027230e2208"
+  },
+  "verification": {
+    "source_isolation": "PASS",
+    "semantic_rebuild_tolerance": 1e-05,
+    "byte_identical_rebuild": false,
+    "native_blender": "PASS",
+    "inspector": "PASS",
+    "browser_rendering": "NOT_RUN",
+    "native_unreal": "NOT_RUN",
+    "photographic_acceptance": "NOT_ACCEPTED",
+    "continuous_clearance": "NOT_PROVEN"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3531,
+      "sha256": "dc27614212f62f6700a2ee09f957b62bc48fa0e3dc474a6fe941ab3b7e3e5d0f"
+    },
+    {
+      "path": "articulation.json",
+      "bytes": 1585,
+      "sha256": "63d8df21d1a82d7940cfa1073303913b31ff58bb5b15f71751a2e08b0ce62e33"
+    },
+    {
+      "path": "editable.blend",
+      "bytes": 103454,
+      "sha256": "74c5a5ef972cc664bd188e7c25ff43f87773431676cb8321c9b53027230e2208"
+    },
+    {
+      "path": "inspector.html",
+      "bytes": 2037713,
+      "sha256": "b61f29ad90c0b16771a32c42c86ffc740c7ae33239e01a87c5603271c3c09703"
+    },
+    {
+      "path": "inspector.manifest.json",
+      "bytes": 2332,
+      "sha256": "c6a42b1ab850d4df95ba97c5ab30cb46e6ce1b1e5bcf0ed686b9562d7eb5850c"
+    },
+    {
+      "path": "materials.json",
+      "bytes": 679,
+      "sha256": "fa87458315a91327998d3502aae7ad7324bc6b7743517e3f9567d4525a28db8c"
+    },
+    {
+      "path": "model.glb",
+      "bytes": 28596,
+      "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53"
+    },
+    {
+      "path": "native-blender.json",
+      "bytes": 4207,
+      "sha256": "36fb00280db61d817d72f2c23f4c0b4e7b1a7a48d686e98c10ea6f6d9d146702"
+    },
+    {
+      "path": "native-blender.log",
+      "bytes": 1234,
+      "sha256": "cc9669f9b88fad33647f7143d01bdbc40f5f209b1fdd8c55ac58f0c30dcadde7"
+    },
+    {
+      "path": "source/build_component.py",
+      "bytes": 2581,
+      "sha256": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff"
+    },
+    {
+      "path": "source/build_family.py",
+      "bytes": 41010,
+      "sha256": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f"
+    },
+    {
+      "path": "source/component.json",
+      "bytes": 2108,
+      "sha256": "c3e2f0b52e4956b01757b19ed699f7205ea52d14a4f80373cb60af40de54b3ec"
+    },
+    {
+      "path": "source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4"
+    },
+    {
+      "path": "source/family_glb.py",
+      "bytes": 8672,
+      "sha256": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104"
+    },
+    {
+      "path": "source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953"
+    },
+    {
+      "path": "source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f"
+    },
+    {
+      "path": "source/loadout_components.py",
+      "bytes": 13245,
+      "sha256": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76"
+    },
+    {
+      "path": "source/make_editable.py",
+      "bytes": 8137,
+      "sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 93,
+      "sha256": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52"
+    },
+    {
+      "path": "source-isolation.json",
+      "bytes": 1145,
+      "sha256": "8846c8fe206f765119de74d65efeb233c42221aa529430c167db2fb9da5d1f78"
+    },
+    {
+      "path": "textures/README.md",
+      "bytes": 144,
+      "sha256": "29bca0bffde8bda94bd390f80a2f1523d2e384e5415bf3877942907ceca4a807"
+    }
+  ]
+}

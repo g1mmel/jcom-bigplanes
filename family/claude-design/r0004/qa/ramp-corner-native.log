@@ -1,0 +1,862 @@
+Extensions: writing cache failed ([Errno 30] Read-only file system: '/root/.config').
+00:02:39 | INFO: Data are loaded, start creating Blender stuff
+00:02:39 | INFO: Blender create Mesh node GEAR_WELL_LEFT
+00:02:39 | INFO: Blender create Mesh node GEAR_WELL_RIGHT
+00:02:39 | INFO: Blender create Mesh node GEAR_WELL_NOSE
+00:02:39 | INFO: Blender create Mesh node PATCH_houseTint_PORT
+00:02:39 | INFO: Blender create Mesh node REPLACEMENT_BUFFER_176
+00:02:39 | INFO: Blender create Mesh node REPLACEMENT_BUFFER_177
+00:02:40 | INFO: Blender create Mesh node COCKPIT_WINDOWS
+00:02:40 | INFO: Blender create Mesh node flap_right_SEAM_CAP_0_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node flap_right_SEAM_CAP_1_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node flap_right_SEAM_CAP_4_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node aileron_right_SEAM_CAP_0_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node aileron_right_SEAM_CAP_1_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node aileron_right_SEAM_CAP_4_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node elevator_right_SEAM_CAP_1_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node elevator_right_SEAM_CAP_4_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node flap_left_SEAM_CAP_0_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node flap_left_SEAM_CAP_1_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node flap_left_SEAM_CAP_4_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node aileron_left_SEAM_CAP_0_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node aileron_left_SEAM_CAP_1_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node aileron_left_SEAM_CAP_4_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node elevator_left_SEAM_CAP_1_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node elevator_left_SEAM_CAP_4_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node rudder_SEAM_CAP_2_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node rudder_SEAM_CAP_3_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node rudder_SEAM_CAP_4_FIXED_WING
+00:02:40 | INFO: Blender create Mesh node MAIN_FIXED_TELESCOPIC_STRUT_left_1
+00:02:40 | INFO: Blender create Mesh node MAIN_FIXED_TELESCOPIC_STRUT_left_2
+00:02:40 | INFO: Blender create Mesh node MAIN_FIXED_TELESCOPIC_STRUT_right_1
+00:02:40 | INFO: Blender create Mesh node MAIN_FIXED_TELESCOPIC_STRUT_right_2
+00:02:40 | INFO: Blender create Mesh node NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED
+00:02:40 | INFO: Blender create Mesh node flap_right_SKIN
+00:02:40 | INFO: Blender create Mesh node flap_right_SEAM_CAP_0
+00:02:40 | INFO: Blender create Mesh node flap_right_SEAM_CAP_1
+00:02:40 | INFO: Blender create Mesh node flap_right_SEAM_CAP_4
+00:02:40 | INFO: Blender create Mesh node aileron_right_SKIN
+00:02:40 | INFO: Blender create Mesh node aileron_right_SEAM_CAP_0
+00:02:40 | INFO: Blender create Mesh node aileron_right_SEAM_CAP_1
+00:02:40 | INFO: Blender create Mesh node aileron_right_SEAM_CAP_4
+00:02:40 | INFO: Blender create Mesh node elevator_right_SKIN
+00:02:40 | INFO: Blender create Mesh node elevator_right_SEAM_CAP_1
+00:02:40 | INFO: Blender create Mesh node elevator_right_SEAM_CAP_4
+00:02:40 | INFO: Blender create Mesh node flap_left_SKIN
+00:02:40 | INFO: Blender create Mesh node flap_left_SEAM_CAP_0
+00:02:40 | INFO: Blender create Mesh node flap_left_SEAM_CAP_1
+00:02:40 | INFO: Blender create Mesh node flap_left_SEAM_CAP_4
+00:02:40 | INFO: Blender create Mesh node aileron_left_SKIN
+00:02:40 | INFO: Blender create Mesh node aileron_left_SEAM_CAP_0
+00:02:40 | INFO: Blender create Mesh node aileron_left_SEAM_CAP_1
+00:02:40 | INFO: Blender create Mesh node aileron_left_SEAM_CAP_4
+00:02:40 | INFO: Blender create Mesh node elevator_left_SKIN
+00:02:40 | INFO: Blender create Mesh node elevator_left_SEAM_CAP_1
+00:02:40 | INFO: Blender create Mesh node elevator_left_SEAM_CAP_4
+00:02:40 | INFO: Blender create Mesh node rudder_SKIN
+00:02:40 | INFO: Blender create Mesh node rudder_SEAM_CAP_2
+00:02:40 | INFO: Blender create Mesh node rudder_SEAM_CAP_3
+00:02:40 | INFO: Blender create Mesh node rudder_SEAM_CAP_4
+00:02:40 | INFO: Blender create Mesh node PROP_1_SIX_SWEPT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_1_J_SPINNER
+00:02:40 | INFO: Blender create Mesh node PROP_1_HUB_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_1_BLADES_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_1_TIP_PATCHES
+00:02:40 | INFO: Blender create Mesh node PROP_1_NP2000_STYLE_EIGHT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_1_NP2000_SPINNER
+00:02:40 | INFO: Blender create Mesh node PROP_2_SIX_SWEPT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_2_J_SPINNER
+00:02:40 | INFO: Blender create Mesh node PROP_2_HUB_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_2_BLADES_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_2_TIP_PATCHES
+00:02:40 | INFO: Blender create Mesh node PROP_2_NP2000_STYLE_EIGHT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_2_NP2000_SPINNER
+00:02:40 | INFO: Blender create Mesh node PROP_3_SIX_SWEPT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_3_J_SPINNER
+00:02:40 | INFO: Blender create Mesh node PROP_3_HUB_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_3_BLADES_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_3_TIP_PATCHES
+00:02:40 | INFO: Blender create Mesh node PROP_3_NP2000_STYLE_EIGHT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_3_NP2000_SPINNER
+00:02:40 | INFO: Blender create Mesh node PROP_4_SIX_SWEPT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_4_J_SPINNER
+00:02:40 | INFO: Blender create Mesh node PROP_4_HUB_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_4_BLADES_SOURCE
+00:02:40 | INFO: Blender create Mesh node PROP_4_TIP_PATCHES
+00:02:40 | INFO: Blender create Mesh node PROP_4_NP2000_STYLE_EIGHT_BLADES
+00:02:40 | INFO: Blender create Mesh node PROP_4_NP2000_SPINNER
+00:02:40 | INFO: Blender create Mesh node CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0
+00:02:40 | INFO: Blender create Mesh node CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0
+00:02:40 | INFO: Blender create Mesh node CARGO_LOWER_RAMP_PRESERVED
+00:02:40 | INFO: Blender create Mesh node CARGO_RAMP_INTERIOR_PRESERVED
+00:02:40 | INFO: Blender create Mesh node CARGO_UPPER_DOOR_PRESERVED
+00:02:40 | INFO: Blender create Mesh node CREW_AIRSTAIR_DOOR_PRESERVED
+00:02:40 | INFO: Blender create Mesh node CREW_STAIR_TREAD_1
+00:02:40 | INFO: Blender create Mesh node CREW_STAIR_TREAD_2
+00:02:40 | INFO: Blender create Mesh node CREW_STAIR_TREAD_3
+00:02:40 | INFO: Blender create Mesh node CREW_STAIR_TREAD_4
+00:02:40 | INFO: Blender create Mesh node PARATROOP_RIGHT_SOURCE_18
+00:02:40 | INFO: Blender create Mesh node PARATROOP_RIGHT_SOURCE_19
+00:02:40 | INFO: Blender create Mesh node WHEEL_LEFT_1_PRESERVED_TIRE
+00:02:40 | INFO: Blender create Mesh node WHEEL_LEFT_1_PRESERVED_RIM
+00:02:40 | INFO: Blender create Mesh node MAIN_STRUT_left_1
+00:02:40 | INFO: Blender create Mesh node WHEEL_LEFT_2_PRESERVED_TIRE
+00:02:40 | INFO: Blender create Mesh node WHEEL_LEFT_2_PRESERVED_RIM
+00:02:40 | INFO: Blender create Mesh node MAIN_STRUT_left_2
+00:02:40 | INFO: Blender create Mesh node MAIN_GEAR_COVER_LEFT_PRESERVED
+00:02:40 | INFO: Blender create Mesh node WHEEL_RIGHT_1_PRESERVED_TIRE
+00:02:40 | INFO: Blender create Mesh node WHEEL_RIGHT_1_PRESERVED_RIM
+00:02:40 | INFO: Blender create Mesh node MAIN_STRUT_right_1
+00:02:40 | INFO: Blender create Mesh node WHEEL_RIGHT_2_PRESERVED_TIRE
+00:02:40 | INFO: Blender create Mesh node WHEEL_RIGHT_2_PRESERVED_RIM
+00:02:40 | INFO: Blender create Mesh node MAIN_STRUT_right_2
+00:02:40 | INFO: Blender create Mesh node MAIN_GEAR_COVER_RIGHT_PRESERVED
+00:02:40 | INFO: Blender create Mesh node NOSE_GEAR_STRUT_PRESERVED
+00:02:40 | INFO: Blender create Mesh node NOSE_WHEELS_PRESERVED_TIRE
+00:02:40 | INFO: Blender create Mesh node NOSE_WHEELS_PRESERVED_RIM
+00:02:40 | INFO: Blender create Mesh node NOSE_GEAR_COVER_PRESERVED
+00:02:40 | INFO: Blender create Mesh node NOSE_WELL_LEFT_SOURCE_HATCH
+00:02:40 | INFO: Blender create Mesh node NOSE_WELL_RIGHT_SOURCE_HATCH
+00:02:40 | INFO: Blender create Mesh node J_AE2100_STYLE_NACELLE_1
+00:02:40 | INFO: Blender create Mesh node J_LOWER_INTAKE_DUCT_1
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_1_BOTTOM
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_1_TOP
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_1_LEFT
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_1_RIGHT
+00:02:40 | INFO: Blender create Mesh node J_EXHAUST_1
+00:02:40 | INFO: Blender create Mesh node J_AE2100_STYLE_NACELLE_2
+00:02:40 | INFO: Blender create Mesh node J_LOWER_INTAKE_DUCT_2
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_2_BOTTOM
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_2_TOP
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_2_LEFT
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_2_RIGHT
+00:02:40 | INFO: Blender create Mesh node J_EXHAUST_2
+00:02:40 | INFO: Blender create Mesh node J_AE2100_STYLE_NACELLE_3
+00:02:40 | INFO: Blender create Mesh node J_LOWER_INTAKE_DUCT_3
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_3_BOTTOM
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_3_TOP
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_3_LEFT
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_3_RIGHT
+00:02:40 | INFO: Blender create Mesh node J_EXHAUST_3
+00:02:40 | INFO: Blender create Mesh node J_AE2100_STYLE_NACELLE_4
+00:02:40 | INFO: Blender create Mesh node J_LOWER_INTAKE_DUCT_4
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_4_BOTTOM
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_4_TOP
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_4_LEFT
+00:02:40 | INFO: Blender create Mesh node J_INTAKE_LIP_4_RIGHT
+00:02:40 | INFO: Blender create Mesh node J_EXHAUST_4
+00:02:40 | INFO: Blender create Mesh node LEGACY_NACELLE_1_ORIGINAL
+00:02:40 | INFO: Blender create Mesh node LEGACY_NACELLE_2_ORIGINAL
+00:02:40 | INFO: Blender create Mesh node LEGACY_NACELLE_3_ORIGINAL
+00:02:40 | INFO: Blender create Mesh node LEGACY_NACELLE_4_ORIGINAL
+00:02:40 | INFO: Blender create Mesh node J_COCKPIT_PANEL
+00:02:40 | INFO: Blender create Mesh node J_MULTIFUNCTION_DISPLAY_1
+00:02:40 | INFO: Blender create Mesh node J_MULTIFUNCTION_DISPLAY_2
+00:02:40 | INFO: Blender create Mesh node J_MULTIFUNCTION_DISPLAY_3
+00:02:40 | INFO: Blender create Mesh node J_MULTIFUNCTION_DISPLAY_4
+00:02:40 | INFO: Blender create Mesh node J_MULTIFUNCTION_DISPLAY_5
+00:02:40 | INFO: Blender create Mesh node J_HUD_GLASS_1
+00:02:40 | INFO: Blender create Mesh node J_HUD_GLASS_2
+00:02:40 | INFO: Blender create Mesh node LEGACY_COCKPIT_PANEL
+00:02:40 | INFO: Blender create Mesh node LEGACY_ANALOG_DIAL_1
+00:02:40 | INFO: Blender create Mesh node LEGACY_ANALOG_DIAL_2
+00:02:40 | INFO: Blender create Mesh node LEGACY_ANALOG_DIAL_3
+00:02:40 | INFO: Blender create Mesh node LEGACY_ANALOG_DIAL_4
+00:02:40 | INFO: Blender create Mesh node LEGACY_ANALOG_DIAL_5
+00:02:40 | INFO: Blender create Mesh node PANEL_GUN30_SOURCE_SKIN
+00:02:40 | INFO: Blender create Mesh node gun30_FUSELAGE_INTERFACE_RING
+00:02:40 | INFO: Blender create Mesh node gun30_DRAPED_APERTURE_BOOT
+00:02:40 | INFO: Blender create Mesh node gun30_FLANGE_FASTENERS
+00:02:40 | INFO: Blender create Mesh node gun30_INBOARD_BASE
+00:02:40 | INFO: Blender create Mesh node gun30_BASE_SUPPORT_0
+00:02:40 | INFO: Blender create Mesh node gun30_BASE_SUPPORT_1
+00:02:40 | INFO: Blender create Mesh node gun30_SINGLE_BARREL
+00:02:40 | INFO: Blender create Mesh node gun30_VENTED_MUZZLE_SLEEVE
+00:02:40 | INFO: Blender create Mesh node gun30_MUZZLE_RIM
+00:02:40 | INFO: Blender create Mesh node gun30_MUZZLE_REAR_COLLAR
+00:02:40 | INFO: Blender create Mesh node gun30_INBOARD_RECEIVER
+00:02:40 | INFO: Blender create Mesh node gun30_DOWNWARD_CASE_EXIT_CAVITY
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_TOP_COVER
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_ROUND_SIDE_COVER
+00:02:40 | INFO: Blender create Mesh node gun30_BARREL_RETAINING_COLLAR
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_RIB_0
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_RIB_1
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_RIB_2
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_RIB_3
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_RIB_4
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_RIB_5
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_FASTENER_0
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_FASTENER_1
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_FASTENER_2
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_FASTENER_3
+00:02:40 | INFO: Blender create Mesh node gun30_RECEIVER_FASTENER_4
+00:02:40 | INFO: Blender create Mesh node gun30_MUZZLE_FLASH
+00:02:40 | INFO: Blender create Mesh node gun30_MUZZLE_FLASH_CORE
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_RAIL_0_0
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_RAIL_0_1
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_0
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_1
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_2
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_3
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_4
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_5
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_6
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_7
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_8
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_9
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_10
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_11
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_12
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_13
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_14
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_15
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_16
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_17
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_18
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_19
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_20
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_21
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_22
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_0_23
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_RAIL_1_0
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_RAIL_1_1
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_0
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_1
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_2
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_3
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_4
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_5
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_6
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_7
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_8
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_9
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_10
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_11
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_12
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_13
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_14
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_15
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_16
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_17
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_18
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_19
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_20
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_21
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_22
+00:02:40 | INFO: Blender create Mesh node gun30_FEED_GUIDE_LINK_1_23
+00:02:40 | INFO: Blender create Mesh node gun30_DARK_SERVICE_CABLE
+00:02:40 | INFO: Blender create Mesh node gun30_SPENT_CASE
+00:02:40 | INFO: Blender create Mesh node gun30_TRUNNION
+00:02:40 | INFO: Blender create Mesh node gun30_TRUNNION_PLATE_L
+00:02:40 | INFO: Blender create Mesh node gun30_TRUNNION_PLATE_R
+00:02:40 | INFO: Blender create Mesh node gun30_INTERNAL_SPENT_CASE_BAG
+00:02:40 | INFO: Blender create Mesh node gun30_BAG_DARK_INNER_BASE
+00:02:40 | INFO: Blender create Mesh node gun30_BAG_MOUTH_STIFFENER
+00:02:40 | INFO: Blender create Mesh node gun30_BAG_RETAINING_STRAP_0
+00:02:40 | INFO: Blender create Mesh node gun30_BAG_RETAINING_STRAP_1
+00:02:40 | INFO: Blender create Mesh node gun30_MUZZLE_SMOKE
+00:02:40 | INFO: Blender create Mesh node PANEL_GUN30_BLANK_SKIN
+00:02:40 | INFO: Blender create Mesh node PANEL_GUN30_CLOSED_CABIN_LINER
+00:02:40 | INFO: Blender create Mesh node PANEL_GUN105_SOURCE_SKIN
+00:02:40 | INFO: Blender create Mesh node gun105_FUSELAGE_INTERFACE_RING
+00:02:40 | INFO: Blender create Mesh node gun105_DRAPED_APERTURE_BOOT
+00:02:40 | INFO: Blender create Mesh node gun105_FLANGE_FASTENERS
+00:02:40 | INFO: Blender create Mesh node gun105_INBOARD_BASE
+00:02:40 | INFO: Blender create Mesh node gun105_BARREL_AND_COLLARS
+00:02:40 | INFO: Blender create Mesh node gun105_MUZZLE_RIM
+00:02:40 | INFO: Blender create Mesh node gun105_BREECH_VISUAL_HOUSING
+00:02:40 | INFO: Blender create Mesh node gun105_CASE_EXIT_CAVITY
+00:02:40 | INFO: Blender create Mesh node gun105_CASE_EXIT_COVER
+00:02:40 | INFO: Blender create Mesh node gun105_MUZZLE_FLASH
+00:02:40 | INFO: Blender create Mesh node gun105_MUZZLE_FLASH_CORE
+00:02:40 | INFO: Blender create Mesh node gun105_YELLOW_GUARD_-1
+00:02:40 | INFO: Blender create Mesh node gun105_YELLOW_CRADLE_PLATE_-1
+00:02:40 | INFO: Blender create Mesh node gun105_YELLOW_GUARD_1
+00:02:40 | INFO: Blender create Mesh node gun105_YELLOW_CRADLE_PLATE_1
+00:02:40 | INFO: Blender create Mesh node gun105_GUARD_CROSSBAR
+00:02:40 | INFO: Blender create Mesh node gun105_SPRING_CORE_L
+00:02:40 | INFO: Blender create Mesh node gun105_VISIBLE_SPRING_L
+00:02:40 | INFO: Blender create Mesh node gun105_SPRING_CORE_R
+00:02:40 | INFO: Blender create Mesh node gun105_VISIBLE_SPRING_R
+00:02:40 | INFO: Blender create Mesh node gun105_SIDE_ACTUATOR_COVER
+00:02:40 | INFO: Blender create Mesh node gun105_SPENT_CASE
+00:02:40 | INFO: Blender create Mesh node gun105_TRUNNION
+00:02:40 | INFO: Blender create Mesh node gun105_TRUNNION_PLATE_L
+00:02:40 | INFO: Blender create Mesh node gun105_TRUNNION_PLATE_R
+00:02:40 | INFO: Blender create Mesh node gun105_INTERNAL_CASE_TRAY
+00:02:40 | INFO: Blender create Mesh node gun105_INTERNAL_CASE_TRAY_EDGE
+00:02:40 | INFO: Blender create Mesh node gun105_MUZZLE_SMOKE
+00:02:40 | INFO: Blender create Mesh node PANEL_AFT_PORT_GUN_STATION_INFILL
+00:02:40 | INFO: Blender create Mesh node CARGO_CABIN_PRESERVED_AFT_PORT_FIXED_GUN_FILL
+00:02:40 | INFO: Blender create Mesh node PARATROOP_LEFT_SOURCE_20
+00:02:40 | INFO: Blender create Mesh node PARATROOP_LEFT_SOURCE_21
+00:02:40 | INFO: Blender create Mesh node PANEL_GUN105_BLANK_SKIN
+00:02:40 | INFO: Blender create Mesh node PANEL_GUN105_CLOSED_CABIN_LINER
+00:02:40 | INFO: Blender create Mesh node EXTERNAL_TANK_LEFT_SOURCE
+00:02:40 | INFO: Blender create Mesh node TANK_LEFT_ATTACHMENT_PYLON
+00:02:40 | INFO: Blender create Mesh node EXTERNAL_TANK_RIGHT_SOURCE
+00:02:40 | INFO: Blender create Mesh node TANK_RIGHT_ATTACHMENT_PYLON
+00:02:40 | INFO: Blender create Mesh node NOSE_STANDARD_SOURCE
+00:02:40 | INFO: Blender create Mesh node HISTORICAL_TALON_DROOPED_RADOME
+00:02:40 | INFO: Blender create Mesh node RECEIVER_BLANK_CONTINUOUS_SKIN
+00:02:40 | INFO: Blender create Mesh node RECEIVER_DORSAL_HATCH_SOURCE
+00:02:40 | INFO: Blender create Mesh node RECEIVER_RECESSED_WELL_FLOOR
+00:02:40 | INFO: Blender create Mesh node RECEIVER_RECESSED_WELL_REVEAL
+00:02:40 | INFO: Blender create Mesh node RECEIVER_CONTACT_REPRESENTATION
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LEFT_PITCH_CAP
+00:02:40 | INFO: Blender create Mesh node eoir_chin_RIGHT_PITCH_CAP
+00:02:40 | INFO: Blender create Mesh node eoir_chin_PITCH_FASTENERS
+00:02:40 | INFO: Blender create Mesh node eoir_chin_ROUNDED_OPTICAL_HOUSING
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_UPPER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_UPPER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_UPPER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_UPPER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_UPPER_OPTICAL_BARREL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_UPPER_LENS_RETAINER
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_UPPER_OPTICS
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_LOWER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_LOWER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_LOWER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_LOWER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LARGE_LOWER_DARK_WINDOW
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_UPPER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_UPPER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_UPPER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_UPPER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_UPPER_OPTICAL_BARREL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_UPPER_LENS_RETAINER
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_UPPER_OPTICS
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_LOWER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_LOWER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_LOWER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_LOWER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_LOWER_OPTICAL_BARREL
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_LOWER_LENS_RETAINER
+00:02:40 | INFO: Blender create Mesh node eoir_chin_SMALL_LOWER_OPTICS
+00:02:40 | INFO: Blender create Mesh node eoir_chin_APERTURED_OPTICAL_FACE
+00:02:40 | INFO: Blender create Mesh node eoir_chin_FACE_PERIMETER_SEAM
+00:02:40 | INFO: Blender create Mesh node eoir_chin_FACE_SCREW_RECESSES
+00:02:40 | INFO: Blender create Mesh node eoir_chin_FACE_FASTENERS
+00:02:40 | INFO: Blender create Mesh node eoir_chin_YAW_TOP_BAND
+00:02:40 | INFO: Blender create Mesh node eoir_chin_OPEN_FRONT_YOKE
+00:02:40 | INFO: Blender create Mesh node eoir_chin_LEFT_TRUNNION_GASKET
+00:02:40 | INFO: Blender create Mesh node eoir_chin_RIGHT_TRUNNION_GASKET
+00:02:40 | INFO: Blender create Mesh node eoir_chin_YOKE_FASTENERS
+00:02:40 | INFO: Blender create Mesh node eoir_chin_FIXED_ATTACHMENT_CAP
+00:02:40 | INFO: Blender create Mesh node eoir_chin_AZIMUTH_BEARING_SEAM
+00:02:40 | INFO: Blender create Mesh node eoir_port_LEFT_PITCH_CAP
+00:02:40 | INFO: Blender create Mesh node eoir_port_RIGHT_PITCH_CAP
+00:02:40 | INFO: Blender create Mesh node eoir_port_PITCH_FASTENERS
+00:02:40 | INFO: Blender create Mesh node eoir_port_ROUNDED_OPTICAL_HOUSING
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_UPPER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_UPPER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_UPPER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_UPPER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_UPPER_OPTICAL_BARREL
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_UPPER_LENS_RETAINER
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_UPPER_OPTICS
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_LOWER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_LOWER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_LOWER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_LOWER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_port_LARGE_LOWER_DARK_WINDOW
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_UPPER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_UPPER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_UPPER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_UPPER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_UPPER_OPTICAL_BARREL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_UPPER_LENS_RETAINER
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_UPPER_OPTICS
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_LOWER_PAINT_BEZEL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_LOWER_SEAL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_LOWER_RECESSED_WALL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_LOWER_BLACK_BACKING
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_LOWER_OPTICAL_BARREL
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_LOWER_LENS_RETAINER
+00:02:40 | INFO: Blender create Mesh node eoir_port_SMALL_LOWER_OPTICS
+00:02:40 | INFO: Blender create Mesh node eoir_port_APERTURED_OPTICAL_FACE
+00:02:40 | INFO: Blender create Mesh node eoir_port_FACE_PERIMETER_SEAM
+00:02:40 | INFO: Blender create Mesh node eoir_port_FACE_SCREW_RECESSES
+00:02:40 | INFO: Blender create Mesh node eoir_port_FACE_FASTENERS
+00:02:40 | INFO: Blender create Mesh node eoir_port_YAW_TOP_BAND
+00:02:40 | INFO: Blender create Mesh node eoir_port_OPEN_FRONT_YOKE
+00:02:40 | INFO: Blender create Mesh node eoir_port_LEFT_TRUNNION_GASKET
+00:02:40 | INFO: Blender create Mesh node eoir_port_RIGHT_TRUNNION_GASKET
+00:02:40 | INFO: Blender create Mesh node eoir_port_YOKE_FASTENERS
+00:02:40 | INFO: Blender create Mesh node eoir_port_FIXED_ATTACHMENT_CAP
+00:02:40 | INFO: Blender create Mesh node eoir_port_AZIMUTH_BEARING_SEAM
+00:02:40 | INFO: Blender create Mesh node tanker_left_POD_SHELL
+00:02:40 | INFO: Blender create Mesh node tanker_left_AFT_HOSE_RECESS
+00:02:40 | INFO: Blender create Mesh node tanker_left_PYLON
+00:02:40 | INFO: Blender create Mesh node tanker_left_SEAM_0
+00:02:40 | INFO: Blender create Mesh node tanker_left_SEAM_1
+00:02:40 | INFO: Blender create Mesh node tanker_left_FLEXIBLE_HOSE
+00:02:40 | INFO: Blender create Mesh node tanker_left_COUPLING
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_0
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_1
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_2
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_3
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_4
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_5
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_6
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_7
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_8
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_9
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_10
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_11
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_12
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_13
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_14
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_15
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_16
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_17
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_18
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_RIB_19
+00:02:40 | INFO: Blender create Mesh node tanker_left_high_FABRIC
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_0
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_1
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_2
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_3
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_4
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_5
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_6
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_7
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_8
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_9
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_10
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_11
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_12
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_13
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_14
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_15
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_16
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_17
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_18
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_19
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_20
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_21
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_22
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_RIB_23
+00:02:40 | INFO: Blender create Mesh node tanker_left_low_FABRIC
+00:02:40 | INFO: Blender create Mesh node tanker_right_POD_SHELL
+00:02:40 | INFO: Blender create Mesh node tanker_right_AFT_HOSE_RECESS
+00:02:40 | INFO: Blender create Mesh node tanker_right_PYLON
+00:02:40 | INFO: Blender create Mesh node tanker_right_SEAM_0
+00:02:40 | INFO: Blender create Mesh node tanker_right_SEAM_1
+00:02:40 | INFO: Blender create Mesh node tanker_right_FLEXIBLE_HOSE
+00:02:40 | INFO: Blender create Mesh node tanker_right_COUPLING
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_0
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_1
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_2
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_3
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_4
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_5
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_6
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_7
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_8
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_9
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_10
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_11
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_12
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_13
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_14
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_15
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_16
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_17
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_18
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_RIB_19
+00:02:40 | INFO: Blender create Mesh node tanker_right_high_FABRIC
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_0
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_1
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_2
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_3
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_4
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_5
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_6
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_7
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_8
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_9
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_10
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_11
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_12
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_13
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_14
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_15
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_16
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_17
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_18
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_19
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_20
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_21
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_22
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_RIB_23
+00:02:40 | INFO: Blender create Mesh node tanker_right_low_FABRIC
+00:02:40 | INFO: Blender create Mesh node FULTON_LEFT_ARM
+00:02:40 | INFO: Blender create Mesh node FULTON_LEFT_GUIDE_TIP
+00:02:40 | INFO: Blender create Mesh node FULTON_LEFT_HINGE
+00:02:40 | INFO: Blender create Mesh node FULTON_LEFT_MOUNT_BRACE
+00:02:40 | INFO: Blender create Mesh node FULTON_LEFT_SECONDARY_BRACE
+00:02:40 | INFO: Blender create Mesh node FULTON_RIGHT_ARM
+00:02:40 | INFO: Blender create Mesh node FULTON_RIGHT_GUIDE_TIP
+00:02:40 | INFO: Blender create Mesh node FULTON_RIGHT_HINGE
+00:02:40 | INFO: Blender create Mesh node FULTON_RIGHT_MOUNT_BRACE
+00:02:40 | INFO: Blender create Mesh node FULTON_RIGHT_SECONDARY_BRACE
+00:02:40 | INFO: Blender create Mesh node FULTON_SKY_ANCHOR_HOUSING
+00:02:40 | INFO: Blender create Mesh node FULTON_LEFT_FENDING_ATTACHMENT
+00:02:40 | INFO: Blender create Mesh node FULTON_LEFT_FENDING_LINE
+00:02:40 | INFO: Blender create Mesh node FULTON_RIGHT_FENDING_ATTACHMENT
+00:02:40 | INFO: Blender create Mesh node FULTON_RIGHT_FENDING_LINE
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_1_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_1_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_1_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_1_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_1_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_2_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_2_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_2_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_2_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_2_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_3_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_3_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_3_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_3_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_3_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_4_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_4_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_4_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_4_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_LEFT_4_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_1_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_1_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_1_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_1_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_1_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_2_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_2_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_2_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_2_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_2_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_3_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_3_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_3_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_3_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_3_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_4_BOTTLE
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_4_CLAMP_-0.24
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_4_CLAMP_0.27
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_4_BRACKET
+00:02:40 | INFO: Blender create Mesh node JATO_RIGHT_4_SOFT_EXHAUST
+00:02:40 | INFO: Blender create Mesh node CARGO_UPPER_APERTURE_JAMB_STARBOARD
+00:02:40 | INFO: Blender create Mesh node CARGO_UPPER_APERTURE_JAMB_PORT
+00:02:40 | INFO: glTF import finished in 0.93s
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:33:47)
+Fra:1 Mem:96.33M (Peak 96.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GEAR_WELL_LEFT
+Fra:1 Mem:96.33M (Peak 96.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_CABIN_PRESERVED
+Fra:1 Mem:96.34M (Peak 96.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | COCKPIT_WINDOWS
+Fra:1 Mem:97.60M (Peak 97.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_0_FIXED_WING
+Fra:1 Mem:98.71M (Peak 98.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_LABEL
+Fra:1 Mem:99.23M (Peak 99.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:99.25M (Peak 99.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:99.34M (Peak 99.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_0_FIXED_WING
+Fra:1 Mem:99.34M (Peak 99.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:99.34M (Peak 99.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:99.34M (Peak 99.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:99.35M (Peak 99.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:99.40M (Peak 99.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_0_FIXED_WING
+Fra:1 Mem:99.40M (Peak 99.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:99.40M (Peak 99.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_2_FIXED_WING
+Fra:1 Mem:99.41M (Peak 99.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_3_FIXED_WING
+Fra:1 Mem:99.44M (Peak 99.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:99.50M (Peak 99.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_FIXED_TELESCOPIC_STRUT_left_1
+Fra:1 Mem:99.54M (Peak 99.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_FIXED_TELESCOPIC_STRUT_left_2
+Fra:1 Mem:99.55M (Peak 99.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED
+Fra:1 Mem:99.55M (Peak 99.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SKIN
+Fra:1 Mem:99.56M (Peak 99.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_0
+Fra:1 Mem:99.58M (Peak 99.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_4
+Fra:1 Mem:99.57M (Peak 99.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SKIN
+Fra:1 Mem:99.59M (Peak 99.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_0
+Fra:1 Mem:99.84M (Peak 99.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_1
+Fra:1 Mem:100.39M (Peak 100.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_4
+Fra:1 Mem:100.39M (Peak 100.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SKIN
+Fra:1 Mem:100.41M (Peak 100.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SEAM_CAP_1
+Fra:1 Mem:100.41M (Peak 100.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SEAM_CAP_4
+Fra:1 Mem:100.41M (Peak 100.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SKIN
+Fra:1 Mem:100.42M (Peak 100.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_0
+Fra:1 Mem:100.42M (Peak 100.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_1
+Fra:1 Mem:100.52M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_4
+Fra:1 Mem:100.44M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_LABEL_PLATE
+Fra:1 Mem:100.44M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SKIN
+Fra:1 Mem:100.45M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_RIM
+Fra:1 Mem:100.38M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_FILL
+Fra:1 Mem:100.37M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_KEY
+Fra:1 Mem:100.38M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_UPPER_APERTURE_JAMB_PORT
+Fra:1 Mem:100.39M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_0
+Fra:1 Mem:100.46M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_1
+Fra:1 Mem:100.46M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_4
+Fra:1 Mem:100.52M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SKIN
+Fra:1 Mem:100.52M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SEAM_CAP_1
+Fra:1 Mem:100.52M (Peak 100.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SEAM_CAP_4
+Fra:1 Mem:100.54M (Peak 100.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SKIN
+Fra:1 Mem:100.54M (Peak 100.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_2
+Fra:1 Mem:100.56M (Peak 100.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_3
+Fra:1 Mem:100.61M (Peak 100.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_4
+Fra:1 Mem:100.62M (Peak 100.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_1_HUB_SOURCE
+Fra:1 Mem:100.63M (Peak 100.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_1_BLADES_SOURCE
+Fra:1 Mem:100.67M (Peak 100.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_1_TIP_PATCHES
+Fra:1 Mem:100.69M (Peak 100.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_2_HUB_SOURCE
+Fra:1 Mem:100.69M (Peak 100.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_2_BLADES_SOURCE
+Fra:1 Mem:100.71M (Peak 100.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_2_TIP_PATCHES
+Fra:1 Mem:100.93M (Peak 100.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_3_HUB_SOURCE
+Fra:1 Mem:101.01M (Peak 101.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_3_BLADES_SOURCE
+Fra:1 Mem:101.03M (Peak 101.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | RECEIVER_BLANK_CONTINUOUS_SKIN
+Fra:1 Mem:101.11M (Peak 101.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_3_TIP_PATCHES
+Fra:1 Mem:101.11M (Peak 101.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_STANDARD_SOURCE
+Fra:1 Mem:101.20M (Peak 101.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_4_HUB_SOURCE
+Fra:1 Mem:101.26M (Peak 101.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_4_TIP_PATCHES
+Fra:1 Mem:101.27M (Peak 101.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0
+Fra:1 Mem:101.31M (Peak 101.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_LOWER_RAMP_PRESERVED
+Fra:1 Mem:101.32M (Peak 101.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_RAMP_INTERIOR_PRESERVED
+Fra:1 Mem:101.38M (Peak 101.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_UPPER_DOOR_PRESERVED
+Fra:1 Mem:101.39M (Peak 101.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_AIRSTAIR_DOOR_PRESERVED
+Fra:1 Mem:101.39M (Peak 101.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_STAIR_TREAD_1
+Fra:1 Mem:101.47M (Peak 101.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_STAIR_TREAD_2
+Fra:1 Mem:101.54M (Peak 101.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_STAIR_TREAD_3
+Fra:1 Mem:101.60M (Peak 101.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_STAIR_TREAD_4
+Fra:1 Mem:101.68M (Peak 101.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TANK_RIGHT_ATTACHMENT_PYLON
+Fra:1 Mem:101.68M (Peak 101.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARATROOP_RIGHT_SOURCE_18
+Fra:1 Mem:102.77M (Peak 102.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_LEFT_1_PRESERVED_TIRE
+Fra:1 Mem:102.80M (Peak 102.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_LEFT_1_PRESERVED_RIM
+Fra:1 Mem:102.89M (Peak 102.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_STRUT_left_1
+Fra:1 Mem:102.96M (Peak 102.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_LEFT_2_PRESERVED_TIRE
+Fra:1 Mem:103.41M (Peak 103.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_LEFT_2_PRESERVED_RIM
+Fra:1 Mem:103.41M (Peak 103.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TANK_LEFT_ATTACHMENT_PYLON
+Fra:1 Mem:103.44M (Peak 103.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_GEAR_COVER_LEFT_PRESERVED
+Fra:1 Mem:103.49M (Peak 103.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | EXTERNAL_TANK_LEFT_SOURCE
+Fra:1 Mem:103.71M (Peak 103.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_1_PRESERVED_TIRE
+Fra:1 Mem:103.81M (Peak 103.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_1_PRESERVED_RIM
+Fra:1 Mem:105.99M (Peak 105.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN105_CLOSED_CABIN_LINER
+Fra:1 Mem:106.96M (Peak 106.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_STRUT_right_1
+Fra:1 Mem:106.92M (Peak 106.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN105_BLANK_SKIN
+Fra:1 Mem:106.94M (Peak 106.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_2_PRESERVED_TIRE
+Fra:1 Mem:106.96M (Peak 106.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_2_PRESERVED_RIM
+Fra:1 Mem:107.00M (Peak 107.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_STRUT_right_2
+Fra:1 Mem:107.08M (Peak 107.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARATROOP_LEFT_SOURCE_21
+Fra:1 Mem:107.08M (Peak 107.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_GEAR_COVER_RIGHT_PRESERVED
+Fra:1 Mem:107.09M (Peak 107.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_GEAR_STRUT_PRESERVED
+Fra:1 Mem:107.10M (Peak 107.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WHEELS_PRESERVED_TIRE
+Fra:1 Mem:107.11M (Peak 107.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARATROOP_LEFT_SOURCE_20
+Fra:1 Mem:107.98M (Peak 107.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN30_CLOSED_CABIN_LINER
+Fra:1 Mem:108.47M (Peak 108.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN30_BLANK_SKIN
+Fra:1 Mem:108.51M (Peak 108.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_5
+Fra:1 Mem:108.52M (Peak 108.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WHEELS_PRESERVED_RIM
+Fra:1 Mem:108.57M (Peak 108.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_4
+Fra:1 Mem:108.68M (Peak 108.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_GEAR_COVER_PRESERVED
+Fra:1 Mem:109.23M (Peak 109.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_3
+Fra:1 Mem:109.26M (Peak 109.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_2
+Fra:1 Mem:109.01M (Peak 109.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WELL_LEFT_SOURCE_HATCH
+Fra:1 Mem:110.03M (Peak 110.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_1
+Fra:1 Mem:110.43M (Peak 110.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_COCKPIT_PANEL
+Fra:1 Mem:110.53M (Peak 110.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WELL_RIGHT_SOURCE_HATCH
+Fra:1 Mem:110.53M (Peak 110.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_1_ORIGINAL
+Fra:1 Mem:110.53M (Peak 110.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_4_ORIGINAL
+Fra:1 Mem:110.59M (Peak 110.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_2_ORIGINAL
+Fra:1 Mem:112.37M (Peak 112.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_3_ORIGINAL
+Fra:1 Mem:130.63M (Peak 150.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:128.53M (Peak 150.68M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Image_1
+Fra:1 Mem:128.53M (Peak 150.68M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Image_0
+Fra:1 Mem:251.42M (Peak 320.55M) | Time:00:00.14 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:251.42M (Peak 320.55M) | Time:00:00.14 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:251.42M (Peak 320.55M) | Time:00:00.14 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:251.42M (Peak 320.55M) | Time:00:00.14 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:251.51M (Peak 320.55M) | Time:00:00.14 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:251.51M (Peak 320.55M) | Time:00:00.14 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:251.51M (Peak 320.55M) | Time:00:00.14 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:251.51M (Peak 320.55M) | Time:00:00.14 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:251.51M (Peak 320.55M) | Time:00:00.14 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:251.51M (Peak 320.55M) | Time:00:00.14 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:251.54M (Peak 320.55M) | Time:00:00.14 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:251.54M (Peak 320.55M) | Time:00:00.14 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:251.54M (Peak 320.55M) | Time:00:00.14 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:265.03M (Peak 320.55M) | Time:00:00.28 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:265.03M (Peak 320.55M) | Time:00:00.28 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:287.10M (Peak 320.55M) | Time:00:00.28 | Mem:128.05M, Peak:128.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:287.07M (Peak 320.55M) | Time:00:00.28 | Mem:150.08M, Peak:150.08M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:287.08M (Peak 320.55M) | Time:00:00.28 | Mem:150.08M, Peak:150.08M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:287.08M (Peak 320.55M) | Time:00:00.28 | Mem:157.99M, Peak:157.99M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:287.08M (Peak 320.55M) | Time:00:00.30 | Mem:167.42M, Peak:175.34M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:287.08M (Peak 320.55M) | Time:00:00.30 | Mem:167.42M, Peak:175.34M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:297.14M (Peak 320.55M) | Time:00:00.31 | Mem:167.42M, Peak:175.34M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:297.14M (Peak 320.55M) | Time:00:00.31 | Mem:177.49M, Peak:177.49M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:297.14M (Peak 320.55M) | Time:00:00.31 | Mem:177.49M, Peak:177.49M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:297.15M (Peak 320.55M) | Time:00:00.31 | Mem:177.49M, Peak:177.49M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:297.15M (Peak 320.55M) | Time:00:00.31 | Mem:177.49M, Peak:177.49M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:297.15M (Peak 320.55M) | Time:00:00.31 | Mem:177.49M, Peak:177.49M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:297.15M (Peak 320.55M) | Time:00:00.31 | Mem:177.58M, Peak:177.58M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:297.15M (Peak 320.55M) | Time:00:00.31 | Mem:177.58M, Peak:177.58M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:298.26M (Peak 320.55M) | Time:00:00.34 | Mem:178.69M, Peak:178.69M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:298.26M (Peak 320.55M) | Time:00:00.34 | Mem:178.69M, Peak:178.69M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:298.27M (Peak 320.55M) | Time:00:00.34 | Mem:178.61M, Peak:178.69M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:298.27M (Peak 320.55M) | Time:00:00.34 | Mem:178.70M, Peak:178.70M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:298.27M (Peak 320.55M) | Time:00:00.34 | Mem:178.70M, Peak:178.70M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:298.27M (Peak 320.55M) | Time:00:00.34 | Mem:178.70M, Peak:178.70M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:298.27M (Peak 320.55M) | Time:00:00.34 | Mem:178.70M, Peak:178.70M | Scene, ViewLayer | Sample 0/12
+Fra:1 Mem:359.82M (Peak 359.82M) | Time:00:00.60 | Remaining:00:02.90 | Mem:240.10M, Peak:240.10M | Scene, ViewLayer | Sample 1/12
+Fra:1 Mem:385.67M (Peak 424.45M) | Time:00:06.51 | Mem:240.10M, Peak:240.10M | Scene, ViewLayer | Sample 12/12
+Fra:1 Mem:385.67M (Peak 424.45M) | Time:00:06.51 | Mem:240.10M, Peak:240.10M | Scene, ViewLayer | Finished
+Saved: '/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/previews/ramp-corner-candidate-side.png'
+Time: 00:06.65 (Saving: 00:00.14)
+
+Fra:1 Mem:105.64M (Peak 105.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GEAR_WELL_LEFT
+Fra:1 Mem:105.64M (Peak 105.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | COCKPIT_WINDOWS
+Fra:1 Mem:105.68M (Peak 105.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:105.70M (Peak 105.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:105.97M (Peak 105.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_0_FIXED_WING
+Fra:1 Mem:105.97M (Peak 105.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:105.97M (Peak 105.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:106.06M (Peak 106.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:106.06M (Peak 106.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:106.06M (Peak 106.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:106.06M (Peak 106.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:106.11M (Peak 106.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_0_FIXED_WING
+Fra:1 Mem:106.38M (Peak 106.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:106.38M (Peak 106.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:106.38M (Peak 106.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SEAM_CAP_1_FIXED_WING
+Fra:1 Mem:106.45M (Peak 106.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:106.51M (Peak 106.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_2_FIXED_WING
+Fra:1 Mem:106.50M (Peak 106.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_3_FIXED_WING
+Fra:1 Mem:106.52M (Peak 106.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_4_FIXED_WING
+Fra:1 Mem:106.63M (Peak 106.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_FIXED_TELESCOPIC_STRUT_right_1
+Fra:1 Mem:106.65M (Peak 106.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_FIXED_TELESCOPIC_STRUT_right_2
+Fra:1 Mem:106.95M (Peak 106.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_COVER_FIXED_UPPER_LINKS_PRESERVED
+Fra:1 Mem:107.51M (Peak 107.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_LABEL
+Fra:1 Mem:107.51M (Peak 107.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SKIN
+Fra:1 Mem:107.58M (Peak 107.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_0
+Fra:1 Mem:108.01M (Peak 108.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_1
+Fra:1 Mem:107.94M (Peak 108.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_right_SEAM_CAP_4
+Fra:1 Mem:107.95M (Peak 108.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SKIN
+Fra:1 Mem:107.94M (Peak 108.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_right_SEAM_CAP_0
+Fra:1 Mem:107.98M (Peak 108.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SKIN
+Fra:1 Mem:107.97M (Peak 108.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SEAM_CAP_1
+Fra:1 Mem:108.07M (Peak 108.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_right_SEAM_CAP_4
+Fra:1 Mem:108.08M (Peak 108.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SKIN
+Fra:1 Mem:108.08M (Peak 108.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_0
+Fra:1 Mem:108.06M (Peak 108.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | flap_left_SEAM_CAP_1
+Fra:1 Mem:108.06M (Peak 108.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SKIN
+Fra:1 Mem:108.06M (Peak 108.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_1
+Fra:1 Mem:109.09M (Peak 109.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | aileron_left_SEAM_CAP_4
+Fra:1 Mem:108.78M (Peak 109.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SKIN
+Fra:1 Mem:109.91M (Peak 109.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SEAM_CAP_1
+Fra:1 Mem:109.92M (Peak 109.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | elevator_left_SEAM_CAP_4
+Fra:1 Mem:109.92M (Peak 109.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SKIN
+Fra:1 Mem:109.96M (Peak 109.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_2
+Fra:1 Mem:109.96M (Peak 109.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rudder_SEAM_CAP_4
+Fra:1 Mem:109.96M (Peak 109.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_1_HUB_SOURCE
+Fra:1 Mem:109.97M (Peak 109.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_1_BLADES_SOURCE
+Fra:1 Mem:110.07M (Peak 110.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_2_HUB_SOURCE
+Fra:1 Mem:110.11M (Peak 110.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_2_BLADES_SOURCE
+Fra:1 Mem:110.12M (Peak 110.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_2_TIP_PATCHES
+Fra:1 Mem:110.10M (Peak 110.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_3_HUB_SOURCE
+Fra:1 Mem:110.11M (Peak 110.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_LABEL_PLATE
+Fra:1 Mem:110.10M (Peak 110.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_4_BLADES_SOURCE
+Fra:1 Mem:110.12M (Peak 110.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROP_4_TIP_PATCHES
+Fra:1 Mem:110.71M (Peak 110.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_RIM
+Fra:1 Mem:111.32M (Peak 111.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0
+Fra:1 Mem:111.34M (Peak 111.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_FILL
+Fra:1 Mem:111.38M (Peak 111.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0
+Fra:1 Mem:111.39M (Peak 111.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_LOWER_RAMP_PRESERVED
+Fra:1 Mem:111.49M (Peak 111.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_RAMP_INTERIOR_PRESERVED
+Fra:1 Mem:111.51M (Peak 111.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_UPPER_DOOR_PRESERVED
+Fra:1 Mem:111.51M (Peak 111.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SYSTEM_REVIEW_KEY
+Fra:1 Mem:111.52M (Peak 111.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_UPPER_APERTURE_JAMB_PORT
+Fra:1 Mem:114.50M (Peak 114.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CARGO_UPPER_APERTURE_JAMB_STARBOARD
+Fra:1 Mem:114.73M (Peak 114.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | RECEIVER_BLANK_CONTINUOUS_SKIN
+Fra:1 Mem:114.74M (Peak 114.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_AIRSTAIR_DOOR_PRESERVED
+Fra:1 Mem:114.74M (Peak 114.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_STANDARD_SOURCE
+Fra:1 Mem:115.33M (Peak 115.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TANK_RIGHT_ATTACHMENT_PYLON
+Fra:1 Mem:115.94M (Peak 115.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | EXTERNAL_TANK_RIGHT_SOURCE
+Fra:1 Mem:115.80M (Peak 115.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TANK_LEFT_ATTACHMENT_PYLON
+Fra:1 Mem:115.80M (Peak 115.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | EXTERNAL_TANK_LEFT_SOURCE
+Fra:1 Mem:115.10M (Peak 115.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN105_CLOSED_CABIN_LINER
+Fra:1 Mem:118.16M (Peak 118.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN105_BLANK_SKIN
+Fra:1 Mem:118.23M (Peak 118.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARATROOP_LEFT_SOURCE_21
+Fra:1 Mem:118.25M (Peak 118.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARATROOP_LEFT_SOURCE_20
+Fra:1 Mem:118.34M (Peak 118.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN30_CLOSED_CABIN_LINER
+Fra:1 Mem:118.37M (Peak 118.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PANEL_GUN30_BLANK_SKIN
+Fra:1 Mem:118.39M (Peak 118.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_5
+Fra:1 Mem:118.41M (Peak 118.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_4
+Fra:1 Mem:118.41M (Peak 118.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_3
+Fra:1 Mem:118.58M (Peak 118.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_2
+Fra:1 Mem:118.58M (Peak 118.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_ANALOG_DIAL_1
+Fra:1 Mem:118.59M (Peak 118.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_COCKPIT_PANEL
+Fra:1 Mem:118.59M (Peak 118.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_4_ORIGINAL
+Fra:1 Mem:119.21M (Peak 119.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_3_ORIGINAL
+Fra:1 Mem:119.26M (Peak 119.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_2_ORIGINAL
+Fra:1 Mem:119.30M (Peak 119.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_STAIR_TREAD_2
+Fra:1 Mem:119.32M (Peak 119.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_STAIR_TREAD_3
+Fra:1 Mem:119.31M (Peak 119.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEGACY_NACELLE_1_ORIGINAL
+Fra:1 Mem:119.32M (Peak 119.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CREW_STAIR_TREAD_4
+Fra:1 Mem:119.34M (Peak 119.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARATROOP_RIGHT_SOURCE_18
+Fra:1 Mem:119.36M (Peak 119.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_LEFT_1_PRESERVED_TIRE
+Fra:1 Mem:119.97M (Peak 119.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_STRUT_left_1
+Fra:1 Mem:120.01M (Peak 120.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_LEFT_2_PRESERVED_TIRE
+Fra:1 Mem:120.01M (Peak 120.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WELL_RIGHT_SOURCE_HATCH
+Fra:1 Mem:120.06M (Peak 120.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_STRUT_left_2
+Fra:1 Mem:120.20M (Peak 120.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_GEAR_COVER_LEFT_PRESERVED
+Fra:1 Mem:120.26M (Peak 120.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WELL_LEFT_SOURCE_HATCH
+Fra:1 Mem:120.29M (Peak 120.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_1_PRESERVED_TIRE
+Fra:1 Mem:120.28M (Peak 120.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_GEAR_COVER_PRESERVED
+Fra:1 Mem:120.32M (Peak 120.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WHEELS_PRESERVED_RIM
+Fra:1 Mem:120.44M (Peak 120.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_1_PRESERVED_RIM
+Fra:1 Mem:120.41M (Peak 120.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_WHEELS_PRESERVED_TIRE
+Fra:1 Mem:120.52M (Peak 120.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NOSE_GEAR_STRUT_PRESERVED
+Fra:1 Mem:120.52M (Peak 120.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_GEAR_COVER_RIGHT_PRESERVED
+Fra:1 Mem:120.53M (Peak 120.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_2_PRESERVED_TIRE
+Fra:1 Mem:120.53M (Peak 120.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MAIN_STRUT_right_2
+Fra:1 Mem:120.53M (Peak 120.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WHEEL_RIGHT_2_PRESERVED_RIM
+Fra:1 Mem:130.56M (Peak 150.61M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:128.49M (Peak 150.61M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Image_0
+Fra:1 Mem:128.49M (Peak 150.61M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Image_1
+Fra:1 Mem:251.39M (Peak 384.51M) | Time:00:00.18 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:251.39M (Peak 384.51M) | Time:00:00.18 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:251.39M (Peak 384.51M) | Time:00:00.18 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:251.39M (Peak 384.51M) | Time:00:00.18 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:251.48M (Peak 384.51M) | Time:00:00.18 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:251.48M (Peak 384.51M) | Time:00:00.18 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:251.48M (Peak 384.51M) | Time:00:00.18 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:251.48M (Peak 384.51M) | Time:00:00.18 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:251.48M (Peak 384.51M) | Time:00:00.18 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:251.48M (Peak 384.51M) | Time:00:00.18 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:251.51M (Peak 384.51M) | Time:00:00.18 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:251.51M (Peak 384.51M) | Time:00:00.18 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:251.51M (Peak 384.51M) | Time:00:00.18 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:265.00M (Peak 384.51M) | Time:00:00.31 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:265.00M (Peak 384.51M) | Time:00:00.31 | Mem:128.04M, Peak:128.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:287.06M (Peak 384.51M) | Time:00:00.31 | Mem:128.05M, Peak:128.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:287.04M (Peak 384.51M) | Time:00:00.31 | Mem:150.08M, Peak:150.08M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:287.04M (Peak 384.51M) | Time:00:00.31 | Mem:150.08M, Peak:150.08M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:287.04M (Peak 384.51M) | Time:00:00.31 | Mem:157.99M, Peak:157.99M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:287.04M (Peak 384.51M) | Time:00:00.33 | Mem:167.41M, Peak:175.32M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:287.04M (Peak 384.51M) | Time:00:00.33 | Mem:167.41M, Peak:175.32M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:297.10M (Peak 384.51M) | Time:00:00.33 | Mem:167.41M, Peak:175.32M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:297.10M (Peak 384.51M) | Time:00:00.33 | Mem:177.48M, Peak:177.48M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:297.10M (Peak 384.51M) | Time:00:00.33 | Mem:177.48M, Peak:177.48M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:297.11M (Peak 384.51M) | Time:00:00.33 | Mem:177.48M, Peak:177.48M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:297.11M (Peak 384.51M) | Time:00:00.33 | Mem:177.48M, Peak:177.48M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:297.11M (Peak 384.51M) | Time:00:00.33 | Mem:177.48M, Peak:177.48M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:297.11M (Peak 384.51M) | Time:00:00.33 | Mem:177.56M, Peak:177.56M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:297.11M (Peak 384.51M) | Time:00:00.33 | Mem:177.56M, Peak:177.56M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:298.20M (Peak 384.51M) | Time:00:00.36 | Mem:178.65M, Peak:178.65M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:298.20M (Peak 384.51M) | Time:00:00.36 | Mem:178.65M, Peak:178.65M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:298.20M (Peak 384.51M) | Time:00:00.36 | Mem:178.57M, Peak:178.65M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:298.20M (Peak 384.51M) | Time:00:00.36 | Mem:178.66M, Peak:178.66M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:298.20M (Peak 384.51M) | Time:00:00.36 | Mem:178.66M, Peak:178.66M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:298.21M (Peak 384.51M) | Time:00:00.36 | Mem:178.66M, Peak:178.66M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:298.21M (Peak 384.51M) | Time:00:00.36 | Mem:178.66M, Peak:178.66M | Scene, ViewLayer | Sample 0/12
+Fra:1 Mem:359.76M (Peak 384.51M) | Time:00:00.66 | Remaining:00:03.21 | Mem:240.06M, Peak:240.06M | Scene, ViewLayer | Sample 1/12
+Fra:1 Mem:385.61M (Peak 424.38M) | Time:00:06.78 | Mem:240.06M, Peak:240.06M | Scene, ViewLayer | Sample 12/12
+Fra:1 Mem:385.61M (Peak 424.38M) | Time:00:06.78 | Mem:240.06M, Peak:240.06M | Scene, ViewLayer | Finished
+Saved: '/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/previews/ramp-corner-candidate-belly.png'
+Time: 00:06.87 (Saving: 00:00.08)
+
+
+Blender quit

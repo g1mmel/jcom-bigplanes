@@ -1,0 +1,1001 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "method": "Measured source fuselage aperture side profile; local lateral-skirt deformation; unchanged central floor, rig and clips. Three/four-millimetre reveal is artist-authored.",
+  "reference": "https://www.dvidshub.net/image/383774/red-flag-11-3",
+  "sampled_stations": 68,
+  "before_edge_distance_m": {
+    "min": 0.09667827028287004,
+    "median": 0.12667315846649885,
+    "max": 0.17165885105311943
+  },
+  "after_edge_distance_m": {
+    "min": 0.004280935243857521,
+    "median": 0.008934066991943657,
+    "max": 0.02970230176353275
+  },
+  "upper_before_edge_distance_m": {
+    "min": 0.005985786215599597,
+    "median": 0.023405374984425804,
+    "max": 0.04070472384822388
+  },
+  "upper_after_effective_frame_to_leaf_gap_m": 0.003,
+  "upper_moving_leaf_changed": false,
+  "fixed_aperture_jamb_nodes": [
+    "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+    "CARGO_UPPER_APERTURE_JAMB_PORT"
+  ],
+  "inner_liner_receiving_pockets": [
+    {
+      "lo": [
+        -1.79,
+        1.82,
+        5.16
+      ],
+      "hi": [
+        -1.64,
+        2.39,
+        6.34
+      ],
+      "removed_triangle_fragments": 694
+    },
+    {
+      "lo": [
+        -1.79,
+        0.93,
+        2.72
+      ],
+      "hi": [
+        -1.59,
+        1.37,
+        3.62
+      ],
+      "removed_triangle_fragments": 459
+    },
+    {
+      "lo": [
+        1.64,
+        1.82,
+        5.16
+      ],
+      "hi": [
+        1.79,
+        2.39,
+        6.34
+      ],
+      "removed_triangle_fragments": 174
+    },
+    {
+      "lo": [
+        1.59,
+        0.93,
+        2.72
+      ],
+      "hi": [
+        1.79,
+        1.37,
+        3.62
+      ],
+      "removed_triangle_fragments": 113
+    }
+  ],
+  "float32_collapsed_cabin_faces_removed": 52,
+  "changes": [
+    {
+      "node": "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+      "vertices": 66,
+      "changed_vertices": 66,
+      "max_vertex_displacement_m": 0.1517341133292552,
+      "central_geometry_abs_x_le_1.46_max_displacement_m": 0.0
+    },
+    {
+      "node": "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+      "vertices": 67,
+      "changed_vertices": 67,
+      "max_vertex_displacement_m": 0.15173413623707038,
+      "central_geometry_abs_x_le_1.46_max_displacement_m": 0.0
+    },
+    {
+      "node": "CARGO_LOWER_RAMP_PRESERVED",
+      "vertices": 19305,
+      "changed_vertices": 9990,
+      "max_vertex_displacement_m": 0.1633875067174372,
+      "central_geometry_abs_x_le_1.46_max_displacement_m": 0.07031702830058985
+    }
+  ],
+  "notes": [
+    "Native final-render and sampled-motion review are required on the integrated export.",
+    "Edge-distance measurement is the XY distance between lateral source aperture edge and ramp outermost contour at each sampled Z station; not a manufacturing tolerance.",
+    "Only local source geometry fit is established; photographic aircraft identity and continuous collision clearance remain unaccepted."
+  ],
+  "aft_corner_fit": {
+    "author": "claude-design",
+    "method": "Local outer lower-lip profile fitted to actual upper-leaf leading skin and inherited aperture; short fixed jamb tips finish the triangular corner. Central deck, node hierarchy/TRS and all clips remain untouched.",
+    "before": {
+      "method": "201 aperture-boundary stations per side over Z6.2454..6.40; exact nearest point to triangles of lower ramp, upper leaf and fixed jambs. Aft lip sampled independently in transverse sections. Asset fit, not real aircraft tolerances.",
+      "sides": {
+        "port": {
+          "samples": 201,
+          "maximum": {
+            "station_z_m": 6.335841,
+            "distance_m": 0.050616085391224065,
+            "aperture_point_m": [
+              -1.5947243762700658,
+              2.12745351603542,
+              6.335841
+            ],
+            "nearest_closure": "CARGO_LOWER_RAMP_PRESERVED",
+            "nearest_point_m": [
+              -1.64143705368042,
+              2.1206977067400783,
+              6.3175578681497715
+            ]
+          },
+          "median_distance_m": 0.004746754347269104,
+          "over_20mm_samples": 45
+        },
+        "starboard": {
+          "samples": 201,
+          "maximum": {
+            "station_z_m": 6.336614,
+            "distance_m": 0.04863872853410201,
+            "aperture_point_m": [
+              1.5970326372007417,
+              2.126301153171478,
+              6.336614
+            ],
+            "nearest_closure": "CARGO_LOWER_RAMP_PRESERVED",
+            "nearest_point_m": [
+              1.6414307355880737,
+              2.1206977067400783,
+              6.3175578681497715
+            ]
+          },
+          "median_distance_m": 0.005055064339940933,
+          "over_20mm_samples": 42
+        }
+      },
+      "aft_lip_samples": [
+        {
+          "side": "port",
+          "abs_x_m": 0.0,
+          "distance_m": 0.004514151736630794,
+          "lower_lip_m": [
+            0.0,
+            1.7993174189432375,
+            6.421099603878875
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -2.764279220881171e-05,
+            1.80133912531292,
+            6.425135629787135
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 0.5,
+          "distance_m": 0.004498402255970686,
+          "lower_lip_m": [
+            -0.5,
+            1.8154792146925833,
+            6.416444757092511
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -0.499974382284801,
+            1.8174397284660693,
+            6.420493380603429
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.0,
+          "distance_m": 0.005385316815534388,
+          "lower_lip_m": [
+            -1.0,
+            1.8777795632482956,
+            6.3964569509905616
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.000464388323804,
+            1.8760066915189844,
+            6.401520833544472
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.2,
+          "distance_m": 0.016491265049257173,
+          "lower_lip_m": [
+            -1.2,
+            1.9226347525363003,
+            6.369971957802944
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.199822613482109,
+            1.9280819954704993,
+            6.3855365940455275
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.3,
+          "distance_m": 0.023785828140875796,
+          "lower_lip_m": [
+            -1.3,
+            1.9469095370790788,
+            6.354889835287787
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.2998353363214088,
+            1.95445352238583,
+            6.377447024649757
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.4,
+          "distance_m": 0.03215326940703987,
+          "lower_lip_m": [
+            -1.4,
+            1.9711843216218574,
+            6.339807712772631
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.3969721957449313,
+            1.9871509634215812,
+            6.367551747890003
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.45,
+          "distance_m": 0.03771209030382083,
+          "lower_lip_m": [
+            -1.45,
+            1.9833217138932466,
+            6.332266651515052
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.4445274158464627,
+            2.0060147534076784,
+            6.361885539667082
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.49,
+          "distance_m": 0.04256427444082324,
+          "lower_lip_m": [
+            -1.49,
+            1.9930316277103581,
+            6.326233802508989
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.482571591927688,
+            2.021105785396556,
+            6.357352573088744
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.52,
+          "distance_m": 0.04871128395414454,
+          "lower_lip_m": [
+            -1.52,
+            2.0003140630731915,
+            6.321709165754442
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.4973094463348389,
+            2.0269518689555976,
+            6.355596556574643
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.55,
+          "distance_m": 0.06762809152365774,
+          "lower_lip_m": [
+            -1.55,
+            2.00779994931839,
+            6.316473202578783
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_PORT",
+          "nearest_point_m": [
+            -1.5101628817746564,
+            2.0408449044243953,
+            6.360000133514404
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.6,
+          "distance_m": 0.08752790610123631,
+          "lower_lip_m": [
+            -1.6,
+            2.0488342175089356,
+            6.300338791539354
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_PORT",
+          "nearest_point_m": [
+            -1.5507071252854403,
+            2.0897227381788945,
+            6.360000133514404
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.64,
+          "distance_m": 0.13437970061339208,
+          "lower_lip_m": [
+            -1.64,
+            2.188279760317181,
+            6.295832008402753
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_PORT",
+          "nearest_point_m": [
+            -1.5521212816238403,
+            2.1094274520874023,
+            6.360000133514404
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 0.0,
+          "distance_m": 0.004514151736630794,
+          "lower_lip_m": [
+            0.0,
+            1.7993174189432375,
+            6.421099603878875
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -2.764279220881171e-05,
+            1.80133912531292,
+            6.425135629787135
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 0.5,
+          "distance_m": 0.004499748535447274,
+          "lower_lip_m": [
+            0.5,
+            1.8154797730868457,
+            6.416444596266339
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            0.4999741807878023,
+            1.817447878200059,
+            6.420491030809722
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.0,
+          "distance_m": 0.0053828940859458095,
+          "lower_lip_m": [
+            1.0,
+            1.877779639383888,
+            6.396456898587863
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.0004638225596485,
+            1.8760105451000268,
+            6.401519577995892
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.2,
+          "distance_m": 0.016491447496910838,
+          "lower_lip_m": [
+            1.2,
+            1.9226366125876146,
+            6.36997144554609
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.1998210550421324,
+            1.9280892409431756,
+            6.385534371468344
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.3,
+          "distance_m": 0.0237855880286199,
+          "lower_lip_m": [
+            1.3,
+            1.946912097432901,
+            6.354889445031692
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.2998339378348722,
+            1.9544608192980293,
+            6.377444786293298
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.4,
+          "distance_m": 0.03215462178652563,
+          "lower_lip_m": [
+            1.4,
+            1.9711875822781875,
+            6.339807444517295
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.3969690679389468,
+            1.9871612607147142,
+            6.367548654842049
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.45,
+          "distance_m": 0.03771430203057141,
+          "lower_lip_m": [
+            1.45,
+            1.9833253247008307,
+            6.332266444260097
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.4445244003936215,
+            2.0060250952680763,
+            6.361882433232242
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.49,
+          "distance_m": 0.04256690089736596,
+          "lower_lip_m": [
+            1.49,
+            1.9930355186389452,
+            6.326233644054338
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.4825686663573612,
+            2.021116162910766,
+            6.357349455944395
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.52,
+          "distance_m": 0.04872268285909859,
+          "lower_lip_m": [
+            1.52,
+            2.000318164092531,
+            6.321709043900019
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.4972803592681885,
+            2.0269518689555976,
+            6.355596556574643
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.55,
+          "distance_m": 0.06721876745595495,
+          "lower_lip_m": [
+            1.55,
+            2.007804086633319,
+            6.316471934816088
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+          "nearest_point_m": [
+            1.5117136470480312,
+            2.041830749620084,
+            6.360000133514404
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.6,
+          "distance_m": 0.08556326012624733,
+          "lower_lip_m": [
+            1.6,
+            2.048846450046674,
+            6.300337233341183
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+          "nearest_point_m": [
+            1.5541577776281692,
+            2.089588326222958,
+            6.360000133514404
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.64,
+          "distance_m": 0.1320054781602832,
+          "lower_lip_m": [
+            1.64,
+            2.1882804555151942,
+            6.295837260918249
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+          "nearest_point_m": [
+            1.5557928085327148,
+            2.1094279289245605,
+            6.360000133514404
+          ]
+        }
+      ]
+    },
+    "after": {
+      "method": "201 aperture-boundary stations per side over Z6.2454..6.40; exact nearest point to triangles of lower ramp, upper leaf and fixed jambs. Aft lip sampled independently in transverse sections. Asset fit, not real aircraft tolerances.",
+      "sides": {
+        "port": {
+          "samples": 201,
+          "maximum": {
+            "station_z_m": 6.26859,
+            "distance_m": 0.01951126045018577,
+            "aperture_point_m": [
+              -1.713317987733522,
+              2.2277383324322084,
+              6.26859
+            ],
+            "nearest_closure": "CARGO_LOWER_RAMP_PRESERVED",
+            "nearest_point_m": [
+              -1.6983500218176568,
+              2.240182054395778,
+              6.269932782331525
+            ]
+          },
+          "median_distance_m": 0.0009934421110944637,
+          "over_20mm_samples": 0
+        },
+        "starboard": {
+          "samples": 201,
+          "maximum": {
+            "station_z_m": 6.2709090000000005,
+            "distance_m": 0.022364640256525316,
+            "aperture_point_m": [
+              1.7128996256312141,
+              2.2242803525911805,
+              6.2709090000000005
+            ],
+            "nearest_closure": "CARGO_LOWER_RAMP_PRESERVED",
+            "nearest_point_m": [
+              1.7031168618275867,
+              2.240945566051672,
+              6.259650877310916
+            ]
+          },
+          "median_distance_m": 0.00024036192806902557,
+          "over_20mm_samples": 12
+        }
+      },
+      "aft_lip_samples": [
+        {
+          "side": "port",
+          "abs_x_m": 0.0,
+          "distance_m": 0.004514151736630794,
+          "lower_lip_m": [
+            0.0,
+            1.7993174189432375,
+            6.421099603878875
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -2.764279220881171e-05,
+            1.80133912531292,
+            6.425135629787135
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 0.5,
+          "distance_m": 0.004498402255970686,
+          "lower_lip_m": [
+            -0.5,
+            1.8154792146925833,
+            6.416444757092511
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -0.499974382284801,
+            1.8174397284660693,
+            6.420493380603429
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.0,
+          "distance_m": 0.005385316815534388,
+          "lower_lip_m": [
+            -1.0,
+            1.8777795632482956,
+            6.3964569509905616
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.000464388323804,
+            1.8760066915189844,
+            6.401520833544472
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.2,
+          "distance_m": 0.004467826982077918,
+          "lower_lip_m": [
+            -1.2,
+            1.9261287621103262,
+            6.381522238919625
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.199810585753032,
+            1.928078823978192,
+            6.385537566913242
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.3,
+          "distance_m": 0.004467879960158648,
+          "lower_lip_m": [
+            -1.3,
+            1.9524969284312612,
+            6.373433642491255
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.2998105885470437,
+            1.9544469968500857,
+            6.37744902638346
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.4,
+          "distance_m": 0.004462564097020517,
+          "lower_lip_m": [
+            -1.4,
+            1.9863520655245328,
+            6.363190942930543
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.3997296613877366,
+            1.9882447708452182,
+            6.367223195641347
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.45,
+          "distance_m": 0.004462442580131541,
+          "lower_lip_m": [
+            -1.45,
+            2.0061856019107323,
+            6.357233586416599
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.4497296370592934,
+            2.008078325150392,
+            6.361265694599586
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.49,
+          "distance_m": 0.004462466209917007,
+          "lower_lip_m": [
+            -1.49,
+            2.0220523734817424,
+            6.352467594475281
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -1.489729608969686,
+            2.023945165172506,
+            6.356499694794067
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.52,
+          "distance_m": 0.003806118051799035,
+          "lower_lip_m": [
+            -1.52,
+            2.047542680220415,
+            6.343925526038554
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_PORT",
+          "nearest_point_m": [
+            -1.5211111901885794,
+            2.0476620811741357,
+            6.347563868298606
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.55,
+          "distance_m": 0.0038064121038743326,
+          "lower_lip_m": [
+            -1.55,
+            2.0774108346200735,
+            6.333783190012085
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_PORT",
+          "nearest_point_m": [
+            -1.551111210945535,
+            2.077530312307101,
+            6.337421831025066
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.6,
+          "distance_m": 0.003806596444255041,
+          "lower_lip_m": [
+            -1.6,
+            2.1271910130048783,
+            6.31687933693404
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_PORT",
+          "nearest_point_m": [
+            -1.601111227575076,
+            2.12731054105675,
+            6.320518164054229
+          ]
+        },
+        {
+          "side": "port",
+          "abs_x_m": 1.64,
+          "distance_m": 0.003806322447046224,
+          "lower_lip_m": [
+            -1.64,
+            2.167015350686554,
+            6.3033563165613895
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_PORT",
+          "nearest_point_m": [
+            -1.6411112454778884,
+            2.1671347590320624,
+            6.306994855513467
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 0.0,
+          "distance_m": 0.004514151736630794,
+          "lower_lip_m": [
+            0.0,
+            1.7993174189432375,
+            6.421099603878875
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            -2.764279220881171e-05,
+            1.80133912531292,
+            6.425135629787135
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 0.5,
+          "distance_m": 0.004499748535447274,
+          "lower_lip_m": [
+            0.5,
+            1.8154797730868457,
+            6.416444596266339
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            0.4999741807878023,
+            1.817447878200059,
+            6.420491030809722
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.0,
+          "distance_m": 0.0053828940859458095,
+          "lower_lip_m": [
+            1.0,
+            1.877779639383888,
+            6.396456898587863
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.0004638225596485,
+            1.8760105451000268,
+            6.401519577995892
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.2,
+          "distance_m": 0.004467870723739205,
+          "lower_lip_m": [
+            1.2,
+            1.926136391504905,
+            6.381519854733834
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.1998105817453093,
+            1.9280864793252712,
+            6.385535218605477
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.3,
+          "distance_m": 0.004467899174986536,
+          "lower_lip_m": [
+            1.3,
+            1.9525046174342096,
+            6.373431258304423
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.2998105966629077,
+            1.9544546646554655,
+            6.377446674254062
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.4,
+          "distance_m": 0.004462488393518012,
+          "lower_lip_m": [
+            1.4,
+            1.9863635096163297,
+            6.363187605070322
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.399729616585782,
+            1.9882562910775035,
+            6.36721973525322
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.45,
+          "distance_m": 0.004462582303727698,
+          "lower_lip_m": [
+            1.45,
+            2.006197046002529,
+            6.35723001013814
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.449729616505281,
+            2.0080898550011397,
+            6.361262231322314
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.49,
+          "distance_m": 0.004462555371021972,
+          "lower_lip_m": [
+            1.49,
+            2.0220639367828004,
+            6.352464018196595
+          ],
+          "nearest_closure": "CARGO_UPPER_DOOR_PRESERVED",
+          "nearest_point_m": [
+            1.4897296287785482,
+            2.023956711034047,
+            6.356496226707556
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.52,
+          "distance_m": 0.003793051186548694,
+          "lower_lip_m": [
+            1.52,
+            2.0470362787088683,
+            6.344097425986857
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+          "nearest_point_m": [
+            1.521074917017204,
+            2.047164895715045,
+            6.347732704294721
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.55,
+          "distance_m": 0.0037933846208083074,
+          "lower_lip_m": [
+            1.55,
+            2.0761974021380967,
+            6.33419517769986
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+          "nearest_point_m": [
+            1.5510748793264493,
+            2.076326156620029,
+            6.33783081018931
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.6,
+          "distance_m": 0.0037934007144745717,
+          "lower_lip_m": [
+            1.6,
+            2.124799317590319,
+            6.317691628842081
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+          "nearest_point_m": [
+            1.6010749274425793,
+            2.1249280240208193,
+            6.3213272655990345
+          ]
+        },
+        {
+          "side": "starboard",
+          "abs_x_m": 1.64,
+          "distance_m": 0.003793268468733426,
+          "lower_lip_m": [
+            1.64,
+            2.1636809578636584,
+            6.304488562699536
+          ],
+          "nearest_closure": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+          "nearest_point_m": [
+            1.6410749357632213,
+            2.1638096259093405,
+            6.3081240603704
+          ]
+        }
+      ]
+    },
+    "changes": [
+      {
+        "node": "CARGO_LOWER_RAMP_PRESERVED",
+        "moved_vertices": 8403,
+        "maximum_displacement_m": 0.08326288779130543,
+        "central_abs_x_le_1_04_max_displacement_m": 0.0
+      },
+      {
+        "node": "CARGO_UPPER_APERTURE_JAMB_PORT",
+        "forward_extension_m": 0.06,
+        "original_aft_frame_profile_preserved": true
+      },
+      {
+        "node": "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+        "forward_extension_m": 0.06,
+        "original_aft_frame_profile_preserved": true
+      }
+    ],
+    "geometry_changed_nodes": [
+      "CARGO_LOWER_RAMP_PRESERVED",
+      "CARGO_UPPER_APERTURE_JAMB_PORT",
+      "CARGO_UPPER_APERTURE_JAMB_STARBOARD"
+    ],
+    "limitations": "Artist-authored local reveals; rest/native appearance and current-export sampled contact review required."
+  }
+}

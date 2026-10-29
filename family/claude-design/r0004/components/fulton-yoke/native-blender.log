@@ -1,0 +1,21 @@
+Extensions: writing cache failed ([Errno 30] Read-only file system: '/root/.config').
+23:44:10 | INFO: Data are loaded, start creating Blender stuff
+23:44:10 | INFO: Blender create Mesh node FULTON_LEFT_ARM
+23:44:10 | INFO: Blender create Mesh node FULTON_LEFT_GUIDE_TIP
+23:44:10 | INFO: Blender create Mesh node FULTON_LEFT_HINGE
+23:44:10 | INFO: Blender create Mesh node FULTON_LEFT_MOUNT_BRACE
+23:44:10 | INFO: Blender create Mesh node FULTON_LEFT_SECONDARY_BRACE
+23:44:10 | INFO: Blender create Mesh node FULTON_RIGHT_ARM
+23:44:10 | INFO: Blender create Mesh node FULTON_RIGHT_GUIDE_TIP
+23:44:10 | INFO: Blender create Mesh node FULTON_RIGHT_HINGE
+23:44:10 | INFO: Blender create Mesh node FULTON_RIGHT_MOUNT_BRACE
+23:44:10 | INFO: Blender create Mesh node FULTON_RIGHT_SECONDARY_BRACE
+23:44:10 | INFO: Blender create Mesh node FULTON_SKY_ANCHOR_HOUSING
+23:44:10 | INFO: glTF import finished in 0.01s
+Info: Saved as "editable.blend"
+COMPONENT_NATIVE {"component": "fulton-yoke", "status": "PASS", "save_reopen": "PASS"}
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:33:47)
+Read blend: "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/components/fulton-yoke/editable.blend"
+
+Blender quit
+

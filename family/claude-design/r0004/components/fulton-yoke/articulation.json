@@ -1,0 +1,55 @@
+{
+  "version": "jcnc.c130-articulation/2.0",
+  "revision": "r0004",
+  "author": "claude-design",
+  "component": true,
+  "model": "fulton-yoke",
+  "label": "Fulton Yoke",
+  "file": "model.glb",
+  "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+  "controls": [
+    {
+      "id": "skyhook_deploy",
+      "label": "Fulton recovery yoke",
+      "kind": "rotation",
+      "node": "PIVOT_fulton_component",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 145,
+      "rest": 0,
+      "duration": 5.5,
+      "group": "Historical equipment",
+      "clip": "skyhook_deploy",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "REFERENCE_GUIDED_ARTIST_AUTHORED",
+        "sources": [
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-LPS20515/pdf/GOVPUB-D301-PURL-LPS20515.pdf",
+          "https://www.hurlburt.af.mil/About-Us/Fact-Sheets/Fact-Sheets/Article/495225/mc-130e-combat-talon-i/"
+        ],
+        "limitations": "Historical retractable horizontal V and fold-back principle sourced; hinge travel and clearance are artist approximations, no person-recovery choreography."
+      },
+      "states": {
+        "rest": "Arms folded back",
+        "deployed": "Horizontal V deployed"
+      }
+    }
+  ],
+  "sequences": [],
+  "states": {},
+  "presets": [],
+  "effects": [],
+  "cameras": [],
+  "sim_inputs": [],
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "acceptance": {
+    "photographic": "NOT_ACCEPTED",
+    "native_unreal": "NOT_RUN"
+  }
+}

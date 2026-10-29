@@ -1,0 +1,91 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "status": "PASS_WITH_DECLARED_LIMITATIONS",
+  "model_sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+  "native_report_sha256": "89a9bed7efab014c8a9068ac4f72808496d3d166958cdc770c560c82cccf57b5",
+  "method": "Direct inspection of all13 final native shaded renders from the exact master and actual exported controller poses. No generated stand-in imagery or browser rendering.",
+  "reviewed_renders": [
+    {
+      "path": "previews/loadout-transport-h.png",
+      "sha256": "4bac73847cabf70f6dcb2d1eace175ee7d1583bacc0baa41ac32edc42710d14f",
+      "pose": "LOADOUT_TRANSPORT_H"
+    },
+    {
+      "path": "previews/loadout-transport-j.png",
+      "sha256": "ce113c37516b4314c675222152d351b419090703f0a93888cfe7d6f297560816",
+      "pose": "LOADOUT_TRANSPORT_J"
+    },
+    {
+      "path": "previews/loadout-gunship-j.png",
+      "sha256": "713254c50f1d02216ff3c3142e35413c6188aebad32e20b75689ab470724ba98",
+      "pose": "LOADOUT_GUNSHIP_J"
+    },
+    {
+      "path": "previews/loadout-tanker-j.png",
+      "sha256": "4534811dac303344a58c20b9add2f602cd35660d16b7533fd459fc03ac120131",
+      "pose": "LOADOUT_TANKER_J"
+    },
+    {
+      "path": "previews/loadout-tanker-deployed.png",
+      "sha256": "a0cbdfcd039e2755ff630456ccc360358fa907eaf4b9156248baed529a8c0a9b",
+      "pose": "LOADOUT_TANKER_J_DEPLOYED"
+    },
+    {
+      "path": "previews/loadout-fulton-deployed.png",
+      "sha256": "e31a564781f8be8251c7ed92107e5f61f5104465105f7a6a7ac60356454627f0",
+      "pose": "LOADOUT_RECOVERY_E_DEPLOYED"
+    },
+    {
+      "path": "previews/loadout-jato-active.png",
+      "sha256": "a3a4789d2726dc93bf5746745de15d620567448d7129f7d9206a7ee45d54dbc5",
+      "pose": "LOADOUT_LEGACY_JATO_JATO_25"
+    },
+    {
+      "path": "previews/loadout-cargo-open.png",
+      "sha256": "81b8b85326a73ac705c5af480e866dab3e103f3875a6bdb70547102c58a3b1f3",
+      "pose": "SERVICE"
+    },
+    {
+      "path": "previews/loadout-gun30-panel.png",
+      "sha256": "b230082ed4a61d17cd9dc1744fdb7318d0edc294774fcd2e750e07e885aa0d11",
+      "pose": "LOADOUT_GUNSHIP_J"
+    },
+    {
+      "path": "previews/loadout-gun105-panel.png",
+      "sha256": "1a026327cf0e181bf70816fbac510d5d2b89c7dd48027300feaf1568d57a22a2",
+      "pose": "LOADOUT_GUNSHIP_J"
+    },
+    {
+      "path": "previews/loadout-ramp-closed-belly.png",
+      "sha256": "a6f56992ddf4bf44361124cb7b18995e61db28e0677fa5feb78a20f2fd365856",
+      "pose": "PARKED"
+    },
+    {
+      "path": "previews/loadout-ramp-closed-side.png",
+      "sha256": "74ab4eaf63b2219963ea8032b96b2be5c1667ce5ea1ecdcb735127fc4cffa73b",
+      "pose": "PARKED"
+    },
+    {
+      "path": "previews/loadout-fulton-folded.png",
+      "sha256": "c286c32ecc6a2d7831829238726479355a076a1b71bcc51c276503bf3494208b",
+      "pose": "LOADOUT_RECOVERY_E"
+    }
+  ],
+  "blocking_findings": [],
+  "resolved_findings": [
+    "Inherited broad lower-ramp gap and aft triangular opening repaired; closed side/belly show continuous closing perimeter with visible seams.",
+    "Local inner rim bevel retains closed exterior fit and clears sampled ramp motion.",
+    "Transport versus gunship shows restored skin or the selected emplacement panels; inactive equipment is absent from the rendered configuration.",
+    "Tanker pod, flexible hose and open basket are visible in the deployed pose.",
+    "Fulton housing/braces contact the source nose; arms fold along the sides and deploy forward, with supported taut fending lines.",
+    "All eight JATO bottles remain outside source skin; visual exhaust is separate from physical aircraft behavior."
+  ],
+  "declared_limits": [
+    "This is functional visual-asset review, not exact-aircraft or photorealistic acceptance.",
+    "Small local ramp-corner faceting and inherited surface/normal detail remain draft finishing work; not every seam is below5mm.",
+    "Exact receiver-cover mechanics, basket dimensions, Fulton endpoint details and JATO installation fidelity remain approximate.",
+    "846 sampled upper-door/skin contacts inside50mm hinge region remain declared, not certified intentional.",
+    "Continuous combined clearance, browser/WebGL and native Unreal remain unvalidated."
+  ]
+}

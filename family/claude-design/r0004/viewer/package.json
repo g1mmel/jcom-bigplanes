@@ -1,0 +1,12 @@
+{
+  "name": "claude-design-c130-loadout-viewer",
+  "private": true,
+  "type": "module",
+  "version": "0.4.0",
+  "scripts": {
+    "test": "node --loader ./node-module-loader.mjs test-loadouts.mjs",
+    "test:controller": "node test-controller.mjs",
+    "portable": "python build-portable.py",
+    "verify:portable": "node --experimental-vm-modules verify-portable.mjs"
+  }
+}

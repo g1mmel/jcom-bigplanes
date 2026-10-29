@@ -1,0 +1,4 @@
+# Reproducible authoring environment; Python 3.12.
+numpy==2.3.5
+scipy==1.17.0
+Pillow==12.3.0

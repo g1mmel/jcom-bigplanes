@@ -1,0 +1,29 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "portable_sha256": "d1d85ad86dfbaf648e797b34cd971793fa2f8ac1b7790cc01a6198deb53c4e74",
+  "bytes": 2179348,
+  "embedded_modules": [
+    "three",
+    "c130-controller",
+    "c130-pose-driver",
+    "gltf-loader",
+    "orbit-controls",
+    "c130-buffer-utils"
+  ],
+  "models": [
+    {
+      "id": "eoir-visual",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f"
+    }
+  ],
+  "checks": [
+    "All modules parse",
+    "All module imports resolve within embedded importmap",
+    "Browser-standard gzip DecompressionStream restores exact model bytes",
+    "Embedded model hashes equal delivered GLBs and sidecars",
+    "Declared assets and revision notes embedded"
+  ],
+  "scope": "Dependency/byte integrity; browser WebGL rendering NOT_RUN"
+}

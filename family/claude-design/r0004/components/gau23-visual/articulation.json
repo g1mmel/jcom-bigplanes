@@ -1,0 +1,287 @@
+{
+  "version": "jcnc.c130-articulation/2.0",
+  "revision": "r0003",
+  "author": "claude-design",
+  "model": "gau23-visual",
+  "label": "GAU-23 family aircraft cannon \u2014 visual component",
+  "file": "model.glb",
+  "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "canonical_rest": "Independent system datum; optics forward -Z; gun visual axis -X",
+  "controls": [
+    {
+      "id": "gun30_yaw",
+      "label": "30 mm mount sweep",
+      "kind": "rotation",
+      "node": "PIVOT_gun30_yaw",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 7,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission equipment",
+      "clip": "gun30_yaw",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "OBSERVED_APPEARANCE_AUTHORED_ANIMATION",
+        "sources": [
+          "https://www.dvidshub.net/image/6427944/ac-130j-crew-maintain-proficiency-combat-readiness"
+        ],
+        "limitations": "Visible principle evidenced; dimensions, paths and timing are authored game presentation."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gun30_pitch",
+      "label": "30 mm mount elevation",
+      "kind": "rotation",
+      "node": "PIVOT_gun30_pitch",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 12,
+      "rest": 0,
+      "duration": 3,
+      "group": "Mission equipment",
+      "clip": "gun30_pitch",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "OBSERVED_APPEARANCE_AUTHORED_ANIMATION",
+        "sources": [
+          "https://www.dvidshub.net/image/6427944/ac-130j-crew-maintain-proficiency-combat-readiness"
+        ],
+        "limitations": "Visible principle evidenced; dimensions, paths and timing are authored game presentation."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "gun30_recoil",
+      "label": "30 mm recoil inspection",
+      "kind": "translation",
+      "node": "PIVOT_gun30_recoil",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 0.035,
+      "rest": 0,
+      "duration": 1.4,
+      "group": "Mission equipment",
+      "clip": "gun30_recoil",
+      "units": "metres",
+      "normalized_input": true,
+      "evidence": {
+        "status": "OBSERVED_APPEARANCE_AUTHORED_ANIMATION",
+        "sources": [
+          "https://www.dvidshub.net/image/3486265/live-fire-training-with-ac-130w"
+        ],
+        "limitations": "Visible principle evidenced; dimensions, paths and timing are authored game presentation."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      },
+      "owned_by": "gun30_fire_cycle"
+    },
+    {
+      "id": "gun30_fire_cycle",
+      "label": "30 mm firing cycle",
+      "kind": "cycle",
+      "node": "PIVOT_gun30_recoil",
+      "clip": "gun30_fire_cycle",
+      "min": 0,
+      "max": 1,
+      "rest": 0,
+      "duration": 0.9,
+      "group": "Visual firing",
+      "units": "normalized presentation phase",
+      "preview_cycles": 6,
+      "owns": [
+        "gun30_recoil"
+      ],
+      "evidence": {
+        "status": "OBSERVED_APPEARANCE_AUTHORED_ANIMATION",
+        "sources": [
+          "https://www.dvidshub.net/image/3486265/live-fire-training-with-ac-130w",
+          "https://www.dvidshub.net/image/3146917/angry-annie-fires-first-rounds",
+          "https://www.dvidshub.net/image/2392818/new-range-adds-opportunities-air-commandos"
+        ],
+        "limitations": "Visible firing principles and interior case collection evidenced. This reversible demonstration uses authored timing, travel and case trajectory; no ballistic or operating model."
+      },
+      "states": {
+        "rest": "ready, no visible case or flash",
+        "deployed": "complete, ready; case consumed in interior receiving space"
+      },
+      "presentation_only": true
+    }
+  ],
+  "sequences": [
+    {
+      "id": "actuate_everything",
+      "source": "current control inventory",
+      "policy": "concurrent compatible mechanisms; owned_by masters arbitrate; pause/reverse/reset deterministic",
+      "cargo": "upper opens before ramp; ramp closes before upper",
+      "gear": "covers clear before retraction; covers close after wheels clear"
+    }
+  ],
+  "states": {
+    "PARKED": {
+      "gun30_yaw": 0,
+      "gun30_pitch": 0,
+      "gun30_recoil": 0,
+      "gun30_fire_cycle": 0
+    },
+    "SERVICE": {
+      "gun30_yaw": 0,
+      "gun30_pitch": 0,
+      "gun30_recoil": 0,
+      "gun30_fire_cycle": 0
+    },
+    "FLYING": {
+      "gun30_yaw": 0,
+      "gun30_pitch": 0,
+      "gun30_recoil": 0,
+      "gun30_fire_cycle": 0
+    }
+  },
+  "presets": [
+    {
+      "id": "PARKED",
+      "label": "Parked",
+      "controls": {
+        "gun30_yaw": 0,
+        "gun30_pitch": 0,
+        "gun30_recoil": 0,
+        "gun30_fire_cycle": 0
+      }
+    },
+    {
+      "id": "SERVICE",
+      "label": "Service",
+      "controls": {
+        "gun30_yaw": 0,
+        "gun30_pitch": 0,
+        "gun30_recoil": 0,
+        "gun30_fire_cycle": 0
+      }
+    },
+    {
+      "id": "FLYING",
+      "label": "Flying",
+      "controls": {
+        "gun30_yaw": 0,
+        "gun30_pitch": 0,
+        "gun30_recoil": 0,
+        "gun30_fire_cycle": 0
+      }
+    }
+  ],
+  "effects": [
+    {
+      "control_id": "gun30_fire_cycle",
+      "asset_id": "gau23-visual",
+      "muzzle_socket": "gun30_MUZZLE_VISUAL_SOCKET",
+      "ejection_socket": "gun30_CASE_EJECT_SOCKET",
+      "case_node": "gun30_SPENT_CASE",
+      "case_transform": "PIVOT_gun30_case",
+      "flash_node": "PIVOT_gun30_flash",
+      "smoke_node": "PIVOT_gun30_smoke",
+      "collection": "internal_bag",
+      "presentation_only": true,
+      "outside_case_ejection": false,
+      "case_visibility_interval": [
+        0.24,
+        0.82
+      ],
+      "no_targeting_or_ballistics": true,
+      "spent_lifecycle": "case appears at internal exit; falls inside; consumed at end; preview reset restores hidden state"
+    }
+  ],
+  "firing_profiles": [
+    {
+      "control_id": "gun30_fire_cycle",
+      "asset_id": "gau23-visual",
+      "muzzle_socket": "gun30_MUZZLE_VISUAL_SOCKET",
+      "ejection_socket": "gun30_CASE_EJECT_SOCKET",
+      "case_node": "gun30_SPENT_CASE",
+      "case_transform": "PIVOT_gun30_case",
+      "flash_node": "PIVOT_gun30_flash",
+      "smoke_node": "PIVOT_gun30_smoke",
+      "collection": "internal_bag",
+      "presentation_only": true,
+      "outside_case_ejection": false,
+      "case_visibility_interval": [
+        0.24,
+        0.82
+      ],
+      "no_targeting_or_ballistics": true,
+      "spent_lifecycle": "case appears at internal exit; falls inside; consumed at end; preview reset restores hidden state"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "hero",
+      "position": [
+        -3.1,
+        1.9,
+        3.1
+      ],
+      "target": [
+        0.1,
+        -0.1,
+        0
+      ]
+    },
+    {
+      "id": "internal",
+      "position": [
+        2.9,
+        1.4,
+        2.1
+      ],
+      "target": [
+        0.6,
+        -0.1,
+        0
+      ]
+    }
+  ],
+  "sim_inputs": [],
+  "openings": [],
+  "acceptance": {
+    "structural": "PENDING_CURRENT_EXPORT_QA",
+    "photographic": "NOT_ACCEPTED",
+    "native_blender": "PENDING",
+    "native_unreal": "NOT_RUN",
+    "continuous_clearance": "NOT_PROVEN",
+    "licensing": "REVIEW_REQUIRED"
+  },
+  "notes": [
+    {
+      "component": "gau23-visual",
+      "reference": "https://www.dvidshub.net/image/6427944/ac-130j-crew-maintain-proficiency-combat-readiness",
+      "changes": "separate aircraft installation; single barrel; internal receiver, spent-case collection, visible recoil and flash; original geometry",
+      "status": "PHOTO_GUIDED_REVIEW_NOT_PHOTOREAL_ACCEPTANCE"
+    }
+  ],
+  "component": true,
+  "parent_aircraft_dependency": false
+}

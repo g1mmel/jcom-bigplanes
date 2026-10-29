@@ -1,0 +1,37 @@
+{
+  "author": "claude-design",
+  "blender": "4.5.15 LTS",
+  "rendered_glb_sha256": "cb6c283aa09787c39577da4fb7bb8857e531d07c23855e21d2926a0721187983",
+  "delivered_repaired_glb_sha256": "94409fc20ed805b5574473fffad7b5b448ef9a0a279bb6678beffaebcaf875d6",
+  "render_equivalence": "All nondegenerate expanded triangle attributes and order independently proved byte-identical;58 float32-collapsed fragments removed. See ramp-exact-index-equivalence.json.",
+  "views": [
+    {
+      "file": "previews/ramp-final-closed-belly.png",
+      "sha256": "74a8e9418477bbbaaa8c3c2cbe2a74971a2cadf9a6d517e324fe22808c5373ce"
+    },
+    {
+      "file": "previews/ramp-final-closed-side.png",
+      "sha256": "5e0fc7a140388a660ed467a6d014806d3f54fd6d71db97987ed70418eba04b07"
+    },
+    {
+      "file": "previews/ramp-final-half-cargo.png",
+      "sha256": "7f50be742d9ebfc89e1d32d402abc147ecf9bd2fc1c1d42e513d66cc0bda846e"
+    },
+    {
+      "file": "previews/ramp-final-open-cargo.png",
+      "sha256": "c1015b6bb79caba438a5d9e6aa5dc628fbc2985ee50bb45b8df7e8dcd2b10208"
+    },
+    {
+      "file": "previews/ramp-final-reset-cargo.png",
+      "sha256": "9c0797b301b31c71516f8bcb32a9135b13fb9c27bb729a3f35d145c782ea368f"
+    }
+  ],
+  "evaluated_native_clip": "cargo_ramp",
+  "native_states": [
+    0,
+    0.5,
+    1,
+    0
+  ],
+  "scope": "Actual native imported NLA clip; closed side/belly, half, fully open and reset states. Images reviewed. Not a full aircraft photographic or Unreal acceptance."
+}

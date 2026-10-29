@@ -1,0 +1,78 @@
+{
+  "materials": [
+    {
+      "name": "MISSION_EQUIPMENT_GREY",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.48,
+          0.52,
+          0.53,
+          1
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.58
+      },
+      "doubleSided": false
+    },
+    {
+      "name": "MISSION_EXPOSED_METAL",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4,
+          0.43,
+          0.45,
+          1
+        ],
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.3
+      },
+      "doubleSided": false
+    },
+    {
+      "name": "REFUEL_HOSE_BLACK",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.017,
+          0.022,
+          0.025,
+          1
+        ],
+        "metallicFactor": 0.02,
+        "roughnessFactor": 0.87
+      },
+      "doubleSided": false
+    },
+    {
+      "name": "DROGUE_WOVEN_OFFWHITE",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.78,
+          0.77,
+          0.69,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.94
+      },
+      "doubleSided": true
+    },
+    {
+      "name": "MISSION_RECESS",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.008,
+          0.011,
+          0.013,
+          1
+        ],
+        "metallicFactor": 0.05,
+        "roughnessFactor": 0.98
+      },
+      "doubleSided": false
+    }
+  ],
+  "textures": [],
+  "images": [],
+  "embedded_resources": true,
+  "source": "model.glb"
+}

@@ -1,0 +1,56 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "component_id": "fulton-yoke",
+  "file": "inspector.html",
+  "bytes": 2037713,
+  "sha256": "b61f29ad90c0b16771a32c42c86ffc740c7ae33239e01a87c5603271c3c09703",
+  "model_file": "model.glb",
+  "model_sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+  "articulation_sha256": "63d8df21d1a82d7940cfa1073303913b31ff58bb5b15f71751a2e08b0ce62e33",
+  "source_module_hashes": {
+    "three": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+    "c130-controller": "f799b4ebbdaad6e44cd5406a2defbc823844e7944eba1a1650768b5efe214763",
+    "c130-pose-driver": "94a50aa546499ab22ebd3495b5ee110d535830b318a0e7d98201be3aaba07773",
+    "gltf-loader": "b099ec9c0474cc30df3ed5a40c038d546be32ded48564bb7979db245233f694e",
+    "orbit-controls": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+    "c130-buffer-utils": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+  },
+  "parent_aircraft_dependency": false,
+  "external_network_dependency": false,
+  "standalone_articulation": true,
+  "runtime": "Three.js 0.170.0; browser WebGL2 and gzip DecompressionStream",
+  "controls": [
+    "Actuate everything",
+    "Pause",
+    "Reverse",
+    "Reset",
+    "Individual exported controls",
+    "Surface / wireframe / X-ray",
+    "Fit current / fit motion"
+  ],
+  "basket_selector": "NOT_APPLICABLE",
+  "verification": {
+    "status": "PASS",
+    "component": "fulton-yoke",
+    "model_sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+    "controls": 1,
+    "clips": 1,
+    "control_transform_or_morph_deltas": {
+      "skyhook_deploy": 0.9537169517857895
+    },
+    "global_coverage": "PASS",
+    "pause": "PASS",
+    "reverse": "PASS",
+    "reset": "PASS",
+    "basket_selection": "NOT_APPLICABLE",
+    "reset_max_transform_error": 0,
+    "embedded_module_parse": "PASS",
+    "dependency_closure": "PASS",
+    "external_network_requests": 0,
+    "remote_fetch_blocked_during_test": true,
+    "scope": "Isolated component bytes and embedded runtime extracted from the generated HTML; CPU Three.js loading/animation only with texture decoding stubbed. Browser/WebGL, photographic fit, physical clearance and Unreal NOT_RUN."
+  },
+  "browser_rendering": "NOT_RUN",
+  "native_unreal": "NOT_RUN"
+}

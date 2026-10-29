@@ -1,0 +1,29 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "portable_sha256": "02beb83e903a95855b96cc49a3bc2e3d9ff239c060a74d440005c10a95be31a5",
+  "bytes": 2413201,
+  "embedded_modules": [
+    "three",
+    "c130-controller",
+    "c130-pose-driver",
+    "gltf-loader",
+    "orbit-controls",
+    "c130-buffer-utils"
+  ],
+  "models": [
+    {
+      "id": "m102-airborne-visual",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026"
+    }
+  ],
+  "checks": [
+    "All modules parse",
+    "All module imports resolve within embedded importmap",
+    "Browser-standard gzip DecompressionStream restores exact model bytes",
+    "Embedded model hashes equal delivered GLBs and sidecars",
+    "Declared assets and revision notes embedded"
+  ],
+  "scope": "Dependency/byte integrity; browser WebGL rendering NOT_RUN"
+}

@@ -1,0 +1,182 @@
+{
+  "master_sha256": "de910de58de643328055f27246f2d8d7b86047cea6f35e4e46406144b71644fc",
+  "geometry_changed": false,
+  "corner_edge_method": "At each longitudinal station, choose inherited fuselage aperture minimum-Y boundary for absolute X1.4..2.0; measure exact closest point to triangles of lower ramp, upper leaf and both fixed jambs. This is an asset-space opening diagnostic, not an aircraft seal tolerance.",
+  "sides": {
+    "port": {
+      "samples": 201,
+      "maximum": {
+        "station_z_m": 6.335841,
+        "distance_m": 0.050616085391224065,
+        "aperture_point_m": [
+          -1.5947243762700658,
+          2.12745351603542,
+          6.335841
+        ],
+        "nearest_closure": "CARGO_LOWER_RAMP_PRESERVED",
+        "nearest_point_m": [
+          -1.64143705368042,
+          2.1206977067400783,
+          6.3175578681497715
+        ]
+      },
+      "gap_over_20mm_z_range": [
+        6.315743,
+        6.349755
+      ]
+    },
+    "starboard": {
+      "samples": 201,
+      "maximum": {
+        "station_z_m": 6.336614,
+        "distance_m": 0.04863872853410201,
+        "aperture_point_m": [
+          1.5970326372007417,
+          2.126301153171478,
+          6.336614
+        ],
+        "nearest_closure": "CARGO_LOWER_RAMP_PRESERVED",
+        "nearest_point_m": [
+          1.6414307355880737,
+          2.1206977067400783,
+          6.3175578681497715
+        ]
+      },
+      "gap_over_20mm_z_range": [
+        6.318062,
+        6.349755
+      ]
+    }
+  },
+  "aft_lip_samples": [
+    {
+      "abs_x_m": 0.0,
+      "lower_lip_m": [
+        0.0,
+        1.7993174189432375,
+        6.421099603878875
+      ],
+      "nearest_upper_m": [
+        -2.764279220881171e-05,
+        1.80133912531292,
+        6.425135629787135
+      ],
+      "distance_m": 0.004514151736630794,
+      "vertical_difference_m": 0.0020217063696825743,
+      "longitudinal_difference_m": 0.0040360259082605765
+    },
+    {
+      "abs_x_m": 0.5,
+      "lower_lip_m": [
+        -0.5,
+        1.8154792146925833,
+        6.416444757092511
+      ],
+      "nearest_upper_m": [
+        -0.499974382284801,
+        1.8174397284660693,
+        6.420493380603429
+      ],
+      "distance_m": 0.004498402255970686,
+      "vertical_difference_m": 0.001960513773485939,
+      "longitudinal_difference_m": 0.004048623510918503
+    },
+    {
+      "abs_x_m": 1.0,
+      "lower_lip_m": [
+        -1.0,
+        1.8777795632482956,
+        6.3964569509905616
+      ],
+      "nearest_upper_m": [
+        -1.000464388323804,
+        1.8760066915189844,
+        6.401520833544472
+      ],
+      "distance_m": 0.005385316815534388,
+      "vertical_difference_m": -0.0017728717293112872,
+      "longitudinal_difference_m": 0.005063882553910659
+    },
+    {
+      "abs_x_m": 1.2,
+      "lower_lip_m": [
+        -1.2,
+        1.9226347525363003,
+        6.369971957802944
+      ],
+      "nearest_upper_m": [
+        -1.199822613482109,
+        1.9280819954704993,
+        6.3855365940455275
+      ],
+      "distance_m": 0.016491265049257173,
+      "vertical_difference_m": 0.005447242934198959,
+      "longitudinal_difference_m": 0.015564636242583418
+    },
+    {
+      "abs_x_m": 1.3,
+      "lower_lip_m": [
+        -1.3,
+        1.9469095370790788,
+        6.354889835287787
+      ],
+      "nearest_upper_m": [
+        -1.2998353363214088,
+        1.95445352238583,
+        6.377447024649757
+      ],
+      "distance_m": 0.023785828140875796,
+      "vertical_difference_m": 0.007543985306751155,
+      "longitudinal_difference_m": 0.0225571893619696
+    },
+    {
+      "abs_x_m": 1.4,
+      "lower_lip_m": [
+        -1.4,
+        1.9711843216218574,
+        6.339807712772631
+      ],
+      "nearest_upper_m": [
+        -1.3969721957449313,
+        1.9871509634215812,
+        6.367551747890003
+      ],
+      "distance_m": 0.03215326940703987,
+      "vertical_difference_m": 0.015966641799723735,
+      "longitudinal_difference_m": 0.027744035117372334
+    },
+    {
+      "abs_x_m": 1.45,
+      "lower_lip_m": [
+        -1.45,
+        1.9833217138932466,
+        6.332266651515052
+      ],
+      "nearest_upper_m": [
+        -1.4445274158464627,
+        2.0060147534076784,
+        6.361885539667082
+      ],
+      "distance_m": 0.03771209030382083,
+      "vertical_difference_m": 0.0226930395144318,
+      "longitudinal_difference_m": 0.0296188881520294
+    },
+    {
+      "abs_x_m": 1.49,
+      "lower_lip_m": [
+        -1.49,
+        1.9930316277103581,
+        6.326233802508989
+      ],
+      "nearest_upper_m": [
+        -1.482571591927688,
+        2.021105785396556,
+        6.357352573088744
+      ],
+      "distance_m": 0.04256427444082324,
+      "vertical_difference_m": 0.02807415768619803,
+      "longitudinal_difference_m": 0.031118770579754873
+    }
+  ],
+  "interpretation": "Real residual corner opening: fixed jamb starts at Z6.36 while reshaped lower outer skirt terminates earlier. The repair fade and width limit leave the outer closing lip short/low; central lip is close but the outer lip is not flush. No new clips or pivots are required for a local mesh fit, but rest and swept-contact evidence would have to be regenerated."
+}

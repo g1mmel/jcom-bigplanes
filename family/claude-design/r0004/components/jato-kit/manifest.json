@@ -1,0 +1,171 @@
+{
+  "schema": "jcnc.independent-component/1.0",
+  "author": "claude-design",
+  "revision": "r0004",
+  "component_id": "jato-kit",
+  "tags": [
+    "level 1"
+  ],
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "origin": "C-130 aircraft reference datum; eight bottles retain their installation coordinates. No aircraft mesh or file dependency.",
+  "model": {
+    "file": "model.glb",
+    "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+    "bytes": 146684
+  },
+  "parent_aircraft_dependency": false,
+  "external_network_dependency": false,
+  "source_copy_adaptations": {
+    "build_family.py": "Unused aircraft CLI repository locator changed from HERE.parents[3] to HERE.parent so Model imports at any package directory depth; geometry and authoring functions are unchanged."
+  },
+  "source_files": {
+    "build_component.py": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff",
+    "build_family.py": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+    "component.json": "ed07724234c796ccd35fee7ae91162e85e0722c2ae42934ba03200aea513209b",
+    "eoir_component.py": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+    "family_glb.py": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+    "gltf_core.py": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+    "gun_components.py": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+    "loadout_components.py": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+    "make_editable.py": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+    "requirements.txt": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52"
+  },
+  "embedded_images": [
+    {
+      "index": 0,
+      "name": null,
+      "file": "textures/image_0.png",
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "bytes": 4266,
+      "mimeType": "image/png"
+    }
+  ],
+  "editable": {
+    "file": "editable.blend",
+    "sha256": "9a874b0b415677add5c3a1264d9d459774511dec4e4d8e96f9b4bda136d53a5a"
+  },
+  "verification": {
+    "source_isolation": "PASS",
+    "semantic_rebuild_tolerance": 1e-05,
+    "byte_identical_rebuild": false,
+    "native_blender": "PASS",
+    "inspector": "PASS",
+    "browser_rendering": "NOT_RUN",
+    "native_unreal": "NOT_RUN",
+    "photographic_acceptance": "NOT_ACCEPTED",
+    "continuous_clearance": "NOT_PROVEN"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3632,
+      "sha256": "7fa6a3219b503ef2572e97837a69442b845d656c04fdf8cf8dd65d155c2847d6"
+    },
+    {
+      "path": "articulation.json",
+      "bytes": 1423,
+      "sha256": "e67003efddf8fabce7ac76102afd33134f4ad09cdef47773e79b8a798f91b411"
+    },
+    {
+      "path": "editable.blend",
+      "bytes": 119652,
+      "sha256": "9a874b0b415677add5c3a1264d9d459774511dec4e4d8e96f9b4bda136d53a5a"
+    },
+    {
+      "path": "inspector.html",
+      "bytes": 2043661,
+      "sha256": "45d2a7ccf2075f092da0567ba9b4f01b9bf345541439e2ee3aa2e98f282ad400"
+    },
+    {
+      "path": "inspector.manifest.json",
+      "bytes": 2304,
+      "sha256": "6500577f186b670f524b6a317a35dc683f08c0b4a904f863bbaaa020cbc0ef6a"
+    },
+    {
+      "path": "materials.json",
+      "bytes": 1669,
+      "sha256": "28d770eba48893ae252578a7e8bb611c5a66fd353159b1f34ef0ca6ddef815ae"
+    },
+    {
+      "path": "model.glb",
+      "bytes": 146684,
+      "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c"
+    },
+    {
+      "path": "native-blender.json",
+      "bytes": 9900,
+      "sha256": "7bdf8dc5907b308fa852779609d4dc053adfdecb99c62ca941a3f01c702cc6b9"
+    },
+    {
+      "path": "native-blender.log",
+      "bytes": 3107,
+      "sha256": "8f86196c4a855d239b32391bdcb052d636ee04961213402ee7830493129212b4"
+    },
+    {
+      "path": "source/build_component.py",
+      "bytes": 2581,
+      "sha256": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff"
+    },
+    {
+      "path": "source/build_family.py",
+      "bytes": 41010,
+      "sha256": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f"
+    },
+    {
+      "path": "source/component.json",
+      "bytes": 1990,
+      "sha256": "ed07724234c796ccd35fee7ae91162e85e0722c2ae42934ba03200aea513209b"
+    },
+    {
+      "path": "source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4"
+    },
+    {
+      "path": "source/family_glb.py",
+      "bytes": 8672,
+      "sha256": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104"
+    },
+    {
+      "path": "source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953"
+    },
+    {
+      "path": "source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f"
+    },
+    {
+      "path": "source/loadout_components.py",
+      "bytes": 13245,
+      "sha256": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76"
+    },
+    {
+      "path": "source/make_editable.py",
+      "bytes": 8137,
+      "sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 93,
+      "sha256": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52"
+    },
+    {
+      "path": "source-isolation.json",
+      "bytes": 1126,
+      "sha256": "a0d9fd53a2b00b53d324e5811a8bfbb886a3e982f6810a6767fb17976eb5e442"
+    },
+    {
+      "path": "textures/README.md",
+      "bytes": 162,
+      "sha256": "eb1248b13f10f28de43170e65a33055c6d30ae77f9a11cb1d3d0f243976c9893"
+    },
+    {
+      "path": "textures/image_0.png",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98"
+    }
+  ]
+}

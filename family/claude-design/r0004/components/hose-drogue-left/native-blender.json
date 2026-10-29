@@ -1,0 +1,1033 @@
+{
+  "author": "claude-design",
+  "component": "hose-drogue-left",
+  "model_sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+  "status": "PASS",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "save_reopen": "PASS",
+  "packed_images": "PASS",
+  "default_basket_scales": {
+    "MODULE_TANKER_LEFT_BASKET_HIGH": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "MODULE_TANKER_LEFT_BASKET_LOW": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "native_inventory": {
+    "objects": [
+      [
+        "MODULE_TANKER_LEFT_BASKET_HIGH",
+        "EMPTY",
+        "PIVOT_tanker_left_drogue"
+      ],
+      [
+        "MODULE_TANKER_LEFT_BASKET_LOW",
+        "EMPTY",
+        "PIVOT_tanker_left_drogue"
+      ],
+      [
+        "PIVOT_tanker_left_component",
+        "EMPTY",
+        null
+      ],
+      [
+        "PIVOT_tanker_left_drogue",
+        "EMPTY",
+        "PIVOT_tanker_left_component"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_0",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_1",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_10",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_11",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_12",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_13",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_14",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_15",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_16",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_17",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_18",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_19",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_2",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_3",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_4",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_5",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_6",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_7",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_8",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_9",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_0",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_1",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_10",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_11",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_12",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_13",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_14",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_15",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_16",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_17",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_18",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_19",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_2",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_20",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_21",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_22",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_23",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_3",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_4",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_5",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_6",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_7",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_8",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_9",
+        "EMPTY",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "SOCKET_TANKER_LEFT_CONTACT",
+        "EMPTY",
+        "PIVOT_tanker_left_drogue"
+      ],
+      [
+        "tanker_left_AFT_HOSE_RECESS",
+        "MESH",
+        "PIVOT_tanker_left_component"
+      ],
+      [
+        "tanker_left_COUPLING",
+        "MESH",
+        "PIVOT_tanker_left_drogue"
+      ],
+      [
+        "tanker_left_FLEXIBLE_HOSE",
+        "MESH",
+        "PIVOT_tanker_left_component"
+      ],
+      [
+        "tanker_left_POD_SHELL",
+        "MESH",
+        "PIVOT_tanker_left_component"
+      ],
+      [
+        "tanker_left_PYLON",
+        "MESH",
+        "PIVOT_tanker_left_component"
+      ],
+      [
+        "tanker_left_SEAM_0",
+        "MESH",
+        "PIVOT_tanker_left_component"
+      ],
+      [
+        "tanker_left_SEAM_1",
+        "MESH",
+        "PIVOT_tanker_left_component"
+      ],
+      [
+        "tanker_left_high_FABRIC",
+        "MESH",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      [
+        "tanker_left_high_RIB_0",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_0"
+      ],
+      [
+        "tanker_left_high_RIB_1",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_1"
+      ],
+      [
+        "tanker_left_high_RIB_10",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_10"
+      ],
+      [
+        "tanker_left_high_RIB_11",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_11"
+      ],
+      [
+        "tanker_left_high_RIB_12",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_12"
+      ],
+      [
+        "tanker_left_high_RIB_13",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_13"
+      ],
+      [
+        "tanker_left_high_RIB_14",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_14"
+      ],
+      [
+        "tanker_left_high_RIB_15",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_15"
+      ],
+      [
+        "tanker_left_high_RIB_16",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_16"
+      ],
+      [
+        "tanker_left_high_RIB_17",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_17"
+      ],
+      [
+        "tanker_left_high_RIB_18",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_18"
+      ],
+      [
+        "tanker_left_high_RIB_19",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_19"
+      ],
+      [
+        "tanker_left_high_RIB_2",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_2"
+      ],
+      [
+        "tanker_left_high_RIB_3",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_3"
+      ],
+      [
+        "tanker_left_high_RIB_4",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_4"
+      ],
+      [
+        "tanker_left_high_RIB_5",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_5"
+      ],
+      [
+        "tanker_left_high_RIB_6",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_6"
+      ],
+      [
+        "tanker_left_high_RIB_7",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_7"
+      ],
+      [
+        "tanker_left_high_RIB_8",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_8"
+      ],
+      [
+        "tanker_left_high_RIB_9",
+        "MESH",
+        "PIVOT_tanker_left_high_rib_9"
+      ],
+      [
+        "tanker_left_low_FABRIC",
+        "MESH",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      [
+        "tanker_left_low_RIB_0",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_0"
+      ],
+      [
+        "tanker_left_low_RIB_1",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_1"
+      ],
+      [
+        "tanker_left_low_RIB_10",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_10"
+      ],
+      [
+        "tanker_left_low_RIB_11",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_11"
+      ],
+      [
+        "tanker_left_low_RIB_12",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_12"
+      ],
+      [
+        "tanker_left_low_RIB_13",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_13"
+      ],
+      [
+        "tanker_left_low_RIB_14",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_14"
+      ],
+      [
+        "tanker_left_low_RIB_15",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_15"
+      ],
+      [
+        "tanker_left_low_RIB_16",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_16"
+      ],
+      [
+        "tanker_left_low_RIB_17",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_17"
+      ],
+      [
+        "tanker_left_low_RIB_18",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_18"
+      ],
+      [
+        "tanker_left_low_RIB_19",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_19"
+      ],
+      [
+        "tanker_left_low_RIB_2",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_2"
+      ],
+      [
+        "tanker_left_low_RIB_20",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_20"
+      ],
+      [
+        "tanker_left_low_RIB_21",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_21"
+      ],
+      [
+        "tanker_left_low_RIB_22",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_22"
+      ],
+      [
+        "tanker_left_low_RIB_23",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_23"
+      ],
+      [
+        "tanker_left_low_RIB_3",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_3"
+      ],
+      [
+        "tanker_left_low_RIB_4",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_4"
+      ],
+      [
+        "tanker_left_low_RIB_5",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_5"
+      ],
+      [
+        "tanker_left_low_RIB_6",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_6"
+      ],
+      [
+        "tanker_left_low_RIB_7",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_7"
+      ],
+      [
+        "tanker_left_low_RIB_8",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_8"
+      ],
+      [
+        "tanker_left_low_RIB_9",
+        "MESH",
+        "PIVOT_tanker_left_low_rib_9"
+      ]
+    ],
+    "actions": [
+      [
+        "tanker_left_deploy",
+        48
+      ]
+    ],
+    "shape_keys": [
+      [
+        "tanker_left_FLEXIBLE_HOSE",
+        2
+      ],
+      [
+        "tanker_left_high_FABRIC",
+        2
+      ],
+      [
+        "tanker_left_low_FABRIC",
+        2
+      ]
+    ],
+    "tracks": [
+      [
+        "PIVOT_tanker_left_drogue",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_0",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_1",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_10",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_11",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_12",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_13",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_14",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_15",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_16",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_17",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_18",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_19",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_2",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_3",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_4",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_5",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_6",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_7",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_8",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_high_rib_9",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_0",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_1",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_10",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_11",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_12",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_13",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_14",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_15",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_16",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_17",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_18",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_19",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_2",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_20",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_21",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_22",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_23",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_3",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_4",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_5",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_6",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_7",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_8",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "PIVOT_tanker_left_low_rib_9",
+        "object",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "tanker_left_FLEXIBLE_HOSE",
+        "shape_keys",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "tanker_left_high_FABRIC",
+        "shape_keys",
+        "tanker_left_deploy",
+        1
+      ],
+      [
+        "tanker_left_low_FABRIC",
+        "shape_keys",
+        "tanker_left_deploy",
+        1
+      ]
+    ],
+    "vertices": 2466
+  },
+  "clips": [
+    {
+      "clip": "tanker_left_deploy",
+      "status": "PASS",
+      "expected_channels": 48,
+      "native_object_tracks": 45,
+      "native_shape_key_tracks": 3,
+      "channel_peak_deltas": {
+        "tanker_left_FLEXIBLE_HOSE:weights": 1.0,
+        "PIVOT_tanker_left_drogue:translation": 15.299999594688416,
+        "tanker_left_high_FABRIC:weights": 1.0,
+        "tanker_left_low_FABRIC:weights": 1.0,
+        "PIVOT_tanker_left_high_rib_0:rotation": 0.5321715474128723,
+        "PIVOT_tanker_left_high_rib_1:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_high_rib_2:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_3:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_4:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_high_rib_5:rotation": 0.5321715474128723,
+        "PIVOT_tanker_left_high_rib_6:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_high_rib_7:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_8:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_9:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_high_rib_10:rotation": 0.5321715474128723,
+        "PIVOT_tanker_left_high_rib_11:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_high_rib_12:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_13:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_14:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_high_rib_15:rotation": 0.5321715474128723,
+        "PIVOT_tanker_left_high_rib_16:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_high_rib_17:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_18:rotation": 0.43053582310676575,
+        "PIVOT_tanker_left_high_rib_19:rotation": 0.5061252117156982,
+        "PIVOT_tanker_left_low_rib_0:rotation": 0.6967858672142029,
+        "PIVOT_tanker_left_low_rib_1:rotation": 0.6730433702468872,
+        "PIVOT_tanker_left_low_rib_2:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_3:rotation": 0.49270200729370117,
+        "PIVOT_tanker_left_low_rib_4:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_5:rotation": 0.6730433702468872,
+        "PIVOT_tanker_left_low_rib_6:rotation": 0.6967858672142029,
+        "PIVOT_tanker_left_low_rib_7:rotation": 0.6730433702468872,
+        "PIVOT_tanker_left_low_rib_8:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_9:rotation": 0.49270200729370117,
+        "PIVOT_tanker_left_low_rib_10:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_11:rotation": 0.6730433702468872,
+        "PIVOT_tanker_left_low_rib_12:rotation": 0.6967858672142029,
+        "PIVOT_tanker_left_low_rib_13:rotation": 0.6730433702468872,
+        "PIVOT_tanker_left_low_rib_14:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_15:rotation": 0.49270200729370117,
+        "PIVOT_tanker_left_low_rib_16:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_17:rotation": 0.6730433702468872,
+        "PIVOT_tanker_left_low_rib_18:rotation": 0.6967858672142029,
+        "PIVOT_tanker_left_low_rib_19:rotation": 0.6730433702468872,
+        "PIVOT_tanker_left_low_rib_20:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_21:rotation": 0.49270200729370117,
+        "PIVOT_tanker_left_low_rib_22:rotation": 0.6034342050552368,
+        "PIVOT_tanker_left_low_rib_23:rotation": 0.6730433702468872
+      },
+      "morph_local_vertex_peak_deltas_m": {
+        "tanker_left_FLEXIBLE_HOSE": 15.30344808101654,
+        "tanker_left_high_FABRIC": 0.34049709886312485,
+        "tanker_left_low_FABRIC": 0.5253519117832184
+      },
+      "samples": [
+        {
+          "normalized_time": 0,
+          "frame": 1.0,
+          "max_channel_delta": 0.0,
+          "morph_weights": {
+            "tanker_left_FLEXIBLE_HOSE": [
+              0.0
+            ],
+            "tanker_left_high_FABRIC": [
+              0.0
+            ],
+            "tanker_left_low_FABRIC": [
+              0.0
+            ]
+          }
+        },
+        {
+          "normalized_time": 0.125,
+          "frame": 4.0,
+          "max_channel_delta": 0.6574219465255737,
+          "morph_weights": {
+            "tanker_left_FLEXIBLE_HOSE": [
+              0.04296875
+            ],
+            "tanker_left_high_FABRIC": [
+              0.0001440061314497143
+            ],
+            "tanker_left_low_FABRIC": [
+              0.0001440061314497143
+            ]
+          }
+        },
+        {
+          "normalized_time": 0.25,
+          "frame": 7.0,
+          "max_channel_delta": 2.3906248807907104,
+          "morph_weights": {
+            "tanker_left_FLEXIBLE_HOSE": [
+              0.15625
+            ],
+            "tanker_left_high_FABRIC": [
+              0.08602859079837799
+            ],
+            "tanker_left_low_FABRIC": [
+              0.08602859079837799
+            ]
+          }
+        },
+        {
+          "normalized_time": 0.5,
+          "frame": 13.0,
+          "max_channel_delta": 7.649999976158142,
+          "morph_weights": {
+            "tanker_left_FLEXIBLE_HOSE": [
+              0.5
+            ],
+            "tanker_left_high_FABRIC": [
+              0.5416237711906433
+            ],
+            "tanker_left_low_FABRIC": [
+              0.5416237711906433
+            ]
+          }
+        },
+        {
+          "normalized_time": 0.75,
+          "frame": 19.0,
+          "max_channel_delta": 12.909374594688416,
+          "morph_weights": {
+            "tanker_left_FLEXIBLE_HOSE": [
+              0.84375
+            ],
+            "tanker_left_high_FABRIC": [
+              0.95703125
+            ],
+            "tanker_left_low_FABRIC": [
+              0.95703125
+            ]
+          }
+        },
+        {
+          "normalized_time": 0.875,
+          "frame": 22.0,
+          "max_channel_delta": 14.642578482627869,
+          "morph_weights": {
+            "tanker_left_FLEXIBLE_HOSE": [
+              0.95703125
+            ],
+            "tanker_left_high_FABRIC": [
+              1.0
+            ],
+            "tanker_left_low_FABRIC": [
+              1.0
+            ]
+          }
+        },
+        {
+          "normalized_time": 1,
+          "frame": 25.0,
+          "max_channel_delta": 15.299999594688416,
+          "morph_weights": {
+            "tanker_left_FLEXIBLE_HOSE": [
+              1.0
+            ],
+            "tanker_left_high_FABRIC": [
+              1.0
+            ],
+            "tanker_left_low_FABRIC": [
+              1.0
+            ]
+          }
+        }
+      ],
+      "reset_max_delta": 0.0,
+      "frame_range": [
+        1.0,
+        25.0
+      ]
+    }
+  ],
+  "editable_sha256": "bcdc3db7888db7dde4e4cb42042b3d1e200eb86c647b8e4f9c8a40013d8e7351",
+  "script_sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+  "scope": "Actual imported object and shape-key NLA action evaluation at seven normalized samples, local evaluated morph vertices, reset, native save/reopen. No continuous collision, browser rendering or Unreal validation."
+}

@@ -1,0 +1,45 @@
+{
+  "input": {
+    "file": "components/fulton-yoke/model.glb",
+    "bytes": 28596,
+    "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53"
+  },
+  "validator_report": {
+    "uri": "components/fulton-yoke/model.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-10-29T06:41:49.683Z",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 0,
+      "numHints": 0,
+      "messages": [],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "claude-design C130 single modular master r0004",
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 16384
+        }
+      ],
+      "animationCount": 1,
+      "materialCount": 2,
+      "hasMorphTargets": false,
+      "hasSkins": false,
+      "hasTextures": false,
+      "hasDefaultScene": true,
+      "drawCallCount": 11,
+      "totalVertexCount": 408,
+      "totalTriangleCount": 772,
+      "maxUVs": 0,
+      "maxInfluences": 0,
+      "maxAttributes": 2
+    }
+  }
+}

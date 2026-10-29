@@ -1,0 +1,113 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "method": "Measured source fuselage aperture side profile; local lateral-skirt deformation; unchanged central floor, rig and clips. Three/four-millimetre reveal is artist-authored.",
+  "reference": "https://www.dvidshub.net/image/383774/red-flag-11-3",
+  "sampled_stations": 68,
+  "before_edge_distance_m": {
+    "min": 0.09667827028287004,
+    "median": 0.12667315846649885,
+    "max": 0.17165885105311943
+  },
+  "after_edge_distance_m": {
+    "min": 0.004280935243857521,
+    "median": 0.008931312648421532,
+    "max": 0.02970230176353275
+  },
+  "upper_before_edge_distance_m": {
+    "min": 0.005985786215599597,
+    "median": 0.023405374984425804,
+    "max": 0.04070472384822388
+  },
+  "upper_after_effective_frame_to_leaf_gap_m": 0.003,
+  "upper_moving_leaf_changed": false,
+  "fixed_aperture_jamb_nodes": [
+    "CARGO_UPPER_APERTURE_JAMB_STARBOARD",
+    "CARGO_UPPER_APERTURE_JAMB_PORT"
+  ],
+  "inner_liner_receiving_pockets": [
+    {
+      "lo": [
+        -1.79,
+        1.82,
+        5.16
+      ],
+      "hi": [
+        -1.64,
+        2.39,
+        6.34
+      ],
+      "removed_triangle_fragments": 322
+    },
+    {
+      "lo": [
+        -1.79,
+        0.93,
+        2.72
+      ],
+      "hi": [
+        -1.59,
+        1.37,
+        3.62
+      ],
+      "removed_triangle_fragments": 126
+    },
+    {
+      "lo": [
+        1.64,
+        1.82,
+        5.16
+      ],
+      "hi": [
+        1.79,
+        2.39,
+        6.34
+      ],
+      "removed_triangle_fragments": 174
+    },
+    {
+      "lo": [
+        1.59,
+        0.93,
+        2.72
+      ],
+      "hi": [
+        1.79,
+        1.37,
+        3.62
+      ],
+      "removed_triangle_fragments": 113
+    }
+  ],
+  "float32_collapsed_cabin_faces_removed": 58,
+  "changes": [
+    {
+      "node": "CARGO_LOWER_RAMP_FLANGE_CAP_-1_SEAM_CAP_0",
+      "vertices": 66,
+      "changed_vertices": 66,
+      "max_vertex_displacement_m": 0.1517341133292552,
+      "central_geometry_abs_x_le_1.46_max_displacement_m": 0.0
+    },
+    {
+      "node": "CARGO_LOWER_RAMP_FLANGE_CAP_1_SEAM_CAP_0",
+      "vertices": 67,
+      "changed_vertices": 67,
+      "max_vertex_displacement_m": 0.15173413623707038,
+      "central_geometry_abs_x_le_1.46_max_displacement_m": 0.0
+    },
+    {
+      "node": "CARGO_LOWER_RAMP_PRESERVED",
+      "vertices": 19305,
+      "changed_vertices": 9990,
+      "max_vertex_displacement_m": 0.1633875067174372,
+      "central_geometry_abs_x_le_1.46_max_displacement_m": 0.07031702830058985
+    }
+  ],
+  "notes": [
+    "Native final-render and sampled-motion review are required on the integrated export.",
+    "Edge-distance measurement is the XY distance between lateral source aperture edge and ramp outermost contour at each sampled Z station; not a manufacturing tolerance.",
+    "Only local source geometry fit is established; photographic aircraft identity and continuous collision clearance remain unaccepted."
+  ],
+  "input_sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+  "output_sha256": "94409fc20ed805b5574473fffad7b5b448ef9a0a279bb6678beffaebcaf875d6"
+}

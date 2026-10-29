@@ -1,0 +1,50 @@
+Extensions: writing cache failed ([Errno 30] Read-only file system: '/root/.config').
+23:44:32 | INFO: Data are loaded, start creating Blender stuff
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_1_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_1_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_1_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_1_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_1_SOFT_EXHAUST
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_2_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_2_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_2_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_2_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_2_SOFT_EXHAUST
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_3_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_3_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_3_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_3_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_3_SOFT_EXHAUST
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_4_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_4_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_4_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_4_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_LEFT_4_SOFT_EXHAUST
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_1_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_1_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_1_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_1_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_1_SOFT_EXHAUST
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_2_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_2_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_2_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_2_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_2_SOFT_EXHAUST
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_3_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_3_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_3_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_3_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_3_SOFT_EXHAUST
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_4_BOTTLE
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_4_CLAMP_-0.24
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_4_CLAMP_0.27
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_4_BRACKET
+23:44:32 | INFO: Blender create Mesh node JATO_RIGHT_4_SOFT_EXHAUST
+23:44:32 | INFO: glTF import finished in 0.04s
+Info: Saved as "editable.blend"
+COMPONENT_NATIVE {"component": "jato-kit", "status": "PASS", "save_reopen": "PASS"}
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:33:47)
+Read blend: "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/components/jato-kit/editable.blend"
+
+Blender quit
+

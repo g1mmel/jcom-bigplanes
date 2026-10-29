@@ -1,0 +1,470 @@
+{
+  "author": "claude-design",
+  "component": "jato-kit",
+  "model_sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+  "status": "PASS",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "save_reopen": "PASS",
+  "packed_images": "PASS",
+  "default_basket_scales": {},
+  "native_inventory": {
+    "objects": [
+      [
+        "JATO_LEFT_1_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_LEFT_1"
+      ],
+      [
+        "JATO_LEFT_1_BRACKET",
+        "MESH",
+        "PIVOT_JATO_LEFT_1"
+      ],
+      [
+        "JATO_LEFT_1_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_LEFT_1"
+      ],
+      [
+        "JATO_LEFT_1_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_LEFT_1"
+      ],
+      [
+        "JATO_LEFT_1_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_LEFT_1_exhaust"
+      ],
+      [
+        "JATO_LEFT_2_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_LEFT_2"
+      ],
+      [
+        "JATO_LEFT_2_BRACKET",
+        "MESH",
+        "PIVOT_JATO_LEFT_2"
+      ],
+      [
+        "JATO_LEFT_2_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_LEFT_2"
+      ],
+      [
+        "JATO_LEFT_2_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_LEFT_2"
+      ],
+      [
+        "JATO_LEFT_2_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_LEFT_2_exhaust"
+      ],
+      [
+        "JATO_LEFT_3_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_LEFT_3"
+      ],
+      [
+        "JATO_LEFT_3_BRACKET",
+        "MESH",
+        "PIVOT_JATO_LEFT_3"
+      ],
+      [
+        "JATO_LEFT_3_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_LEFT_3"
+      ],
+      [
+        "JATO_LEFT_3_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_LEFT_3"
+      ],
+      [
+        "JATO_LEFT_3_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_LEFT_3_exhaust"
+      ],
+      [
+        "JATO_LEFT_4_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_LEFT_4"
+      ],
+      [
+        "JATO_LEFT_4_BRACKET",
+        "MESH",
+        "PIVOT_JATO_LEFT_4"
+      ],
+      [
+        "JATO_LEFT_4_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_LEFT_4"
+      ],
+      [
+        "JATO_LEFT_4_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_LEFT_4"
+      ],
+      [
+        "JATO_LEFT_4_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_LEFT_4_exhaust"
+      ],
+      [
+        "JATO_RIGHT_1_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_RIGHT_1"
+      ],
+      [
+        "JATO_RIGHT_1_BRACKET",
+        "MESH",
+        "PIVOT_JATO_RIGHT_1"
+      ],
+      [
+        "JATO_RIGHT_1_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_RIGHT_1"
+      ],
+      [
+        "JATO_RIGHT_1_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_RIGHT_1"
+      ],
+      [
+        "JATO_RIGHT_1_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_RIGHT_1_exhaust"
+      ],
+      [
+        "JATO_RIGHT_2_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_RIGHT_2"
+      ],
+      [
+        "JATO_RIGHT_2_BRACKET",
+        "MESH",
+        "PIVOT_JATO_RIGHT_2"
+      ],
+      [
+        "JATO_RIGHT_2_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_RIGHT_2"
+      ],
+      [
+        "JATO_RIGHT_2_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_RIGHT_2"
+      ],
+      [
+        "JATO_RIGHT_2_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_RIGHT_2_exhaust"
+      ],
+      [
+        "JATO_RIGHT_3_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_RIGHT_3"
+      ],
+      [
+        "JATO_RIGHT_3_BRACKET",
+        "MESH",
+        "PIVOT_JATO_RIGHT_3"
+      ],
+      [
+        "JATO_RIGHT_3_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_RIGHT_3"
+      ],
+      [
+        "JATO_RIGHT_3_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_RIGHT_3"
+      ],
+      [
+        "JATO_RIGHT_3_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_RIGHT_3_exhaust"
+      ],
+      [
+        "JATO_RIGHT_4_BOTTLE",
+        "MESH",
+        "PIVOT_JATO_RIGHT_4"
+      ],
+      [
+        "JATO_RIGHT_4_BRACKET",
+        "MESH",
+        "PIVOT_JATO_RIGHT_4"
+      ],
+      [
+        "JATO_RIGHT_4_CLAMP_-0.24",
+        "MESH",
+        "PIVOT_JATO_RIGHT_4"
+      ],
+      [
+        "JATO_RIGHT_4_CLAMP_0.27",
+        "MESH",
+        "PIVOT_JATO_RIGHT_4"
+      ],
+      [
+        "JATO_RIGHT_4_SOFT_EXHAUST",
+        "MESH",
+        "PIVOT_JATO_RIGHT_4_exhaust"
+      ],
+      [
+        "PIVOT_JATO_LEFT_1",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_LEFT_1_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_1"
+      ],
+      [
+        "PIVOT_JATO_LEFT_2",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_LEFT_2_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_2"
+      ],
+      [
+        "PIVOT_JATO_LEFT_3",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_LEFT_3_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_3"
+      ],
+      [
+        "PIVOT_JATO_LEFT_4",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_LEFT_4_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_4"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_1",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_1_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_1"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_2",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_2_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_2"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_3",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_3_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_3"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_4",
+        "EMPTY",
+        "PIVOT_jato_component"
+      ],
+      [
+        "PIVOT_JATO_RIGHT_4_exhaust",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_4"
+      ],
+      [
+        "PIVOT_jato_component",
+        "EMPTY",
+        null
+      ],
+      [
+        "SOCKET_JATO_LEFT_1_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_1"
+      ],
+      [
+        "SOCKET_JATO_LEFT_2_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_2"
+      ],
+      [
+        "SOCKET_JATO_LEFT_3_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_3"
+      ],
+      [
+        "SOCKET_JATO_LEFT_4_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_LEFT_4"
+      ],
+      [
+        "SOCKET_JATO_RIGHT_1_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_1"
+      ],
+      [
+        "SOCKET_JATO_RIGHT_2_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_2"
+      ],
+      [
+        "SOCKET_JATO_RIGHT_3_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_3"
+      ],
+      [
+        "SOCKET_JATO_RIGHT_4_EXHAUST",
+        "EMPTY",
+        "PIVOT_JATO_RIGHT_4"
+      ]
+    ],
+    "actions": [
+      [
+        "jato_burn",
+        8
+      ]
+    ],
+    "shape_keys": [],
+    "tracks": [
+      [
+        "PIVOT_JATO_LEFT_1_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ],
+      [
+        "PIVOT_JATO_LEFT_2_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ],
+      [
+        "PIVOT_JATO_LEFT_3_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ],
+      [
+        "PIVOT_JATO_LEFT_4_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ],
+      [
+        "PIVOT_JATO_RIGHT_1_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ],
+      [
+        "PIVOT_JATO_RIGHT_2_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ],
+      [
+        "PIVOT_JATO_RIGHT_3_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ],
+      [
+        "PIVOT_JATO_RIGHT_4_exhaust",
+        "object",
+        "jato_burn",
+        1
+      ]
+    ],
+    "vertices": 2640
+  },
+  "clips": [
+    {
+      "clip": "jato_burn",
+      "status": "PASS",
+      "expected_channels": 8,
+      "native_object_tracks": 8,
+      "native_shape_key_tracks": 0,
+      "channel_peak_deltas": {
+        "PIVOT_JATO_LEFT_1_exhaust:scale": 1.0,
+        "PIVOT_JATO_LEFT_2_exhaust:scale": 1.0,
+        "PIVOT_JATO_LEFT_3_exhaust:scale": 1.0,
+        "PIVOT_JATO_LEFT_4_exhaust:scale": 1.0,
+        "PIVOT_JATO_RIGHT_1_exhaust:scale": 1.0,
+        "PIVOT_JATO_RIGHT_2_exhaust:scale": 1.0,
+        "PIVOT_JATO_RIGHT_3_exhaust:scale": 1.0,
+        "PIVOT_JATO_RIGHT_4_exhaust:scale": 1.0
+      },
+      "morph_local_vertex_peak_deltas_m": {},
+      "samples": [
+        {
+          "normalized_time": 0,
+          "frame": 1.0,
+          "max_channel_delta": 0.0,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.125,
+          "frame": 4.0,
+          "max_channel_delta": 0.5104905962944031,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.25,
+          "frame": 7.0,
+          "max_channel_delta": 0.784584105014801,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.5,
+          "frame": 13.0,
+          "max_channel_delta": 1.0,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.75,
+          "frame": 19.0,
+          "max_channel_delta": 0.784584105014801,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.875,
+          "frame": 22.0,
+          "max_channel_delta": 0.5104905962944031,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 1,
+          "frame": 25.0,
+          "max_channel_delta": 7.271225288540961e-12,
+          "morph_weights": {}
+        }
+      ],
+      "reset_max_delta": 0.0,
+      "frame_range": [
+        1.0,
+        25.0
+      ]
+    }
+  ],
+  "editable_sha256": "9a874b0b415677add5c3a1264d9d459774511dec4e4d8e96f9b4bda136d53a5a",
+  "script_sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+  "scope": "Actual imported object and shape-key NLA action evaluation at seven normalized samples, local evaluated morph vertices, reset, native save/reopen. No continuous collision, browser rendering or Unreal validation."
+}

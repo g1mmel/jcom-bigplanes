@@ -1,0 +1,56 @@
+{
+  "version": "jcnc.c130-articulation/2.0",
+  "revision": "r0004",
+  "author": "claude-design",
+  "component": true,
+  "model": "hose-drogue-left",
+  "label": "Hose Drogue Left",
+  "file": "model.glb",
+  "sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+  "controls": [
+    {
+      "id": "tanker_left_deploy",
+      "label": "Left hose and drogue",
+      "kind": "translation",
+      "node": "PIVOT_tanker_left_drogue",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": 0,
+      "max": 15.3,
+      "rest": 0,
+      "duration": 7,
+      "group": "Aerial refuelling",
+      "clip": "tanker_left_deploy",
+      "units": "metres",
+      "normalized_input": true,
+      "evidence": {
+        "status": "REFERENCE_GUIDED_ARTIST_AUTHORED",
+        "sources": [
+          "https://www.dvidshub.net/image/7758343/",
+          "https://www.dvidshub.net/image/8289439/",
+          "https://www.dvidshub.net/image/8942759/"
+        ],
+        "limitations": "Flexible exterior hose payout, coupling travel and basket unfolding are visual approximations; exact hose/reel and fabric physics not modeled."
+      },
+      "states": {
+        "rest": "Basket collapsed at pod outlet",
+        "deployed": "Hose extended, basket open"
+      }
+    }
+  ],
+  "sequences": [],
+  "states": {},
+  "presets": [],
+  "effects": [],
+  "cameras": [],
+  "sim_inputs": [],
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "acceptance": {
+    "photographic": "NOT_ACCEPTED",
+    "native_unreal": "NOT_RUN"
+  }
+}

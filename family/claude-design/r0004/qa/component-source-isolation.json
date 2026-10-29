@@ -1,0 +1,656 @@
+{
+  "status": "PASS",
+  "author": "claude-design",
+  "revision": "r0004",
+  "master_model_sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+  "script_sha256": "31f51a43cf91f7da6adeb12fcd8d62dd28163811a6bff8cf7e50c84f50e516a3",
+  "source_snapshots": {
+    "gltf_core.py": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+    "build_family.py": "5d919565c45b93f54c10aa1d05e4114a0a1504de386c04f237e120af875ff37b",
+    "family_glb.py": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+    "loadout_components.py": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+    "gun_components.py": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+    "eoir_component.py": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4"
+  },
+  "components": [
+    {
+      "component": "hose-drogue-left",
+      "model_sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+      "source_isolation": {
+        "status": "PASS",
+        "frozen_model_sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+        "rebuilt_model_sha256": "c72ad51f2667bba55db761e077ba6a1ca80666dffd59faab819e17c5cd168cd5",
+        "byte_identical": false,
+        "comparison": "Expanded indexed geometry attributes, morph targets, node hierarchy/rest TRS, material/image bindings and every animation input/output.",
+        "absolute_tolerance": 1e-05,
+        "relative_tolerance": 0,
+        "maximum_absolute_delta": 5.994803686391794e-15,
+        "compared_arrays": 613,
+        "geometry_scalar_values": 85176,
+        "animation_scalar_values": 11270,
+        "nodes": 102,
+        "meshes": 53,
+        "animation_channels": 48,
+        "default_basket_scales": {
+          "MODULE_TANKER_LEFT_BASKET_HIGH": [
+            1,
+            1,
+            1
+          ],
+          "MODULE_TANKER_LEFT_BASKET_LOW": [
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": [],
+        "qualification": "Semantic equivalence within 0.00001; floating point origin baking and metadata can prevent identical GLB bytes.",
+        "component": "hose-drogue-left",
+        "fresh_directory": true,
+        "prebuilt_input_files": 0,
+        "parent_aircraft_dependency": false,
+        "network_guard": "Python audit hook rejects socket connection/DNS/send attempts",
+        "attempted_network_calls": [],
+        "prebuilt_asset_reads": [],
+        "articulation_controls_equal": true
+      },
+      "native_blender": {
+        "status": "PASS",
+        "save_reopen": "PASS",
+        "blender_version": "4.5.15 LTS",
+        "object_tracks": 45,
+        "shape_key_tracks": 3,
+        "editable_sha256": "bcdc3db7888db7dde4e4cb42042b3d1e200eb86c647b8e4f9c8a40013d8e7351"
+      },
+      "package": {
+        "file": "packages/hose-drogue-left-r0004.zip",
+        "bytes": 844353,
+        "sha256": "cbc46b02b94a0655b577579081267c65081fa350b150c6504bcbbc813cf4c7ef",
+        "zip_crc_and_manifest_hashes": "PASS"
+      }
+    },
+    {
+      "component": "hose-drogue-right",
+      "model_sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+      "source_isolation": {
+        "status": "PASS",
+        "frozen_model_sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+        "rebuilt_model_sha256": "24539c61801638d9945a36aa4ae2510583e1658fac6c3c557a7faa18d2c6c708",
+        "byte_identical": false,
+        "comparison": "Expanded indexed geometry attributes, morph targets, node hierarchy/rest TRS, material/image bindings and every animation input/output.",
+        "absolute_tolerance": 1e-05,
+        "relative_tolerance": 0,
+        "maximum_absolute_delta": 5.994803686391794e-15,
+        "compared_arrays": 613,
+        "geometry_scalar_values": 85176,
+        "animation_scalar_values": 11270,
+        "nodes": 102,
+        "meshes": 53,
+        "animation_channels": 48,
+        "default_basket_scales": {
+          "MODULE_TANKER_RIGHT_BASKET_HIGH": [
+            1,
+            1,
+            1
+          ],
+          "MODULE_TANKER_RIGHT_BASKET_LOW": [
+            0,
+            0,
+            0
+          ]
+        },
+        "errors": [],
+        "qualification": "Semantic equivalence within 0.00001; floating point origin baking and metadata can prevent identical GLB bytes.",
+        "component": "hose-drogue-right",
+        "fresh_directory": true,
+        "prebuilt_input_files": 0,
+        "parent_aircraft_dependency": false,
+        "network_guard": "Python audit hook rejects socket connection/DNS/send attempts",
+        "attempted_network_calls": [],
+        "prebuilt_asset_reads": [],
+        "articulation_controls_equal": true
+      },
+      "native_blender": {
+        "status": "PASS",
+        "save_reopen": "PASS",
+        "blender_version": "4.5.15 LTS",
+        "object_tracks": 45,
+        "shape_key_tracks": 3,
+        "editable_sha256": "adda78221cf0fd5c5788fd8bb88229514466907b6af2d4dec5197b7259b8b9fc"
+      },
+      "package": {
+        "file": "packages/hose-drogue-right-r0004.zip",
+        "bytes": 845439,
+        "sha256": "6f2561851bd45560b7a1be582ff5e2b885c113a509326959378b6ff9638b5e45",
+        "zip_crc_and_manifest_hashes": "PASS"
+      }
+    },
+    {
+      "component": "fulton-yoke",
+      "model_sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+      "source_isolation": {
+        "status": "PASS",
+        "frozen_model_sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+        "rebuilt_model_sha256": "3f0ccce1c5ca9772b9fb2d12617366e6cd024666f4ac486e961b9b5f9f4065c0",
+        "byte_identical": false,
+        "comparison": "Expanded indexed geometry attributes, morph targets, node hierarchy/rest TRS, material/image bindings and every animation input/output.",
+        "absolute_tolerance": 1e-05,
+        "relative_tolerance": 0,
+        "maximum_absolute_delta": 7.216449660063518e-16,
+        "compared_arrays": 86,
+        "geometry_scalar_values": 13896,
+        "animation_scalar_values": 490,
+        "nodes": 15,
+        "meshes": 11,
+        "animation_channels": 2,
+        "default_basket_scales": {},
+        "errors": [],
+        "qualification": "Semantic equivalence within 0.00001; floating point origin baking and metadata can prevent identical GLB bytes.",
+        "component": "fulton-yoke",
+        "fresh_directory": true,
+        "prebuilt_input_files": 0,
+        "parent_aircraft_dependency": false,
+        "network_guard": "Python audit hook rejects socket connection/DNS/send attempts",
+        "attempted_network_calls": [],
+        "prebuilt_asset_reads": [],
+        "articulation_controls_equal": true
+      },
+      "native_blender": {
+        "status": "PASS",
+        "save_reopen": "PASS",
+        "blender_version": "4.5.15 LTS",
+        "object_tracks": 2,
+        "shape_key_tracks": 0,
+        "editable_sha256": "74c5a5ef972cc664bd188e7c25ff43f87773431676cb8321c9b53027230e2208"
+      },
+      "package": {
+        "file": "packages/fulton-yoke-r0004.zip",
+        "bytes": 695082,
+        "sha256": "7bd7f556dfdbe7c0c38f3c82e3af15a23a126b74e89bf6bc4403a2051e76b1af",
+        "zip_crc_and_manifest_hashes": "PASS"
+      }
+    },
+    {
+      "component": "jato-kit",
+      "model_sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+      "source_isolation": {
+        "status": "PASS",
+        "frozen_model_sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+        "rebuilt_model_sha256": "8e53276001c7e552cc7b026229ab0b4d64347e038416a1c085001518caa249b5",
+        "byte_identical": false,
+        "comparison": "Expanded indexed geometry attributes, morph targets, node hierarchy/rest TRS, material/image bindings and every animation input/output.",
+        "absolute_tolerance": 1e-05,
+        "relative_tolerance": 0,
+        "maximum_absolute_delta": 0.0,
+        "compared_arrays": 364,
+        "geometry_scalar_values": 75456,
+        "animation_scalar_values": 2080,
+        "nodes": 65,
+        "meshes": 40,
+        "animation_channels": 8,
+        "default_basket_scales": {},
+        "errors": [],
+        "qualification": "Semantic equivalence within 0.00001; floating point origin baking and metadata can prevent identical GLB bytes.",
+        "component": "jato-kit",
+        "fresh_directory": true,
+        "prebuilt_input_files": 0,
+        "parent_aircraft_dependency": false,
+        "network_guard": "Python audit hook rejects socket connection/DNS/send attempts",
+        "attempted_network_calls": [],
+        "prebuilt_asset_reads": [],
+        "articulation_controls_equal": true
+      },
+      "native_blender": {
+        "status": "PASS",
+        "save_reopen": "PASS",
+        "blender_version": "4.5.15 LTS",
+        "object_tracks": 8,
+        "shape_key_tracks": 0,
+        "editable_sha256": "9a874b0b415677add5c3a1264d9d459774511dec4e4d8e96f9b4bda136d53a5a"
+      },
+      "package": {
+        "file": "packages/jato-kit-r0004.zip",
+        "bytes": 724423,
+        "sha256": "51a5552e25d16412d94ffa781a0b0b6ea892398d416eac79d66c6e1e042aac35",
+        "zip_crc_and_manifest_hashes": "PASS"
+      }
+    }
+  ],
+  "source_copy_adaptations": {
+    "build_family.py": "Independent package copies retain their tested HERE.parent locator. The root helper now guards HERE.parents[3] with a shallow-path HERE.parent fallback. Only this unused aircraft CLI locator differs; matching geometry/authoring AST and unchanged component/package hashes are recorded in source_snapshot_amendments."
+  },
+  "scope": "Four new independent components. Parent aircraft required only as a frozen delivery identity guard, never as source input. Reused r0003 gun/sensor components are packaged separately.",
+  "source_snapshots_at_isolation": {
+    "gltf_core.py": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+    "build_family.py": "09a40e8da5d4555c9b0ea0782beb226db78a3bec88ae90422d1de8accffca781",
+    "family_glb.py": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+    "loadout_components.py": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+    "gun_components.py": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+    "eoir_component.py": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4"
+  },
+  "source_snapshot_amendments": [
+    {
+      "changed_utc": "2026-10-29T06:54:46.552719+00:00",
+      "file": "source/build_family.py",
+      "change": "Guard only the import-time REPO locator for shallow complete-archive extraction. Deep repository behavior is preserved; geometry/authoring functions are unchanged.",
+      "isolated_run_root_source_sha256": "09a40e8da5d4555c9b0ea0782beb226db78a3bec88ae90422d1de8accffca781",
+      "current_root_source_sha256": "5d919565c45b93f54c10aa1d05e4114a0a1504de386c04f237e120af875ff37b",
+      "one_assignment_only": true,
+      "ast_equal_excluding_repo_assignment": true,
+      "component_source_copies_unchanged": {
+        "hose-drogue-left": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+        "hose-drogue-right": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+        "fulton-yoke": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+        "jato-kit": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f"
+      },
+      "component_copy_ast_equal_excluding_repo_assignment": true,
+      "unchanged_delivered_outputs": {
+        "hose-drogue-left": {
+          "model_sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+          "editable_sha256": "bcdc3db7888db7dde4e4cb42042b3d1e200eb86c647b8e4f9c8a40013d8e7351",
+          "package_sha256": "cbc46b02b94a0655b577579081267c65081fa350b150c6504bcbbc813cf4c7ef"
+        },
+        "hose-drogue-right": {
+          "model_sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+          "editable_sha256": "adda78221cf0fd5c5788fd8bb88229514466907b6af2d4dec5197b7259b8b9fc",
+          "package_sha256": "6f2561851bd45560b7a1be582ff5e2b885c113a509326959378b6ff9638b5e45"
+        },
+        "fulton-yoke": {
+          "model_sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+          "editable_sha256": "74c5a5ef972cc664bd188e7c25ff43f87773431676cb8321c9b53027230e2208",
+          "package_sha256": "7bd7f556dfdbe7c0c38f3c82e3af15a23a126b74e89bf6bc4403a2051e76b1af"
+        },
+        "jato-kit": {
+          "model_sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+          "editable_sha256": "9a874b0b415677add5c3a1264d9d459774511dec4e4d8e96f9b4bda136d53a5a",
+          "package_sha256": "51a5552e25d16412d94ffa781a0b0b6ea892398d416eac79d66c6e1e042aac35"
+        }
+      },
+      "shallow_full_builder_import": {
+        "status": "PASS",
+        "modules": [
+          "build_family",
+          "build_loadout_family"
+        ],
+        "parent_depth": 3,
+        "fallback_matches_revision_root": true,
+        "geometry_build_executed": false
+      },
+      "source_isolation_geometry_tests_rerun": false,
+      "provenance_note": "The original isolation/native runs and their component bytes remain the evidence. This post-validation root-helper change was verified by exact one-assignment diff, AST equivalence against the previously tested root and all shipped component copies, and fresh shallow-path imports. No new geometry/native execution is claimed."
+    }
+  ],
+  "master_model_sha256_at_isolation": "de910de58de643328055f27246f2d8d7b86047cea6f35e4e46406144b71644fc",
+  "master_identity_amendments": [
+    {
+      "changed_utc": "2026-10-29T07:07:27.856904+00:00",
+      "previous_master_sha256": "de910de58de643328055f27246f2d8d7b86047cea6f35e4e46406144b71644fc",
+      "final_master_sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+      "change_scope": "Cargo-ramp corner closure only; new equipment component bytes, inspected host geometry, host placement chains and equipment clip data are unchanged.",
+      "candidate_lineage": {
+        "file": "qa/ramp-corner-candidate.glb",
+        "sha256": "18fa65edd7351baecc49a19db9d60324f20fa8786ec403b6429ed1f87273b0fe",
+        "derived_from_sha256": "de910de58de643328055f27246f2d8d7b86047cea6f35e4e46406144b71644fc",
+        "derivative_report": "qa/ramp-corner-fit-candidate.json",
+        "derivative_report_sha256": "0a78a9ffa9c351c1a99cb270eca5d3ff23575f327851c57301678cd3e1b91f76",
+        "clips_and_node_transforms_preserved_by_derivative_report": true
+      },
+      "component_byte_identity": [
+        {
+          "id": "hose-drogue-left",
+          "model_sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+          "model_bytes": 227144,
+          "matched_evidence": [
+            "aggregate isolation model",
+            "aggregate frozen-model isolation result",
+            "new build receipt",
+            "component manifest",
+            "inspector manifest",
+            "component source-isolation result",
+            "component native result"
+          ],
+          "component_manifest_sha256": "144e68684107077fef2585cfa49c61d7b78145cf91fe7054d6fc32718c6493df",
+          "inspector_manifest_sha256": "2a012be9eee3a06515d644c515dccabb145e6a074e7a3b63c857c250cb90640d",
+          "source_isolation_sha256": "3748ae6665d88774e86f11854ef8da2fc566f67ceeb216cabc6b18bd5bc6f974",
+          "editable_sha256": "bcdc3db7888db7dde4e4cb42042b3d1e200eb86c647b8e4f9c8a40013d8e7351",
+          "package_sha256": "cbc46b02b94a0655b577579081267c65081fa350b150c6504bcbbc813cf4c7ef",
+          "manifest_files_verified": 21
+        },
+        {
+          "id": "hose-drogue-right",
+          "model_sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+          "model_bytes": 227348,
+          "matched_evidence": [
+            "aggregate isolation model",
+            "aggregate frozen-model isolation result",
+            "new build receipt",
+            "component manifest",
+            "inspector manifest",
+            "component source-isolation result",
+            "component native result"
+          ],
+          "component_manifest_sha256": "3e4bd5e5acb296478cee86d453f900d85c8dc33de1bb06bba46c30c20de15ecf",
+          "inspector_manifest_sha256": "a45306be00bd6621ee5fb4d04aa398887d571b97e8c9213e038d186f810b2f99",
+          "source_isolation_sha256": "c12fc248c17df61221bf45020619cef2e791bc6949261153550f2013d5ef36fb",
+          "editable_sha256": "adda78221cf0fd5c5788fd8bb88229514466907b6af2d4dec5197b7259b8b9fc",
+          "package_sha256": "6f2561851bd45560b7a1be582ff5e2b885c113a509326959378b6ff9638b5e45",
+          "manifest_files_verified": 21
+        },
+        {
+          "id": "fulton-yoke",
+          "model_sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+          "model_bytes": 28596,
+          "matched_evidence": [
+            "aggregate isolation model",
+            "aggregate frozen-model isolation result",
+            "new build receipt",
+            "component manifest",
+            "inspector manifest",
+            "component source-isolation result",
+            "component native result"
+          ],
+          "component_manifest_sha256": "8d25de7fb27595511df3de17072ba08c82a518fd7df2792f7cba125955660354",
+          "inspector_manifest_sha256": "c6a42b1ab850d4df95ba97c5ab30cb46e6ce1b1e5bcf0ed686b9562d7eb5850c",
+          "source_isolation_sha256": "8846c8fe206f765119de74d65efeb233c42221aa529430c167db2fb9da5d1f78",
+          "editable_sha256": "74c5a5ef972cc664bd188e7c25ff43f87773431676cb8321c9b53027230e2208",
+          "package_sha256": "7bd7f556dfdbe7c0c38f3c82e3af15a23a126b74e89bf6bc4403a2051e76b1af",
+          "manifest_files_verified": 21
+        },
+        {
+          "id": "jato-kit",
+          "model_sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+          "model_bytes": 146684,
+          "matched_evidence": [
+            "aggregate isolation model",
+            "aggregate frozen-model isolation result",
+            "new build receipt",
+            "component manifest",
+            "inspector manifest",
+            "component source-isolation result",
+            "component native result"
+          ],
+          "component_manifest_sha256": "526b59ca7d334bafb07d0ee8d5214bf608d3afc480ebf67c7dd633e69d525f59",
+          "inspector_manifest_sha256": "6500577f186b670f524b6a317a35dc683f08c0b4a904f863bbaaa020cbc0ef6a",
+          "source_isolation_sha256": "a0d9fd53a2b00b53d324e5811a8bfbb886a3e982f6810a6767fb17976eb5e442",
+          "editable_sha256": "9a874b0b415677add5c3a1264d9d459774511dec4e4d8e96f9b4bda136d53a5a",
+          "package_sha256": "51a5552e25d16412d94ffa781a0b0b6ea892398d416eac79d66c6e1e042aac35",
+          "manifest_files_verified": 22
+        }
+      ],
+      "host_geometry_comparison": {
+        "method": "Exact expanded indexed per-primitive attributes and morph-target arrays, including dtype and shape; no numeric tolerance. Final master compared with the recorded corner-only derivative.",
+        "status": "PASS",
+        "meshes": [
+          {
+            "node": "COCKPIT_WINDOWS",
+            "expanded_attribute_sha256": "e4451f25289590ee901961814979db1264d7df2d7219da7d11827d362f67eed6"
+          },
+          {
+            "node": "FULTON_LEFT_ARM",
+            "expanded_attribute_sha256": "1c0655841a994526f50f58144cf5bee66772aaaab4eb0ef4a09a1eeccefabc64"
+          },
+          {
+            "node": "FULTON_LEFT_FENDING_ATTACHMENT",
+            "expanded_attribute_sha256": "1ee4b90dccb749053aac427f57b680b2e141f7715fbbd673613881b2065f9537"
+          },
+          {
+            "node": "FULTON_LEFT_FENDING_LINE",
+            "expanded_attribute_sha256": "9d7183c074a78c7e0a8d404648fa0858b22f0b78c07b4f7b547013d5936f7ce3"
+          },
+          {
+            "node": "FULTON_LEFT_GUIDE_TIP",
+            "expanded_attribute_sha256": "49fcd922f6c0cb17ac2e57ee875cf1f450b5743ee5d84f8dfe6d04e667be62ef"
+          },
+          {
+            "node": "FULTON_LEFT_HINGE",
+            "expanded_attribute_sha256": "0edd454ccd75a0f4c1a8adf8c3924a8815f120cbf74a399899c859231d9867c9"
+          },
+          {
+            "node": "FULTON_LEFT_MOUNT_BRACE",
+            "expanded_attribute_sha256": "402afddc6a863a5a94c8b61aaccd4ea60b35894986ca24d14ecf18700ef18feb"
+          },
+          {
+            "node": "FULTON_LEFT_SECONDARY_BRACE",
+            "expanded_attribute_sha256": "61cb891d618b6b318b222f1cd511460dec76e0d41f8d37b16f82c1ec15e65e38"
+          },
+          {
+            "node": "FULTON_RIGHT_ARM",
+            "expanded_attribute_sha256": "9d597d12cabf52fddf37ec3ff51a49c73f6898fb21c0970b552aceedd4d262af"
+          },
+          {
+            "node": "FULTON_RIGHT_FENDING_ATTACHMENT",
+            "expanded_attribute_sha256": "95ddbfb28eec6cce77406f0af82c2cf53d5ba603b97ae1c55e8f56ffff301fa6"
+          },
+          {
+            "node": "FULTON_RIGHT_FENDING_LINE",
+            "expanded_attribute_sha256": "9c655acddb342804784d591b2a72c880a1fd9cb5448264c82d1667496f2d2950"
+          },
+          {
+            "node": "FULTON_RIGHT_GUIDE_TIP",
+            "expanded_attribute_sha256": "2760f0f48f72228d57d91605f361d4b4157ceb38d76011b803b708b98885c8f2"
+          },
+          {
+            "node": "FULTON_RIGHT_HINGE",
+            "expanded_attribute_sha256": "e82ad91e1f520dbea15ad997d1d17a876dd3b64bb7a8c1eaa205555837b0ab03"
+          },
+          {
+            "node": "FULTON_RIGHT_MOUNT_BRACE",
+            "expanded_attribute_sha256": "2b676c461865188b8ac69343ee7a577289b28640c3630e1f8e0869dcd19af013"
+          },
+          {
+            "node": "FULTON_RIGHT_SECONDARY_BRACE",
+            "expanded_attribute_sha256": "1703ed6f2398bec73311ba74571c60a8768533af8330f1c283634328b5de1a59"
+          },
+          {
+            "node": "FULTON_SKY_ANCHOR_HOUSING",
+            "expanded_attribute_sha256": "6e9d529a320668dd94fa1c25c88d33cbe501847e50579010ff1530d2ba1a3f13"
+          },
+          {
+            "node": "HISTORICAL_TALON_DROOPED_RADOME",
+            "expanded_attribute_sha256": "7eb786abec4bc5a7aa968b5a36c0db56db976fa0c397aefa3ea4d2b49ad75774"
+          },
+          {
+            "node": "PROP_1_BLADES_SOURCE",
+            "expanded_attribute_sha256": "391fee821522830733bb8e24b4f7c3a046bb7a97e4dbe4cf0a53e00aa40fff66"
+          },
+          {
+            "node": "PROP_1_HUB_SOURCE",
+            "expanded_attribute_sha256": "472b7aa0314c93b10564cdd99e5f0e8b70a21ef59d5fad312e359f95bb0bff78"
+          },
+          {
+            "node": "PROP_1_J_SPINNER",
+            "expanded_attribute_sha256": "5261ec697ea8caa14d48b6968b6e1121164a3ce1b9e3d02a2d924440d09bcaa7"
+          },
+          {
+            "node": "PROP_1_NP2000_SPINNER",
+            "expanded_attribute_sha256": "9867987bdeeb1e1ba5c70082e988665e7c86bb62077139841f3863d8b5b01144"
+          },
+          {
+            "node": "PROP_1_NP2000_STYLE_EIGHT_BLADES",
+            "expanded_attribute_sha256": "7673eb3175e23c2d41a87dfe164d48abf0a1d2b487363ceda56755d45412d01a"
+          },
+          {
+            "node": "PROP_1_SIX_SWEPT_BLADES",
+            "expanded_attribute_sha256": "37ddefc327db4ce9d2d32b724c2ebe43653f9d262bc44042c440f3b409747181"
+          },
+          {
+            "node": "PROP_1_TIP_PATCHES",
+            "expanded_attribute_sha256": "85adba4c37807f18eed9484d41ecf1bf2d03882502fc1cadd5ba477e243bef88"
+          },
+          {
+            "node": "PROP_2_BLADES_SOURCE",
+            "expanded_attribute_sha256": "508e4a65357667a105f9758639e795c3fd5bd139e5892a9c2e933ad49f8e22e1"
+          },
+          {
+            "node": "PROP_2_HUB_SOURCE",
+            "expanded_attribute_sha256": "76bb643545389d11e111b3d360b6083824ae06da1fab018168f7f4785c018a62"
+          },
+          {
+            "node": "PROP_2_J_SPINNER",
+            "expanded_attribute_sha256": "5261ec697ea8caa14d48b6968b6e1121164a3ce1b9e3d02a2d924440d09bcaa7"
+          },
+          {
+            "node": "PROP_2_NP2000_SPINNER",
+            "expanded_attribute_sha256": "9867987bdeeb1e1ba5c70082e988665e7c86bb62077139841f3863d8b5b01144"
+          },
+          {
+            "node": "PROP_2_NP2000_STYLE_EIGHT_BLADES",
+            "expanded_attribute_sha256": "7673eb3175e23c2d41a87dfe164d48abf0a1d2b487363ceda56755d45412d01a"
+          },
+          {
+            "node": "PROP_2_SIX_SWEPT_BLADES",
+            "expanded_attribute_sha256": "37ddefc327db4ce9d2d32b724c2ebe43653f9d262bc44042c440f3b409747181"
+          },
+          {
+            "node": "PROP_2_TIP_PATCHES",
+            "expanded_attribute_sha256": "67440ccd9044104985d42c51eaec92d510652bc1bfb5fd96829500a29da607c3"
+          },
+          {
+            "node": "PROP_3_BLADES_SOURCE",
+            "expanded_attribute_sha256": "8c2454d9f9dfcc229870a21fb220844e00915ef304d7f38e5cfec15c5efefd0e"
+          },
+          {
+            "node": "PROP_3_HUB_SOURCE",
+            "expanded_attribute_sha256": "961577ac43ec6249da91d3f563fae67a97b9eaed1db81a4714a3b84254c2b2ac"
+          },
+          {
+            "node": "PROP_3_J_SPINNER",
+            "expanded_attribute_sha256": "5261ec697ea8caa14d48b6968b6e1121164a3ce1b9e3d02a2d924440d09bcaa7"
+          },
+          {
+            "node": "PROP_3_NP2000_SPINNER",
+            "expanded_attribute_sha256": "9867987bdeeb1e1ba5c70082e988665e7c86bb62077139841f3863d8b5b01144"
+          },
+          {
+            "node": "PROP_3_NP2000_STYLE_EIGHT_BLADES",
+            "expanded_attribute_sha256": "7673eb3175e23c2d41a87dfe164d48abf0a1d2b487363ceda56755d45412d01a"
+          },
+          {
+            "node": "PROP_3_SIX_SWEPT_BLADES",
+            "expanded_attribute_sha256": "37ddefc327db4ce9d2d32b724c2ebe43653f9d262bc44042c440f3b409747181"
+          },
+          {
+            "node": "PROP_3_TIP_PATCHES",
+            "expanded_attribute_sha256": "7a6046ed6066afdb87f9298a1eeb2a4bb0de4050d4cd81bde6cc77d1cc74ca64"
+          },
+          {
+            "node": "PROP_4_BLADES_SOURCE",
+            "expanded_attribute_sha256": "b25e18a265872958a690979d2f335c5661a78b52ae134186d8ddaac8dd6efce6"
+          },
+          {
+            "node": "PROP_4_HUB_SOURCE",
+            "expanded_attribute_sha256": "588f8159f6475a880f8f1ad5d49ead0eac00a5000f5cdb69ff503e3951a5e7f5"
+          },
+          {
+            "node": "PROP_4_J_SPINNER",
+            "expanded_attribute_sha256": "5261ec697ea8caa14d48b6968b6e1121164a3ce1b9e3d02a2d924440d09bcaa7"
+          },
+          {
+            "node": "PROP_4_NP2000_SPINNER",
+            "expanded_attribute_sha256": "9867987bdeeb1e1ba5c70082e988665e7c86bb62077139841f3863d8b5b01144"
+          },
+          {
+            "node": "PROP_4_NP2000_STYLE_EIGHT_BLADES",
+            "expanded_attribute_sha256": "7673eb3175e23c2d41a87dfe164d48abf0a1d2b487363ceda56755d45412d01a"
+          },
+          {
+            "node": "PROP_4_SIX_SWEPT_BLADES",
+            "expanded_attribute_sha256": "37ddefc327db4ce9d2d32b724c2ebe43653f9d262bc44042c440f3b409747181"
+          },
+          {
+            "node": "PROP_4_TIP_PATCHES",
+            "expanded_attribute_sha256": "8206992a390198f3f19efb79e37b4646809dac6b93d88a1be9aae4ee69f1a164"
+          },
+          {
+            "node": "fuselage",
+            "expanded_attribute_sha256": "2f07128af1e8eda8004be398392e24b8fb7d3652d59f7be291542c1b835580e0"
+          }
+        ]
+      },
+      "host_placement_comparison": {
+        "method": "Exact named-node and ancestor rest TRS/matrix records; module default scales preserved.",
+        "status": "PASS",
+        "nodes": [
+          {
+            "node": "fuselage",
+            "ancestor_rest_chain_sha256": "78dc148241b22357796ceb81d8ddc5ced89ff3beccb729987754c6b027cccfa7"
+          },
+          {
+            "node": "HISTORICAL_TALON_DROOPED_RADOME",
+            "ancestor_rest_chain_sha256": "4a00dd28e034c06e682606321488f5a1d6b0fbc858d0ef3d2930c2523b26806d"
+          },
+          {
+            "node": "COCKPIT_WINDOWS",
+            "ancestor_rest_chain_sha256": "d77ad9666626b78e42e03aff259e53450d1b129640833c1d9f63739e61148d81"
+          },
+          {
+            "node": "PIVOT_fulton_component",
+            "ancestor_rest_chain_sha256": "48e6586d0ff56364c9b259e61d4e7fd9b7b2b1265f3bd202182f4fbd401aa5cf"
+          },
+          {
+            "node": "PIVOT_tanker_left_component",
+            "ancestor_rest_chain_sha256": "c4557fd273a30d71e1123e2e246a604c2265fb63a1ffac51f535bb43e6744120"
+          },
+          {
+            "node": "PIVOT_tanker_right_component",
+            "ancestor_rest_chain_sha256": "4001f382703345b1357a31bd45639e627df315c5b49354a208af910ef200ddd3"
+          },
+          {
+            "node": "PIVOT_jato_component",
+            "ancestor_rest_chain_sha256": "5e379521be840016e10e579ee3210269339836338b729586f356e74861d4d614"
+          },
+          {
+            "node": "MODULE_FULTON_FENDING_LINES",
+            "ancestor_rest_chain_sha256": "97349c9a00d8cc7fc459ba880a0193d95c9c85f24efac7b12a9002e20ffe4dd8"
+          },
+          {
+            "node": "PIVOT_prop_1",
+            "ancestor_rest_chain_sha256": "093a4fcdd67662bf6c040f425b3869ceb10721c343e334145ea64413309bda82"
+          },
+          {
+            "node": "PIVOT_prop_2",
+            "ancestor_rest_chain_sha256": "d0a9ce2daa8211ae803eae6b5a0c4c1274299df02164cdb3dfd211cacb66f1c3"
+          },
+          {
+            "node": "PIVOT_prop_3",
+            "ancestor_rest_chain_sha256": "9c86c962078aed3a6c3b8d9d54a9b8d4b1c47b19d537923af10d79572808611c"
+          },
+          {
+            "node": "PIVOT_prop_4",
+            "ancestor_rest_chain_sha256": "9778af54bb9cba72f3866f5fe02162dfef2bfcba750909bb58c402ca21d43516"
+          }
+        ]
+      },
+      "equipment_clip_comparison": {
+        "method": "Exact channel target names/paths, interpolation and all sampled accessor input/output values.",
+        "status": "PASS",
+        "clips": [
+          {
+            "clip": "tanker_left_deploy",
+            "evaluated_track_data_sha256": "5f229b25e7a745366945bad252af0bbf8b73a0e8e876cfa767de9d734b221dba"
+          },
+          {
+            "clip": "tanker_right_deploy",
+            "evaluated_track_data_sha256": "d52deb56171a6a512bd09acc51872d30b8f4783ec66344cabebe7569020eee0a"
+          },
+          {
+            "clip": "skyhook_deploy",
+            "evaluated_track_data_sha256": "98403a1e349385e16452f9c6fd863d144d149e82eca0d5612529d17f987129ea"
+          },
+          {
+            "clip": "jato_burn",
+            "evaluated_track_data_sha256": "8db0266a1f96b54b67072767a9e760bc18da14edbae093537dfa8cb5ac5ec3c1"
+          },
+          {
+            "clip": "receiver_hatch",
+            "evaluated_track_data_sha256": "c4a60c514610dbcc536e094d35e089014df27ae75368580cccd27311a7bae8a4"
+          }
+        ]
+      },
+      "source_isolation_geometry_tests_rerun": false,
+      "component_native_tests_rerun": false,
+      "component_archives_rebuilt": false,
+      "scope": "Same-byte component lineage and unchanged-host applicability association only. Original isolation/native/fit runs retain their original tested identities and qualifications; no new whole-aircraft photographic or continuous-clearance acceptance is implied."
+    }
+  ]
+}

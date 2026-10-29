@@ -1,0 +1,63 @@
+Extensions: writing cache failed ([Errno 30] Read-only file system: '/root/.config').
+23:44:06 | INFO: Data are loaded, start creating Blender stuff
+23:44:06 | INFO: Blender create Mesh node tanker_left_POD_SHELL
+23:44:06 | INFO: Blender create Mesh node tanker_left_AFT_HOSE_RECESS
+23:44:06 | INFO: Blender create Mesh node tanker_left_PYLON
+23:44:06 | INFO: Blender create Mesh node tanker_left_SEAM_0
+23:44:06 | INFO: Blender create Mesh node tanker_left_SEAM_1
+23:44:06 | INFO: Blender create Mesh node tanker_left_FLEXIBLE_HOSE
+23:44:06 | INFO: Blender create Mesh node tanker_left_COUPLING
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_0
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_1
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_2
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_3
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_4
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_5
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_6
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_7
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_8
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_9
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_10
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_11
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_12
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_13
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_14
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_15
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_16
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_17
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_18
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_RIB_19
+23:44:06 | INFO: Blender create Mesh node tanker_left_high_FABRIC
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_0
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_1
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_2
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_3
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_4
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_5
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_6
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_7
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_8
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_9
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_10
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_11
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_12
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_13
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_14
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_15
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_16
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_17
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_18
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_19
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_20
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_21
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_22
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_RIB_23
+23:44:06 | INFO: Blender create Mesh node tanker_left_low_FABRIC
+23:44:06 | INFO: glTF import finished in 0.10s
+Info: Saved as "editable.blend"
+COMPONENT_NATIVE {"component": "hose-drogue-left", "status": "PASS", "save_reopen": "PASS"}
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:33:47)
+Read blend: "/workspace/scratch/67bc1d0b25c8/claude-design-c130/family/claude-design/r0004/components/hose-drogue-left/editable.blend"
+
+Blender quit
+

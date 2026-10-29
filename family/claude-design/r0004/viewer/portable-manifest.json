@@ -1,0 +1,13 @@
+{
+  "file": "C130-family-portable.html",
+  "bytes": 15809826,
+  "sha256": "837496fcf6ff836edcae688a7d4a2f8d729c7349af575addc490517ed658d2da",
+  "source_models": {
+    "c130-family": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f"
+  },
+  "loadout_catalog_sha256": "243fd39c10655d34a3ca0439d5e71eab65ae5c2f938053c672ebbf59e8b78ee5",
+  "loadout_slots": 12,
+  "loadout_presets": 8,
+  "dependencies": "three 0.170.0; embedded, no network; browser DecompressionStream gzip",
+  "runtime_render_validation": "NOT_RUN"
+}

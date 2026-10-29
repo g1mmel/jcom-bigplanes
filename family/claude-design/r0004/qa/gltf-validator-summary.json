@@ -1,0 +1,159 @@
+{
+  "generated_utc": "2026-10-29T07:05:42.062Z",
+  "tool": "KhronosGroup/glTF-Validator",
+  "upstream": "https://github.com/KhronosGroup/glTF-Validator",
+  "npm_package": "gltf-validator",
+  "pinned_version": "2.0.0-dev.3.10",
+  "actual_version": "2.0.0-dev.3.10",
+  "npm_integrity": "sha512-odJ4k0tRkGXiDGn78yDBg+fBbAIvBnXxh3RwAta0emSxGtyagFE8B4xELB1oYe3S5RD8Ci3uZAsZaascH2LAEQ==",
+  "node_version": "v24.22.1",
+  "scope": "glTF2.0/GLB format, schema, references, binary/accessor/animation data and embedded resources. Does not establish visual accuracy, collision clearance, license or native engine acceptance.",
+  "models": [
+    {
+      "id": "c130-family",
+      "file": "models/c130-family.glb",
+      "bytes": 21480060,
+      "sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 84,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 51,
+        "UNUSED_MESH_TANGENT": 25,
+        "UNUSED_MESH_WEIGHTS": 6,
+        "IMAGE_NPOT_DIMENSIONS": 2
+      },
+      "report": "qa/c130-family.gltf-validator.json"
+    },
+    {
+      "id": "gau23-visual",
+      "file": "components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 31,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 30,
+        "IMAGE_NPOT_DIMENSIONS": 1
+      },
+      "report": "qa/gau23-visual.gltf-validator.json"
+    },
+    {
+      "id": "m102-airborne-visual",
+      "file": "components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 22,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 21,
+        "IMAGE_NPOT_DIMENSIONS": 1
+      },
+      "report": "qa/m102-airborne-visual.gltf-validator.json"
+    },
+    {
+      "id": "eoir-visual",
+      "file": "components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 10,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_OBJECT": 10
+      },
+      "report": "qa/eoir-visual.gltf-validator.json"
+    },
+    {
+      "id": "hose-drogue-left",
+      "file": "components/hose-drogue-left/model.glb",
+      "bytes": 227144,
+      "sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 3,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_MESH_WEIGHTS": 3
+      },
+      "report": "qa/hose-drogue-left.gltf-validator.json"
+    },
+    {
+      "id": "hose-drogue-right",
+      "file": "components/hose-drogue-right/model.glb",
+      "bytes": 227348,
+      "sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 3,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "UNUSED_MESH_WEIGHTS": 3
+      },
+      "report": "qa/hose-drogue-right.gltf-validator.json"
+    },
+    {
+      "id": "fulton-yoke",
+      "file": "components/fulton-yoke/model.glb",
+      "bytes": 28596,
+      "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {},
+      "report": "qa/fulton-yoke.gltf-validator.json"
+    },
+    {
+      "id": "jato-kit",
+      "file": "components/jato-kit/model.glb",
+      "bytes": 146684,
+      "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 1,
+      "hints": 0,
+      "messages_truncated": false,
+      "issue_codes": {
+        "IMAGE_NPOT_DIMENSIONS": 1
+      },
+      "report": "qa/jato-kit.gltf-validator.json"
+    }
+  ],
+  "refresh": {
+    "refreshed_models": [
+      "c130-family"
+    ],
+    "reused_hash_matched_models": [
+      "gau23-visual",
+      "m102-airborne-visual",
+      "eoir-visual",
+      "hose-drogue-left",
+      "hose-drogue-right",
+      "fulton-yoke",
+      "jato-kit"
+    ]
+  },
+  "status": "PASS"
+}

@@ -122,40 +122,51 @@ def add_skyhook(m,center):
     # replacement is handled by the family skin module, not this independent yoke.
     tracks=[];t=np.linspace(0,1,49);q=t*t*(3-2*t)
     for side,s in [('left',-1),('right',1)]:
-        p=c+[s*.47,0,.16];hinge=m.pivot('fulton_'+side+'_arm',p,parent=root)
+        p=c+[s*.90,-.15,.30];hinge=m.pivot('fulton_'+side+'_arm',p,parent=root)
         # Rest folds aft along each fuselage side; deployed horns point forward
         # and outward in the horizontal plane, as the public USAF history says.
-        a=p+[s*.08,0,.12];b=p+[s*.29,-.05,3.12]
+        a=p;b=c+[s*2.25,-.20,3.55]
         m.attach(tube('FULTON_'+side.upper()+'_ARM',a,b,.052,mat['metal'],segments=16),hinge)
         m.attach(tube('FULTON_'+side.upper()+'_GUIDE_TIP',b,b+[s*.08,.03,.28],.035,mat['metal'],segments=12),hinge)
         m.attach(tube('FULTON_'+side.upper()+'_HINGE',p+[0,-.10,0],p+[0,.10,0],.09,mat['paint']),root)
-        tracks.append((hinge,'rotation',t,[quat([0,1,0],s*153*v) for v in q]))
+        foot=c+[s*.30,-.045,.25]
+        m.attach(tube('FULTON_'+side.upper()+'_MOUNT_BRACE',foot,p,.055,mat['paint']),root)
+        m.attach(tube('FULTON_'+side.upper()+'_SECONDARY_BRACE',c+[s*.45,-.053,.45],p+[0,-.07,0],.035,mat['metal']),root)
+        tracks.append((hinge,'rotation',t,[quat([0,1,0],s*145*v) for v in q]))
     m.attach(box('FULTON_SKY_ANCHOR_HOUSING',c+[-.14,-.12,-.16],c+[.14,.12,.16],mat['paint']),root)
     g.node('SOCKET_FULTON_PICKUP_LINE',parent=root,translation=[0,0,-.17],extras={'kind':'GAME_ALIGNMENT','human_recovery_simulation':'NOT_IMPLEMENTED'})
-    m.control('skyhook_deploy','Fulton recovery yoke',root,[0,1,0],153,duration=5.5,group='Historical equipment',tracks=tracks,ev=ev('skyhook','talon',note='Historical retractable horizontal V and fold-back principle sourced; hinge travel and clearance are artist approximations, no person-recovery choreography.'),states={'rest':'Arms folded back','deployed':'Horizontal V deployed'})
+    m.control('skyhook_deploy','Fulton recovery yoke',root,[0,1,0],145,duration=5.5,group='Historical equipment',tracks=tracks,ev=ev('skyhook','talon',note='Historical retractable horizontal V and fold-back principle sourced; hinge travel and clearance are artist approximations, no person-recovery choreography.'),states={'rest':'Arms folded back','deployed':'Horizontal V deployed'})
     # These are airframe installation guards, NOT part of the reusable nose yoke.
     guards=module(m,'MODULE_FULTON_FENDING_LINES')
     for side,s in [('left',-1),('right',1)]:
-        points=[c+[s*.45,.06,.8],[s*7.5,4.58,-8.8],[s*19.7,4.50,-1.2]]
+        # Taut line to the actual leading edge of this mesh's outer wingtip.
+        # Attachment coordinates are authored fit, not aircraft measurements.
+        nose_end=c+[s*.30,0,.15]
+        m.static_mesh(tube('FULTON_'+side.upper()+'_FENDING_ATTACHMENT',c+[s*.12,0,.12],nose_end,.035,mat['metal']),guards)
+        points=[nose_end,[s*19.7,4.71105,-3.14578]]
         m.static_mesh(path_tube('FULTON_'+side.upper()+'_FENDING_LINE',points,.014,mat['metal'],seg=7),guards)
     return {'module':g.doc['nodes'][outer]['name'],'guards':g.doc['nodes'][guards]['name'],'component_root':g.doc['nodes'][root]['name'],'controls':['skyhook_deploy']}
 
 def add_jato(m):
     mat=_mats(m);g=m.glb;gm=gun_materials(m)
+    jato_fx=g.material('JATO_VISUAL_BLUE_VIOLET_EXHAUST',[.5,.42,1,.72],0,.5,double=True,emissive=[.35,.20,1])
+    g.doc['materials'][jato_fx]['pbrMetallicRoughness']['baseColorTexture']=g.doc['materials'][gm['flash']]['pbrMetallicRoughness']['baseColorTexture'].copy()
     outer=module(m,'MODULE_JATO_EIGHT');root=m.pivot('jato_component',[0,0,0],parent=outer,extras={'tags':['level 1'],'asset_id':'legacy-c130-jato-visual-kit','revision':'r0004','historical':True,'reference':REFS['jato']})
     t=np.linspace(0,1,65);fade=np.sin(np.pi*t)**.7;tracks=[]
     for side,s in [('left',-1),('right',1)]:
         for k in range(4):
             # Airframe attachment coordinates are game fit to the inherited skin.
-            c=np.array([s*2.05,1.65+.35*k,3.75-.06*k]);cid='JATO_'+side.upper()+'_'+str(k+1)
+            fitted_x=[2.21874,2.27890,2.30262,2.30550][k]
+            c=np.array([s*fitted_x,1.65+.35*k,3.75-.06*k]);cid='JATO_'+side.upper()+'_'+str(k+1)
             bottle=m.pivot(cid,c,parent=root,extras={'tags':['level 1'],'asset_id':'jato-bottle-visual','instance_id':cid})
             g.doc['nodes'][bottle]['rotation']=quat([1,0,0],18)
             body=lathe_z(cid+'_BOTTLE',c,[(-.59,.04),(-.50,.12),(-.36,.145),(.38,.145),(.48,.10),(.58,.06),(.62,.10)],mat['bottle'],seg=28,cap=True)
             m.attach(body,bottle)
             for zz in [-.24,.27]:m.attach(lathe_z(cid+'_CLAMP_'+str(zz),c,[(zz,.153),(zz+.05,.153)],mat['metal'],seg=28),bottle)
-            m.attach(box(cid+'_BRACKET',c+[-.07,-.10,-.25],c+[.07,.11,.25],mat['paint']),bottle)
+            inner=s*(fitted_x-.34)
+            m.attach(box(cid+'_BRACKET',[min(inner,c[0]),c[1]-.07,c[2]-.17],[max(inner,c[0]),c[1]+.07,c[2]+.17],mat['paint']),bottle)
             nozzle=c+[0,0,.64];fx=m.pivot(cid+'_exhaust',nozzle,parent=bottle)
-            flash=flash_mesh(cid+'_SOFT_EXHAUST',nozzle,2.7,gm['flash']);flash.rotate(nozzle,[0,1,0],90)
+            flash=flash_mesh(cid+'_SOFT_EXHAUST',nozzle,2.7,jato_fx);flash.rotate(nozzle,[0,1,0],90)
             m.attach(flash,fx);g.doc['nodes'][fx]['scale']=[0,0,0]
             tracks.append((fx,'scale',t,[[v,v,v] for v in fade]))
             sock=g.node('SOCKET_'+cid+'_EXHAUST',parent=bottle,translation=[0,0,.64],extras={'kind':'VISUAL_FX','operational_data':False})

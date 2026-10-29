@@ -1,0 +1,41 @@
+{
+  "version": "jcnc.c130-variant-configurations/1",
+  "author": "claude-design",
+  "variants": [
+    {
+      "id": "c130",
+      "label": "C-130H legacy Hercules candidate",
+      "common_master": "C130_COMMON_claude-design_r0002",
+      "powerplant": "preserved legacy nacelles and four-blade propellers",
+      "cockpit": "legacy analogue visual insert",
+      "port_forward_panel": "preserved solid skin",
+      "port_aft_panel": "preserved operating paratroop-door module",
+      "mission_kit": "transport",
+      "status": "REFERENCE_VARIANT_REFINEMENT_PENDING"
+    },
+    {
+      "id": "ac130",
+      "label": "AC-130W Stinger II — circa 2021 visual candidate",
+      "common_master": "C130_COMMON_claude-design_r0002",
+      "powerplant": "preserved legacy nacelles and four-blade propellers",
+      "cockpit": "legacy analogue visual insert",
+      "port_forward_panel": "30 mm visual mount with real skin aperture and bounded recess",
+      "port_aft_panel": "105 mm visual mount replacing port aft-door module",
+      "mission_kit": "30 mm plus 105 mm visual mounts and two EO/IR gimbals",
+      "references": ["https://www.hurlburt.af.mil/About-Us/Fact-Sheets/Fact-Sheets/Article/2559094/ac-130w-stinger-ii/", "https://www.dvidshub.net/image/4610565/16th-expeditionary-special-operations-squadron-provides-air-support"],
+      "status": "PHOTO_GUIDED_VISUAL_APPROXIMATION"
+    },
+    {
+      "id": "ac130j",
+      "label": "AC-130J Ghostrider — circa 2021 earlier-installation visual candidate",
+      "common_master": "C130_COMMON_claude-design_r0002",
+      "powerplant": "J nacelle/cowling and lower-inlet replacement, six swept blades",
+      "cockpit": "digital multifunction displays and HUD visual insert",
+      "port_forward_panel": "30 mm visual mount with real skin aperture and bounded recess",
+      "port_aft_panel": "105 mm visual mount replacing port aft-door module",
+      "mission_kit": "30 mm plus 105 mm visual mounts and two EO/IR gimbals",
+      "references": ["https://www.dvidshub.net/image/6616476/", "https://www.dvidshub.net/image/7918484/", "https://www.dvidshub.net/image/7918482/"],
+      "status": "J_SILHOUETTE_AND_STATIONS_NOT_PHOTO_ACCEPTED"
+    }
+  ]
+}

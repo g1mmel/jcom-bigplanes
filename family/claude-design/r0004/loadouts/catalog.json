@@ -395,7 +395,7 @@
     },
     {
       "id": "gunship_w",
-      "label": "AC-130W-style \u00b7 circa 2021",
+      "label": "AC-130W-style candidate \u00b7 circa 2021",
       "status": "HISTORICAL",
       "values": {
         "propulsion": "legacy",
@@ -415,7 +415,7 @@
     },
     {
       "id": "gunship_j",
-      "label": "AC-130J-style \u00b7 circa 2021",
+      "label": "AC-130J-style candidate \u00b7 circa 2021",
       "status": "HISTORICAL",
       "values": {
         "propulsion": "j",

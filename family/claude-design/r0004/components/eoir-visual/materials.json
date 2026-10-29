@@ -1,0 +1,705 @@
+{
+  "schema": "jcnc-component-material-inventory-1",
+  "asset_id": "eoir-visual",
+  "revision": "r0003",
+  "model": {
+    "file": "model.glb",
+    "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f"
+  },
+  "scope": "Inventory and original-byte texture exports only. The frozen GLB is unchanged and remains self-contained.",
+  "image_count": 0,
+  "material_count": 20,
+  "materials_used_by_geometry": 10,
+  "color_and_channel_notes": [
+    "Base-color and emissive texture RGB channels are interpreted as sRGB; alpha is linear.",
+    "Metallic-roughness maps are linear data: G is roughness and B is the metallic multiplier. R is not connected as occlusion.",
+    "PBR factors multiply the corresponding texture channels. No normal maps or photographic texture bakes are supplied.",
+    "Unused material definitions and their images are retained and inventoried exactly as exported. The family placeholder materials and empty metadata node do not carry aircraft geometry or resource dependencies."
+  ],
+  "images": [],
+  "textures": [],
+  "samplers": [],
+  "materials": [
+    {
+      "material_index": 0,
+      "name": "PRESERVED_INTERIOR_NORMAL_MASTER",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "PRESERVED_INTERIOR_NORMAL_MASTER",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.62,
+            0.65,
+            0.64,
+            1
+          ],
+          "metallicFactor": 0.05,
+          "roughnessFactor": 0.86
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 1,
+      "name": "PRESERVED_SKIN_NORMAL_MASTER",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "PRESERVED_SKIN_NORMAL_MASTER",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.66,
+            0.69,
+            0.68,
+            1
+          ],
+          "metallicFactor": 0.12,
+          "roughnessFactor": 0.64
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 2,
+      "name": "REPLACEABLE_NEUTRAL_AIRFRAME",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "REPLACEABLE_NEUTRAL_AIRFRAME",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.51,
+            0.55,
+            0.56,
+            1
+          ],
+          "metallicFactor": 0.12,
+          "roughnessFactor": 0.68
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 3,
+      "name": "BAY_INTERIOR_DARK",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "BAY_INTERIOR_DARK",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.055,
+            0.07,
+            0.075,
+            1
+          ],
+          "metallicFactor": 0.03,
+          "roughnessFactor": 0.95
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 4,
+      "name": "ACTUATOR_METAL",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "ACTUATOR_METAL",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.36,
+            0.4,
+            0.42,
+            1
+          ],
+          "metallicFactor": 0.65,
+          "roughnessFactor": 0.33
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 5,
+      "name": "RUBBER_AND_PROPELLER",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "RUBBER_AND_PROPELLER",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.035,
+            0.045,
+            0.05,
+            1
+          ],
+          "metallicFactor": 0.07,
+          "roughnessFactor": 0.61
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 6,
+      "name": "COCKPIT_GLASS",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "COCKPIT_GLASS",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.09,
+            0.19,
+            0.24,
+            0.52
+          ],
+          "metallicFactor": 0.08,
+          "roughnessFactor": 0.2
+        },
+        "doubleSided": true,
+        "alphaMode": "BLEND"
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 7,
+      "name": "SENSOR_OPTICS",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "SENSOR_OPTICS",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.08,
+            0.22,
+            0.28,
+            1
+          ],
+          "metallicFactor": 0.25,
+          "roughnessFactor": 0.22
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 8,
+      "name": "J_DIGITAL_DISPLAY",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "J_DIGITAL_DISPLAY",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.025,
+            0.1,
+            0.09,
+            1
+          ],
+          "metallicFactor": 0.05,
+          "roughnessFactor": 0.42
+        },
+        "doubleSided": true,
+        "emissiveFactor": [
+          0.04,
+          0.28,
+          0.18
+        ]
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 9,
+      "name": "houseTint",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "houseTint",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallicFactor": 0.05,
+          "roughnessFactor": 0.65
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 10,
+      "name": "EOIR_MATTE_NEUTRAL_GREY",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 0,
+          "mesh_name": "eoir_FIXED_ATTACHMENT_CAP",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 2,
+          "mesh_name": "eoir_YAW_TOP_BAND",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 3,
+          "mesh_name": "eoir_OPEN_FRONT_YOKE",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 10,
+          "mesh_name": "eoir_ROUNDED_OPTICAL_HOUSING",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_MATTE_NEUTRAL_GREY",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.43,
+            0.45,
+            0.45,
+            1
+          ],
+          "metallicFactor": 0.08,
+          "roughnessFactor": 0.67
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 11,
+      "name": "EOIR_EDGE_GREY",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 5,
+          "mesh_name": "eoir_LEFT_PITCH_CAP",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 7,
+          "mesh_name": "eoir_RIGHT_PITCH_CAP",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 11,
+          "mesh_name": "eoir_LARGE_UPPER_PAINT_BEZEL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 18,
+          "mesh_name": "eoir_LARGE_LOWER_PAINT_BEZEL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 23,
+          "mesh_name": "eoir_SMALL_UPPER_PAINT_BEZEL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 30,
+          "mesh_name": "eoir_SMALL_LOWER_PAINT_BEZEL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 38,
+          "mesh_name": "eoir_FACE_PERIMETER_SEAM",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_EDGE_GREY",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.34,
+            0.36,
+            0.36,
+            1
+          ],
+          "metallicFactor": 0.12,
+          "roughnessFactor": 0.62
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 12,
+      "name": "EOIR_RECESSED_FACE_GREY",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 37,
+          "mesh_name": "eoir_APERTURED_OPTICAL_FACE",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_RECESSED_FACE_GREY",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.48,
+            0.5,
+            0.49,
+            1
+          ],
+          "metallicFactor": 0.08,
+          "roughnessFactor": 0.64
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 13,
+      "name": "EOIR_DARK_GASKET",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 1,
+          "mesh_name": "eoir_AZIMUTH_BEARING_SEAM",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 4,
+          "mesh_name": "eoir_LEFT_TRUNNION_GASKET",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 6,
+          "mesh_name": "eoir_RIGHT_TRUNNION_GASKET",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 39,
+          "mesh_name": "eoir_FACE_SCREW_RECESSES",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_DARK_GASKET",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.018,
+            0.022,
+            0.023,
+            1
+          ],
+          "metallicFactor": 0.01,
+          "roughnessFactor": 0.9
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 14,
+      "name": "EOIR_OPTICAL_CAVITY",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 13,
+          "mesh_name": "eoir_LARGE_UPPER_RECESSED_WALL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 14,
+          "mesh_name": "eoir_LARGE_UPPER_BLACK_BACKING",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 20,
+          "mesh_name": "eoir_LARGE_LOWER_RECESSED_WALL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 21,
+          "mesh_name": "eoir_LARGE_LOWER_BLACK_BACKING",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 25,
+          "mesh_name": "eoir_SMALL_UPPER_RECESSED_WALL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 26,
+          "mesh_name": "eoir_SMALL_UPPER_BLACK_BACKING",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 32,
+          "mesh_name": "eoir_SMALL_LOWER_RECESSED_WALL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 33,
+          "mesh_name": "eoir_SMALL_LOWER_BLACK_BACKING",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_OPTICAL_CAVITY",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.009,
+            0.013,
+            0.015,
+            1
+          ],
+          "metallicFactor": 0.05,
+          "roughnessFactor": 0.74
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 15,
+      "name": "EOIR_ANODIZED_OPTICAL_BARREL",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 15,
+          "mesh_name": "eoir_LARGE_UPPER_OPTICAL_BARREL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 27,
+          "mesh_name": "eoir_SMALL_UPPER_OPTICAL_BARREL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 34,
+          "mesh_name": "eoir_SMALL_LOWER_OPTICAL_BARREL",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_ANODIZED_OPTICAL_BARREL",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.034,
+            0.044,
+            0.049,
+            1
+          ],
+          "metallicFactor": 0.58,
+          "roughnessFactor": 0.31
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 16,
+      "name": "EOIR_RESTRAINED_FASTENER_METAL",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 8,
+          "mesh_name": "eoir_PITCH_FASTENERS",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 9,
+          "mesh_name": "eoir_YOKE_FASTENERS",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 16,
+          "mesh_name": "eoir_LARGE_UPPER_LENS_RETAINER",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 28,
+          "mesh_name": "eoir_SMALL_UPPER_LENS_RETAINER",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 35,
+          "mesh_name": "eoir_SMALL_LOWER_LENS_RETAINER",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 40,
+          "mesh_name": "eoir_FACE_FASTENERS",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_RESTRAINED_FASTENER_METAL",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.24,
+            0.27,
+            0.28,
+            1
+          ],
+          "metallicFactor": 0.78,
+          "roughnessFactor": 0.3
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 17,
+      "name": "EOIR_DARK_ANTIRELECTION_OPTICS",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 17,
+          "mesh_name": "eoir_LARGE_UPPER_OPTICS",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 29,
+          "mesh_name": "eoir_SMALL_UPPER_OPTICS",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 36,
+          "mesh_name": "eoir_SMALL_LOWER_OPTICS",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_DARK_ANTIRELECTION_OPTICS",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.018,
+            0.042,
+            0.055,
+            1
+          ],
+          "metallicFactor": 0.42,
+          "roughnessFactor": 0.13
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 18,
+      "name": "EOIR_DARK_GREEN_WINDOW",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 22,
+          "mesh_name": "eoir_LARGE_LOWER_DARK_WINDOW",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_DARK_GREEN_WINDOW",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.025,
+            0.043,
+            0.031,
+            1
+          ],
+          "metallicFactor": 0.27,
+          "roughnessFactor": 0.17
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 19,
+      "name": "EOIR_RESTRAINED_WINDOW_SEAL",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 12,
+          "mesh_name": "eoir_LARGE_UPPER_SEAL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 19,
+          "mesh_name": "eoir_LARGE_LOWER_SEAL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 24,
+          "mesh_name": "eoir_SMALL_UPPER_SEAL",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 31,
+          "mesh_name": "eoir_SMALL_LOWER_SEAL",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EOIR_RESTRAINED_WINDOW_SEAL",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.12,
+            0.063,
+            0.05,
+            1
+          ],
+          "metallicFactor": 0.03,
+          "roughnessFactor": 0.83
+        },
+        "doubleSided": false,
+        "extras": {
+          "component_asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+          "appearance": "photo-guided color/roughness; no photographic texture bake"
+        }
+      },
+      "texture_bindings": []
+    }
+  ]
+}

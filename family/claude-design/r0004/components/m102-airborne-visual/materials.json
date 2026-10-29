@@ -1,0 +1,1166 @@
+{
+  "schema": "jcnc-component-material-inventory-1",
+  "asset_id": "m102-airborne-visual",
+  "revision": "r0003",
+  "model": {
+    "file": "model.glb",
+    "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026"
+  },
+  "scope": "Inventory and original-byte texture exports only. The frozen GLB is unchanged and remains self-contained.",
+  "image_count": 9,
+  "material_count": 24,
+  "materials_used_by_geometry": 11,
+  "color_and_channel_notes": [
+    "Base-color and emissive texture RGB channels are interpreted as sRGB; alpha is linear.",
+    "Metallic-roughness maps are linear data: G is roughness and B is the metallic multiplier. R is not connected as occlusion.",
+    "PBR factors multiply the corresponding texture channels. No normal maps or photographic texture bakes are supplied.",
+    "Unused material definitions and their images are retained and inventoried exactly as exported. The family placeholder materials and empty metadata node do not carry aircraft geometry or resource dependencies."
+  ],
+  "images": [
+    {
+      "image_index": 0,
+      "file": "textures/image-00-muzzle-flash-soft-alpha.png",
+      "mime_type": "image/png",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "size_pixels": [
+        192,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 1,
+      "file": "textures/image-01-smoke-soft-alpha.png",
+      "mime_type": "image/png",
+      "bytes": 4791,
+      "sha256": "f02b126e60594ec95c2be905921c83f82e4f83515927790e198ff98f7e7ea51a",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 2,
+      "file": "textures/image-02-gun-metallic-roughness.png",
+      "mime_type": "image/png",
+      "bytes": 16976,
+      "sha256": "dc61d8ce06a0e3b5de405aabe5f9b26b29fbc3c45f754ce5edb1f2e4f0e4decb",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 3,
+      "file": "textures/image-03-mount-paint-metallic-roughness.png",
+      "mime_type": "image/png",
+      "bytes": 16981,
+      "sha256": "0c4df8333bd90a130c05fb37f762ded3c6acb69c5e2c7f604cc8980f0040dda9",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 4,
+      "file": "textures/image-04-canvas-boot-metallic-roughness.png",
+      "mime_type": "image/png",
+      "bytes": 18269,
+      "sha256": "b710caacf5b5c1403a1dac3ad8871f4860dd0db345471d02be6ff7331b491929",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 5,
+      "file": "textures/image-05-ochre-guard-metallic-roughness.png",
+      "mime_type": "image/png",
+      "bytes": 16992,
+      "sha256": "93d51f17961b5c3f35a1bdbb2186a67d4d5212ab9d0aa4ccb795e863cfd953e5",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 6,
+      "file": "textures/image-06-khaki-bag-metallic-roughness.png",
+      "mime_type": "image/png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 7,
+      "file": "textures/image-07-orange-bag-metallic-roughness.png",
+      "mime_type": "image/png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    },
+    {
+      "image_index": 8,
+      "file": "textures/image-08-brass-case-metallic-roughness.png",
+      "mime_type": "image/png",
+      "bytes": 16975,
+      "sha256": "96f0c718eff4e69887e25d09f0063ca617729bbe312b2b1cab8fd1b853f201df",
+      "size_pixels": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "provenance": "Original analytic image authored for this revision; exact embedded image bytes exported without re-encoding."
+    }
+  ],
+  "textures": [
+    {
+      "texture_index": 0,
+      "gltf_texture": {
+        "source": 0
+      },
+      "image_file": "textures/image-00-muzzle-flash-soft-alpha.png",
+      "used_by_geometry": true,
+      "material_bindings": [
+        {
+          "material_index": 21,
+          "material_name": "VISUAL_MUZZLE_FLASH",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.baseColorTexture"
+        },
+        {
+          "material_index": 21,
+          "material_name": "VISUAL_MUZZLE_FLASH",
+          "used_by_geometry": true,
+          "property": "emissiveTexture"
+        },
+        {
+          "material_index": 22,
+          "material_name": "VISUAL_MUZZLE_CORE",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.baseColorTexture"
+        },
+        {
+          "material_index": 22,
+          "material_name": "VISUAL_MUZZLE_CORE",
+          "used_by_geometry": true,
+          "property": "emissiveTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 1,
+      "gltf_texture": {
+        "source": 1
+      },
+      "image_file": "textures/image-01-smoke-soft-alpha.png",
+      "used_by_geometry": true,
+      "material_bindings": [
+        {
+          "material_index": 23,
+          "material_name": "VISUAL_SOFT_DISSIPATING_SMOKE",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.baseColorTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 2,
+      "gltf_texture": {
+        "source": 2
+      },
+      "image_file": "textures/image-02-gun-metallic-roughness.png",
+      "used_by_geometry": true,
+      "material_bindings": [
+        {
+          "material_index": 10,
+          "material_name": "GUN_PARKERIZED_DARK",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 3,
+      "gltf_texture": {
+        "source": 3
+      },
+      "image_file": "textures/image-03-mount-paint-metallic-roughness.png",
+      "used_by_geometry": true,
+      "material_bindings": [
+        {
+          "material_index": 11,
+          "material_name": "GUN_MOUNT_PAINT",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 4,
+      "gltf_texture": {
+        "source": 4
+      },
+      "image_file": "textures/image-04-canvas-boot-metallic-roughness.png",
+      "used_by_geometry": true,
+      "material_bindings": [
+        {
+          "material_index": 14,
+          "material_name": "GUN_FLEXIBLE_CANVAS_BOOT",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 5,
+      "gltf_texture": {
+        "source": 5
+      },
+      "image_file": "textures/image-05-ochre-guard-metallic-roughness.png",
+      "used_by_geometry": true,
+      "material_bindings": [
+        {
+          "material_index": 16,
+          "material_name": "GUN_105_LEGACY_GUARD_OCHRE",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 6,
+      "gltf_texture": {
+        "source": 6
+      },
+      "image_file": "textures/image-06-khaki-bag-metallic-roughness.png",
+      "used_by_geometry": false,
+      "material_bindings": [
+        {
+          "material_index": 17,
+          "material_name": "GUN_CASE_BAG_KHAKI",
+          "used_by_geometry": false,
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 7,
+      "gltf_texture": {
+        "source": 7
+      },
+      "image_file": "textures/image-07-orange-bag-metallic-roughness.png",
+      "used_by_geometry": false,
+      "material_bindings": [
+        {
+          "material_index": 18,
+          "material_name": "GUN_CASE_BAG_ORANGE",
+          "used_by_geometry": false,
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    },
+    {
+      "texture_index": 8,
+      "gltf_texture": {
+        "source": 8
+      },
+      "image_file": "textures/image-08-brass-case-metallic-roughness.png",
+      "used_by_geometry": true,
+      "material_bindings": [
+        {
+          "material_index": 19,
+          "material_name": "EMPTY_CASE_BRASS",
+          "used_by_geometry": true,
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture"
+        }
+      ],
+      "sampler": "glTF default sampler"
+    }
+  ],
+  "samplers": [],
+  "materials": [
+    {
+      "material_index": 0,
+      "name": "PRESERVED_INTERIOR_NORMAL_MASTER",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "PRESERVED_INTERIOR_NORMAL_MASTER",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.62,
+            0.65,
+            0.64,
+            1
+          ],
+          "metallicFactor": 0.05,
+          "roughnessFactor": 0.86
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 1,
+      "name": "PRESERVED_SKIN_NORMAL_MASTER",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "PRESERVED_SKIN_NORMAL_MASTER",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.66,
+            0.69,
+            0.68,
+            1
+          ],
+          "metallicFactor": 0.12,
+          "roughnessFactor": 0.64
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 2,
+      "name": "REPLACEABLE_NEUTRAL_AIRFRAME",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "REPLACEABLE_NEUTRAL_AIRFRAME",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.51,
+            0.55,
+            0.56,
+            1
+          ],
+          "metallicFactor": 0.12,
+          "roughnessFactor": 0.68
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 3,
+      "name": "BAY_INTERIOR_DARK",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "BAY_INTERIOR_DARK",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.055,
+            0.07,
+            0.075,
+            1
+          ],
+          "metallicFactor": 0.03,
+          "roughnessFactor": 0.95
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 4,
+      "name": "ACTUATOR_METAL",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "ACTUATOR_METAL",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.36,
+            0.4,
+            0.42,
+            1
+          ],
+          "metallicFactor": 0.65,
+          "roughnessFactor": 0.33
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 5,
+      "name": "RUBBER_AND_PROPELLER",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "RUBBER_AND_PROPELLER",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.035,
+            0.045,
+            0.05,
+            1
+          ],
+          "metallicFactor": 0.07,
+          "roughnessFactor": 0.61
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 6,
+      "name": "COCKPIT_GLASS",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "COCKPIT_GLASS",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.09,
+            0.19,
+            0.24,
+            0.52
+          ],
+          "metallicFactor": 0.08,
+          "roughnessFactor": 0.2
+        },
+        "doubleSided": true,
+        "alphaMode": "BLEND"
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 7,
+      "name": "SENSOR_OPTICS",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "SENSOR_OPTICS",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.08,
+            0.22,
+            0.28,
+            1
+          ],
+          "metallicFactor": 0.25,
+          "roughnessFactor": 0.22
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 8,
+      "name": "J_DIGITAL_DISPLAY",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "J_DIGITAL_DISPLAY",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.025,
+            0.1,
+            0.09,
+            1
+          ],
+          "metallicFactor": 0.05,
+          "roughnessFactor": 0.42
+        },
+        "doubleSided": true,
+        "emissiveFactor": [
+          0.04,
+          0.28,
+          0.18
+        ]
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 9,
+      "name": "houseTint",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "houseTint",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallicFactor": 0.05,
+          "roughnessFactor": 0.65
+        },
+        "doubleSided": true
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 10,
+      "name": "GUN_PARKERIZED_DARK",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 7,
+          "mesh_name": "gun105_BARREL_AND_COLLARS",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 9,
+          "mesh_name": "gun105_BREECH_VISUAL_HOUSING",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 11,
+          "mesh_name": "gun105_CASE_EXIT_COVER",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "GUN_PARKERIZED_DARK",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.035,
+            0.043,
+            0.048,
+            1
+          ],
+          "metallicFactor": 0.62,
+          "roughnessFactor": 1,
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "doubleSided": false,
+        "extras": {
+          "finish": "original analytic material micro-roughness; no photo bake",
+          "map_channels": "G roughness, B metallic multiplier; linear data"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture",
+          "texture_index": 2,
+          "texcoord": 0,
+          "interpretation": "linear data",
+          "image_index": 2,
+          "file": "textures/image-02-gun-metallic-roughness.png"
+        }
+      ]
+    },
+    {
+      "material_index": 11,
+      "name": "GUN_MOUNT_PAINT",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 0,
+          "mesh_name": "gun105_FUSELAGE_INTERFACE_RING",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 3,
+          "mesh_name": "gun105_INBOARD_BASE",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 5,
+          "mesh_name": "gun105_TRUNNION_PLATE_L",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 6,
+          "mesh_name": "gun105_TRUNNION_PLATE_R",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 22,
+          "mesh_name": "gun105_INTERNAL_CASE_TRAY",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 23,
+          "mesh_name": "gun105_INTERNAL_CASE_TRAY_EDGE",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "GUN_MOUNT_PAINT",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.045,
+            0.055,
+            0.06,
+            1
+          ],
+          "metallicFactor": 0.26,
+          "roughnessFactor": 1,
+          "metallicRoughnessTexture": {
+            "index": 3
+          }
+        },
+        "doubleSided": false,
+        "extras": {
+          "finish": "original analytic material micro-roughness; no photo bake",
+          "map_channels": "G roughness, B metallic multiplier; linear data"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture",
+          "texture_index": 3,
+          "texcoord": 0,
+          "interpretation": "linear data",
+          "image_index": 3,
+          "file": "textures/image-03-mount-paint-metallic-roughness.png"
+        }
+      ]
+    },
+    {
+      "material_index": 12,
+      "name": "GUN_RESTRAINED_WORN_EDGES",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 8,
+          "mesh_name": "gun105_MUZZLE_RIM",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "GUN_RESTRAINED_WORN_EDGES",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.23,
+            0.25,
+            0.26,
+            1
+          ],
+          "metallicFactor": 0.82,
+          "roughnessFactor": 0.32
+        },
+        "doubleSided": false
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 13,
+      "name": "GUN_MACHINED_STEEL",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 2,
+          "mesh_name": "gun105_FLANGE_FASTENERS",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 4,
+          "mesh_name": "gun105_TRUNNION",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 17,
+          "mesh_name": "gun105_SPRING_CORE_L",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 18,
+          "mesh_name": "gun105_VISIBLE_SPRING_L",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 19,
+          "mesh_name": "gun105_SPRING_CORE_R",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 20,
+          "mesh_name": "gun105_VISIBLE_SPRING_R",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "GUN_MACHINED_STEEL",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.36,
+            0.38,
+            0.4,
+            1
+          ],
+          "metallicFactor": 0.85,
+          "roughnessFactor": 0.28
+        },
+        "doubleSided": false
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 14,
+      "name": "GUN_FLEXIBLE_CANVAS_BOOT",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 1,
+          "mesh_name": "gun105_DRAPED_APERTURE_BOOT",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "GUN_FLEXIBLE_CANVAS_BOOT",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.007,
+            0.009,
+            0.01,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 1,
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "doubleSided": false,
+        "extras": {
+          "finish": "original analytic material micro-roughness; no photo bake",
+          "map_channels": "G roughness, B metallic multiplier; linear data"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture",
+          "texture_index": 4,
+          "texcoord": 0,
+          "interpretation": "linear data",
+          "image_index": 4,
+          "file": "textures/image-04-canvas-boot-metallic-roughness.png"
+        }
+      ]
+    },
+    {
+      "material_index": 15,
+      "name": "GUN_RECESSED_CAVITY",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 10,
+          "mesh_name": "gun105_CASE_EXIT_CAVITY",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "GUN_RECESSED_CAVITY",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.006,
+            0.008,
+            0.009,
+            1
+          ],
+          "metallicFactor": 0.1,
+          "roughnessFactor": 0.85
+        },
+        "doubleSided": false
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 16,
+      "name": "GUN_105_LEGACY_GUARD_OCHRE",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 12,
+          "mesh_name": "gun105_YELLOW_GUARD_-1",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 13,
+          "mesh_name": "gun105_YELLOW_CRADLE_PLATE_-1",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 14,
+          "mesh_name": "gun105_YELLOW_GUARD_1",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 15,
+          "mesh_name": "gun105_YELLOW_CRADLE_PLATE_1",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 16,
+          "mesh_name": "gun105_GUARD_CROSSBAR",
+          "primitive_index": 0
+        },
+        {
+          "mesh_index": 21,
+          "mesh_name": "gun105_SIDE_ACTUATOR_COVER",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "GUN_105_LEGACY_GUARD_OCHRE",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.55,
+            0.37,
+            0.09,
+            1
+          ],
+          "metallicFactor": 0.3,
+          "roughnessFactor": 1,
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "doubleSided": false,
+        "extras": {
+          "finish": "original analytic material micro-roughness; no photo bake",
+          "map_channels": "G roughness, B metallic multiplier; linear data"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture",
+          "texture_index": 5,
+          "texcoord": 0,
+          "interpretation": "linear data",
+          "image_index": 5,
+          "file": "textures/image-05-ochre-guard-metallic-roughness.png"
+        }
+      ]
+    },
+    {
+      "material_index": 17,
+      "name": "GUN_CASE_BAG_KHAKI",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "GUN_CASE_BAG_KHAKI",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.32,
+            0.26,
+            0.16,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 1,
+          "metallicRoughnessTexture": {
+            "index": 6
+          }
+        },
+        "doubleSided": false,
+        "extras": {
+          "finish": "original analytic material micro-roughness; no photo bake",
+          "map_channels": "G roughness, B metallic multiplier; linear data"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture",
+          "texture_index": 6,
+          "texcoord": 0,
+          "interpretation": "linear data",
+          "image_index": 6,
+          "file": "textures/image-06-khaki-bag-metallic-roughness.png"
+        }
+      ]
+    },
+    {
+      "material_index": 18,
+      "name": "GUN_CASE_BAG_ORANGE",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "GUN_CASE_BAG_ORANGE",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.43,
+            0.18,
+            0.07,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 1,
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "doubleSided": false,
+        "extras": {
+          "finish": "original analytic material micro-roughness; no photo bake",
+          "map_channels": "G roughness, B metallic multiplier; linear data"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture",
+          "texture_index": 7,
+          "texcoord": 0,
+          "interpretation": "linear data",
+          "image_index": 7,
+          "file": "textures/image-07-orange-bag-metallic-roughness.png"
+        }
+      ]
+    },
+    {
+      "material_index": 19,
+      "name": "EMPTY_CASE_BRASS",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 24,
+          "mesh_name": "gun105_SPENT_CASE",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "EMPTY_CASE_BRASS",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.62,
+            0.4,
+            0.12,
+            1
+          ],
+          "metallicFactor": 0.82,
+          "roughnessFactor": 1,
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "doubleSided": false,
+        "extras": {
+          "finish": "original analytic material micro-roughness; no photo bake",
+          "map_channels": "G roughness, B metallic multiplier; linear data"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.metallicRoughnessTexture",
+          "texture_index": 8,
+          "texcoord": 0,
+          "interpretation": "linear data",
+          "image_index": 8,
+          "file": "textures/image-08-brass-case-metallic-roughness.png"
+        }
+      ]
+    },
+    {
+      "material_index": 20,
+      "name": "EMPTY_CASE_INNER_DARK",
+      "used_by_geometry": false,
+      "mesh_primitives": [],
+      "gltf_material": {
+        "name": "EMPTY_CASE_INNER_DARK",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.18,
+            0.11,
+            0.035,
+            1
+          ],
+          "metallicFactor": 0.62,
+          "roughnessFactor": 0.55
+        },
+        "doubleSided": false
+      },
+      "texture_bindings": []
+    },
+    {
+      "material_index": 21,
+      "name": "VISUAL_MUZZLE_FLASH",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 25,
+          "mesh_name": "gun105_MUZZLE_FLASH",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "VISUAL_MUZZLE_FLASH",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            1,
+            0.53,
+            0.12,
+            0.82
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.4,
+          "baseColorTexture": {
+            "index": 0
+          }
+        },
+        "doubleSided": true,
+        "alphaMode": "BLEND",
+        "emissiveFactor": [
+          1,
+          0.35,
+          0.045
+        ],
+        "emissiveTexture": {
+          "index": 0
+        },
+        "extras": {
+          "presentation_effect": true,
+          "texture": "original analytic soft alpha plume"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.baseColorTexture",
+          "texture_index": 0,
+          "texcoord": 0,
+          "interpretation": "sRGB RGB; linear alpha",
+          "image_index": 0,
+          "file": "textures/image-00-muzzle-flash-soft-alpha.png"
+        },
+        {
+          "property": "emissiveTexture",
+          "texture_index": 0,
+          "texcoord": 0,
+          "interpretation": "sRGB RGB; linear alpha",
+          "image_index": 0,
+          "file": "textures/image-00-muzzle-flash-soft-alpha.png"
+        }
+      ]
+    },
+    {
+      "material_index": 22,
+      "name": "VISUAL_MUZZLE_CORE",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 26,
+          "mesh_name": "gun105_MUZZLE_FLASH_CORE",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "VISUAL_MUZZLE_CORE",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            1,
+            0.91,
+            0.64,
+            0.94
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.2,
+          "baseColorTexture": {
+            "index": 0
+          }
+        },
+        "doubleSided": true,
+        "alphaMode": "BLEND",
+        "emissiveFactor": [
+          1,
+          0.85,
+          0.5
+        ],
+        "emissiveTexture": {
+          "index": 0
+        },
+        "extras": {
+          "presentation_effect": true,
+          "texture": "original analytic soft alpha plume"
+        }
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.baseColorTexture",
+          "texture_index": 0,
+          "texcoord": 0,
+          "interpretation": "sRGB RGB; linear alpha",
+          "image_index": 0,
+          "file": "textures/image-00-muzzle-flash-soft-alpha.png"
+        },
+        {
+          "property": "emissiveTexture",
+          "texture_index": 0,
+          "texcoord": 0,
+          "interpretation": "sRGB RGB; linear alpha",
+          "image_index": 0,
+          "file": "textures/image-00-muzzle-flash-soft-alpha.png"
+        }
+      ]
+    },
+    {
+      "material_index": 23,
+      "name": "VISUAL_SOFT_DISSIPATING_SMOKE",
+      "used_by_geometry": true,
+      "mesh_primitives": [
+        {
+          "mesh_index": 27,
+          "mesh_name": "gun105_MUZZLE_SMOKE",
+          "primitive_index": 0
+        }
+      ],
+      "gltf_material": {
+        "name": "VISUAL_SOFT_DISSIPATING_SMOKE",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.8,
+            0.83,
+            0.85,
+            0.45
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 1,
+          "baseColorTexture": {
+            "index": 1
+          }
+        },
+        "doubleSided": true,
+        "alphaMode": "BLEND"
+      },
+      "texture_bindings": [
+        {
+          "property": "pbrMetallicRoughness.baseColorTexture",
+          "texture_index": 1,
+          "texcoord": 0,
+          "interpretation": "sRGB RGB; linear alpha",
+          "image_index": 1,
+          "file": "textures/image-01-smoke-soft-alpha.png"
+        }
+      ]
+    }
+  ]
+}

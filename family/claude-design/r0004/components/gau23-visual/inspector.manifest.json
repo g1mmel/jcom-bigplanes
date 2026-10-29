@@ -1,0 +1,10 @@
+{
+  "file": "inspector.html",
+  "bytes": 2456965,
+  "sha256": "08685af0a205911d919e0d54d59216c430dc3669551677ad9f15ba0e1c963e9f",
+  "source_models": {
+    "gau23-visual": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053"
+  },
+  "dependencies": "three 0.170.0; embedded, no network; browser DecompressionStream gzip",
+  "runtime_render_validation": "NOT_RUN"
+}

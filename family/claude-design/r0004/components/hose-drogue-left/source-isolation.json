@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "frozen_model_sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+  "rebuilt_model_sha256": "c72ad51f2667bba55db761e077ba6a1ca80666dffd59faab819e17c5cd168cd5",
+  "byte_identical": false,
+  "comparison": "Expanded indexed geometry attributes, morph targets, node hierarchy/rest TRS, material/image bindings and every animation input/output.",
+  "absolute_tolerance": 1e-05,
+  "relative_tolerance": 0,
+  "maximum_absolute_delta": 5.994803686391794e-15,
+  "compared_arrays": 613,
+  "geometry_scalar_values": 85176,
+  "animation_scalar_values": 11270,
+  "nodes": 102,
+  "meshes": 53,
+  "animation_channels": 48,
+  "default_basket_scales": {
+    "MODULE_TANKER_LEFT_BASKET_HIGH": [
+      1,
+      1,
+      1
+    ],
+    "MODULE_TANKER_LEFT_BASKET_LOW": [
+      0,
+      0,
+      0
+    ]
+  },
+  "errors": [],
+  "qualification": "Semantic equivalence within 0.00001; floating point origin baking and metadata can prevent identical GLB bytes.",
+  "component": "hose-drogue-left",
+  "fresh_directory": true,
+  "prebuilt_input_files": 0,
+  "parent_aircraft_dependency": false,
+  "network_guard": "Python audit hook rejects socket connection/DNS/send attempts",
+  "attempted_network_calls": [],
+  "prebuilt_asset_reads": [],
+  "articulation_controls_equal": true
+}

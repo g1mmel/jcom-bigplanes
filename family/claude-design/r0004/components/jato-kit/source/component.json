@@ -1,0 +1,66 @@
+{
+  "id": "jato-kit",
+  "label": "Jato Kit",
+  "kind": "jato",
+  "origin": "C-130 aircraft reference datum; eight bottles retain their installation coordinates. No aircraft mesh or file dependency.",
+  "basis": "+X right,+Y up,nose -Z",
+  "units": "metres",
+  "frozen_model_sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+  "articulation_template": {
+    "version": "jcnc.c130-articulation/2.0",
+    "revision": "r0004",
+    "author": "claude-design",
+    "component": true,
+    "model": "jato-kit",
+    "label": "Jato Kit",
+    "file": "model.glb",
+    "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+    "controls": [
+      {
+        "id": "jato_burn",
+        "label": "JATO visual exhaust",
+        "kind": "cycle",
+        "node": "PIVOT_jato_component",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "min": 0,
+        "max": 1,
+        "rest": 0,
+        "duration": 4.8,
+        "group": "Historical equipment",
+        "clip": "jato_burn",
+        "units": "normalized visual cycle",
+        "normalized_input": true,
+        "evidence": {
+          "status": "REFERENCE_GUIDED_ARTIST_AUTHORED",
+          "sources": [
+            "https://www.dvidshub.net/image/7304591/"
+          ],
+          "limitations": "Historical bottle kit and takeoff exhaust appearance only. No thrust, propellant, ignition logic or aircraft performance model."
+        },
+        "states": {
+          "rest": "Bottles fitted, exhaust off",
+          "deployed": "Visual burn cycle complete"
+        },
+        "preview_cycles": 1
+      }
+    ],
+    "sequences": [],
+    "states": {},
+    "presets": [],
+    "effects": [],
+    "cameras": [],
+    "sim_inputs": [],
+    "units": "metres",
+    "basis": "+X right,+Y up,nose -Z",
+    "acceptance": {
+      "photographic": "NOT_ACCEPTED",
+      "native_unreal": "NOT_RUN"
+    }
+  },
+  "parent_aircraft_dependency": false,
+  "external_network_dependency": false
+}

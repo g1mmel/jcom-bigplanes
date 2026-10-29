@@ -15,10 +15,12 @@ CAMERAS={
  'hero':{'position':[-36,21,-36],'target':[0,3,0],'scale':49},
  'port':{'position':[-42,6,0],'target':[0,3,0],'scale':34},
  'cargo':{'position':[-7,5,17],'target':[0,2.4,5.3],'scale':11},
+ 'ramp-belly':{'position':[-5,-4,11],'target':[0,2.2,6.6],'scale':8},
+ 'ramp-side':{'position':[-12,2.7,6.8],'target':[0,2.2,6.6],'scale':7},
  'tanker':{'position':[-23,9,24],'target':[-12,3,5.5],'scale':24},
  'skyhook':{'position':[-13,9,-26],'target':[0,3,-14.4],'scale':15},
  'jato':{'position':[-9,5,10],'target':[-1.4,2.8,4.9],'scale':8},
- 'receiver':{'position':[-3,8,-12],'target':[0,4,-9.6],'scale':3.8},
+ 'receiver':{'position':[-3,8,-14],'target':[0,4.5,-11.85],'scale':3.8},
  'gun30':R.DEFAULT_CAMERAS['gun30-exterior'],
  'gun105':R.DEFAULT_CAMERAS['gun105-exterior'],
 }
@@ -50,10 +52,19 @@ def main():
     for field,rel in [('articulation_sha256','articulation/c130-family.json'),('controller_sha256','viewer/controller.mjs'),('pose_driver_sha256','viewer/pose-driver.mjs'),('loadout_catalog_sha256','loadouts/catalog.json')]:assert data[field]==hashfile(root/rel),(field,'stale')
     samples={s['label']:s for s in data['samples']}
     bpy.ops.wm.read_factory_settings(use_empty=True);bpy.ops.import_scene.gltf(filepath=str(glb))
-    objects=list(bpy.context.scene.objects);names=[o.name for o in objects];rest=R.capture_rest(objects)
+    objects=list(bpy.context.scene.objects);names=[o.name for o in objects]
+    # Configuration visibility is distinct from mechanical scale. Evaluate
+    # imported clips at canonical module scale, as the live viewer does; then
+    # restore each actual loadout's visibility for every render and saved scene.
+    source=R.glb_document(glb)
+    module_names={n['name']for n in source['nodes']if n.get('extras',{}).get('loadout_module_root')}
+    for o in objects:
+        if o.name in module_names:o.scale=(1,1,1)
+    bpy.context.view_layer.update();rest=R.capture_rest(objects)
     R.restore(objects,rest);R.CLIP_SCOPE=re.compile('.*')
-    source=R.glb_document(glb);clips=[x['name']for x in source.get('animations',[])]
+    clips=[x['name']for x in source.get('animations',[])]
     native=R.native_checks(objects,rest,clips)
+    native['scope']='Eight samples per imported action at canonical module scale. Tests named NLA object actions and actual matrix/vertex motion; per-loadout render visibility and flexible morph weights are checked separately. No collision or real operational certification.'
     print('claude-design NATIVE_CLIPS',native.get('result'),flush=True)
     for action in bpy.data.actions:action.use_fake_user=True
     args=argparse.Namespace(samples=12 if a.quick else 24,resolution=1100,height_ratio=.70)
@@ -73,6 +84,7 @@ def main():
     assert reopen
     camera=bpy.data.objects['SYSTEM_REVIEW_CAMERA'];lights=[bpy.data.objects['SYSTEM_REVIEW_'+x]for x in ('KEY','FILL','RIM','INTERIOR_INSPECTION')];label=bpy.data.objects['SYSTEM_REVIEW_LABEL']
     tasks=[('transport-h','LOADOUT_TRANSPORT_H','hero'),('transport-j','LOADOUT_TRANSPORT_J','hero'),('gunship-j','LOADOUT_GUNSHIP_J','hero'),('tanker-j','LOADOUT_TANKER_J','hero'),('tanker-deployed','LOADOUT_TANKER_J_DEPLOYED','tanker'),('fulton-deployed','LOADOUT_RECOVERY_E_DEPLOYED','skyhook'),('jato-active','LOADOUT_LEGACY_JATO_JATO_25','jato'),('cargo-open','SERVICE','cargo'),('gun30-panel','LOADOUT_GUNSHIP_J','gun30'),('gun105-panel','LOADOUT_GUNSHIP_J','gun105')]
+    tasks += [('ramp-closed-belly','PARKED','ramp-belly'),('ramp-closed-side','PARKED','ramp-side'),('fulton-folded','LOADOUT_RECOVERY_E','skyhook')]
     if a.views:tasks=[t for t in tasks if t[0]in a.views]
     report={'author':'claude-design','input_sha256':hashfile(glb),'snapshots_sha256':hashfile(poses),'script_sha256':hashfile(__file__),'blender_version':bpy.app.version_string,'native_animation_evaluation':native,'import':'PASS','save_reopen':'PASS' if reopen else 'FAIL','editable':{'path':str(path.relative_to(root)),'sha256':hashfile(path)},'renders':[],'browser_rendering':'NOT_RUN','native_unreal':'NOT_RUN','continuous_clearance':'NOT_PROVEN'}
     for name,pose,view in tasks:

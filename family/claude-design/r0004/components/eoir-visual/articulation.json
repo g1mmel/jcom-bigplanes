@@ -1,0 +1,186 @@
+{
+  "version": "jcnc.c130-articulation/2.0",
+  "revision": "r0003",
+  "author": "claude-design",
+  "model": "eoir-visual",
+  "label": "MX-20-family representative EO/IR visual component",
+  "file": "model.glb",
+  "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+  "units": "metres",
+  "basis": "+X right,+Y up,nose -Z",
+  "canonical_rest": "Independent system datum; optics forward -Z; gun visual axis -X",
+  "controls": [
+    {
+      "id": "eoir_yaw",
+      "label": "Eoir azimuth",
+      "kind": "rotation",
+      "node": "PIVOT_eoir_yaw",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 90,
+      "rest": 0,
+      "duration": 3.6,
+      "group": "Mission sensors",
+      "clip": "eoir_yaw",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "PHOTO_GUIDED_EXTERNAL_FORM_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.l3harris.com/all-capabilities/wescam-mx-20-air-surveillance-and-reconnaissance",
+          "https://www.l3harris.com/sites/default/files/2026-04/wescam-mx-20-eo-ir-air-surveillance-reconnaissance.png",
+          "https://www.dvidshub.net/image/5621880/73rd-amu-air-commandos-perform-post-flight-inspection-ac-130j-ghostrider-gunship"
+        ],
+        "limitations": "External form only. Exact variant, lens assignments, scale, and travel remain artist approximations. Internal stabilization and real sensor functions are not reproduced."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    },
+    {
+      "id": "eoir_pitch",
+      "label": "Eoir elevation",
+      "kind": "rotation",
+      "node": "PIVOT_eoir_pitch",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min": 0,
+      "max": 45,
+      "rest": 0,
+      "duration": 3.0,
+      "group": "Mission sensors",
+      "clip": "eoir_pitch",
+      "units": "degrees",
+      "normalized_input": true,
+      "evidence": {
+        "status": "PHOTO_GUIDED_EXTERNAL_FORM_ARTIST_AUTHORED_TRAVEL",
+        "sources": [
+          "https://www.l3harris.com/all-capabilities/wescam-mx-20-air-surveillance-and-reconnaissance",
+          "https://www.l3harris.com/sites/default/files/2026-04/wescam-mx-20-eo-ir-air-surveillance-reconnaissance.png",
+          "https://www.dvidshub.net/image/5621880/73rd-amu-air-commandos-perform-post-flight-inspection-ac-130j-ghostrider-gunship"
+        ],
+        "limitations": "External form only. Exact variant, lens assignments, scale, and travel remain artist approximations. Internal stabilization and real sensor functions are not reproduced."
+      },
+      "states": {
+        "rest": "canonical",
+        "deployed": "presentation endpoint"
+      }
+    }
+  ],
+  "sequences": [
+    {
+      "id": "actuate_everything",
+      "source": "current control inventory",
+      "policy": "concurrent compatible mechanisms; owned_by masters arbitrate; pause/reverse/reset deterministic",
+      "cargo": "upper opens before ramp; ramp closes before upper",
+      "gear": "covers clear before retraction; covers close after wheels clear"
+    }
+  ],
+  "states": {
+    "PARKED": {
+      "eoir_yaw": 0,
+      "eoir_pitch": 0
+    },
+    "SERVICE": {
+      "eoir_yaw": 0,
+      "eoir_pitch": 0
+    },
+    "FLYING": {
+      "eoir_yaw": 0,
+      "eoir_pitch": 0
+    }
+  },
+  "presets": [
+    {
+      "id": "PARKED",
+      "label": "Parked",
+      "controls": {
+        "eoir_yaw": 0,
+        "eoir_pitch": 0
+      }
+    },
+    {
+      "id": "SERVICE",
+      "label": "Service",
+      "controls": {
+        "eoir_yaw": 0,
+        "eoir_pitch": 0
+      }
+    },
+    {
+      "id": "FLYING",
+      "label": "Flying",
+      "controls": {
+        "eoir_yaw": 0,
+        "eoir_pitch": 0
+      }
+    }
+  ],
+  "effects": [],
+  "firing_profiles": [],
+  "cameras": [
+    {
+      "id": "hero",
+      "position": [
+        -3.1,
+        1.9,
+        3.1
+      ],
+      "target": [
+        0.1,
+        -0.1,
+        0
+      ]
+    },
+    {
+      "id": "internal",
+      "position": [
+        2.9,
+        1.4,
+        2.1
+      ],
+      "target": [
+        0.6,
+        -0.1,
+        0
+      ]
+    }
+  ],
+  "sim_inputs": [],
+  "openings": [],
+  "acceptance": {
+    "structural": "PENDING_CURRENT_EXPORT_QA",
+    "photographic": "NOT_ACCEPTED",
+    "native_blender": "PENDING",
+    "native_unreal": "NOT_RUN",
+    "continuous_clearance": "NOT_PROVEN",
+    "licensing": "REVIEW_REQUIRED"
+  },
+  "notes": [
+    {
+      "component": "eoir",
+      "asset": "JCNC_EOIR_MX20_FAMILY_VISUAL_r0003",
+      "root": "PIVOT_eoir_component",
+      "status": "PHOTO_GUIDED_VISUAL_APPROXIMATION_NOT_PHOTOGRAPHICALLY_ACCEPTED",
+      "references": {
+        "product": "https://www.l3harris.com/all-capabilities/wescam-mx-20-air-surveillance-and-reconnaissance",
+        "photo": "https://www.l3harris.com/sites/default/files/2026-04/wescam-mx-20-eo-ir-air-surveillance-reconnaissance.png",
+        "brochure": "https://www.l3harris.com/sites/default/files/2020-07/ims_eo_brochure_wescam_MX-20-0102AB-Brochure.pdf",
+        "w_identity": "https://www.robins.af.mil/News/Article-Display/Article/377994/mc-130w-dragon-spear-visits-robins/",
+        "j_chin": "https://www.dvidshub.net/image/5621880/73rd-amu-air-commandos-perform-post-flight-inspection-ac-130j-ghostrider-gunship"
+      },
+      "third_party_meshes": false,
+      "notes": "Independent fixed cap/yaw yoke/pitch housing. Four recessed optical windows. Appearance uses own PBR colors and roughness, not a photographic material bake."
+    }
+  ],
+  "component": true,
+  "parent_aircraft_dependency": false
+}

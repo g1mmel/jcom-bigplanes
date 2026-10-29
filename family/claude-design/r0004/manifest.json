@@ -1,0 +1,2000 @@
+{
+  "schema": "jcnc.asset-revision/4",
+  "author": "claude-design",
+  "chat_code": "cg47",
+  "revision": "r0004",
+  "created_utc": "2026-10-29",
+  "status": "DRAFT_CONFIGURABLE_FAMILY",
+  "production_accepted": false,
+  "parent": {
+    "repository": "g1mmel/jcom-bigplanes",
+    "commit": "b769b1e7ebbc0c32c25546e16054743ad37f39db",
+    "revision": "family/claude-design/r0003",
+    "model_sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93"
+  },
+  "source": {
+    "input": "source/inputs/c130-hercules-unified-r0001.glb",
+    "sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+    "licensing": "INHERITED_AIRFRAME_PROVENANCE_REVIEW_REQUIRED",
+    "third_party_component_meshes_used": false
+  },
+  "coordinate_contract": {
+    "units": "metres",
+    "up": "+Y",
+    "nose": "-Z",
+    "right": "+X"
+  },
+  "one_shared_airframe": true,
+  "loadouts": {
+    "catalogue": "loadouts/catalog.json",
+    "slots": 12,
+    "options": 28,
+    "presets": 8,
+    "controls": 44
+  },
+  "models": [
+    {
+      "id": "c130-family",
+      "file": "models/c130-family.glb",
+      "bytes": 21480060,
+      "sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+      "nodes": 768,
+      "meshes": 548,
+      "triangles_all_options": 328509,
+      "clips": 44,
+      "controls": 44,
+      "articulation": "articulation/c130-family.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": true,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "hose-drogue-left",
+      "file": "components/hose-drogue-left/model.glb",
+      "bytes": 227144,
+      "sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+      "nodes": 102,
+      "meshes": 53,
+      "triangles_all_options": 3932,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/hose-drogue-left/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "hose-drogue-right",
+      "file": "components/hose-drogue-right/model.glb",
+      "bytes": 227348,
+      "sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+      "nodes": 102,
+      "meshes": 53,
+      "triangles_all_options": 3932,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/hose-drogue-right/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "fulton-yoke",
+      "file": "components/fulton-yoke/model.glb",
+      "bytes": 28596,
+      "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+      "nodes": 15,
+      "meshes": 11,
+      "triangles_all_options": 772,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/fulton-yoke/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "jato-kit",
+      "file": "components/jato-kit/model.glb",
+      "bytes": 146684,
+      "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+      "nodes": 65,
+      "meshes": 40,
+      "triangles_all_options": 4176,
+      "clips": 1,
+      "controls": 1,
+      "articulation": "components/jato-kit/articulation.json",
+      "revision": "r0004",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "gau23-visual",
+      "file": "components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "nodes": 103,
+      "meshes": 91,
+      "triangles_all_options": 15719,
+      "clips": 4,
+      "controls": 4,
+      "articulation": "components/gau23-visual/articulation.json",
+      "revision": "r0003-preserved",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "m102-airborne-visual",
+      "file": "components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "nodes": 41,
+      "meshes": 28,
+      "triangles_all_options": 11343,
+      "clips": 4,
+      "controls": 4,
+      "articulation": "components/m102-airborne-visual/articulation.json",
+      "revision": "r0003-preserved",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    },
+    {
+      "id": "eoir-visual",
+      "file": "components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "nodes": 47,
+      "meshes": 41,
+      "triangles_all_options": 10674,
+      "clips": 2,
+      "controls": 2,
+      "articulation": "components/eoir-visual/articulation.json",
+      "revision": "r0003-preserved",
+      "parent_aircraft_dependency": false,
+      "format": {
+        "status": "PASS",
+        "errors": 0,
+        "warnings": 0
+      },
+      "native_unreal": "NOT_RUN"
+    }
+  ],
+  "component_registry": "articulation/component-registry.json",
+  "validation_reports": {
+    "format": "qa/gltf-validator-summary.json",
+    "runtime": "viewer/loadout-runtime-qa.json",
+    "portable": "viewer/portable-qa.json",
+    "native_blender": "qa/native-loadout-review.json",
+    "visual": "qa/visual-review.json",
+    "ramp": "qa/ramp-motion-audit-final.json",
+    "component_source": "qa/component-source-isolation.json",
+    "family_source": "qa/family-source-isolation.json",
+    "reuse": "components/REUSED_R0003_PROVENANCE.json",
+    "reference_fit": "qa/loadout-reference-fit-audit.md",
+    "scope": "QA_SUMMARY.md"
+  },
+  "remaining_acceptance": {
+    "photographic_fit": "NOT_ACCEPTED",
+    "photorealistic_finish": "NOT_ACCEPTED",
+    "browser_rendering": "NOT_RUN",
+    "native_unreal": "NOT_RUN",
+    "continuous_combined_clearance": "NOT_PROVEN",
+    "upper_ramp_hinge_contacts": "DECLARED_NOT_ACCEPTED",
+    "complete_MC130E_or_LC130_conversion": "NOT_INCLUDED",
+    "gameplay_damage_lod_performance": "NOT_ACCEPTED"
+  },
+  "files": [
+    {
+      "path": "QA_SUMMARY.md",
+      "bytes": 12739,
+      "sha256": "d8fed3da77dee9ff68a9a3d4e761d204f7f881beef681b8befcd8e6335cbe684",
+      "role": "QA_SUMMARY.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11698,
+      "sha256": "7e93651ee97919b7b7e5655286cab6234c01f98920e1582f3172ad618ab2864d",
+      "role": "README.md"
+    },
+    {
+      "path": "REVISION.md",
+      "bytes": 6688,
+      "sha256": "7bf300f9457ca6ce5ccc08ee123b166cc1075ee7da25d2f53ee19cc1e4618ecf",
+      "role": "REVISION.md"
+    },
+    {
+      "path": "UNREAL_HANDOFF.md",
+      "bytes": 7756,
+      "sha256": "2f077d375a620f220d3806a62d6533a5f2e1ef8dcf5ea41bd57e080d4048cced",
+      "role": "UNREAL_HANDOFF.md"
+    },
+    {
+      "path": "articulation/c130-family.json",
+      "bytes": 94358,
+      "sha256": "e7a9e3f53330c44d15b7cfd56229739af1a04267589dab9801222ddbd70e4287",
+      "role": "articulation"
+    },
+    {
+      "path": "articulation/component-registry.json",
+      "bytes": 6228,
+      "sha256": "31c6ae758240debf16ac4b3102a4af752cdecdcecc75ae60121563b29b0399ac",
+      "role": "articulation"
+    },
+    {
+      "path": "components/REUSED_R0003_PROVENANCE.json",
+      "bytes": 14313,
+      "sha256": "bc32fac96da343fba5927618db9cd9373668fd6da7ae1584275d9d27f90e5160",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/README.md",
+      "bytes": 5538,
+      "sha256": "2fada1784d71638ec00182e064936621deacc615d5aa158ff0cac052c0cba308",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/articulation.json",
+      "bytes": 5648,
+      "sha256": "9987dcb657e3091d3d07e81589914fa78249385e14d42e95f8b49ce2b80b89de",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/editable.blend",
+      "bytes": 274480,
+      "sha256": "3c5a45686da0bd6bf5493df678fa82e7d6816e4d7d186153ae604cb5be9b17ba",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/inspector.html",
+      "bytes": 2179348,
+      "sha256": "d1d85ad86dfbaf648e797b34cd971793fa2f8ac1b7790cc01a6198deb53c4e74",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/inspector.html.qa.json",
+      "bytes": 845,
+      "sha256": "9527bfb8021944cc50417199034f12879860153902e395411a6a81c713b3b186",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/inspector.manifest.json",
+      "bytes": 376,
+      "sha256": "85e706cd266b133df73fa6abfbb05f3a4dc7627c7f91b79cd12032dec367865e",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/manifest.json",
+      "bytes": 7767,
+      "sha256": "a3bb1e835828fde66931d7ffc53fe02e61a5bec64f115c5984140950303c4b24",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/materials.json",
+      "bytes": 18523,
+      "sha256": "2b080b337a0c3709d8d8fd28a3bf67c9a933730839333ec73fe4da1736cdbff9",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/component.json",
+      "bytes": 111,
+      "sha256": "53498d367f2d25dba1ec0c3e5841c2c315ec4637a19ae26444cc4c72cea3ebe3",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/source/requirements.txt",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed",
+      "role": "components"
+    },
+    {
+      "path": "components/eoir-visual/textures/README.md",
+      "bytes": 342,
+      "sha256": "98a49bc0087b44cb233cd47a8287cbfa9a499d47c0d35380077ae28653557617",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/README.md",
+      "bytes": 3531,
+      "sha256": "dc27614212f62f6700a2ee09f957b62bc48fa0e3dc474a6fe941ab3b7e3e5d0f",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/articulation.json",
+      "bytes": 1585,
+      "sha256": "63d8df21d1a82d7940cfa1073303913b31ff58bb5b15f71751a2e08b0ce62e33",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/editable.blend",
+      "bytes": 103454,
+      "sha256": "74c5a5ef972cc664bd188e7c25ff43f87773431676cb8321c9b53027230e2208",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/inspector.html",
+      "bytes": 2037713,
+      "sha256": "b61f29ad90c0b16771a32c42c86ffc740c7ae33239e01a87c5603271c3c09703",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/inspector.manifest.json",
+      "bytes": 2332,
+      "sha256": "c6a42b1ab850d4df95ba97c5ab30cb46e6ce1b1e5bcf0ed686b9562d7eb5850c",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/manifest.json",
+      "bytes": 5482,
+      "sha256": "8d25de7fb27595511df3de17072ba08c82a518fd7df2792f7cba125955660354",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/materials.json",
+      "bytes": 679,
+      "sha256": "fa87458315a91327998d3502aae7ad7324bc6b7743517e3f9567d4525a28db8c",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/model.glb",
+      "bytes": 28596,
+      "sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/native-blender.json",
+      "bytes": 4207,
+      "sha256": "36fb00280db61d817d72f2c23f4c0b4e7b1a7a48d686e98c10ea6f6d9d146702",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/native-blender.log",
+      "bytes": 1234,
+      "sha256": "cc9669f9b88fad33647f7143d01bdbc40f5f209b1fdd8c55ac58f0c30dcadde7",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/build_component.py",
+      "bytes": 2581,
+      "sha256": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/build_family.py",
+      "bytes": 41010,
+      "sha256": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/component.json",
+      "bytes": 2108,
+      "sha256": "c3e2f0b52e4956b01757b19ed699f7205ea52d14a4f80373cb60af40de54b3ec",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/family_glb.py",
+      "bytes": 8672,
+      "sha256": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/loadout_components.py",
+      "bytes": 13245,
+      "sha256": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/make_editable.py",
+      "bytes": 8137,
+      "sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source/requirements.txt",
+      "bytes": 93,
+      "sha256": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/source-isolation.json",
+      "bytes": 1145,
+      "sha256": "8846c8fe206f765119de74d65efeb233c42221aa529430c167db2fb9da5d1f78",
+      "role": "components"
+    },
+    {
+      "path": "components/fulton-yoke/textures/README.md",
+      "bytes": 144,
+      "sha256": "29bca0bffde8bda94bd390f80a2f1523d2e384e5415bf3877942907ceca4a807",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/README.md",
+      "bytes": 5294,
+      "sha256": "0c9055c236543b60b32f17c55f44f3a88783962c4a544bd6dffaff9c87e2d6b1",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/articulation.json",
+      "bytes": 8073,
+      "sha256": "29122b0ca3128086e723e3a251c669f4a17908837e0570fc3f407bd97a492bdd",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/editable.blend",
+      "bytes": 578899,
+      "sha256": "f770ce3d046f2f90036cf00bd9f1a2aa25d95a887c97c4f6f20f799d0ef9dfd7",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/inspector.html",
+      "bytes": 2456965,
+      "sha256": "08685af0a205911d919e0d54d59216c430dc3669551677ad9f15ba0e1c963e9f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/inspector.html.qa.json",
+      "bytes": 846,
+      "sha256": "8fd1a701444a3f8a28c13da9c6c6c92b73200c74edb5adb2c54f824e5a1e9242",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/inspector.manifest.json",
+      "bytes": 377,
+      "sha256": "c9e951da9d7036c23e8bd08d9631ce35a942e78c2c277a6a59eee9a0de19faba",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/manifest.json",
+      "bytes": 12134,
+      "sha256": "a30fb51b9ae63346e025ddeb52a292d7cdcab821482cbb5adf995d3dfa3acf9c",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/materials.json",
+      "bytes": 40223,
+      "sha256": "aff01e4ad2053b189d973807349dee672186d770aed64505f3f12ab7b8f3af4c",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/component.json",
+      "bytes": 111,
+      "sha256": "663ca650260e50fa53affc57765050172e2b17cc3be991ede234fc776f393977",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/source/requirements.txt",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/README.md",
+      "bytes": 678,
+      "sha256": "d0e6553e8fb64f57a9697bd05b985f854d2690eb24ffb7da72066de88af026b0",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-00-muzzle-flash-soft-alpha.png",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-01-smoke-soft-alpha.png",
+      "bytes": 4791,
+      "sha256": "f02b126e60594ec95c2be905921c83f82e4f83515927790e198ff98f7e7ea51a",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-02-gun-metallic-roughness.png",
+      "bytes": 16976,
+      "sha256": "dc61d8ce06a0e3b5de405aabe5f9b26b29fbc3c45f754ce5edb1f2e4f0e4decb",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-03-mount-paint-metallic-roughness.png",
+      "bytes": 16981,
+      "sha256": "0c4df8333bd90a130c05fb37f762ded3c6acb69c5e2c7f604cc8980f0040dda9",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-04-canvas-boot-metallic-roughness.png",
+      "bytes": 18269,
+      "sha256": "b710caacf5b5c1403a1dac3ad8871f4860dd0db345471d02be6ff7331b491929",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-05-ochre-guard-metallic-roughness.png",
+      "bytes": 16992,
+      "sha256": "93d51f17961b5c3f35a1bdbb2186a67d4d5212ab9d0aa4ccb795e863cfd953e5",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-06-khaki-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-07-orange-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/gau23-visual/textures/image-08-brass-case-metallic-roughness.png",
+      "bytes": 16975,
+      "sha256": "96f0c718eff4e69887e25d09f0063ca617729bbe312b2b1cab8fd1b853f201df",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/README.md",
+      "bytes": 3613,
+      "sha256": "5056fef2dc834d30245cb57be0fc324f86c12b60637a8b1dedfe10e1251e3073",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/articulation.json",
+      "bytes": 1546,
+      "sha256": "384efe4385e538fec57b88ac3c51da8d494488a0518f00334bc9712ddec57678",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/editable.blend",
+      "bytes": 183660,
+      "sha256": "bcdc3db7888db7dde4e4cb42042b3d1e200eb86c647b8e4f9c8a40013d8e7351",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/inspector.html",
+      "bytes": 2086041,
+      "sha256": "952fa760b476c07edb7694330e1ee2de31b9f6db089a9d7a3b53a45e1be2d31a",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/inspector.manifest.json",
+      "bytes": 2346,
+      "sha256": "2a012be9eee3a06515d644c515dccabb145e6a074e7a3b63c857c250cb90640d",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/manifest.json",
+      "bytes": 5491,
+      "sha256": "144e68684107077fef2585cfa49c61d7b78145cf91fe7054d6fc32718c6493df",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/materials.json",
+      "bytes": 1522,
+      "sha256": "1cf68bc7a3c1eff559def1ed10e86330ee1281564997b379ee1e1c9fde8a248b",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/model.glb",
+      "bytes": 227144,
+      "sha256": "92315788d86a747a049efb1b7ba5cae65b7c03af6ca934bc509cc7476d40b7eb",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/native-blender.json",
+      "bytes": 24635,
+      "sha256": "0a6397daafd8977e0a92f7e06acc2d7ed3c2bb39ea7e24ccd8e5a433ffb8bc6b",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/native-blender.log",
+      "bytes": 3973,
+      "sha256": "6cab515663107f05cf57615bae83f07119dacdf06cdb7d917b23816befac5749",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/build_component.py",
+      "bytes": 2581,
+      "sha256": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/build_family.py",
+      "bytes": 41010,
+      "sha256": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/component.json",
+      "bytes": 2124,
+      "sha256": "c1a045aeda97907e9be5ba6727ba45d180fbe8497369e84c43f51cd62ad47c1a",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/family_glb.py",
+      "bytes": 8672,
+      "sha256": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/loadout_components.py",
+      "bytes": 13245,
+      "sha256": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/make_editable.py",
+      "bytes": 8137,
+      "sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source/requirements.txt",
+      "bytes": 93,
+      "sha256": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/source-isolation.json",
+      "bytes": 1302,
+      "sha256": "3748ae6665d88774e86f11854ef8da2fc566f67ceeb216cabc6b18bd5bc6f974",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-left/textures/README.md",
+      "bytes": 144,
+      "sha256": "29bca0bffde8bda94bd390f80a2f1523d2e384e5415bf3877942907ceca4a807",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/README.md",
+      "bytes": 3614,
+      "sha256": "c439789d4f444afc51b070823830642ecfd5f1ae8ab9d168f01c2619d8914efb",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/articulation.json",
+      "bytes": 1552,
+      "sha256": "10bc4ccffe3a811e3ad3b5ddba1f19bbf8679148f3067ab7f2d52f1277cfff68",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/editable.blend",
+      "bytes": 184135,
+      "sha256": "adda78221cf0fd5c5788fd8bb88229514466907b6af2d4dec5197b7259b8b9fc",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/inspector.html",
+      "bytes": 2086043,
+      "sha256": "eaad8ca4542ad09cd59d6565558b217726b492ea8fff1629877b115fa2bdcd0b",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/inspector.manifest.json",
+      "bytes": 2349,
+      "sha256": "a45306be00bd6621ee5fb4d04aa398887d571b97e8c9213e038d186f810b2f99",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/manifest.json",
+      "bytes": 5492,
+      "sha256": "3e4bd5e5acb296478cee86d453f900d85c8dc33de1bb06bba46c30c20de15ecf",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/materials.json",
+      "bytes": 1522,
+      "sha256": "1cf68bc7a3c1eff559def1ed10e86330ee1281564997b379ee1e1c9fde8a248b",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/model.glb",
+      "bytes": 227348,
+      "sha256": "1e51bfbb25b613e6d3615dcdb49a6c1a6cf857e7cc18bdf567b23b70d086f3dd",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/native-blender.json",
+      "bytes": 25014,
+      "sha256": "a64b0baff658449be057328583e7d04fe07234f231cec8ca1485d563eb963963",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/native-blender.log",
+      "bytes": 4028,
+      "sha256": "ee48593f7a3ebc42cd4e7884da839e2c3599c0ea8304b6271f07596b02a352e3",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/build_component.py",
+      "bytes": 2581,
+      "sha256": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/build_family.py",
+      "bytes": 41010,
+      "sha256": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/component.json",
+      "bytes": 2133,
+      "sha256": "3f9d250e2c83ad46d4f66232f324cd911fb28ace53363de8332fa7a3f528ea2a",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/family_glb.py",
+      "bytes": 8672,
+      "sha256": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/loadout_components.py",
+      "bytes": 13245,
+      "sha256": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/make_editable.py",
+      "bytes": 8137,
+      "sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source/requirements.txt",
+      "bytes": 93,
+      "sha256": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/source-isolation.json",
+      "bytes": 1305,
+      "sha256": "c12fc248c17df61221bf45020619cef2e791bc6949261153550f2013d5ef36fb",
+      "role": "components"
+    },
+    {
+      "path": "components/hose-drogue-right/textures/README.md",
+      "bytes": 144,
+      "sha256": "29bca0bffde8bda94bd390f80a2f1523d2e384e5415bf3877942907ceca4a807",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/README.md",
+      "bytes": 3632,
+      "sha256": "7fa6a3219b503ef2572e97837a69442b845d656c04fdf8cf8dd65d155c2847d6",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/articulation.json",
+      "bytes": 1423,
+      "sha256": "e67003efddf8fabce7ac76102afd33134f4ad09cdef47773e79b8a798f91b411",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/editable.blend",
+      "bytes": 119652,
+      "sha256": "9a874b0b415677add5c3a1264d9d459774511dec4e4d8e96f9b4bda136d53a5a",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/inspector.html",
+      "bytes": 2043661,
+      "sha256": "45d2a7ccf2075f092da0567ba9b4f01b9bf345541439e2ee3aa2e98f282ad400",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/inspector.manifest.json",
+      "bytes": 2304,
+      "sha256": "6500577f186b670f524b6a317a35dc683f08c0b4a904f863bbaaa020cbc0ef6a",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/manifest.json",
+      "bytes": 5915,
+      "sha256": "526b59ca7d334bafb07d0ee8d5214bf608d3afc480ebf67c7dd633e69d525f59",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/materials.json",
+      "bytes": 1669,
+      "sha256": "28d770eba48893ae252578a7e8bb611c5a66fd353159b1f34ef0ca6ddef815ae",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/model.glb",
+      "bytes": 146684,
+      "sha256": "a18d1c0a0102728a2d2f4fa07cd6f70f76bcfe2d275628386bba3b68b5f5a44c",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/native-blender.json",
+      "bytes": 9900,
+      "sha256": "7bdf8dc5907b308fa852779609d4dc053adfdecb99c62ca941a3f01c702cc6b9",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/native-blender.log",
+      "bytes": 3107,
+      "sha256": "8f86196c4a855d239b32391bdcb052d636ee04961213402ee7830493129212b4",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/build_component.py",
+      "bytes": 2581,
+      "sha256": "d05c2eb8cc2e13096a2397476019b7dbbb344b3b429f2031f66c7ad92caad1ff",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/build_family.py",
+      "bytes": 41010,
+      "sha256": "8c9cd8cfbaf02bd83aa7787608bee925f97c2ad60d0b421c12c87db74042b92f",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/component.json",
+      "bytes": 1990,
+      "sha256": "ed07724234c796ccd35fee7ae91162e85e0722c2ae42934ba03200aea513209b",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/family_glb.py",
+      "bytes": 8672,
+      "sha256": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/loadout_components.py",
+      "bytes": 13245,
+      "sha256": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/make_editable.py",
+      "bytes": 8137,
+      "sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source/requirements.txt",
+      "bytes": 93,
+      "sha256": "ca07358edd14b674b9fc1c7b9bdeb44164358a49dae88280a85c6e5f00f2df52",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/source-isolation.json",
+      "bytes": 1126,
+      "sha256": "a0d9fd53a2b00b53d324e5811a8bfbb886a3e982f6810a6767fb17976eb5e442",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/textures/README.md",
+      "bytes": 162,
+      "sha256": "eb1248b13f10f28de43170e65a33055c6d30ae77f9a11cb1d3d0f243976c9893",
+      "role": "components"
+    },
+    {
+      "path": "components/jato-kit/textures/image_0.png",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/README.md",
+      "bytes": 5638,
+      "sha256": "78faab015bf1465df54081edbebd89ed3556ed1c0705dc6e8a745c820cd96695",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/articulation.json",
+      "bytes": 8281,
+      "sha256": "3b0df52bdba9998ec7aec3843bdb9bf4170aa796b04fa8044d26787d009b6f1d",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/editable.blend",
+      "bytes": 485729,
+      "sha256": "2e110cc91435887f3bed4f48e076de0d9a2ec3c11d1a31b517fda355f85d2ffe",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/inspector.html",
+      "bytes": 2413201,
+      "sha256": "02beb83e903a95855b96cc49a3bc2e3d9ff239c060a74d440005c10a95be31a5",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/inspector.html.qa.json",
+      "bytes": 854,
+      "sha256": "b7d3b0dbaaadf46d4dbdce0641a07e8fc09548d339863a0e520db700ab231273",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/inspector.manifest.json",
+      "bytes": 385,
+      "sha256": "ba747e1955aed665281004848d9a80999c5e83efa293d3ec6635cb82f1111f60",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/manifest.json",
+      "bytes": 12447,
+      "sha256": "97d110a1a491c5aef4bd9592a0de36240dd7fe2ddcc30d66c5e2d4b911e3cd9b",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/materials.json",
+      "bytes": 31912,
+      "sha256": "0e799d3d68d7cdfb8d70ae23abcf054cca155ba14c19079fab75031563cc10a4",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/component.json",
+      "bytes": 117,
+      "sha256": "d7b17d3128081aee4960e81847daa552d45393b5bf28a3a0de8cdf52a291fe25",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/source/requirements.txt",
+      "bytes": 42,
+      "sha256": "f793676a40e71a12c2d9066d4f2e342bf5d920a971a725519c00ed500c4231ed",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/README.md",
+      "bytes": 678,
+      "sha256": "d0e6553e8fb64f57a9697bd05b985f854d2690eb24ffb7da72066de88af026b0",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-00-muzzle-flash-soft-alpha.png",
+      "bytes": 4266,
+      "sha256": "32ba273da8c4aef540005ce9d358aeb4b2c6e00a3ae10f7fead88e1b08fedc98",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-01-smoke-soft-alpha.png",
+      "bytes": 4791,
+      "sha256": "f02b126e60594ec95c2be905921c83f82e4f83515927790e198ff98f7e7ea51a",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-02-gun-metallic-roughness.png",
+      "bytes": 16976,
+      "sha256": "dc61d8ce06a0e3b5de405aabe5f9b26b29fbc3c45f754ce5edb1f2e4f0e4decb",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-03-mount-paint-metallic-roughness.png",
+      "bytes": 16981,
+      "sha256": "0c4df8333bd90a130c05fb37f762ded3c6acb69c5e2c7f604cc8980f0040dda9",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-04-canvas-boot-metallic-roughness.png",
+      "bytes": 18269,
+      "sha256": "b710caacf5b5c1403a1dac3ad8871f4860dd0db345471d02be6ff7331b491929",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-05-ochre-guard-metallic-roughness.png",
+      "bytes": 16992,
+      "sha256": "93d51f17961b5c3f35a1bdbb2186a67d4d5212ab9d0aa4ccb795e863cfd953e5",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-06-khaki-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-07-orange-bag-metallic-roughness.png",
+      "bytes": 18739,
+      "sha256": "d3e5b095c503fabba27804be217c69548c0960e0466164ba40f705966813b64f",
+      "role": "components"
+    },
+    {
+      "path": "components/m102-airborne-visual/textures/image-08-brass-case-metallic-roughness.png",
+      "bytes": 16975,
+      "sha256": "96f0c718eff4e69887e25d09f0063ca617729bbe312b2b1cab8fd1b853f201df",
+      "role": "components"
+    },
+    {
+      "path": "editable/C130-family-r0004.blend",
+      "bytes": 15595544,
+      "sha256": "6f11affa884f737f4ca09d7c48a1bb149a823f61dabea0dcb328da4c3092706e",
+      "role": "editable"
+    },
+    {
+      "path": "loadouts/catalog.json",
+      "bytes": 15681,
+      "sha256": "243fd39c10655d34a3ca0439d5e71eab65ae5c2f938053c672ebbf59e8b78ee5",
+      "role": "loadouts"
+    },
+    {
+      "path": "models/c130-family.glb",
+      "bytes": 21480060,
+      "sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+      "role": "models"
+    },
+    {
+      "path": "packages/fulton-yoke-r0004.zip",
+      "bytes": 695082,
+      "sha256": "7bd7f556dfdbe7c0c38f3c82e3af15a23a126b74e89bf6bc4403a2051e76b1af",
+      "role": "packages"
+    },
+    {
+      "path": "packages/hose-drogue-left-r0004.zip",
+      "bytes": 844353,
+      "sha256": "cbc46b02b94a0655b577579081267c65081fa350b150c6504bcbbc813cf4c7ef",
+      "role": "packages"
+    },
+    {
+      "path": "packages/hose-drogue-right-r0004.zip",
+      "bytes": 845439,
+      "sha256": "6f2561851bd45560b7a1be582ff5e2b885c113a509326959378b6ff9638b5e45",
+      "role": "packages"
+    },
+    {
+      "path": "packages/jato-kit-r0004.zip",
+      "bytes": 724423,
+      "sha256": "51a5552e25d16412d94ffa781a0b0b6ea892398d416eac79d66c6e1e042aac35",
+      "role": "packages"
+    },
+    {
+      "path": "previews/loadout-cargo-open.png",
+      "bytes": 946402,
+      "sha256": "81b8b85326a73ac705c5af480e866dab3e103f3875a6bdb70547102c58a3b1f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-fulton-deployed.png",
+      "bytes": 924973,
+      "sha256": "e31a564781f8be8251c7ed92107e5f61f5104465105f7a6a7ac60356454627f0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-fulton-folded.png",
+      "bytes": 916347,
+      "sha256": "c286c32ecc6a2d7831829238726479355a076a1b71bcc51c276503bf3494208b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-gun105-panel.png",
+      "bytes": 931339,
+      "sha256": "1a026327cf0e181bf70816fbac510d5d2b89c7dd48027300feaf1568d57a22a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-gun30-panel.png",
+      "bytes": 893558,
+      "sha256": "b230082ed4a61d17cd9dc1744fdb7318d0edc294774fcd2e750e07e885aa0d11",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-gunship-j.png",
+      "bytes": 875043,
+      "sha256": "713254c50f1d02216ff3c3142e35413c6188aebad32e20b75689ab470724ba98",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-jato-active.png",
+      "bytes": 925006,
+      "sha256": "a3a4789d2726dc93bf5746745de15d620567448d7129f7d9206a7ee45d54dbc5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-ramp-closed-belly.png",
+      "bytes": 924200,
+      "sha256": "a6f56992ddf4bf44361124cb7b18995e61db28e0677fa5feb78a20f2fd365856",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-ramp-closed-side.png",
+      "bytes": 844902,
+      "sha256": "74ab4eaf63b2219963ea8032b96b2be5c1667ce5ea1ecdcb735127fc4cffa73b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-tanker-deployed.png",
+      "bytes": 892341,
+      "sha256": "a0cbdfcd039e2755ff630456ccc360358fa907eaf4b9156248baed529a8c0a9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-tanker-j.png",
+      "bytes": 874832,
+      "sha256": "4534811dac303344a58c20b9add2f602cd35660d16b7533fd459fc03ac120131",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-transport-h.png",
+      "bytes": 874275,
+      "sha256": "4bac73847cabf70f6dcb2d1eace175ee7d1583bacc0baa41ac32edc42710d14f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/loadout-transport-j.png",
+      "bytes": 875336,
+      "sha256": "ce113c37516b4314c675222152d351b419090703f0a93888cfe7d6f297560816",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-after-belly.png",
+      "bytes": 991848,
+      "sha256": "169aadab065f1abb7ba95035533c4a874a26325a47182c91ce4330dab15c655a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-after-rear.png",
+      "bytes": 1062301,
+      "sha256": "ab0a010b022ea3b08ad0f7b56c6613e61cc7c212f4eb8ffdd94783e533b67eb8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-after-rearquarter.png",
+      "bytes": 1039774,
+      "sha256": "c58c0dc6f16a28e32ae958b260367000621d6a3450ace3d3428fdef3917267bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-after-side.png",
+      "bytes": 1031847,
+      "sha256": "85e271cb82f36df5bd82a03a5901f13a2bf95d8e3f71244248287bf253515c9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-before-belly.png",
+      "bytes": 992650,
+      "sha256": "e3d21919e5b7f71d52b0c0319c9616163e697d8894f16a048713c7181251f1b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-before-rear.png",
+      "bytes": 1064651,
+      "sha256": "ed164ff6bd6dd3ee0bc3cbce5b96bf46f36639a3778d50009e1c4ba87ff631c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-before-rearquarter.png",
+      "bytes": 1040248,
+      "sha256": "2e8dc1300643104c4f22302c2f7f00f7eacde8989cbbaa6280468d8e0d88ecfe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-before-side.png",
+      "bytes": 1035224,
+      "sha256": "61c8ed8f7500d2f16b50226dfef6cb52747e9a463ece2320c00381ae14593ac8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-corner-candidate-belly.png",
+      "bytes": 930730,
+      "sha256": "3cca2f5610045be6858072dc08df594a03c2bb4c5fc297a0c4cc3c5d9b5e2a1a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-corner-candidate-side.png",
+      "bytes": 852186,
+      "sha256": "a0e0c2edf71d5e37932cfd245dc405c2db0fcecbe2aed28aa2e3f98a37bc0f2d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-final-closed-belly.png",
+      "bytes": 991877,
+      "sha256": "74a8e9418477bbbaaa8c3c2cbe2a74971a2cadf9a6d517e324fe22808c5373ce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-final-closed-side.png",
+      "bytes": 1031430,
+      "sha256": "5e0fc7a140388a660ed467a6d014806d3f54fd6d71db97987ed70418eba04b07",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-final-half-cargo.png",
+      "bytes": 1072279,
+      "sha256": "7f50be742d9ebfc89e1d32d402abc147ecf9bd2fc1c1d42e513d66cc0bda846e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-final-open-cargo.png",
+      "bytes": 1094051,
+      "sha256": "c1015b6bb79caba438a5d9e6aa5dc628fbc2985ee50bb45b8df7e8dcd2b10208",
+      "role": "previews"
+    },
+    {
+      "path": "previews/ramp-final-reset-cargo.png",
+      "bytes": 1057415,
+      "sha256": "9c0797b301b31c71516f8bcb32a9135b13fb9c27bb729a3f35d145c782ea368f",
+      "role": "previews"
+    },
+    {
+      "path": "qa/build-loadout-receipt.json",
+      "bytes": 2048,
+      "sha256": "cc8e72428e97ce2520a3b303cf0072cf8ac6ee71143e35cd855cc79eb2e66baa",
+      "role": "qa"
+    },
+    {
+      "path": "qa/c130-family.gltf-validator.json",
+      "bytes": 23028,
+      "sha256": "19a6ab33a84e03cf30b6f17718888b70982db401877765ef61cdfa62038d83d4",
+      "role": "qa"
+    },
+    {
+      "path": "qa/check-family-source.py",
+      "bytes": 3543,
+      "sha256": "bfc1d6475a8503744f473fca8698df33f3a2adf3077279a66d35580d84c4c478",
+      "role": "qa"
+    },
+    {
+      "path": "qa/component-source-isolation.json",
+      "bytes": 31298,
+      "sha256": "815ae5d377300b2315dcb5860c0b504046f34f2eb749d52eb927175f7c6b9806",
+      "role": "qa"
+    },
+    {
+      "path": "qa/eoir-visual.gltf-validator.json",
+      "bytes": 2857,
+      "sha256": "8b64250d42274c533ac9e72660821e03e0833d0b675661b979eb288540bc16f1",
+      "role": "qa"
+    },
+    {
+      "path": "qa/family-source-isolation.json",
+      "bytes": 3561,
+      "sha256": "7f5be8039d3373fe69d7c0621c59d6bddfe1c87094cbcbb9cb39a34e85e7e2a0",
+      "role": "qa"
+    },
+    {
+      "path": "qa/fulton-yoke.gltf-validator.json",
+      "bytes": 1165,
+      "sha256": "3507e5fb089e90ef97c66fc38208364dce24d0bfe42bcc8829c414fae9bc856d",
+      "role": "qa"
+    },
+    {
+      "path": "qa/gau23-visual.gltf-validator.json",
+      "bytes": 9936,
+      "sha256": "379ce037bcf0a7916f49b82c25d060eff0d7b9f3772a386ceb1d83e25102173e",
+      "role": "qa"
+    },
+    {
+      "path": "qa/gltf-validator-summary.json",
+      "bytes": 4702,
+      "sha256": "af49db194ad77823a73f9e506bf4575d420c6cba2b3803cfbfe83dfb5407b777",
+      "role": "qa"
+    },
+    {
+      "path": "qa/hose-drogue-left.gltf-validator.json",
+      "bytes": 1807,
+      "sha256": "a761190e65520ca982ffdf7c0ce3a89b30b602fb5e266410768d601a69f5d93d",
+      "role": "qa"
+    },
+    {
+      "path": "qa/hose-drogue-right.gltf-validator.json",
+      "bytes": 1809,
+      "sha256": "7d241af9585350938437a8a1a46acc914a5a881e9d754d21e0ef5d436481883b",
+      "role": "qa"
+    },
+    {
+      "path": "qa/jato-kit.gltf-validator.json",
+      "bytes": 1691,
+      "sha256": "e5a7dabc319b68092b0aade2a53b1d856cf78309ada5213f871e8a828d3aad23",
+      "role": "qa"
+    },
+    {
+      "path": "qa/loadout-reference-fit-audit.md",
+      "bytes": 13153,
+      "sha256": "27978bfeaaeb68f4420cffad6bcb8ea68a596719860330f443049e8b9b8df9d1",
+      "role": "qa"
+    },
+    {
+      "path": "qa/m102-airborne-visual.gltf-validator.json",
+      "bytes": 8142,
+      "sha256": "a76a8aaddd308796be4c9e2336dc6ca586b29d846bb5e4b5ec94993619497f62",
+      "role": "qa"
+    },
+    {
+      "path": "qa/native-loadout-review.json",
+      "bytes": 209768,
+      "sha256": "89a9bed7efab014c8a9068ac4f72808496d3d166958cdc770c560c82cccf57b5",
+      "role": "qa"
+    },
+    {
+      "path": "qa/package.json",
+      "bytes": 67,
+      "sha256": "305561156ebddbe79ffddf43dcbc73ca436b129eda25b563d31ab08b157f5843",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-REVIEW.md",
+      "bytes": 3778,
+      "sha256": "268fc885b0fea5b8a45508ec9e5df947a882068b9e1f3fe4198b1d6406786e8d",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-REVIEW.md",
+      "bytes": 3714,
+      "sha256": "fc65c0d8e4bee1b58c1029f24b78bdc3afe7e2587978eed614d5287cb11b4a4f",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-build.py",
+      "bytes": 2451,
+      "sha256": "fc409b8aa5968d2a5e1b1e4041b2be499f6e7baaeb746caa78a05ae4ad7ed9d8",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-diagnosis.json",
+      "bytes": 5135,
+      "sha256": "18b1ad0ae2d6ae8478b082a478dc0fe485cd07768974ba3e6a9d5bd7c8d67022",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-fit-candidate.json",
+      "bytes": 24025,
+      "sha256": "0a78a9ffa9c351c1a99cb270eca5d3ff23575f327851c57301678cd3e1b91f76",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-motion-candidate.json",
+      "bytes": 31158,
+      "sha256": "4b1eabb8e0b6676041012f683b845b169afcf50521a7aa851669b48b5c6cc83e",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-native.json",
+      "bytes": 1779,
+      "sha256": "806b0ce96ad5f1c5d566499adb58720108402efc6aae010055b06587c8294f07",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-native.log",
+      "bytes": 79130,
+      "sha256": "8cdd82edf7d9a1354108578df4ef980a7fc337bbb771f3ce5a1cadc61f1e5e0f",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-corner-native.py",
+      "bytes": 2080,
+      "sha256": "87e269cb8b9692c2faf8e2a234fb8a183a13bc3b3f83d24c8f12f15291ad507c",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-exact-index-equivalence.json",
+      "bytes": 705,
+      "sha256": "c58c785c172a5e0a3b5b44bc0f02433975453b38e7b24fd22f515bca5ee5a1a8",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-fit.json",
+      "bytes": 3116,
+      "sha256": "37e9e96dca678de92ecf7feed3aedfd1f10197be7b192204300bf4a891ef9061",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-master-repair.json",
+      "bytes": 28272,
+      "sha256": "cddc59f8cce17875a51e15cb0dfa4367771f9e09dd4fd8c624b7869801a68cdb",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-motion-audit-final.json",
+      "bytes": 31152,
+      "sha256": "9bfa53bf0df92573ef0224a93bd3ad309d156f2a527aaf79d9e5fc08d2486446",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-motion-audit.json",
+      "bytes": 31198,
+      "sha256": "25a180543df86356d502bd7f4dee0c7fab71bcd1eefd152cb24e2571ab17055c",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-motion-audit.py",
+      "bytes": 8520,
+      "sha256": "8f31b55b0546fad64f1e62a36649a98e0862bce959a47c780996ed1de4024944",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-native-review.json",
+      "bytes": 1484,
+      "sha256": "8b29e5ba614a481a95bd36a43276ba327cbae9a9394fef83faf4bc788c3c6b9c",
+      "role": "qa"
+    },
+    {
+      "path": "qa/ramp-sections-before.png",
+      "bytes": 74679,
+      "sha256": "88a12acad10b85d08118ed2f19622666185d3aba4e1be32ae462358bcab432cc",
+      "role": "qa"
+    },
+    {
+      "path": "qa/validate_gltf.mjs",
+      "bytes": 3823,
+      "sha256": "a37f0d36f4d8422dbf2dbdbce73d4489c570e74c4ad8680f3f3d06ac2f509cbe",
+      "role": "qa"
+    },
+    {
+      "path": "qa/viewer-poses-c130-family.json",
+      "bytes": 28293371,
+      "sha256": "7ae6d91b6aa580990cef3ff1bd2a2d90e9554eb2ed2c5a8290d1e50c6be6bad3",
+      "role": "qa"
+    },
+    {
+      "path": "qa/visual-review.json",
+      "bytes": 4229,
+      "sha256": "106861057298797b0cb446abd7cdf712211b83b075b05a5f1bf938950104defd",
+      "role": "qa"
+    },
+    {
+      "path": "references/LOADOUT_RESEARCH.md",
+      "bytes": 11579,
+      "sha256": "7308d5d5a864763a68d55ae6f2a49701383f658f64637b10795db1920d7aa240",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/ac130j-receiver-close.jpg",
+      "bytes": 122794,
+      "sha256": "46989aa5a01021dcef08af642593572d00dbb3ac8f52c6e516ca96c454e1f371",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/c130h-closed-underbelly.jpg",
+      "bytes": 110525,
+      "sha256": "ee583a502dd87f7cfb73ce5c3124b3950340239ab958784fbfb66c1377e957c9",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/fulton-history-printed31-family-diagram.png",
+      "bytes": 133386,
+      "sha256": "1944454ab3d593fdc787765f396f662f510f238065ade965cc4915d1c9867749",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/fulton-history-printed32-foldback-evidence.png",
+      "bytes": 192206,
+      "sha256": "cd33f50935b8eb570e73a64a2434bd3f1ce574116c6120211ea0eb0ff4662bc6",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/fulton-history-printed424-nose-removal.png",
+      "bytes": 405669,
+      "sha256": "3709e3bb8739a59cd5682d1c1c3491d0999c9e0ac881739a3d156ae03e86ff7c",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/kc130j-drogue-deployed.jpg",
+      "bytes": 112430,
+      "sha256": "71c3781f7cdddcc601b25548b0855725f2063092973b3fe26be0b2cb2b4883a3",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/kc130j-drogue-swap.jpg",
+      "bytes": 148537,
+      "sha256": "aa4aa79ff8535eed1af266674ab37c4aecc4b227f60ac5f4e1fc4bcd6def800f",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/lc130-jato-takeoff.jpg",
+      "bytes": 166354,
+      "sha256": "0326539960cc381c239014da78c27daa589ac6971a104ae41d14297f0eda0f74",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/mc130j-drogue-ground.jpg",
+      "bytes": 297813,
+      "sha256": "19a14e8f63f9536abbafb3e0b3bff2c2a2f33e002755aa395bac52fc0759902a",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/mc130j-pod-exterior.jpg",
+      "bytes": 193771,
+      "sha256": "db0d3e8cd3684ee878e72374498d8dd002bb744a1a4f7bb58dcdef4f1e2286aa",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-photos/ramp-closing.jpg",
+      "bytes": 274623,
+      "sha256": "89a74f54d414dbafe4c9786db5924aea7f8ac3b61aee3b71a3660e3099220493",
+      "role": "references"
+    },
+    {
+      "path": "references/loadout-reference-ledger.json",
+      "bytes": 27394,
+      "sha256": "6055cd7ae79f2be17e9a81b60efd03fff49d5a11558737d7112068184eeb65bf",
+      "role": "references"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 6935,
+      "sha256": "e1a5c63c58e5aec8e344604127c3d989f742bf683351f1d36566148bfe010018",
+      "role": "source"
+    },
+    {
+      "path": "source/blender_loadout_review.py",
+      "bytes": 7655,
+      "sha256": "cd3a47484d5ed213f324aec854a8ffa6bc79f0256dd74504c83ffaac1ce6c2e2",
+      "role": "source"
+    },
+    {
+      "path": "source/blender_review.py",
+      "bytes": 13954,
+      "sha256": "321d87ccf510ebacb49a45d44a0db6037379da5416bdbfda884ebb7653fb3c13",
+      "role": "source"
+    },
+    {
+      "path": "source/blender_systems_review.py",
+      "bytes": 30354,
+      "sha256": "dd9b31de2de6f5d2b67748372b7bfd05dbfc32e13cd456d351db41f2580aa06f",
+      "role": "source"
+    },
+    {
+      "path": "source/build_family.py",
+      "bytes": 40999,
+      "sha256": "5d919565c45b93f54c10aa1d05e4114a0a1504de386c04f237e120af875ff37b",
+      "role": "source"
+    },
+    {
+      "path": "source/build_loadout_family.py",
+      "bytes": 20204,
+      "sha256": "e616ff942e076f5d29b9acfbf472c98e47cd652413345d65033474a8be257591",
+      "role": "source"
+    },
+    {
+      "path": "source/build_systems_revision.py",
+      "bytes": 4100,
+      "sha256": "77eebcf2d6fde5047d4b04f296e924b79db7bac4c8b9284c06d6a6fd2d104a66",
+      "role": "source"
+    },
+    {
+      "path": "source/component_source.py",
+      "bytes": 2285,
+      "sha256": "38a925af8f5843da670c24e2edaf14c3062de70f0ab76fdcef0cd1b8cb75d24b",
+      "role": "source"
+    },
+    {
+      "path": "source/create_transfer.py",
+      "bytes": 2734,
+      "sha256": "ccecd25dfc7eba2f610cb41d63ae651169c4353547cf60568423f47fe2efbcc9",
+      "role": "source"
+    },
+    {
+      "path": "source/eoir_component.py",
+      "bytes": 20099,
+      "sha256": "d4517c80b7fd902eb3e54fe8dd5d7e8db611d830df5400441a493676f0d0d0f4",
+      "role": "source"
+    },
+    {
+      "path": "source/family_glb.py",
+      "bytes": 8672,
+      "sha256": "6b053853b9c4ccce1c195526e9900927abacbb902d197cec88ad9d4fa3c4d104",
+      "role": "source"
+    },
+    {
+      "path": "source/gltf_core.py",
+      "bytes": 16908,
+      "sha256": "a1393227f56808352b318426c8b9133c9b7152e70ec3714165abafd4fe251953",
+      "role": "source"
+    },
+    {
+      "path": "source/gun_components.py",
+      "bytes": 26621,
+      "sha256": "0d871dd4e123ee5d6d329e8fd5f611d76e8fda3391d42d64f6fbefc0463dc53f",
+      "role": "source"
+    },
+    {
+      "path": "source/inputs/c130-hercules-unified-r0001.glb",
+      "bytes": 9823080,
+      "sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+      "role": "source"
+    },
+    {
+      "path": "source/inputs/r0003-ac130j-articulation.json",
+      "bytes": 54408,
+      "sha256": "e81e808602b644345106491e48bd7db4718c4bea38029ad746f3ff5c705602cb",
+      "role": "source"
+    },
+    {
+      "path": "source/inputs/r0003-ac130j.glb",
+      "bytes": 17247052,
+      "sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+      "role": "source"
+    },
+    {
+      "path": "source/loadout_components.py",
+      "bytes": 13245,
+      "sha256": "f7e3b034de893a0d1eb2f753a17ba85dc1815a1c6a310e3ad6de60905a60ea76",
+      "role": "source"
+    },
+    {
+      "path": "source/package_components_r4.py",
+      "bytes": 36303,
+      "sha256": "31f51a43cf91f7da6adeb12fcd8d62dd28163811a6bff8cf7e50c84f50e516a3",
+      "role": "source"
+    },
+    {
+      "path": "source/package_revision.py",
+      "bytes": 11944,
+      "sha256": "6162ca88264d30e6901f42ae8d6980bf800d0633998722bb0171311bc83131dd",
+      "role": "source"
+    },
+    {
+      "path": "source/ramp_repair.py",
+      "bytes": 27554,
+      "sha256": "c00cd110ac5921a41b4280d9c61a4de2a3252547d9417bf4b3d7098f923427a6",
+      "role": "source"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 101,
+      "sha256": "ba604abf6d07813bb7272c25c54873107117a75f7342bef8731d9f8dd04527c9",
+      "role": "source"
+    },
+    {
+      "path": "source/restore_delivery.py",
+      "bytes": 4499,
+      "sha256": "4331900eb1461396cf8a9a9e98e8682caceb736305f888fc0d1a01ce3099c65f",
+      "role": "source"
+    },
+    {
+      "path": "source/variants.json",
+      "bytes": 2205,
+      "sha256": "1c6b588db46d6ef4f5f72ebae324a3b1357d2106f383fb720895a5697a3ac8f1",
+      "role": "source"
+    },
+    {
+      "path": "viewer/C130-family-portable.html",
+      "bytes": 15809826,
+      "sha256": "837496fcf6ff836edcae688a7d4a2f8d729c7349af575addc490517ed658d2da",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/README.md",
+      "bytes": 5342,
+      "sha256": "5cd088d7ab0cfca5e1bc39b4dc830b2bfc275b4d904e6796909a059b66dbc40a",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/app.mjs",
+      "bytes": 25829,
+      "sha256": "5d9a3f97060fd53018decb2aff1855075515339c1df9585f5da3484c9f315901",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/build-component-inspectors.py",
+      "bytes": 29213,
+      "sha256": "d7ae739ca3ec2beae3066dcb42cc7d1c6fc3c036237e67f9962ef6eedc678aed",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/build-portable.py",
+      "bytes": 3757,
+      "sha256": "8bd043104798a7d5409938d664f867f8990a2b015062b01b85be19e7a40a1948",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/controller-qa.json",
+      "bytes": 486,
+      "sha256": "eaf4c101ba1c3a980e52dd531ef2a04b0e695019a0fd7cbcebb07f055981f556",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/controller.mjs",
+      "bytes": 11162,
+      "sha256": "f799b4ebbdaad6e44cd5406a2defbc823844e7944eba1a1650768b5efe214763",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/export-poses.mjs",
+      "bytes": 5953,
+      "sha256": "102f4545c0f8b5cee3f730eb6b3811a8d039e77255abf1a480f2dee993d177ee",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/index.html",
+      "bytes": 7429,
+      "sha256": "e443a5efee562be746d80581e9de127a3f26ee9d2fc709901d43624176e92f0f",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/loadout-runtime-qa.json",
+      "bytes": 11961,
+      "sha256": "ed0c649e820c172ecd5d5343dec1a0be8496e933c7816cee88d09423521771e5",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/loadouts.mjs",
+      "bytes": 6741,
+      "sha256": "a6b4379b5b4539145ecbd5ce8071ed37059dc8a05dc64657e59a95e5bde7bef1",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/node-module-loader.mjs",
+      "bytes": 509,
+      "sha256": "b0b3069f9780fcd3480d8a8e8c3213e831565214b9a86b2574afbd4f34433db3",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/package.json",
+      "bytes": 374,
+      "sha256": "b6f8d96fac3e8a336487f04ee81338e8b59bfa30d35b056557b5118aba7182d4",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/portable-manifest.json",
+      "bytes": 531,
+      "sha256": "ab3f54f25667bc267f194f3380b25c371aa43b01334556231f1e74d019c7a9dd",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/portable-qa.json",
+      "bytes": 869,
+      "sha256": "fdbd386edc4b031e32880d83f6556846e5cdcbc9fad34086a322cc8d8e83398b",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/pose-driver.mjs",
+      "bytes": 2382,
+      "sha256": "94a50aa546499ab22ebd3495b5ee110d535830b318a0e7d98201be3aaba07773",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/style.css",
+      "bytes": 14383,
+      "sha256": "53b670f19c2f489596b42031d2ba313136f28ec2a48c8c6029ac2fddb3439635",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/test-controller.mjs",
+      "bytes": 3510,
+      "sha256": "7fd2f3060fc743fb1cd52abe0ef3bc4e155737c3a8589837e1628622aa480978",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/test-loadouts.mjs",
+      "bytes": 12633,
+      "sha256": "151b1681a47ca6ecb850a4bb77fd4f3fc4c21f3bd750b25d2db9d76b18c84dea",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/test-models.mjs",
+      "bytes": 119,
+      "sha256": "a7c4b0040ac7b0b3061bfeaface39a6e89dafb5e294e1c1c6575068f087a69e4",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/BufferGeometryUtils.js",
+      "bytes": 31768,
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/GLTFLoader.js",
+      "bytes": 110266,
+      "sha256": "8a7db5a19d1018d79fb9a7a8b8372f317682027321a67d86023002e264ea479d",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/LICENSE.three.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/OrbitControls.js",
+      "bytes": 32134,
+      "sha256": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/PROVENANCE.json",
+      "bytes": 868,
+      "sha256": "e181a5aae2461fd99deccbfaab2743254d0f7fff238d492179cbd254e65b403e",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/vendor/three.module.js",
+      "bytes": 1314681,
+      "sha256": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+      "role": "viewer"
+    },
+    {
+      "path": "viewer/verify-portable.mjs",
+      "bytes": 3139,
+      "sha256": "8f145c78b1538c839b282f2bd51d36da801e685df7796b040621e85b51a2501f",
+      "role": "viewer"
+    }
+  ],
+  "integrity_note": "Manifest excludes itself and root SHA256SUMS; SHA256SUMS includes manifest. Intermediate ramp derivation GLB is reproducible and excluded. Hosted preservation receipts are recorded after publication."
+}

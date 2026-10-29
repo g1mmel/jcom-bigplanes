@@ -1,0 +1,474 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "status": "PASS",
+  "model_sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+  "articulation_sha256": "e7a9e3f53330c44d15b7cfd56229739af1a04267589dab9801222ddbd70e4287",
+  "catalog_sha256": "243fd39c10655d34a3ca0439d5e71eab65ae5c2f938053c672ebbf59e8b78ee5",
+  "runtime_hashes": {
+    "controller.mjs": "f799b4ebbdaad6e44cd5406a2defbc823844e7944eba1a1650768b5efe214763",
+    "pose-driver.mjs": "94a50aa546499ab22ebd3495b5ee110d535830b318a0e7d98201be3aaba07773",
+    "loadouts.mjs": "a6b4379b5b4539145ecbd5ce8071ed37059dc8a05dc64657e59a95e5bde7bef1",
+    "app.mjs": "5d9a3f97060fd53018decb2aff1855075515339c1df9585f5da3484c9f315901"
+  },
+  "scope": "Three.js 0.170.0 CPU loading of one actual family GLB. Every option, exact preset, active controls, actual clip transform and morph samples, in-place geometry identity, pause/reverse/reset, generic-import default scales, config serialization and outgoing firing/morph reset checked. Texture stubs used; browser/WebGL rendering, photographic accuracy, geometric clearance and native Unreal are NOT_RUN by this test.",
+  "one_master_scene": true,
+  "generic_import_default": "PASS",
+  "normalized_module_roots": 37,
+  "immutable_mesh_instances": 548,
+  "options": [
+    {
+      "slot": "propulsion",
+      "option": "legacy",
+      "modules": [
+        "MODULE_LEGACY_NACELLES",
+        "MODULE_LEGACY_PROP_1",
+        "MODULE_LEGACY_PROP_2",
+        "MODULE_LEGACY_PROP_3",
+        "MODULE_LEGACY_PROP_4"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "propulsion",
+      "option": "j",
+      "modules": [
+        "MODULE_J_POWERPLANTS",
+        "MODULE_J_PROP_1",
+        "MODULE_J_PROP_2",
+        "MODULE_J_PROP_3",
+        "MODULE_J_PROP_4"
+      ],
+      "active_controls": 27,
+      "meshes": 145,
+      "triangles": 248491
+    },
+    {
+      "slot": "propulsion",
+      "option": "np2000",
+      "modules": [
+        "MODULE_LEGACY_NACELLES",
+        "MODULE_NP2000_PROP_1",
+        "MODULE_NP2000_PROP_2",
+        "MODULE_NP2000_PROP_3",
+        "MODULE_NP2000_PROP_4"
+      ],
+      "active_controls": 27,
+      "meshes": 121,
+      "triangles": 249469
+    },
+    {
+      "slot": "cockpit",
+      "option": "analogue",
+      "modules": [
+        "MODULE_LEGACY_COCKPIT"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "cockpit",
+      "option": "digital",
+      "modules": [
+        "MODULE_J_DIGITAL_COCKPIT"
+      ],
+      "active_controls": 27,
+      "meshes": 127,
+      "triangles": 252933
+    },
+    {
+      "slot": "gun30",
+      "option": "blank",
+      "modules": [
+        "MODULE_GUN30_TRANSPORT"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "gun30",
+      "option": "gun",
+      "modules": [
+        "MODULE_GUN30_INSTALLATION"
+      ],
+      "active_controls": 31,
+      "meshes": 215,
+      "triangles": 270521
+    },
+    {
+      "slot": "aft_port",
+      "option": "paratroop",
+      "modules": [
+        "MODULE_GUN105_TRANSPORT"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "aft_port",
+      "option": "gun105",
+      "modules": [
+        "MODULE_GUN105_INSTALLATION"
+      ],
+      "active_controls": 30,
+      "meshes": 152,
+      "triangles": 270394
+    },
+    {
+      "slot": "external_tanks",
+      "option": "none",
+      "modules": [],
+      "active_controls": 27,
+      "meshes": 121,
+      "triangles": 252337
+    },
+    {
+      "slot": "external_tanks",
+      "option": "both",
+      "modules": [
+        "MODULE_EXTERNAL_TANK_LEFT",
+        "MODULE_EXTERNAL_TANK_RIGHT"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "nose",
+      "option": "standard",
+      "modules": [
+        "MODULE_STANDARD_NOSE"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "nose",
+      "option": "talon",
+      "modules": [
+        "MODULE_TALON_NOSE"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "receiver",
+      "option": "none",
+      "modules": [
+        "MODULE_NO_RECEIVER"
+      ],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "receiver",
+      "option": "boom",
+      "modules": [
+        "MODULE_BOOM_RECEIVER"
+      ],
+      "active_controls": 28,
+      "meshes": 128,
+      "triangles": 253446
+    },
+    {
+      "slot": "sensors",
+      "option": "none",
+      "modules": [],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "sensors",
+      "option": "chin",
+      "modules": [
+        "MODULE_EOIR_CHIN"
+      ],
+      "active_controls": 29,
+      "meshes": 166,
+      "triangles": 263903
+    },
+    {
+      "slot": "sensors",
+      "option": "dual",
+      "modules": [
+        "MODULE_EOIR_CHIN",
+        "MODULE_EOIR_PORT"
+      ],
+      "active_controls": 31,
+      "meshes": 207,
+      "triangles": 274577
+    },
+    {
+      "slot": "left_tanker",
+      "option": "none",
+      "modules": [],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "left_tanker",
+      "option": "high",
+      "modules": [
+        "MODULE_TANKER_LEFT",
+        "MODULE_TANKER_LEFT_BASKET_HIGH"
+      ],
+      "active_controls": 28,
+      "meshes": 153,
+      "triangles": 256521
+    },
+    {
+      "slot": "left_tanker",
+      "option": "low",
+      "modules": [
+        "MODULE_TANKER_LEFT",
+        "MODULE_TANKER_LEFT_BASKET_LOW"
+      ],
+      "active_controls": 28,
+      "meshes": 157,
+      "triangles": 256601
+    },
+    {
+      "slot": "right_tanker",
+      "option": "none",
+      "modules": [],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "right_tanker",
+      "option": "high",
+      "modules": [
+        "MODULE_TANKER_RIGHT",
+        "MODULE_TANKER_RIGHT_BASKET_HIGH"
+      ],
+      "active_controls": 28,
+      "meshes": 153,
+      "triangles": 256521
+    },
+    {
+      "slot": "right_tanker",
+      "option": "low",
+      "modules": [
+        "MODULE_TANKER_RIGHT",
+        "MODULE_TANKER_RIGHT_BASKET_LOW"
+      ],
+      "active_controls": 28,
+      "meshes": 157,
+      "triangles": 256601
+    },
+    {
+      "slot": "skyhook",
+      "option": "none",
+      "modules": [],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "skyhook",
+      "option": "fulton",
+      "modules": [
+        "MODULE_FULTON_SKYHOOK",
+        "MODULE_FULTON_FENDING_LINES"
+      ],
+      "active_controls": 28,
+      "meshes": 140,
+      "triangles": 254213
+    },
+    {
+      "slot": "jato",
+      "option": "none",
+      "modules": [],
+      "active_controls": 27,
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "slot": "jato",
+      "option": "eight",
+      "modules": [
+        "MODULE_JATO_EIGHT"
+      ],
+      "active_controls": 28,
+      "meshes": 165,
+      "triangles": 257405
+    }
+  ],
+  "presets": [
+    {
+      "id": "transport_h",
+      "label": "C-130H transport candidate",
+      "controls": 27,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 125,
+      "triangles": 253229
+    },
+    {
+      "id": "transport_j",
+      "label": "C-130J transport candidate",
+      "controls": 27,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 147,
+      "triangles": 248195
+    },
+    {
+      "id": "gunship_w",
+      "label": "AC-130W-style candidate · circa 2021",
+      "controls": 39,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 327,
+      "triangles": 309251
+    },
+    {
+      "id": "gunship_j",
+      "label": "AC-130J-style candidate · circa 2021",
+      "controls": 39,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 349,
+      "triangles": 304217
+    },
+    {
+      "id": "tanker_j",
+      "label": "KC-130J-style tanker candidate",
+      "controls": 29,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 203,
+      "triangles": 254779
+    },
+    {
+      "id": "recovery_e",
+      "label": "Historical Combat Talon / Fulton candidate",
+      "controls": 29,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 143,
+      "triangles": 254430
+    },
+    {
+      "id": "legacy_jato",
+      "label": "Historical legacy JATO equipment study",
+      "controls": 28,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 165,
+      "triangles": 257405
+    },
+    {
+      "id": "np2000_h",
+      "label": "C-130H NP2000-style upgrade candidate",
+      "controls": 27,
+      "coverage": "PASS",
+      "pause": "PASS",
+      "reverse": "PASS",
+      "interrupted_reverse": "PASS",
+      "reset": "PASS",
+      "meshes": 121,
+      "triangles": 249469
+    }
+  ],
+  "actual_control_transform_delta": {
+    "gun30_yaw": 0.061048541612160244,
+    "gun30_pitch": 0.10452846222910053,
+    "gun30_recoil": 0.03500000014901161,
+    "gun30_fire_cycle": 0.9999,
+    "gun105_yaw": 0.061048541612160244,
+    "gun105_pitch": 0.10452846222910053,
+    "gun105_recoil": 0.10000000149011612,
+    "gun105_fire_cycle": 1.4873999523162842,
+    "flap_right": 0.27452776020163333,
+    "aileron_right": 0.1472143957122733,
+    "elevator_right": 0.18554024712597042,
+    "flap_left": 0.27452776020163333,
+    "aileron_left": 0.1472143957122733,
+    "elevator_left": 0.18554024712597042,
+    "rudder": 0.21301625667309518,
+    "prop_1": 2,
+    "prop_2": 2,
+    "prop_3": 2,
+    "prop_4": 2,
+    "cargo_ramp": 0.2376858852732994,
+    "cargo_upper_door": 0.17364818253298778,
+    "crew_door": 0.8949343626537879,
+    "paratroop_right": 1.9999999713897705,
+    "wheel_left_1": 2,
+    "wheel_left_2": 2,
+    "gear_left": 1.2499999666213988,
+    "gear_door_left": 0.15643445816198648,
+    "wheel_right_1": 2,
+    "wheel_right_2": 2,
+    "gear_right": 1.2499999666213988,
+    "gear_door_right": 0.15643445816198648,
+    "wheel_nose": 2,
+    "gear_nose": 0.9899998855590812,
+    "gear_door_nose": 0.06975646874881818,
+    "eoir_chin_yaw": 0.7071067811865476,
+    "eoir_chin_pitch": 0.3826834370613369,
+    "eoir_port_yaw": 0.7071067811865476,
+    "eoir_port_pitch": 0.3826834370613369,
+    "paratroop_left": 1.9999999713897705,
+    "receiver_hatch": 1.0500001907348633,
+    "tanker_left_deploy": 15.299999542236328,
+    "tanker_right_deploy": 15.299999542236328,
+    "skyhook_deploy": 0.9537169517857895,
+    "jato_burn": 1
+  },
+  "actual_morph_geometry_samples": {
+    "tanker_left_deploy": {
+      "maximum_weight_delta": 1,
+      "maximum_target_vertex_displacement_m": 15.342948645037529
+    },
+    "tanker_right_deploy": {
+      "maximum_weight_delta": 1,
+      "maximum_target_vertex_displacement_m": 15.342948645037529
+    }
+  },
+  "invalid_selection_atomicity": "PASS",
+  "loadout_file_roundtrip": "PASS",
+  "outgoing_firing_reset": "PASS",
+  "outgoing_morph_reset": "PASS",
+  "compatibility_rules_exercised": [
+    "j-flightstation",
+    "legacy-flightstation",
+    "np2000-flightstation",
+    "fulton-nose",
+    "jato-historical"
+  ],
+  "reset_max_local_transform_error": 0
+}

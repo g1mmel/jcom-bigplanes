@@ -111,7 +111,10 @@ def nose_and_receiver(m):
     talon=module(m,'MODULE_TALON_NOSE');modified=nose.clone('HISTORICAL_TALON_DROOPED_RADOME')
     weight=np.clip((-modified.p[:,2]-13.65)/(14.9-13.65),0,1)
     modified.attrs['POSITION'][:,1]-=.25*weight**1.4;modified.attrs['POSITION'][:,2]-=.42*weight**1.2
-    modified.attrs['NORMAL']=make_mesh('normals',modified.p,modified.faces).attrs['NORMAL']
+    pp,group=np.unique(np.round(modified.p,6),axis=0,return_inverse=True);gn=np.zeros_like(pp)
+    f=modified.faces;fn=np.cross(modified.p[f[:,1]]-modified.p[f[:,0]],modified.p[f[:,2]]-modified.p[f[:,0]])
+    for k in range(3):np.add.at(gn,group[f[:,k]],fn)
+    modified.attrs['NORMAL']=normalize(gn[group]);modified.attrs.pop('TANGENT',None)
     modified.material=mat['radome'];m.static_mesh(modified,talon)
     # Use a real source-skin hatch as the receiving closure; no raised slab.
     hatch,body=extract(body,boxplanes([-.28,4.16,-12.35],[.28,5.5,-11.40]),'RECEIVER_DORSAL_HATCH_SOURCE')
@@ -152,15 +155,15 @@ def catalogue(m,src):
         slots.append(slot(side+'_tanker',side.title()+' outboard refuelling station',[
           option('none','Empty station'),option('high','Pod + high-speed basket',[d['module'],d['basket_high']],d['controls'],note='Basket type is a visual approximation, not calibrated aerodynamic geometry.'),
           option('low','Pod + low-speed basket',[d['module'],d['basket_low']],d['controls'],note='Baskets are separately swappable; authored size/ribs need exact type acceptance.')]))
-    d=add_skyhook(m,[0,2.9,-14.85]);components.append(('fulton-yoke',d['component_root']))
+    d=add_skyhook(m,[0,2.58,-14.85]);components.append(('fulton-yoke',d['component_root']))
     slots.append(slot('skyhook','Historical recovery equipment',[option('none','No Skyhook'),option('fulton','Fulton yoke + fending lines',[d['module'],d['guards']],d['controls'])]))
     d=add_jato(m);components.append(('jato-kit',d['component_root']))
     slots.append(slot('jato','Historical takeoff-assist kit',[option('none','No JATO bottles'),option('eight','Eight-bottle visual JATO kit',[d['module']],d['controls'],note='Historical legacy-airframe game option; not the complete ski-equipped LC-130 configuration.')]))
     blank={'propulsion':'legacy','cockpit':'analogue','gun30':'blank','aft_port':'paratroop','external_tanks':'both','nose':'standard','receiver':'none','sensors':'none','left_tanker':'none','right_tanker':'none','skyhook':'none','jato':'none'}
     def preset(id,label,status='REFERENCE_GUIDED',note='',**values):return {'id':id,'label':label,'status':status,'values':{**blank,**values},'note':note}
     presets=[preset('transport_h','C-130H transport candidate'),preset('transport_j','C-130J transport candidate',propulsion='j',cockpit='digital'),
-      preset('gunship_w','AC-130W-style · circa 2021',status='HISTORICAL',gun30='gun',aft_port='gun105',sensors='dual',receiver='boom'),
-      preset('gunship_j','AC-130J-style · circa 2021',status='HISTORICAL',propulsion='j',cockpit='digital',gun30='gun',aft_port='gun105',sensors='dual',receiver='boom'),
+      preset('gunship_w','AC-130W-style candidate · circa 2021',status='HISTORICAL',gun30='gun',aft_port='gun105',sensors='dual',receiver='boom'),
+      preset('gunship_j','AC-130J-style candidate · circa 2021',status='HISTORICAL',propulsion='j',cockpit='digital',gun30='gun',aft_port='gun105',sensors='dual',receiver='boom'),
       preset('tanker_j','KC-130J-style tanker candidate',propulsion='j',cockpit='digital',left_tanker='high',right_tanker='high'),
       preset('recovery_e','Historical Combat Talon / Fulton candidate',status='HISTORICAL',nose='talon',receiver='boom',skyhook='fulton',note='A dated recovery equipment study; exact MC-130E avionics and interior fit remain incomplete.'),
       preset('legacy_jato','Historical legacy JATO equipment study',status='HISTORICAL',jato='eight',note='Equipment study only; LC-130 skis and its full conversion are not included.'),

@@ -1,0 +1,12 @@
+{
+  "author": "claude-design",
+  "method": "Full expanded float32 attributes and ordering for every nondegenerate triangle in every mesh;58 float32-collapsed faces discarded. Animation JSON identical.",
+  "before_sha256": "cb6c283aa09787c39577da4fb7bb8857e531d07c23855e21d2926a0721187983",
+  "after_sha256": "94409fc20ed805b5574473fffad7b5b448ef9a0a279bb6678beffaebcaf875d6",
+  "before_bytes": 25207296,
+  "after_bytes": 21153196,
+  "meshes_checked": 113,
+  "collapsed_faces_removed": 58,
+  "result": "PASS",
+  "geometry_scope": "All nondegenerate surface triangles unchanged; removed fragments have zero/near-zero area<=2e-12 m^2. Source sampled sweep remains geometry-equivalent for surviving faces."
+}

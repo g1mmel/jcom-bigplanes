@@ -1,0 +1,593 @@
+{
+  "schema": "jcnc-loadout-reference-ledger-v1",
+  "author": "claude-design / c130_reference_audit",
+  "reviewed_at": "2026-10-29",
+  "scope": "Public visual/documentary references for non-operational C-130 family game-asset modular loadouts",
+  "reference_acceptance": "SCOPED_REFERENCE_REVIEW_NOT_FULL_PHOTOGRAPHIC_ACCEPTANCE",
+  "model_geometry_compared": false,
+  "selected_eras": [
+    "C-130H baseline",
+    "AC-130W circa 2020/2021",
+    "AC-130J selected-era fit must remain distinct",
+    "KC/MC-130J tanker context 2023-2025",
+    "historical MC-130E/HC-130H Fulton",
+    "historical LC-130H JATO 2003"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "C-130 Hercules",
+      "publisher": "Air Mobility Command",
+      "url": "https://www.amc.af.mil/About-Us/Fact-Sheets/Display/Article/2848932/c-130-hercules/",
+      "supports": [
+        "Common family airframe; J engine/propeller/cockpit changes require coherent variant modules."
+      ],
+      "limits": [
+        "Published fact-sheet dimension conversions contain apparent typographical errors; do not use metric conversions as a precision geometry ruler."
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "JTF-Quartz weapon system: AC-130W Stinger II",
+      "publisher": "U.S. Air Force / DVIDS",
+      "date": "2020-12-17",
+      "url": "https://www.dvidshub.net/news/385195/jtf-quartz-weapon-system-ac-130w-stinger-ii",
+      "supports": [
+        "AC-130W is a highly modified C-130H with dual EO/IR sensors, 30mm and 105mm systems."
+      ],
+      "limits": [
+        "Documents the 2020-era W configuration; does not make gunship conversion a field-swappable panel job."
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "AC-130J Ghostrider",
+      "publisher": "U.S. Air Force",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/",
+      "supports": [
+        "J-based gunship family and mission package identity."
+      ],
+      "limits": [
+        "W and J exterior geometry must not be silently conflated. Exact selected-era fit needs photographic comparison."
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "C/KC-130 Hercules / Super Hercules",
+      "publisher": "NAVAIR",
+      "url": "https://www.navair.navy.mil/product/CKC-130-Hercules-Super-Hercules",
+      "supports": [
+        "Tanker/transport roles and modular Harvest HAWK mission-kit precedent."
+      ],
+      "limits": [
+        "Use dated sources for historical Harvest HAWK fit; no claim of current 2026 fleet status."
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Harvest HAWK mission-kit installation report",
+      "publisher": "NAVAIR",
+      "date": "2012-02-23",
+      "url": "https://www.navair.navy.mil/node/18671",
+      "supports": [
+        "Derringer package replaces a paratroop door. Early sensor located in left underwing fuel tank. Left refueling pylon is replaced by a weapon launcher."
+      ],
+      "limits": [
+        "This is a specific historical configuration, not a universal station plan for every C-130."
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "MC-130J Commando II",
+      "publisher": "193rd Special Operations Wing / Air National Guard",
+      "url": "https://www.193sow.ang.af.mil/About-Us/Fact-Sheets/Display/Article/1062881/mc-130j-commando-ii/",
+      "supports": [
+        "One aircraft includes UARRSI receiver installation, tanker pods and EO/IR. Six-blade propellers and J flight deck."
+      ],
+      "limits": [
+        "Receptacle and tanker pods can coexist; exact hatch motion is not specified."
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "MC-130E Combat Talon I",
+      "publisher": "Hurlburt Field / U.S. Air Force",
+      "url": "https://www.hurlburt.af.mil/About-Us/Fact-Sheets/Fact-Sheets/Article/495225/mc-130e-combat-talon-i/",
+      "supports": [
+        "Receiver receptacle and helicopter refueling role; substantial structural and mission-suite modifications."
+      ],
+      "limits": [
+        "Legacy E historical configuration; not evidence that all module combinations exist on one operational aircraft."
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "The Praetorian STARShip: The Untold Story of the Combat Talon",
+      "author": "Jerry L. Thigpen",
+      "publisher": "Air University Press / U.S. Air Force",
+      "date": "2001",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-LPS20515/pdf/GOVPUB-D301-PURL-LPS20515.pdf",
+      "pages": {
+        "printed_31_33": "PDF pages 60-62",
+        "printed_424": "PDF page 447",
+        "printed_473": "PDF page 492"
+      },
+      "supports": [
+        "Combat Talon nose yoke is permanent and retractable; folds back along fuselage. Drooped radome distinguishes the historical Fulton nose. Fending lines connect outer wingtips to near the nose sky-anchor assembly. Cabin recovery kit is removable."
+      ],
+      "limits": [
+        "Figures 2-3 depict earlier C-130A/B installation, not an exact MC-130E orthographic template. No exact E yoke hinge angle or full endpoint photo pair accepted."
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "May 3, 1966: Fulton recovery system milestone",
+      "publisher": "Air Force Test Center",
+      "date": "2021-05-03",
+      "url": "https://www.aftc.af.mil/About-Us/History/On-This-Day-in-Test-History/Article-Display-Test-History/Article/2555277/may-3-1966-fulton-recovery-system-also-passed-an-important-milestone-when-the-f/",
+      "supports": [
+        "Historical HC-130H / MC-130E Fulton context."
+      ],
+      "limits": [
+        "Does not establish a modern J installation."
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "109th Airlift Wing aircrew tests new engine",
+      "publisher": "109th Airlift Wing / DVIDS",
+      "date": "2022-10-20",
+      "url": "https://www.dvidshub.net/news/431703/109th-airlift-wing-aircrew-tests-new-engine",
+      "supports": [
+        "Historical LC-130 JATO and later engine/NP2000 upgrades. NP2000 introduced to this fleet in 2019; JATO production ended in 1991."
+      ],
+      "limits": [
+        "A 2003 JATO image is not a current-fleet baseline. No real takeoff-performance model or operational JATO procedure is supplied."
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "Empowered Airmen from 109th AW modernize LC-130 for future fight",
+      "publisher": "U.S. Air Force",
+      "date": "2022",
+      "url": "https://www.af.mil/News/Article-Display/Article/2969577/empowered-airmen-from-109th-aw-modernize-lc-130-for-future-fight/",
+      "supports": [
+        "Modernization reduces legacy JATO dependence."
+      ],
+      "limits": [
+        "Eight-blade NP2000 LC-130H is an H-family exception; blade count alone is not an H/J identity rule."
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "4th AMU Night MX",
+      "publisher": "Hurlburt Field / U.S. Air Force",
+      "date": "2013-10-23",
+      "url": "https://www.hurlburt.af.mil/News/Photos/igpage/48/igsort/Title/?igsearch=force+support",
+      "supports": [
+        "Official caption confirms an aerial refueling door on AC-130U."
+      ],
+      "limits": [
+        "Image host was unavailable; caption is not evidence of hinge/sliding direction. Not used for geometry acceptance."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "DVIDS-383774",
+      "file": "loadout-photos/c130h-closed-underbelly.jpg",
+      "sha256": "ee583a502dd87f7cfb73ce5c3124b3950340239ab958784fbfb66c1377e957c9",
+      "bytes": 110525,
+      "pixel_size": [
+        999,
+        665
+      ],
+      "date_taken": "2011-03-10",
+      "variant": "RAAF C-130H",
+      "subject": "closed aft ramp and belly",
+      "page_url": "https://www.dvidshub.net/image/383774/red-flag-11-3",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1103/383774/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Senior Airman Brett Clashman",
+      "virin": "110310-F-KX404-314",
+      "rights": "DVIDS identifies public domain; retain military photographer credit and comply with DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Rear closure follows the upswept belly as part of the aircraft skin; visible seams are compatible with a closed ramp.",
+        "No large detached horizontal slab or broad daylight opening below the closed tail."
+      ],
+      "limitations": [
+        "Underside overview establishes silhouette, not millimeter flushness or hinge/seal dimensions.",
+        "H-family photograph; not an exact J pressure-door reference."
+      ]
+    },
+    {
+      "id": "DVIDS-3858825",
+      "file": "loadout-photos/ramp-closing.jpg",
+      "sha256": "89a74f54d414dbafe4c9786db5924aea7f8ac3b61aee3b71a3660e3099220493",
+      "bytes": 274623,
+      "pixel_size": [
+        1000,
+        667
+      ],
+      "date_taken": "2017-10-05",
+      "variant": "C-130H",
+      "subject": "intermediate ramp and upper-door closure",
+      "page_url": "https://www.dvidshub.net/image/3858825/last-tactical-training-mission",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1710/3858825/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Yasuo Osakabe",
+      "virin": "171005-F-PM645-0770",
+      "rights": "DVIDS identifies public domain; retain military photographer credit and comply with DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Interior aft view shows lower ramp rising and upper closure moving downward into the opening.",
+        "A remaining strip of daylight makes this an intermediate state, not closed-state exterior proof."
+      ],
+      "limitations": [
+        "Single frame does not certify complete mechanism travel, timing or exact seal overlap."
+      ]
+    },
+    {
+      "id": "DVIDS-7758343",
+      "file": "loadout-photos/mc130j-drogue-ground.jpg",
+      "sha256": "19a14e8f63f9536abbafb3e0b3bff2c2a2f33e002755aa395bac52fc0759902a",
+      "bytes": 297813,
+      "pixel_size": [
+        1000,
+        717
+      ],
+      "date_taken": "2023-04-15",
+      "variant": "MC-130J",
+      "subject": "pod aft mouth, hose and folded drogue",
+      "page_url": "https://www.dvidshub.net/image/7758343/airmen-inspect-mc-130j-commando-ii-refueling-pod",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2304/7758343/1000w_q95.jpg",
+      "credit": "U.S. Air National Guard / Master Sgt. Alexander Farver",
+      "virin": "230415-Z-AE229-002",
+      "rights": "DVIDS identifies public domain; retain military photographer credit and comply with DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Hose emerges from circular aft mouth of underwing pod.",
+        "Ground-laid hose is dark with pale bands.",
+        "Foreground folded basket has elongated radial ribs and gathered pale fabric around central coupling."
+      ],
+      "limitations": [
+        "Maintenance pose is not the flight-stowed endpoint.",
+        "Perspective is not a calibrated basket diameter or pod dimension."
+      ]
+    },
+    {
+      "id": "DVIDS-7758339",
+      "file": "loadout-photos/mc130j-pod-exterior.jpg",
+      "sha256": "db0d3e8cd3684ee878e72374498d8dd002bb744a1a4f7bb58dcdef4f1e2286aa",
+      "bytes": 193771,
+      "pixel_size": [
+        1000,
+        684
+      ],
+      "date_taken": "2023-04-15",
+      "variant": "MC-130J",
+      "subject": "underwing pod maintenance exterior",
+      "page_url": "https://www.dvidshub.net/image/7758339/airmen-inspect-mc-130j-commando-ii-refueling-pod",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2304/7758339/1000w_q95.jpg",
+      "credit": "U.S. Air National Guard / Master Sgt. Alexander Farver",
+      "virin": "230415-Z-AE229-009",
+      "rights": "DVIDS identifies public domain; retain military photographer credit and comply with DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Large rounded underwing pod shell and opened maintenance panel visible adjacent to engine/nacelle context."
+      ],
+      "limitations": [
+        "Frame crops the complete pod silhouette; use with pod aft-mouth photo, not alone."
+      ]
+    },
+    {
+      "id": "DVIDS-8942759",
+      "file": "loadout-photos/kc130j-drogue-swap.jpg",
+      "sha256": "aa4aa79ff8535eed1af266674ab37c4aecc4b227f60ac5f4e1fc4bcd6def800f",
+      "bytes": 148537,
+      "pixel_size": [
+        1000,
+        667
+      ],
+      "date_taken": "2025-03-25",
+      "variant": "KC-130J",
+      "subject": "low/high-speed drogue exchange",
+      "page_url": "https://www.dvidshub.net/image/8942759/marine-aerial-refueler-transport-squadron-153-trains-australia",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2503/8942759/1000w_q95.jpg",
+      "credit": "U.S. Marine Corps / Cpl. Anabelle Reed-O’Brien",
+      "virin": "250325-M-KA851-1938",
+      "rights": "DVIDS identifies public domain; retain military photographer credit and comply with DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Official caption identifies changing a low-speed drogue for a high-speed drogue.",
+        "Coupling and hose end visible while crew exchange the assembly."
+      ],
+      "limitations": [
+        "Crew obscure basket profiles: does not establish the exact shape, diameter or rib-angle difference.",
+        "Separate basket choices are supported; exact visual differentiation remains NOT_DONE."
+      ]
+    },
+    {
+      "id": "DVIDS-8289439",
+      "file": "loadout-photos/kc130j-drogue-deployed.jpg",
+      "sha256": "71c3781f7cdddcc601b25548b0855725f2063092973b3fe26be0b2cb2b4883a3",
+      "bytes": 112430,
+      "pixel_size": [
+        1000,
+        667
+      ],
+      "date_taken": "2024-03-13",
+      "variant": "KC-130J with HH-60G receiver",
+      "subject": "deployed helicopter refueling drogue",
+      "page_url": "https://www.dvidshub.net/image/8289439/joint-haar-extends-search-and-rescue-capabilities",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2403/8289439/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Staff Sgt. Jessi Roth",
+      "virin": "240313-F-PW483-1010",
+      "rights": "DVIDS identifies public domain; retain military photographer credit and comply with DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Pale fabric annulus forms a shallow funnel around central coupling; radial structural ribs visible.",
+        "Dark hose with pale bands approaches the basket; receiving helicopter provides visual context."
+      ],
+      "limitations": [
+        "Low-speed/helicopter-use context is supported, but still photo does not identify precise equipment submodel or dimensions.",
+        "Hose curve is a perspective snapshot; authored path is illustrative."
+      ]
+    },
+    {
+      "id": "DVIDS-7304591",
+      "file": "loadout-photos/lc130-jato-takeoff.jpg",
+      "sha256": "0326539960cc381c239014da78c27daa589ac6971a104ae41d14297f0eda0f74",
+      "bytes": 166354,
+      "pixel_size": [
+        1000,
+        667
+      ],
+      "date_taken": "2003-04-01",
+      "variant": "LC-130H historical",
+      "subject": "ski-equipped JATO takeoff exterior",
+      "page_url": "https://www.dvidshub.net/image/7304591/chaplain-ice",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2207/7304591/1000w_q95.jpg",
+      "credit": "Courtesy photo / Dr. Todd Valentic; published by Defense Contract Management Agency / Thomas Perry",
+      "virin": "030401-O-ZZ999-806",
+      "rights": "DVIDS labels public domain; caption specifically credits courtesy photo / Dr. Todd Valentic. Preserve both provenance and courtesy credit.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Historical four-blade ski aircraft with a bank of side-mounted JATO bottles aft of main landing-gear fairing.",
+        "Flames and disturbed snow are visible; three ski units visible from front-quarter angle."
+      ],
+      "limitations": [
+        "Historical 2003 visual; 109th fleet later adopted eight-blade NP2000.",
+        "No inference of real thrust, ignition timing, safe clearances or present stock condition."
+      ]
+    },
+    {
+      "id": "DVIDS-9074140",
+      "file": "loadout-photos/ac130j-receiver-close.jpg",
+      "sha256": "46989aa5a01021dcef08af642593572d00dbb3ac8f52c6e516ca96c454e1f371",
+      "bytes": 122794,
+      "pixel_size": [
+        1000,
+        667
+      ],
+      "date_taken": "2025-05-21 (caption and VIRIN; page date field says 2025-05-20)",
+      "variant": "AC-130J",
+      "subject": "dorsal boom receiver contact location",
+      "page_url": "https://www.dvidshub.net/image/9074140/91st-ars-refuels-1st-sow-ac-130js",
+      "public_preview_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2505/9074140/1000w_q95.jpg",
+      "credit": "U.S. Air Force / Senior Airman Zachary Foster",
+      "virin": "250521-F-IA158-1191",
+      "rights": "DVIDS identifies public domain; retain military photographer credit and comply with DVIDS visual-information restrictions. No endorsement implied.",
+      "rights_url": "https://www.dvidshub.net/about/copyright",
+      "inspected": true,
+      "inspection_method": "Downloaded public preview and visually inspected with view_image; no generated or retouched image.",
+      "role": "PRIMARY_VISUAL_REFERENCE_WITH_LIMITS",
+      "observed": [
+        "Boom contact is on dorsal centerline just above/aft of cockpit glazing with surrounding pale guide marks.",
+        "Distinct receiver installation; it is not an underwing tanker hose pod or a nose probe."
+      ],
+      "limitations": [
+        "Boom obscures door edges. Sliding versus hinged travel and both endpoints remain NOT_DONE.",
+        "2025 J detail is not exact 2021 W hatch geometry."
+      ]
+    }
+  ],
+  "document_images": [
+    {
+      "file": "loadout-photos/fulton-history-printed31-family-diagram.png",
+      "source_id": "S08",
+      "sha256": "1944454ab3d593fdc787765f396f662f510f238065ade965cc4915d1c9867749",
+      "bytes": 133386,
+      "pages": {
+        "pdf": 60,
+        "printed": 31
+      },
+      "inspected": true,
+      "inspection_method": "Rendered existing official government PDF page using PyMuPDF; no content retouching.",
+      "observed": "Plan, side and front diagrams show horizontally spread nose V and fending lines.",
+      "limitations": [
+        "Figure 2 is C-130A/B early fixed tubular installation, not MC-130E exact geometry."
+      ],
+      "rights": "USAF publication. Figure sources identify Lockheed Aircraft Corporation (1960); retirement photograph explicitly credits USAF Photo. Retain page captions/provenance. Reference-only, not a new authored texture."
+    },
+    {
+      "file": "loadout-photos/fulton-history-printed32-foldback-evidence.png",
+      "source_id": "S08",
+      "sha256": "cd33f50935b8eb570e73a64a2434bd3f1ce574116c6120211ea0eb0ff4662bc6",
+      "bytes": 192206,
+      "pages": {
+        "pdf": 61,
+        "printed": 32
+      },
+      "inspected": true,
+      "inspection_method": "Rendered existing official government PDF page using PyMuPDF; no content retouching.",
+      "observed": "Text identifies fully retractable Talon yoke and foldback along fuselage; explains drooped radome.",
+      "limitations": [
+        "Figure 3 above text remains C-130A/B; do not copy its support trusses as exact E yoke."
+      ],
+      "rights": "USAF publication. Figure sources identify Lockheed Aircraft Corporation (1960); retirement photograph explicitly credits USAF Photo. Retain page captions/provenance. Reference-only, not a new authored texture."
+    },
+    {
+      "file": "loadout-photos/fulton-history-printed424-nose-removal.png",
+      "source_id": "S08",
+      "sha256": "3709e3bb8739a59cd5682d1c1c3491d0999c9e0ac881739a3d156ae03e86ff7c",
+      "bytes": 405669,
+      "pages": {
+        "pdf": 447,
+        "printed": 424
+      },
+      "inspected": true,
+      "inspection_method": "Rendered existing official government PDF page using PyMuPDF; no content retouching.",
+      "observed": "USAF-credited photograph shows historical nose with sky-anchor assembly being removed.",
+      "limitations": [
+        "Retirement/maintenance image; neither a clean stowed endpoint nor deployed endpoint."
+      ],
+      "rights": "USAF publication. Figure sources identify Lockheed Aircraft Corporation (1960); retirement photograph explicitly credits USAF Photo. Retain page captions/provenance. Reference-only, not a new authored texture."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "topic": "ramp",
+      "status": "OBSERVED_PHOTO_PLUS_ASSET_INFERENCE",
+      "evidence": [
+        "DVIDS-383774",
+        "DVIDS-3858825"
+      ],
+      "decision": "Closed ramp must mate with the upswept aft belly silhouette. Retain sensible skin seams and hinge/seal details; reject a broad daylight gap or detached slab. Exact tolerances remain unverified."
+    },
+    {
+      "id": "C02",
+      "topic": "one-model",
+      "status": "ASSET_ARCHITECTURE_RECOMMENDATION",
+      "evidence": [
+        "S01",
+        "S02",
+        "S04",
+        "S05",
+        "S06",
+        "S08"
+      ],
+      "decision": "One master family model can expose loadouts for skin infills/apertures, systems and associated interior pieces. Operational variants remain coherent era-tagged presets; arbitrary combinations are custom game configurations."
+    },
+    {
+      "id": "C03",
+      "topic": "gun-panels",
+      "status": "DOCUMENTED_FAMILY_CHANGE_WITH_LOCAL_MATCH_PENDING",
+      "evidence": [
+        "S02",
+        "S03",
+        "S05"
+      ],
+      "decision": "Replace complete panel systems: closed skin infill versus opening/frame/seal, installed gun and relevant visible cabin geometry. Do not leave weapons or duplicate blank skin occupying an active aperture."
+    },
+    {
+      "id": "C04",
+      "topic": "tanker-receiver",
+      "status": "VERIFIED_DOCUMENTARY",
+      "evidence": [
+        "S06",
+        "S07",
+        "DVIDS-9074140"
+      ],
+      "decision": "Receiver interface and tanker pods are independent capabilities; MC aircraft may carry both. Do not apply a global receiver-versus-tanker exclusion."
+    },
+    {
+      "id": "C05",
+      "topic": "underwing-slots",
+      "status": "VERIFIED_DOCUMENTARY_FOR_DATED_FIT",
+      "evidence": [
+        "S05"
+      ],
+      "decision": "Use independent port/starboard station occupancy. Historical Harvest HAWK weapon station replaces left refueling pylon; early left-tank sensor is another specific dependent module."
+    },
+    {
+      "id": "C06",
+      "topic": "drogues",
+      "status": "OBSERVED_PHOTO_AND_CAPTION",
+      "evidence": [
+        "DVIDS-7758343",
+        "DVIDS-8289439",
+        "DVIDS-8942759"
+      ],
+      "decision": "Pod, unreeled hose, collapsed basket and deployed basket are separate geometry/state concerns. Low/high-speed basket choice is documented; exact pair of shapes remains unaccepted."
+    },
+    {
+      "id": "C07",
+      "topic": "Fulton",
+      "status": "VERIFIED_DOCUMENTARY_WITH_ENDPOINTS_PENDING",
+      "evidence": [
+        "S08",
+        "S09"
+      ],
+      "decision": "Historical legacy configuration needs drooped nose/yokes, nose-to-wing fending lines and recovery cabin/ramp equipment. Yokes spread left/right ahead of nose and fold back along fuselage. Exact pivot/travel is illustrative until endpoint references are secured."
+    },
+    {
+      "id": "C08",
+      "topic": "JATO",
+      "status": "OBSERVED_HISTORICAL_PHOTO",
+      "evidence": [
+        "DVIDS-7304591",
+        "S10",
+        "S11"
+      ],
+      "decision": "Author bracket/bottle banks and loaded/spent/reset visuals as a historical kit. Flame/smoke timing is game-authored; no operational/performance fidelity claim."
+    }
+  ],
+  "unresolved": [
+    {
+      "topic": "receiver hatch",
+      "status": "NOT_DONE",
+      "remaining": "Acquire unobscured open/closed endpoints or an authoritative motion depiction; do not call the authored travel a verified sliding or hinged mechanism."
+    },
+    {
+      "topic": "Fulton endpoints",
+      "status": "NOT_DONE",
+      "remaining": "Exact MC-130E extended and folded-back photographs and hinge geometry; inspected USAF history establishes foldback concept only."
+    },
+    {
+      "topic": "high/low-speed baskets",
+      "status": "NOT_DONE",
+      "remaining": "Clear calibrated photographs of each selected hardware type; swap photo only proves choice/interchange."
+    },
+    {
+      "topic": "new model likeness",
+      "status": "NOT_DONE",
+      "remaining": "Compare implemented model against inspected references at matched angles. This ledger is not final photographic acceptance."
+    }
+  ],
+  "rejected_as_endpoint_evidence": [
+    {
+      "file_not_copied": "fulton-balloon-display.jpg",
+      "reason": "Actual photo shows balloon display in hangar, not installed nose yoke."
+    },
+    {
+      "file_not_copied": "ramp-internal-open-airdrop.jpg",
+      "reason": "Caption says secures ramp but actual frame depicts open airdrop; not closed-ramp proof."
+    }
+  ],
+  "access_limits": [
+    "Several archive/media hosts returned HTTP errors; no exact Fulton endpoint image was accepted from inaccessible thumbnails or generated search-image descriptions.",
+    "DVIDS public preview files were downloaded and inspected; no sign-in download endpoints were used."
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "author": "claude-design",
+  "component": "fulton-yoke",
+  "model_sha256": "047d1d3b2510ddadafd93de142d33e93d50865b1819ef497436f005660839e53",
+  "status": "PASS",
+  "blender_version": "4.5.15 LTS",
+  "import": "PASS",
+  "save_reopen": "PASS",
+  "packed_images": "PASS",
+  "default_basket_scales": {},
+  "native_inventory": {
+    "objects": [
+      [
+        "FULTON_LEFT_ARM",
+        "MESH",
+        "PIVOT_fulton_left_arm"
+      ],
+      [
+        "FULTON_LEFT_GUIDE_TIP",
+        "MESH",
+        "PIVOT_fulton_left_arm"
+      ],
+      [
+        "FULTON_LEFT_HINGE",
+        "MESH",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "FULTON_LEFT_MOUNT_BRACE",
+        "MESH",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "FULTON_LEFT_SECONDARY_BRACE",
+        "MESH",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "FULTON_RIGHT_ARM",
+        "MESH",
+        "PIVOT_fulton_right_arm"
+      ],
+      [
+        "FULTON_RIGHT_GUIDE_TIP",
+        "MESH",
+        "PIVOT_fulton_right_arm"
+      ],
+      [
+        "FULTON_RIGHT_HINGE",
+        "MESH",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "FULTON_RIGHT_MOUNT_BRACE",
+        "MESH",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "FULTON_RIGHT_SECONDARY_BRACE",
+        "MESH",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "FULTON_SKY_ANCHOR_HOUSING",
+        "MESH",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "PIVOT_fulton_component",
+        "EMPTY",
+        null
+      ],
+      [
+        "PIVOT_fulton_left_arm",
+        "EMPTY",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "PIVOT_fulton_right_arm",
+        "EMPTY",
+        "PIVOT_fulton_component"
+      ],
+      [
+        "SOCKET_FULTON_PICKUP_LINE",
+        "EMPTY",
+        "PIVOT_fulton_component"
+      ]
+    ],
+    "actions": [
+      [
+        "skyhook_deploy",
+        2
+      ]
+    ],
+    "shape_keys": [],
+    "tracks": [
+      [
+        "PIVOT_fulton_left_arm",
+        "object",
+        "skyhook_deploy",
+        1
+      ],
+      [
+        "PIVOT_fulton_right_arm",
+        "object",
+        "skyhook_deploy",
+        1
+      ]
+    ],
+    "vertices": 408
+  },
+  "clips": [
+    {
+      "clip": "skyhook_deploy",
+      "status": "PASS",
+      "expected_channels": 2,
+      "native_object_tracks": 2,
+      "native_shape_key_tracks": 0,
+      "channel_peak_deltas": {
+        "PIVOT_fulton_left_arm:rotation": 1.8191519975662231,
+        "PIVOT_fulton_right_arm:rotation": 1.8191519975662231
+      },
+      "morph_local_vertex_peak_deltas_m": {},
+      "samples": [
+        {
+          "normalized_time": 0,
+          "frame": 1.0,
+          "max_channel_delta": 0.0,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.125,
+          "frame": 4.0,
+          "max_channel_delta": 0.1085280105471611,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.25,
+          "frame": 7.0,
+          "max_channel_delta": 0.38520148396492004,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.5,
+          "frame": 13.0,
+          "max_channel_delta": 0.9537169337272644,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.75,
+          "frame": 19.0,
+          "max_channel_delta": 1.534997582435608,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 0.875,
+          "frame": 22.0,
+          "max_channel_delta": 1.7520645260810852,
+          "morph_weights": {}
+        },
+        {
+          "normalized_time": 1,
+          "frame": 25.0,
+          "max_channel_delta": 1.8191519975662231,
+          "morph_weights": {}
+        }
+      ],
+      "reset_max_delta": 0.0,
+      "frame_range": [
+        1.0,
+        25.0
+      ]
+    }
+  ],
+  "editable_sha256": "74c5a5ef972cc664bd188e7c25ff43f87773431676cb8321c9b53027230e2208",
+  "script_sha256": "e058817cf26cc4be7daf2446403de9ca08534da9b9f78679fcbec3d191748d29",
+  "scope": "Actual imported object and shape-key NLA action evaluation at seven normalized samples, local evaluated morph vertices, reset, native save/reopen. No continuous collision, browser rendering or Unreal validation."
+}
