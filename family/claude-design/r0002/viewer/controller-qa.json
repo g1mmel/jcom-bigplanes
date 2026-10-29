@@ -1,0 +1,17 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "controller_sha256": "803ecd5fce313cc9b768f9792d7156c7ab1f9c9558161fb4b83ca7ecb72e6407",
+  "checks": [
+    "coverage",
+    "concurrent channels",
+    "gear/access sequencing",
+    "standalone door arbitration",
+    "pause freezes continuous phase",
+    "reverse recovery",
+    "preset transition",
+    "canonical reset",
+    "start from nonrest pose"
+  ],
+  "scope": "controller behavior only; no GPU or geometric clearance claim"
+}

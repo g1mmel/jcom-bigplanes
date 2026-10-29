@@ -1,0 +1,1 @@
+{"name":"claude-design-c130-review-viewer","private":true,"type":"module","version":"0.2.0","scripts":{"test":"node test-controller.mjs"}}

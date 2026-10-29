@@ -25,3 +25,12 @@ Prior hosted r0001 files were downloaded and rehashed successfully. Their animat
 
 ## Next action
 Correct the shared geometry basis and pivots; implement actual controls and clips; assemble variant-specific modules; inspect exports and restore the exact committed bytes.
+
+## claude-design milestone: authoring and review tools
+- Confirmed the immutable source branch still points to 65f83c26c0d03773fc1bc885728d7188a722960f.
+- Recovered the architecture, repository and unit standards directly from their authorized GitHub repositories after the Pages hub returned HTTP 403. Follow units OD-01 (-Z forward), OD-05 (one-way clips; gear0 down/1 retracted), OD-06 (uncompressed PNG/JPEG masters), OD-08 (actuator metadata) and OD-16 (Unreal metre/cm conversion).
+- Installed official Blender 4.5.15 LTS in task scratch, verified its published archive SHA-256, and successfully imported the preserved original model natively. This does not yet validate the new revision.
+- Recovered the source's detailed bounded cargo interior and separate door/ramp/wheel parts for reuse.
+- Authored a local-vendor Three.js viewer, deterministic mechanism controller and native Blender review script. Viewer model-specific checks await the new exports; browser/WebGL rendering is not claimed.
+- Selected AC-130W Stinger II circa2021 for the generic legacy-gunship slot. This is a new explicit review configuration, not a change to any AC-130U roster binding.
+

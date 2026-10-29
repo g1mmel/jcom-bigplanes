@@ -1,0 +1,16 @@
+{
+  "source_sha256": "ad3b1ff76fcff48dbb7dbc4901665f65def89f9db12d56112a00ee86389a0b12",
+  "source_file": "family/r0001/c130-hercules-unified-r0001.glb",
+  "shared_source_meshes": 24,
+  "variant_rule": "common master plus interchangeable structural/powerplant/cockpit/mission modules",
+  "outputs": [
+    {
+      "path": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002/models/c130.glb",
+      "bytes": 17239512,
+      "sha256": "4ba8d0f24f39b3e917e6df566977a25f49c9c7107ae4e68287917a59bf4e02f5",
+      "nodes": 93,
+      "meshes": 62,
+      "clips": 27
+    }
+  ]
+}
