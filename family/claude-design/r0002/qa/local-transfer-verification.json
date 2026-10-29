@@ -1,0 +1,46 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "canonical_revision": "/workspace/scratch/ebccaf89de48/claude-design-c130/family/claude-design/r0002",
+  "isolated_revision": "/workspace/scratch/ebccaf89de48/c130_delivery_roundtrip_878t0351/r0002",
+  "archive_bytes": 76318644,
+  "archive_sha256": "c664dc287a68f8908c015ef56d478c580a085e5d3933815ba7afd9b9d410a758",
+  "revision_manifest_sha256": "7250b7406e6cd7b98cae3d4669d70f16d0efe593401c0f8b6a2b1b6eb4854c6b",
+  "chunks_verified": 73,
+  "archive_members": 157,
+  "manifest_files_verified": 155,
+  "checksum_entries_verified": 156,
+  "archive_members_exact_unique_safe": "PASS",
+  "actual_restore_helper_direct_cli": "PASS (exit 0)",
+  "all_manifest_sizes_sha256": "PASS",
+  "all_SHA256SUMS_entries": "PASS",
+  "canonical_files_read_only_and_unchanged": "PASS",
+  "transport_removed_after_direct_restore": "PASS",
+  "models": [
+    {
+      "id": "c130",
+      "bytes": 13876572,
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146"
+    },
+    {
+      "id": "ac130",
+      "bytes": 14240532,
+      "sha256": "7b50ca7a5eb910f471fff2d4d411e25a55a0047405bbecc55458e25090f45046"
+    },
+    {
+      "id": "ac130j",
+      "bytes": 14006440,
+      "sha256": "b3ab255efe8de3668dd0c07b4e215b485ca316c8a09ed0863771b8376be90a62"
+    }
+  ],
+  "portable": {
+    "file": "C130-family-portable.html",
+    "bytes": 30862066,
+    "sha256": "a4d16d968d51a77c51b982d418478a1703a9021a405612cef0e9d04c96a2003c",
+    "receipt_matches": "PASS",
+    "independently_decoded_model_bytes": "PASS",
+    "browser_rendering": "NOT_RUN"
+  },
+  "restore_receipt": "/workspace/scratch/ebccaf89de48/c130_delivery_roundtrip_878t0351/r0002/qa/github-preservation-receipt.json",
+  "scope": "Independent local exact-byte transport and portable-payload restoration; not a GitHub remote receipt or browser/Unreal acceptance."
+}
