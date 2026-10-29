@@ -1,0 +1,53 @@
+name: Preserve exact C130 r0002 outputs
+
+on:
+  push:
+    branches:
+      - claude-design/c130-modular-r0002-20261028
+    paths:
+      - family/claude-design/r0002/.delivery/transfer.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: c130-r0002-exact-preservation
+  cancel-in-progress: false
+
+jobs:
+  restore-reviewed-files:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out preservation branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: family/claude-design/r0002
+      - name: Restore and verify the exact reviewed bytes
+        run: python family/claude-design/r0002/source/restore_delivery.py
+      - name: Preserve a downloadable copy before publishing
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-design-c130-r0002-reviewed-outputs
+          path: family/claude-design/r0002/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Commit restored files without rebuilding
+        env:
+          REVIEW_BRANCH: claude-design/c130-modular-r0002-20261028
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A family/claude-design/r0002
+          git commit -m 'claude-design: preserve exact reviewed C130 r0002 binaries and evidence'
+          for attempt in 1 2 3; do
+            git fetch origin "$REVIEW_BRANCH"
+            git rebase "origin/$REVIEW_BRANCH"
+            python family/claude-design/r0002/source/restore_delivery.py --verify-only
+            if git push origin "HEAD:$REVIEW_BRANCH"; then
+              exit 0
+            fi
+          done
+          echo 'Review branch advanced repeatedly; exact restored outputs remain in the workflow artifact.'
+          exit 1
