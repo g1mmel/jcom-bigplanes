@@ -1,0 +1,55 @@
+{
+  "author": "claude-design",
+  "revision": "r0004",
+  "status": "PASS",
+  "commit": "900ba6bc69731c6d3f3d7e711946ad39401ec118",
+  "verified_utc": "2026-10-29T07:19:24.182607+00:00",
+  "method": "Read-only HTTPS retrieval of exact-commit public GitHub files; SHA256 and byte length compared with reviewed local files. No credentials or writes to GitHub.",
+  "files": [
+    {
+      "path": "family/claude-design/r0004/models/c130-family.glb",
+      "sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+      "bytes": 21480060,
+      "url": "https://raw.githubusercontent.com/g1mmel/jcom-bigplanes/900ba6bc69731c6d3f3d7e711946ad39401ec118/family/claude-design/r0004/models/c130-family.glb",
+      "status": "PASS",
+      "retrieved_sha256": "118f7674ca0b8582948e4b4228acf949e851f8a1aba7b3b121eeaaffb367cc4f",
+      "retrieved_bytes": 21480060
+    },
+    {
+      "path": "family/claude-design/r0004/viewer/C130-family-portable.html",
+      "sha256": "837496fcf6ff836edcae688a7d4a2f8d729c7349af575addc490517ed658d2da",
+      "bytes": 15809826,
+      "url": "https://raw.githubusercontent.com/g1mmel/jcom-bigplanes/900ba6bc69731c6d3f3d7e711946ad39401ec118/family/claude-design/r0004/viewer/C130-family-portable.html",
+      "status": "PASS",
+      "retrieved_sha256": "837496fcf6ff836edcae688a7d4a2f8d729c7349af575addc490517ed658d2da",
+      "retrieved_bytes": 15809826
+    },
+    {
+      "path": "family/claude-design/r0004/editable/C130-family-r0004.blend",
+      "sha256": "6f11affa884f737f4ca09d7c48a1bb149a823f61dabea0dcb328da4c3092706e",
+      "bytes": 15595544,
+      "url": "https://raw.githubusercontent.com/g1mmel/jcom-bigplanes/900ba6bc69731c6d3f3d7e711946ad39401ec118/family/claude-design/r0004/editable/C130-family-r0004.blend",
+      "status": "PASS",
+      "retrieved_sha256": "6f11affa884f737f4ca09d7c48a1bb149a823f61dabea0dcb328da4c3092706e",
+      "retrieved_bytes": 15595544
+    },
+    {
+      "path": "family/claude-design/r0004/manifest.json",
+      "sha256": "6174c231427161c5d3baafeb189f190708b174643d04d7a6c36f724b7e3fa4c8",
+      "bytes": 66645,
+      "url": "https://raw.githubusercontent.com/g1mmel/jcom-bigplanes/900ba6bc69731c6d3f3d7e711946ad39401ec118/family/claude-design/r0004/manifest.json",
+      "status": "PASS",
+      "retrieved_sha256": "6174c231427161c5d3baafeb189f190708b174643d04d7a6c36f724b7e3fa4c8",
+      "retrieved_bytes": 66645
+    },
+    {
+      "path": "family/claude-design/packages/C130-family-r0004.tar.xz",
+      "sha256": "122e167b9ec3b87a136f755a1e0a2398b902331cd3141181c8ba7a51b40b3f1b",
+      "bytes": 71269000,
+      "url": "https://raw.githubusercontent.com/g1mmel/jcom-bigplanes/900ba6bc69731c6d3f3d7e711946ad39401ec118/family/claude-design/packages/C130-family-r0004.tar.xz",
+      "status": "PASS",
+      "retrieved_sha256": "122e167b9ec3b87a136f755a1e0a2398b902331cd3141181c8ba7a51b40b3f1b",
+      "retrieved_bytes": 71269000
+    }
+  ]
+}
