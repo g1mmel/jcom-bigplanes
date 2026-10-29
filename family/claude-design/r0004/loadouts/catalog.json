@@ -1,0 +1,612 @@
+{
+  "version": 1,
+  "revision": "r0004",
+  "author": "claude-design / cg47",
+  "family_id": "c130-family",
+  "default_preset": "transport_h",
+  "slots": [
+    {
+      "id": "propulsion",
+      "label": "Propulsion assembly",
+      "options": [
+        {
+          "id": "legacy",
+          "label": "Legacy four-blade / T56-style",
+          "module_roots": [
+            "MODULE_LEGACY_NACELLES",
+            "MODULE_LEGACY_PROP_1",
+            "MODULE_LEGACY_PROP_2",
+            "MODULE_LEGACY_PROP_3",
+            "MODULE_LEGACY_PROP_4"
+          ],
+          "control_ids": []
+        },
+        {
+          "id": "j",
+          "label": "J six-blade / AE2100-style",
+          "module_roots": [
+            "MODULE_J_POWERPLANTS",
+            "MODULE_J_PROP_1",
+            "MODULE_J_PROP_2",
+            "MODULE_J_PROP_3",
+            "MODULE_J_PROP_4"
+          ],
+          "control_ids": []
+        },
+        {
+          "id": "np2000",
+          "label": "Legacy eight-blade NP2000-style",
+          "module_roots": [
+            "MODULE_LEGACY_NACELLES",
+            "MODULE_NP2000_PROP_1",
+            "MODULE_NP2000_PROP_2",
+            "MODULE_NP2000_PROP_3",
+            "MODULE_NP2000_PROP_4"
+          ],
+          "control_ids": [],
+          "note": "Blade-count upgrade reference supported; exact blade section and nacelle retrofit remain approximate."
+        }
+      ]
+    },
+    {
+      "id": "cockpit",
+      "label": "Flight station",
+      "options": [
+        {
+          "id": "analogue",
+          "label": "Legacy analogue",
+          "module_roots": [
+            "MODULE_LEGACY_COCKPIT"
+          ],
+          "control_ids": []
+        },
+        {
+          "id": "digital",
+          "label": "J digital / HUD",
+          "module_roots": [
+            "MODULE_J_DIGITAL_COCKPIT"
+          ],
+          "control_ids": []
+        }
+      ]
+    },
+    {
+      "id": "gun30",
+      "label": "Forward port emplacement panel",
+      "options": [
+        {
+          "id": "blank",
+          "label": "Closed transport skin and liner",
+          "module_roots": [
+            "MODULE_GUN30_TRANSPORT"
+          ],
+          "control_ids": []
+        },
+        {
+          "id": "gun",
+          "label": "30 mm panel + internal system",
+          "module_roots": [
+            "MODULE_GUN30_INSTALLATION"
+          ],
+          "control_ids": [
+            "gun30_yaw",
+            "gun30_pitch",
+            "gun30_recoil",
+            "gun30_fire_cycle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aft_port",
+      "label": "Aft port panel / door",
+      "options": [
+        {
+          "id": "paratroop",
+          "label": "Working transport personnel door",
+          "module_roots": [
+            "MODULE_GUN105_TRANSPORT"
+          ],
+          "control_ids": [
+            "paratroop_left"
+          ]
+        },
+        {
+          "id": "gun105",
+          "label": "105 mm panel + internal system",
+          "module_roots": [
+            "MODULE_GUN105_INSTALLATION"
+          ],
+          "control_ids": [
+            "gun105_yaw",
+            "gun105_pitch",
+            "gun105_recoil",
+            "gun105_fire_cycle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external_tanks",
+      "label": "Underwing fuel tanks",
+      "options": [
+        {
+          "id": "none",
+          "label": "Removed",
+          "module_roots": [],
+          "control_ids": []
+        },
+        {
+          "id": "both",
+          "label": "Paired source fuel tanks",
+          "module_roots": [
+            "MODULE_EXTERNAL_TANK_LEFT",
+            "MODULE_EXTERNAL_TANK_RIGHT"
+          ],
+          "control_ids": []
+        }
+      ]
+    },
+    {
+      "id": "nose",
+      "label": "Nose shell",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Standard source nose",
+          "module_roots": [
+            "MODULE_STANDARD_NOSE"
+          ],
+          "control_ids": []
+        },
+        {
+          "id": "talon",
+          "label": "Historical Talon-style radome",
+          "module_roots": [
+            "MODULE_TALON_NOSE"
+          ],
+          "control_ids": [],
+          "note": "Purpose-built nose conversion visual approximation; exact contours not accepted."
+        }
+      ]
+    },
+    {
+      "id": "receiver",
+      "label": "In-flight fuel receiver",
+      "options": [
+        {
+          "id": "none",
+          "label": "No receiver / continuous skin",
+          "module_roots": [
+            "MODULE_NO_RECEIVER"
+          ],
+          "control_ids": []
+        },
+        {
+          "id": "boom",
+          "label": "Dorsal boom receptacle",
+          "module_roots": [
+            "MODULE_BOOM_RECEIVER"
+          ],
+          "control_ids": [
+            "receiver_hatch"
+          ],
+          "note": "Separate from tanker delivery pods; cover motion is illustrative."
+        }
+      ]
+    },
+    {
+      "id": "sensors",
+      "label": "EO/IR sensor installation",
+      "options": [
+        {
+          "id": "none",
+          "label": "No external EO/IR",
+          "module_roots": [],
+          "control_ids": []
+        },
+        {
+          "id": "chin",
+          "label": "Chin turret",
+          "module_roots": [
+            "MODULE_EOIR_CHIN"
+          ],
+          "control_ids": [
+            "eoir_chin_yaw",
+            "eoir_chin_pitch"
+          ]
+        },
+        {
+          "id": "dual",
+          "label": "Chin and port turrets",
+          "module_roots": [
+            "MODULE_EOIR_CHIN",
+            "MODULE_EOIR_PORT"
+          ],
+          "control_ids": [
+            "eoir_chin_yaw",
+            "eoir_chin_pitch",
+            "eoir_port_yaw",
+            "eoir_port_pitch"
+          ],
+          "note": "Representative MX-20-family visual systems; exact fit/block remains approximate."
+        }
+      ]
+    },
+    {
+      "id": "left_tanker",
+      "label": "Left outboard refuelling station",
+      "options": [
+        {
+          "id": "none",
+          "label": "Empty station",
+          "module_roots": [],
+          "control_ids": []
+        },
+        {
+          "id": "high",
+          "label": "Pod + high-speed basket",
+          "module_roots": [
+            "MODULE_TANKER_LEFT",
+            "MODULE_TANKER_LEFT_BASKET_HIGH"
+          ],
+          "control_ids": [
+            "tanker_left_deploy"
+          ],
+          "note": "Basket type is a visual approximation, not calibrated aerodynamic geometry."
+        },
+        {
+          "id": "low",
+          "label": "Pod + low-speed basket",
+          "module_roots": [
+            "MODULE_TANKER_LEFT",
+            "MODULE_TANKER_LEFT_BASKET_LOW"
+          ],
+          "control_ids": [
+            "tanker_left_deploy"
+          ],
+          "note": "Baskets are separately swappable; authored size/ribs need exact type acceptance."
+        }
+      ]
+    },
+    {
+      "id": "right_tanker",
+      "label": "Right outboard refuelling station",
+      "options": [
+        {
+          "id": "none",
+          "label": "Empty station",
+          "module_roots": [],
+          "control_ids": []
+        },
+        {
+          "id": "high",
+          "label": "Pod + high-speed basket",
+          "module_roots": [
+            "MODULE_TANKER_RIGHT",
+            "MODULE_TANKER_RIGHT_BASKET_HIGH"
+          ],
+          "control_ids": [
+            "tanker_right_deploy"
+          ],
+          "note": "Basket type is a visual approximation, not calibrated aerodynamic geometry."
+        },
+        {
+          "id": "low",
+          "label": "Pod + low-speed basket",
+          "module_roots": [
+            "MODULE_TANKER_RIGHT",
+            "MODULE_TANKER_RIGHT_BASKET_LOW"
+          ],
+          "control_ids": [
+            "tanker_right_deploy"
+          ],
+          "note": "Baskets are separately swappable; authored size/ribs need exact type acceptance."
+        }
+      ]
+    },
+    {
+      "id": "skyhook",
+      "label": "Historical recovery equipment",
+      "options": [
+        {
+          "id": "none",
+          "label": "No Skyhook",
+          "module_roots": [],
+          "control_ids": []
+        },
+        {
+          "id": "fulton",
+          "label": "Fulton yoke + fending lines",
+          "module_roots": [
+            "MODULE_FULTON_SKYHOOK",
+            "MODULE_FULTON_FENDING_LINES"
+          ],
+          "control_ids": [
+            "skyhook_deploy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jato",
+      "label": "Historical takeoff-assist kit",
+      "options": [
+        {
+          "id": "none",
+          "label": "No JATO bottles",
+          "module_roots": [],
+          "control_ids": []
+        },
+        {
+          "id": "eight",
+          "label": "Eight-bottle visual JATO kit",
+          "module_roots": [
+            "MODULE_JATO_EIGHT"
+          ],
+          "control_ids": [
+            "jato_burn"
+          ],
+          "note": "Historical legacy-airframe game option; not the complete ski-equipped LC-130 configuration."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "id": "transport_h",
+      "label": "C-130H transport candidate",
+      "status": "REFERENCE_GUIDED",
+      "values": {
+        "propulsion": "legacy",
+        "cockpit": "analogue",
+        "gun30": "blank",
+        "aft_port": "paratroop",
+        "external_tanks": "both",
+        "nose": "standard",
+        "receiver": "none",
+        "sensors": "none",
+        "left_tanker": "none",
+        "right_tanker": "none",
+        "skyhook": "none",
+        "jato": "none"
+      },
+      "note": ""
+    },
+    {
+      "id": "transport_j",
+      "label": "C-130J transport candidate",
+      "status": "REFERENCE_GUIDED",
+      "values": {
+        "propulsion": "j",
+        "cockpit": "digital",
+        "gun30": "blank",
+        "aft_port": "paratroop",
+        "external_tanks": "both",
+        "nose": "standard",
+        "receiver": "none",
+        "sensors": "none",
+        "left_tanker": "none",
+        "right_tanker": "none",
+        "skyhook": "none",
+        "jato": "none"
+      },
+      "note": ""
+    },
+    {
+      "id": "gunship_w",
+      "label": "AC-130W-style \u00b7 circa 2021",
+      "status": "HISTORICAL",
+      "values": {
+        "propulsion": "legacy",
+        "cockpit": "analogue",
+        "gun30": "gun",
+        "aft_port": "gun105",
+        "external_tanks": "both",
+        "nose": "standard",
+        "receiver": "boom",
+        "sensors": "dual",
+        "left_tanker": "none",
+        "right_tanker": "none",
+        "skyhook": "none",
+        "jato": "none"
+      },
+      "note": ""
+    },
+    {
+      "id": "gunship_j",
+      "label": "AC-130J-style \u00b7 circa 2021",
+      "status": "HISTORICAL",
+      "values": {
+        "propulsion": "j",
+        "cockpit": "digital",
+        "gun30": "gun",
+        "aft_port": "gun105",
+        "external_tanks": "both",
+        "nose": "standard",
+        "receiver": "boom",
+        "sensors": "dual",
+        "left_tanker": "none",
+        "right_tanker": "none",
+        "skyhook": "none",
+        "jato": "none"
+      },
+      "note": ""
+    },
+    {
+      "id": "tanker_j",
+      "label": "KC-130J-style tanker candidate",
+      "status": "REFERENCE_GUIDED",
+      "values": {
+        "propulsion": "j",
+        "cockpit": "digital",
+        "gun30": "blank",
+        "aft_port": "paratroop",
+        "external_tanks": "both",
+        "nose": "standard",
+        "receiver": "none",
+        "sensors": "none",
+        "left_tanker": "high",
+        "right_tanker": "high",
+        "skyhook": "none",
+        "jato": "none"
+      },
+      "note": ""
+    },
+    {
+      "id": "recovery_e",
+      "label": "Historical Combat Talon / Fulton candidate",
+      "status": "HISTORICAL",
+      "values": {
+        "propulsion": "legacy",
+        "cockpit": "analogue",
+        "gun30": "blank",
+        "aft_port": "paratroop",
+        "external_tanks": "both",
+        "nose": "talon",
+        "receiver": "boom",
+        "sensors": "none",
+        "left_tanker": "none",
+        "right_tanker": "none",
+        "skyhook": "fulton",
+        "jato": "none"
+      },
+      "note": "A dated recovery equipment study; exact MC-130E avionics and interior fit remain incomplete."
+    },
+    {
+      "id": "legacy_jato",
+      "label": "Historical legacy JATO equipment study",
+      "status": "HISTORICAL",
+      "values": {
+        "propulsion": "legacy",
+        "cockpit": "analogue",
+        "gun30": "blank",
+        "aft_port": "paratroop",
+        "external_tanks": "both",
+        "nose": "standard",
+        "receiver": "none",
+        "sensors": "none",
+        "left_tanker": "none",
+        "right_tanker": "none",
+        "skyhook": "none",
+        "jato": "eight"
+      },
+      "note": "Equipment study only; LC-130 skis and its full conversion are not included."
+    },
+    {
+      "id": "np2000_h",
+      "label": "C-130H NP2000-style upgrade candidate",
+      "status": "REFERENCE_GUIDED",
+      "values": {
+        "propulsion": "np2000",
+        "cockpit": "analogue",
+        "gun30": "blank",
+        "aft_port": "paratroop",
+        "external_tanks": "both",
+        "nose": "standard",
+        "receiver": "none",
+        "sensors": "none",
+        "left_tanker": "none",
+        "right_tanker": "none",
+        "skyhook": "none",
+        "jato": "none"
+      },
+      "note": ""
+    }
+  ],
+  "constraints": [
+    {
+      "id": "j-flightstation",
+      "when": {
+        "propulsion": "j"
+      },
+      "requires": {
+        "cockpit": [
+          "digital"
+        ],
+        "skyhook": [
+          "none"
+        ],
+        "jato": [
+          "none"
+        ]
+      },
+      "message": "J propulsion pairs with the J flight station. Skyhook and this JATO kit are historical legacy-airframe options."
+    },
+    {
+      "id": "legacy-flightstation",
+      "when": {
+        "propulsion": "legacy"
+      },
+      "requires": {
+        "cockpit": [
+          "analogue"
+        ]
+      },
+      "message": "The legacy reference preset uses the analogue flight station."
+    },
+    {
+      "id": "np2000-flightstation",
+      "when": {
+        "propulsion": "np2000"
+      },
+      "requires": {
+        "cockpit": [
+          "analogue"
+        ]
+      },
+      "message": "The modeled NP2000 retrofit retains the legacy flight station."
+    },
+    {
+      "id": "fulton-nose",
+      "when": {
+        "skyhook": "fulton"
+      },
+      "requires": {
+        "nose": [
+          "talon"
+        ],
+        "propulsion": [
+          "legacy"
+        ],
+        "gun30": [
+          "blank"
+        ],
+        "aft_port": [
+          "paratroop"
+        ],
+        "jato": [
+          "none"
+        ]
+      },
+      "message": "Historical Fulton preset requires its Talon-style nose and legacy recovery configuration. Other combinations are custom JCNC."
+    },
+    {
+      "id": "jato-historical",
+      "when": {
+        "jato": "eight"
+      },
+      "requires": {
+        "propulsion": [
+          "legacy"
+        ],
+        "gun30": [
+          "blank"
+        ],
+        "aft_port": [
+          "paratroop"
+        ],
+        "skyhook": [
+          "none"
+        ]
+      },
+      "message": "This visual JATO fit represents historical legacy aircraft; combined gunship/Fulton fits are not source-verified."
+    }
+  ],
+  "acceptance": "DRAFT_CONFIGURABLE_FAMILY",
+  "notes": [
+    "One common fuselage, cabin, flight surfaces and landing gear. Configuration changes swap local modules only.",
+    "Preset names describe reference-guided candidates, not accepted real aircraft conversions.",
+    "Unmatched selections are custom JCNC. Arbitrary combinations do not establish real compatibility."
+  ]
+}
