@@ -1,0 +1,134 @@
+{
+  "author": "claude-design",
+  "status": "PASS",
+  "verified_utc": "2026-10-29T06:08:49.702210+00:00",
+  "repository": "g1mmel/jcom-bigplanes",
+  "verified_commit": "e42851e06f18dc7fe6199839f444f55d1f3035e6",
+  "scope": "Independent HTTPS download of exact archive, manifest, six GLBs, family portable HTML and three component ZIPs; SHA-256 and byte count compared with frozen local files. The archive is byte-identical to the full local restore round trip. GitHub restoration verified all manifest-listed files without rerunning generation.",
+  "source_regeneration_executed": false,
+  "manifest_file_count": 219,
+  "downloaded_files": [
+    {
+      "path": "family/claude-design/packages/C130-family-r0003.tar.xz",
+      "bytes": 66770724,
+      "sha256": "6a9f900fecf2b1a5727a8083c8143466039d4402946dcd7b8fbf058e774e95b0",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/manifest.json",
+      "bytes": 51383,
+      "sha256": "a2241366513372c17b7296d6abe38b3c65d92da82e58bdf9b6495c809fd1de31",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/components/eoir-visual/model.glb",
+      "bytes": 279472,
+      "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/components/gau23-visual/model.glb",
+      "bytes": 801196,
+      "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/components/m102-airborne-visual/model.glb",
+      "bytes": 612064,
+      "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/models/ac130.glb",
+      "bytes": 17480992,
+      "sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/models/ac130j.glb",
+      "bytes": 17247052,
+      "sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/models/c130.glb",
+      "bytes": 13876572,
+      "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/packages/eoir-visual-r0003.zip",
+      "bytes": 1005881,
+      "sha256": "cf31c11c45445220d778781265996b9e94f12f92036bec457d4dbec007941903",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/packages/gau23-visual-r0003.zip",
+      "bytes": 1858537,
+      "sha256": "d969d5432c844a107fdf8d458b4955fca1e893735966cad0221459b11ffc1eb2",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/packages/m102-airborne-visual-r0003.zip",
+      "bytes": 1708816,
+      "sha256": "139169ce6443cbd93c78413e80094762bd4776d04d329156f30d7e6a94add480",
+      "status": "PASS"
+    },
+    {
+      "path": "family/claude-design/r0003/viewer/C130-family-portable.html",
+      "bytes": 35259062,
+      "sha256": "7a20212aad4630da879458cf5e0760bcba94ccbf94b40ebc3b1c0623d06142ad",
+      "status": "PASS"
+    }
+  ],
+  "github_preservation_receipt": {
+    "author": "claude-design",
+    "method": "Exact reviewed-byte restoration; no model-generation or rendering command executed",
+    "status": "PASS",
+    "restored_utc": "2026-10-29T06:07:42.663577+00:00",
+    "staging_commit": "3ec9adda38d9912cebc7188b5bc57b900eb6aa4a",
+    "workflow_run_id": "40827306986",
+    "archive_sha256": "6a9f900fecf2b1a5727a8083c8143466039d4402946dcd7b8fbf058e774e95b0",
+    "revision_manifest_sha256": "a2241366513372c17b7296d6abe38b3c65d92da82e58bdf9b6495c809fd1de31",
+    "archive_path": "family/claude-design/packages/C130-family-r0003.tar.xz",
+    "file_count": 219,
+    "models": [
+      {
+        "id": "c130",
+        "bytes": 13876572,
+        "sha256": "7bfc25e94d4b99900db6f25fa731bc867111dd5debb3a763aa7b619ee86b4146"
+      },
+      {
+        "id": "ac130",
+        "bytes": 17480992,
+        "sha256": "d9664ac13bea159f02519e44db028ce1fcba21094135c6ef5382b8033677ef74"
+      },
+      {
+        "id": "ac130j",
+        "bytes": 17247052,
+        "sha256": "e7075a4097d1842de0b0353cb27e5e294ee3506ee5d0ecdb47e8eeea22e94e93"
+      },
+      {
+        "id": "gau23-visual",
+        "bytes": 801196,
+        "sha256": "2850c4d215d90f96839d724733a44d9b1a237360385a2672c76ea1830709e053"
+      },
+      {
+        "id": "m102-airborne-visual",
+        "bytes": 612064,
+        "sha256": "597e8897d855229c0e98ebcaf652518fc050ff7b5221e90201251ff38cd2d026"
+      },
+      {
+        "id": "eoir-visual",
+        "bytes": 279472,
+        "sha256": "6ceb0589b84eb83a6bbde926e709ab46f62f7e3b794ea7c4ed29c4ae92e5843f"
+      }
+    ]
+  },
+  "remaining_acceptance": {
+    "browser_rendering": "NOT_RUN",
+    "native_unreal": "NOT_RUN",
+    "photorealistic_finish": "NOT_ACCEPTED",
+    "continuous_combined_clearance": "NOT_PROVEN"
+  }
+}
